@@ -9,7 +9,7 @@ warningFill = PatternFill(start_color='0000FFFF',
                    end_color='0000FFFF',
                    fill_type='solid')
 noFill = openpyxl.styles.PatternFill(fill_type=None)
-textReplacement = {'#MON':'#','#':'宝可梦','&':'训练家'}
+textReplacement = {'#MON':'#','#':'寶可夢','&':'訓練家'}
 placer = {'<PLAYER>':'<玩家>','<RIVAL>':'<劲敌>','<USER>':'<用户>','<TARGET>':'<目标>'}
 def replaceText(text,dict):
     output = removeNone(text)
