@@ -1,0 +1,23 @@
+text/SafariZoneWestRestHouse.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SafariZoneRestHouse2Text1::				_SafariZoneRestHouse2Text1::										
+	text	Tossing ROCKs at			text	扔石頭的話可能會讓寶可夢		text	扔石头的话可能会让宝可梦	Tossing ROCKs at	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	#MON might			line	選擇逃跑。但是同時也能		line	选择逃跑。但是同时也能	#MON might	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	make them run,			cont	增加捕捉機率哦！		cont	增加捕捉几率哦！	make them run,				…　シルフ　カンパニー
+	cont	but they'll be			done			done		but they'll be		……西尔佛公司	……シルフカンパニー	
+	cont	easier to catch.								easier to catch.				
+	done													
+														
+_SafariZoneRestHouse2Text2::				_SafariZoneRestHouse2Text2::										
+	text	Using BAIT will			text	扔誘餌以後，		text	扔诱饵以后，	Using BAIT will	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	make #MON			line	會讓寶可夢聚焦於誘餌，		line	会让宝可梦聚焦于诱饵，	make #MON	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	easier to catch.			cont	從而降低逃跑的機率！		cont	从而降低逃跑的概率！	easier to catch.				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_SafariZoneRestHouse2Text3::				_SafariZoneRestHouse2Text3::										
+	text	I hiked a lot, but			text	我都走老半天了，		text	我都走老半天了，	I hiked a lot, but	I’ve journeyed far and wide, but in all my travels	我虽游遍大千世界，	せかい　じゅうを　たび　してきたが	せかい　じゅうを　たび　してきたが
+	line	I didn't see any			line	還是沒法遇見		line	还是没法遇见	I didn't see any	I’ve never seen any Pokémon sleep like that one!	在发现那个整天只睡觉的家伙时，	ねむって　ばかりの　あいつを	ねむって　ばかりの　あいつを
+	cont	#MON I wanted.			cont	自己想捕捉的寶可夢。		cont	自己想捕捉的宝可梦。	#MON I wanted.				みつけたときは　ほんとに　あきれた
+	done				done			done			It was massive—a huge, round Pokémon!	还是大跌眼镜了呢！	みつけたときは　ほんとに　あきれた	たしか…!
+end				end										こんな　ポケモン　だった
+												它是一只又大	とびきり　おおきくて	ゲ
+												又圆滚滚的宝可梦来着……！	まんまるな　ポケモン　だった……！	

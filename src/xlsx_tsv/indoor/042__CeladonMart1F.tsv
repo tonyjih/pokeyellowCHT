@@ -1,0 +1,35 @@
+text/CeladonMart1F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CeladonMart1Text1::				_CeladonMart1Text1::										
+	text	Hello! Welcome to			text	歡迎光臨		text	欢迎光临	Hello! Welcome to	Hello!	欢迎光临玉虹百货公司！	いらっしゃいませ！	いらっしゃいませ!
+	line	CELADON DEPT.			line	玉虹百貨公司！		line	玉虹百货公司！	CELADON DEPT.	Welcome to the Celadon Department Store.		タマムシ　デパートに　ようこそ！	タマムシ　デパートに　ようこそ!
+	cont	STORE.			para	各樓層指南		para	各楼层指南	STORE.		各楼层指南请参看里面的指示牌。		かく　フロアの　あんないは
+					line	請參看裡面的指示牌。		line	请参看里面的指示牌。	The board on the	Please check the board in the back for		かく　フロアの　あんないは	みぎの　ボードを　ごらん　ください
+	para	The board on the			done			done		right describes	the store directory.		おくの　ボードを　ごらん　ください	
+	line	right describes								the store layout.				
+	cont	the store layout.												
+	done													
+														
+_CeladonMart1Text2::				_CeladonMart1Text2::										
+	text	1F: SERVICE			text	１樓……　服務櫃檯		text	１楼……　服务柜台	1F: SERVICE	“1F: Service Counter	１楼……　服务柜台	１かい……　サービス・カウンター	おくじょう　…　いこいの　ひろば
+	line	    COUNTER			para	２樓……　訓練家廣場		para	２楼……　训练家广场	    COUNTER		２楼……　训练家广场	２かい……　トレーナーズ・マーケット	　　　　　　…　じどう　はんばいき
+					para	３樓……　電子遊戲專賣店		para	３楼……　电子游戏专卖店	2F: TRAINER'S	“2F: Trainers’ Market			プ
+	para	2F: TRAINER'S			para	４樓……　聰明人禮品店		para	４楼……　聪明人礼品店	    MARKET		３楼……　电子游戏专卖店	３かい……　テレビ　ゲーム　ショップ	
+	line	    MARKET			para	５樓……　藥局		para	５楼……　药局	3F: TV GAME SHOP	“3F: Video Game Shop	４楼……　聪明人礼品店	４かい……　ワイズマン・ギフト	
+					para	頂樓……　休息廣場		para	顶楼……　休息广场	4F: WISEMAN GIFTS				
+	para	3F: TV GAME SHOP			line	　　　　　自動販賣機		line	　　　　　自动贩卖机	5F: DRUG STORE	“4F: Wiseman Gifts	５楼……　饰品天地	５かい……　アクセサリー　マーケット	
+					done			done		ROOFTOP SQUARE:		顶楼……　自动贩卖机	おくじょう……　じどう　はんばいき	
+	para	4F: WISEMAN GIFTS								VENDING MACHINES	“5F: Accessory Market			
+														
+	para	5F: DRUG STORE									“Roof: Relaxation Space & Vending Machines”			
+														
+	para	ROOFTOP SQUARE:												
+	line	VENDING MACHINES												
+	done													
+														
+_CeladonMart1Text3::				_CeladonMart1Text3::										
+	text	1F: SERVICE			text	１樓……　服務櫃檯		text_ram	wcd6d	wcd6d	1F: Service Counter	1楼　服务柜台	１かい　サービス・カウンター	トレーナーぞ
+	line	    COUNTER						text	已经学会了	 knows				きド5ま
+	done				done			line	@	@				
+end				end				text_ram	wStringBuffer	wStringBuffer				
+								text	！	!				
+								prompt						

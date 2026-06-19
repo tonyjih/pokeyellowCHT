@@ -1,0 +1,66 @@
+text/SSAnneCaptainsRoom.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SSAnne7RubText::				_SSAnne7RubText::										
+	text	CAPTAIN: Ooargh...			text	船長：嘔……！		text	船长：呕……！	CAPTAIN: Ooargh...	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	I feel hideous...			line	一暈船……		line	一晕船……	I feel hideous...	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	Urrp! Seasick...			cont	狀態就不好唷……嘔！		cont	状态就不好唷……呕！	Urrp! Seasick...				…　シルフ　カンパニー
+					para	<PLAYER>幫船長		para	<PLAYER>帮船长	<PLAYER> rubbed		……西尔佛公司	……シルフカンパニー	
+	para	<PLAYER> rubbed			line	揉了揉背！		line	揉了揉背！	the CAPTAIN's				
+	line	the CAPTAIN's			para	揉來揉去……揉來揉去……		para	揉来揉去……揉来揉去……	back!				
+	cont	back!			line	揉來揉去……揉來揉去……@		line	揉来揉去……揉来揉去……@	Rub-rub...				
+					text_end			text_end		Rub-rub...@				
+	para	Rub-rub...												
+	line	Rub-rub...@												
+	text_end													
+														
+_ReceivingHM01Text::				_ReceivingHM01Text::										
+	text	CAPTAIN: Whew!			text	船長：噢……真是感謝你！		text	船长：噢……真是感谢你！	CAPTAIN: Whew!	There’s an email from [VAR TRNAME(0001)]!	收到了一封	[VAR TRNAME(0001)]　から	へブ {PKMN} の　　　ビブ　　　　　　　　　　ボ
+	line	Thank you! I			line	現在我感覺好多了……		line	现在我感觉好多了……	Thank you! I		[VAR TRNAME(0001)]发来的邮件！	メールが　とどいてる！	
+	cont	feel much better!			para	什麼……？		para	什么……？	feel much better!	“Hey, [VAR TRNAME(0000)]!			
+					line	你想要看我表演居合斬？		line	你想要看我表演居合斩？	You want to see	So here’s what you need to know as a Trainer...	致[VAR TRNAME(0000)]：	[VAR TRNAME(0000)]へ	
+	para	You want to see			para	要是我身體狀態還行的話		para	要是我身体状态还行的话	my CUT technique?		传授你一些训练家的心得吧！	トレーナーの　こころえ　おしえるぞ	
+	line	my CUT technique?			line	就能展示給你看了……		line	就能展示给你看了……	I could show you	“Press the A Button, and you can talk to all			
+					para	對啊！雖然不能親自展示，		para	对啊！虽然不能亲自展示，	if I wasn't ill...	kinds of people. And if you tilt the control stick	“按下A键，尽量和更多人说话！”	「Ａボタンで　いろんな　ひとに	
+	para	I could show you			line	但我可以把這個給你啊！		line	但我可以把这个给你啊！	I know! You can			　はなし　かけよう！」	
+	line	if I wasn't ill...			para	讓你的寶可夢學會的話，		para	让你的宝可梦学会的话，	have this!	more, you can run!	“用力推动摇杆，可以跑得更快！”		
+					line	不論什麼時候，你都可以		line	不论什么时候，你都可以	Teach it to your			「スティックを　おおきく　たおすと	
+	para	I know! You can			cont	看它表演居合斬了！		cont	看它表演居合斩了！	#MON and you	“Plus, if you open up the main menu by pressing	“从X键的菜单里选择‘记录’，	　はやく　はしれる！」	
+	line	have this!			prompt			prompt		can see it CUT	the X Button, you can save your progress, too.	就可以记录你的冒险！”		
+										any time!			「Xボタンの　メニューで	
+	para	Teach it to your									“Boy, I can’t wait to get started. Can you?	真是让人期待啊！	　レポートを　えらべば	
+	line	#MON and you									"	– [VAR TRNAME(0001)]”"	……[VAR TRNAME(0001)]		
+	cont	can see it CUT											　ぼうけんを　きろく　できる！」	
+	cont	anytime!												
+	prompt												たのしみ　だな！	
+													……[VAR TRNAME(0001)]	
+_ReceivedHM01Text::				_ReceivedHM01Text::										
+	text	<PLAYER> got			text	<PLAYER>從船長那裡		text	<PLAYER>得到了	<PLAYER> got	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	@			line	得到了@		line	@	@	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_ram	wStringBuffer			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer				
+	text	!@			text	！@		text	！@	!@				
+	text_end				text_end			text_end						
+														
+_SSAnne7Text_61932::				_SSAnne7Text_61932::										
+	text	CAPTAIN: Whew!			text	船長：呼。		text	船长：呼。	CAPTAIN: Whew!	CAPTAIN: Whew!	船长：时间也差不多了！	せんちょう『そろそろ　じかんだ！	アンヌは
+					para	這會兒我感覺好多了！		para	这会儿我感觉好多了！	Now that I'm not		圣特安努号	もうすぐ　サント・アンヌは	しゅっぱつ　するよ!
+	para	Now that I'm not			line	差不多該起航了。		line	差不多该起航了。	sick any more, I	Now I guess it’s about time for the S.S. Anne to			また　クチバに　くる　ときまで
+	line	sick anymore, I			done			done		guess it's time.	set sail again!	马上就要出发喽！	しゅっぱつ　するよ！	ごきげんよう!
+	cont	guess it's time.												
+	done										This may be good-bye for now. Until the next	在我下次来枯叶市之前，	また　クチバに　くる　ときまで	
+											time we return to Vermilion City!	请你多保重！	ごきげんよう！	
+_HM01NoRoomText::				_HM01NoRoomText::										
+	text	Oh no! You have			text	什麼嘛——！		text	什么嘛——！	Oh no! You have	LT. SURGE: No need for introductions this time!	马志士：Welcome again！	マチス『ウエルカム　アゲイン！	クチバ　シティ　ポケモン　ジム
+	line	no room for this!			line	行李已滿了！		line	行李已满了！	no room for this!				りーダー　マチス
+	done				done			done			Trainers like us have no need for words!	We之间不需要any言语！	ことばは　いらナイ！	イナズマ　アメりカン!
+											Let’s go, kid!	Let's start！	レッツ　スタート！	
+_SSAnne7Text2::				_SSAnne7Text2::										
+	text	Yuck! Shouldn't			text	貌似還是		text	貌似还是	Yuck! Shouldn't	Yuck!	貌似还是	あんまり　みないほうが	あんまり　みないほうが
+	line	have looked!			line	別去看比較好啊……		line	别去看比较好啊……	have looked!	Shouldn’t have looked!	别去看比较好啊……	いい　みたいだ……	いい　みたいだ…
+	done				done			done						
+														
+_SSAnne7Text3::				_SSAnne7Text3::										
+	text	How to Conquer			text	《保證不暈船的		text	《保证不晕船的	How to Conquer	How to Conquer Seasickness...	《保证不晕船的乘船入门手册》……	ふなよい　しない	ふなよい　しない
+	line	Seasickness...			line	乘船入門手冊》……		line	乘船入门手册》……	Seasickness...	It seems to be the captain’s book!		ふなのり　にゅうもん……	ふなのり　にゅうもん…
+	cont	The CAPTAIN's			cont	……		cont	……	The CAPTAIN's		……这是船长正在读的书！		…これは
+	cont	reading this!			cont	這是船長正在讀的書！		cont	这是船长正在读的书！	reading this!			……これは	せんちょうが　よんでいる　ほんだ!
+	done				done			done					せんちょうが　よんでいる　ほんだ！	ズ
+end				end										

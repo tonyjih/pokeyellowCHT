@@ -1,0 +1,111 @@
+data/items/names.asm	@									
+	"""MASTER BALL"""	大師球								西尔佛检视镜
+	"""ULTRA BALL"""	高階球								pp多项全补剂
+	"""GREAT BALL"""	超級球								宝可梦之笛
+	"""POKé BALL"""	精靈球								城镇地图
+	"""TOWN MAP"""	城鎮地圖								
+	"""BICYCLE"""	腳踏車								
+	"""?????"""	?????								
+	"""SAFARI BALL"""	狩獵球								
+	"""POKéDEX"""	#圖鑑								
+	"""MOON STONE"""	月之石								
+	"""ANTIDOTE"""	解毒藥								
+	"""BURN HEAL"""	灼傷藥								
+	"""ICE HEAL"""	解凍藥								
+	"""AWAKENING"""	解眠藥								
+	"""PARLYZ HEAL"""	解麻藥								
+	"""FULL RESTORE"""	全復藥								
+	"""MAX POTION"""	全滿藥								
+	"""HYPER POTION"""	厲害傷藥								
+	"""SUPER POTION"""	好傷藥								
+	"""POTION"""	傷藥								
+	"""BOULDERBADGE"""	灰色徽章								
+	"""CASCADEBADGE"""	藍色徽章								
+	"""THUNDERBADGE"""	橙色徽章								
+	"""RAINBOWBADGE"""	彩虹徽章								
+	"""SOULBADGE"""	粉紅徽章								
+	"""MARSHBADGE"""	金色徽章								
+	"""VOLCANOBADGE"""	深紅徽章								
+	"""EARTHBADGE"""	綠色徽章								
+	"""ESCAPE ROPE"""	離洞繩								
+	"""REPEL"""	除蟲噴霧								
+	"""OLD AMBER"""	秘密琥珀								
+	"""FIRE STONE"""	火之石								
+	"""THUNDERSTONE"""	雷之石								
+	"""WATER STONE"""	水之石								
+	"""HP UP"""	ñ增強劑								
+	"""PROTEIN"""	攻擊增強劑								
+	"""IRON"""	防禦增強劑								
+	"""CARBOS"""	速度增強劑								
+	"""CALCIUM"""	特殊增強劑								
+	"""RARE CANDY"""	神奇糖果								
+	"""DOME FOSSIL"""	甲殼化石								
+	"""HELIX FOSSIL"""	貝殼化石								
+	"""SECRET KEY"""	秘金鑰匙								
+	"""?????"""	?????								
+	"""BIKE VOUCHER"""	兌換券								
+	"""X ACCURACY"""	命中強化								
+	"""LEAF STONE"""	葉之石								
+	"""CARD KEY"""	鑰匙卡								
+	"""NUGGET"""	金珠								
+	"""PP UP"""	%提升劑								
+	"""POKé DOLL"""	皮皮玩偶								
+	"""FULL HEAL"""	萬靈藥								
+	"""REVIVE"""	活力碎片								
+	"""MAX REVIVE"""	活力塊								
+	"""GUARD SPEC."""	能力防守								
+	"""SUPER REPEL"""	白銀噴霧								
+	"""MAX REPEL"""	黃金噴霧								
+	"""DIRE HIT"""	要害攻擊								
+	"""COIN"""	代幣								
+	"""FRESH WATER"""	美味之水								
+	"""SODA POP"""	勁爽汽水								
+	"""LEMONADE"""	果汁牛奶								
+	"""S.S.TICKET"""	船票								
+	"""GOLD TEETH"""	金假牙								
+	"""X ATTACK"""	力量強化								
+	"""X DEFEND"""	防禦強化								
+	"""X SPEED"""	速度強化								
+	"""X SPECIAL"""	特殊強化								
+	"""COIN CASE"""	代幣盒								
+	"""OAK's PARCEL"""	包裹								
+	"""ITEMFINDER"""	探寶器								
+	"""SILPH SCOPE"""	西爾佛檢視鏡								
+	"""POKé FLUTE"""	#之笛								
+	"""LIFT KEY"""	電梯鑰匙								
+	"""EXP.ALL"""	學習裝置								
+	"""OLD ROD"""	破舊釣竿								
+	"""GOOD ROD"""	好釣竿								
+	"""SUPER ROD"""	厲害釣竿								
+	"""PP UP"""	%提升劑								
+	"""ETHER"""	%單項小補劑								
+	"""MAX ETHER"""	%單項全補劑								
+	"""ELIXER"""	%多項小補劑								
+	"""MAX ELIXER"""	%多項全補劑								
+	"""B2F"""	地下2樓								
+	"""B1F"""	地下1樓								
+	"""1F"""	1樓								
+	"""2F"""	2樓								
+	"""3F"""	3樓								
+	"""4F"""	4樓								
+	"""5F"""	5樓								
+	"""6F"""	6樓								
+	"""7F"""	7樓								
+	"""8F"""	8樓								
+	"""9F"""	9樓								
+	"""10F"""	10樓								
+	"""11F"""	11樓								
+	"""B4F"""	地下4樓								
+	assert_list_length NUM_ITEMS + NUM_FLOORS		;							
+	li 		db 							
+	list_start ItemNames		;							
+	assert_list_length NUM_ITEMS		;							
+scripts/Route23.asm	@									
+	"""EARTHBADGE@"""	綠色徽章								
+	"""VOLCANOBADGE@"""	深紅徽章								
+	"""MARSHBADGE@"""	金色徽章								
+	"""SOULBADGE@"""	粉紅徽章								
+	"""RAINBOWBADGE@"""	彩虹徽章								
+	"""THUNDERBADGE@"""	橙色徽章								
+	"""CASCADEBADGE@"""	藍色徽章								
+end										

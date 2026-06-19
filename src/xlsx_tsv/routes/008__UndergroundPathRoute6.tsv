@@ -1,0 +1,7 @@
+text/UndergroundPathRoute6.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_UndergrdTunnelEntRoute6Text1::				_UndergrdTunnelEntRoute6Text1::										
+	text	People often lose			text	聽說地下通道裡面		text	听说地下通道里面	People often lose	People fled from Saffron City in droves when	之前很多人逃离这里，	ヤマブキシティも　いちじは	ヤマブキ　シティも　いちじは
+	line	things in that			line	特別昏暗，有好多人		line	特别昏暗，有好多人	things in that	those thugs came.	弄得金黄市冷冷清清……	ひとが　にげて　へっちゃった　けど	ひとが　にげて　へっちゃった　けど
+	cont	UNDERGROUND PATH.			cont	在路上丟了東西呢！		cont	在路上丢了东西呢！	UNDERGROUND PATH.				にぎやかな　まちに　もどるわ!
+	done				done			done			They should start flocking back now!	现在终于能变回从前的热闹景象了！	にぎやかな　まちに　もどるわ！	
+end				end										

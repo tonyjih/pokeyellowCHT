@@ -1,0 +1,102 @@
+text/CopycatsHouse2F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CopycatsHouse2FText_5ccd4::				_CopycatsHouse2FText_5ccd4::										
+	text	<PLAYER>: Hi! Do			text	<PLAYER>：呀！你好！		text	<PLAYER>：呀！你好！	<PLAYER>: Hi! Do	[VAR 01CD(0000)]: Hi!	[VAR TRNAME(0000)]：唷！初次见面。	[VAR TRNAME(0000)]『ようっ　はじめまして	 {PLAYER} 『やあ!　こんにちは!
+	line	you like #MON?			line	你也喜歡寶可夢嗎？		line	你也喜欢宝可梦吗？	you like #MON?	Do you like Pokémon?	你也在训练宝可梦吗？	きみ　ポケモン　やってるー？	きみ　ポケモン　すきかい?
+					para	<PLAYER>：不是說我，		para	<PLAYER>：不是说我，	<PLAYER>: Uh no, I				 {PLAYER} 『ぼく　じゃなくって
+	para	<PLAYER>: Uh no, I			line	我是在問你啊！		line	我是在问你啊！	just asked you.	[VAR 01CD(0000)]: Uh, no, I just asked you.	[VAR TRNAME(0000)]：不，不是说我，	[VAR TRNAME(0000)]『や　ぼく　じゃなくて	きみに　きいてるんだ　けど
+	line	just asked you.			para	<PLAYER>：		para	<PLAYER>：	<PLAYER>: Huh?		我是在问你啊！	そっちの　はなし　だってば！	 {PLAYER} 『…　えー　なんだよ!
+					line	……算了算了，		line	……算了算了，	You're strange!	[VAR 01CD(0000)]: Huh?			へンな　やつ　だなあ!
+	para	<PLAYER>: Huh?			cont	不該跟你這個怪人搭話的！		cont	不该跟你这个怪人搭话的！	COPYCAT: Hmm?	You’re strange!	[VAR TRNAME(0000)]：……算了算了，	[VAR TRNAME(0000)]『……なんだよ　もー！	モノマネむすめ『…　なに?
+	line	You're strange!			para	模仿少女：……幹嘛？		para	模仿少女：……干嘛？	Quit mimicking?		不该跟你这个怪人搭话的！	ヘンな　やつに　はなしかけちゃった！	ひとの　マネ　すんなって?
+					line	你叫我不要隨便模仿別人？		line	你叫我不要随便模仿别人？	But, that's my	COPYCAT: Hmm? Quit mimicking?			だって　あたし　
+	para	COPYCAT: Hmm?			para	可惜我的興趣愛好		para	可惜我的兴趣爱好	favorite hobby!	But that’s my favorite hobby!	模仿少女：……干嘛？	モノマネむすめ『……なに？	ものまね　しゅみ　なんだ　もん!
+	line	Quit mimicking?			line	就是模仿別人呀！		line	就是模仿别人呀！			你叫我不要随便模仿别人？	ひとの　マネ　すんなって？	
+					prompt			prompt						
+	para	But, that's my										可惜我的兴趣爱好	だって　あたし　	
+	line	favorite hobby!										就是模仿别人呀！	ものまね　しゅみ　なんだ　もん！	
+	prompt													
+														
+_TM31PreReceiveText::				_TM31PreReceiveText::										
+	text	Oh wow!			text	哇啊～！		text	哇啊～！	Oh wow!	Oh wow! A real-life Clefairy!	哇啊～！活生生的皮皮！	わあー！　なまピッピ！	オーキド『とうとう　かったな!
+	line	A # DOLL!			line	皮皮玩偶是給我的嗎～！		line	皮皮玩偶是给我的吗～！	A # DOLL!	I’ve never seen one before!	第一次亲眼见到呢～！	はじめて　みたー！	ポケモン　りーグ　せいは!
+					para	好高興呀～！		para	好高兴呀～！	For me?				こころ　から　おめでとう!
+	para	For me?			line	……那麼呢～！		line	……那么呢～！	Thank you!	Thank you so much!	好高兴呀～！	すごく　うれしーい！	はじめて　@
+	line	Thank you!			para	我就		para	我就	You can have	You know what? I’ll give you a TM that lets your	作为让我见到皮皮的回礼……	……みせてくれた　おれいに	
+					line	送你這個吧～！		line	送你这个吧～！	this, then!				
+	para	You can have			prompt			prompt			Pokémon create a copy of itself!	送你可以为自己制造替身的	じぶんが　ふえちゃう	
+	line	this, then!										招式学习器吧～！	わざマシン　あげちゃうー！	
+	prompt													
+														
+_ReceivedTM31Text::				_ReceivedTM31Text::										
+	text	<PLAYER> received			text	<PLAYER>從模仿少女		text	<PLAYER>从谜之训练家	<PLAYER> received	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	@			line	那裡得到了@		line	那里得到了@	a @	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_ram	wStringBuffer			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer				
+	text	!@			text	！@		text	！@	!@				
+	text_end				text_end			text_end						
+														
+_TM31ExplanationText1::				_TM31ExplanationText1::										
+	text_start				text_start			text_start			“1F: Service Counter	１楼……　服务柜台	１かい……　サービス・カウンター	おくじょう　…　いこいの　ひろば
+					para	招式學習器３１裡面		para	招式学习器３１里面	TM31 contains my		２楼……　训练家广场	２かい……　トレーナーズ・マーケット	　　　　　　…　じどう　はんばいき
+	para	TM31 contains my			line	是我最喜歡的“模仿”！		line	是我最喜欢的“模仿”！	favorite, MIMIC!	“2F: Trainers’ Market			プ
+	line	favorite, MIMIC!			para	給你喜歡的寶可夢		para	给你喜欢的宝可梦	Use it on a good		３楼……　电子游戏专卖店	３かい……　テレビ　ゲーム　ショップ	
+					line	使用吧！@		line	使用吧！@	#MON!@	“3F: Video Game Shop	４楼……　聪明人礼品店	４かい……　ワイズマン・ギフト	
+	para	Use it on a good			text_end			text_end						
+	line	#MON!@									“4F: Wiseman Gifts	５楼……　饰品天地	５かい……　アクセサリー　マーケット	
+	text_end											顶楼……　自动贩卖机	おくじょう……　じどう　はんばいき	
+											“5F: Accessory Market			
+_TM31ExplanationText2::				_TM31ExplanationText2::										
+	text	<PLAYER>: Hi!			text	<PLAYER>：呀！剛才的		text	<PLAYER>：呀！刚才的	<PLAYER>: Hi!	[VAR 01CD(0000)]: Hi!	[VAR TRNAME(0000)]：唷！	[VAR TRNAME(0000)]『ようっ！	 {PLAYER} 『やあ!　さっきは
+	line	Thanks for TM31!			line	招式學習器３１謝謝了！		line	招式学习器３１谢谢了！	Thanks for TM31!	Thanks for earlier!	刚才真是谢谢你了！	さっきは　ありがとな！	 {5C} 　ありがとう!
+					para	<PLAYER>：		para	<PLAYER>：	<PLAYER>: Pardon?				 {PLAYER} 『…　なーに?
+	para	<PLAYER>: Pardon?			line	……什～麼？		line	……什～么？	<PLAYER>: Is it	[VAR 01CD(0000)]: Pardon?	[VAR TRNAME(0000)]：……哈～	[VAR TRNAME(0000)]『……はぁー	 {PLAYER} 『ぼくの　まね　して
+					para	<PLAYER>：模仿我		para	<PLAYER>：模仿我	that fun to mimic				そんなに　たのしい　かい?
+	para	<PLAYER>: Is it			line	有那麼愉快嗎？		line	有那么愉快吗？	my every move?	[VAR 01CD(0000)]: Hmph!	[VAR TRNAME(0000)]：你怎么又学我！	[VAR TRNAME(0000)]『また　ぼくの　マネ！	モノマネむすめ『うん…!
+	line	that fun to mimic			para	模仿少女：嗯……！		para	模仿少女：嗯……！	COPYCAT: You bet!	Is it that fun to mimic everything I say?	模仿别人有那么愉快吗？	それって　ほんとに　たのしいの？	とっても　たのしいー!
+	cont	my every move?			line	非～常愉快哦！		line	非～常愉快哦！	It's a scream!				
+					done			done			COPYCAT: You bet! It’s a scream!	模仿少女：嗯……！	モノマネむすめ『うん……！	
+	para	COPYCAT: You bet!										非～常愉快哦！	とっても　たのしいー！	
+	line	It's a scream!												
+	done													
+														
+_TM31NoRoomText::				_TM31NoRoomText::										
+	text	Don't you want			text	行李已滿了呢！		text	行李已满了呢！	Don't you want	Why don’t you come work for Silph when you	等你长大了，	おおきく　なったら	おおきく　なったら
+	line	this?@			line	@		line	@	this?@	grow up?	可以来西尔佛工作哦！	シルフで　はたらくと　いいよ	シルフで　はたらくと　いいよ
+	text_end				text_end			text_end						ゲ
+														
+_CopycatsHouse2FText2::				_CopycatsHouse2FText2::										
+	text	DODUO: Giiih!			text	嘟嘟：嘰～嘰～！		text	嘟嘟：叽～叽～！	DODUO: Giiih!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+					para	……魔鏡啊魔鏡！		para	……魔镜啊魔镜！	MIRROR MIRROR ON	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	para	MIRROR MIRROR ON			line	告訴我這個世界上		line	告诉我这个世界上	THE WALL, WHO IS				…　シルフ　カンパニー
+	line	THE WALL, WHO IS			cont	最美麗的女孩是誰？		cont	最美丽的女孩是谁？	THE FAIREST ONE		……西尔佛公司	……シルフカンパニー	
+	cont	THE FAIREST ONE			done			done		OF ALL?				
+	cont	OF ALL?												
+	done													
+														
+_CopycatsHouse2FText3::				_CopycatsHouse2FText3::										
+	text	This is a rare			text	是稀有的寶可夢！？		text	是稀有的宝可梦！？	This is a rare	This is a crystallized form of Z-Power.	Ｚ力量的结晶。	Ｚパワーの　けっしょう。	トレーナーぞ
+	line	#MON! Huh?			line	……什麼？		line	……什么？	#MON! Huh?	It upgrades Kommo-o’s Clanging Scales to	会将杖尾鳞甲龙的鳞片噪音	ジャラランガの　スケイルノイズを	きド5ま
+	cont	It's only a doll!			cont	原來只是個玩偶。		cont	原来只是个玩偶。	It's only a doll!	a Z-Move.	升级成Ｚ招式。	Ｚワザに　グレードアップする。	
+	done				done			done						
+														
+_CopycatsHouse2FText6::				_CopycatsHouse2FText6::										
+	text	A game with MARIO			text	這是……！		text	这是……！	A game with MARIO	Tri Attack is a move that comes with a bonus.	三重攻击有机会让对手	トライアタックはね	…　おとくな　けいじばん!
+	line	wearing a bucket			line	馬力歐頭頂著水桶		line	马力欧头顶着水桶	wearing a bucket		陷入异常状态，	あいてを　じょうたいいじょうに	ポケモンを　つかまえる　ときは
+	cont	on his head!			cont	走路的遊戲！		cont	走路的游戏！	on his head!	It has a chance of inflicting a status condition on			なるべく　よわらせてから!
+	done				done			done			the opponent!	是种十分划算的招式哦。	するかもしれない　おとくな　わざだよ	ポケモンが　げんきだと
+														にげるかも　しれないよ!
+_CopycatsHouse2FText_5cd17::				_CopycatsHouse2FText_5cd17::										
+	text	...			text	…… ……		text	…… ……	...	“1F: Service Counter	１楼……　服务柜台	１かい……　サービス・カウンター	おくじょう　…　いこいの　ひろば
+					para	我的秘密就是！		para	我的秘密就是！	My Secrets!		２楼……　训练家广场	２かい……　トレーナーズ・マーケット	　　　　　　…　じどう　はんばいき
+	para	My Secrets!			para	我很擅長……模仿！		para	我很擅长……模仿！	Skill: Mimicry!	“2F: Trainers’ Market			プ
+					line	我的愛好……收集玩偶！		line	我的爱好……收集玩偶！	Hobby: Collecting		３楼……　电子游戏专卖店	３かい……　テレビ　ゲーム　ショップ	
+	para	Skill: Mimicry!			cont	喜歡的寶可夢……皮皮！		cont	喜欢的宝可梦……皮皮！	dolls!	“3F: Video Game Shop	４楼……　聪明人礼品店	４かい……　ワイズマン・ギフト	
+	line	Hobby: Collecting			cont	…… ……		cont	…… ……	Favorite #MON:				
+	cont	dolls!			done			done		CLEFAIRY!	“4F: Wiseman Gifts	５楼……　饰品天地	５かい……　アクセサリー　マーケット	
+	cont	Favorite #MON:										顶楼……　自动贩卖机	おくじょう……　じどう　はんばいき	
+	cont	CLEFAIRY!									“5F: Accessory Market			
+	done													
+											“Roof: Relaxation Space & Vending Machines”			
+_CopycatsHouse2FText_5cd1c::				_CopycatsHouse2FText_5cd1c::										
+	text	Huh? Can't see!			text	？看不到了……		text	？看不到了……	Huh? Can't see!	Shhh!	呜呜呜……我太害怕了，	びくびく……　こわくて	びくびく…　こわくて
+	done				done			done			Can’t you see I’m hiding?	所以才躲在这里……	ここに　かくれてるんだ……	ここに　かくれてるんだ…
+end				end										

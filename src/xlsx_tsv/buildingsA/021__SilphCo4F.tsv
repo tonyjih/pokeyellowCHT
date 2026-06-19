@@ -1,0 +1,58 @@
+text/SilphCo4F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SilphCo4Text_19de0::				_SilphCo4Text_19de0::										
+	text	Sssh! Can't you			text	嗚嗚嗚……我太害怕了，		text	呜呜呜……我太害怕了，	Sssh! Can't you	Shhh!	呜呜呜……我太害怕了，	びくびく……　こわくて	びくびく…　こわくて
+	line	see I'm hiding?			line	所以才躲在這裡……		line	所以才躲在这里……	see I'm hiding?	Can’t you see I’m hiding?	所以才躲在这里……	ここに　かくれてるんだ……	ここに　かくれてるんだ…
+	done				done			done						
+														
+_SilphCo4Text_19de5::				_SilphCo4Text_19de5::										
+	text	Huh? TEAM ROCKET			text	什麼……		text	什么……	Huh? TEAM ROCKET	Huh?	什么……	え……	え…
+	line	is gone?			line	火箭隊已經不在這裡了？		line	火箭队已经不在这里了？	is gone?	Team Rocket is gone?	火箭队已经不在这里了？	ロケットだん　もう　いないの？	ロケットだん　もう　いないの?
+	done				done			done						ゲ
+														
+_SilphCo4BattleText2::				_SilphCo4BattleText2::										
+	text	TEAM ROCKET has			text	西爾佛公司已經被		text	西尔佛公司已经被	TEAM ROCKET has	Team Rocket has taken control of Silph Co.!	西尔佛公司已经被	シルフカンパニーは	シルフ　カンパニーは
+	line	taken command of			line	火箭隊佔領了！		line	火箭队占领了！	taken command of		火箭队占领了！	ロケットだんが　せんきょした！	ロケットだんが　せんきょした!
+	cont	SILPH CO.!			done			done		SILPH CO.!				
+	done													
+														
+_SilphCo4EndBattleText2::				_SilphCo4EndBattleText2::										
+	text	Arrgh!			text	唔……		text	小子，	Arrgh!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			line	你真的好强啊！	You are good!	Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+								prompt						4ャよひ
+_SilphCo4AfterBattleText2::				_SilphCo4AfterBattleText2::										つ {PLAYER}  {PLAYER} 
+	text	Fwahahaha!			text	哇哈哈！		text	哇哈哈！	Fwahahaha!	Fwahahaha!	哇哈哈！	がはは！	がはは!
+	line	My BOSS has been			line	我們老大早就盯上這裡了。		line	我们老大早就盯上这里了。	My BOSS has been	Our boss has been after this place for ages!	我们老大早就盯上这里了。	ボスは　まえから	ボスは　まえから
+	cont	after this place!			done			done		after this place!				ここを　ねらってたのだ
+	done												ここを　ねらってたのだ	ゲ
+														
+_SilphCo4BattleText3::				_SilphCo4BattleText3::										
+	text	My #MON are my			text	寶可夢可是		text	宝可梦可是	My #MON are my	My Pokémon are my loyal servants!	宝可梦可是我忠实的部下！	ポケモンは	ポケモンは
+	line	loyal soldiers!			line	我忠實的部下！		line	我忠实的部下！	loyal soldiers!			おれの　ちゅうじつな　こぶんだぜ！	おれの　ちゅうじつな　こぶんだぜ!
+	done				done			done						
+														
+_SilphCo4EndBattleText3::				_SilphCo4EndBattleText3::										
+	text	Darn!			text	可惡！		text	可恶！	Darn!	Hey! You have Pokémon, right?	嗨！	よーしッ！	よーしッ!
+	line	You weak #MON!			line	你們這些丟人的寶可夢！		line	你们这些丢人的宝可梦！	You weak #MON!	Come on!	你有宝可梦的吧？	きみは　ポケモン　もってるな？	きみは　ポケモン　もってるな?
+	prompt				prompt			prompt						しょうぶ　しようぜ!
+											Let’s battle ’em!	我们来对战！	しょうぶ　しようぜ！	
+_SilphCo4AfterBattleText3::				_SilphCo4AfterBattleText3::										
+	text	The doors are			text	這棟大樓的門全被		text	这栋大楼的门全被	The doors are	The doors in this building are all electronically	这栋大楼的门全被	この　ビルの　ドアは　ぜんぶ	この　ビルの　ドアは　ぜんぶ
+	line	electronically			line	電子鎖鎖住了！		line	电子锁锁住了！	electronically	locked. Without a Card Key, they won’t open!	电子锁锁住了！	でんし　ロック　されてるぜ！	でんし　ロック　されてるぜ!
+	cont	locked! A CARD			cont	沒有鑰匙卡是打不開的！		cont	没有钥匙卡是打不开的！	locked! A CARD				カードキーが　ないと　あかないぜ!
+	cont	KEY opens them!			done			done		KEY opens them!		没有钥匙卡是打不开的！	カードキーが　ないと　あかないぜ！	ゲ
+	done													
+														
+_SilphCo4BattleText4::				_SilphCo4BattleText4::										
+	text	Intruder spotted!			text	發現可疑人員！		text	发现可疑人员！	Intruder spotted!	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	done				done			done				给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+											D’aww... Failed again?			
+_SilphCo4EndBattleText4::				_SilphCo4EndBattleText4::										
+	text	Who			text	你是誰？					Those incredibly powerful Ice-type Pokémon...	那只冰属性宝可梦也太强了，	その　つよすぎる　こおりポケモン	その　ピカチュウ
+	line	are you?										你究竟是何方神圣……	あんた　いったい……	あなたに　よく　なついているようね
+	prompt				prompt						Who are you?			
+														
+_SilphCo4AfterBattleText4::				_SilphCo4AfterBattleText4::										
+	text	I better tell the			text	我得去聯絡		text	我得去联络	I better tell the	This is not good...	再这样下去的话……	このまま　では……	このままでは　ロケットだん
+	line	BOSS on 11F!			line	在１１樓的老大才行！		line	在１１楼的老大才行！	BOSS on 11F!	I better tell the boss!	我得去联络老大才行！	ボスに　れんらく　しなくては！	アジトの　そんざいが　ばれちまう
+	done				done			done						ボスに　れんらく　しなくては!
+end				end										ゲぼ

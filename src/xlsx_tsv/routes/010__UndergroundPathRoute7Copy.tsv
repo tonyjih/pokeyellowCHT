@@ -1,0 +1,41 @@
+text/UndergroundPathRoute7Copy.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_UGPathRoute7EntranceUnusedText_5d773::				_UGPathRoute7EntranceUnusedText_5d773::										
+	text	I want to shop at			text	雖然很想去玉虹的百貨公司		text	虽然很想去玉虹的百货公司	I want to shop at	I have to tell you that our office is a bit of	我们公司	いま　この　かいしゃは	円　いただきまーす!
+	line	the dept. store			line	買東西來著的……		line	买东西来着的……	the dept. store	a disaster right now... A REAL disaster!	现在遇到了些麻烦。	ちょっと　たいへん　なの	ここでは　サファり　せんようの
+	cont	in CELADON but...			para	但是那個城鎮有很多		para	但是那个城镇有很多	in CELADON but...				モンスターボールを　つかいます!
+					line	外表很壞的人在，		line	外表很坏的人在，	There are so many	This is no place for kids—not when there are so	……因为有些危险，	……あぶない　から	…　これです!
+	para	There are so many			cont	很恐怖呢。		cont	很恐怖呢。	rough looking	many dangerous people around!	小孩子不可以进去哦！	こどもは　はいっちゃ　ダメよ！	 {PLAYER} は　うけつけ　から
+	line	rough looking			done			done		people there.				サファりボール　30こ　もらった!@ジ
+	cont	people there.												
+	done													
+														
+_UGPathRoute7EntranceUnusedText_5d778::				_UGPathRoute7EntranceUnusedText_5d778::										
+	text	TEAM ROCKET had a			text	據說火箭隊在玉虹市		text	据说火箭队在玉虹市	TEAM ROCKET had a	[VAR 01CD(0001)]: Mega Evolution...	[VAR TRNAME(0001)]：超级进化……	[VAR TRNAME(0001)]『メガシンカ……	
+	line	secret hideout in			line	有一個秘密基地？		line	有一个秘密基地？	secret hideout in	Man, if Team Rocket had used a thing like that,	要是火箭队那些家伙用了这个，	ロケットだんの　やつらが	 {5C} 31の　なかは
+	cont	CELADON CITY?			done			done		CELADON CITY?				わたしの　だいすきな　ものまね!
+	done										they’d have been an even bigger pain!	那后果一定不堪设想。	つかって　たら　やばかったな	あなたの　すきな　ポケモンに
+														つかって　あげて!@ゼ@
+_UGPathRoute7EntranceUnusedText_5d77d::				_UGPathRoute7EntranceUnusedText_5d77d::										
+	text	You're here to			text	你也是去		text	你也是去	You're here to	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	shop in CELADON?			line	玉虹市購物才來的嗎？		line	玉虹市购物才来的吗？	shop in CELADON?	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+					para	從門出去，		para	从门出去，	Just step outside				…　シルフ　カンパニー
+	para	Just step outside			line	然後一直往西走就是了！		line	然后一直往西走就是了！	and head west!		……西尔佛公司	……シルフカンパニー	
+	line	and head west!			done			done						
+	done													
+														
+_UGPathRoute7EntranceUnusedText_5d782::				_UGPathRoute7EntranceUnusedText_5d782::										
+	text	The UNDERGROUND			text	樓梯下方的通道		text	楼梯下方的通道	The UNDERGROUND	Please visit a Pokémon Center whenever your	宝可梦的体力……	ポケモンの　たいりょく……	オーキド『 {RIVAL} …!
+	line	PATH goes beneath			line	穿過金黃市的下方		line	穿过金黄市的下方	PATH goes beneath	Pokémon’s HP is getting low.	也就是HP变少了的话，	ＨＰが　なくなってきたら	…　ざんねんだ!
+	cont	SAFFRON and leads			cont	並通到紫苑鎮。		cont	并通到紫苑镇。	SAFFRON and leads				おまえが　してんのうに　かったと
+	cont	to LAVENDER.			para	如果要去華藍市的話，		para	如果要去华蓝市的话，	to LAVENDER.	And if you’re planning to go far off the beaten	请随时来这里回复吧。	こまめに　ここに　きてくださいね	きいて　ここに　とんで　きたのに
+					line	就前往隔著道路的		line	就前往隔着道路的	If you're heading	path, you should probably remember to stock			ポケモン　りーグに　ついて　みたら
+	para	If you're heading			cont	建築物吧。		cont	建筑物吧。	to CERULEAN, go		如果要去稍微有点远的地方，	すこしでも　とおいところへ	おまえは　まけとった!
+	line	to CERULEAN, go			done			done		to the building	up on Potions from the Poké Mart, too.	建议你先去友好商店购买伤药备用。	おでかけに　なるときは	 {RIVAL} よ…!
+	cont	to the building								across the road.				なぜ　まけたのか　わかるか?
+	cont	across the road.									Good luck out there, Trainer!	那么，请加油吧！	フレンドリィショップで	…　…　…
+	done												キズぐすりを　かっておくのが	おまえが　ポケモン　たちへの
+end				end										しんらいと　あいじょうを
+													おすすめです	わすれとる　からだ!
+														それでは　どんなに　がんばっても
+													それでは　がんばってください！	トップ　には　たてんぞ!
+														

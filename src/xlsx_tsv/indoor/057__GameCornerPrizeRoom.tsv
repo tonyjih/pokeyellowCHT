@@ -1,0 +1,14 @@
+text/GameCornerPrizeRoom.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CeladonPrizeRoomText1::				_CeladonPrizeRoomText1::										
+	text	I sure do fancy			text	嗯……！無論如何		text	嗯……！无论如何	I sure do fancy	I flew right here on my Pidgeot when I read that	我听说火箭队袭击了西尔佛！	ロケットだんが　シルフ　おそって	ロケットだんが　シルフ　おそって
+	line	that PORYGON!			line	都想要那隻多邊獸哪！		line	都想要那只多边兽哪！	that PORYGON!	Team Rocket was invading Silph!	就让大比鸟带我飞到了这里！	だいじけんって　きいて！	だいじけんって　きいて!
+					para	但是要在老虎機遊戲裡		para	但是要在老虎机游戏里	But, it's hard to				ピジョットで　とんで　きたッス
+	para	But, it's hard to			line	贏代幣可真是太難了！		line	赢代币可真是太难了！	win at slots!	But...shucks, it’s already over?	你说这件事已经解决了……？	ピジョットで　とんで　きたッス	かいけつ　した…?
+	line	win at slots!			done			done				不好意思！		すんません!
+	done										Sorry! I’m just a sucker for drama!		かいけつ　した……？	ねっからの　ヤジウマ　で!
+												我天生就喜欢看热闹！	すんません！	
+_CeladonPrizeRoomText2::				_CeladonPrizeRoomText2::										
+	text	I had a major			text	哇哈哈！賺了、賺了……！		text	哇哈哈！赚了、赚了……！	I had a major	I’m having a meeting with an important client.	我正在和客户开会呢。	おとくいさまと	ぼくは　クラスで　いちばん　つよい!
+	line	haul today!			line	要是每天都能這樣就好了。		line	要是每天都能这样就好了。	haul today!			かいぎ　してるんだ	まいあさ　れんしゅうも　してるんだ!
+	done				done			done			You want to join in?	……你也想一起参加吗？		
+end				end									……きみも　まざる？	

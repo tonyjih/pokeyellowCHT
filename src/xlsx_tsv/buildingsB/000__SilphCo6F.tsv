@@ -1,0 +1,109 @@
+text/SilphCo6F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SilphCo6Text_1a24a::				_SilphCo6Text_1a24a::										
+	text	The ROCKETs came			text	那群人莫名其妙就來了，		text	那群人莫名其妙就来了，	The ROCKETs came	Team Rocket came and took over the building!	那群人莫名其妙就来了，	やつらが　いきなり　やってきて	やつらが　いきなり　やってきて
+	line	and took over the			line	然後佔領了整棟大樓。		line	然后占领了整栋大楼。	and took over the		然后占领了整栋大楼。	ビルを　のっとったんです	ビルを　のっとったんです
+	cont	building!			done			done		building!				
+	done													
+														
+_SilphCo6Text_1a24f::				_SilphCo6Text_1a24f::										
+	text	Well, better get			text	……那麼		text	……那么	Well, better get	Well, better get back to work.	……好了好了！	……さてと！	…　さてと!
+	line	back to work!			line	我得繼續工作了。		line	我得继续干活去了。	back to work!		去工作啊去工作！	しごと　しなきゃ　しごと！	しごと　しなきゃ　しごと!
+	done				done			done						ゲ
+														
+_SilphCo6Text_1a261::				_SilphCo6Text_1a261::										
+	text	Oh dear, oh dear.			text	哆了個嗦……		text	哆了个嗦……	Oh dear, oh dear.	Oh dear, oh dear.	哆了个嗦……	ぶるぶる……	ぶるぶる…
+	line	Help me please!			line	我的神啊救救我吧……		line	我的神啊救救我吧……	Help me please!	Help me, please!	我的神啊救救我吧……	たすけて　かみさま～！	かみさま　ほとけさま　たすけて
+	done				done			done						
+														
+_SilphCo6Text_1a266::				_SilphCo6Text_1a266::										
+	text	We got engaged!			text	我們已經訂婚了！		text	我们已经订婚了！	We got engaged!	We got engaged.	我们已经订婚了！	ぼくたち　こんやく　したよ	ぼくたち　こんやく　したよ
+	line	Heheh!			line	……沒想到我也會害羞啊。		line	……没想到我也会害羞啊。	Heheh!	Heheh!	……没想到我也会害羞啊。	……てれるなあ	…　てれるなあ
+	done				done			done						ゲ
+														
+_SilphCo6Text_1a278::				_SilphCo6Text_1a278::										
+	text	Look at him! He's			text	旁邊這位……明明		text	旁边这位……明明	Look at him! He's	That man next to me...	旁边这位……	となりの　ひと……	となりの　ひと…
+	line	such a coward!			line	是個男的，真是沒出息呢。		line	是个男的，真是没出息呢。	such a coward!	He’s such a coward!	明明是个男的，真是没出息呢。	おとこ　なのに　なさけないわ	おとこ　なのに　なさけないわ
+	done				done			done						
+														
+_SilphCo6Text_1a27d::				_SilphCo6Text_1a27d::										
+	text	I feel so sorry			text	他呀……		text	他呀……	I feel so sorry	I’m so busy, I’m getting dizzy!	忙得我两眼冒金星！	いそがしくって　めが　まわる！	いそがしくって　めが　まわる!
+	line	for him, I have			line	要是沒有我陪著他，		line	要是没有我陪着他，	for him, I have	You have to give me room here!	拜托你到别处去玩吧！	たのむ　から　あっち　いってくれ！	たのむ　から　あっち　いってくれ!
+	cont	to marry him!			cont	他一定活不下去呢。		cont	他一定活不下去呢。	to marry him!				
+	done				done			done						
+														
+_SilphCo6Text_1a28f::				_SilphCo6Text_1a28f::										
+	text	TEAM ROCKET is			text	火箭隊是想要		text	火箭队是想要	TEAM ROCKET is	Team Rocket is trying to conquer the world	火箭队是想要	ロケットだんは	ロケットだんは
+	line	trying to conquer			line	利用寶可夢征服世界啊。		line	利用宝可梦征服世界啊。	trying to conquer	with Pokémon.	利用宝可梦征服世界啊。	ポケモン　つかって	ポケモン　つかって
+	cont	the world with			done			done		the world with				せかい　せいふく　したいのよ
+	cont	#MON!								#MON!			せかい　せいふく　したいのよ	
+	done													
+														
+_SilphCo6Text_1a294::				_SilphCo6Text_1a294::										
+	text	TEAM ROCKET ran			text	火箭隊逃跑了，		text	火箭队逃跑了，	TEAM ROCKET ran	Team Rocket ran away, and it’s all because	火箭队逃跑了，	ロケットだんが　にげたのは	ロケットだんが　にげたのは
+	line	because of you!			line	都是多虧了你呢。		line	都是多亏了你呢。	because of you!	of you!	都是多亏了你呢。	あなたの　おかげね	あなたの　おかげね
+	done				done			done						ゲ
+														
+_SilphCo6Text_1a2a6::				_SilphCo6Text_1a2a6::										
+	text	They must have			text	正因為西爾佛公司		text	正因为西尔佛公司	They must have	They must have targeted Silph Co. for our	正因为西尔佛公司	シルフカンパニーは　グッズを	シルフ　カンパニーは　グッズを
+	line	targeted SILPH			line	製造了很多很多的商品，		line	制造了很多很多的商品，	targeted SILPH	Pokémon products.	制造了很多很多的商品，	いっぱい　つくってる　から	いっぱい　つくってる　から
+	cont	for our #MON			cont	所以才被盯上的吧。		cont	所以才被盯上的吧。	for our #MON				ねらわれたんだろうな
+	cont	products.			done			done		products.		所以才被盯上的吧。	ねらわれたんだろうな	
+	done													
+														
+_SilphCo6Text_1a2ab::				_SilphCo6Text_1a2ab::										
+	text	Come work for			text	等你長大了，		text	等你长大了，	Come work for	Why don’t you come work for Silph when you	等你长大了，	おおきく　なったら	おおきく　なったら
+	line	SILPH when you			line	可以來西爾佛工作哦！		line	可以来西尔佛工作哦！	SILPH when you	grow up?	可以来西尔佛工作哦！	シルフで　はたらくと　いいよ	シルフで　はたらくと　いいよ
+	cont	get older!			done			done		get older!				ゲ
+	done													
+														
+_SilphCo6BattleText2::				_SilphCo6BattleText2::										
+	text	I am one of the 4			text	俺正是		text	我正是	I am one of the 4	I am one of the four Rocket Sisters!	我正是火箭队四姐妹之一！	わたくし　こそが	おれこそは
+	line	ROCKET BROTHERS!			line	火箭隊四兄弟之一！		line	火箭队四兄弟之一！	ROCKET BROTHERS!	And I’m the oldest.	是她们的大姐大！	ロケット　４しまいの　ひとり！	ロケット　4きょうだいの　ひとり!
+	done				done			done						
+													って　いうか　ちょうじょ！	
+_SilphCo6EndBattleText2::				_SilphCo6EndBattleText2::										
+	text	Flame			text	什麼啊！		text	什么啊！	Flame	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	out!			prompt			prompt		out!		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	prompt										D’aww... Failed again?			
+														
+_SilphCo6AfterBattleText2::				_SilphCo6AfterBattleText2::										
+	text	No matter!			text	算了。		text	算了。	No matter!	No matter!	算了。	いいわ	まあ　いい
+	line	My brothers will			line	弟弟會替我報仇的。		line	弟弟会替我报仇的。	My brothers will	My sisters will avenge me!	妹妹会替我报仇的。	いもうとに　かたきを　とらせるから	おとうとが　かたきを　とってくれる
+	cont	avenge me!			done			done		avenge me!				ぜガ
+	done													
+														
+_SilphCo6BattleText3::				_SilphCo6BattleText3::										
+	text	That rotten			text	可惡的社長！		text	可恶的社长！	That rotten	That rotten president!	可恶的社长！	しゃちょうめー！	しゃちょうめー!
+	line	PRESIDENT!			para	就因為他把我踢到		para	就因为他把我踢到	PRESIDENT!				おれさまを
+					line	波拿耶通古斯河分公司，		line	波拿耶通古斯河分公司，	He shouldn't have	Serves him right for transferring a star employee	就因为他把我踢到	おれさまを	ポナヤツングスカ　してん
+	para	He shouldn't have			cont	所以我才會被火箭隊盯上！		cont	所以我才会被火箭队盯上！	sent me to the	like me off to the boondocks!	波拿耶通古斯河分公司，	ポナヤツングスカ　してん	なんかに　とばし　やがるから
+	line	sent me to the			done			done		TIKSI BRANCH!				ロケットだんに　ねらわれるのだ!
+	cont	TIKSI BRANCH!									That’s why Team Rocket came after us—I’m sure	所以我才会被火箭队盯上！	なんかに　とばし　やがるから	
+	done										of it!			
+													ロケットだんに　ねらわれるのだ！	
+_SilphCo6EndBattleText3::				_SilphCo6EndBattleText3::										
+	text	Shoot!			text	怎麼會這樣。		text	可恶！	Shoot!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			prompt			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_SilphCo6AfterBattleText3::				_SilphCo6AfterBattleText3::										つ {PLAYER}  {PLAYER} 
+	text	TIKSI BRANCH?			text	波拿耶通古斯河分公司？		text	波拿耶通古斯河分公司？	TIKSI BRANCH?	It’s a Pokémon Report!	……是宝可梦报告！	……ポケモンレポートだ！	…　ポケモン　レポートだ!
+	line	It's in Russian			line	哦哦……它可是在		line	哦哦……它可是在	It's in Russian				ポケモン　けんきゅうじょ　では
+	cont	no man's land!			cont	俄羅斯的無人地帶裡！		cont	俄罗斯的无人地带里！	no man's land!	The research section succeeded in creating	在研究部门，	けんきゅう　セクション　では	じんこうの　ポケモン
+	done				done			done			Porygon, an artificial Pokémon created	我们成功制造出了	じんこうの　ポケモン	ポりゴンを　つくる　ことに
+														せいこう　した…　…
+_SilphCo6BattleText4::				_SilphCo6BattleText4::							by humans.	多边兽这种人工宝可梦……	ポリゴンを　つくる　ことに	
+	text	You dare betray			text	別以為背叛火箭隊後，		text	别以为背叛火箭队后，	You dare betray	You dare betray Team Rocket?	别以为背叛火箭队后，	ロケットだんを　うらぎって	ロケットだんを　うらぎって
+	line	TEAM ROCKET?			line	你能拍拍屁股一走了之！		line	你能拍拍屁股一走了之！	TEAM ROCKET?		你能拍拍屁股一走了之！	ただで　すむと　おもうな！	ただで　すむと　おもうな!
+	done				done			done						
+														
+_SilphCo6EndBattleText4::				_SilphCo6EndBattleText4::										
+	text	You			text	你這個叛徒！					What’re you lookin’ at?	干嘛啊！烦不烦啊！	っだよ！　っせーな！	っだよ!　っせーな!
+	line	traitor!												
+	prompt				prompt									
+														
+_SilphCo6AfterBattleText4::				_SilphCo6AfterBattleText4::										
+	text	If you stand for			text	你不是叛徒？如果你想		text	你不是叛徒？如果你想	If you stand for	You’ll never be on our side! If you stand for	你不是叛徒？	うらぎり　じゃない？	うらぎり　じゃない?
+	line	justice, you			line	做好人，那對我們來說，		line	做好人，那对我们来说，	justice, you	justice, you betray us bad guys!	如果你想做好人，	せいぎの　みかた　なら	せいぎの　みかた　なら
+	cont	betray evil!			cont	你還是叛徒。		cont	你还是叛徒。	betray evil!				きみは　おれらの　うらぎりものだ
+	done				done			done				那对我们来说，你还是叛徒。	きみは　おれらの　うらぎりものだ	ぜガ
+end				end										

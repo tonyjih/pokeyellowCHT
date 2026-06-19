@@ -1,0 +1,170 @@
+data/moves/names.asm	@		
+	"""POUND"""	拍擊	
+	"""KARATE CHOP"""	空手劈	
+	"""DOUBLESLAP"""	連環巴掌	
+	"""COMET PUNCH"""	連續拳	
+	"""MEGA PUNCH"""	百萬噸重拳	
+	"""PAY DAY"""	聚寶功	
+	"""FIRE PUNCH"""	火焰拳	
+	"""ICE PUNCH"""	冰凍拳	
+	"""THUNDERPUNCH"""	雷電拳	
+	"""SCRATCH"""	抓	
+	"""VICEGRIP"""	夾住	
+	"""GUILLOTINE"""	斷頭鉗	
+	"""RAZOR WIND"""	旋風刀	
+	"""SWORDS DANCE"""	劍舞	
+	"""CUT"""	居合斬	
+	"""GUST"""	起風	
+	"""WING ATTACK"""	翅膀攻擊	
+	"""WHIRLWIND"""	吹飛	
+	"""FLY"""	飛翔	
+	"""BIND"""	綁緊	
+	"""SLAM"""	摔打	
+	"""VINE WHIP"""	藤鞭	
+	"""STOMP"""	踩踏	
+	"""DOUBLE KICK"""	二連踢	
+	"""MEGA KICK"""	百萬噸重踢	
+	"""JUMP KICK"""	飛踢	
+	"""ROLLING KICK"""	迴旋踢	
+	"""SAND-ATTACK"""	潑沙	
+	"""HEADBUTT"""	頭錘	
+	"""HORN ATTACK"""	角撞	
+	"""FURY ATTACK"""	亂擊	
+	"""HORN DRILL"""	角鑽	
+	"""TACKLE"""	撞擊	
+	"""BODY SLAM"""	泰山壓頂	
+	"""WRAP"""	緊束	
+	"""TAKE DOWN"""	猛撞	
+	"""THRASH"""	大鬧一番	
+	"""DOUBLE-EDGE"""	捨身衝撞	
+	"""TAIL WHIP"""	搖尾巴	
+	"""POISON STING"""	毒針	
+	"""TWINEEDLE"""	雙針	
+	"""PIN MISSILE"""	飛彈針	
+	"""LEER"""	瞪眼	
+	"""BITE"""	咬住	
+	"""GROWL"""	叫聲	
+	"""ROAR"""	吼叫	
+	"""SING"""	唱歌	
+	"""SUPERSONIC"""	超音波	
+	"""SONICBOOM"""	音爆	
+	"""DISABLE"""	定身法	
+	"""ACID"""	溶解液	
+	"""EMBER"""	火花	
+	"""FLAMETHROWER"""	噴射火焰	
+	"""MIST"""	白霧	
+	"""WATER GUN"""	水槍	
+	"""HYDRO PUMP"""	水炮	
+	"""SURF"""	衝浪	
+	"""ICE BEAM"""	冰凍光束	
+	"""BLIZZARD"""	暴風雪	
+	"""PSYBEAM"""	幻象光線	
+	"""BUBBLEBEAM"""	泡沫光線	
+	"""AURORA BEAM"""	極光束	
+	"""HYPER BEAM"""	破壞光線	
+	"""PECK"""	啄	
+	"""DRILL PECK"""	啄鑽	
+	"""SUBMISSION"""	地獄翻滾	
+	"""LOW KICK"""	踢倒	
+	"""COUNTER"""	雙倍奉還	
+	"""SEISMIC TOSS"""	地球上投	
+	"""STRENGTH"""	怪力	
+	"""ABSORB"""	吸取	
+	"""MEGA DRAIN"""	超級吸取	
+	"""LEECH SEED"""	寄生種子	
+	"""GROWTH"""	生長	
+	"""RAZOR LEAF"""	飛葉快刀	
+	"""SOLARBEAM"""	日光束	
+	"""POISONPOWDER"""	毒粉	
+	"""STUN SPORE"""	麻痺粉	
+	"""SLEEP POWDER"""	催眠粉	
+	"""PETAL DANCE"""	花瓣舞	
+	"""STRING SHOT"""	吐絲	
+	"""DRAGON RAGE"""	龍之怒	
+	"""FIRE SPIN"""	火焰旋渦	
+	"""THUNDERSHOCK"""	電擊	
+	"""THUNDERBOLT"""	十萬伏特	
+	"""THUNDER WAVE"""	電磁波	
+	"""THUNDER"""	打雷	
+	"""ROCK THROW"""	落石	
+	"""EARTHQUAKE"""	地震	
+	"""FISSURE"""	地裂	
+	"""DIG"""	挖洞	
+	"""TOXIC"""	劇毒	
+	"""CONFUSION"""	念力	
+	"""PSYCHIC"""	精神強念	
+	"""HYPNOSIS"""	催眠術	
+	"""MEDITATE"""	瑜伽姿勢	
+	"""AGILITY"""	高速移動	
+	"""QUICK ATTACK"""	電光一閃	
+	"""RAGE"""	憤怒	
+	"""TELEPORT"""	瞬間移動	
+	"""NIGHT SHADE"""	黑夜魔影	
+	"""MIMIC"""	模仿	
+	"""SCREECH"""	刺耳聲	
+	"""DOUBLE TEAM"""	影子分身	
+	"""RECOVER"""	自我再生	
+	"""HARDEN"""	變硬	
+	"""MINIMIZE"""	變小	
+	"""SMOKESCREEN"""	煙幕	
+	"""CONFUSE RAY"""	奇異之光	
+	"""WITHDRAW"""	縮入殼中	
+	"""DEFENSE CURL"""	變圓	
+	"""BARRIER"""	屏障	
+	"""LIGHT SCREEN"""	光牆	
+	"""HAZE"""	黑霧	
+	"""REFLECT"""	反射壁	
+	"""FOCUS ENERGY"""	聚氣	
+	"""BIDE"""	忍耐	
+	"""METRONOME"""	揮指	
+	"""MIRROR MOVE"""	鸚鵡學舌	
+	"""SELFDESTRUCT"""	自爆	
+	"""EGG BOMB"""	炸蛋	
+	"""LICK"""	舌舔	
+	"""SMOG"""	濁霧	
+	"""SLUDGE"""	汙泥攻擊	
+	"""BONE CLUB"""	骨棒	
+	"""FIRE BLAST"""	大字爆炎	
+	"""WATERFALL"""	攀瀑	
+	"""CLAMP"""	貝殼夾擊	
+	"""SWIFT"""	高速星星	
+	"""SKULL BASH"""	火箭頭錘	
+	"""SPIKE CANNON"""	尖刺加農炮	
+	"""CONSTRICT"""	纏繞	
+	"""AMNESIA"""	瞬間失憶	
+	"""KINESIS"""	折彎湯匙	
+	"""SOFTBOILED"""	生蛋	
+	"""HI JUMP KICK"""	飛膝踢	
+	"""GLARE"""	大蛇瞪眼	
+	"""DREAM EATER"""	食夢	
+	"""POISON GAS"""	毒瓦斯	
+	"""BARRAGE"""	投球	
+	"""LEECH LIFE"""	吸血	
+	"""LOVELY KISS"""	惡魔之吻	
+	"""SKY ATTACK"""	神鳥猛擊	
+	"""TRANSFORM"""	變身	
+	"""BUBBLE"""	泡沫	
+	"""DIZZY PUNCH"""	迷昏拳	
+	"""SPORE"""	蘑菇孢子	
+	"""FLASH"""	閃光	
+	"""PSYWAVE"""	精神波	
+	"""SPLASH"""	躍起	
+	"""ACID ARMOR"""	溶化	
+	"""CRABHAMMER"""	蟹鉗錘	
+	"""EXPLOSION"""	大爆炸	
+	"""FURY SWIPES"""	亂抓	
+	"""BONEMERANG"""	骨頭回力鏢	
+	"""REST"""	睡覺	
+	"""ROCK SLIDE"""	岩崩	
+	"""HYPER FANG"""	必殺門牙	
+	"""SHARPEN"""	稜角化	
+	"""CONVERSION"""	紋理	
+	"""TRI ATTACK"""	三重攻擊	
+	"""SUPER FANG"""	憤怒門牙	
+	"""SLASH"""	劈開	
+	"""SUBSTITUTE"""	替身	
+	"""STRUGGLE"""	掙扎	
+	li 		db 
+	assert_list_length NUM_ATTACKS		;
+	list_start MoveNames		;
+end			

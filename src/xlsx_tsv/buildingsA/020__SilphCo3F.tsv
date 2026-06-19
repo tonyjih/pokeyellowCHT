@@ -1,0 +1,48 @@
+text/SilphCo3F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SilphCo3Text_59ff9::				_SilphCo3Text_59ff9::										
+	text	I work for SILPH.			text	我……我是……		text	我……我是……	I work for SILPH.	I work for Silph Co.	我……我是……	ぼく　シルフカンパニーの	ぼく　シルフ　カンパニーの
+	line	What should I do?			line	我是西爾佛公司的員工……		line	我是西尔佛公司的员工……	What should I do?	What am I to do?	我是西尔佛公司的员工……	しゃいんです……　おろおろ	しゃいんです…　おろおろ
+	done				done			done						
+														
+_SilphCo3Text_59ffe::				_SilphCo3Text_59ffe::										
+	text	<PLAYER>! You and			text	多虧了你和你的寶可夢，		text	多亏了你和你的宝可梦，	<PLAYER>! You and	[VAR TRNAME(0000)]!	多亏了你和你的宝可梦，	[VAR TRNAME(0000)]さんと	 {PLAYER} くんと
+	line	your #MON			line	我們才能得救！		line	我们才能得救！	your #MON	You and your Pokémon saved us!	我们才能得救！	ポケモンの　おかげで	ポケモンの　おかげで
+	cont	saved us!			done			done		saved us!				ほんと　たすかったよ
+	done												ほんと　たすかったよ	ゲ
+														
+_SilphCo3BattleText1::				_SilphCo3BattleText1::										
+	text	Quit messing with			text	妨礙我們的傢伙		text	妨碍我们的家伙	Quit messing with	[VAR PKNICK(0001)] suddenly started messing	[VAR PKNICK(0001)]突然碰了碰你！	[VAR PKNICK(0001)]は　きゅうに	うわッ!　なんだ?
+	line	us, kid!			line	都很礙眼！		line	都很碍眼！	us, kid!	with you!	要稍微陪陪它吗？	ちょっかいを　だしてきた！	きゅうに　こえを　かけるな!
+	done				done			done						
+											Want to give it a little attention?		すこし　かまって　あげますか？	
+_SilphCo3EndBattleText1::				_SilphCo3EndBattleText1::										
+	text	I give			text	唔！我輸了！					Oof!	唔！我输了！	ぐッ！　まいった！	ぐッ!　まいった!
+	line	up!									I give up!			
+	prompt				prompt									
+														
+_SilphCo3AfterBattleText1::				_SilphCo3AfterBattleText1::										
+	text	A hint? You can			text	……那麼，給你一個提示。		text	……那么，给你一个提示。	A hint? You can	Fine, I guess you earned a hint!	……那么，给你一个提示。	……では　ヒントだ！	…　では　ヒントだ!
+	line	open doors with a			line	可以用鑰匙卡		line	可以用钥匙卡	open doors with a	You can open locked doors with a Card Key!	可以用钥匙卡打开关闭的大门。	しまってる　ドアの　カギは	しまってる　ドアの　カギは
+	cont	CARD KEY!			cont	開啟關閉的大門。		cont	打开关闭的大门。	CARD KEY!				カード　キーで　あけられる
+	done				done			done					カードキーで　あけられる	ゲ
+														
+_SilphCo3BattleText2::				_SilphCo3BattleText2::										
+	text	I support TEAM			text	比起西爾佛公司，		text	比起西尔佛公司，	I support TEAM	I support Team Rocket more than I support	比起西尔佛公司，	わたしは	わたしは
+	line	ROCKET more than			line	我更願意支援火箭隊！		line	我更愿意支持火箭队！	ROCKET more than	Silph Co.!	我更愿意支持火箭队！	シルフカンパニーより	シルフ　カンパニーより
+	cont	I support SILPH!			done			done		I support SILPH!				ロケットだんに　みかた　する!
+	done												ロケットだんに　みかた　する！	
+														
+_SilphCo3EndBattleText2::				_SilphCo3EndBattleText2::										
+	text	You			text	有兩下子啊！		text	有两下子啊！	You	You really got me!	有两下子啊！	やるねえ！	トレーナーぞ
+	line	really got me!			prompt			prompt		really got me!				きド5ま
+	prompt													
+														
+_SilphCo3AfterBattleText2::				_SilphCo3AfterBattleText2::										
+	text	Humph...			text	……幹嘛？		text	……干嘛？	Humph...	Hmph...	……干嘛？	……なに	…　なに
+					para	火箭隊的人說了，		para	火箭队的人说了，	TEAM ROCKET said				ロケットだんの　れんちゅうが
+	para	TEAM ROCKET said			line	今後我想怎麼研究寶可夢		line	今后我想怎么研究宝可梦	that if I helped	Team Rocket said that if I helped them, they’d	火箭队的人说了，	ロケットだんの　れんちゅうが	おもう　ぞんぶん
+	line	that if I helped			cont	就怎麼研究寶可夢。		cont	就怎么研究宝可梦。	them, they'd let	let me study Pokémon to my heart’s content.	今后我想怎么研究宝可梦	おもう　ぞんぶん	ポケモンの　けんきゅうを
+	cont	them, they'd let			done			done		me study #MON!				させて　くれるって　いったんでね
+	cont	me study #MON!										就怎么研究宝可梦。	ポケモンの　けんきゅうを	ぜザ
+	done													
+end				end									させて　くれるって　いったんでね	

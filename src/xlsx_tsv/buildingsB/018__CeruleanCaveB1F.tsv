@@ -1,0 +1,5 @@
+text/CeruleanCaveB1F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_MewtwoBattleText::				_MewtwoBattleText::										
+	text	Mew!@			text	謬——@		text	谬——@	Mew!@	...Huh?	……呃，嗯？	……って　ん？	
+	text_end				text_end			text_end						　ぽ　ぽ　
+end				end							Is that...?	那个是？…………	あれは？　……　……	

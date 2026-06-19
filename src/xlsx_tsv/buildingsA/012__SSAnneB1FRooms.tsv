@@ -1,0 +1,116 @@
+text/SSAnneB1FRooms.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SSAnne10Text8::				_SSAnne10Text8::										
+	text	MACHOKE: Gwoh!			text	豪力：豪～豪豪豪～@		text	豪力：豪～豪豪豪～@	MACHOKE: Gwoh!	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	Goggoh!@			text_end			text_end		Goggoh!@	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_end													
+														
+_SSAnne10BattleText1::				_SSAnne10BattleText1::										
+	text	You know what they			text	對於水手來說，		text	对于水手来说，	You know what they	You know what they say about sailors.	对于水手来说，	ふなのりに	ふなのりに
+	line	say about sailors			line	打架簡直就是家常便飯！		line	打架简直就是家常便饭！	say about sailors	We’re all itching for a fight after ages at sea!	打架简直就是家常便饭！	ケンカは　つきものだ　やるか！	ケンカは　つきものだ　やるか!
+	cont	and fighting!			cont	動手吧！		cont	动手吧！	and fighting!				
+	done				done			done				动手吧！		
+														
+_SSAnne10EndBattleText1::				_SSAnne10EndBattleText1::										
+	text	Right!			text	好！		text	好！	Right!	Right!	好！	おし！	おし!
+	line	Good fight, mate!			line	真是一場不錯的對戰。		line	真是一场不错的对战。	Good fight, mate!	Good battle, mate!	真是一场不错的对战。	いい　しょうぶ　だった	いい　しょうぶ　だった
+	prompt				prompt			prompt						
+														
+_SSAnne10AfterBattleText1::				_SSAnne10AfterBattleText1::										
+	text	Haha! Want to be			text	哈哈哈！		text	哈哈哈！	Haha! Want to be	Hahaha!	哈哈哈！	ははは！	ははは!
+	line	a sailor, mate?			line	你要不要也來當水手啊？		line	你要不要也来当水手啊？	a sailor, mate?	Want to be a sailor, mate?	你要不要也来当水手啊？	おまえも　ふなのりに　ならんか？	ぼうずも　ふなのりに　ならんか?
+	done				done			done						
+														
+_SSAnne10BattleText2::				_SSAnne10BattleText2::										
+	text	My sailor's pride			text	來吧！賭上水手之魂		text	来吧！赌上水手之魂	My sailor's pride	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	is at stake!			line	也要贏下這場戰鬥！		line	也要赢下这场战斗！	is at stake!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	done				done			done						…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_SSAnne10EndBattleText2::				_SSAnne10EndBattleText2::										
+	text	Your			text	就算是水手之魂，		text	就算是水手之魂，	Your	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	spirit sank me!			line	我還是沒能贏過你啊！		line	我还是没能赢过你啊！	spirit sank me!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt				prompt			prompt						
+														
+_SSAnne10AfterBattleText2::				_SSAnne10AfterBattleText2::										
+	text	Did you see the			text	說起枯葉港，		text	说起枯叶港，	Did you see the	Did you see it?	你瞅见没！	みたかね！　いま　みなとに	アンヌごう　という
+	line	FISHING GURU in			line	不知道在那裡的釣魚大叔		line	不知道在那里的钓鱼大叔	FISHING GURU in	The S.S. Anne is in the harbor right now!	港口那开来一艘叫做	サント・アンヌごう　という	ふねが　きとるぞ!
+	cont	VERMILION CITY?			cont	現在怎麼樣了？		cont	现在怎么样了？	VERMILION CITY?				
+	done				done			done				“圣特安努号”的游轮唷！	ふねが　きとるぞ！	
+														
+_SSAnne10BattleText3::				_SSAnne10BattleText3::										
+	text	Us sailors have			text	就算是我們這些水手，		text	就算是我们这些水手，	Us sailors have	Hey! You have Pokémon, right?	嗨！	よーしッ！	よーしッ!
+	line	#MON too!			line	也是有寶可夢的！		line	也是有宝可梦的！	#MON too!	Come on!	你有宝可梦的吧？	きみは　ポケモン　もってるな？	きみは　ポケモン　もってるな?
+	done				done			done						しょうぶ　しようぜ!
+											Let’s battle ’em!	我们来对战！	しょうぶ　しようぜ！	
+_SSAnne10EndBattleText3::				_SSAnne10EndBattleText3::										
+	text	OK,			text	你可真厲害啊。		text	你可真厉害啊。	OK,	OK, you’re not bad.	你可真厉害啊。	なかなか	なかなか
+	line	you're not bad.			prompt			prompt		you're not bad.			やるじゃねーか	やるじゃねーか
+	prompt													
+														
+_SSAnne10AfterBattleText3::				_SSAnne10AfterBattleText3::										
+	text	We caught all our			text	我們手上的寶可夢		text	我们手上的宝可梦	We caught all our	We caught all our Pokémon while we were out	我们手上的宝可梦	おれたちの　ポケモンは	おれたちの　ポケモンは
+	line	#MON while			line	都是我們出海後自己捉的。		line	都是我们出海后自己捉的。	#MON while	at sea.	都是我们出海后自己捉的。	うみに　でた　ときに	うみに　でた　ときに
+	cont	out at sea!			done			done		out at sea!				じぶんで　とった　もの　ばかり　だぜ
+	done												じぶんで　とった　もの　ばかり　だぜ	
+														
+_SSAnne10BattleText4::				_SSAnne10BattleText4::										
+	text	I like feisty			text	我就喜歡像你這樣		text	我就喜欢像你这样	I like feisty	I like feisty kids like you!	我就喜欢像你这样	こういう　げんきな　こども	こういう　げんきな　こども
+	line	kids like you!@			line	充滿活力的孩子！@		line	充满活力的孩子！@	kids like you!@		充满活力的孩子！	おれは　すきだぜ！	おれは　すきだぜ!@@
+	text_end				text_end			text_end						
+														
+_SSAnne10EndBattleText4::				_SSAnne10EndBattleText4::										
+	text	Argh!			text	可惡！我輸了！		text	可恶！我输了！	Argh!	Argh!	可恶！	ええい！	ええい!
+	line	Lost it!			prompt			prompt		Lost it!	Lost it!	我输了！	まけたぜ！	まけたぜ!
+	prompt													
+														
+_SSAnne10AfterBattleText4::				_SSAnne10AfterBattleText4::										
+	text	Sea #MON live			text	大海中的寶可夢		text	大海中的宝可梦	Sea #MON live	Did you buy some Revives?	你买活力碎片了吗？	げんきのかけらは　かった？	げんきのかけらは　かった?
+	line	in deep water.			line	都棲息在深處，		line	都栖息在深处，	in deep water.	They’ll revive a Pokémon that fainted.	这种方便的道具可以让	ひんしじょうたいの　ポケモンを	ひんしじょうたいの　ポケモンを
+	cont	You'll need a ROD!			cont	所以要用釣竿去釣！		cont	所以要用钓竿去钓！	You'll need a ROD!				げんきに　する　べんりな　どうぐさ
+	done				done			done			They’re really handy!	处于濒死状态的宝可梦重获生机哦！	げんきに　する　べんりな　どうぐさ	
+														
+_SSAnne10BattleText5::				_SSAnne10BattleText5::										
+	text	Matey, you're			text	好嘞！如果你輸了		text	好嘞！如果你输了	Matey, you're	No way you’re getting into the Gym if you don’t	哎～！	べー！	ともだちが　かわいい　ポケモン
+	line	walking the plank			line	就把你推到海裡！		line	就把你推到海里！	walking the plank	show me a cute Pokémon!	没有带可爱的宝可梦来，	かわいい　ポケモン	いっぱい　もってるの
+	cont	if you lose!			done			done		if you lose!				…　くやしいわ!
+	done										Bye!	就没有什么话好说的了。	もって　ないなんて　ろんがい！	
+														
+_SSAnne10EndBattleText5::				_SSAnne10EndBattleText5::								拜拜～！	ばいばい！	
+	text	Argh!			text	切！被打敗了！		text	切！被打败了！	Argh!	You are challenged by	[VAR 010E(0000)][VAR TRNAME(0001)]和	[VAR 010E(0000)]の　[VAR TRNAME(0001)]と	が
+	line	Beaten by a kid!			prompt			prompt		Beaten by a kid!	[VAR 010E(0000)] [VAR TRNAME(0001)] and	[VAR 010E(0002)][VAR TRNAME(0003)]	[VAR 010E(0002)]の　[VAR TRNAME(0003)]が	しょうぶを　しかけてきた!
+	prompt													
+											[VAR 010E(0002)] [VAR TRNAME(0003)]!	前来挑战了！	しょうぶを　しかけてきた！	
+_SSAnne10AfterBattleText5::				_SSAnne10AfterBattleText5::										
+	text	Jellyfish some-			text	等船駛進大海後，		text	等船驶进大海后，	Jellyfish some-	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	times drift into			line	偶爾會有水母寶可夢		line	偶尔会有水母宝可梦	times drift into	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	the ship.			cont	被水流衝過來。		cont	被水流冲过来。	the ship.				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_SSAnne10BattleText6::				_SSAnne10BattleText6::										
+	text	Hello stranger!			text	雖然我不知道你這新人		text	虽然我不知道你这新人	Hello stranger!	Hello, stranger!	虽然我不知道你这新人	うみのもの　とも　やまのもの　とも	うみのもの　とも　やまのもの　とも
+	line	Stop and chat!			line	是來自山上還是海裡，		line	是来自山上还是海里，	Stop and chat!		是来自山上还是海里，	わからない　しんいり　さん！	わからない　しんいり　さん!
+					para	但我手上的寶可夢		para	但我手上的宝可梦	All my #MON	I can’t tell if you’re from the seas or mountains,			わたしが　もってるのは
+	para	All my #MON			line	可全都來自海裡！		line	可全都来自海里！	are from the sea!	but stop and chat.	但我手上的宝可梦可全都来自海里！	わたしが　もってるのは	うみのもの　ばかり　です!
+	line	are from the sea!			done			done					うみのもの　ばかり　です！	
+	done										All my Pokémon are from the sea.			
+														
+_SSAnne10EndBattleText6::				_SSAnne10EndBattleText6::										
+	text	Darn!			text	切！		text	切！	Darn!	Awww!	切！	ちっ！	ちっ!
+	line	I let that one			line	沒上鉤。		line	没上钩。	I let that one	I let that one get away!	没上钩。	つり　のがしたよ	つり　のがしたよ
+	cont	get away!			prompt			prompt		get away!				
+	prompt													
+														
+_SSAnne10AfterBattleText6::				_SSAnne10AfterBattleText6::										
+	text	I was going to			text	本來我是想著要是你輸了，		text	本来我是想着要是你输了，	I was going to	I was thinking I might be able to hook you as	本来我是想着要是你输了，	あなた　まかしたら　つりびとの	あなた　まかしたら　つりびとの
+	line	make you my			line	我就讓你做我的跟班的。		line	我就让你做我的跟班的。	make you my	a fishing buddy, too!	我就让你做我的跟班的。	つきびとに　しようと　おもってた	つきびとに　しようと　おもってた
+	cont	assistant too!			done			done		assistant too!				
+	done													
+														
+_SSAnne10Text7::				_SSAnne10Text7::										
+	text	My buddy, MACHOKE,			text	我的搭檔豪力		text	我的搭档豪力	My buddy, MACHOKE,	My partner Machoke is super strong!	我的搭档豪力	おれの　あいぼう　ゴーリキーは	おれの　あいぼう　ゴーりキーは
+	line	is super strong!			line	真的是力大無比！		line	真的是力大无比！	is super strong!		真的是力大无比！	ごっつい　ちから　もち！	ごっつい　ちから　もち!
+					para	就算是很重的石塊，		para	就算是很重的石块，	He has enough	He has enough strength to even shove big rocks			すごく　おもい　いわ　だって
+	para	He has enough			line	也可以輕而易舉地推開！		line	也可以轻而易举地推开！	STRENGTH to move	out of the way, as if they were nothing!	就算是很重的石块，	すごく　おもい　いわ　だって	かいりきで　うごかせるぜ!
+	line	STRENGTH to move			done			done		big rocks!		也可以轻而易举地推开！	かるがる　うごかせるぜ！	ズザガ
+	cont	big rocks!												
+	done													
+end				end										

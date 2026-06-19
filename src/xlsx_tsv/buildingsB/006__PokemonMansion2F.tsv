@@ -1,0 +1,49 @@
+text/PokemonMansion2F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Mansion2BattleText1::				_Mansion2BattleText1::										
+	text	I can't get out!			text	這房子裡設有機關，		text	这房子里设有机关，	I can't get out!	I can’t get out!	这房子里设有机关，	この　やしき　しかけが　してあって	この　やしき　しかけが　してあって
+	line	This old place is			line	我無法前進了！		line	我无法前进了！	This old place is	This old place is one big puzzle.	我无法前进了！	なかなか　すすめませんぜ！	なかなか　すすめませんぜ!
+	cont	one big puzzle!			done			done		one big puzzle!				
+	done													
+														
+_Mansion2EndBattleText1::				_Mansion2EndBattleText1::										
+	text	Oh no!			text	哇！		text	哇！	Oh no!	Oh no!	哇！	わーッ！	わーッ!
+	line	My bag of loot!			line	我包裡的東西都……		line	我包里的东西都……	My bag of loot!	My bag of loot!	我包里的东西都……	ふろしきの　なかみが	ふろしきの　なかみが
+	prompt				prompt			prompt						
+														
+_Mansion2AfterBattleText1::				_Mansion2AfterBattleText1::										
+	text	Switches open and			text	如果按下秘密開關，		text	如果按下秘密开关，	Switches open and	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	close alternating			line	就可以切換開啟		line	就可以切换开启	close alternating	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	cont	sets of doors!			cont	兩種不同的門。		cont	两种不同的门。	sets of doors!				
+	done				done			done						
+														
+_Mansion2Text3::				_Mansion2Text3::										
+	text	Diary: July 5			text	日記　７月５日		text	日记　７月５日	Diary: July 5	“Diary: July 5	日记　７月５日	にっき　７がつ５か	にっき　7がつ5か
+	line	Guyana,			line	這裡是南美洲蓋亞那。		line	这里是南美洲圭亚那。	Guyana,	We discovered a new Pokémon deep in			ここは　みなみアメりカの　ギアナ
+	cont	South America			para	我們在叢林的深處		para	我们在丛林的深处	South America		我们在丛林的深处	ジャングルの　おくちで	ジャングルの　おくちで
+					line	發現了新種寶可夢。		line	发现了新种宝可梦。	A new #MON was	the jungle.”	发现了新种宝可梦。	しんしゅの　ポケモンを　はっけん	しんしゅの　ポケモンを　はっけん
+	para	A new #MON was			done			done		discovered deep				
+	line	discovered deep								in the jungle.				
+	cont	in the jungle.												
+	done													
+														
+_Mansion2Text4::				_Mansion2Text4::										
+	text	Diary: July 10			text	日記　７月１０日		text	日记　７月１０日	Diary: July 10	“Diary: July 10	日记　７月10日	にっき　７がつ１０か	にっき　7がつ10か
+	line	We christened the			line	我給新發現的寶可夢		line	我给新发现的宝可梦	We christened the	We christened the newly discovered	我给新发现的宝可梦	しんはっけんの　ポケモンを	しんはっけんの　ポケモンを
+	cont	newly discovered			cont	取名為夢幻。		cont	取名为梦幻。	newly discovered				わたしは　ミュウと　なづけた
+	cont	#MON, MEW.			done			done		#MON, MEW.	Pokémon ‘Mew.’”	取名为梦幻。	わたしは　ミュウと　なづけた	ゲ
+	done													
+														
+_Mansion2Text_520c2::				_Mansion2Text_520c2::										
+	text	A secret switch!			text	有一個秘密開關！		text	有一个秘密开关！	A secret switch!	Hey!	我翻我翻……！	ガサゴソ……！	ガサゴソ…!
+					para	要按下去嗎？		para	要按下去吗？	Press it?	There’s a switch under the trash?!	嘿哟！垃圾箱底	おっと！　ゴミばこの　そこに	おっと!　ゴミばこの　そこに
+	para	Press it?			done			done						また　スイッチが　あった!
+	done										Let’s push it!	有一个开关！	スイッチが　あった！	おして　みよう!　…　ポチッとな
+														ゲへ
+_Mansion2Text_520c7::				_Mansion2Text_520c7::								按一下试试吧！	おして　みよう！　……ポチッとな	
+	text	Who wouldn't?			text	按下去吧！……咔噠		text	按下去吧！……咔哒	Who wouldn't?	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	prompt				prompt			prompt			2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+														
+_Mansion2Text_520cc::				_Mansion2Text_520cc::										
+	text	Not quite yet!			text	還是別按了吧。		text	还是别按了吧。	Not quite yet!	BLAINE: We’re not done yet!	夏伯：接下来还有唷～！	カツラ『まだまだ　いくぞー！	 {RIVAL} ロケットだんヅ
+	done				done			done			The second question!	第２题！	だい　２もん！	ロケットだんてばぢグレン@カツラ@ョゥ
+end				end										

@@ -1,0 +1,11 @@
+text/DiglettsCaveRoute2.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_DiglettsCaveRoute2Text1::				_DiglettsCaveRoute2Text1::										
+	text	I went to ROCK			text	雖然要去岩山隧道，但是		text	虽然要去岩山隧道，但是	I went to ROCK	???: I know it’s our mission to keep watch here,	？？？：虽然说是在执行任务，	？？？『にんむ　とは　いえ	…　なんて　やつなの!
+	line	TUNNEL, but it's			line	聽說那裡既漆黑又可怕哦。		line	听说那里既漆黑又可怕哦。	TUNNEL, but it's	but it’s so boring! I wish we could go kill time in	可是站在这里把风太无聊了……	みはり　なんて　ヒマ　だなぁ	
+	cont	dark and scary.			para	如果有寶可夢的“閃光”，		para	如果有宝可梦的“闪光”，	dark and scary.				
+					line	說不定就能照亮了……		line	说不定就能照亮了……	If a #MON's	the Poké Mart or something...	好想去友好商店	フレンドリィショップで	
+	para	If a #MON's			done			done		FLASH could light		愉快地偷个懒啊……	サボりたいぜ……	
+	line	FLASH could light								it up...				
+	cont	it up...												
+	done													
+end				end										

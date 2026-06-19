@@ -1,0 +1,74 @@
+text/BikeShop.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_BikeShopText_1d810::				_BikeShopText_1d810::										
+	text	Hi! Welcome to			text	嗨、嗨！歡迎光臨！		text	嗨、嗨！欢迎光临！	Hi! Welcome to	MAN: Hello there, sweetie pie!	大叔：嘿！小妹妹！	おじさん『じょうちゃん	だけに…!
+	line	our BIKE SHOP.			line	這裡是奇蹟腳踏車店！		line	这里是奇迹自行车店！	our BIKE SHOP.	Have I got a deal just for you!	有个秘密我只告～诉～你……！	あ・な・た・だけに……！	いい　おはなしが　ありまして
+					para	這裡的都是珍品哦——！		para	这里的都是珍品哦——！	Have we got just				ひみつの　ポケモン　コイキングが
+	para	Have we got just			line	要買一輛嗎——？		line	要买一辆吗——？	the BIKE for you!	I’ll let you have a secret Pokémon—	事情是这样的。	いい　おはなしが　ありまして	なんと　たったの　500円!
+	line	the BIKE for you!			prompt			prompt			a Magikarp—for just 500!			どうだい　かうかね?
+	prompt											秘密的宝可梦——鲤鱼王，	ひみつの　ポケモン　コイキングが	
+											So, you’ll buy it, am I right?	现在买的话只收你500！	なんと　たったの　５００円！	
+_BikeShopText_1d815::				_BikeShopText_1d815::										
+	text	It's a cool BIKE!			text	有很帥氣的腳踏車，		text	有很帅气的自行车，	It's a cool BIKE!	It’s a big block. Do you want to use the Secret	这个石块看起来分量不轻！	おもそうな　ブロックだ！	どのポケモンに　つかいますか?
+	line	Do you want it?			line	要不要買呢？		line	要不要买呢？	Do you want it?	Technique Strong Push?	要使用秘术“推山掌”吗？	ヒジュツ・オシダシを　つかいますか？	
+	done				done			done						
+														
+_BikeShopCantAffordText::				_BikeShopCantAffordText::										
+	text	Sorry! You can't			text	客人！		text	客人！	Sorry! You can't	Lapras can’t swim like it used to...	它现在已经不太能游泳了……	ラプラスは　もう　あんまり	わたしが　かわいがってた　ポケモン
+	line	afford it!			line	你的錢不夠呢——！		line	你的钱不够呢——！	afford it!			およげない　から……	いまは　ポケモン　タワーで
+	prompt				prompt			prompt			So we’ll stay here together.	所以我以后也要在这里		ねむってるの…
+												一直一直陪在它身边……	あとは　おれも　ここで	…　そうだ　わたしの　 {5C} 
+_BikeShopText_1d81f::				_BikeShopText_1d81f::									ずっと　そばに　いてやるんだ	おにいちゃんに　あげるわ
+	text	Oh, that's...			text	啊—— 那是……！		text	啊—— 那是……！	Oh, that's...	“1F: Service Counter	１楼……　服务柜台	１かい……　サービス・カウンター	おくじょう　…　いこいの　ひろば
+					para	腳踏車兌換券！		para	自行车兑换券！	A BIKE VOUCHER!		２楼……　训练家广场	２かい……　トレーナーズ・マーケット	　　　　　　…　じどう　はんばいき
+	para	A BIKE VOUCHER!			para	……我明白了！		para	……我明白了！	OK! Here you go!	“2F: Trainers’ Market			プ
+					line	那麼，請拿好了！		line	那么，请拿好了！			３楼……　电子游戏专卖店	３かい……　テレビ　ゲーム　ショップ	
+	para	OK! Here you go!			prompt			prompt			“3F: Video Game Shop	４楼……　聪明人礼品店	４かい……　ワイズマン・ギフト	
+	prompt													
+											“4F: Wiseman Gifts	５楼……　饰品天地	５かい……　アクセサリー　マーケット	
+_BikeShopText_1d824::				_BikeShopText_1d824::								顶楼……　自动贩卖机	おくじょう……　じどう　はんばいき	
+	text	<PLAYER> exchanged			text	<PLAYER>用兌換券		text	<PLAYER>用兑换券	<PLAYER> exchanged	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	the BIKE VOUCHER			line	得到了腳踏車！@		line	得到了自行车！@	the BIKE VOUCHER	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	for a BICYCLE.@			text_end			text_end		for a BICYCLE.@	“Roof: Relaxation Space & Vending Machines”			…　シルフ　カンパニー
+	text_end											……西尔佛公司	……シルフカンパニー	
+														
+_BikeShopComeAgainText::				_BikeShopComeAgainText::										
+	text	Come back again			text	歡迎再次光臨！		text	欢迎再次光临！	Come back again	Oh, you don’t have enough money!	哎呀，你的钱不够啊！	ありゃ　おかねが　たりないよ！	また　きてね
+	line	sometime!			line	非常感謝您的惠顧！		line	非常感谢您的惠顾！	some time!	Please come back again!	欢迎下次再来！	また　きてね！	
+	done				done			done						
+														
+_BikeShopText_1d82f::				_BikeShopText_1d82f::										
+	text	How do you like			text	呀，你好！你的腳踏車		text	呀，你好！你的自行车	How do you like	Oh, you retrieved the TM?	是你帮我夺回了我的	ありがとう！　わざマシン	ぬすまれた　ものは
+	line	your new BICYCLE?			line	騎起來的感覺如何？		line	骑起来的感觉如何？	your new BICYCLE?	Thank you very much!	招式学习器吗？谢谢你！	とりかえして　くれたんだね	もどって　こないと　あきらめて
+					para	那輛腳踏車的話，		para	那辆自行车的话，	You can take it				うちの　ディグダには
+	para	You can take it			line	腳踏車道自然不必多說，		line	自行车道自然不必多说，	on CYCLING ROAD	You can keep that, though. I’ve decided to take	不过，这个还是送给你吧！	それは　きみに　あげるよ！	きながに　そだてながら
+	line	on CYCLING ROAD			cont	在洞窟裡也可以疾馳哦！		cont	在洞窟里也可以疾驰哦！	and in caves!	my time training Diglett and have them learn Dig			あなほりを
+	cont	and in caves!			done			done				至于我自己的那只地鼠，	うちの　ディグダには	おしえる　ことに　したよ
+	done										that way.	我还是拿出耐心来培养它，	きながに　そだてながら	
+														
+_BikeShopText_1d834::				_BikeShopText_1d834::								慢慢教会它学会挖洞吧！	あなをほるを　おしえるよ！	
+	text	You better make			text	你拿不下		text	你拿不下	You better make	Thank you for keeping an eye on dear Slowpoke!	谢谢你能	ヤドンちゃんの　こと	セキチク　シティ　サファり　ゾーン
+	line	room for this!			line	腳踏車了哦。		line	自行车了哦。	room for this!	Here, this is for your trouble.	帮我照看小呆呆兽。	みててくれて　ありがとう	いった　こと　あるかね?
+	done				done			done						あそこは　めずらしい　ポケモンが
+												这是我的一点心意，	これ　おだちんよ	たくさん　いた!
+_BikeShopText_1d843::				_BikeShopText_1d843::								你愿意收下吗？	うけとって　くださる？	
+	text	A plain city BIKE			text	嗯……！		text	嗯……！	A plain city BIKE	A Pokémon is in your Poké Ball Plus.	精灵球 Plus里面	モンスターボール Plusに　プレゼントの	おなじ　ポケモンが
+	line	is good enough			line	果然還是女士腳踏車吧？		line	果然还是女士自行车吧？	is good enough	It’s a present for you!	有一只礼物宝可梦。	ポケモンが　はいって　います！	2たい　います!
+	cont	for me!			para	山地腳踏車和購物籃		para	山地自行车和购物篮	for me!				
+					line	並不相稱啊。		line	并不相称啊。	You can't put a	Connect your Poké Ball Plus with the game	将精灵球 Plus连接为手柄后，	コントローラーとして　つなげて	
+	para	You can't put a			done			done		shopping basket	as a controller, and select Mystery Gifts!	去“神秘礼物”中看看吧！	「ふしぎなおくりもの」に　いってみましょう！	
+	line	shopping basket								on an MTB!				
+	cont	on an MTB!									You can’t take your Pokémon for a stroll until	接收礼物宝可梦之前无法外出。	プレゼントの　ポケモンを　うけとるまで	
+	done										you receive the present.		おでかけは　できません	
+														
+_BikeShopText_1d85c::				_BikeShopText_1d85c::										
+	text	These BIKEs are			text	這家店的腳踏車		text	这家店的自行车	These BIKEs are	People who can use Secret Techniques are	会使用秘术的人，	ヒジュツ　つかえる　ひとって	…ふーん
+	line	cool, but they're			line	雖然物美，但是價高！		line	虽然物美，但是价高！	cool, but they're	so cool, aren’t they?	真的很帅呀！	かっこいいよねー！	しんじてる　ひとって　いるんだ
+	cont	way expensive!			cont	我可買不下呢。		cont	我可买不下呢。	way expensive!				
+	done				done			done			Can you use them?	大姐姐，你会秘术吗？	おねえちゃんは　つかえるの？	
+														
+_BikeShopText_1d861::				_BikeShopText_1d861::										
+	text	Wow. Your BIKE is			text	你的腳踏車好帥啊，		text	你的自行车好帅啊，	Wow. Your BIKE is	This Pokémon Gym is always closed...	不管什么时候来，	いつ　きても	いつ　きても
+	line	really cool!			line	我好羨慕哪。		line	我好羡慕哪。	really cool!		这里的道馆总是关着门……	この　ポケモンジムは　しまっとる	この　ポケモン　ジムは　しまっとる
+	done				done			done			I wonder who the Gym Leader is...			いったい　どんな　ヤツが
+end				end								不知道这里的馆主	いったい　どんな　ヤツが	りーダーを　しとるんじゃろか?
+												究竟是怎样的家伙啊？	リーダーを　しとるんじゃろか？	

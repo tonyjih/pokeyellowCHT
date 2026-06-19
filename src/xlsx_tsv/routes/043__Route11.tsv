@@ -1,0 +1,164 @@
+text/Route11.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route11BattleText1::				_Route11BattleText1::										
+	text	Win, lose or draw!			text	是輸是贏，一決勝負！		text	是输是赢，一决胜负！	Win, lose or draw!	Win, lose, or draw!	是输是赢，一决胜负！	かつか　まけるか　しょうぶ！	かつか　まけるか　しょうぶ!
+	done				done			done						
+														
+_Route11EndBattleText1::				_Route11EndBattleText1::										
+	text	Atcha!			text	切！		text	切！	Atcha!	Tsk!	切！	ちッ！	ちッ!
+	line	Didn't go my way!			line	今天真是倒黴。		line	今天真是倒霉。	Didn't go my way!	Didn’t go my way!	今天真是倒霉。	きょうは　ついて　ない	きょうは　ついて　ない
+	prompt				prompt			prompt						
+														
+_Route11AfterBattleText1::				_Route11AfterBattleText1::										
+	text	#MON is life!			text	寶可夢就是我的人生！		text	宝可梦就是我的人生！	#MON is life!	Pokémon is life!	宝可梦就是我的人生！	ポケモンは　じんせい　だ！	ポケモンは　じんせい　だ!
+	line	And to live is to			line	人生就是一場賭博！		line	人生就是一场赌博！	And to live is to	And to live is to play games!	人生就是一场赌博！	じんせいは　ギャンブル　だ！	じんせいは　ギャンブル　だ!
+	cont	gamble!			done			done		gamble!				ゲ
+	done													
+														
+_Route11BattleText2::				_Route11BattleText2::										
+	text	Competition! I			text	比試勝負很美妙哦！		text	比试胜负很美妙哦！	Competition! I	I can’t get out!	这房子里设有机关，	この　やしき　しかけが　してあって	この　やしき　しかけが　してあって
+	line	can't get enough!			line	所以就選你當我的對手吧！		line	所以就选你当我的对手吧！	can't get enough!	This old place is one big puzzle.	我无法前进了！	なかなか　すすめませんぜ！	なかなか　すすめませんぜ!
+	done				done			done						
+														
+_Route11EndBattleText2::				_Route11EndBattleText2::										
+	text	I had			text	可惡！		text	可恶！	I had	If I had a Pokémon, I would go to	等我有了宝可梦，	ぼくも　ポケモン　もってたら	ぼくも　じてんしゃ　もってたら
+	line	a chance!			line	我以為會贏，結果不行嗎！		line	我以为会赢，结果不行吗！	a chance!	Pokémon Road, too!	我一定要和它一起去宝可梦大道！	ポケモンロード　いきたーい！	サイクりング　ロード　いきたーい!
+	prompt				prompt			prompt						
+														
+_Route11AfterBattleText2::				_Route11AfterBattleText2::										
+	text	You can't be a			text	害怕輸掉的話，		text	害怕输掉的话，	You can't be a	You can’t sneak in the back way!	居然想从后门逃票入场，	うらぐちから　タダで	うらぐちから　タダで　はいろうなんて
+	line	coward in the			line	可是沒辦法在		line	可是没办法在	coward in the	Nice try, kid, but no.	你还真是会耍小聪明！	はいろうなんて	ちゃっかりもの　だね
+	cont	world of #MON!			cont	寶可夢界立足的！		cont	宝可梦界立足的！	world of #MON!				それより　きみ
+	done				done			done			Oh, whatever!	对了，你知道什么是琥珀吗？	ちゃっかりもの　だね	コハクって　しってる?
+											Do you know what amber is?			
+_Route11BattleText3::				_Route11BattleText3::									それより　きみ	
+	text	Let's go, but			text	不許在		text	不许在	Let's go, but	Let’s go, but don’t cheat!	不许在宝可梦对战中耍赖！	ポケモンに　ずるは　なし　だよ！	ポケモンに　ずるは　なし　だよ!
+	line	don't cheat!			line	寶可夢對戰中耍賴！		line	宝可梦对战中耍赖！	don't cheat!		要堂堂正正一决胜负！	せいせい　どうどう　やろう！	せいせい　どうどう　やろう!
+	done				cont	要堂堂正正一決勝負！		cont	要堂堂正正一决胜负！					
+					done			done						
+_Route11EndBattleText3::				_Route11EndBattleText3::										
+	text	Huh?			text	啊呀？		text	啊呀？	Huh?	Huh?	啊呀？	ありゃ？	ありゃ?
+	line	That's not right!			line	不應該這樣的啊……		line	不应该这样的啊……	That's not right!	That’s not right!	不应该这样的啊……	こんな　はずじゃ……	こんな　はずじゃ…
+	prompt				prompt			prompt						
+														
+_Route11AfterBattleText3::				_Route11AfterBattleText3::										
+	text	I did my best! I			text	我堂堂正正戰鬥過了！		text	我堂堂正正战斗过了！	I did my best! I	I did my best. I have no regrets!	我尽力了，无怨无悔！	ベストを　つくしたんだ	べストを　つくしたんだ
+	line	have no regrets!			line	所以我不後悔！		line	所以我不后悔！	have no regrets!			くいは　ない！	くいは　ない!
+	done				done			done						ゲ4
+														
+_Route11BattleText4::				_Route11BattleText4::										
+	text	Careful!			text	你好！你在家裡用電時，		text	你好！你在家里用电时，	Careful!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	I'm laying down			line	有注意安全嗎？		line	有注意安全吗？	I'm laying down	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	some cables!			done			done		some cables!				…　シルフ　カンパニー
+	done											……西尔佛公司	……シルフカンパニー	
+														
+_Route11EndBattleText4::				_Route11EndBattleText4::										
+	text	That			text	你好厲害啊，		text	你好厉害啊，	That	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	was electric!			line	竟能打敗叔叔我！		line	竟能打败叔叔我！	was electric!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt				prompt			prompt						
+														
+_Route11AfterBattleText4::				_Route11AfterBattleText4::										
+	text	Spread the word			text	有句話忘記對你說了！		text	有句话忘记对你说了！	Spread the word	Spread the word to save energy!	有句话忘记对你说了！	ひとこと　いい　わすれてた！	ひとこと　いい　わすれてた!
+	line	to save energy!			line	要注意用電安全！		line	要注意用电安全！	to save energy!		要注意用电安全！	でんきは　たいせつに！	でんきは　たいせつに!
+	done				done			done						ゲ
+														
+_Route11BattleText5::				_Route11BattleText5::										
+	text	I just became a			text	我才剛剛成為		text	我才刚刚成为	I just became a	I am a Coach Trainer!	你想要对身为教练训练家的我	コーチトレーナーで　ある	こがねいろに　すき　とおった
+	line	trainer! But, I			line	寶可夢訓練家！		line	宝可梦训练家！	trainer! But, I	Think you can take me on?	发起挑战吗？	オレに　ちょうせん　したいかい？	きれいな　コハクが　ある!
+	cont	think I can win!			cont	但我有自信能贏哦！		cont	但我有自信能赢哦！	think I can win!				
+	done				done			done						
+														
+_Route11EndBattleText5::				_Route11EndBattleText5::										
+	text	My			text	輸了嗎……看來		text	输了吗……看来	My	Thank you for rescuing the president!	谢谢你救了我们社长。	しゃちょうを　たすけてくれて	ひしょ『このたびは　たすけて
+	line	#MON couldn't!			line	寶可夢培育得還不夠哪。		line	宝可梦培育得还不够哪。	#MON couldn't!	I couldn’t thank you enough!	我心中的感激溢于言表。	ほんとうに　ありがとう	いただいて　ありがとう　ございます
+	prompt				prompt			prompt						しゃちょう　ともども
+													かんしゃ　しても　しきれないよ	かんしゃの　きもちで　いっぱいです
+_Route11AfterBattleText5::				_Route11AfterBattleText5::										
+	text	What do you want?			text	什麼啊——		text	什么啊——	What do you want?	What do you want?	有何贵干！	なんだァ！	なんだァ!
+	line	Leave me alone!			line	你給我到一邊去——！		line	你给我到一边去——！	Leave me alone!	Get lost, you little squirt!	一边儿去！一边儿去！	てめえ！　あっち　いけ！	ぼうず!　あっち　いけ!
+	done				done			done						
+														
+_Route11BattleText6::				_Route11BattleText6::										
+	text	Fwahaha! I have			text	哈哈哈！		text	哈哈哈！	Fwahaha! I have	Fwahaha!	哈哈哈！	ははーは！　わたしは	ははーは!　わたしは
+	line	never lost!			line	我至今還沒有輸過！		line	我至今还没有输过！	never lost!	I have never lost!	我至今还没有输过！	いままで　まけた　ことが　ないぞ！	いままで　まけた　ことが　ないぞ!
+	done				done			done						
+														
+_Route11EndBattleText6::				_Route11EndBattleText6::										
+	text	My			text	哈！		text	哈！	My	My first loss!	哈！	はッ！	はッ!
+	line	first loss!			line	頭一次輸了！		line	头一次输了！	first loss!		头一次输了！	はじめて　まけたーッ！	はじめて　まけたーッ!
+	prompt				prompt			prompt						
+														
+_Route11AfterBattleText6::				_Route11AfterBattleText6::										
+	text	Luck of the draw!			text	勝敗乃兵家常事！		text	胜败乃兵家常事！	Luck of the draw!	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	Just luck!			line	這樣想想就好受多了。		line	这样想想就好受多了。	Just luck!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done			done						
+														
+_Route11BattleText7::				_Route11BattleText7::										
+	text	I have never won			text	我至今都沒有贏過……		text	我至今都没有赢过……	I have never won	I have never won before...	我至今都没有赢过……	わたしは	わたしは
+	line	before...			done			done		before...			いままで　かった　ことが　ない……	いままで　かった　ことが　ない…
+	done													
+														
+_Route11EndBattleText7::				_Route11EndBattleText7::										
+	text	I saw			text	……哎！		text	……哎！	I saw	I saw this coming...	……哎！	……がく！	…　がく!
+	line	this coming...			line	果然還是輸了！		line	果然还是输了！	this coming...		果然还是输了！	やっぱり　まけた！	やっぱり　まけた!
+	prompt				prompt			prompt						
+														
+_Route11AfterBattleText7::				_Route11AfterBattleText7::										
+	text	It's just luck.			text	勝敗乃兵家常事！		text	胜败乃兵家常事！	It's just luck.	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	Luck of the draw.			line	這樣想想就好受多了。		line	这样想想就好受多了。	Luck of the draw.	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	done				done			done						…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_Route11BattleText8::				_Route11BattleText8::										
+	text	I'm the best in			text	我是我們班最強的！		text	我是我们班最强的！	I'm the best in	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	my class!			line	每天早上都在練習！		line	每天早上都在练习！	my class!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	done				done			done						…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_Route11EndBattleText8::				_Route11EndBattleText8::										
+	text	Darn!			text	哎呀！		text	哎呀！	Darn!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	I need to make my			line	看來非要派出		line	看来非要派出	I need to make my	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	#MON stronger!			cont	更強的寶可夢才行呀！		cont	更强的宝可梦才行呀！	#MON stronger!				…　シルフ　カンパニー
+	prompt				prompt			prompt				……西尔佛公司	……シルフカンパニー	
+														
+_Route11AfterBattleText8::				_Route11AfterBattleText8::										
+	text	There's a fat			text	有時候會有一隻胖胖的		text	有时候会有一只胖胖的	There's a fat	There’s a fat Pokémon that comes down from	有时候会有一只胖胖的	たまに　やまから　おりてくる	たまに　やまから　おりてくる
+	line	#MON that			line	寶可夢從山上掉下來……		line	宝可梦从山上掉下来……	#MON that	the mountains.	宝可梦从山上掉下来……	ふとった　ポケモン……	ふとった　ポケモン…
+	cont	comes down from			para	如果能捉住它就好了，		para	如果能捉住它就好了，	comes down from				あれ　つかまえたら
+	cont	the mountains.			line	它應該很厲害吧？		line	它应该很厉害吧？	the mountains.	I bet it’d be strong if you can catch it.	如果能捉住它就好了，	あれ　つかまえたら	つよいんじゃ　ないかな?
+					done			done		It's strong if		它应该很厉害吧？	つよいんじゃ　ないかな？	ゲ
+	para	It's strong if								you can get it.				
+	line	you can get it.												
+	done													
+														
+_Route11BattleText9::				_Route11BattleText9::										
+	text	Watch out for			text	好啊！		text	好啊！	Watch out for	Beware! Zubat is a bloodsucker!	小心！	ズバットの	ズバットの
+	line	live wires!			line	你沒有忘了關燈吧？		line	你没有忘了关灯吧？	live wires!	Watch out for its Leech Life move!	超音蝠会吸血！	きゅうけつ　こうげきに　ちゅうい！	きゅうけつ　こうげきに　ちゅうい!
+	done				done			done						
+														
+_Route11EndBattleText9::				_Route11EndBattleText9::										
+	text	Whoa!			text	我輸了！		text	我输了！	Whoa!	Whoa!	哇啊！	うわーッ！	うわーッ!
+	line	You spark plug!			line	最近的孩子可真厲害！		line	最近的孩子可真厉害！	You spark plug!	You surprised me!	吓死我了！	びっくり　した！	びっくり　した!
+	prompt				prompt			prompt						…　なんだ　こどもか
+											...Oh, you’re just a kid?	……什么嘛，是个孩子啊。	……なんだ　こどもか	
+_Route11AfterBattleText9::				_Route11AfterBattleText9::										
+	text	Well, better get			text	那麼……我得繼續		text	那么……我得继续	Well, better get	Well, better get back to work.	……好了好了！	……さてと！	…　さてと!
+	line	back to work.			line	做我的電工活去了。		line	做我的电工活去了。	back to work.		去工作啊去工作！	しごと　しなきゃ　しごと！	しごと　しなきゃ　しごと!
+	done				done			done						ゲ
+														
+_Route11BattleText10::				_Route11BattleText10::										
+	text	My #MON should			text	這是我精心培育的寶可夢。		text	这是我精心培育的宝可梦。	My #MON should	I raised my Pokémon carefully.	这是我精心培育的宝可梦。	だいじに　そだてた　ポケモン！	だいじに　そだてた　ポケモン!
+	line	be ready by now!			line	是時候派它去戰鬥看看了！		line	是时候派它去战斗看看了！	be ready by now!	They should be ready by now!	是时候派它去战斗看看了！	そろそろ　たたかわせて　みよう！	そろそろ　たたかわせて　みよう!
+	done				done			done						
+														
+_Route11EndBattleText10::				_Route11EndBattleText10::										
+	text	Too			text	拜拜……！		text	拜拜……！	Too	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	much, too young!			line	謝謝你，再見！		line	谢谢你，再见！	much, too young!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt				prompt			prompt						
+														
+_Route11AfterBattleText10::				_Route11AfterBattleText10::										
+	text	I better go find			text	切……！去找找看有沒有		text	切……！去找找看有没有	I better go find	Tch...	哎……！去找找看有没有	あーあ……！	ちえッ…!
+	line	stronger ones!			line	更強一點的寶可夢吧。		line	更强一点的宝可梦吧。	stronger ones!	I better go find stronger ones!	更强一点的宝可梦吧。	もっと　つよいの　さがして　こよう	もっと　つよいの　さがして　こよう
+	done				done			done						
+														
+_Route11Text11::				_Route11Text11::										
+	text	DIGLETT's CAVE			text	地鼠洞穴		text	地鼠洞穴	DIGLETT's CAVE	Diglett’s Cave	地鼠洞穴	ディグダのあな	トレーナーぞ
+	done				done			done						きド5ま
+end				end										

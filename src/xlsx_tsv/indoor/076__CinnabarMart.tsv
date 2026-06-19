@@ -1,0 +1,13 @@
+text/CinnabarMart.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CinnabarMartText2::				_CinnabarMartText2::										
+	text	Don't they have X			text	這裡沒有		text	这里没有	Don't they have X	You wouldn’t believe how much power Saffron	金黄市的电力消费量	ヤマブキは　でんりょくの	　ぽ　ぽ　
+	line	ATTACK? It's good			line	“力量強化”賣嗎？		line	“力量强化”卖吗？	ATTACK? It's good	City burns through. It’s through the roof!	真是高得惊天动地啊！	しょうひ　りょうも	
+	cont	for battles!			para	因為它能提高		para	因为它能提高	for battles!				
+	done				line	寶可夢的攻擊，		line	宝可梦的攻击，		We’ve got to keep up the maintenance!	所以说，	ケタちがい　だねぇ！	
+					cont	所以我特別喜歡它來著……		cont	所以我特别喜欢它来着……					
+					done									
+_CinnabarMartText3::				_CinnabarMartText3::				done				平时的维修可是怠慢不得！	しっかり　メンテ　しないとねぇ！	
+	text	It never hurts to			text	道具到用時方恨少，		text	道具到用时方恨少，	It never hurts to	It never hurts to have extra items.	道具到用时方恨少，	いざ　という　ときの　ために	いざ　という　ときの　ために
+	line	have extra items!			line	多買一些備著好！		line	多买一些备着好！	have extra items!	You never know what might happen.	多买一些备着好！	どうぐは　おおめに　かうべきだね	どうぐは　おおめに　かうべきだね
+	done				done			done						
+end				end										

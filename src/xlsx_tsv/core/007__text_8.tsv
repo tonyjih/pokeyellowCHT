@@ -1,0 +1,132 @@
+data/text/text_8.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CableClubNPCPleaseWaitText::				_CableClubNPCPleaseWaitText::										
+	text	Please wait.@			text	請您稍等。@		text	请您稍等。@	Please wait.@	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	text_end				text_end			text_end				给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+											D’aww... Failed again?			
+_CableClubNPCLinkClosedBecauseOfInactivityText::				_CableClubNPCLinkClosedBecauseOfInactivityText::										
+	vc_patch	Change_link_closed_inactivity_message 			vc_patch Change_link_closed_inactivity_message			vc_patch Change_link_closed_inactivity_message 			There’s an email on the screen of the PC...	电脑里	パソコンに	 {5B} に
+	IF DEF(_YELLOW_VC)				IF DEF(_YELLOW_VC)			text	欢迎您下次再来！　			收到了一封邮件！	メールが　とどいてる！	でんしメールが　とどいてる!
+	text	Please come again!			text	歡迎您下次再來！　		done		Please come again!	“Articuno, Zapdos, and Moltres are all			…　…　…
+	done				done			text_start			legendary bird Pokémon. This we know.	火焰鸟、闪电鸟和急冻鸟	ファイヤー　サンダー　フリーザーは	でんせつの　とりポケモンは
+	text_start				text_start			text	接已停止。			是传说的鸟宝可梦。	でんせつの　とりポケモンです	3しゅるい…　ファイヤー
+	text	sed because of			text	接已停止。		text	等待的时间过长，　	sed because of	“Yet their exact whereabouts are still unknown.			サンダー　フりーザー…
+	cont	inactivity.						line	连接已停止。	inactivity.	We will be investigating the Cerulean Cave next	可是现在依然没有人知晓	しかし　どこに　いるのか	しかし　どこに　いるのか
+	ELSE				ELSE			vc_patch_end				究竟能在哪里遇到它们。	まだ　わかって　ません	まだ　わかって　ません
+	text	The link has been			text	等待的時間過長，　		para	和朋友联系之后，	The link has been	and will report back accordingly.			こんど　ハナダ　どうくつに
+	line	closed because of			line	連線已停止。		line	请再次尝试吧！	closed because of		接下来我们将	こんど　ハナダのどうくつに	ちょうさに　いきます
+	cont	inactivity.						done		inactivity.	       — The Pokémon Research Team”	前去华蓝洞窟调查。	ちょうさに　いきます	…　まずは　ほうこく　まで
+	ENDC				ENDC									ポケモン　ちょうさ　たい
+	vc_patch_end				vc_patch_end							总之先报告到这里。	まずは　ほうこく　まで	…　…　…
+										Please contact		……宝可梦调查队敬上	……ポケモン　ちょうさ　たい	
+	para	Please contact			para	和朋友聯絡之後，				your friend and				
+	line	your friend and			line	請再次嘗試吧！				come again!				
+	cont	come again!												
+	done				done									
+														
+_CableClubNPCPleaseComeAgainText::				_CableClubNPCPleaseComeAgainText::										
+	text	Please come again!			text	歡迎下次再來！		text	是吗……！	OK! Please come	Oh, you don’t have enough money!	哎呀，你的钱不够啊！	ありゃ　おかねが　たりないよ！	また　きてね
+	done				done			line	欢迎下次再来。	again!	Please come back again!	欢迎下次再来！	また　きてね！	
+								done						
+_CableClubNPCMakingPreparationsText::				_CableClubNPCMakingPreparationsText::										
+	text	We're making			text	我們仍在準備中，		text	我们仍在准备中，	We're making	You there, m[VAR GENDBR(00FF,0808)]on petita petite!	我说！	ほら！	ほら!
+	line	preparations.			line	請您稍後再來吧。		line	请您稍后再来吧。	preparations.	We’re busy here!	你站在那里很碍事啊有没有！	そこの　きみ　じゃまだよ！	そこの　きみ　じゃまだよ!
+	cont	Please wait.			done			done		Please wait.				どいた　どいた!
+	done										Out of the way! Shoo! Shoo!	让开让开！	どいた　どいた！	
+														
+_FlashLightsAreaText::				_FlashLightsAreaText::										
+	text	A blinding FLASH			text	炫目的光芒		text	炫目的光芒	A blinding FLASH	Hey!	我翻我翻……！	ガサゴソ……！	ガサゴソ…!
+	line	lights the area!			line	照亮了四周……		line	照亮了四周……	lights the area!	There’s a switch under the trash?!	嘿哟！垃圾箱底	おっと！　ゴミばこの　そこに	おっと!　ゴミばこの　そこに
+	prompt				prompt			prompt						また　スイッチが　あった!
+											Let’s push it!	有一个开关！	スイッチが　あった！	おして　みよう!　…　ポチッとな
+_WarpToLastPokemonCenterText::				_WarpToLastPokemonCenterText::										ゲへ
+	text	Warp to the last			text	返回最後到訪過的		text	返回最后到访过的	Warp to the last	There are Pokémon magazines on the shelves.	这里陈列着宝可梦的杂志！	ポケモンざっしが　ならんでる！	　ぽ　ぽ　
+	line	#MON CENTER.			line	寶可夢中心。		line	宝可梦中心。	#MON CENTER.				
+	done				done			done			And Pokémon notebooks...	……宝可梦手册	……ポケモンてちょう	
+														
+_CannotUseTeleportNowText::				_CannotUseTeleportNowText::							And Pokémon graphs, too!	……宝可梦图表	……ポケモングラフ	
+	text_ram	wcd6d			text_ram	wcd6d		text_ram	wcd6d	wcd6d	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	text	 can't			text_start			text_start		 can't	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	line	use TELEPORT now.			line	不能在這裡使用瞬間移動！		line	不能在这里使用瞬间移动！	use TELEPORT now.				…　シルフ　カンパニー
+	prompt				prompt			prompt				……西尔佛公司	……シルフカンパニー	
+														
+_CannotFlyHereText::				_CannotFlyHereText::										
+	text_ram	wcd6d			text_ram	wcd6d		text_ram	wcd6d	wcd6d	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	text	 can't			text_start			text_start		 can't	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	line	FLY here.			line	不能在這裡飛翔！		line	不能在这里飞翔！	FLY here.				…　シルフ　カンパニー
+	prompt				prompt			prompt				……西尔佛公司	……シルフカンパニー	
+														
+_NotHealthyEnoughText::				_NotHealthyEnoughText::										
+	text	Not healthy			text	體力不足。		text	体力不足。	Not healthy	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	enough.			prompt			prompt		enough.	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt													
+														
+_NewBadgeRequiredText::				_NewBadgeRequiredText::										
+	text	No! A new BADGE			text	直到得到新的徽章以前		text	直到得到新的徽章以前	No! A new BADGE	“Diary: July 5	日记　７月５日	にっき　７がつ５か	にっき　7がつ5か
+	line	is required.			line	無法使用！		line	无法使用！	is required.	We discovered a new Pokémon deep in			ここは　みなみアメりカの　ギアナ
+	prompt				prompt			prompt				我们在丛林的深处	ジャングルの　おくちで	ジャングルの　おくちで
+											the jungle.”	发现了新种宝可梦。	しんしゅの　ポケモンを　はっけん	しんしゅの　ポケモンを　はっけん
+_CannotUseItemsHereText::				_CannotUseItemsHereText::										
+	text	You can't use items			text	不能在這裡		text	不能在这里	You can't use items	Oops! You can’t use it here. Try again later!	无法在此使用。	ここでは　つかえません	ここでは@
+	line	here.			line	使用道具！		line	使用道具！	here.				
+	prompt				prompt			prompt						
+														
+_CannotGetOffHereText::				_CannotGetOffHereText::										
+	text	You can't get off			text	這裡不能下來。		text	这里不能下来。	You can't get off	Oops! You can’t use it here. Try again later!	无法在此使用。	ここでは　つかえません	ここでは@
+	line	here.			prompt			prompt		here.				
+	prompt													
+														
+_UsedStrengthText::				_UsedStrengthText::										
+	text_ram	wcd6d			text_ram	wcd6d		text_ram	wcd6d	wcd6d	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	text	 used			text	使用了		text	使用了	 used	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	line	STRENGTH.@			line	怪力。@		line	怪力。@	STRENGTH.@				
+	text_end				text_end			text_end						
+														
+_CanMoveBouldersText::				_CanMoveBouldersText::										
+	text_ram	wcd6d			text	多虧了		text	多亏了	wcd6d	Yay!	哇～哦！	わーい！	わーい!
+	text	 can			line	@		line	@	 can				ミックスオレ　くれるの?
+	line	move boulders.			text_ram	wcd6d		text_ram	wcd6d	move boulders.	Lemonade!	这个果汁牛奶是送给我的吗？	ミックスオレ　くれるの？	ごちそうさま!
+	prompt				text	的怪力，		text	的怪力，					おれいに　わたしの　たからもの
+					cont	現在可以推動石塊了！		cont	现在可以推动石块了！		Thank you!	多谢款待！	ごちそうさま！	これ　あげるね!@ゼ@
+					prompt									
+_CurrentTooFastText::				_CurrentTooFastText::				prompt			You can have this from me!			
+	text	The current is			text	不行，		text	不行，	The current is	“Diary: Sept. 1	日记　９月１日	にっき　９がつ１にち	がつ1にち
+	line	much too fast!			line	水流過於湍急！		line	水流过于湍急！	much too fast!	Mewtwo is far too powerful.	超梦实在太强了。	ポケモン　ミュウツーは　つよすぎる	ポケモン　ミュウツーは　つよすぎる
+	prompt				prompt			prompt						ダメだ…
+											“We have failed to curb its vicious tendencies...”	不行……	ダメだ……	わたしの　てには　おえない!
+_CyclingIsFunText::				_CyclingIsFunText::								我应付不来！	わたしの　てには　おえない！	
+	text	Cycling is fun!			text	難得騎上了腳踏車了，		text	难得骑上了自行车了，	Cycling is fun!	This Pokémon Gym is always closed...	不管什么时候来，	いつ　きても	いつ　きても
+	line	Forget SURFing!			line	……就不要衝浪了吧。		line	……就不要冲浪了吧。	Forget SURFing!		这里的道馆总是关着门……	この　ポケモンジムは　しまっとる	この　ポケモン　ジムは　しまっとる
+	prompt				prompt			prompt			I wonder who the Gym Leader is...			いったい　どんな　ヤツが
+												不知道这里的馆主	いったい　どんな　ヤツが	りーダーを　しとるんじゃろか?
+_GotMonText::				_GotMonText::								究竟是怎样的家伙啊？	リーダーを　しとるんじゃろか？	
+	text	<PLAYER> got			text	<PLAYER>得到了					“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	@			line	@					2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_ram	wcd6d			text_ram	wcd6d								
+	text	!@			text	！@								
+	text_end				text_end									
+														
+_SentToBoxText::				_SentToBoxText::										
+	text	There's no more			text	由於寶可夢已滿！		text	由于宝可梦已满！	There's no more	Hello there!	哎哟哟！	やあ　やあ！	やあ　やあ!
+	line	room for #MON!			line	@		line	@	room for #MON!				わたしは　いつも　きみが
+	cont	@			text_ram	wBoxMonNicks 		text_ram	wBoxMonNicks 	@	I’ve been watching you walk right past me this	我眼巴巴地看你	わたしは　いつも　きみが	そこを　とおるのを　みてたが
+	text_ram	wBoxMonNicks 			text	被傳送至		text	被传送至	wBoxMonNicks 	whole time, and I was hoping you’d come to visit	走来走去无数次……	そこを　とおるのを　みてた……	やっと　あう　ことが　できた!
+	text	 was			cont	電腦的@		cont	电脑的@	 was				それでは　とっておきの
+	cont	sent to #MON			text_ram	wStringBuffer		text_ram	wStringBuffer	sent to #MON	me someday.	不知道你何时才能走过来，	いつ　きて　くれるかな　って	これを!　きみに　あげよう!
+	cont	BOX @			text	號盒子！		text	号盒子！	BOX @		我的心里寂寞得	もう　ほんと　さみしく　みてた	
+	text_ram	wStringBuffer			done			done		wStringBuffer	I was really lonely...			
+	text	 on PC!								 on PC!		就像是秋风扫落叶啊……	どうして　こんな　いえの　まえに	
+	done										Why did I make a pond right in front of		いけを　つくって　しまったのか……	
+											my house...?	我为啥要在家的正前方		
+_BoxIsFullText::				_BoxIsFullText::								造这么个破池子啊……		
+	text	There's no more			text	由於寶可夢已滿！		text	由于宝可梦已满！	There's no more	My big brother Bill’s job is transferring Pokémon	正辉哥哥在做	マサキ　にいちゃん	　『　…　 {next} 
+	line	room for #MON!			para	寶可夢盒子也已滿		para	宝可梦盒子也已满	room for #MON!	so people can send Pokémon to one another!	宝可梦传送的工作哦！	ポケモンの　てんそう　っていう	
+					line	且無法存入更多寶可夢！		line	且无法存入更多宝可梦！	The #MON BOX				
+	para	The #MON BOX			para	請在寶可夢中心		para	请在宝可梦中心	is full and can't	He’s the one who developed the Box system.	开发出宝可梦盒的人	しごと　してるんだよ！	
+	line	is full and can't			line	更換為其他盒子！		line	更换为其他盒子！	accept any more!		也是正辉哥哥！		
+	cont	accept any more!			done			done		Change the BOX at	Oh, and you know the GO Park complex?		ボックスを　かいはつ	
+										a #MON CENTER!		GO Park也是哥哥和	したのは　にいちゃん！	
+	para	Change the BOX at									He made that, too, with some professor from	遥远地区的博士一起建造出来的呢！		
+	line	a #MON CENTER!									a faraway region.		ＧＯパークも　にいちゃんと	
+	done												とおい　ちほうの　はかせが	
+end				end										
+													いっしょに　つくったんだ！	

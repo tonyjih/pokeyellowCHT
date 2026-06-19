@@ -1,0 +1,119 @@
+text/SilphCo11F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SilphCoPresidentText::				_SilphCoPresidentText::										
+	text	PRESIDENT: Thank			text	社長：喔～！小夥子！		text	社长：喔～！小伙子！	PRESIDENT: Thank	I have to thank you in some way. And I’m quite	哦！对了！	おお！　そうだ	わたし　フレンドりィショップの
+	line	you for saving			line	謝謝你拯救了我們！		line	谢谢你拯救了我们！	you for saving	magnanimous, so I can give you anything.	我必须得好好谢谢你！	おれいを　さしあげなくては！	てんいん　です
+	cont	SILPH!			para	我永遠都會記得，		para	我永远都会记得，	SILPH!				べんりな　どうぐや　ですから
+					line	在最危急的時候，		line	在最危急的时候，	I will never	Here, maybe this will do?	我是个大方的人，	わたしは	トキワ　シティで
+	para	I will never			cont	是你勇敢地幫助了我！		cont	是你勇敢地帮助了我！	forget you saved		你想要什么我都可以给你。	ふとっぱらで　ある　からして	ぜひ　よって　くださいね!
+	line	forget you saved			para	哦！對了！		para	哦！对了！	us in our moment				そうだ!
+	cont	us in our moment			line	我必須得好好謝謝你！		line	我必须得好好谢谢你！	of peril!		比如说这个，	ほれ	みほんを　さしあげましょう
+	cont	of peril!			para	我是個大方的人，		para	我是个大方的人，	I have to thank		你看看还满意吗？	こーんな　ものでは　いかがかな？	…　どうぞ!
+					line	你想要什麼我都可以給你。		line	你想要什么我都可以给你。	you in some way!				
+	para	I have to thank			para	比如說這個，		para	比如说这个，	Because I am rich,				
+	line	you in some way!			line	你看看還滿意嗎？		line	你看看还满意吗？	I can give you				
+					prompt			prompt		anything!				
+	para	Because I am rich,								Here, maybe this				
+	line	I can give you								will do!				
+	cont	anything!												
+														
+	para	Here, maybe this												
+	line	will do!												
+	prompt													
+														
+_ReceivedSilphCoMasterBallText::				_ReceivedSilphCoMasterBallText::										
+	text	<PLAYER> got a			text	<PLAYER>從社長那裡		text	<PLAYER>从姐姐那里	<PLAYER> got a	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	@			line	得到了@		line	得到了@	@	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	text_ram	wStringBuffer			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer				…　シルフ　カンパニー
+	text	!@			text	！@		text	！@	!@		……西尔佛公司	……シルフカンパニー	
+	text_end				text_end			text_end						
+														
+_SilphCo10Text_6231c::				_SilphCo10Text_6231c::										
+	text	PRESIDENT: You			text	社長：這個是……		text	社长：这个是……	PRESIDENT: You	PRESIDENT: You can’t buy that anywhere.	社长：这是大师球！	しゃちょう『どこにも　うってない	だけに…!
+	line	can't buy that			line	去哪裡都買不到的，		line	去哪里都买不到的，	can't buy that	It’s our secret prototype, the Master Ball.	它是我们秘密研发中的样品，	ひみつの　しさくひん	いい　おはなしが　ありまして
+	cont	anywhere!			para	秘密研發中的樣品，		para	秘密研发中的样品，	anywhere!				ひみつの　ポケモン　コイキングが
+					line	大師球！		line	大师球！	It's our secret		去哪里都买不到喔！	マスターボール！	なんと　たったの　500円!
+	para	It's our secret			para	只要投擲出去，就肯定能		para	只要投掷出去，就肯定能	prototype MASTER				どうだい　かうかね?
+	line	prototype MASTER			line	把寶可夢捕捉到手！		line	把宝可梦捕捉到手！	BALL!				
+	cont	BALL!			para	你就偷偷地……		para	你就偷偷地……	It will catch any				
+					line	偷偷地用一用吧。		line	偷偷地用一用吧。	#MON without				
+	para	It will catch any			done			done		fail!				
+	line	#MON without								You should be				
+	cont	fail!								quiet about using				
+										it, though.				
+	para	You should be												
+	line	quiet about using												
+	cont	it, though.												
+	done													
+														
+_SilphCoMasterBallNoRoomText::				_SilphCoMasterBallNoRoomText::										
+	text	You have no			text	持有物已滿了哦。		text	持有物已满了哦。	You have no	Hiyah!	嘿呀！	チェストー！	チェストー!
+	line	room for this.			done			done		room for this.	I have no fear for anything tough!	硬物根本不足为惧！	かたい　もの　など　こわく　ない！	かたい　もの　など　こわく　ない!
+	done													まいにち　こぶしで
+											I shatter boulders for training every day!	我每天都在练习	まいにち　こぶしで	いわを　わる　れんしゅう　してる!
+_SilphCo11Text2::				_SilphCo11Text2::								使用拳头击碎岩石！	いわを　わる　れんしゅう　してる！	
+	text	SECRETARY: Thank			text	秘書：這次能平安獲救，		text	秘书：这次能平安获救，	SECRETARY: Thank	SECRETARY: Thank you for rescuing all of us.	秘书：这次能平安获救，	ひしょ『このたびは　たすけて	ひしょ『このたびは　たすけて
+	line	you for rescuing			line	真的非常感謝你！		line	真的非常感谢你！	you for rescuing		真的非常感谢你！	いただいて　ありがとう　ございます	いただいて　ありがとう　ございます
+	cont	all of us!			para	社長及全體員工		para	社长及全体员工	all of us!	We, from the president on down, are indebted			しゃちょう　ともども
+					line	都對你表示衷心的感謝！		line	都对你表示衷心的感谢！	We admire your	to you for what you did.	社长及全体员工	しゃちょう　ともども	かんしゃの　きもちで　いっぱいです
+	para	We admire your			done			done		courage.		都对你表示衷心的感谢！	かんしゃの　きもちで　いっぱいです	
+	line	courage.												
+	done													
+														
+_SilphCo11Text3::				_SilphCo11Text3::										
+	text	Ah, <PLAYER>!			text	呵，是<PLAYER>嗎？		text	呵，是<PLAYER>吗？	Ah <PLAYER>!	GIOVANNI: Ah. Young [VAR TRNAME(0000)].	坂木：呵，是[VAR TRNAME(0000)]吗？	サカキ『おお　[VAR TRNAME(0000)]か？	おお　 {PLAYER} か?
+	line	So we meet again!			line	我們又見面了！		line	我们又见面了！	So we meet again!	So we meet again!	我们又见面了！	また　あったな！	また　あったな!
+					para	我正在和西爾佛的社長		para	我正在和西尔佛的社长	The PRESIDENT and				おれは　いま　シルフの　しゃちょうと
+	para	The PRESIDENT and			line	討論重要的商業計劃。		line	讨论重要的商业计划。	I are discussing	The president of Silph and I are discussing	我正在和西尔佛的社长	おれは　いま　シルフの　しゃちょうと	しごとの　はなしを　してるんだ
+	line	I are discussing			para	像你這樣的小孩子，		para	像你这样的小孩子，	a vital business	a vital business proposition.	讨论重要的商业计划。	しごとの　はなしを　してるんだ	おとなの　せかいに
+	cont	a vital business			line	就別在大人的世界		line	就别在大人的世界	proposition.				くちを　はさまないで　もらいたい
+	cont	proposition.			cont	瞎摻和了！		cont	瞎掺和了！	Keep your nose	Keep your nose out of grown-up matters...	像你这样的小孩子，	おとなの　せかいに	どうしても　というなら
+					para	如果你無論如何都想插手，		para	如果你无论如何都想插手，	out of grown-up		就别在大人的世界里瞎掺和了！	くちを　はさまないで　もらいたい	いたいめに　あって　もらうぞ!
+	para	Keep your nose			line	那我也只能讓你		line	那我也只能让你	matters...				
+	line	out of grown-up			cont	吃些苦頭了！		cont	吃些苦头了！	Or, experience a				
+	cont	matters...			done			done		world of pain!				
+														
+	para	or, experience a												
+	line	world of pain!												
+	done													
+														
+_SilphCo10Text_62330::				_SilphCo10Text_62330::										
+	text	Arrgh!!			text	嗚啊！		text	呜啊！	Arrgh!!	Argh!	呜啊！	はぐ！	はぐ!
+	line	I lost again!?			line	我竟然輸了！		line	我竟然输了！	I lost again!?	I lost again?!	我竟然输了！	この　おれが　まける　なんて！	この　おれが　まける　なんて!
+	prompt				prompt			prompt						
+														
+_SilphCo10Text_62335::				_SilphCo10Text_62335::										
+	text	Blast it all!			text	可惡……沒辦法！		text	可恶……没办法！	Blast it all!	MISTY: I heard an interesting rumor!	小霞：我听到传闻了！听说你	カスミ『うわさは　きいたわ！	 {next} 
+	line	You ruined our			line	我只能暫時放棄西爾佛了！		line	我只能暂时放弃西尔佛了！	You ruined our	Not only did you and that other kid defeat	和另一个孩子不但战胜了火箭队，	きみや　あのこが	@
+	cont	plans for SILPH!			para	不過，		para	不过，	plans for SILPH!				 {PLAYER}  {RIVAL} ポケモン
+					line	我們火箭隊是不會倒下的！		line	我们火箭队是不会倒下的！	But, TEAM ROCKET	those Team Rocket guys, but you also	还互相争夺了联盟冠军是吧。	ロケットだんを　たおして	…
+	para	But, TEAM ROCKET			para	<PLAYER>，你聽好了！		para	<PLAYER>，你听好了！	will never fall!				
+	line	will never fall!			line	這世上所有的寶可夢		line	这世上所有的宝可梦	<PLAYER>! Never	met again in the battle for Champion.	……我啊！简直是	チャンピオンを　きそい　あったって	 {TARGET}  {USER}  {5B}  {5C} トレーナーロケットだん
+					cont	都是為火箭隊而存在的！		cont	都是为火箭队而存在的！	forget that all		心痒痒到不行了呢！		
+	para	<PLAYER>! Never			cont	你最好給我記住！		cont	你最好给我记住！	#MON exist	Argh!		……わたし！　もう	
+	line	forget that all			para	那麼……！		para	那么……！	for TEAM ROCKET!	I just can’t take it anymore!	我真的忍不住想快点和	うずうずして　しょうが　ないの	
+	cont	#MON exist			line	我就先告辭了！		line	我就先告辞了！	I must go, but I		变强的你再次对战了！		
+	cont	for TEAM ROCKET!			done			done		shall return!	You’ve gotten so strong that I just absolutely		つよくなった　きみと　もういちど	
+											have to battle you again!	你应该不会对我说“不”吧！	たたかって　みたくて　たまらない！	
+	para	I must go, but I												
+	line	shall return!									You got that? No refusing!		いやとは　いわない　わよね！	
+	done													
+														
+_SilphCo11BattleText2::				_SilphCo11BattleText2::										
+	text	Halt! Do you have			text	什麼！你找我們老大		text	什么！你找我们老大	Halt! Do you have	Do you think you could keep an eye on	在我去博物馆的期间，你能不能	よかったら　ちょっとの　あいだ	きみの　ピカチュウ
+	line	an appointment			line	到底有何貴幹！		line	到底有何贵干！	an appointment	my dear Slowpoke for a little while?	帮我照看一下小呆呆兽呢？	ヤドンちゃん　みててくれない？	なついてないようだが　よかったら
+	cont	with my BOSS?			done			done		with my BOSS?				むすめに　ゆずって　くれないか?
+	done													
+														
+_SilphCo11EndBattleText2::				_SilphCo11EndBattleText2::										
+	text	Gaah!			text	嗚哇——！		text	呜哇——！	Gaah!	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	Demolished!			line	被打敗了！		line	被打败了！	Demolished!		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	prompt				prompt			prompt			D’aww... Failed again?			
+														
+_SilphCo11AfterBattleText2::				_SilphCo11AfterBattleText2::										
+	text	Watch your step,			text	醜話說在前頭，		text	丑话说在前头，	Watch your step,	You completed your Pokédex? Impressive!	你完成图鉴了？	ずかん　できたの？	を　もらって
+	line	my BOSS likes his			line	我們老大非常厲害，		line	我们老大非常厉害，	my BOSS likes his		有两下子嘛！	すごい　じゃんー！	ポケモン　ずかん　あつめに
+	cont	#MON tough!			cont	你可別逞能啊！		cont	你可别逞能啊！	#MON tough!	But you still have a long way to go...			でかけた　ころと　くらべると
+	done				done			done				不过你的冒险	でも　きみの　ぼうけんは	たくましく　なったな!
+end				end							Just kidding!	才刚刚开始啊！	まだまだ　これからだ！	…　いやいや!
+														 {PLAYER} は　おとなに　なった!
+												逗你玩的！	なんちって　ね！	

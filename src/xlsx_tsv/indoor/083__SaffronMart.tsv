@@ -1,0 +1,15 @@
+text/SaffronMart.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SaffronMartText2::				_SaffronMartText2::										
+	text	MAX REPEL lasts			text	如果你用了黃金噴霧，		text	如果你用了黄金喷雾，	MAX REPEL lasts	Max Repel keeps wild Pokémon	如果你用了黄金喷雾，	ゴールドスプレーは　やせいの	ゴールドスプレーは
+	line	longer than SUPER			line	弱小的的寶可夢		line	弱小的的宝可梦	longer than SUPER	from appearing.	野生的宝可梦就不会接近你了。	ポケモンを　よせ　つけない	よわい　ポケモンを　よせ　つけない
+	cont	REPEL for keeping			cont	就不會接近你了。		cont	就不会接近你了。	REPEL for keeping				シルバースプレー　より
+	cont	weaker #MON			cont	據說效果比白銀噴霧要好。		cont	据说效果比白银喷雾要好。	weaker #MON	I also heard it lasts longer than Super Repel.	据说效果比	シルバースプレー　より	ながもち　するって
+	cont	away!			done			done		away!		白银喷雾要好。	ながもち　するって	
+	done													
+														
+_SaffronMartText3::				_SaffronMartText3::										
+	text	REVIVE is costly,			text	活力碎片雖然貴，但是它能		text	活力碎片虽然贵，但是它能	REVIVE is costly,	A Revive might be expensive, but it can revive	活力碎片虽然贵，但是它能	げんきのかけら　たかい　けど	げんきのかけら　たかい　けど
+	line	but it revives			line	讓無法戰鬥的寶可夢		line	让无法战斗的宝可梦	but it revives	a fainted Pokémon! It’s pretty amazing!	让无法战斗的宝可梦恢复活力，	せんとうふのうの　ポケモンが	せんとうふのうの　ポケモンが
+	cont	fainted #MON!			cont	恢復活力，真的很厲害呢！		cont	恢复活力，真的很厉害呢！	fainted #MON!				げんきに　なるの　すごいわ!
+	done				done			done				真的很厉害呢！	げんきに　なるの　すごいわ！	
+end				end										

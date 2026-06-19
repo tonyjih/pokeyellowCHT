@@ -1,0 +1,158 @@
+text/Route25.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route25BattleText1::				_Route25BattleText1::										
+	text	Local trainers			text	附近的訓練家		text	附近的训练家	Local trainers	Local Trainers come here to practice.	附近的训练家	この　あたりは　きんじょの	この　はやしは　きんじょの
+	line	come here to			line	常來這附近練習！		line	常来这附近练习！	come here to		常来这附近练习！	トレーナーが	トレーナーが
+	cont	practice!			done			done		practice!				れんしゅうに　くる　ばしょさ!
+	done												れんしゅうに　くるのさ！	
+														
+_Route25EndBattleText1::				_Route25EndBattleText1::										
+	text	You're			text	你還真有一套啊。		text	你还真有一套啊。	You're	You’re decent.	你还真有一套啊。	なかなか　できるね	なかなか　できるね
+	line	decent.			prompt			prompt		decent.				
+	prompt													
+														
+_Route25AfterBattleText1::				_Route25AfterBattleText1::										
+	text	All #MON have			text	任何一隻寶可夢		text	任何一只宝可梦	All #MON have	All Pokémon have weaknesses.	任何一只宝可梦再怎么强大，	ポケモンは　１ぴきだけ　つよくても	ポケモンは　1ぴきだけ　つよくても
+	line	weaknesses. It's			line	再怎麼強大，都有自己		line	再怎么强大，都有自己	weaknesses. It's	Even the strongest ones.	都有自己不擅长应付的属性。	にがてな　タイプには　かてない	にがてな　タイプには　かてない
+	cont	best to raise			cont	不擅長應付的屬性。		cont	不擅长应付的属性。	best to raise				たくさん　そだてる　ほうが　いいよ
+	cont	different kinds.			para	還是多培育		para	还是多培育	different kinds.	That’s why it’s best to raise Pokémon of	还是多培育几只宝可梦比较好。	たくさん　そだてる　ほうが　いいよ	
+	done				line	幾隻寶可夢比較好。		line	几只宝可梦比较好。		different types.			
+					done			done						
+_Route25BattleText2::				_Route25BattleText2::										
+	text	Dad took me to a			text	爸爸帶我去參加了停靠在		text	爸爸带我去参加了停靠在	Dad took me to a	Dad took me to a great party being held on	爸爸带我去参加了停靠在	クチバの　みなとで　やってる	アンヌ　ごうの　パーティ
+	line	great party on			line	枯葉港的聖特安努號上的		line	枯叶港的圣特安努号上的	great party on	the S.S. Anne at Vermilion Port.	枯叶港的圣特安努号上的	サント・アンヌごうの　パーティ	パパと　いったぜ　いいだろー!
+	cont	S.S.ANNE at			cont	派對呢，厲害吧！		cont	派对呢，厉害吧！	S.S.ANNE at				
+	cont	VERMILION CITY!			done			done		VERMILION CITY!	It was fun!	派对呢，厉害吧！	パパと　いったぜ　いいだろー！	
+	done													
+														
+_Route25EndBattleText2::				_Route25EndBattleText2::										
+	text	I'm			text	我不後悔。		text	我不后悔。	I'm	I’m not mad!	我不后悔。	くやしく　ないもん	くやしく　ないもん
+	line	not mad!			prompt			prompt		not mad!				
+	prompt													
+														
+_Route25AfterBattleText2::				_Route25AfterBattleText2::										
+	text	On S.S.ANNE, I			text	聖特安努號上全是來自		text	圣特安努号上全是来自	On S.S.ANNE, I	On the S.S. Anne, I saw Trainers from around	圣特安努号上全是来自	サント・アンヌごう　には	アンヌ　ごう　は
+	line	saw trainers from			line	世界各地的訓練家哦！		line	世界各地的训练家哦！	saw trainers from	the world.	世界各地的训练家哦！	せかいの　トレーナーが	せかいの　トレーナーが
+	cont	around the world.			done			done		around the world.				いっぱい　いたよ
+	done												いっぱい　いたよ	
+														
+_Route25BattleText3::				_Route25BattleText3::										
+	text	I'm a cool guy.			text	我是童子軍，		text	我是童子军，	I'm a cool guy.	Now, don’t go telling everyone I’m a spy, OK?	你要是告诉别人我的真实身份……	わたしが　スパイな　こと	セキチク　シティ　サファり　ゾーン
+	line	I've got a girl			line	我女朋友是迷你裙！		line	我女朋友是迷你裙！	I've got a girl	If you do, I’ll have to give you a scolding!	我可是饶不了你的喔！！	もし　バラしたら……	いった　こと　あるかね?
+	cont	friend!			done			done		friend!				あそこは　めずらしい　ポケモンが
+	done												メッ！！　だからね	たくさん　いた!
+														
+_Route25EndBattleText3::				_Route25EndBattleText3::										
+	text	Aww,			text	哎呀呀……		text	哎呀呀……	Aww,	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	darn...			prompt			prompt		darn...		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	prompt										D’aww... Failed again?			
+														
+_Route25AfterBattleText3::				_Route25AfterBattleText3::										
+	text	Oh well. My girl			text	嗯……算了。		text	嗯……算了。	Oh well. My girl	Oh well.	嗯……算了。	ま……　いっか	ま…　いっか
+	line	will cheer me up.			line	我女朋友會安慰我的。		line	我女朋友会安慰我的。	will cheer me up.	My girlfriend will cheer me up.	我女朋友会安慰我的。	かのじょに　なぐさめて　もらおう	かのじょに　なぐさめて　もらおう
+	done				done			done						
+														
+_Route25BattleText4::				_Route25BattleText4::										
+	text	Hi! My boy			text	我是迷你裙，		text	我是迷你裙，	Hi! My boy	This Pokémon Gym is always closed...	不管什么时候来，	いつ　きても	いつ　きても
+	line	friend is cool!			line	我男朋友是童子軍！		line	我男朋友是童子军！	friend is cool!		这里的道馆总是关着门……	この　ポケモンジムは　しまっとる	この　ポケモン　ジムは　しまっとる
+	done				done			done			I wonder who the Gym Leader is...			いったい　どんな　ヤツが
+												不知道这里的馆主	いったい　どんな　ヤツが	りーダーを　しとるんじゃろか?
+_Route25EndBattleText4::				_Route25EndBattleText4::								究竟是怎样的家伙啊？	リーダーを　しとるんじゃろか？	
+	text	I'm in			text	狀態不好。		text	其实我现在正在	Right now, I'm in	I’m having a meeting with an important client.	我正在和客户开会呢。	おとくいさまと	ぼくは　クラスで　いちばん　つよい!
+	line	a slump!						line	进行铁人三项！	a triathlon meet!			かいぎ　してるんだ	まいあさ　れんしゅうも　してるんだ!
+	prompt				prompt			done			You want to join in?	……你也想一起参加吗？		
+													……きみも　まざる？	
+_Route25AfterBattleText4::				_Route25AfterBattleText4::										
+	text	I wish my guy was			text	我男朋友要是也能像你		text	我男朋友要是也能像你	I wish my guy was	I wish my boyfriend were as strong as you.	我男朋友要是也能像你	わたしの　かれも	わたしの　かれも
+	line	as good as you!			line	這麼厲害就好了。		line	这么厉害就好了。	as good as you!		这么厉害就好了。	きみ　くらい　つよいと　いいのに	きみ　くらい　つよいと　いいのに
+	done				done			done						
+														
+_Route25BattleText5::				_Route25BattleText5::										
+	text	I knew I had to			text	唔……！		text	唔……！	I knew I had to	I had this feeling...	唔……！	む……！	む…!
+	line	fight you!			line	我預感你我之間必有一戰！		line	我预感你我之间必有一战！	fight you!	I knew I had to battle you!	我预感你我之间必有一战！	きみと　ぼくは　たたかう　よかん	きみと　ぼくは　たたかう　よかん
+	done				done			done						
+														
+_Route25EndBattleText5::				_Route25EndBattleText5::										
+	text	I knew			text	之前就預感		text	之前就预感	I knew	I knew I’d lose, too!	之前就预感我要输了。	まけそうな	まけそうな
+	line	I'd lose too!			line	我要輸了。		line	我要输了。	I'd lose too!			よかんが　したよ	よかんが　したよ
+	prompt				prompt			prompt						
+														
+_Route25AfterBattleText5::				_Route25AfterBattleText5::										
+	text	If your #MON			text	你的寶可夢要是混亂了，		text	你的宝可梦要是混乱了，	If your #MON	If your Pokémon gets confused, switch it out.	你的宝可梦要是混乱了，	こんらん　して　しまったら	まきつきや　こんらんを　うけたら
+	line	gets confused or			line	立刻把它替換下場		line	立刻把它替换下场	gets confused or	That’s a good tactic.	立刻把它替换下场	さっさと　ポケモンを　とりかえる	さっさと　ポケモンを　とりかえる
+	cont	falls asleep,			cont	也不失為一個好辦法。		cont	也不失为一个好办法。	falls asleep,				さくせんも　いいね
+	cont	switch it!			done			done		switch it!		也不失为一个好办法。	さくせんも　いいね	
+	done													
+														
+_Route25BattleText6::				_Route25BattleText6::										
+	text	My friend has a			text	我朋友手上有好多好多		text	我朋友手上有好多好多	My friend has a	My friend has many cute Pokémon.	我朋友手上有好多好多	ともだちが　かわいい　ポケモン	ともだちが　かわいい　ポケモン
+	line	cute #MON.			line	可愛的寶可夢。		line	可爱的宝可梦。	cute #MON.	I’m so jealous!	可爱的宝可梦。	いっぱい　もってるの	いっぱい　もってるの
+	cont	I'm so jealous!			cont	……我不甘心！		cont	……我不甘心！	I'm so jealous!				…　くやしいわ!
+	done				done			done				……我不甘心！	……くやしいわ！	
+														
+_Route25EndBattleText6::				_Route25EndBattleText6::										
+	text	I'm			text	我才沒有不甘心！		text	我不后悔。	I'm	I’m not jealous at all!	我不后悔。	くやしく　ないもん	くやしく　ないもん
+	line	not so jealous!			prompt			prompt		not so jealous!				
+	prompt													
+														
+_Route25AfterBattleText6::				_Route25AfterBattleText6::										
+	text	You came from MT.			text	你是從月見山那裡來的？		text	你是从月见山那里来的？	You came from MT.	You came from Mt. Moon?	你是从月见山那里来的？	オツキミやま　から　きたの？	オツキミやま　から　きたの?
+	line	MOON? May I have			line	那我想要一隻皮皮！		line	那我想要一只皮皮！	MOON? May I have	May I have a Clefairy?	那我想要一只皮皮！	じゃ　あたし　ピッピ　ほしーい！	じゃ　あたし　ピッピ　ほしーい!
+	cont	a CLEFAIRY?			cont	給我嘛，好不好？		cont	给我嘛，好不好？	a CLEFAIRY?				ねえ　ちょうだい
+	done				done			done				给我嘛，好不好？	ねえ　ちょうだい	
+														
+_Route25BattleText7::				_Route25BattleText7::										
+	text	I just got down			text	雖然我剛從月見山上下來，		text	虽然我刚从月见山上下来，	I just got down	I just got down from Mt. Moon, but I’ve still got	虽然我刚从月见山上下来，	オツキミやま　から	オツキミ　やま　から
+	line	from MT.MOON,			line	但我依然精力充沛！		line	但我依然精力充沛！	from MT.MOON,	gas in the tank!	但我依然精力充沛！	おりてきた　ばかりだが	おりてきた　ばかりだが
+	cont	but I'm ready!			done			done		but I'm ready!				まだまだ　げんき!
+	done												まだまだ　げんき！	
+														
+_Route25EndBattleText7::				_Route25EndBattleText7::										
+	text	You			text	你很努力！		text	你很努力！	You	You worked hard!	你很努力！	がんばるなあ	トレーナーぞ
+	line	worked hard!			prompt			prompt		worked hard!				きド5ま
+	prompt													
+														
+_Route25AfterBattleText7::				_Route25AfterBattleText7::										
+	text	Drat!			text	可惡，我被洞穴裡的		text	可恶，我被洞穴里的	Drat!	Drat!	可恶，我被洞穴里的	くそッ	くそッ
+	line	A ZUBAT bit me			line	超音蝠咬到了。		line	超音蝠咬到了。	A ZUBAT bit me	A Zubat bit me back in that cave.	超音蝠咬到了。	どうくつの　なかで	どうくつの　なかで
+	cont	back in there.			done			done		back in there.				ズバットに　かまれちまった
+	done												ズバットに　かまれちまった	
+														
+_Route25BattleText8::				_Route25BattleText8::										
+	text	I'm off to see a			text	我想去見見那個住在海角		text	我想去见见那个住在海角	I'm off to see a	I’m off to see that Pokémon fanatic guy at	我想去见见那个住在海角	みさきに　すんでる	みさきに　すんでる
+	line	#MON collector			line	那裡的寶可夢狂熱迷。		line	那里的宝可梦狂热迷。	#MON collector	the cape!	那里的宝可梦狂热迷。	ポケモンマニアの　おとこに	ポケモン　マニアの　コレクション
+	cont	at the cape!			done			done		at the cape!				みに　いこうと　おもってな!
+	done												あいに　いこうと　おもってな！	
+														
+_Route25EndBattleText8::				_Route25EndBattleText8::										
+	text	You			text	我被打敗了。		text	我被打败了。	You	I give!	我输了！	まいった！	まいった!
+	line	got me.			prompt			prompt		got me.	You’ve got more technique than me.	你才是技能大师。	おまえの　ほうが　テクニシャンだ	おまえの　ほうが　テクニシャンだ
+	prompt													
+														
+_Route25AfterBattleText8::				_Route25AfterBattleText8::										
+	text	The collector has			text	雖說是狂熱迷，		text	虽说是狂热迷，	The collector has	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	many rare kinds			line	但好像就是指擁有		line	但好像就是指拥有	many rare kinds	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	of #MON.			cont	各種各樣稀有寶可夢的人。		cont	各种各样稀有宝可梦的人。	of #MON.				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_Route25BattleText9::				_Route25BattleText9::										
+	text	You're going to			text	你要去正輝家嗎？		text	你要去正辉家吗？	You're going to	You’re going to see Bill?	你要去正辉家吗？	マサキのいえに　いくのか？	マサキの　いえに　いくのか?
+	line	see BILL? First,			line	那先來和我對戰吧！		line	那先来和我对战吧！	see BILL? First,	First, we battle!	那先来和我对战吧！	そのまえに　しょうぶ　しよう！	そのまえに　しょうぶ　しよう!
+	cont	let's fight!			done			done		let's fight!				
+	done													
+														
+_Route25EndBattleText9::				_Route25EndBattleText9::										
+	text	You're			text	厲害。		text	厉害。	You're	You’re something.	厉害。	やるなあ	トレーナーぞ
+	line	something.			prompt			prompt		something.				きド5ま
+	prompt													
+														
+_Route25AfterBattleText9::				_Route25AfterBattleText9::										
+	text	The trail below			text	要回華藍市的話，		text	要回华蓝市的话，	The trail below	The trail below is a shortcut to Cerulean City.	要回华蓝市的话，	ハナダシティに　かえる　ときは	ハナダ　シティに　かえる　ときは
+	line	is a shortcut to			line	走下面的步道比較快。		line	走下面的步道比较快。	is a shortcut to		走下面的步道比较快。	したの　ほどうを　あるくと　はやい	したの　ほどうを　あるくと　はやい
+	cont	CERULEAN CITY.			done			done		CERULEAN CITY.				
+	done													
+														
+_Route25Text11::				_Route25Text11::										
+	text	SEA COTTAGE			text	這裡是海角小屋		text	这里是海角小屋	SEA COTTAGE	Sea Cottage	这里是海角小屋	ここは　みさきの　こや	ここは　みさきの　こや
+	line	BILL lives here!			line	……正輝的家		line	……正辉的家	BILL lives here!	(Bill Lives Here!)	……正辉的家	……マサキの　いえ	…　マサキの　いえ
+	done				done			done						ヅゴダガ
+end				end										

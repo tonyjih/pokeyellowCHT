@@ -1,0 +1,53 @@
+text/PokemonTower7F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_PokemonTowerJessieJamesText1::				_PokemonTowerJessieJamesText1::										
+	text	Stop right there!@			text	等一下！！@			おまち!!		“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	text_end				text_end						2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+														
+_PokemonTowerJessieJamesText2::				_PokemonTowerJessieJamesText2::										
+	text	Grampa here wanted			text	這個老頭真是吵死了，			この　じいさん　うるさくて		JESSIE: Gramps here thinks he can resist,	武藏：我们正在说服这个老头呢！	ムサシ『いま　この　じいさん	この　じいさん　うるさくて
+	line	to complain, so			line	我們就這樣好好教訓了他。			こうして　はなしあってたの		so we’re setting him straight!		せっとく　してんのよ！	こうして　はなしあってたの
+	cont	we're setting him												あたしたちを　たおさなきゃ
+	cont	straight.												じいさんは　たすけられないわよ!
+														
+	para	So render yourself			para	不打敗我們的話，			あたしたちを　たおさなきゃ					
+	line	invisible, or			line	就別想把老頭救出來了！			じいさんは　たすけられないわよ!					
+	cont	prepare to fight!												
+	done				done									
+														
+_PokemonTowerJessieJamesText3::				_PokemonTowerJessieJamesText3::										
+	text	You			text	你給我記住！			おぼえてろよー		You’ll regret this!	你给我记住！	おぼえてろよー	トレーナーぞ
+	line	will regret this!												きド5ま
+	prompt				prompt									
+														
+_PokemonTowerJessieJamesText4::				_PokemonTowerJessieJamesText4::										
+	text	Looks like TEAM			text	好討厭的感覺啊～！@			やなかんじ		JESSIE & JAMES: Looks like Team Rocket’s	火箭队：好讨厌的感觉啊～！	ロケットだん『やなかんじィー！	　ま♂
+	line	ROCKET's blasting									blasting off again!			ロケットだん
+	cont	off again!@												
+	text_end				text_end									
+														
+_TowerRescueFujiText::				_TowerRescueFujiText::										
+	text	MR.FUJI: Heh? You			text	富士：咦……		text	富士：咦……你是	MR.FUJI: Heh? You	“Here I am at the Seafoam Islands in my search	为寻找未知的宝可梦，	まだ　みぬ　ポケモン　さがしては	 {next} 
+	line	came to save me?			line	你是來救我的嗎？		line	来救我的吗？	came to save me?	for Pokémon I’ve never seen before!	我来到了双子岛！	やってきました　ふたごじま！	
+					para	……非常感謝。		para	……非常感谢。	Thank you. But, I				
+	para	Thank you. But, I			line	而我……是為了……		line	而我……是为了……	came here of my	“I came across some rapids underground that	地下水流湍急，	ちかには　ながれが　はやすぎて	
+	line	came here of my			para	撫慰卡拉卡拉的媽媽		para	抚慰卡拉卡拉的妈妈	own free will.	were too fast to swim across.	有些地方完全游不过去！	およげへん　ばしょが　あったんや	
+	cont	own free will.			line	——嘎啦嘎啦的靈魂		line	——嘎啦嘎啦的灵魂	I came to calm				
+					cont	而一路走到這裡來的。		cont	而一路走到这里来的。	the soul of	“I was exploring that area when, suddenly, I was	我正在那一带探索呢，	その　へんを　たんさくちゅう　ワイは	
+	para	I came to calm			para	……啊啊，看來嘎啦嘎啦		para	……啊啊，看来嘎啦嘎啦	CUBONE's mother.	hit by a blast of freezing cold.	突然背后一阵凉气啊！	ごっつい　さむけに　おそわれた！	
+	line	the soul of			line	已經前往天國了。		line	已经前往天国了。	I think MAROWAK's				
+	cont	CUBONE's mother.			para	難得你來一趟，		para	难得你来一趟，	spirit has gone	“It was as if I was stuck in a blizzard!	那凉气跟下暴风雪似的，	ふぶきの　ような　さむさで	
+					line	必須好好答謝你呢！		line	必须好好答谢你呢！	to the afterlife.	It got so cold, I began to black out.	然后我就两眼一黑啊！	ワイは　いしきを　うしなって　しもた	
+	para	I think MAROWAK's			para	那麼，之後		para	那么，之后	I must thank you				
+	line	spirit has gone			line	請一起來我家一趟吧。		line	请一起来我家一趟吧。	for your kind	“As my consciousness faded, I saw a pair of shiny	朦胧之中我看到	もうろうと　するなか　みなもの	
+	cont	to the afterlife.			para	寶可夢之家就在		para	宝可梦之家就在	concern!	wings over the waves.	我的对面有一双闪耀的翅膀。	むこうに　みえた　きらめく　つばさ	
+					line	這座塔的腳下哦！		line	这座塔的脚下哦！	Follow me to my				
+	para	I must thank you			done			done		home, #MON	“...Could that have been the Legendary	那难不成是……	……あれは　もしや	
+	line	for your kind								HOUSE at the foot	Pokémon Articuno?!	传说的宝可梦急冻鸟！？	でんせつの　ポケモン　フリーザー！？	
+	cont	concern!								of this tower.				
+											“When I came to, I was lying on the ground	等我醒来时，	めが　さめたら　なぜか	
+	para	Follow me to my									outside of the cave, for some reason...	不知为何已经躺在外头了……	しまの　そとに　よこたわっとった……	
+	line	home, #MON												
+	cont	HOUSE at the foot									“I need to practice my swimming so that next	我要多练练游泳，	およぎの　れんしゅう　して	
+	cont	of this tower.									time I can capture Articuno for sure!”	下次一定要捉到急冻鸟！	つぎこそ　フリーザー　つかまえるで！	
+	done													
+end				end										

@@ -1,0 +1,54 @@
+text/SSAnneBow.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SSAnne5Text1::				_SSAnne5Text1::										
+	text	The party's over.			text	派對也快結束了，		text	派对也快结束了，	The party's over.	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	The ship will be			line	看來船是時候要出發了吧。		line	看来船是时候要出发了吧。	The ship will be	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	departing soon.			done			done		departing soon.				…　シルフ　カンパニー
+	done											……西尔佛公司	……シルフカンパニー	
+														
+_SSAnne5Text2::				_SSAnne5Text2::										
+	text	Scrubbing decks			text	真是的！打掃甲板		text	真是的！打扫甲板	Scrubbing decks	Whew!	真是的！	まったく！	まったく!
+	line	is hard work!			line	真是太不讓人省心了！		line	真是太不让人省心了！	is hard work!	Scrubbing decks is hard work!	打扫甲板真是太不让人省心了！	デッキ　そうじは　らくじゃねえぜ	デッキ　そうじは　らくじゃねえぜ
+	done				done			done						
+														
+_SSAnne5Text3::				_SSAnne5Text3::										
+	text	Urf. I feel ill.			text	哎喲……好噁心！		text	哎哟……好恶心！	Urf. I feel ill.	Urf... I don’t feel so good...	哎哟……好恶心！	うう……　きもち　わるい！	うう…　きもち　わるい!
+					para	……我暈船了，所以出來		para	……我晕船了，所以出来	I stepped out to				…　ふなよい　したので
+	para	I stepped out to			line	呼吸一下新鮮空氣……		line	呼吸一下新鲜空气……	get some air.	I came out for some air because I got seasick...	……我晕船了，	……ふなよい　したので	かぜに　あたってるんです…
+	line	get some air.			done			done				所以出来呼吸一下新鲜空气……	かぜに　あたってるんです……	ゲ
+	done													
+														
+_SSAnne5BattleText1::				_SSAnne5BattleText1::										
+	text	Hey matey!			text	噢噢！		text	噢噢！	Hey matey!	Hey, matey!	噢噢！	おうおう！	おうおう!　
+					para	來和我這名水手		para	来和我这名水手	Let's do a little				ふなのりの　おれと　しょうぶだ!
+	para	Let's do a little			line	較量一下吧！		line	较量一下吧！	jig!	Let’s do a little jig!	来和我这名水手较量一下吧！	ふなのりの　おれと　しょうぶだ！	
+	line	jig!			done			done						
+	done													
+														
+_SSAnne5EndBattleText1::				_SSAnne5EndBattleText1::										
+	text	You're			text	好厲害啊。		text	好厉害啊。	You're	Ow! You jerk!	啊呀！你个混蛋！	いてッ！　この　やろ！	いてッ!　この　やろ!
+	line	impressive!			line	真是讓人大吃一驚。		line	真是让人大吃一惊。	impressive!	Watch where you’re walking!	走路看着点儿啊！	どこ　みて　あるいてんだよ！	どこ　みて　あるいてんだよ!
+	prompt				prompt			prompt						
+														
+_SSAnne5AfterBattleText1::				_SSAnne5AfterBattleText1::										
+	text	How many kinds of			text	我說！		text	我说！	How many kinds of	How many kinds of Pokémon do you think there	我说！你觉得这个世界里	なあ！　この　せかいに	なあ!　この　せかいに
+	line	#MON do you			line	你覺得這個世界裡		line	你觉得这个世界里	#MON do you	are in this big world?	一共有多少种宝可梦？	ポケモンは　ぜんぶで　どのくらい	ポケモンは　ぜんぶで　どのくらい
+	cont	think there are?			cont	一共有多少種寶可夢？		cont	一共有多少种宝可梦？	think there are?				しゅるいが　あると　おもうか?
+	done				done			done					しゅるいが　あると　おもうか？	ゲ
+														
+_SSAnne5BattleText2::				_SSAnne5BattleText2::										
+	text	Ahoy there!			text	喂，		text	喂，	Ahoy there!	Ahoy there!	喂，你会晕船吗？	おい　あんた！	おい　ぼうず!
+	line	Are you seasick?			line	你會暈船嗎？		line	你会晕船吗？	Are you seasick?	Do you not get seasick on ships?		のってて　ふなよい　しないか？	のってて　ふなよい　しないか?
+	done				done			done						
+														
+_SSAnne5EndBattleText2::				_SSAnne5EndBattleText2::										
+	text	I was			text	大意了麼。		text	啊，嗨呀！	What!?	I was just careless!	大意了么。	ゆだん　したか	ゆだん　したか
+	line	just careless!						para	我有点大意了	I was just				
+	prompt				prompt			line	才被你钻到空子……可恶！	careless!				
+								prompt						
+_SSAnne5AfterBattleText2::				_SSAnne5AfterBattleText2::										
+	text	My Pa said there			text	我父親說有		text	我父亲说有	My Pa said there	My pa told me there’re 100 kinds of Pokémon.	我父亲说有100种宝可梦，	おれの　おやじは　ポケモンは	おれの　おやじは　ポケモンは
+	line	are 100 kinds of			line	１００種寶可夢，		line	１００种宝可梦，	are 100 kinds of	But I think there are more.	但我觉得不止。	１００しゅるい　いると　いってたが	100しゅるい　いると　いってたが
+	cont	#MON. I think			cont	但我覺得不止。		cont	但我觉得不止。	#MON. I think				おれは　それ　いじょう　だと　おもう
+	cont	there are more.			done			done		there are more.			おれは　それ　いじょう　だと　おもう	
+	done													
+end				end										

@@ -1,0 +1,117 @@
+text/RockTunnel1F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_RockTunnel1BattleText1::				_RockTunnel1BattleText1::										
+	text	This tunnel goes			text	你想穿過這條		text	你想穿过这条	This tunnel goes	This tunnel goes a long way, kid!	你想穿过这条	この　ながーい	この　ながーい
+	line	a long way, kid!			line	長長的隧道嗎？		line	长长的隧道吗？	a long way, kid!		长长的隧道吗？	トンネルを　ぬける　つもりか！	トンネルを　ぬける　つもりか!
+	done				done			done						
+														
+_RockTunnel1EndBattleText1::				_RockTunnel1EndBattleText1::										
+	text	Doh!			text	我輸了。		text	我输了。	Doh!	Doh!	我输了。	おいらの　まけだ	おいらの　まけだ
+	line	You win!			prompt			prompt		You win!	You win!			
+	prompt													
+														
+_RockTunnel1AfterBattleText1::				_RockTunnel1AfterBattleText1::										
+	text	Watch for ONIX!			text	偶爾出現的大岩蛇		text	偶尔出现的大岩蛇	Watch for ONIX!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	It can put the			line	等級很高，還會把你捆住。		line	等级很高，还会把你捆住。	It can put the	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	squeeze on you!			cont	要小心點哦。		cont	要小心点哦。	squeeze on you!				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_RockTunnel1BattleText2::				_RockTunnel1BattleText2::										
+	text	Hmm. Maybe I'm			text	那個，		text	那个，	Hmm. Maybe I'm	Hmm...	那个，我迷路了么？	えーと	えーと
+	line	lost in here...			line	我迷路了麼？		line	我迷路了么？	lost in here...	Maybe I’m lost in here.		みちに　まよったかな？	みちに　まよったかな?
+	done				done			done						
+														
+_RockTunnel1EndBattleText2::				_RockTunnel1EndBattleText2::										
+	text	Ease up!			text	剛才就不應該		text	刚才就不应该	Ease up!	Ease up!	刚才就不应该和你战斗的。	たたかってる	たたかってる
+	line	What am I doing?			line	和你戰鬥的。出口在哪呢？		line	和你战斗的。出口在哪呢？	What am I doing?	What am I doing?	出口在哪呢？	ばあいじゃ　なかった	ばあいじゃ　なかった
+	cont	Which way is out?			prompt			prompt		Which way is out?				でぐちは　どっち　だっけ?
+	prompt										Which way is out?		でぐちは　どっち　だっけ？	
+														
+_RockTunnel1AfterBattleText2::				_RockTunnel1AfterBattleText2::										
+	text	That sleeping			text	有隻寶可夢睡在		text	有只宝可梦睡在	That sleeping	That sleeping Pokémon on Route 12 forced me	有只宝可梦睡在	１２ばんどうろに	12ばん　どうろに
+	line	#MON on ROUTE			line	１２號道路上吧？		line	１２号道路上吧？	#MON on ROUTE	to take this detour.	12号道路上吧？	ポケモンが　ねてたろ？	ポケモンが　ねてたろ?
+	cont	12 forced me to			cont	我也拿它沒辦法，		cont	我也拿它没办法，	12 forced me to				おれも　こまって　まわりみちだ
+	cont	take this detour.			cont	只好繞道了。		cont	只好绕道了。	take this detour.		我也拿它没办法，	おれも　こまって　まわりみちだ	
+	done				done			done				只好绕道了。		
+														
+_RockTunnel1BattleText3::				_RockTunnel1BattleText3::										
+	text	Outsiders like			text	我住在山裡很久了。		text	我住在山里很久了。	Outsiders like	Outsiders like you need to show me	我住在山里很久了。	おれは	おれは
+	line	you need to show			line	外來者休想在我面前放肆。		line	外来者休想在我面前放肆。	you need to show	some respect!	外来者休想在我面前放肆。	やまに　すんで　ながい	やまに　すんで　ながい
+	cont	me some respect!			done			done		me some respect!				よそものに　でかい　つらは　させん
+	done												よそものに　でかい　つらは　させん	
+														
+_RockTunnel1EndBattleText3::				_RockTunnel1EndBattleText3::										
+	text	I give!			text	很厲害啊。		text	很厉害啊。	I give!	You’re strong.	你很强～	キミ　つよいねー	ゲームの　プログラムだ!
+	prompt				prompt			prompt			I’ll give you this.	这个给你～	これ　あげるよー	これ　かえたら　バグる　かも
+														
+_RockTunnel1AfterBattleText3::				_RockTunnel1AfterBattleText3::										
+	text	You're talented			text	你很有前途。		text	你很有前途。	You're talented	LORELEI: You’re a pretty talented Trainer. It was	科拿：你很能干！	カンナ『あなた　やるわね	これ　いじょう　もてない!
+	line	enough to hike!			line	要不要來當一名登山男？		line	要不要来当一名登山男？	enough to hike!	plain to see during your battle.	已经超越了我的想象！	そうぞう　いじょう　だわ	
+	done				done			done						
+														
+_RockTunnel1BattleText4::				_RockTunnel1BattleText4::										
+	text	#MON fight!			text	寶可夢鬥士！		text	宝可梦斗士！	#MON fight!	Pokémon fight!	宝可梦斗士！	ポケモン　ファイトー！	ポケモン　ファイトー!
+	line	Ready, go!			line	前來拜訪！		line	前来拜访！	Ready, go!	Ready, go!	前来拜访！	レディー　ゴー！	レディー　ゴー!
+	done				done			done						
+														
+_RockTunnel1EndBattleText4::				_RockTunnel1EndBattleText4::										
+	text	Game			text	被打敗了麼。		text	被打败了么。	Game	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	over!			prompt			prompt		over!		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	prompt										D’aww... Failed again?			
+														
+_RockTunnel1AfterBattleText4::				_RockTunnel1AfterBattleText4::										
+	text	Oh well, I'll get			text	捉到超音蝠		text	捉到超音蝠	Oh well, I'll get	Oh well, I’ll get a Zubat as I go!	捉到超音蝠就回去吧……	ズバットでも	ズバットでも
+	line	a ZUBAT as I go!			line	就回去吧……		line	就回去吧……	a ZUBAT as I go!			とって　かえろうかな……	とって　かえろうかな…
+	done				done			done						
+														
+_RockTunnel1BattleText5::				_RockTunnel1BattleText5::										
+	text	Eek! Don't try			text	呀啊，嚇死我了！		text	呀啊，吓死我了！	Eek! Don't try	If you use Light Up, though, you don’t have to	只要用“炫光闪”照亮周围，	カガヤキで　てらせば	エスパーに　ゆうりな　もの?
+	line	anything funny in			line	不要因為這裡很黑，		line	不要这里很黑，	anything funny in	be scared of the dark!	就不需要怕黑了！	くらい　ところも　こわくないぞ！	…　はははーッ!
+	cont	the dark!			cont	就做奇怪的事情啊！		cont	就做奇怪的事情啊！	the dark!				ゆうれい　や　むし　くらい　だぜ!
+	done				done			done			See you around!	那再见咯！	じゃあなー！	
+														
+_RockTunnel1EndBattleText5::				_RockTunnel1EndBattleText5::										
+	text	It			text	……都是因為這裡		text	……都是因为这里	It	It was too dark to see...	……都是因为这里太黑，	……くらくて	…　くらくて
+	line	was too dark!			line	太黑，我看不見才會輸的。		line	太黑，我看不见才会输的。	was too dark!		我看不见才会输的。	よく　みえないんだもん	よく　みえないんだもん
+	prompt				prompt			prompt						
+														
+_RockTunnel1AfterBattleText5::				_RockTunnel1AfterBattleText5::										
+	text	I saw a MACHOP			text	隧道裡有寶可夢。		text	隧道里有宝可梦。	I saw a MACHOP	I sometimes see suspicious-looking people in	我有的时候会在游戏城	ゲームコーナーで　たまに	ぼうそうぞく…
+	line	in this tunnel!			line	我剛才看見腕力了。		line	我刚才看见腕力了。	in this tunnel!	this Game Corner.	看到一些形迹可疑的人，	あやしい　ひと　みかける　けど	よく　みかける　けど
+	done				done			done						こわそうで　いやだわ
+											I wonder what they’re up to.	不知道他们都是什么人物呢？	なにもの　なんだろう？	
+_RockTunnel1BattleText6::				_RockTunnel1BattleText6::										
+	text	I came this far			text	我是來找寶可夢的，		text	我是来找宝可梦的，	I came this far	I came this far looking for wild Pokémon.	我是来找宝可梦的，	ポケモン　さがしに　きて	ポケモン　さがしに　きて
+	line	for #MON!			line	找著找著就找到這裡來了！		line	找着找着就找到这里来了！	for #MON!		找着找着就找到这里来了！	こんな　とこまで　きちゃった！	こんな　とこまで　きちゃった!
+	done				done			done						
+														
+_RockTunnel1EndBattleText6::				_RockTunnel1EndBattleText6::										
+	text	I'm			text	我已經		text	来啊，	Keep it	I’m spraying Repel around to keep wild Pokémon	为了让野生的宝可梦	かだんに　やせいの　ポケモンが	かだんに　やせいの　ポケモンが
+	line	out of #MON!			line	沒有寶可夢了。		line	继续啊！啊……	coming, eh!	out of my flower beds!	不要进到花坛里，	はいらない　ように	はいらない　ように
+	prompt				prompt			para	我没有宝可梦了。	Oh wait. I'm out				むしよけスプレー　まいてるのさ
+								prompt		of #MON!		我正在喷除虫喷雾呢！	むしよけスプレー　まいてるのさ	ゲ
+_RockTunnel1AfterBattleText6::				_RockTunnel1AfterBattleText6::										
+	text	You looked cute			text	你不但長得可愛，		text	你不但长得可爱，	You looked cute	You looked cute and harmless.	你不但长得可爱，	かわいい　かお　して	かわいい　かお　して
+	line	and harmless!			line	而且實力強大。		line	而且实力强大。	and harmless!	Was I ever wrong!	而且实力强大。	けっこう　つよい　じゃない	けっこう　つよい　じゃない
+	done				done			done						
+														
+_RockTunnel1BattleText7::				_RockTunnel1BattleText7::										
+	text	You have #MON!			text	啊，是寶可夢！		text	啊，是宝可梦！	You have #MON!	You have [VAR NUMBRNCH(00FD,0002)]a Pokémon!	啊，是宝可梦！	あ　それは　ポケモン！	あ　それは　ポケモン!
+	line	Let's start!			line	那我們快開始對戰吧！		line	那我们快开始对战吧！	Let's start!	Let’s start!	那我们快开始对战吧！	さっそく　はじめようよ！	さっそく　はじめましょ!
+	done				done			done						
+														
+_RockTunnel1EndBattleText7::				_RockTunnel1EndBattleText7::										
+	text	You			text	今後再來吧。		text	今后再来吧。	You	You play hard!	今后再来……	でなおして　くる……	でなおして　くるわ
+	line	play hard!			prompt			prompt		play hard!				
+	prompt													
+														
+_RockTunnel1AfterBattleText7::				_RockTunnel1AfterBattleText7::										
+	text	Whew! I'm all			text	我好激動，		text	我好激动，	Whew! I'm all	Whew!	我好激动，	エキサイト　して	エキサイト　して
+	line	sweaty now!			line	渾身都是汗。		line	浑身都是汗。	sweaty now!	I’m all sweaty now.	浑身都是汗。	あせだく　だ！	あせ　かいちゃったわ
+	done				done			done						
+														
+_RockTunnel1Text8::				_RockTunnel1Text8::										
+	text	ROCK TUNNEL			text	這裡是岩山隧道		text	这里是岩山隧道	ROCK TUNNEL	Rock Tunnel	这里是岩山隧道	ここは　イワヤマトンネル	ここは　ハナダシティ
+	line	CERULEAN CITY -			line	華藍市　……　紫苑鎮		line	华蓝市　……　紫苑镇	CERULEAN CITY -	(Cerulean City ⇄ Lavender Town)	华蓝市　……　紫苑镇	ハナダシティ　……　シオンタウン	ハナダは　みずいろ　しんぴのいろ
+	cont	LAVENDER TOWN			done			done		LAVENDER TOWN				
+	done													
+end				end										

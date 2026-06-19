@@ -1,0 +1,6 @@
+text/CeladonMansion2F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CeladonMansion2Text1::				_CeladonMansion2Text1::										
+	text	GAME FREAK			text	GAME FREAK		text	GAME FREAK	GAME FREAK	GAME FREAK Reception Room	GAME FREAK　会客室	ゲームフリーク　おうせつ　しつ	ゲームフりーク　おうせつ　しつ
+	line	Meeting Room			line	會客室		line	会客室	Meeting Room				ダ
+	done				done			done						
+end				end										

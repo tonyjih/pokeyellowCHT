@@ -1,0 +1,26 @@
+text/Route15Gate2F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route15GateUpstairsText_4968c::				_Route15GateUpstairsText_4968c::										
+	text	EXP.ALL gives			text	學習裝置		text	学习装置	EXP.ALL gives	Strong Pokémon from other Trainers will listen	训练家的手中	バッジを　もってる	…　…　と　おもった　けど
+	line	EXP points to all			line	能讓沒有出戰的寶可夢們		line	能让没有出战的宝可梦们	EXP points to all	to you if you have enough Badges!	持有的徽章数越多，	かずが　おおい　ほど	にもつが　いっぱい　だから
+	cont	the #MON with			cont	也獲得經驗值。		cont	也获得经验值。	the #MON with				@
+	cont	you, even if they			para	但就是每一隻寶可夢		para	但就是每一只宝可梦	you, even if they	The level limit increases by 10 levels for each	即使是从别人手中得到的	ひとから　もらった　ポケモンが	
+	cont	don't fight.			line	各自分別獲得的		line	各自分别获得的	don't fight.	Badge you have.	等级高的宝可梦也会变得听话。	つよくても　いうことを　ききます	
+					cont	經驗值會變少。		cont	经验值会变少。	It does, however,				
+	para	It does, however,			para	當你不想使用的時候，		para	当你不想使用的时候，	reduce the amount	If you have one Badge, Pokémon up to Lv. 20	持有１个徽章时上限为等级20，	１つ　もってると　レベル２０まで	
+	line	reduce the amount			line	就請把它寄放在電腦裡吧，		line	就请把它寄放在电脑里吧，	of EXP for each	will listen to you...if you have two Badges,	持有２个徽章时上限为等级30，	２つ　もってると　レベル３０まで　と	
+	cont	of EXP for each			cont	那樣裝置就會停止運作了。		cont	那样装置就会停止运作了。	#MON.				
+	cont	#MON.			done			done		If you don't need	Pokémon up to Lv. 30 will listen to you...	就像这样以10个等级为单位增加。	１０ずつ　レベルが　ふえていきます	
+										it, you should				
+	para	If you don't need								store it via PC.	and so on.	如果持有全部徽章，	ぜんぶの　バッジが　あれば　すべての	
+	line	it, you should										所有的宝可梦都会乖乖听话哦。	ポケモンが　いうことを　ききます	
+	cont	store it via PC.									Once you have all the Badges, Pokémon of any			
+	done										level will give you their full attention!			
+														
+_Route15GateUpstairsText_49698::				_Route15GateUpstairsText_49698::										
+	text	Looked into the			text	使用望遠鏡觀看！		text	使用望远镜观看！	Looked into the	Let’s see what the binoculars have to show...	使用望远镜观看！	ぼうえんきょうを　のぞいた！	ぼうえんきょうを　のぞいた!
+	line	binoculars.			para	看見海對面……		para	看见海对面……	binoculars.				うみの　むこうに…
+					line	有一座小島！		line	有一座小岛！	It looks like a	It looks like there’s a small island on the horizon!	看见海对面……	うみの　むこうに……	ちいさな　しまが　みえる!
+	para	It looks like a			done			done		small island!		有一座小岛！	ちいさな　しまが　みえる！	ザ
+	line	small island!												
+	done													
+end				end										

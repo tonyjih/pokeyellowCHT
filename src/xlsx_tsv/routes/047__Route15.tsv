@@ -1,0 +1,174 @@
+text/Route15.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route15BattleText1::				_Route15BattleText1::										
+	text	Let me try out the			text	我就用和朋友交換來的		text	我就用和朋友交换来的	Let me try out the	I heard when Blaine suffered an accident and got lost	之前夏伯遇险时，	カツラが　そうなん　したとき	りーダーの　カツラが
+	line	#MON I just			line	寶可夢與你決勝負吧！		line	宝可梦与你决胜负吧！	#MON I just	in the mountains, a fiery bird Pokémon appeared and	有一只浑身是火的鸟宝可梦	ほのおの　とりポケモンが	やま　のぼりで　そうなん　したとき
+	cont	got in a trade!			done			done		got in a trade!				くらい　やまみちを　てらして
+	done										rescued him by lighting up a dark path.	飞来为他照亮了漆黑的山路，	くらい　やまみちを　てらして	ひのとり　ポケモンが　とんでった!
+														その　おかげで　カツラは　ぶじ
+_Route15EndBattleText1::				_Route15EndBattleText1::								助他成功脱险。	たすけて　くれたことが　あるのさ	やまを　おりることが　できたのさ
+	text	Not			text	輸了！		text	输了！	Not	Not good enough!	输了！	だめだわ！	トレーナーぞ
+	line	good enough!			prompt			prompt		good enough!				きド5ま
+	prompt													
+														
+_Route15AfterBattleText1::				_Route15AfterBattleText1::										
+	text	You can't change			text	就算不喜歡和朋友交換來的		text	就算不喜欢和朋友交换来的	You can't change	You can’t change the nickname of any Pokémon	就算不喜欢和朋友交换来的	ともだちと　こうかん　した	ともだちと　こうかん　した
+	line	the nickname of			line	寶可夢的暱稱也沒辦法……		line	宝可梦的昵称也没办法……	the nickname of	you get in a trade, even if you don’t like it.	宝可梦的昵称也没办法……	ポケモンの　ニックネーム	ポケモンの　ニックネーム
+	cont	any #MON you			para	只要不是捉住		para	只要不是捉住	any #MON you				たとえ　きに　いらなくても…
+	cont	get in a trade.			line	該寶可夢的人，		line	该宝可梦的人，	get in a trade.	Only the original Trainer can get	只要不是捉住该宝可梦的人，	たとえ　きに　いらなくても……	とった　ひとで　ないと
+					cont	就無法重新命名。		cont	就无法重新命名。	Only the Original	the nickname changed.	就无法重新命名。		つけ　なおせない　のよね!
+	para	Only the Original			done			done		Trainer can.			つかまえた　ひとで　ないと	
+	line	Trainer can.											つけ　なおせない　のよね！	
+	done													
+														
+_Route15BattleText2::				_Route15BattleText2::										
+	text	You look gentle,			text	你看起來很溫和，		text	你看起来很温和，	You look gentle,	You look gentle, so I think I can beat you.	你看起来很温和，	きみ　やさしそう　だから	きみ　やさしそう　だから
+	line	so I think I can			line	我應該能贏！		line	我应该能赢！	so I think I can	I’ll give it a go!	我应该能赢！	まける　きが　しない！	まける　きが　しない!
+	cont	beat you!			cont	那就和你對戰試試看吧！		cont	那就和你对战试试看吧！	beat you!				しょうぶ　してみるわ!
+	done				done			done				那就和你对战试试看吧！	しょうぶ　してみるわ！	
+														
+_Route15EndBattleText2::				_Route15EndBattleText2::										
+	text	No,			text	啊？我輸了？		text	啊？我输了？	No,	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	wrong!			prompt			prompt		wrong!		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	prompt										D’aww... Failed again?			
+														
+_Route15AfterBattleText2::				_Route15AfterBattleText2::										
+	text	I'm afraid of			text	暴走族……		text	暴走族……	I'm afraid of	I’m afraid of Bikers. They look so ugly and mean!	坏男孩……	バッドガイ……	ぼうそうぞく…
+	line	BIKERs, they look			line	經常能見到他們。		line	经常能见到他们。	BIKERs, they look		经常能见到他们。	よく　みかける　けど	よく　みかける　けど
+	cont	so ugly and mean!			para	他們看起來兇兇的，		para	他们看起来凶凶的，	so ugly and mean!				こわそうで　いやだわ
+	done				line	我不喜歡他們。		line	我不喜欢他们。			他们看起来凶凶的，	こわそうで　いやだわ	
+					done			done				我不喜欢他们。		
+_Route15BattleText3::				_Route15BattleText3::										
+	text	When I whistle, I			text	只要我吹響口哨，		text	只要我吹响口哨，	When I whistle, I	When I whistle, I can summon bird Pokémon.	只要我吹响口哨，	ぼくが　くちぶえ　ふいたり　すると	ぼくが　くちぶえ　ふいたり　すると
+	line	can summon bird			line	鳥寶可夢就會飛過來了！		line	鸟宝可梦就会飞过来了！	can summon bird		鸟宝可梦就会飞过来了！	とりポケモンが	とり　ポケモンが
+	cont	#MON!			done			done		#MON!				とんで　きたり　するんだぜ!
+	done												とんで　きたり　するんだぜ！	
+														
+_Route15EndBattleText3::				_Route15EndBattleText3::										
+	text	Ow!			text	哎，好慘啊！		text	哎，好惨啊！	Ow!	Ow!	哎，好惨啊！	ふッ　かなしいね！	ふッ　かなしいね!
+	line	That's tragic!			prompt			prompt		That's tragic!	That’s tragic!			
+	prompt													
+														
+_Route15AfterBattleText3::				_Route15AfterBattleText3::										
+	text	Maybe I'm not cut			text	像我這樣的型別不適合		text	像我这样的类型不适合	Maybe I'm not cut	Maybe I’m not cut out for battles.	像我这样的类型不适合	ぼくの　ような　タイプは	ぼくの　ような　タイプは
+	line	out for battles.			line	與別人一決勝負吧……		line	与别人一决胜负吧……	out for battles.	I’m not the right type, I guess...	与别人一决胜负吧……	しょうぶ　ごと　には	しょうぶ　ごと　には
+	done				done			done						むいて　ないのかなあ…
+													むいて　ないのかなあ……	
+_Route15BattleText4::				_Route15BattleText4::										
+	text	Hmm? My birds are			text	哎呀……？		text	哎呀……？	Hmm? My birds are	Oh! You’re curious, aren’t you?	嘿！你很在意吧！？	お！　きになって　いるね！？	この　ひろい　サファりで
+	line	shivering! You're			line	鳥在顫抖！		line	鸟在颤抖！	shivering! You're	You’re curious about me and this machine!	很在意我和这个机器吧！	ボクと　この　マシンが！	いろんな　ポケモン　とりほうだいの
+	cont	good, aren't you?			cont	難道你……要變強了嗎？		cont	难道你……要变强了吗？	good, aren't you?				ゲームが　たった　500円!
+	done				done			done			Do you want to know the details?	想要听听看吗！？	きいてみたい　かい！？	さっそく　やりますか?
+												我会跟你详～细说明的！	くわしい　はなしを　さぁ！	
+_Route15EndBattleText4::				_Route15EndBattleText4::										
+	text	Just			text	是我想太多了。		text	是我想太多了。	Just	Just as I thought!	你可真是名不虚传！	さすがだな！	さすがだな!
+	line	as I thought!			prompt			prompt		as I thought!	You’re Pokémon champ material!	就是这个势头！	この　ちょうしで　めざせ！	この　ちょうしで　めざせ!
+	prompt													ポケモン　チャンピオン!
+												朝着宝可梦冠军进发吧！	ポケモン　チャンピオン！	
+_Route15AfterBattleText4::				_Route15AfterBattleText4::										
+	text	Did you know moves			text	即使是被擊中前……		text	即使是被击中前……	Did you know moves	“If you don’t have any Poké Balls, you can’t do	如果没有精灵球，	モンスターボールが　ないと	あ!　やせいの
+	line	like EARTHQUAKE			line	鳥寶可夢對於地震或地裂		line	鸟宝可梦对于地震或地裂	like EARTHQUAKE	anything when you encounter wild Pokémon.	那么面对野生宝可梦时，	やせいの　ポケモン　あいてに	@
+	cont	don't have any			cont	也很強哦。		cont	也很强哦。	don't have any				
+	cont	effect on birds?			done			done		effect on birds?	“Buy a lot of Poké Balls at a Poké Mart!”	你将会束手无策。	なにも　できません	
+	done													
+												去友好商店	フレンドリィショップで	
+_Route15BattleText5::				_Route15BattleText5::								多买一些备用吧。	たくさん　かっておきましょう	
+	text	Oh, you're a			text	哎呀！你這訓練家長得和		text	哎呀！你这训练家长得和	Oh, you're a	Oh, you’re a little cutie!	哎呀！	あらーん！	あらーん!
+	line	little cutie!			line	寶可夢一樣可愛呢！		line	宝可梦一样可爱呢！	little cutie!	So like a darling Pokémon!	你这训练家长得和	ポケモン　みたいに	ポケモン　みたいに
+	done				done			done						かわいい　おとこのこ　ね!
+												宝可梦一样可爱呢！	かわいい　トレーナーさん　ね！	
+_Route15EndBattleText5::				_Route15EndBattleText5::										
+	text	You looked			text	我大意了。		text	我大意了。	You looked	Your [VAR PKNAME(0002)] looked so cute while	谜题问答那时候，	クイズ　してる　ときねー	なみのりの　こころえ　そのに!
+	line	so cute too!			prompt			prompt		so cute too!	you were taking the quiz!	训练家你的	トレーナー　さんの	ジャンプ　してる　あいだに
+	prompt													れんぞくして　かいてん　すると
+												[VAR PKNAME(0002)]超可爱的！	[VAR PKNAME(0002)]　かわいかった！	すごく　かっこいいぞ!
+_Route15AfterBattleText5::				_Route15AfterBattleText5::										
+	text	I forgive you!			text	好不甘心，		text	好不甘心，	I forgive you!	I forgive you.	好不甘心，	くやしい　けど	くやしい　けど
+	line	I can take it!			line	不過姐姐我是大人，		line	不过姐姐我是大人，	I can take it!	I can take it.	不过姐姐我是大人，	おねえさんは　おとな　だから	おねえさんは　おとな　だから
+	done				cont	這次就原諒你吧。		cont	这次就原谅你吧。					ゆるして　あげるわね
+					done			done			I’m a big girl now.	这次就原谅你吧。	ゆるして　あげるわね	
+_Route15BattleText6::				_Route15BattleText6::										
+	text	I raise #MON			text	那個……！		text	那个……！	I raise #MON	I raise Pokémon for protection because I	那个……！	あのね……！	あのね…!
+	line	because I live			line	因為我一個人住，		line	因为我一个人住，	because I live	live alone.	因为我一个人住，	わたしは　ひとり　ぐらし　だから	わたしは　ひとり　ぐらし　だから
+	cont	alone!			cont	所以有在飼養寶可夢！		cont	所以有在饲养宝可梦！	alone!				ポケモン　かってる　わけ!
+	done				done			done				所以有在饲养宝可梦！	ポケモン　かってる　わけ！	
+														
+_Route15EndBattleText6::				_Route15EndBattleText6::										
+	text	I didn't			text	……勝負可不是		text	……胜负可不是	I didn't	ARCHER: Ugh!	阿波罗：可恶！	アポロ『くッ！	なんだ　おまえは
+	line	ask for this!			line	寶可夢的全部哦。		line	宝可梦的全部哦。	ask for this!	I don’t have time for this! I must warn the boss!	既然这样，我得赶紧联系老大……	これでは　ボスに　れんらくが……	ボスに　なんの　ようだ!
+	prompt				prompt			prompt						
+														
+_Route15AfterBattleText6::				_Route15AfterBattleText6::										
+	text	I just like going			text	對了……！		text	对了……！	I just like going	I’d like to trade my Alolan Marowak for your	我希望能拿我的阿罗拉的嘎啦嘎啦	じめんタイプの　ガラガラと	　げんき?
+	line	home to be with			line	回家時有寶可夢在的話，		line	回家时有宝可梦在的话，	home to be with	Ground-type Marowak.	和你的地面属性的嘎啦嘎啦交换，	わたしの　アローラ　ガラガラ	わたしの　@
+	cont	my #MON!			cont	我會覺得很安心。		cont	我会觉得很安心。	my #MON!				
+	done				done			done			What do you say?	你觉得怎么样？	こうかん　して　ほしいのだが	
+													いかが　だろうか	
+_Route15BattleText7::				_Route15BattleText7::										
+	text	Hey kid! C'mon!			text	小鬼頭，站住！來對戰！		text	小鬼头，站住！来对战！	Hey kid! C'mon!	Hey, kid! C’mon!	你站住！来对战！	こら　そこの！　しょうぶだ！	こら　ぼうず!　しょうぶだ!
+	line	I just got these!			line	這些寶可夢可是我從		line	这些宝可梦可是我从	I just got these!	I just got these off some loser!	这些宝可梦可是我从	その　へんの　やつ　から	その　へんの　やつ　から
+	done				cont	那些傢伙那裡搶來的！		cont	那些家伙那里抢来的！					むりやり　とって　きたぜ!
+					done			done				那些家伙那里抢来的！	むりやり　とって　きたぜ！	
+_Route15EndBattleText7::				_Route15EndBattleText7::										
+	text	Why			text	我不服！		text	我不服！	Why	[VAR 010C(0000)] did not learn	[VAR 010C(0000)]没有学习	[VAR 010C(0000)]は　[VAR MOVE(0001)]を	を
+	line	not?			prompt			prompt		not?	[VAR MOVE(0001)].	[VAR MOVE(0001)]就结束了！	おぼえずに　おわった！	おぼえずに　おわった!
+	prompt													
+														
+_Route15AfterBattleText7::				_Route15AfterBattleText7::										
+	text	You only live			text	人生短暫……！		text	人生短暂……！	You only live	Life’s too short.	人生短暂……！	みじかい　じんせい……！	みじかい　じんせい…!
+	line	once, so I live			line	還是像火箭隊那樣		line	还是像火箭队那样	once, so I live	It’s cool to live as an outlaw.	还是像火箭队那样	ワルの　ほうが　かっこいいぜ！	ワルの　ほうが　かっこいいぜ!
+	cont	as an outlaw!			cont	當個壞蛋才比較酷啊！		cont	当个坏蛋才比较酷啊！	as an outlaw!				ロケットだん　みたいに　な!
+	cont	TEAM ROCKET RULES!			done			done		TEAM ROCKET RULES!	Team Rocket rules!	当个坏蛋才比较酷啊！	ロケットだん　みたいに　な！	
+	done													
+														
+_Route15BattleText8::				_Route15BattleText8::										
+	text	Fork over all your			text	噢！		text	噢！	Fork over all your	Fork over all your cash when you lose to me, kid!	噢！	おうッ！	おうッ!
+	line	cash when you			line	誰輸了誰就把身上的錢		line	谁输了谁就把身上的钱	cash when you		谁输了谁就把身上的钱	まけたら　ありがね　ぜんぶ！	まけたら　ありがね　ぜんぶ!
+	cont	lose to me, kid!			cont	全部交出來！		cont	全部交出来！	lose to me, kid!				おいて　いって　もらおうか!
+	done				done			done				全部交出来！	おいて　いって　もらおうか！	
+														
+_Route15EndBattleText8::				_Route15EndBattleText8::										
+	text	That			text	這怎麼可能！		text	这怎么可能！	That	That can’t be true!	这怎么可能！	そりゃ　ねえだろ	そりゃ　ねえだろ
+	line	can't be true!			prompt			prompt		can't be true!				
+	prompt													
+														
+_Route15AfterBattleText8::				_Route15AfterBattleText8::										
+	text	I was just joking			text	把身上的錢全部交出來		text	把身上的钱全部交出来	I was just joking	I was just joking about the money.	把身上的钱全部交出来	ありがね　おいてく　なんて	ありがね　おいてく　なんて
+	line	about the money!			line	當然是開玩笑的啦！		line	当然是开玩笑的啦！	about the money!	Don’t take me all serious.	当然是开玩笑的啦！	じょうだんに　きまってる　だろ！	じょうだんに　きまってる　だろ!
+	done				cont	開個小玩笑而已！		cont	开个小玩笑而已！					かるい　じょうだんだ!
+					done			done				开个小玩笑而已！	かるい　じょうだんだ！	
+_Route15BattleText9::				_Route15BattleText9::										
+	text	What's cool?			text	最近流行的事情……？		text	最近流行的事情……？	What's cool?	What’s cool and happening?	最近流行的事情……？	さいきん　はやってる　こと……？	さいきん　はやってる　こと…?
+	line	Trading #MON!			line	這個麼……！		line	这个么……！	Trading #MON!	Trading Pokémon!	这个么……！	そうだな……！	そうねえ…!
+	done				cont	應該是交換寶可夢吧！		cont	应该是交换宝可梦吧！					ポケモンの　こうかん　かな!
+					done			done				应该是交换宝可梦吧！	ポケモンの　こうかん　かな！	
+_Route15EndBattleText9::				_Route15EndBattleText9::										
+	text	I			text	唔……！		text	唔……！	I	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	said trade!			line	我說的是交換，		line	我说的是交换，	said trade!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt				cont	不是對戰呀！		cont	不是对战呀！					
+					prompt			prompt						
+_Route15AfterBattleText9::				_Route15AfterBattleText9::										
+	text	I trade #MON			text	我終於和朋友		text	我终于和朋友	I trade #MON	I’ve lived and trained with	我就是在这样的锤炼中	おれは　そんな　きたえ　ぬかれた	こういう　げんきな　こども
+	line	with my friends!			line	交換了寶可夢了！		line	交换了宝可梦了！	with my friends!	my Fighting-type Pokémon!	和我的格斗属性宝可梦	かくとうポケモン　たちと	おれは　すきだぜ!@@
+	done				done			done						
+											And that will never change!	一起生活，一起成长！	ともに　いきてきた！	
+_Route15BattleText10::				_Route15BattleText10::										
+	text	Want to play with			text	來吧，來吧，		text	来吧，来吧，	Want to play with	Want to play with my Pokémon?	来吧，来吧，	しようよ　しようよ	しようよ　しようよ
+	line	my #MON?			line	我們來寶可夢對戰吧！		line	我们来宝可梦对战吧！	my #MON?		我们来宝可梦对战吧！	ポケモン　しようよーッ！	ポケモン　しようよーッ!
+	done				done			done						
+														
+_Route15EndBattleText10::				_Route15EndBattleText10::										
+	text	I was			text	我太急於求勝了。		text	我太急于求胜了。	I was	I was too impatient!	我太急于求胜了。	しょうぶ　あせり　すぎたわ	しょうぶ　あせり　すぎたわ
+	line	too impatient!			prompt			prompt		too impatient!				
+	prompt													
+														
+_Route15AfterBattleText10::				_Route15AfterBattleText10::										
+	text	I'll go train with			text	我去和弱一點的人		text	我去和弱一点的人	I'll go train with	I’ll go train with weaker people.	我去和弱一点的人	もう　すこし　よわい　ひとと	もう　すこし　よわい　ひとと
+	line	weaker people.@			line	練習下再來吧。@		line	练习下再来吧。@	weaker people.@		练习下再来吧。	れんしゅう　して　くるよ	れんしゅう　して　くるよ@@
+	text_end				text_end			text_end						
+														
+_Route15Text12::				_Route15Text12::										
+	text	ROUTE 15			text	這裡是１５號道路		text	这里是１５号道路	ROUTE 15	Route 15	这里是15号道路	ここは　１５ばんどうろ	ここは　15ばん　どうろ
+	line	West to FUCHSIA			line	往西　……　淺紅市		line	往西　……　浅红市	West to FUCHSIA	(West to Fuchsia City)	往西　……　浅红市	にし　……　セキチクシティ	にし　…　セキチク　シティ
+	cont	CITY			done			done		CITY				へどぶ
+	done													
+end				end										

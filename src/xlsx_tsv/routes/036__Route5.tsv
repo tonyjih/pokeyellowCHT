@@ -1,0 +1,7 @@
+text/Route5.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route5Text1::				_Route5Text1::										
+	text	UNDERGROUND PATH			text	前方是地下通道		text	前方是地下通道	UNDERGROUND PATH	Underground Path	前方是地下通道	ここから　ちかつうろ	ここから　ちかつうろ
+	line	CERULEAN CITY -			line	華藍市　……　枯葉市		line	华蓝市　……　枯叶市	CERULEAN CITY -	(Cerulean City ⇄ Vermilion City)	华蓝市　……　枯叶市	ハナダシティ　……　クチバシティ	タマムシ　…　シオン
+	cont	VERMILION CITY			done			done		VERMILION CITY				へどぶ
+	done													
+end				end										

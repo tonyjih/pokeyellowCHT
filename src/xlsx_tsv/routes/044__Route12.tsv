@@ -1,0 +1,143 @@
+text/Route12.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route12Text1::				_Route12Text1::										
+	text	A sleeping #MON			text	寶可夢似乎		text	宝可梦似乎	A sleeping #MON	Hey!	我翻我翻……！	ガサゴソ……！	ガサゴソ…!
+	line	blocks the way!			line	睡得很舒服的樣子。		line	睡得很舒服的样子。	blocks the way!	There’s a switch under the trash?!	嘿哟！垃圾箱底	おっと！　ゴミばこの　そこに	おっと!　ゴミばこの　そこに
+	done				done			done						また　スイッチが　あった!
+											Let’s push it!	有一个开关！	スイッチが　あった！	おして　みよう!　…　ポチッとな
+_Route12Text13::				_Route12Text13::										ゲへ
+	text	SNORLAX woke up!			text	卡比獸醒來了！		text	卡比兽醒来了！	SNORLAX woke up!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+					para	卡比獸還沒睡醒，		para	还没睡醒的卡比兽	It attacked in a	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	para	It attacked in a			line	迷迷糊糊地襲擊了過來！		line	迷迷糊糊地袭击了过来！	grumpy rage!				…　シルフ　カンパニー
+	line	grumpy rage!			done			done				……西尔佛公司	……シルフカンパニー	
+	done													
+														
+_Route12Text14::				_Route12Text14::										
+	text	SNORLAX calmed			text	卡比獸冷靜下來了。		text	卡比兽冷静下来了。	SNORLAX calmed	Snorlax calmed down.	卡比兽冷静下来了。	カビゴンは　おとなしく　なった	カビゴンは　おとなしく　なった
+	line	down! With a big			line	它打了個大哈欠之後……		line	它打了个大哈欠之后……	down! With a big	It gave a huge yawn...	它打了个大哈欠之后……	おおきな　あくびを　すると……	おおきな　あくびを　すると…
+	cont	yawn, it returned			cont	走向了山的深處！		cont	走向了山的深处！	yawn, it returned				やまおくへ　さって　いった!
+	cont	to the mountains!			done			done		to the mountains!	and returned to the mountains.	走向了山的深处！	やまおくへ　さって　いった！	ゲ
+	done													
+														
+_Route12BattleText1::				_Route12BattleText1::										
+	text	Yeah! I got a			text	噢、噢！		text	噢、噢！	Yeah! I got a	Yeah!	噢、噢！	おっ　おーッ！	おっ　おーッ!
+	line	bite, here!			line	上鉤了，上鉤了！		line	上钩了，上钩了！	bite, here!	I got a bite here!	上钩了，上钩了！	ひいてる　ひいてる！	ひいてる　ひいてる!
+	done				done			done						
+														
+_Route12EndBattleText1::				_Route12EndBattleText1::										
+	text	Tch!			text	切！		text	切！	Tch!	Tch!	切！	ちッ！	ちッ!
+	line	Just a small fry!			line	不是我要的那種麼。		line	不是我要的那种么。	Just a small fry!	Just a small fry...	不是我要的那种么。	げどう　だったか	げどう　だったか
+	prompt				prompt			prompt						
+														
+_Route12AfterBattleText1::				_Route12AfterBattleText1::										
+	text	Hang on! My line's			text	你等一下！		text	你等一下！	Hang on! My line's	Hang on!	你等一下！	まって　くれ！	まって　くれ!
+	line	snagged!			line	魚線纏在一起了！		line	鱼线缠在一起了！	snagged!	My line’s snagged!	鱼线缠在一起了！	つりいとが　こんがらがった！	つりいとが　こんがらがった!
+	done				done			done						ゲ
+														
+_Route12BattleText2::				_Route12BattleText2::										
+	text	Be patient!			text	……不要急！		text	……不要急！	Be patient!	Be patient.	……不要急！	……あわてるな！	…　あわてるな!
+	line	Fishing is a			line	等待也是釣魚的樂趣之一！		line	等待也是钓鱼的乐趣之一！	Fishing is a	Fishing is a waiting game.	等待也是钓鱼的乐趣之一！	まつ　ことも　また！	まつ　ことも　また!
+	cont	waiting game!			done			done		waiting game!				つりの　たのしみ　である
+	done												つりの　たのしみ　である	
+														
+_Route12EndBattleText2::				_Route12EndBattleText2::										
+	text	That			text	哎呀……！		text	哎呀……！	That	That one got away!	哎呀……！	おっと……！	おっと…!
+	line	one got away!			line	你等一下。		line	你等一下。	one got away!		你等一下。	ちょっと　まって　くれ	ちょっと　まって　くれ
+	prompt				prompt			prompt						
+														
+_Route12AfterBattleText2::				_Route12AfterBattleText2::										
+	text	With a better ROD,			text	如果用好釣竿的話，		text	如果用好钓竿的话，	With a better ROD,	Er-hem. A brief poem, if I may...	在此作诗一首：	ここで　いっく	　ぽ　ぽ　
+	line	I could catch			line	或許就能釣到		line	或许就能钓到	I could catch				
+	cont	better #MON!			cont	更好的寶可夢了…… 		cont	更好的宝可梦了…… 	better #MON!	“When two stones are held...	两颗小石头，	いし　ふたつ	
+	done				done			done			When two hearts become as one...	加上伙伴一条心，	こころ　ひとつで	
+														
+_Route12BattleText3::				_Route12BattleText3::							We Mega Evolve...”	超级大进化……	メガシンカ……	
+	text	Have you found a			text	我在尋找月之石，		text	我在寻找月之石，	Have you found a	Have you tried using an X Speed? It temporarily	你买了速度强化没？	スピーダーは　かって　みた？	スピーダーは　かって　みた?
+	line	MOON STONE?			line	你身上有嗎？		line	你身上有吗？	MOON STONE?	boosts a Pokémon’s Speed in battle.	它可以在战斗中	たたかう　ポケモンの　すばやさを	たたかう　ポケモンの　すばやさを
+	done				done			done						いちじてきに　あげるの
+												暂时提升宝可梦的速度哦。	いちじてきに　あげるの	
+_Route12EndBattleText3::				_Route12EndBattleText3::										
+	text	Oww!			text	哎呀呀呀……！		text	哎呀呀呀……！	Oww!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			prompt			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_Route12AfterBattleText3::				_Route12AfterBattleText3::										つ {PLAYER}  {PLAYER} 
+	text	I could have made			text	如果有月之石，		text	如果有月之石，	I could have made	I could have made my Pokémon evolve with a	如果有月之石，	つきのいしが　あれば	つきのいしが　あれば
+	line	my #MON evolve			line	寶可夢就會進化，		line	宝可梦就会进化，	my #MON evolve	Moon Stone.	宝可梦就会进化，	ポケモンが　しんか　して	ポケモンが　しんか　して
+	cont	with MOON STONE!			cont	或許我也能打贏你了。		cont	或许我也能打赢你了。	with MOON STONE!				ぼく　かってた　かも　しれないよ
+	done				done			done			I would have won then, I bet.	或许我也能打赢你了。	ぼく　かってた　かも　しれないよ	ゲ
+														
+_Route12BattleText4::				_Route12BattleText4::										
+	text	Electricity is my			text	我是電氣專業的，		text	我是电气专业的，	Electricity is my	This is my grandson.	这是我的孙子。	こいつは　わしの　まご	えーと?
+	line	specialty!			line	所以對海洋寶可夢		line	所以对海洋宝可梦	specialty!				なまえは　なんて　いったかな?
+	done				cont	並不瞭解。		cont	并不了解。		...Erm, what was his name, now?	……呃，	……えーと？	
+					done			done				他是叫什么名字来着？	なまえは　なんて　いったかな？	
+_Route12EndBattleText4::				_Route12EndBattleText4::										
+	text	Unplugged!			text	呼呀、呼呀……		text	呼呀、呼呀……	Unplugged!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			prompt			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_Route12AfterBattleText4::				_Route12AfterBattleText4::										つ {PLAYER}  {PLAYER} 
+	text	Water conducts			text	嗯……因為水能導電，		text	嗯……因为水能导电，	Water conducts	Water conducts electricity, so you should zap	嗯……因为水能导电，	うーん……　たしか　みずは	うーん…　たしか　みずは
+	line	electricity, so			line	所以電屬性的招式		line	所以电属性的招式	electricity, so	Pokémon from the sea.	所以电属性的招式	でんきを　よく　とおす　から	でんきを　よく　とおす　から
+	cont	you should zap			cont	應該是會奏效的……		cont	应该是会奏效的……	you should zap				わざが　きく　はず　だよね…
+	cont	sea #MON!			done			done		sea #MON!		应该是会奏效的……	わざが　きく　はず　だよね……	ゲ
+	done													
+														
+_Route12BattleText5::				_Route12BattleText5::										
+	text	The FISHING FOOL			text	噢！釣魚迷		text	噢！钓鱼迷	The FISHING FOOL	The fishing fool versus Pokémon kid!	噢！钓鱼迷	おうッ！　つりバカ	おうッ!　つり　バカ
+	line	vs. #MON KID!			line	遇到了寶可夢迷！		line	遇到了宝可梦迷！	vs. #MON KID!		遇到了宝可梦迷！	ポケモンバカに　であう！	ポケモン　バカに　であう!
+	done				done			done						
+														
+_Route12EndBattleText5::				_Route12EndBattleText5::										
+	text	Too			text	果然厲害！		text	你可真了不起！	Whoa!	Wow!	嗯……！	うーん……！	わたしの　まけか
+	line	much!						prompt		Too much!	You’re too much!	我输了。	わたしの　まけね	
+	prompt				prompt									
+														
+_Route12AfterBattleText5::				_Route12AfterBattleText5::										
+	text	You beat me at			text	正是出於喜歡，		text	正是出于喜欢，	You beat me at	I guess you get to be good at what you like.	正是出于喜欢，	すき　こそ	すき　こそ
+	line	#MON, but I'm			line	所以才會擅長於某事		line	所以才会擅长于某事	#MON, but I'm		所以才会擅长于某事……对吧！	ものの　じょうず　なれ……　だな！	ものの　じょうず　なれ…　だな!
+	cont	good at fishing!			cont	……對吧！		cont	……对吧！	good at fishing!	Well, you beat me at Pokémon, but you can’t			ぼくも　つり　なら　まけないぞ!
+	done				para	要是比釣魚的話，		para	要是比钓鱼的话，		top me at fishing.	要是比钓鱼的话，我也是不会输的！	ぼくも　つり　なら　まけないぞ！	ゲ
+					line	我也是不會輸的！		line	我也是不会输的！					
+					done									
+_Route12BattleText6::				_Route12BattleText6::				done						
+	text	I'd rather be			text	如果不是一味地釣魚，		text	如果不是一味地钓鱼，	I'd rather be	Oh? Shouldn’t I be able to reach the Gym	咦？	あら？　こっからは	…あら
+	line	working!			line	也能花點時間		line	也能花点时间	working!	from here?	从这里去不了道馆吗？	ジムに　いけない？	おかねが　ないよ
+	done				cont	在工作上的話，		cont	在工作上的话，					
+					cont	那就最好了……		cont	那就最好了……					
+					done									
+_Route12EndBattleText6::				_Route12EndBattleText6::				done						
+	text	It's			text	看來……		text	看来……	It's	It’s so pleasant...	真舒服……	きもち　いい……	おし!
+	line	not easy...			line	還真是難以上手呢。		line	还真是难以上手呢。	not easy...		……呼……呼～	……　すー……　すー	いい　しょうぶ　だった
+	prompt				prompt			prompt			... ... ...			
+														
+_Route12AfterBattleText6::				_Route12AfterBattleText6::							... ... Zzz.			
+	text	It's all right.			text	哈哈哈……沒事！		text	哈哈哈……没事！	It's all right.	It’s all right.	哈哈哈……没事！	ははは……　だいじょうぶ！	ははは…　だいじょうぶ!
+	line	Losing doesn't			line	區區戰敗還不足以		line	区区战败还不足以	Losing doesn't	Losing doesn’t bug me.	区区战败还不足以让我生气。	まけた　くらいで　はらは　たてんよ	まけた　くらいで　はらは　たてんよ
+	cont	bug me anymore.			cont	讓我生氣。		cont	让我生气。	bug me any more.				ゲ
+	done				done			done						
+														
+_Route12BattleText7::				_Route12BattleText7::										
+	text	You never know			text	……你問我能釣到什麼？		text	……你问我能钓到什么？	You never know	What’s biting?	……你问我能钓到什么？	……なにが　つれるかって？	…　なにが　つれるかって?
+	line	what you could			line	那就只有等釣上來後		line	那就只有等钓上来后	what you could		那就只有等钓上来后才知道了。	そりゃ　つって　みなけりゃ	そりゃ　つって　みなけりゃ
+	cont	catch!			cont	才知道了。		cont	才知道了。	catch!	You never know what you could catch!			わからんよ!
+	done				done			done					わからんよ！	
+														
+_Route12EndBattleText7::				_Route12EndBattleText7::										
+	text	Lost			text	失手了啊。		text	失手了啊。	Lost	Argh!	可恶！	ええい！	ええい!
+	line	it!			prompt			prompt		it!	Lost it!	我输了！	まけたぜ！	まけたぜ!
+	prompt													
+														
+_Route12AfterBattleText7::				_Route12AfterBattleText7::										
+	text	I catch MAGIKARP			text	啊，鯉魚王啊……		text	啊，鲤鱼王啊……	I catch MAGIKARP	What—Magikarp?	啊，鲤鱼王啊……	ああ　コイキング……　ね	ああ　コイキング…　ね
+	line	all the time, but			line	它倒是能經常釣到，		line	它倒是能经常钓到，	all the time, but		它倒是能经常钓到，	よく　つれる　けど	よく　つれる　けど
+	cont	they're so weak!			cont	但就是太弱了……		cont	但就是太弱了……	they're so weak!	I catch them all the time, sure.			よわすぎるんだよなあ…
+	done				done			done			But boy are they wimpy.	但就是太弱了……	よわすぎるんだよなあ……	
+														
+_Route12Text11::				_Route12Text11::										
+	text	ROUTE 12			text	這裡是１２號道路		text	这里是１２号道路	ROUTE 12	Route 12	这里是12号道路	ここは　１２ばんどうろ	ここは　12ばん　どうろ
+	line	North to LAVENDER			line	往北　……　紫苑鎮		line	往北　……　紫苑镇	North to LAVENDER	(North to Lavender Town)	往北　……　紫苑镇	きた　……　シオンタウン	きた　…　シオン　タウン
+	done				done			done						
+														
+_Route12Text12::				_Route12Text12::										
+	text	SPORT FISHING AREA			text	這裡是垂釣名勝		text	这里是垂钓名胜	SPORT FISHING AREA	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	done				done			done				给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+end				end							D’aww... Failed again?			

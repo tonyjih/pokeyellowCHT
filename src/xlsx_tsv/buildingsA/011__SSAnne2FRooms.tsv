@@ -1,0 +1,115 @@
+text/SSAnne2FRooms.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SSAnne9Text_61bf2::				_SSAnne9Text_61bf2::										
+	text	In all my travels,			text	我雖遊遍大千世界，		text	我虽游遍大千世界，	In all my travels	I’ve journeyed far and wide, but in all my travels	我虽游遍大千世界，	せかい　じゅうを　たび　してきたが	せかい　じゅうを　たび　してきたが
+	line	I've never seen			line	在發現那個整天只會		line	在发现那个整天只会	I've never seen	I’ve never seen any Pokémon sleep like that one!	在发现那个整天只睡觉的家伙时，	ねむって　ばかりの　あいつを	ねむって　ばかりの　あいつを
+	cont	any #MON sleep			cont	睡覺的傢伙時，		cont	睡觉的家伙时，	any #MON sleep				みつけたときは　ほんとに　あきれた
+	cont	like this one!			cont	還是大跌眼鏡了呢！		cont	还是大跌眼镜了呢！	like this one!	It was massive—a huge, round Pokémon!	还是大跌眼镜了呢！	みつけたときは　ほんとに　あきれた	たしか…!
+					para	沒記錯的話，		para	没记错的话，	It was something				こんな　ポケモン　だった
+	para	It was something			line	它應該是這個寶可夢。		line	它应该是这个宝可梦。	like this!		它是一只又大	とびきり　おおきくて	ゲ
+	line	like this!			prompt			prompt				又圆滚滚的宝可梦来着……！	まんまるな　ポケモン　だった……！	
+	prompt													
+														
+_SSAnne9Text_61c01::				_SSAnne9Text_61c01::										
+	text	Ah yes, I have			text	沒錯沒錯！		text	没错没错！	Ah yes, I have	I’ve seen Pokémon ferry people across the water!	没错没错！	にんげんを　のせて	にんげんを　のせて
+	line	seen some #MON			line	我見過載著人在水上移動的		line	我见过载着人在水上移动的	seen some #MON	I really have!	我见过载着人	みずの　うえ　はしる　ポケモン	みずの　うえ　はしる　ポケモン
+	cont	ferry people			cont	寶可夢！		cont	宝可梦！	ferry people				みたこと　ある　アルよ!
+	cont	across the water!			done			done		across the water!		在水上移动的宝可梦！	みたこと　ある　アルよ！	ゲ
+	done													
+														
+_SSAnne9Text_61c10::				_SSAnne9Text_61c10::										
+	text	#MON can CUT			text	細枝小樹的話，可以用		text	细枝小树的话，可以用	#MON can CUT	Team Rocket took off!	火箭队逃跑了啊！	ロケットだん　にげてったね！	ロケットだん　にげてったね!
+	line	down small bushes.			line	寶可夢招式“居合斬”		line	宝可梦招式“居合斩”	down small bushes.	We can go out safely again!	这样一来就再也不用害怕出门了！	これからは　そと　あるいても	これからは　そと　あるいても
+	done				cont	來砍倒！		cont	来砍倒！					ちっとも　こわくない!
+					done			done			That’s great!	太好了！	ちっとも　こわくない！	よかったね!
+_SSAnne9BattleText1::				_SSAnne9BattleText1::										
+	text	Competing against			text	與年輕人的對戰		text	与年轻人的对战	Competing against	Competing against the young keeps	与年轻人的对战	わかもの　との　しょうぶ　こそ	わかもの　との　しょうぶ　こそ
+	line	the young keeps			line	才是人生的樂趣！		line	才是人生的乐趣！	the young keeps	me youthful.	才是人生的乐趣！	じんせいの　たのしみ！	じんせいの　たのしみ!
+	cont	me youthful.			done			done		me youthful.				
+	done													
+														
+_SSAnne9EndBattleText1::				_SSAnne9EndBattleText1::										
+	text	Good			text	一場不錯的對戰。		text	一场不错的对战。	Good	Good match!	一场不错的对战。	いい　しょうぶ！	いい　しょうぶ!
+	line	fight! Ah, I feel			line	我好像重返年輕了。		line	我好像重返年轻了。	fight! Ah, I feel	Ah, I feel young again!	我好像重返年轻了。	わかがえる　ようだ	わかがえる　ようだ
+	cont	young again!			prompt			prompt		young again!				
+	prompt													
+														
+_SSAnne9AfterBattleText1::				_SSAnne9AfterBattleText1::										
+	text	15 years ago, I			text	如果是１５年以前，		text	如果是１５年以前，	15 years ago, I	Fifteen years ago, I would have won!	如果是15年以前，	１５ねん　まえ　なら	15ねん　まえ　なら
+	line	would have won!			line	贏的應該是我吧！		line	赢的应该是我吧！	would have won!		赢得应该是我吧！	わたしが　かって　いた　だろう！	わたしが　かって　いた　だろう!
+	done				done			done						
+														
+_SSAnne9BattleText2::				_SSAnne9BattleText2::										
+	text	Check out what I			text	你看，這可都是		text	你看，这可都是	Check out what I	Check out what I fished up!	你看，这可都是	おれが　つった	おれが　つった
+	line	fished up!			line	我釣到的魚喲！		line	我钓到的鱼哟！	fished up!		我钓到的鱼哟！	じまんの　さかなを　みろ！	じまんの　さかなを　みろ!
+	done				done			done						
+														
+_SSAnne9EndBattleText2::				_SSAnne9EndBattleText2::										
+	text	I'm			text	一條魚都沒了！		text	一条鱼都没了！	I'm	I’m all out!	一条鱼都没了！	もう　からっぽ！	もう　からっぽ!
+	line	all out!			prompt			prompt		all out!				
+	prompt													
+														
+_SSAnne9AfterBattleText2::				_SSAnne9AfterBattleText2::										
+	text	Party?			text	……派對？		text	……派对？	Party?	Party?	……派对？	……パーティ？	…　パーティ?
+					para	遊輪派對現在		para	游轮派对现在	The cruise ship's				せんじょう　パーティは
+	para	The cruise ship's			line	差不多要結束了吧。		line	差不多要结束了吧。	party should be	The cruise ship’s party should be over by now.	游轮派对现在	せんじょう　パーティは	もう　おわった　ころ　じゃないかな
+	line	party should be			done			done		over by now.		差不多要结束了吧。	もう　おわった　ころ　じゃないかな	
+	cont	over by now.												
+	done													
+														
+_SSAnne9BattleText3::				_SSAnne9BattleText3::										
+	text	Which do you like,			text	強大的寶可夢和		text	强大的宝可梦和	Which do you like,	Which do you find to be more worthy: a strong	强大的宝可梦和	きみは……　つよい　ポケモンと	きみは…　つよい　ポケモンと
+	line	a strong or a			line	珍稀的寶可夢……		line	珍稀的宝可梦……	a strong or a	Pokémon or a rare one?	珍稀的宝可梦……	めずらしい　ポケモン	めずらしい　ポケモン
+	cont	rare #MON?			cont	你覺得哪種更有價值？		cont	你觉得哪种更有价值？	rare #MON?				どっちに　かちを　かんじるかね?
+	done				done			done				你觉得哪种更有价值？	どっちに　かちを　かんじるかね？	
+														
+_SSAnne9EndBattleText3::				_SSAnne9EndBattleText3::										
+	text	I must			text	你可真厲害啊！		text	你可真厉害啊！	I must	I must salute you!	你可真厉害啊！	やる　ものだね！	やる　ものだね!
+	line	salute you!			prompt			prompt		salute you!				
+	prompt													
+														
+_SSAnne9AfterBattleText3::				_SSAnne9AfterBattleText3::										
+	text	I prefer strong			text	我想要……		text	我想要……	I prefer strong	Personally, I prefer Pokémon that are both strong	我想要……	わたしは……　めずらしくて	わたしは…　めずらしくて
+	line	and rare #MON.			line	既強大又珍稀的寶可夢。		line	既强大又珍稀的宝可梦。	and rare #MON.	and rare!	既强大又珍稀的宝可梦。	つよい　ポケモンが　ほしいねえ	つよい　ポケモンが　ほしいねえ
+	done				done			done						
+														
+_SSAnne9BattleText4::				_SSAnne9BattleText4::										
+	text	I never saw you			text	哎？我好像		text	哎？我好像	I never saw you	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	at the party.			line	從來沒在派對上見到過你？		line	从来没在派对上见到过你？	at the party.	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	done				done			done						…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_SSAnne9EndBattleText4::				_SSAnne9EndBattleText4::										
+	text	Take			text	還請手下留情！		text_start		Hey!	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	it easy!						line	什么情况啊！真让人不爽！	Take it easy!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt				prompt			cont	我知道了呐！	You won already!				
+								prompt						
+_SSAnne9AfterBattleText4::				_SSAnne9AfterBattleText4::										
+	text	Oh, I adore your			text	你的寶可夢真強啊！		text	你的宝可梦真强啊！	Oh, I adore your	I just adore my Seel!	我可爱的小海狮呀！	あたしの　いとしい　パウワウ！	あたしの　いとしい　パウワウ!
+	line	strong #MON!			line	真好啊……真好啊……		line	真好啊……真好啊……	strong #MON!	It’s so lovable!			だきしめると
+	done				done			done				每当我抱紧它，	だきしめると	きゅー!　って　なくのよ!
+											It squeals “Keeew!” when I hug it!	它都会Ｑ～地这样叫呢！	きゅー！　って　なくのよ！	
+_SSAnne9Text_61c1f::				_SSAnne9Text_61c1f::										
+	text	Have you gone to			text	不知道你去沒去過		text	不知道你去没去过	Have you gone to	Have you been to the GO Park complex in	不知道你去没去过	セキチクシティ　ＧＯパーク	セキチク　シティ　サファり　ゾーン
+	line	the SAFARI ZONE			line	淺紅市的狩獵地帶呢？		line	浅红市的狩猎地带呢？	the SAFARI ZONE	Fuchsia City?	浅红市的GO Park呢？	いった　こと　あるかね？	いった　こと　あるかね?
+	cont	in FUCHSIA CITY?			para	那裡有許許多多		para	那里有许许多多	in FUCHSIA CITY?				あそこは　めずらしい　ポケモンが
+					line	少見的寶可夢！		line	少见的宝可梦！	It had many rare	There were many rare Pokémon there!	那里有许许多多	あそこは　めずらしい　ポケモンが	たくさん　いた!
+	para	It had many rare			done			done		kinds of #MON!!		少见的宝可梦！	たくさん　いた！	
+	line	kinds of #MON!!												
+	done													
+														
+_SSAnne9Text_61c2e::				_SSAnne9Text_61c2e::										
+	text	Me and my Daddy			text	爸爸和我都		text	爸爸和我都	Me and my Daddy	Me and my daddy love the GO Parks!	爸爸和我都最喜欢GO Park了！	パパも　ぼくも	パパも　ぼくも
+	line	think the SAFARI			line	最喜歡狩獵地帶了！		line	最喜欢狩猎地带了！	think the SAFARI	I wish we could go there again.	好想再去那里玩儿啊！	ＧＯパーク　だいすき！	サファり　ゾーン　だいすき!
+	cont	ZONE is awesome!			cont	好想再去那裡玩兒啊！		cont	好想再去那里玩儿啊！	ZONE is awesome!				また　あそびに　いきたいな!
+	done				done			done					また　あそびに　いきたいな！	
+														
+_SSAnne9Text_61c3d::				_SSAnne9Text_61c3d::										
+	text	The CAPTAIN looked			text	我看到船長先生了。		text	我看到船长先生了。	The CAPTAIN looked	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	really sick and			line	他說他有些不舒服，		line	他说他有些不舒服，	really sick and	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	pale!			cont	臉色也很糟糕呢！		cont	脸色也很糟糕呢！	pale!				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_SSAnne9Text_61c4c::				_SSAnne9Text_61c4c::										
+	text	I hear many people			text	好像有好多人		text	好像有好多人	I hear many people	I hear it’s really quite common!	好像有好多人	けっこう　おおい　らしいわ！	けっこう　おおい　らしいわ!
+	line	get seasick!			line	容易暈船呢！		line	容易晕船呢！	get seasick!	People getting seasick, that is.	容易晕船呢！	ふなよい　する　ひと！	ふなよい　する　ひと!
+	done				done			done						
+end				end										

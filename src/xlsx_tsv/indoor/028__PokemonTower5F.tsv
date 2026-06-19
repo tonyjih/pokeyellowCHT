@@ -1,0 +1,73 @@
+text/PokemonTower5F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_PokemonTower5Text1::				_PokemonTower5Text1::										
+	text	Come, child! I			text	來吧，孩子，到這裡來！		text	来吧，孩子，到这里来！	Come, child! I	Come, child!	来吧，孩子，到这里来！	さあ　こっちへ　きなさい！	さあ　こっちへ　きなさい!
+	line	sealed this space			line	這裡有一道結界，		line	这里有一道结界，	sealed this space	I have purified this space here.	这里有一道结界，	ここには　けっかいを　はってある	ここには　けっかいを　はってある
+	cont	with white magic!			cont	你可以在這裡休息！		cont	你可以在这里休息！	with white magic!				やすんで　いくが　よい!
+					done			done		You can rest here!	You can rest yourself a moment.	你可以在这里休息！	やすんで　いくが　よい！	ゲ
+	para	You can rest here!												
+	done													
+														
+_PokemonTower5BattleText1::				_PokemonTower5BattleText1::										
+	text	Give...me...			text	把……你的……靈魂……		text	把……你的……灵魂……	Give...me...	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	your...soul...			line	給……我！		line	给……我！	your...soul...		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	done				done			done			D’aww... Failed again?			
+														
+_PokemonTower5EndBattleText1::				_PokemonTower5EndBattleText1::										
+	text	Gasp!			text	哈啊、哈啊……！		text_start			Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			done			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_PokemonTower5AfterBattleText1::				_PokemonTower5AfterBattleText1::										つ {PLAYER}  {PLAYER} 
+	text	I was under			text	我……		text	我……	I was under	I was under possession.	我……	わたしは……	わたしは…
+	line	possession!			line	被附身了麼。		line	被附身了么。	possession!		被附身了么。	とり　つかれて　おったか	とり　つかれて　おったか
+	done				done			done						ゲ
+														
+_PokemonTower5BattleText2::				_PokemonTower5BattleText2::										
+	text	You...shall...			text	你……也來……成為……		text	你……也来……成为……	You...shall...	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	join...us...			line	我們的……同伴吧！		line	我们的……同伴吧！	join...us...		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	done				done			done			D’aww... Failed again?			
+														
+_PokemonTower5EndBattleText2::				_PokemonTower5EndBattleText2::										
+	text	What			text	怎麼會這樣。		text	怎么会这样。	What	What a nightmare!	怎么会这样。	なんとした　ことじゃ	なんとした　ことじゃ
+	line	a nightmare!			prompt			prompt		a nightmare!				
+	prompt													
+														
+_PokemonTower5AfterBattleText2::				_PokemonTower5AfterBattleText2::										
+	text	I was possessed!			text	我竟然會被附身，		text	我竟然会被附身，	I was possessed!	Sorry!	对不起！我被恶灵附身了，	すまぬ！　あくりょうが	すまぬ!　あくりょうが
+	done				line	看來我也是道行太淺啊……		line	看来我也是道行太浅啊……		I was possessed!	所以不受控制地胡闹了起来。	のりうつって　あばれてるのじゃ！	のりうつって　あばれてるのじゃ!
+					done			done						
+_PokemonTower5BattleText3::				_PokemonTower5BattleText3::										
+	text	Zombies!			text	僵……僵僵……		text_start			Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	done				line	屍……！		done			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+					done									4ャよひ
+_PokemonTower5EndBattleText3::				_PokemonTower5EndBattleText3::										つ {PLAYER}  {PLAYER} 
+	text	Ha?			text	……僵、僵僵？		text_start			Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			done			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_PokemonTower5AfterBattleText3::				_PokemonTower5AfterBattleText3::										つ {PLAYER}  {PLAYER} 
+	text	I regained my			text	唔，我終於清醒了！		text	唔，我终于清醒了！	I regained my	I regained my senses.	唔，我终于清醒了！	うう	うう
+	line	senses!			done			done		senses!			しょうきに　もどった！	しょうきに　もどった!
+	done													ゲ
+														
+_PokemonTower5BattleText4::				_PokemonTower5BattleText4::										
+	text	Urgah...			text	哆……嘎啊		text	哆……嘎啊	Urgah...	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	Urff....			line	……嘎、嘎啊……！		line	……嘎、嘎啊……！	Urff....		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	done				done			done			D’aww... Failed again?			
+														
+_PokemonTower5EndBattleText4::				_PokemonTower5EndBattleText4::										
+	text	Whoo!			text	好可怕……		text	你很厉害啊。	Whoo!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			prompt		Good stuff!	Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_PokemonTower5AfterBattleText4::				_PokemonTower5AfterBattleText4::										つ {PLAYER}  {PLAYER} 
+	text	I fell to evil			text	我還算是在		text	我还算是在	I fell to evil	I fell to evil spirits, despite my training	我还算是在深山老林里修行的，	やまおくで　しゅぎょう　したのに	やまおくで　しゅぎょう　したのに
+	line	spirits despite			line	深山老林裡修行的，		line	深山老林里修行的，	spirits despite	in the mountains... Frustrating...	……真是丢人呐。	……なさけない	…　なさけない
+	cont	my training!			cont	……真是丟人吶。		cont	……真是丢人呐。	my training!				
+	done				done			done						
+														
+_PokemonTower5Text7::				_PokemonTower5Text7::										
+	text	Entered purified,			text	進入了被咒文保佑著的		text	进入了被咒文保佑着的	Entered purified,	You entered the purified and protected space,	进入了被咒文保佑着的	せいなる　いのりに　まもられた	せいなる　いのりに　まもられた
+	line	protected zone!			line	神聖結界！		line	神圣结界！	protected zone!	and your Pokémon w[VAR NUMBRNCH(00FD,0302)]asere fully healed!	神圣结界！	けっかいへ　はいった！	けっかいへ　はいった!
+					para	經過休息，<PLAYER>和		para	经过休息，<PLAYER>和	<PLAYER>'s #MON				 {PLAYER} と　ポケモンは
+	para	<PLAYER>'s #MON			line	寶可夢都變得精力充沛了！		line	宝可梦都变得精力充沛了！	are fully healed!		经过休息，[VAR TRNAME(0000)]和宝可梦	[VAR TRNAME(0000)]と　ポケモンは	ひと　やすみして　げんきに　なった!
+	line	are fully healed!			done			done				都变得精力充沛了！	ひと　やすみして　げんきに　なった！	
+	done													
+end				end										

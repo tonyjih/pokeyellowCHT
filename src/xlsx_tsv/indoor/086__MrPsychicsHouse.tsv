@@ -1,0 +1,28 @@
+text/MrPsychicsHouse.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_TM29PreReceiveText::				_TM29PreReceiveText::										
+	text	...Wait! Don't			text	…………		text	…………	...Wait! Don't	...Wait! Don’t say a word!	…………我明白了！	…………わかった！	…　…　わかった!
+	line	say a word!			line	我明白了！		line	我明白了！	say a word!				これが　ほしい　のか!
+					para	你是想要這個吧！		para	你是想要这个吧！	You wanted this!	You wanted this!	你是想要这个吧！	これが　ほしい　のか！	
+	para	You wanted this!			prompt			prompt						
+	prompt													
+														
+_ReceivedTM29Text::				_ReceivedTM29Text::										
+	text	<PLAYER> received			text	<PLAYER>從超能力大叔		text	<PLAYER>从谜之训练家	<PLAYER> received	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	@			line	那裡得到了@		line	那里得到了@	a @	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_ram	wStringBuffer			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer				
+	text	!@			text	！@		text	！@	!@				
+	text_end				text_end			text_end						
+														
+_TM29ExplanationText::				_TM29ExplanationText::										
+	text	TM29 is PSYCHIC!			text	……你應該清楚的吧？		text	……你应该清楚的吧？	TM29 is PSYCHIC!	You already know, don’t you.	……你应该清楚的吧？	……わかってるな？	は　サイコキネシス!
+					line	招式學習器２９是		line	招式学习器２９是	It can lower the	TM40 is Psychic.	招式学习器40是“精神强念”！	わざマシン４０は　サイコキネシス！	…　うまく　いけば
+	para	It can lower the			cont	“精神強念”！		cont	“精神强念”！	target's SPECIAL				あいての　とくしゅ　のうりょくを
+	line	target's SPECIAL			para	……如果順利的話，		para	……如果顺利的话，	abilities.	It’s an attack that may also lower	……如果顺利的话，	……うまく　いけば	さげられる　かも　しれない!
+	cont	abilities.			line	或許可以讓對方的		line	或许可以让对方的		the target’s Sp. Def stat.	或许可以让对方的特防下降！	あいての　とくぼうを	
+	done				cont	特殊能力下降！		cont	特殊能力下降！					
+					done			done					さげられる　かも　しれない！	
+_TM29NoRoomText::				_TM29NoRoomText::										
+	text	Where do you plan			text	持有物已滿了！		text	持有物已满了！	Where do you plan	Where do you want to move this Pokémon to?	要与哪只调换？	どこと　いれかえる？	トレーナーぞ
+	line	to put this?			done			done		to put this?				きド5ま
+	done													
+end				end										

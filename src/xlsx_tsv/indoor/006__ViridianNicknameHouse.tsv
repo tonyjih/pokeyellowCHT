@@ -1,0 +1,25 @@
+text/ViridianNicknameHouse.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_ViridianHouseText1::				_ViridianHouseText1::										
+	text	Coming up with			text	起暱稱雖然很有趣……		text	起昵称虽然很有趣……	Coming up with	Coming up with nicknames is fun, but it’s not	起昵称虽然很有趣……	ニックネームを　かんがえることは	ニックネームを　かんがえることは
+	line	nicknames is fun,			line	但也很困難！		line	但也很困难！	nicknames is fun,	so easy to do.	但也很困难！	たのしい……　が　むずかしい！	たのしい…が　むずかしい!
+	cont	but hard.			para	雖然有深度的暱稱也不錯，		para	虽然有深度的昵称也不错，	but hard.				こった　ニックネームも　いいが
+					line	不過我還是喜歡		line	不过我还是喜欢	Simple names are	Clever names are nice, but simple names are	虽然有深度的昵称也不错，	こった　ニックネームも　いいが	おぼえやすいのが　いちばん　やな!
+	para	Simple names are			cont	好記的暱稱！		cont	好记的昵称！	the easiest to	easier to remember.	不过我还是喜欢好记的昵称！	おぼえやすいのが　いちばん　やな！	
+	line	the easiest to			done			done		remember.				
+	cont	remember.												
+	done													
+														
+_ViridianHouseText2::				_ViridianHouseText2::										
+	text	My Daddy loves			text	我爸爸也		text	我爸爸也	My Daddy loves	My daddy loves Pokémon, too.	我爸爸也	うちの　とうちゃんも	うちの　とうちゃんも
+	line	#MON too.			line	非常喜歡寶可夢哦！		line	非常喜欢宝可梦哦！	#MON too.		非常喜欢宝可梦哦！	ポケモン　だいすきなのよ！	ポケモン　だいすきなのよ!
+	done				done			done						ゲ
+														
+_ViridianHouseText_1d5b1::				_ViridianHouseText_1d5b1::										
+	text	SPEARY: Tetweet!			text	小烈：啾啾～！		text	小烈：啾啾～！	SPEARY: Tetweet!	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	done				done			done				给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+											D’aww... Failed again?			
+_ViridianHouseText4::				_ViridianHouseText4::										
+	text	SPEAROW			text	烈雀		text	烈雀	SPEAROW	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	Name: SPEARY			line	名字：小烈		line	名字：小烈	Name: SPEARY		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	done				done			done			D’aww... Failed again?			
+end				end										

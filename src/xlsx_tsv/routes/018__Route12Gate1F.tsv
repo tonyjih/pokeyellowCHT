@@ -1,0 +1,9 @@
+text/Route12Gate1F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route12GateText1::				_Route12GateText1::										
+	text	There's a lookout			text	２樓是可以鳥瞰美景的		text	２楼是可以鸟瞰美景的	There's a lookout	Hey!	我翻我翻……！	ガサゴソ……！	ガサゴソ…!
+	line	spot upstairs.			line	展望臺。		line	展望台。	spot upstairs.	There’s a switch under the trash?!	嘿哟！垃圾箱底	おっと！　ゴミばこの　そこに	おっと!　ゴミばこの　そこに
+	done				done			done						また　スイッチが　あった!
+end				end							Let’s push it!	有一个开关！	スイッチが　あった！	おして　みよう!　…　ポチッとな
+														ゲへ
+												按一下试试吧！	おして　みよう！　……ポチッとな	
+												……啪嗒！		

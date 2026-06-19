@@ -1,0 +1,37 @@
+text/Route4.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route4Text1::				_Route4Text1::										
+	text	Ouch! I tripped			text	好痛啊！		text	好痛啊！	Ouch! I tripped	Ouch!	好痛啊！	いたッ！	いたッ!
+	line	over a rocky			line	被絆了一大跤！		line	被绊了一大跤！	over a rocky	I tripped over a Geodude lying on the ground!	被绊了一大跤！	つまずいて　ころんじゃった	つまづいて　ころんじゃった
+	cont	#MON, GEODUDE!			cont	仔細一看，原來是小拳石！		cont	仔细一看，原来是小拳石！	#MON, GEODUDE!				ポケモンの　イシツブテだわ!
+	done				done			done				仔细一看，原来是小拳石！	ポケモンの　イシツブテだわ！	ゲ
+														
+_Route4BattleText1::				_Route4BattleText1::										
+	text	I came to get my			text	我是為了捉蘑菇寶可夢		text	我是为了捉蘑菇宝可梦	I came to get my	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	mushroom #MON!			line	才來月見山的！		line	才来月见山的！	mushroom #MON!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	done				done			done						…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_Route4EndBattleText1::				_Route4EndBattleText1::										
+	text	Oh! My cute			text	我好不容易		text	我好不容易	Oh! My cute	Oh!	……！	……！	 {next} 
+	line	mushroom #MON!			line	才捉到的！		line	才捉到的！	mushroom #MON!	It appears it is my loss...	我输了。	まいり　ましたわ	@
+	prompt				prompt			prompt						 {PLAYER}  {RIVAL} ポケモン
+											... ... ...	………………	……　……　……	…
+_Route4AfterBattleText1::				_Route4AfterBattleText1::										
+	text	There might not			text	這附近或許		text	这附近或许	There might not	There are so many accessories that you can give	这些都是专门为	ポケモンに　つけて　あげる	あらま…!
+	line	be any more			line	已經找不到任何蘑菇了。		line	已经找不到任何蘑菇了。	be any more	your Pokémon to wear!	宝可梦准备的饰品呢！	アクセサリー！	みつかっちゃったわね!
+	cont	mushrooms here.			para	看來是我		para	看来是我	mushrooms here.				わたしの　こと
+					line	把它們全採光了。		line	把它们全采光了。	I think I got	And they’re all so cute...	为什么全都这么可爱！	どれも　かわいーの！	だれにも　いわないで
+	para	I think I got			done			done		them all.				これ　あげる　から
+	line	them all.									I think I’d rather keep some of them for myself!	我都想戴上用用看呢！	むしろ　あたしが　つけたい！	…　おねがいよ
+	done													
+														
+_Route4Text5::				_Route4Text5::										
+	text	MT.MOON			text	這裡是月見山		text	这里是月见山	MT.MOON	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	Tunnel Entrance			line	……洞窟入口		line	……洞窟入口	Tunnel Entrance	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done			done						
+														
+_Route4Text6::				_Route4Text6::										
+	text	ROUTE 4			text	這裡是４號道路		text	这里是４号道路	ROUTE 4	Cerulean City Pokémon Gym	华蓝市宝可梦道馆	ハナダシティ　ポケモンジム	ハナダ　シティ　ポケモン　ジム
+	line	MT.MOON -			line	月見山　……　華藍市		line	月见山　……　华蓝市	MT.MOON -	Gym Leader: Misty	馆主：小霞	リーダー　カスミ	りーダー　カスミ
+	cont	CERULEAN CITY			done			done		CERULEAN CITY				おてんば　にんぎょ
+	done										The Tomboyish Mermaid!	俏皮的美人鱼。	おてんば　にんぎょ	へどぶ
+end				end										

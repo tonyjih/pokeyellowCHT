@@ -1,0 +1,11 @@
+text/Route2.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route2Text3::				_Route2Text3::										
+	text	ROUTE 2			text	這裡是２號道路		text	这里是２号道路	ROUTE 2	Route 2	这里是２号道路	ここは　２ばんどうろ	ここは　トキワシティ
+	line	VIRIDIAN CITY -			line	常青市　……　深灰市		line	常青市　……　深灰市	VIRIDIAN CITY -	(Viridian City ⇄ Pewter City)	常青市　……　深灰市	トキワシティ　……　ニビシティ	トキワは　みどり　えいえんのいろ
+	cont	PEWTER CITY			done			done		PEWTER CITY				
+	done													
+														
+_Route2Text4::				_Route2Text4::										
+	text	DIGLETT's CAVE			text	地鼠洞穴		text	地鼠洞穴	DIGLETT's CAVE	Diglett’s Cave	地鼠洞穴	ディグダのあな	トレーナーぞ
+	done				done			done						きド5ま
+end				end										

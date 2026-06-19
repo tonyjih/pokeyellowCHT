@@ -1,0 +1,138 @@
+text/Route9.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route9BattleText1::				_Route9BattleText1::										
+	text	You have #MON			text	哎呀，你有寶可夢啊。		text	哎呀，你有宝可梦啊。	You have #MON	You have [VAR NUMBRNCH(00FD,0002)]a Pokémon with you!	哎呀，你有宝可梦啊。	あら　ポケモン　もってるわね	あら　ポケモン　もってるわね
+	line	with you!			line	……那就來吧！		line	……那就来吧！	with you!	You’re my easy target!	……那就来吧！	……カモ　だわ！	…　カモ　だわ!
+	cont	You're mine!			done			done		You're mine!				
+	done													
+														
+_Route9EndBattleText1::				_Route9EndBattleText1::										
+	text	You			text	哎呀？你好強呢。		text	哎呀？你好强呢。	You	Whoa!	哇啊！	うわーッ！	うわーッ!
+	line	deceived me!			prompt			prompt		deceived me!	You surprised me!	吓死我了！	びっくり　した！	びっくり　した!
+	prompt													…　なんだ　こどもか
+											...Oh, you’re just a kid?	……什么嘛，是个孩子啊。	……なんだ　こどもか	
+_Route9AfterBattleText1::				_Route9AfterBattleText1::										
+	text	You need light to			text	前面的隧道裡一片漆黑。		text	前面的隧道里一片漆黑。	You need light to	The tunnel coming up is pitch black inside.	前面的隧道里一片漆黑。	この　さきの　トンネル	この　さきの　トンネル
+	line	get through that			line	沒有亮光根本無法前進。		line	没有亮光根本无法前进。	get through that	You’ll need Light Up to get through there.	没有亮光根本无法前进。	なかは　まっくら　だから	なかは　まっくら　だから
+	cont	dark tunnel ahead.			done			done		dark tunnel ahead.				あかりが　ないと　すすめ　ないわ
+	done												あかりが　ないと　すすめないわ	
+														
+_Route9BattleTextAJ::				_Route9BattleTextAJ::										
+	text	I aim to be the			text	我的目標是			おれの　もくひょうは		Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	ultimate trainer!			line	成為最強的訓練家！			きゅうきょくの　トレーナーだ!		Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	done				done									…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_Route9EndBattleTextAJ::				_Route9EndBattleTextAJ::										
+	text	My			text	我的穿山鼠			オレの		“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	SANDSHREW lost?			line	竟然輸了……			サンドが　まけるなんて…		2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt				prompt									
+														
+_Route9AfterBattleTextAJ::				_Route9AfterBattleTextAJ::										
+	text	I'll restart my			text	我會和穿山鼠一起，			サンドとの　コンビで		I’ll battle you with my favorite Pokémon that I	我就用和朋友交换来的	ともだちと　こうかん　した	ともだちと　こうかん　した
+	line	100-win streak			line	再以１００連勝為目標的！			また　100れんしょうを　めざすぜ!		traded with my friends!	宝可梦与你决胜负吧！	おきにいりで　しょうぶ　するわ！	おきにいりで　しょうぶ　するわ!
+	cont	with SANDSHREW.												
+	done				done									
+														
+_Route9BattleText3::				_Route9BattleText3::										
+	text	I'm taking ROCK			text	我正打算穿過		text	我正打算穿过	I'm taking ROCK	I’m taking the Rock Tunnel to go to	我正打算穿过	イワヤマトンネル　ぬけて	イワヤマ　トンネル　ぬけて
+	line	TUNNEL to go to			line	岩山隧道去紫苑鎮……		line	岩山隧道去紫苑镇……	TUNNEL to go to	Lavender Town...	岩山隧道去紫苑镇……	シオンタウンに	シオン　タウンに
+	cont	LAVENDER...			done			done		LAVENDER...				いく　ところ　なんだ　けど…
+	done												いく　ところ　なんだ　けど……	
+														
+_Route9EndBattleText3::				_Route9EndBattleText3::										
+	text	Can't			text	看來是不行了。		text	看来是不行了。	Can't	Can’t measure up...	看来是不行了。	どうも　だめだな	どうも　だめだな
+	line	measure up!			prompt			prompt		measure up!				
+	prompt													
+														
+_Route9AfterBattleText3::				_Route9AfterBattleText3::										
+	text	Are you off to			text	怎麼，		text	怎么，	Are you off to	Are you off to the Rock Tunnel, too?	怎么，你也想去岩山隧道吗？	なんだい　きみも	なんだい　きみも
+	line	ROCK TUNNEL too?			line	你也想去岩山隧道嗎？		line	你也想去岩山隧道吗？	ROCK TUNNEL too?			イワヤマトンネル　いくのか	イワヤマ　トンネル　いくのか
+	done				done			done						
+														
+_Route9BattleText4::				_Route9BattleText4::										
+	text	Don't you dare			text	別因為是女孩子		text	别因为是女孩子	Don't you dare	Don’t you dare patronize me!	我可不会手下留情哦！	てかげんは　なしね！	てかげん　なしね
+	line	condescend me!			line	就小看我呢！		line	就小看我呢！	condescend me!				
+	done				done			done						
+														
+_Route9EndBattleText4::				_Route9EndBattleText4::										
+	text	No!			text	不行！		text	不行！	No!	Wow!	嗯……！	うーん……！	わたしの　まけか
+	line	You're too much!			line	打不贏你。		line	打不赢你。	You're too much!	You’re too much!	我输了。	わたしの　まけね	
+	prompt				prompt			prompt						
+														
+_Route9AfterBattleText4::				_Route9AfterBattleText4::										
+	text	You're obviously			text	你一定有著很高的		text	你一定有着很高的	You're obviously	You’re obviously talented.	你一定有着很高的	あなた　きっと	あなた　きっと
+	line	talented! Good			line	寶可夢對戰才能。		line	宝可梦对战才能。	talented! Good	Good luck to you!	宝可梦对战才能。	ポケモンの　さいのう　あるのよ	ポケモンの　さいのう　あるのよ
+	cont	luck to you!			cont	加油吧！		cont	加油吧！	luck to you!				がんばってね!
+	done				done			done				加油吧！	がんばってね！	
+														
+_Route9BattleText5::				_Route9BattleText5::										
+	text	Bwahaha!			text	哈哈哈！		text	哈哈哈！	Bwahaha!	Bwahaha!	哈哈哈！	がはは！	がはは!
+	line	Great! I was			line	來得正好！		line	来得正好！	Great! I was	Great! I was bored, eh!	来得正好！	ちょうど　いい！	ちょうど　いい!
+	cont	bored, eh!			cont	我剛好覺得無聊了。		cont	我刚好觉得无聊了。	bored, eh!				たいくつ　してた　とこだ
+	done				done			done				我刚好觉得无聊了。	たいくつ　してた　とこだ	
+														
+_Route9EndBattleText5::				_Route9EndBattleText5::										
+	text	Keep it			text	來啊，		text	来啊，	Keep it	Keep it coming, eh!	来啊，继续啊！	まだまだ！	まだまだ!
+	line	coming, eh!			line	繼續啊！啊……		line	继续啊！啊……	coming, eh!		啊……	……と　おもったら	…　と　おもったら
+					para	我沒有寶可夢了。		para	我没有宝可梦了。	Oh wait. I'm out	Oh wait.			もう　ポケモンが　ない
+	para	Oh wait. I'm out			prompt			prompt		of #MON!	I’m out of Pokémon!	我没有宝可梦了。	もう　ポケモンが　ない	
+	line	of #MON!												
+	prompt													
+														
+_Route9AfterBattleText5::				_Route9AfterBattleText5::										
+	text	You sure had guts			text	你竟能毫不畏懼地		text	你竟能毫不畏惧地	You sure had guts	You sure had guts, standing up to	你竟能毫不畏惧地	やまおとこに	やまおとこに
+	line	standing up to me			line	和登山男戰鬥，		line	和登山男战斗，	standing up to me	a Hiker like me there, eh?	和登山男战斗，	びびらずに　たたかうとは	びびらずに　たたかうとは
+	cont	there, eh?			cont	真了不起！		cont	真了不起！	there, eh?				たいした　もんだ!
+	done				done			done				真了不起！	たいした　もんだ！	
+														
+_Route9BattleText6::				_Route9BattleText6::										
+	text	Hahaha!			text	哈哈哈！		text	哈哈哈！	Hahaha!	Hahaha!	哈哈哈！	はーっはっはッ！	はーっはっはッ!
+	line	Aren't you a			line	是個充滿活力的小鬼！		line	是个充满活力的小鬼！	Aren't you a	Aren’t you a little toughie!	是个充满活力的孩子！	げんきな　こども　だ！	げんきな　ぼうず　だ!
+	cont	little toughie!			cont	那麼，讓我們來對戰吧！		cont	那么，让我们来对战吧！	little toughie!				いっちょう　やったるか!
+	done				done			done				那么，让我们来对战吧！	いっちょう　やったるか！	
+														
+_Route9EndBattleText6::				_Route9EndBattleText6::										
+	text	What's			text	哎呀呀！		text	哎呀呀！	What's	Hm? What’s with that look of surprise?	怎么了？	なんじゃ？	なんじゃ　
+	line	that?			prompt			prompt		that?		把你惊讶成那样……	そんなに　おどろいて……	ざんねん　じゃのー
+	prompt													
+														
+_Route9AfterBattleText6::				_Route9AfterBattleText6::										
+	text	Hahaha! Kids			text	哈哈哈哈！		text	哈哈哈哈！	Hahaha! Kids	Hahaha!	哈哈哈哈！	はーっはっはッ！	はーっはっはッ!
+	line	should be tough!			line	有活力就好啊！		line	有活力就好啊！	should be tough!	Kids should be tough!	有活力就好啊！	げんきで　けっこう！	げんきで　けっこう!
+	done				done			done						
+														
+_Route9BattleText7::				_Route9BattleText7::										
+	text	I got up early			text	我每天早上早起		text	我每天早上早起	I got up early	Come to me, my new Haunter!	快来我这里吧！	はやく　きて！	はやく　きて!
+	line	every day to			line	培育的蛹！		line	培育的蛹！	every day to		小鬼斯通～！	ゴースト　ちゃーん！	ゴースト　ちゃーん!
+	cont	raise my #MON			cont	終於羽化了！		cont	终于羽化了！	raise my #MON	I absolutely love Haunter! I collect them!			ぼくは
+	cont	from cocoons!			done			done		from cocoons!		身为一个鬼斯通迷，	ぼくは	ゴースト　マニア　なのね!
+	done										...Huh?	我要收集到好多好多鬼斯通哦！	ゴースト　マニア　なのね！	…　あー?
+														てんそう　されて　きた　ゴーストが
+_Route9EndBattleText7::				_Route9EndBattleText7::							Haunter evolved into a different Pokémon while	……咦？	……あー？	べつの　ポケモンに!?
+	text	WHAT?			text	咦——！		text	咦——！	WHAT?	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+					para	我的早起		para	我的早起	What a total	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	para	What a total			line	到底算什麼啊。		line	到底算什么啊。	waste of time!				…　シルフ　カンパニー
+	line	waste of time!			prompt			prompt				……西尔佛公司	……シルフカンパニー	
+	prompt													
+														
+_Route9AfterBattleText7::				_Route9AfterBattleText7::										
+	text	I have to collect			text	要變強的話，不去尋找		text	要变强的话，不去寻找	I have to collect	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	more than bugs to			line	蟲寶可夢以外的寶可夢		line	虫宝可梦以外的宝可梦	more than bugs to	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	get stronger...			cont	是不行的哪。		cont	是不行的哪。	get stronger...				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_Route9BattleText8::				_Route9BattleText8::										
+	text	Hahahaha!			text	哈哈哈！		text	哈哈哈！	Hahahaha!	Hey! You have Pokémon, right?	嗨！	よーしッ！	よーしッ!
+	line	Come on, dude!			line	放馬過來！		line	放马过来！	Come on, dude!	Come on!	你有宝可梦的吧？	きみは　ポケモン　もってるな？	きみは　ポケモン　もってるな?
+	done				done			done						しょうぶ　しようぜ!
+											Let’s battle ’em!	我们来对战！	しょうぶ　しようぜ！	
+_Route9EndBattleText8::				_Route9EndBattleText8::										
+	text	Hahahaha!			text	哈哈哈！		text	哈哈哈！	Hahahaha!	Hahahaha!	哈哈哈！	はーっはっはッ！	はーっはっはッ!
+	line	You beat me fair!			line	我好像輸了啊。		line	我好像输了啊。	You beat me fair!	You beat me fair!	我好像输了啊。	ありゃ　まけた　ようだな	ありゃ　まけた　ようだな
+	prompt				prompt			prompt						
+														
+_Route9AfterBattleText8::				_Route9AfterBattleText8::										
+	text	Hahahaha!			text	哈哈哈！登山男的心胸		text	哈哈哈！登山男的心胸	Hahahaha!	Hahahaha!	哈哈哈！	はっはっはーッ！	はっはっはーッ!
+	line	Us hearty guys			line	可是很豁達的。		line	可是很豁达的。	Us hearty guys	Us hearty Hikers always laugh even when	登山男的心胸可是很豁达的。	やまおとこは　こころが　ひろいから	やまおとこは　こころが　ひろいから
+	cont	always laugh!			cont	就算是輸了也會笑！		cont	就算是输了也会笑！	always laugh!				まけても　わらってるのだ!
+	done				done			done			we lose!	就算是输了也会笑！	まけても　わらってるのだ！	
+end				end										

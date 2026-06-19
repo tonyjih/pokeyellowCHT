@@ -1,0 +1,42 @@
+text/Route11Gate2F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route11GateUpstairsText_494a3::				_Route11GateUpstairsText_494a3::										
+	text	There are items on			text	眼睛看不到的方便道具		text	眼睛看不到的方便道具	There are items on	There’s an email on the screen of the PC...	电脑里	パソコンに	 {5B} に
+	line	the ground that			line	會散落在各種地方！		line	会散落在各种地方！	the ground that		收到了一封邮件！	メールが　とどいてる！	でんしメールが　とどいてる!
+	cont	can't be seen.			para	使用探寶器，		para	使用探宝器，	can't be seen.	“Articuno, Zapdos, and Moltres are all			…　…　…
+					line	無論附近有什麼掉在地上		line	无论附近有什么掉在地上	ITEMFINDER will	legendary bird Pokémon. This we know.	火焰鸟、闪电鸟和急冻鸟	ファイヤー　サンダー　フリーザーは	でんせつの　とりポケモンは
+	para	ITEMFINDER will			cont	都能夠知道！		cont	都能够知道！	detect an item		是传说的鸟宝可梦。	でんせつの　とりポケモンです	3しゅるい…　ファイヤー
+	line	detect an item			para	但是具體的地點		para	但是具体的地点	close to you.	“Yet their exact whereabouts are still unknown.			サンダー　フりーザー…
+	cont	close to you.			line	用機器也無法看到！		line	用机器也无法看到！	It can't pinpoint	We will be investigating the Cerulean Cave next	可是现在依然没有人知晓	しかし　どこに　いるのか	しかし　どこに　いるのか
+					cont	請試著在附近找找看吧。		cont	请试着在附近找找看吧。	it, so you have		究竟能在哪里遇到它们。	まだ　わかって　ません	まだ　わかって　ません
+	para	It can't pinpoint			done			done		to look yourself!	and will report back accordingly.			こんど　ハナダ　どうくつに
+	line	it, so you have										接下来我们将	こんど　ハナダのどうくつに	ちょうさに　いきます
+	cont	to look yourself!									       — The Pokémon Research Team”	前去华蓝洞窟调查。	ちょうさに　いきます	…　まずは　ほうこく　まで
+	done													ポケモン　ちょうさ　たい
+												总之先报告到这里。	まずは　ほうこく　まで	…　…　…
+_BinocularsSnorlaxText::				_BinocularsSnorlaxText::								……宝可梦调查队敬上	……ポケモン　ちょうさ　たい	
+	text	Looked into the			text	使用望遠鏡觀看！		text	使用望远镜观看！	Looked into the	Let’s see what the binoculars have to show...	使用望远镜观看！	ぼうえんきょうを　のぞいた！	ぼうえんきょうを　のぞいた!
+	line	binoculars.			para	有寶可夢在路上睡覺！		para	有宝可梦在路上睡觉！	binoculars.				どうろに　ポケモンが　ねてる!
+					done			done		A big #MON is	A big Pokémon is asleep on a road!	有宝可梦在路上睡觉！	どうろに　ポケモンが　ねてる！	
+	para	A big #MON is								asleep on a road!				
+	line	asleep on a road!												
+	done													
+														
+_BinocularsNoSnorlaxText::				_BinocularsNoSnorlaxText::										
+	text	Looked into the			text	使用望遠鏡觀看！		text	使用望远镜观看！	Looked into the	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	binoculars.			para	好一片美麗的景色！		para	好一片美丽的景色！	binoculars.	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+					done			done		It's a beautiful				…　シルフ　カンパニー
+	para	It's a beautiful								view!		……西尔佛公司	……シルフカンパニー	
+	line	view!												
+	done													
+														
+_Route11GateUpstairsText_494d5::				_Route11GateUpstairsText_494d5::										
+	text	Looked into the			text	使用望遠鏡觀看！		text	使用望远镜观看！	Looked into the	Let’s see what the binoculars have to show...	使用望远镜观看！	ぼうえんきょうを　のぞいた！	ぼうえんきょうを　のぞいた!
+	line	binoculars.			para	要去紫苑鎮的話……		para	要去紫苑镇的话……	binoculars.				シオン　タウンに　いく　には…
+					line	好像從華藍市		line	好像从华蓝市	The only way to	To get to Lavender Town...going through	要去紫苑镇的话……	シオンタウンに　いく　には……	ハナダ　シティ　から
+	para	The only way to			cont	借道岩山比較好……		cont	借道岩山比较好……	get from CERULEAN	the Rock Tunnel from Cerulean City appears to	好像从华蓝市	ハナダシティ　から	イワヤマを　ぬければ　よさそう…
+	line	get from CERULEAN			done			done		CITY to LAVENDER				ザ
+	cont	CITY to LAVENDER								is by way of the	be a good route to take.	借道岩山比较好……	イワヤマを　ぬければ　よさそう……	
+	cont	is by way of the								ROCK TUNNEL.				
+	cont	ROCK TUNNEL.												
+	done													
+end				end										

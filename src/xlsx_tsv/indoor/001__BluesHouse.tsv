@@ -1,0 +1,46 @@
+text/BluesHouse.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_DaisyInitialText::				_DaisyInitialText::										
+	text	Hi <PLAYER>!			text	嗨，<PLAYER>！		text	嗨，<PLAYER>！	Hi <PLAYER>!	Hey! Stay out!	喂！我说！	あ　こら！	あ　こら!
+	line	<RIVAL> is out at			line	我弟弟<RIVAL>的話，		line	我弟弟<RIVAL>的话，	<RIVAL> is out at	It’s not your yard!	不要随便闯进别人家的院子！	ひとんちの　にわ　はいるなよ！	ひとんちの　にわ　はいるなよ!
+	cont	Grandpa's lab.			cont	現在在爺爺的研究所裡哦！		cont	现在在爷爷的研究所里哦！	Grandpa's lab.				…　…　え　おれ?
+	done				done			done			...Huh?	…………啥？我吗？	…………え　おれ？	…　ただの　とおり　すがりだ
+											Me?			ぜーんぜん　あやしくないよ!
+_DaisyOfferMapText::				_DaisyOfferMapText::								……我只是一个吃瓜群众！	……ただの　とおり　すがりだ	…　…　あやしい?
+	text	Grandpa asked you			text	大木爺爺有事		text	大木爷爷有事	Grandpa asked you	You’re more likely to find an item after catching	捕捉宝可梦之前	パイルのみ　たべさせてから	
+	line	to run an errand?			line	要拜託你去完成嗎？		line	要拜托你去完成吗？	to run an errand?	a Pokémon if you feed it a Pinap Berry first,	如果先给它喂了凰梨果，	ポケモン　つかまえると	2
+	cont	Here, this will			cont	真辛苦啊。我把這個給你，		cont	真辛苦啊。我把这个给你，	Here, this will				な
+	cont	help you!			cont	你拿去好好用吧！		cont	你拿去好好用吧！	help you!	right? You’ve noticed that, too, right?	应该更容易发现道具的吧？	そのあと　どうぐ	ビ
+	prompt				prompt			prompt				没错吧？	みつけやすいよな？　な？	
+														
+_GotMapText::				_GotMapText::										
+	text	<PLAYER> got a			text	<PLAYER>從姐姐那裡		text	<PLAYER>从姐姐那里	<PLAYER> got a	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	@			line	得到了@		line	得到了@	@	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	text_ram	wStringBuffer			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer				…　シルフ　カンパニー
+	text	!@			text	！@		text	！@	!@		……西尔佛公司	……シルフカンパニー	
+	text_end				text_end			text_end						
+														
+_DaisyBagFullText::				_DaisyBagFullText::										
+	text	You have too much			text	你已經拿不下了！		text	你已经拿不下了！	You have too much	You have a Clefairy with you.	[VAR TRNAME(0000)]现在带着皮皮。	[VAR TRNAME(0000)]は	ムノﾞ7　　5ム
+	line	stuff with you.			done			done		stuff with you.	Do you want to show it to Copycat?	……要给她看看吗？	ピッピを　つれている	
+	done													
+													……みせて　みようか？	
+_DaisyUseMapText::				_DaisyUseMapText::										
+	text	Use the TOWN MAP			text	想知道自己的位置，		text	想知道自己的位置，	Use the TOWN MAP	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	to find out where			line	又或者想知道小鎮的名字，		line	又或者想知道小镇的名字，	to find out where	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	you are.			cont	使用城鎮地圖就對了。		cont	使用城镇地图就对了。	you are.				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_BluesHouseDaisyWalkingText::				_BluesHouseDaisyWalkingText::										
+	text	Spending time			text	和寶可夢一直在一起的話，			いつも　いっしょに　いると		Your Pokémon have been sent to the professor!	已将宝可梦发送给博士！	ポケモンを　はかせに　おくった！	 {next} 
+	line	with your #MON			line	彼此的關係會變的更好哦。			ポケモンとも　なかよく　なれるわよ					@
+	cont	makes them more									... ... ...	……　……　……	……　……　……	 {PLAYER}  {RIVAL} ポケモン
+	cont	friendly to you.										大木博士来信息了！	はかせから　メッセージが　きた！	…
+	done				done						You got a message back from the professor!			
+														 {TARGET}  {USER}  {5B}  {5C} トレーナーロケットだん
+_BluesHouseTownMapText::				_BluesHouseTownMapText::										
+	text	It's a big map!			text	是關都地區的地圖！		text	是关都地区的地图！	It's a big map!	It’s a Pokémon Report!	……是宝可梦报告！	……ポケモンレポートだ！	…　ポケモン　レポートだ!
+	line	This is useful!			line	……要是能拿到就好了？		line	……要是能拿到就好了？	This is useful!				こうかん　ケーブルを　とおすと
+	done				done			done			Some Pokémon have been confirmed to evolve	现已确认有些宝可梦	つうしん　こうかん　すると	しんかする　ポケモンが
+end				end							when they are traded.	可以通过连接交换进化。	しんかする　ポケモンが	4しゅるい　かくにん　された
+														ぜグ
+													いることが　かくにん　された	

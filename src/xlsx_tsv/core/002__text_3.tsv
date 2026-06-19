@@ -1,0 +1,656 @@
+data/text/text_3.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_EnemyAppearedText::				_EnemyAppearedText::										
+	text_ram	wEnemyMonNick			text_ram	wEnemyMonNick		text_ram	wEnemyMonNick	wEnemyMonNick	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	text_start				text_start			text_start			2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	line	appeared!			line	撲過來了！		line	扑过来了！	appeared!				
+	prompt				prompt			prompt						
+														
+_TrainerWantsToFightText::				_TrainerWantsToFightText::										
+	text_ram	wTrainerName 			text_ram	wTrainerName		text_ram	wTrainerName	wTrainerName 	I’m raising Pokémon, too.	我也在培育宝可梦哦！	わたしも	わたしも
+	text	 wants			text_start			text_start		 wants			ポケモンを　そだててるの！	ポケモンを　そだててるの!
+	line	to fight!			line	前來挑戰了！		line	前来挑战了！	to fight!	When they get strong, they’ll be able to	要是它们够厉害，		つよく　なれば
+	prompt				prompt			prompt			protect me.	就可以来给我当保安了呢！	つよく　なれば	ガードマンの　かわりに　なるしね
+													ガードマンの　かわりに　なるしね	
+_UnveiledGhostText::				_UnveiledGhostText::										
+	text	SILPH SCOPE			text	西爾佛檢視鏡		text	西尔佛检视镜	SILPH SCOPE	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	unveiled the			line	使幽靈現出了原形！		line	使幽灵现出了原形！	unveiled the	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	GHOST's identity!			prompt			prompt		GHOST's identity!				…　シルフ　カンパニー
+	prompt											……西尔佛公司	……シルフカンパニー	
+														
+_GhostCantBeIDdText::				_GhostCantBeIDdText::										
+	text	Darn! The GHOST			text	不行！無法識破		text	不行！无法识破	Darn! The GHOST	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	can't be ID'd!			line	幽靈的真面目！		line	幽灵的真面目！	can't be ID'd!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	prompt				prompt			prompt						…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_GoText::				_GoText::										
+	text	Go! @			text	上吧！@		text	<PLAYER>从谜之训练家	<PLAYER> received	Don’t go disturbing things in the Pokémon Tower!	在宝可梦塔里	ポケモンタワー　では	ほっほう!
+	text_end				text_end			line	那里得到了@	a @		不可以喧哗哦！	さわいじゃ　ダメなんだって！	では…　わしが
+								text_ram	wStringBuffer	wStringBuffer				おてほんを　みせて　やるかな!
+_DoItText::				_DoItText::				text	！@	!@				
+	text	Do it! @			text	看你的了！		text	即将丢弃	Is it OK to toss	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	text_end				line	@		line	@	@	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+					text_end			text_ram	wStringBuffer	wStringBuffer				
+_GetmText::								text	，可以吗？	?				
+	text	Get'm! @		_GetmText::				text	对手变弱了！机会来了，	The enemy's weak!	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	text_end				text	加油！@		line	@	Get'm! @	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+					text_end			text_end						
+_EnemysWeakText::				_EnemysWeakText::										
+	text	The enemy's weak!			text	對手變弱了！機會來了，		text	对手变弱了！机会来了，	The enemy's weak!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	Get'm! @			line	@		line	@	Get'm! @	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	text_end				text_end			text_end						…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_PlayerMon1Text::				_PlayerMon1Text::										
+	text_ram	wBattleMonNick			text_ram	wBattleMonNick		text_ram	wcd6d	wcd6d	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	text	!			text	！		text	已经学会了	 knows	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done			line	@	@				
+								text_ram	wStringBuffer	wStringBuffer				
+_PlayerMon2Text::				_PlayerMon2Text::				text	！	!				
+	text_ram	wBattleMonNick			text_ram	wBattleMonNick		text	<PLAYER>用@	<PLAYER> traded	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	text	 @			text	，@		text_ram	wInGameTradeGiveMonName	@	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_end				text_end			text_start		wInGameTradeGiveMonName 				
+								line	交换了@	 for				
+_EnoughText::				_EnoughText::				text_ram	wInGameTradeReceiveMonName	@				
+	text	enough!@			text	好了！@		text_start			Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	text_end				text_end			done			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_OKExclamationText::				_OKExclamationText::										つ {PLAYER}  {PLAYER} 
+	text	OK!@			text	很好！@		text_start			Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	text_end				text_end			done			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_GoodText::				_GoodText::										つ {PLAYER}  {PLAYER} 
+	text	good!@			text	漂亮！@		text_start			Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	text_end				text_end			done			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_ComeBackText::				_ComeBackText::										つ {PLAYER}  {PLAYER} 
+	text_start				text_start			text	<PLAYER>用@	<PLAYER> traded	The machine is undergoing maintenance.	现在机器正在维修中。	ただいま　マシンの	はいはい　こどもは　
+	line	Come back!			line	回來！		text_ram	wInGameTradeGiveMonName	@		非常抱歉，请稍后再来。	メンテナンスちゅう　です	けんがくりょう　50えん　です
+	done				done			text_start		wInGameTradeGiveMonName 	Please come back later.			けんがく　しますか?
+								line	交换了@	 for			すみませんが　また	
+	; money related				; money related			text_ram	wInGameTradeReceiveMonName	@			のちほど　おこしください	
+_PickUpPayDayMoneyText::				_PickUpPayDayMoneyText::				text	！@	wInGameTradeReceiveMonName 				
+	text	<PLAYER> picked up			text	<PLAYER>撿到了		text	<PLAYER>捡到了	<PLAYER> picked up	“1F: Service Counter	１楼……　服务柜台	１かい……　サービス・カウンター	おくじょう　…　いこいの　ひろば
+	line	¥@			line	¥@		line	¥@	¥@		２楼……　训练家广场	２かい……　トレーナーズ・マーケット	　　　　　　…　じどう　はんばいき
+	text_bcd	wTotalPayDayMoney, 3 | LEADING_ZEROES | LEFT_ALIGN 			text_bcd	wTotalPayDayMoney, 3 | LEADING_ZEROES | LEFT_ALIGN		text_bcd	wTotalPayDayMoney, 3 | LEADING_ZEROES | LEFT_ALIGN	wTotalPayDayMoney, 3 | LEADING_ZEROES | LEFT_ALIGN 	“2F: Trainers’ Market			プ
+	text	!			text	！		text	！	!		３楼……　电子游戏专卖店	３かい……　テレビ　ゲーム　ショップ	
+	prompt				prompt			prompt			“3F: Video Game Shop	４楼……　聪明人礼品店	４かい……　ワイズマン・ギフト	
+														
+_ClearSaveDataText::				_ClearSaveDataText::							“4F: Wiseman Gifts	５楼……　饰品天地	５かい……　アクセサリー　マーケット	
+	text	Clear all saved			text	要清除全部的		text	要清除全部的	Clear all saved	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	data?			line	儲存資料區域嗎？		line	保存数据区域吗？	data?	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done			done						
+											“Roof: Relaxation Space & Vending Machines”			
+_WhichFloorText::				_WhichFloorText::										
+	text	Which floor do			text	要去幾樓？		text	要去几楼？	Which floor do	Which topic do you want to read?	要查看哪一个项目呢？	どの　こうもくを　みますか？	どの　ポケモンを
+	line	you want?			done			done		you want?				にがすんや?
+	done													
+														
+_SleepingPikachuText1::				_SleepingPikachuText1::										
+	text	There isn't any			text	哎呀？不在……			あれ?　いない⋯		Whaaat?	真奇怪啊。	おかしいな？	おかしいな?
+	line	response...							宝可梦中心里用胖丁催眠皮卡丘之后		There shouldn’t be any children here!	小孩子应该进不来的啊。	こどもが　はいって　これる	こどもが　はいって　これる
+	prompt				prompt				在皮卡丘不跟随的情况下查看皮卡丘能力的提示					わけが　ないんだが
+													わけが　ないんだが	
+_PartyMenuNormalText::				_PartyMenuNormalText::										
+	text	Choose a #MON.			text	請選擇寶可夢。		text	请选择宝可梦。	Choose a #MON.	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	done				done			done			2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+														
+_PartyMenuItemUseText::				_PartyMenuItemUseText::										
+	text	Use item on which			text	給哪隻寶可夢使用？		text	给哪只宝可梦使用？	Use item on which	Hey! You have Pokémon, right?	嗨！	よーしッ！	よーしッ!
+	line	#MON?			done			done		#MON?	Come on!	你有宝可梦的吧？	きみは　ポケモン　もってるな？	きみは　ポケモン　もってるな?
+	done													しょうぶ　しようぜ!
+											Let’s battle ’em!	我们来对战！	しょうぶ　しようぜ！	
+_PartyMenuBattleText::				_PartyMenuBattleText::										
+	text	Bring out which			text	使用哪隻寶可夢？		text	使用哪只宝可梦？	Bring out which	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	#MON?			done			done		#MON?	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done													
+														
+_PartyMenuUseTMText::				_PartyMenuUseTMText::										
+	text	Teach to which			text	要教哪隻寶可夢？		text	如果要让	You need to use	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	#MON?						line	自己的宝可梦变强，	TMs to teach good	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done			cont	果然还是要用招式学习器	moves to #MON!				
+								cont	让它学习厉害的招式					
+_PartyMenuSwapMonText::				_PartyMenuSwapMonText::				cont	才行啊！					
+	text	Move #MON			text	移動到哪裡？		text	移动到哪里？	Move #MON	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	where?			done			done		where?	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done													
+														
+_PotionText::				_PotionText::										
+	text_ram	wcd6d			text_ram	wcd6d		text_ram	wcd6d	wcd6d	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	text_start				text_start			text_start			Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	line	recovered by @			line	回覆了@		line	回复了@	recovered by @				…　シルフ　カンパニー
+	text_decimal	wHPBarHPDifference, 2, 3 			text_decimal	wHPBarHPDifference, 2, 3		text_decimal	wHPBarHPDifference, 2, 3	wHPBarHPDifference, 2, 3 		……西尔佛公司	……シルフカンパニー	
+	text	!			text	體力！		text	体力！	!				
+	done				done			done						
+														
+_AntidoteText::				_AntidoteText::										
+	text_ram	wcd6d			text_ram	wcd6d		text_ram	wcd6d	wcd6d	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	text	 was			text	的毒		text	的毒	 was	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	line	cured of poison!			line	消失得乾乾淨淨！		line	消失得干干净净！	cured of poison!				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_ParlyzHealText::				_ParlyzHealText::										
+	text_ram	wcd6d			text_ram	wcd6d		text_ram	wcd6d	wcd6d	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	text	's			text_start			text_start		's	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	line	rid of paralysis!			line	身上的麻痺狀態消除了！		line	身上的麻痹状态消除了！	rid of paralysis!				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_BurnHealText::				_BurnHealText::										
+	text_ram	wcd6d			text_ram	wcd6d		text_ram	wcd6d	wcd6d	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	text	's			text	的		text	的	's	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	line	burn was healed!			line	灼傷治癒了！		line	灼伤治愈了！	burn was healed!				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_IceHealText::				_IceHealText::										
+	text_ram	wcd6d			text_ram	wcd6d		text_ram	wcd6d	wcd6d	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	text	 was			text_start			text_start		 was	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	line	defrosted!			line	身上的冰融化了！		line	身上的冰融化了！	defrosted!				
+	done				done			done						
+														
+_AwakeningText::				_AwakeningText::										
+	text_ram	wcd6d			text_ram	wcd6d		text_ram	wcd6d	wcd6d	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	text_start				text_start			text_start			2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	line	woke up!			line	醒過來了！		line	醒过来了！	woke up!				
+	done				done			done						
+														
+_FullHealText::				_FullHealText::										
+	text_ram	wcd6d			text_ram	wcd6d		text_ram	wcd6d	wcd6d	Well, I guess that’s that...	……好了好了！	……さてと！　じゃあ	ゲームの　プログラムだ!
+	text	's			text_start			text_start		's		那这个就先给你了。	これ　あげとくな	これ　かえたら　バグる　かも
+	line	health returned!			line	變得健康了！		line	变得健康了！	health returned!	Here, take these. I won’t need ’em now!			
+	done				done			done						
+														
+_ReviveText::				_ReviveText::										
+	text_ram	wcd6d			text_ram	wcd6d		text_ram	wcd6d	wcd6d	This Pokémon Gym is always closed...	不管什么时候来，	いつ　きても	いつ　きても
+	text_start				text_start			text_start				这里的道馆总是关着门……	この　ポケモンジムは　しまっとる	この　ポケモン　ジムは　しまっとる
+	line	is revitalized!			line	恢復了活力！		line	恢复了活力！	is revitalized!	I wonder who the Gym Leader is...			いったい　どんな　ヤツが
+	done				done			done				不知道这里的馆主	いったい　どんな　ヤツが	りーダーを　しとるんじゃろか?
+												究竟是怎样的家伙啊？	リーダーを　しとるんじゃろか？	
+_RareCandyText::				_RareCandyText::										
+	text_ram	wcd6d			text_ram	wcd6d		text_ram	wcd6d	wcd6d	“1F: Service Counter	１楼……　服务柜台	１かい……　サービス・カウンター	おくじょう　…　いこいの　ひろば
+	text	 grew			text_start			text_start		 grew		２楼……　训练家广场	２かい……　トレーナーズ・マーケット	　　　　　　…　じどう　はんばいき
+	line	to level @			line	提高到等級@		line	提高到等级@	to level @	“2F: Trainers’ Market			プ
+	text_decimal	wCurEnemyLVL, 1, 3 			text_decimal	wCurEnemyLVL, 1, 3		text_decimal	wCurEnemyLVL, 1, 3	wCurEnemyLVL, 1, 3 		３楼……　电子游戏专卖店	３かい……　テレビ　ゲーム　ショップ	
+	text	!@			text	了！@		text	了！@	!@	“3F: Video Game Shop	４楼……　聪明人礼品店	４かい……　ワイズマン・ギフト	
+	text_end				text_end			text_end						
+											“4F: Wiseman Gifts	５楼……　饰品天地	５かい……　アクセサリー　マーケット	
+_TurnedOnPC1Text::				_TurnedOnPC1Text::								顶楼……　自动贩卖机	おくじょう……　じどう　はんばいき	
+	text	<PLAYER> turned on			text	<PLAYER>		text	<PLAYER>	<PLAYER> turned on	Hey! You have Pokémon, right?	嗨！	よーしッ！	よーしッ!
+	line	the PC.			line	開啟了電腦開關！		line	打开了电脑开关！	the PC.	Come on!	你有宝可梦的吧？	きみは　ポケモン　もってるな？	きみは　ポケモン　もってるな?
+	prompt				prompt			prompt						しょうぶ　しようぜ!
+											Let’s battle ’em!	我们来对战！	しょうぶ　しようぜ！	
+_AccessedBillsPCText::				_AccessedBillsPCText::										
+	text	Accessed BILL's			text	連線到了正輝的電腦！		text	连接到了正辉的电脑！	Accessed BILL's	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	PC.			para	呼叫了		para	呼叫了	PC.	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+					line	寶可夢的寄放系統！		line	宝可梦的寄放系统！	Accessed #MON				…　シルフ　カンパニー
+	para	Accessed #MON			prompt			prompt		Storage System.		……西尔佛公司	……シルフカンパニー	
+	line	Storage System.												
+	prompt													
+														
+_AccessedSomeonesPCText::				_AccessedSomeonesPCText::										
+	text	Accessed someone's			text	連線到了某人的電腦！		text	连接到了某人的电脑！	Accessed someone's	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	PC.			para	呼叫了		para	呼叫了	PC.	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+					line	寶可夢的寄放系統！		line	宝可梦的寄放系统！	Accessed #MON				…　シルフ　カンパニー
+	para	Accessed #MON			prompt			prompt		Storage System.		……西尔佛公司	……シルフカンパニー	
+	line	Storage System.												
+	prompt													
+														
+_AccessedMyPCText::				_AccessedMyPCText::										
+	text	Accessed my PC.			text	連線到了自己的電腦！		text	连接到了自己的电脑！	Accessed my PC.	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+					para	呼叫了		para	呼叫了	Accessed Item	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	para	Accessed Item			line	道具寄放系統！		line	道具寄放系统！	Storage System.				…　シルフ　カンパニー
+	line	Storage System.			prompt			prompt				……西尔佛公司	……シルフカンパニー	
+	prompt													
+														
+_TurnedOnPC2Text::				_TurnedOnPC2Text::										
+	text	<PLAYER> turned on			text	<PLAYER>		text	<PLAYER>	<PLAYER> turned on	Hey! You have Pokémon, right?	嗨！	よーしッ！	よーしッ!
+	line	the PC.			line	開啟了電腦開關！		line	打开了电脑开关！	the PC.	Come on!	你有宝可梦的吧？	きみは　ポケモン　もってるな？	きみは　ポケモン　もってるな?
+	prompt				prompt			prompt						しょうぶ　しようぜ!
+											Let’s battle ’em!	我们来对战！	しょうぶ　しようぜ！	
+_WhatDoYouWantText::				_WhatDoYouWantText::										
+	text	What do you want			text	要做什麼呢？		text	要做什么呢？	What do you want	Which one of its stats do you want to do some	要训练哪项能力？	どの　のうりょくを	もお…!
+	line	to do?			done			done		to do?	Hyper Training on?		とっくん　するんじゃ？	とっくん　したのに
+	done													
+														
+_WhatToDepositText::				_WhatToDepositText::										
+	text	What do you want			text	要寄放什麼呢？		text	要寄放什么呢？	What do you want	What do you want to know about	你想了解大师训练家的	マスタートレーナーズに　ついて	つの　ひみつ
+	line	to deposit?			done			done		to deposit?	the Master Trainers?	哪一个方面呢？	どんなことが　しりたい？	どれに　ついて　はなし　ましょう?
+	done													
+														
+_DepositHowManyText::				_DepositHowManyText::										
+	text	How many?			text	要寄放多少個？		text	要丢弃多少个？	How many?	How many Pokémon are there in the world?	不知道世界上	せかい　には　どれくらい	たいせんあいての　ポケモンが
+	done				done			done				究竟有多少宝可梦呢？	ポケモンが　いるのかな？	ルールいはんの　ようです
+														ョゥらめ
+_ItemWasStoredText::				_ItemWasStoredText::										
+	text_ram	wcd6d			text	已將@		text	已将@	wcd6d	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	text	 was			text_ram	wcd6d		text_ram	wcd6d	 was	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	line	stored via PC.			text_start			text_start		stored via PC.				…　シルフ　カンパニー
+	prompt				line	寄放到電腦中。		line	寄放到电脑中。			……西尔佛公司	……シルフカンパニー	
+					prompt			prompt						
+_NothingToDepositText::				_NothingToDepositText::										
+	text	You have nothing			text	沒有可以寄放的道具！		text	没有可以寄放的道具！	You have nothing	Hey! You have Pokémon, right?	嗨！	よーしッ！	よーしッ!
+	line	to deposit.			prompt			prompt		to deposit.	Come on!	你有宝可梦的吧？	きみは　ポケモン　もってるな？	きみは　ポケモン　もってるな?
+	prompt													しょうぶ　しようぜ!
+											Let’s battle ’em!	我们来对战！	しょうぶ　しようぜ！	
+_NoRoomToStoreText::				_NoRoomToStoreText::										
+	text	No room left to			text	道具太多，		text	道具太多，	No room left to	Oh, no need to pay!	啊，钱就不用给了！	あ　おだいは　けっこうですよ！	あ!　やせいの
+	line	store items.			line	已經寄放不下了！		line	已经寄放不下了！	store items.	We hope you continue your support of your			@
+	prompt				prompt			prompt				今后也请您	これからも	
+											neighborhood Poké Mart!	多多光顾友好商店～	フレンドリィショップを　ごひいきにー	
+_WhatToWithdrawText::				_WhatToWithdrawText::										
+	text	What do you want			text	要取出什麼呢？		text	要取出什么呢？	What do you want	What do you want to know about	你想了解大师训练家的	マスタートレーナーズに　ついて	つの　ひみつ
+	line	to withdraw?			done			done		to withdraw?	the Master Trainers?	哪一个方面呢？	どんなことが　しりたい？	どれに　ついて　はなし　ましょう?
+	done													
+														
+_WithdrawHowManyText::				_WithdrawHowManyText::										
+	text	How many?			text	要取出多少個？		text	要丢弃多少个？	How many?	How many Pokémon are there in the world?	不知道世界上	せかい　には　どれくらい	たいせんあいての　ポケモンが
+	done				done			done				究竟有多少宝可梦呢？	ポケモンが　いるのかな？	ルールいはんの　ようです
+														ョゥらめ
+_WithdrewItemText::				_WithdrewItemText::										
+	text	Withdrew			text	從電腦裡取出了		text	从电脑里取出了	Withdrew	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	@			line	@		line	@	@	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_ram	wcd6d			text_ram	wcd6d		text_ram	wcd6d	wcd6d				
+	text	.			text	。		text	。	.				
+	prompt				prompt			prompt						
+														
+_NothingStoredText::				_NothingStoredText::										
+	text	There is nothing			text	電腦裡		text	电脑里	There is nothing	There is nothing you can chop with	这里没有可以用	ケサギリで	いあいぎりで
+	line	stored.			line	沒有寄放任何東西！		line	没有寄放任何东西！	stored.	Chop Down here!	“袈裟斩”砍断的东西！	きれそうな　ものが　ありません！	きれそうな　ものが　ありません!
+	prompt				prompt			prompt						ゥ
+														
+_CantCarryMoreText::				_CantCarryMoreText::										
+	text	You can't carry			text	道具太多，		text	您已经拿不下了呢！	You can't carry	You can’t carry any more Pewter Crunchies!	装不下更多的深灰米果了！？	もう　ニビあられ　もてないよ！？	おきゃくさん　もう　もてないよ@ゼ@
+	line	any more items.			line	已經拿不下了！		prompt		any more items.	Why do you have so many?	你怎么带了这么多！？	なんで　そんなに　もってるの！？	
+	prompt				prompt									
+											...Please eat them!	……吃完再来买呗！？	……ちゃんと　たべて！？	
+_WhatToTossText::				_WhatToTossText::										
+	text	What do you want			text	要丟棄什麼呢？		text	要丢弃什么呢？	What do you want	What do you want to know about	你想了解大师训练家的	マスタートレーナーズに　ついて	つの　ひみつ
+	line	to toss away?			done			done		to toss away?	the Master Trainers?	哪一个方面呢？	どんなことが　しりたい？	どれに　ついて　はなし　ましょう?
+	done													
+														
+_TossHowManyText::				_TossHowManyText::										
+	text	How many?			text	要丟棄多少個？		text	要丢弃多少个？	How many?	How many Pokémon are there in the world?	不知道世界上	せかい　には　どれくらい	たいせんあいての　ポケモンが
+	done				done			done				究竟有多少宝可梦呢？	ポケモンが　いるのかな？	ルールいはんの　ようです
+														ョゥらめ
+_AccessedHoFPCText::				_AccessedHoFPCText::										
+	text	Accessed #MON			text	連線到了		text	连接到了	Accessed #MON	This is the Hall of Fame!	宝可梦训练家们将这样的表彰	ポケモントレーナーは　ここに	ういーっ!　ひっく…　まちやがれ!
+	line	LEAGUE's site.			line	寶可夢聯盟主頁。		line	宝可梦联盟主页。	LEAGUE's site.		称为“登入名人堂”！	きろく　される　よろこびを	わしの　はなしを　きけ!
+					para	呼叫了		para	呼叫了	Accessed the HALL	Being honored here is one of the greatest joys			…　こら!
+	para	Accessed the HALL			line	名人堂列表管理系統！		line	名人堂列表管理系统！	OF FAME List.	a Pokémon Trainer may achieve!	这是至高无上的喜悦！	でんどういり　と　よんで　いる！	いくな!　と　いっとろーが!
+	line	OF FAME List.			prompt			prompt						4ひよひ
+	prompt													
+														
+_SleepingPikachuText2::				_SleepingPikachuText2::										
+	text	There isn't any			text	哎呀？不在……			あれ?　いない⋯		Whaaat?	真奇怪啊。	おかしいな？	おかしいな?
+	line	response...							宝可梦中心里用胖丁催眠皮卡丘之后		There shouldn’t be any children here!	小孩子应该进不来的啊。	こどもが　はいって　これる	こどもが　はいって　これる
+	prompt				prompt				在皮卡丘不跟随的情况下存入电脑的提示					わけが　ないんだが
+													わけが　ないんだが	
+_SwitchOnText::				_SwitchOnText::										
+	text	Switch on!			text	開啟開關！		text	<PLAYER>乘上了	<PLAYER> got on	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	prompt				prompt			line	@	@		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+								text_ram	wcd6d	wcd6d	D’aww... Failed again?			
+_WhatText::				_WhatText::				text	！	!				
+	text	What?			text	要做什麼？		text	啊，嗨呀！	What!?	What?	……哎呀？	……　おや？	…　おや!?
+	done				done			para	我有点大意了	I was just	[VAR PKNICK(0001)] is evolving?!	[VAR PKNICK(0001)]的样子……	[VAR PKNICK(0001)]の　ようすが……	@
+								line	才被你钻到空子……可恶！	careless!				
+_DepositWhichMonText::				_DepositWhichMonText::				prompt			Nope!	并没有发生变化！	かわらなかった！	
+	text	Deposit which			text	要寄放哪隻		text	要寄放哪只	Deposit which	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	#MON?			line	寶可夢？		line	宝可梦？	#MON?	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done			done						
+														
+_MonWasStoredText::				_MonWasStoredText::										
+	text_ram	wStringBuffer			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	text	 was			text_start			text_start		 was	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	line	stored in Box @			line	已寄放到盒子@		line	已寄放到盒子@	stored in Box @				…　シルフ　カンパニー
+	text_ram	wBoxNumString 			text_ram	wBoxNumString		text_ram	wBoxNumString	wBoxNumString 		……西尔佛公司	……シルフカンパニー	
+	text	.			text	。		text	。	.				
+	prompt				prompt			prompt						
+														
+_CantDepositLastMonText::				_CantDepositLastMonText::										
+	text	You can't deposit			text	寄放最後１隻的話，		text	寄放最后１只的话，	You can't deposit	You can’t use that now, because the last lure	之前使用的香水效果还留着！	まだ　まえに　つかった	まだ　まだ!
+	line	the last #MON!			line	會弄出問題的吧？		line	会弄出问题的吧？	the last #MON!	you used is still in effect.		コロンの　こうかが　のこってます！	おれには　しゅぎょうが　たりない
+	prompt				prompt			prompt						ゲ
+														
+_BoxFullText::				_BoxFullText::										
+	text	Oops! This Box is			text	哎呀！		text	哎呀！	Oops! This Box is	Haha! This Gym is great!	嘿嘿嘿！这个道馆好的很哇！	にひひ！　この　ジムは　ええ！	にひひ!　この　ジムは　ええ!
+	line	full of #MON.			line	我這兒裝滿了寶可夢！		line	我这儿装满了宝可梦！	full of #MON.	It’s full of strong Trainers!	道馆里头美女多哇！	おんなのこ　ばっかし　じゃ！	おんなのこ　ばっかし　じゃ!
+	prompt				prompt			prompt						
+														
+_MonIsTakenOutText::				_MonIsTakenOutText::										
+	text_ram	wStringBuffer			text	決定取出@		text	决定取出@	wStringBuffer	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	text	 is			text_ram	wStringBuffer		text_ram	wStringBuffer	 is	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	line	taken out.			text	！		text	！	taken out.				…　シルフ　カンパニー
+	cont	Got @			line	領出@		line	领出@	Got @		……西尔佛公司	……シルフカンパニー	
+	text_ram	wStringBuffer			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer				
+	text	.			text	！		text	！	.				
+	prompt				prompt			prompt						
+														
+_NoMonText::				_NoMonText::										
+	text	What? There are			text	啥？		text	啥？	What? There are	There are Pokémon magazines on the shelves.	这里陈列着宝可梦的杂志！	ポケモンざっしが　ならんでる！	　ぽ　ぽ　
+	line	no #MON here!			line	沒有寶可夢寄放在我這兒？		line	没有宝可梦寄放在我这儿？	no #MON here!				
+	prompt				prompt			prompt			And Pokémon notebooks...	……宝可梦手册	……ポケモンてちょう	
+														
+_CantTakeMonText::				_CantTakeMonText::							And Pokémon graphs, too!	……宝可梦图表	……ポケモングラフ	
+	text	You can't take			text	就算你這麼說，你也帶不了		text	就算你这么说，你也带不了	You can't take	You can’t carry any more Pewter Crunchies!	装不下更多的深灰米果了！？	もう　ニビあられ　もてないよ！？	おきゃくさん　もう　もてないよ@ゼ@
+	line	any more #MON.			line	更多寶可夢了不是？		line	更多宝可梦了不是？	any more #MON.	Why do you have so many?	你怎么带了这么多！？	なんで　そんなに　もってるの！？	
+					para	總之，要麼先寄放寶可夢，		para	总之，要么先寄放宝可梦，	Deposit #MON				
+	para	Deposit #MON			line	要麼放生盒子裡的再說？		line	要么放生盒子里的再说？	first.	...Please eat them!	……吃完再来买呗！？	……ちゃんと　たべて！？	
+	line	first.			prompt			prompt						
+	prompt													
+														
+_PikachuUnhappyText::				_PikachuUnhappyText::										
+					text	但是，@								
+					text_ram	wcd6d								
+	text_ram	wcd6d			text_start				そやけど　@　いやそうやで!		Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	text	 looks			line	可不樂意啊！			放生皮卡丘的话		Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	line	unhappy about it!												…　シルフ　カンパニー
+	prompt				prompt							……西尔佛公司	……シルフカンパニー	
+														
+_ReleaseWhichMonText::				_ReleaseWhichMonText::				line	@	for @				
+	text	Release which			text	要放生哪隻寶可夢？		text	要放生哪只宝可梦？	Release which	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	#MON?			done			done		#MON?	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done													
+														
+_OnceReleasedText::				_OnceReleasedText::										
+	text	Once released,			text	一旦放生了，		text	一旦放生了，	Once released,	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	@			line	@		line	@	@	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	text_ram	wStringBuffer			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer				…　シルフ　カンパニー
+	text	 is			text_start			text_start		 is		……西尔佛公司	……シルフカンパニー	
+	cont	gone forever. OK?			cont	可就回不來了，行不？		cont	可就回不来了，行不？	gone forever. OK?				
+	done				done			done						
+														
+_MonWasReleasedText::				_MonWasReleasedText::										
+	text_ram	wStringBuffer			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	text	 was			text_start			text_start		 was	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	line	released outside.			line	已被放生。		line	已被放生。	released outside.				…　シルフ　カンパニー
+	cont	Bye @			cont	再見，@		cont	再见，@	Bye @		……西尔佛公司	……シルフカンパニー	
+	text_ram	wStringBuffer			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer				
+	text	!			text	！		text	！	!				
+	prompt				prompt			prompt						
+														
+_RequireCoinCaseText::				_RequireCoinCaseText::										
+	text	A COIN CASE is			text	你沒有代幣盒呢！@		text	你没有代币盒呢！@	A COIN CASE is	A surfboard for beginners is propped up here!	这里摆着一块	すこし　ふるい　サーフボードが	ふるい　ポケモン　グッズが
+	line	required!@			text_end			text_end		required!@		有些陈旧的冲浪板！	たてかけて　ある！	かざって　ある!
+	text_end													
+														
+_ExchangeCoinsForPrizesText::				_ExchangeCoinsForPrizesText::										
+	text	We exchange your			text	您在這裡可以用代幣		text	您在这里可以用代币	We exchange your	Oh, no need to pay!	啊，钱就不用给了！	あ　おだいは　けっこうですよ！	あ!　やせいの
+	line	coins for prizes.			line	兌換成精美獎品！		line	兑换成精美奖品！	coins for prizes.	We hope you continue your support of your			@
+	prompt				prompt			prompt				今后也请您	これからも	
+											neighborhood Poké Mart!	多多光顾友好商店～	フレンドリィショップを　ごひいきにー	
+_WhichPrizeText::				_WhichPrizeText::										
+	text	Which prize do			text	要選擇		text	要选择	Which prize do	Which topic do you want to read?	要查看哪一个项目呢？	どの　こうもくを　みますか？	どの　ポケモンを
+	line	you want?			line	哪個獎品呢？		line	哪个奖品呢？	you want?				にがすんや?
+	done				done			done						
+														
+_HereYouGoText::				_HereYouGoText::										
+	text	Here you go!@			text	請拿好！@		text	请拿好！@	Here you go!@	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	text_end				text_end			text_end			2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+														
+_SoYouWantPrizeText::				_SoYouWantPrizeText::										
+	text	So, you want			text	選擇@		text	选择@	So, you want	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	@			text_ram	wcd6d		text_ram	wcd6d	@	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	text_ram	wcd6d			text_start			text_start		wcd6d				…　シルフ　カンパニー
+	text	?			line	沒問題吧？		line	没问题吧？	?		……西尔佛公司	……シルフカンパニー	
+	done				done			done						
+														
+_SorryNeedMoreCoinsText::				_SorryNeedMoreCoinsText::										
+	text	Sorry, you need			text	這位客人，		text	这位客人，	Sorry, you need	You’ll need more money than that!	你的钱好像不够啊！	おかね　たりない　みたいだねえ	おかね　たりない　みたいだねえ
+	line	more coins.@			line	您的代幣不夠呢。@		line	您的代币不够呢。@	more coins.@				
+	text_end				text_end			text_end						
+														
+_OopsYouDontHaveEnoughRoomText::				_OopsYouDontHaveEnoughRoomText::										
+	text	Oops! You don't			text	這位客人，		text	这位客人，	Oops! You don't	You don’t have enough dough.	你啊……	アナタさま……　さきだつ　ものが	…　おとくな　けいじばん!
+	line	have enough room.@			line	您已經拿不下了。@		line	您已经拿不下了。@	have enough room.@		最最重要的东西好像不太够噢？	たりませんよ？	ひとの　ポケモンは　ひとの　もの!
+	text_end				text_end			text_end			...Dough means money, kid.			やせいの　ポケモンに　だけ
+												最最重要的东西……	さきだつ　もの　とは	モンスターボールを　なげて
+_OhFineThenText::				_OhFineThenText::								当然就是指钱咯！	……おかねの　こと　です	つかまえよう!
+	text	Oh, fine then.@			text	哦，好的。@		text	哦，好的。@	Oh, fine then.@	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	text_end				text_end			text_end			2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+														
+_GetDexRatedText::				_GetDexRatedText::										
+	text	Want to get your			text	要接收當前		text	要接收当前	Want to get your	I assume you want to get strong.	你也想成为强者啊。	つよく　なりたいの　ですね	あたしも　つよく　なりたいの
+	line	#DEX rated?			line	寶可夢圖鑑的評價嗎？		line	宝可梦图鉴的评价吗？	#DEX rated?	Shall I be your battle opponent?	需要我来训练你吗？	わたしが　おあいて　しましょうか？	コツを　おしえて　くれない　かしら
+	done				done			done						ゲ
+														
+_ClosedOaksPCText::				_ClosedOaksPCText::										
+	text	Closed link to			text	……切斷了		text	……切断了	Closed link to	Well, I guess that’s that...	……好了好了！	……さてと！　じゃあ	ゲームの　プログラムだ!
+	line	PROF.OAK's PC.@			line	與大木的電腦的連線！@		line	与大木的电脑的连接！@	PROF.OAK's PC.@		那这个就先给你了。	これ　あげとくな	これ　かえたら　バグる　かも
+	text_end				text_end			text_end			Here, take these. I won’t need ’em now!			
+														
+_AccessedOaksPCText::				_AccessedOaksPCText::										
+	text	Accessed PROF.			text	連線到了大木的電腦！		text	连接到了大木的电脑！	Accessed PROF.	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	OAK's PC.			para	呼叫了		para	呼叫了	OAK's PC.	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+					line	寶可夢圖鑑評價系統！		line	宝可梦图鉴评价系统！	Accessed #DEX				…　シルフ　カンパニー
+	para	Accessed #DEX			prompt			prompt		Rating System.		……西尔佛公司	……シルフカンパニー	
+	line	Rating System.												
+	prompt													
+														
+_ExpressionText::				_ExpressionText::										
+	text	This expression is			text	表情的編號是			ナンバー　<#>　のひょうげんです！		Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	No. @			line	No. @			Debug文本		Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	text_decimal	wExpressionNumber, 1, 2 			text_decimal	wExpressionNumber, 1, 2 								…　シルフ　カンパニー
+	text	.			text	。						……西尔佛公司	……シルフカンパニー	
+	prompt				prompt									
+														
+_NotEnoughMemoryText::				_NotEnoughMemoryText::										
+	text	Not enough Yellow			text	黃版的			イエローバージョンの		“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	Version memory.			line	記憶體空間不足。			メモリが たりません		2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done				Debug文本					
+														
+_OakSpeechText1::				_OakSpeechText1::										
+					IF DEF(_DEBUG)		MACRO							
+					text	CURR_DATE								
+					line	CURR_TIME								
+					para	本版本為Debug測試版，								
+					line	請勿外傳！！！								
+					para	在標題畫面按SELECT								
+					line	可以開啟測試選單								
+					para	在地圖上按B移動								
+					line	可跳過包括遇怪戰鬥等事件								
+					para	以及玩家可以在任何地方								
+					line	使用飛翔切換地圖								
+					ELSE		MACRO							
+					text	你好！很高興見到你！								
+					line	歡迎來到								
+	text	Hello there!	YEUS		cont	寶可夢的世界！		text	CURR_DATE	Hello there!	Hello there! Glad to meet you!	你好！	はじめまして！	はじめまして!
+	line	Welcome to the	YEJP		cont	精灵宝可梦的世界！		line	CURR_TIME	Welcome to the		很高兴见到你！		ポケットモンスターの　せかいへ
+	cont	world of #MON!			para	我叫大木，大家都		para	本版本为Debug测试版，	world of #MON!	Welcome to the world of Pokémon!		ポケットモンスターの　せかいへ	ようこそ!
+					line	親切地稱我為寶可夢博士。								
+					ENDC		MACRO	line	请勿外传！！！	My name is OAK!		欢迎来到精灵宝可梦的世界！	ようこそ！	わたしの　なまえは　オーキド
+	para	My name is OAK!			prompt			para	在标题画面按SELECT	People call me	My name is Oak.			みんなからは　ポケモン　はかせと
+	line	People call me						line	可以打开测试菜单	the #MON PROF!		我叫大木，	わたしの　なまえは　オーキド	したわれて　おるよ
+	cont	the #MON PROF!						para	在地图上按B移动		People affectionately refer to me as	大家都亲切地称我为	みんなからは　ポケモン　はかせと	
+	prompt							line	可跳过包括遇怪战斗等事件		the Pokémon Professor.			
+								para	以及玩家可以在任何地方			宝可梦博士。	したわれて　おるよ	
+_OakSpeechText2A::				_OakSpeechText2A::				line	使用飞翔切换地图					
+	text	This world is			text	在這個世界上，		text	在这个世界上，	This world is	This world is inhabited far and wide by creatures	在这个世界里，	この　せかいには	この　せかいには
+	line	inhabited by			line	到處生活著一種		line	到处生活着一种	inhabited by	called Pokémon.	到处都生活着一种叫做	ポケットモンスターと　よばれる	ポケットモンスターと　よばれる
+	cont	creatures called	YEUS		cont	叫做寶可夢的生物！@		cont	叫做宝可梦的生物！@	creatures called				いきもの　たちが
+			YEJP		cont	叫做精灵宝可梦的生物！@								
+	cont	#MON!@			text_end			cont	叫做精灵宝可梦的生物！@	#MON!@		精灵宝可梦的生物！	いきもの　たちが	いたるところに　すんでいる!@
+	text_end							text_end						
+													いたるところに　すんでいる！	
+_OakSpeechText2B::				_OakSpeechText2B::				prompt						
+	text $51,	For some people,			text_start			text_start			[VAR 01CD(0000)]: Hi!	[VAR TRNAME(0000)]：喂喂！	[VAR TRNAME(0000)]『ねぇねぇ	 {PLAYER} 『やあ!　さっきは
+	line	#MON are			para	對有些人來說，		para	对有些人来说，	For some people,	Thanks for what you did for us.	刚才真是谢谢你了呢！	さっきは　ありがとっ！	 {5C} 　ありがとう!
+	cont	pets. Others use			line	寶可夢是他們的寵物，		line	宝可梦是他们的宠物，	#MON are				 {PLAYER} 『…　なーに?
+	cont	them for fights.			cont	也有人把它們用於對戰。		cont	也有人把它们用于对战。	pets. Others use	[VAR 01CD(0000)]: Pardon?	[VAR TRNAME(0000)]：……哎呀！	[VAR TRNAME(0000)]『……んもう！	 {PLAYER} 『ぼくの　まね　して
+					para	至於我……		para	至于我……	them for fights.				そんなに　たのしい　かい?
+	para	Myself...			para	作為一名博士，		para	作为一名博士，	Myself...	[VAR 01CD(0000)]: Wha—?	[VAR TRNAME(0000)]：你怎么又学我嘛！	[VAR TRNAME(0000)]『また　わたしの　マネ！	モノマネむすめ『うん…!
+					line	我正在研究它們。		line	我正在研究它们。	I study #MON	Is it really that fun to copy what I say and do?	模仿我也没什么愉快的啦。	べつに　たのしいなら　いいけどさ	とっても　たのしいー!
+	para	I study #MON			prompt			prompt		as a profession.				
+	line	as a profession.									COPYCAT: You bet! It’s a scream!	模仿少女：嗯……！	モノマネむすめ『うん……！	
+	prompt											非～常愉快哦！	とっても　たのしいー！	
+														
+_IntroducePlayerText::				_IntroducePlayerText::										
+	text	First, what is			text	那麼，先來說說		text	那么，先来说说	First, what is	What is your rival’s name?	你的对手的名字是……？	きみの　ライバルの　なまえは……？	うう…!
+	line	your name?			line	你的名字吧！		line	你的名字吧！	your name?				くやしいが　きみの
+	prompt				prompt			prompt						ポケモンの　うでは　ほんものだ!
+														
+_IntroduceRivalText::				_IntroduceRivalText::										
+	text	This is my grand-			text	這是我的孫子，		text	这是我的孙子，	This is my grand-	This is my grandson.	这是我的孙子。	こいつは　わしの　まご	えーと?
+	line	son. He's been			line	在你很小的時候，		line	在你很小的时候，	son. He's been				なまえは　なんて　いったかな?
+	cont	your rival since			cont	他就是你的對手了。		cont	他就是你的对手了。	your rival since	...Erm, what was his name, now?	……呃，	……えーと？	
+	cont	you were a baby.			para	……呃，		para	……呃，	you were a baby.		他是叫什么名字来着？	なまえは　なんて　いったかな？	
+					line	他是叫什麼名字來著？		line	他是叫什么名字来着？	...Erm, what is				
+	para	...Erm, what is			prompt			prompt		his name again?				
+	line	his name again?												
+	prompt													
+														
+_OakSpeechText3::				_OakSpeechText3::										
+	text	<PLAYER>!			text	<PLAYER>！		text	<PLAYER>！	<PLAYER>!	Yes, a world of dreams and adventures with	充满梦想与冒险的	ゆめと　ぼうけんと！	トレーナーぞ
+					para	接下來，		para	接下来，	Your very own	Pokémon awaits!	精灵宝可梦世界！	ポケットモンスターの　せかいへ！	きド5ま
+	para	Your very own			line	你的故事就要開始了！		line	你的故事就要开始了！	#MON legend is				
+	line	#MON legend is			para	充滿夢想與冒險的		para	充满梦想与冒险的	about to unfold!				
+	cont	about to unfold!	YEUS		line	寶可夢世界！		line	宝可梦世界！	A world of dreams				
+			YEJP		line	精灵宝可梦世界！								
+					cont	Let's go!		line	精灵宝可梦世界！	and adventures				
+	para	A world of dreams			done			cont	Let's go!	with #MON				
+	line	and adventures						done		awaits! Let's go!				
+	cont	with #MON												
+	cont	awaits! Let's go!												
+	done													
+														
+_DoYouWantToNicknameText::				_DoYouWantToNicknameText::										
+	text	Do you want to			text	要給@		text	要给@	Do you want to	Hey, you!	嘿！你们想好没？	やぁ　きみたち！	…　そうか!
+	line	give a nickname			text_ram	wcd6d		text_ram	wcd6d	give a nickname				おまえも　わざ　つかいか?
+	cont	to @			text_start			text_start		to @	Do you want me to teach a marvelous move	要让那只[VAR PKNAME(0003)]	どうだい？　その　[VAR PKNAME(0003)]に	
+	text_ram	wcd6d			line	起暱稱嗎？		line	起昵称吗？	wcd6d	to [VAR PKNAME(0003)]?	学学看棒呆了的招式吗？	マーベラスな　わざ　おしえてみる？	
+	text	?			done			done		?				
+	done													
+														
+_YourNameIsText::				_YourNameIsText::										
+	text	Right! So your			text	這樣啊……原來你叫		text	这样啊……原来你叫	Right! So your	Right...	哦……	ふむ……　きみは	
+	line	name is <PLAYER>!			line	<PLAYER>啊！		line	<PLAYER>啊！	name is <PLAYER>!	So your name is [VAR TRNAME(0000)]?	你叫[VAR TRNAME(0000)]啊！	[VAR TRNAME(0000)]　と　いうんだな！	 {PLAYER} 　と　いうんだな!
+	prompt				prompt			prompt						へ
+														
+_HisNameIsText::				_HisNameIsText::										
+	text	That's right! I			text	沒錯，沒錯！我想起來了，		text	没错，没错！我想起来了，	That's right! I	What a great battle!	刚才的对战太精彩了！	すばらしい　たたかい　だった！	はー　はーッ!
+	line	remember now! His			line	原來他的名字叫		line	原来他的名字叫	remember now! His	That’s what I expected from a Champion!	冠军不愧是冠军！	さすが　チャンピオン　だな！	はげしい　たたかい　だった!
+	cont	name is <RIVAL>!			cont	<RIVAL>啊！		cont	<RIVAL>啊！	name is <RIVAL>!				きみの　かちだ!
+	prompt				prompt			prompt			I didn’t stand a chance...	我确实完败于你……	かんぱい　だ……	いま…
+											Please, accept this from me.	请你收下吧。	もらってくれ	その　あかしに
+_WillBeTradedText::				_WillBeTradedText::										グりーン　バッジを　わたそう!@ジ@
+	text_ram	wNameOfPlayerMonToBeTraded 			text_ram	wNameOfPlayerMonToBeTraded 		text_ram	wNameOfPlayerMonToBeTraded 	wNameOfPlayerMonToBeTraded 	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	text	 and			text	將和		text	将和	 and	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	line	@			line	@		line	@	@				…　シルフ　カンパニー
+	text_ram	wcd6d			text_ram	wcd6d		text_ram	wcd6d	wcd6d		……西尔佛公司	……シルフカンパニー	
+	text	 will			text_start			text_start		 will				
+	cont	be traded.			cont	進行交換。		cont	进行交换。	be traded.				
+	done				done			done						
+														
+_Colosseum3MonsText::				_Colosseum3MonsText::										
+	text	You need 3 #MON			text	參加戰鬥的寶可夢			たたかうポケモンの　かずが		Phew. I’ll take a little break...	呼，稍微休息一下……	ふぅ　ちょっと　きゅうけい……	…　おとくな　けいじばん!
+	line	to fight!			line	不滿３隻！			3たいに　なっていません!		You need to take breaks when playing games.			ポケモンを　つかまえる　ときは
+	prompt				prompt							玩游戏的时候，	ゲームで　あそぶ　ときは	なるべく　よわらせてから!
+												怎么能缺少适当的休息呢？	てきどに　きゅうけい　しなきゃね	ポケモンが　げんきだと
+_ColosseumMewText::				_ColosseumMewText::										にげるかも　しれないよ!
+	text	Sorry, MEW can't			text	夢幻無法參加！			ミュウは　エントりー　できません!		Lapras can’t swim like it used to...	它现在已经不太能游泳了……	ラプラスは　もう　あんまり	わたしが　かわいがってた　ポケモン
+	line	attend!											およげない　から……	いまは　ポケモン　タワーで
+	prompt				prompt						So we’ll stay here together.	所以我以后也要在这里		ねむってるの…
+												一直一直陪在它身边……	あとは　おれも　ここで	…　そうだ　わたしの　 {5C} 
+_ColosseumDifferentMonsText::				_ColosseumDifferentMonsText::									ずっと　そばに　いてやるんだ	おにいちゃんに　あげるわ
+	text	Your #MON must			text	相同的寶可夢			おなじ　ポケモンが		You must be a nerd, too!	看来你也是真心喜欢自行车！	キミも　そうとうな　マニアだね！	ごゆっくり　どうぞ!
+	line	all be different!			line	有兩隻了！			2たい　います!		As a token of our new friendship, please	请你收下你我友情的象征！	おちかづきの　しるしを　どうぞ！	
+	prompt				prompt									
+											take this!			
+_ColosseumMaxL55Text::				_ColosseumMaxL55Text::										
+	text	No #MON can			text	存在超過等級55的			レべルが　55を　こえる		You have no more Pokémon that can fight!	[VAR TRNAME(0000)]的手上没有	[VAR TRNAME(0000)]の　てもとには	 {PLAYER} の　てもとには
+	line	exceed L55!			line	寶可夢！			ポケモンが　いるようです!			可以战斗的宝可梦！	たたかえる　ポケモンが　いない！	たたかえる　ポケモンが　いない!
+	prompt				prompt									 {PLAYER} は
+														めのまえが　まっくらに　なった!
+_ColosseumMinL50Text::				_ColosseumMinL50Text::										
+	text	All #MON must			text	存在不滿等級50的			レべルが　50に　ならない		Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	be at least L50!			line	寶可夢！			ポケモンが　いるようです!		Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	prompt				prompt									…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_ColosseumTotalL155Text::				_ColosseumTotalL155Text::										
+	text	Your total levels			text	等級之和超過155了！			レべルの　ごうけいが　155を		“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	exceed 155!							こえているようです!		2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt				prompt									
+														
+_ColosseumMaxL30Text::				_ColosseumMaxL30Text::										
+	text	No #MON can			text	存在超過等級30的			レべルが　30を　こえる		You have no more Pokémon that can fight!	[VAR TRNAME(0000)]的手上没有	[VAR TRNAME(0000)]の　てもとには	 {PLAYER} の　てもとには
+	line	exceed L30!			line	寶可夢！			ポケモンが　いるようです!			可以战斗的宝可梦！	たたかえる　ポケモンが　いない！	たたかえる　ポケモンが　いない!
+	prompt				prompt									 {PLAYER} は
+														めのまえが　まっくらに　なった!
+_ColosseumMinL25Text::				_ColosseumMinL25Text::										
+	text	All #MON must			text	存在不滿等級25的			レべルが　25に　ならない		Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	be at least L25!			line	寶可夢！			ポケモンが　いるようです!		Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	prompt				prompt									…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_ColosseumTotalL80Text::				_ColosseumTotalL80Text::										
+	text	Your total levels			text	等級之和超過80了！			レべルの　ごうけいが　80を		“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	exceed 80!							こえているようです!		2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt				prompt									
+														
+_ColosseumMaxL20Text::				_ColosseumMaxL20Text::										
+	text	No #MON can			text	存在超過等級20的			レべルが　20を　こえる		You have no more Pokémon that can fight!	[VAR TRNAME(0000)]的手上没有	[VAR TRNAME(0000)]の　てもとには	 {PLAYER} の　てもとには
+	line	exceed L20!			line	寶可夢！			ポケモンが　いるようです!			可以战斗的宝可梦！	たたかえる　ポケモンが　いない！	たたかえる　ポケモンが　いない!
+	prompt				prompt									 {PLAYER} は
+														めのまえが　まっくらに　なった!
+_ColosseumMinL15Text::				_ColosseumMinL15Text::										
+	text	All #MON must			text	存在不滿等級15的			レべルが　15に　ならない		Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	be at least L15!			line	寶可夢！			ポケモンが　いるようです!		Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	prompt				prompt									…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_ColosseumTotalL50Text::				_ColosseumTotalL50Text::										
+	text	Your total levels			text	等級之和超過50了！			レべルの　ごうけいが　50を		“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	exceed 50!							こえているようです!		2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt				prompt									
+														
+_ColosseumHeightText::				_ColosseumHeightText::										
+	text_ram	wcd6d			text_ram	wcd6d			の　たかさが		Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	text	 is over			text_start				2メートルを　こえています!		Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	line	6’8” tall!			line	身高超過了２米！								…　シルフ　カンパニー
+	prompt				prompt							……西尔佛公司	……シルフカンパニー	
+														
+_ColosseumWeightText::				_ColosseumWeightText::										
+	text_ram	wcd6d			text_ram	wcd6d			の　おもさが		Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	text	 weighs			text_start				20キロを　こえています!		Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	line	over 44 pounds!			line	體重超過了２０千克！								…　シルフ　カンパニー
+	prompt				prompt							……西尔佛公司	……シルフカンパニー	
+														
+_ColosseumEvolvedText::				_ColosseumEvolvedText::										
+	text_ram	wcd6d			text_ram	wcd6d			は　しんかした		Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	text	 is an			text	是			ポケモンです!		Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	line	evolved #MON!			line	已經進化後的寶可夢！								…　シルフ　カンパニー
+	prompt				prompt							……西尔佛公司	……シルフカンパニー	
+														
+_ColosseumIneligibleText::				_ColosseumIneligibleText::										
+	text	Your opponent is			text	對戰對手的寶可夢			たいせんあいての　ポケモンが		Your opponent’s weak!	对手变弱了！	あいてが　よわっている！	あいてが　よわっている!
+	line	ineligible.			line	好像不符合規則。			ルールいはんの　ようです		Get ’em, [VAR PKNICK(0000)]!	机会来了！[VAR PKNICK(0000)]！	チャンスだ！　[VAR PKNICK(0000)]！	チャンスだ!　@ゲ
+	prompt				prompt									
+														
+_ColosseumWhereToText::				_ColosseumWhereToText::										
+	text	Where would you			text	要去哪裡？		text	要去哪里？	Where would you	Where would you like to go?	要去哪里？	どこへ　いきますか？	なんかいへ　いきますか?
+	line	like to go?			done			done		like to go?				へどぶ
+	done													
+														
+_ColosseumPleaseWaitText::				_ColosseumPleaseWaitText::										
+	text	OK, please wait			text	好的，		text	好的，	OK, please wait	The authentication server is busy.	认证服务器正忙。	認証サーバーが混み合っています。	トレーナーぞ
+	line	just a moment.			line	請您稍等。		line	请您稍等。	just a moment.	Please wait a little while, and then try again.	请过一段时间后再试一次。	しばらく時間をおいてから	きド5ま
+	done				done			done					もう一度お試しください。	
+														
+_ColosseumCanceledText::				_ColosseumCanceledText::										
+	text	The link was			text	連線已取消。		text	连接已取消。	The link was	The battle was canceled.	有一方选择了投降。	こうさんが　えらばれました	トレーナーぞ
+	line	canceled.			done			done		canceled.				きド5ま
+	done													
+														
+_ColosseumVersionText::				_ColosseumVersionText::										
+	text	The game versions			text	對手的遊戲版本			あいての　バージョンが		There are Pokémon magazines on the shelves.	这里陈列着宝可梦的杂志！	ポケモンざっしが　ならんでる！	　ぽ　ぽ　
+	line	don't match.			line	不一致。			ちがうようです					
+	prompt				prompt						And Pokémon notebooks...	……宝可梦手册	……ポケモンてちょう	
+														
+_TextIDErrorText::				_TextIDErrorText::							And Pokémon graphs, too!	……宝可梦图表	……ポケモングラフ	
+	text_decimal	hSpriteIndexOrTextID, 1, 2 			text_decimal	hSpriteIndexOrTextID, 1, 2 					“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	text	 error.			text	 出錯。					2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done									
+														
+_ContCharText::				_ContCharText::										
+	text｜<_CONT>@｜				"text ""<_CONT>@"""						Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	text_end				text_end						Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_NoPokemonText::				_NoPokemonText::										つ {PLAYER}  {PLAYER} 
+	text	There are no			text	裡面沒有寶可夢！			ポケモンが　はいっていません!		???: There’s no use backing down now!	？？？：别说这种没志气的话！	？？？『しのごの　いわない！	の　わざは
+	line	#MON here!							打印盒子没有宝可梦的语句		Here we go!	快开战吧！	それじゃ　いくわよ！	…　カウンター!　だよ!
+	prompt				prompt									それじゃ　がんばってね!
+end				end										

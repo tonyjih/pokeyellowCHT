@@ -1,0 +1,107 @@
+text/Route22.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route22RivalDefeatedText1::				_Route22RivalDefeatedText1::										
+	text	Awww!			text	啊——！		text	啊——！	Awww!	Hey! You have Pokémon, right?	嗨！	よーしッ！	よーしッ!
+	line	You just lucked			line	別學著看不起人啊！		line	别学着看不起人啊！	You just lucked	Come on!	你有宝可梦的吧？	きみは　ポケモン　もってるな？	きみは　ポケモン　もってるな?
+	cont	out!			prompt			prompt		out!				しょうぶ　しようぜ!
+	prompt										Let’s battle ’em!	我们来对战！	しょうぶ　しようぜ！	
+														
+_Route22Text_511bc::				_Route22Text_511bc::										
+	text	<RIVAL>: What?			text	<RIVAL>：怎麼？		text	<RIVAL>：怎么？	<RIVAL>: What?	JESSIE: ...	武藏：…………	ムサシ『……　……	　『　…　 {next} 
+	line	Why do I have 2			line	你問我為什麼有		line	你问我为什么有	Why do I have 2	What’s this?			
+	cont	#MON?			cont	兩隻寶可夢？		cont	两只宝可梦？	#MON?		咦？这好清爽的感觉	あら　なに　この	
+					para	你也應該多捉點		para	你也应该多捉点	You should catch	Why do I feel so refreshed?	是什么情况？	サワヤカな　かんじ？	
+	para	You should catch			line	才比較好！		line	才比较好！	some more too!				
+	cont	some more too!			prompt			prompt			You’ve been such a troublesome little twerp,	一直以来	あんた　とは	
+	prompt										and yet...	我们明明都是互相仇视的……	ずっと　いがみ　あってたのにね……	
+														
+_Route22RivalDefeatedText2::				_Route22RivalDefeatedText2::										
+	text	What!?			text	啊，嗨呀！		text	啊，嗨呀！	What!?	Now, [VAR PKNAME(0002)]!	来吧，[VAR PKNAME(0002)]！	さあ　[VAR PKNAME(0002)]！	こんちわ!
+					para	我有點大意了		para	我有点大意了	I was just	Follow what I do.	跟我一起来。	ぼくと　いっしょに	ぼく　ポケモン…!
+	para	I was just			line	才被你鑽到空子……可惡！		line	才被你钻到空子……可恶！	careless!				…　ちゃうわい!
+	line	careless!			prompt			prompt			Calm your heart...	平静一下内心……	こころを　おちつけて……	わいは　マサキ!
+	prompt										breathe deeply and...	用力地来一个深呼吸……	ふかく　しんこきゅうを　して……	ひと　よんで　ポケモンマニアや!
+														あッ　なんや　そのめは?
+_Route22Text_511d0::				_Route22Text_511d0::							sense...your surroundings!	用心去感受……	まわりの　ようすを	あんさん　しんよう　してへんな
+	text	<RIVAL>: Hahaha!			text	<RIVAL>：哈、哈哈，		text	<RIVAL>：哈、哈哈，	<RIVAL>: Hahaha!	Please visit a Pokémon Center whenever your	宝可梦的体力……	ポケモンの　たいりょく……	オーキド『 {RIVAL} …!
+	line	<PLAYER>! That's			line	<PLAYER>——！		line	<PLAYER>——！	<PLAYER>! That's	Pokémon’s HP is getting low.	也就是HP变少了的话，	ＨＰが　なくなってきたら	…　ざんねんだ!
+	cont	your best? You're			cont	那就是你的全部實力了嗎！		cont	那就是你的全部实力了吗！	your best? You're				おまえが　してんのうに　かったと
+	cont	nowhere near as			cont	要和我的才能比肩		cont	要和我的才能比肩	nowhere near as	And if you’re planning to go far off the beaten	请随时来这里回复吧。	こまめに　ここに　きてくださいね	きいて　ここに　とんで　きたのに
+	cont	good as me, pal!			cont	你還差得遠呢！		cont	你还差得远呢！	good as me, pal!	path, you should probably remember to stock			ポケモン　りーグに　ついて　みたら
+					para	多練習下再來吧！		para	多练习下再来吧！	Go train some		如果要去稍微有点远的地方，	すこしでも　とおいところへ	おまえは　まけとった!
+	para	Go train some			line	啊哈哈——！		line	啊哈哈——！	more! You loser!	up on Potions from the Poké Mart, too.	建议你先去友好商店购买伤药备用。	おでかけに　なるときは	 {RIVAL} よ…!
+	line	more! You loser!			prompt			prompt						なぜ　まけたのか　わかるか?
+	prompt										Good luck out there, Trainer!	那么，请加油吧！	フレンドリィショップで	…　…　…
+													キズぐすりを　かっておくのが	おまえが　ポケモン　たちへの
+_Route22RivalBeforeBattleText1::				_Route22RivalBeforeBattleText1::										しんらいと　あいじょうを
+	text	<RIVAL>: Hey!			text	<RIVAL>：啊——！		text	<RIVAL>：啊——！	<RIVAL>: Hey!	BROCK: ...You sure look different from when	小刚：……现在的你简直与	タケシ『……はじめて　きた　ときから	 {5B} を　みると
+	line	<PLAYER>!			line	<PLAYER>！		line	<PLAYER>！	<PLAYER>!	we first met!	初次见面时判若两人！	すっかり　みちがえたな！	なんと　でんしメールが　きていた!
+					para	你要去寶可夢聯盟嗎？		para	你要去宝可梦联盟吗？	You're going to				…　…　…
+	para	You're going to			para	勸你放棄吧！		para	劝你放弃吧！	#MON LEAGUE?	I have a request for you, since you’re now	既然你已经称霸宝可梦联盟，	ポケモンリーグを　せいは　した	ポケモンを　つよく　そだてて
+	line	#MON LEAGUE?			line	反正你也沒有徽章吧？		line	反正你也没有徽章吧？	Forget it! You	the Pokémon League Champion.	我有一个请求需要你来完成。	きみに　おねがいが　ある	たたかう　ポケモン　トレーナー!
+					para	門衛大叔		para	门卫大叔	probably don't				ここに　さいきょうの
+	para	Forget it! You			line	是不會讓你通過的哦！		line	是不会让你通过的哦！	have any BADGEs!	The truth is, Gym Leaders have the right to	其实道馆馆主	じつは　ジムリーダーには	トレーナーが　あつまり　ました
+	line	probably don't			para	……比起那個！		para	……比起那个！	The guard won't	challenge the Champion!	有资格和联盟冠军对决！	リーグ　チャンピオン　との	ばしょは　セキエイ　こうげんの
+	cont	have any BADGEs!			line	你的寶可夢變強一點了嗎？		line	你的宝可梦变强一点了吗？	let you through!				ポケモン　りーグ　ほんぶ　です!
+					done			done		By the way, did	...Please allow me the privilege of facing you	……我希望你能与我再战一次！	しあいが　みとめられて　いる！	オーキドはかせも
+	para	The guard won't								your #MON	in battle once again!	因为我很想		いちど　ごらん　ください
+	line	let you through!								get any stronger?			……おれに　もういちど	…　ポケモン　りーグ　より
+											Allow me to show you the true rock-hard	让你见识我真正的实力！	きみと　しょうぶ　させてくれ！	…　…　…
+	para	By the way, did									strength of my Pokémon!			…　…
+	line	your #MON											おれの　ほんきを	ひ507ム
+	cont	get any stronger?												
+	done												きみに　しめしたいと　おもう！	
+														
+_Route22RivalAfterBattleText1::				_Route22RivalAfterBattleText1::										
+	text	I heard #MON			text	好歹寶可夢聯盟裡		text	好歹宝可梦联盟里	I heard #MON	OAK: My, my... I surely wouldn’t have expected	大木博士：[VAR PKNAME(0000)]	オーキド『こんな　ところ　まで	オーキド『 {RIVAL} …!
+	line	LEAGUE has many			line	又強又厲害的訓練家們		line	又强又厉害的训练家们	LEAGUE has many	[VAR iCOLOR2(0000)][VAR PKNAME(0000)] to appear around here!	竟然会来到这里，	[VAR PKNAME(0000)]が　くる　とは	…　ざんねんだ!
+	cont	tough trainers!			cont	高手如雲。		cont	高手如云。	tough trainers!				おまえが　してんのうに　かったと
+					para	我也在思考		para	我也在思考	I have to figure	But since the opportunity has presented itself...	真是少见！	めずらしい！	きいて　ここに　とんで　きたのに
+	para	I have to figure			line	通過那邊的方法！		line	通过那边的方法！	out how to get	why don’t we practice some [VAR COLOR(0006)]Pokémon catching[VAR COLOR(0000)]?			ポケモン　りーグに　ついて　みたら
+	line	out how to get			para	你也別總是原地踏步了，		para	你也别总是原地踏步了，	past them!		不过既然来了……	せっかく　だから……	おまえは　まけとった!
+	cont	past them!			line	要學會未雨綢繆啊！		line	要学会未雨绸缪啊！	You should quit	You just have to throw out your [VAR COLOR(0006)]Poké Ball [VAR COLOR(0000)]and try	你就练习一下	[VAR COLOR(0006)]ポケモンを　つかまえる[VAR COLOR(0000)]	 {RIVAL} よ…!
+					done			done		dawdling and get	to land it on a wild Pokémon for the chance			なぜ　まけたのか　わかるか?
+	para	You should quit								a move on!		[VAR COLOR(0006)]捕捉宝可梦[VAR COLOR(0000)]吧！	れんしゅうを　して　みよう！	…　…　…
+	line	dawdling and get									to catch it!			おまえが　ポケモン　たちへの
+	cont	a move on!										向着宝可梦扔出	[VAR COLOR(0006)]モンスターボール[VAR COLOR(0000)]を　なげて	しんらいと　あいじょうを
+	done											[VAR COLOR(0006)]精灵球[VAR COLOR(0000)]去捕捉它吧！	ポケモンに　あてて	わすれとる　からだ!
+														それでは　どんなに　がんばっても
+_Route22RivalBeforeBattleText2::				_Route22RivalBeforeBattleText2::									つかまえるんじゃ！	トップ　には　たてんぞ!
+	text	<RIVAL>: What?			text	<RIVAL>：怎麼？		text	<RIVAL>：怎么？	<RIVAL>: What?	There’s an email from [VAR TRNAME(0001)]!	收到了一封	[VAR TRNAME(0001)]　から	へブ {PKMN} の　　　ビブ　　　　　　　　　　ボ
+	line	<PLAYER>! What a			line	<PLAYER>！在這種		line	<PLAYER>！在这种	<PLAYER>! What a		[VAR TRNAME(0001)]发来的邮件！	メールが　とどいてる！	
+	cont	surprise to see			cont	地方又碰到你還真突然！		cont	地方又碰到你还真突然！	surprise to see	“Hey, [VAR TRNAME(0000)]!			
+	cont	you here!			para	那麼……你也是要		para	那么……你也是要	you here!	So here’s what you need to know as a Trainer...	致[VAR TRNAME(0000)]：	[VAR TRNAME(0000)]へ	
+					line	去寶可夢聯盟對吧？		line	去宝可梦联盟对吧？	So you're going to		传授你一些训练家的心得吧！	トレーナーの　こころえ　おしえるぞ	
+	para	So you're going to			para	徽章也全部		para	徽章也全部	#MON LEAGUE?	“Press the A Button, and you can talk to all			
+	line	#MON LEAGUE?			line	收集到了嗎！		line	收集到了吗！	You collected all	kinds of people. And if you tilt the control stick	“按下A键，尽量和更多人说话！”	「Ａボタンで　いろんな　ひとに	
+					cont	啊，是嗎……幹得不錯！		cont	啊，是吗……干得不错！	the BADGEs too?			　はなし　かけよう！」	
+	para	You collected all			para	那在去寶可夢聯盟前		para	那在去宝可梦联盟前	That's cool!	more, you can run!	“用力推动摇杆，可以跑得更快！”		
+	line	the BADGEs too?			line	先用<PLAYER>		line	先用<PLAYER>	Then I'll whip you			「スティックを　おおきく　たおすと	
+	cont	That's cool!			cont	來做一下熱身運動好了！		cont	来做一下热身运动好了！	<PLAYER> as a	“Plus, if you open up the main menu by pressing	“从X键的菜单里选择‘记录’，	　はやく　はしれる！」	
+					para	來戰鬥吧！		para	来战斗吧！	warm up for	the X Button, you can save your progress, too.	就可以记录你的冒险！”		
+	para	Then I'll whip			done			done		#MON LEAGUE!			「Xボタンの　メニューで	
+	line	you, <PLAYER>, as								Come on!	“Boy, I can’t wait to get started. Can you?	真是让人期待啊！	　レポートを　えらべば	
+	cont	a warmup for									"	– [VAR TRNAME(0001)]”"	……[VAR TRNAME(0001)]		
+	cont	#MON LEAGUE!											　ぼうけんを　きろく　できる！」	
+														
+	para	Come on!											たのしみ　だな！	
+	done												……[VAR TRNAME(0001)]	
+														
+_Route22RivalAfterBattleText2::				_Route22RivalAfterBattleText2::										
+	text	That loosened me			text	身體舒展完了……！		text	身体舒展完了……！	That loosened me	Hi! Remember me?	你还记得我吗？	ぼく　おぼえてます？	を　わたす　よう
+	line	up! I'm ready for			line	差不多該去稱霸		line	差不多该去称霸	up! I'm ready for	I’m one of Professor Oak’s assistants.	是我呀……！	ほら……！	はかせに　いわれ　ました
+	cont	#MON LEAGUE!			cont	寶可夢聯盟了！		cont	宝可梦联盟了！	#MON LEAGUE!				…　それでは　さっそく
+					para	<PLAYER>你……		para	<PLAYER>你……	<PLAYER>, you need	The professor told me that if your Pokédex has	我是大木博士的助手。	オーキドはかせの　じょしゅ　です	 {PLAYER} くん!
+	para	<PLAYER>, you need			line	還需要多多練習才好！		line	还需要多多练习才好！	more practice!	good data on 50 species of Pokémon, I’m to			つかまえた　ポケモンは
+	line	more practice!			para	哎！我多管閒事幹嘛！		para	哎！我多管闲事干嘛！	But hey, you know		大木博士吩咐我，	ポケモンずかんが　５０しゅるい	@ゴろ
+					line	總之……我要先走一步了，		line	总之……我要先走一步了，	that! I'm out of	give you this [VAR COLOR(0006)]wonderful item[VAR COLOR(0000)].	等你收集到50种宝可梦时，	あつまってる　ようなら	
+	para	But hey, you know			cont	那麼……回頭見！		cont	那么……回头见！	here. Smell ya!				
+	line	that! I'm out of			done			done			So, [VAR TRNAME(0000)], let me ask you...	就把[VAR COLOR(0006)]赞赞的道具[VAR COLOR(0000)]交给你。	[VAR COLOR(0006)]すんばらしい　どうぐ[VAR COLOR(0000)]を　わたす　よう	
+	cont	here. Smell ya!												
+	done										Have you gathered data on at least 50 species	……那么，[VAR TRNAME(0000)]！	はかせに　いわれ　ました	
+											of Pokémon?	你捉到的宝可梦		
+_Route22FrontGateText::				_Route22FrontGateText::									……それでは　さっそく	
+	text	#MON LEAGUE			text	這裡是寶可夢聯盟		text	这里是宝可梦联盟	#MON LEAGUE	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	Front Gate			line	……正面入口		line	……正面入口	Front Gate	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done			done					つかまえた　ポケモンは	
+end				end										
+													５０しゅるい　より　おおい　かな？	

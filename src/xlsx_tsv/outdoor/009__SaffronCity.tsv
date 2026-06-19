@@ -1,0 +1,154 @@
+text/SaffronCity.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SaffronCityText1::				_SaffronCityText1::										
+	text	What do you want?			text	有何貴幹！		text	有何贵干！	What do you want?	What do you want?	有何贵干！	なんだァ！	なんだァ!
+	line	Get lost!			line	一邊兒去！一邊兒去！		line	一边儿去！一边儿去！	Get lost!	Get lost, you little squirt!	一边儿去！一边儿去！	てめえ！　あっち　いけ！	ぼうず!　あっち　いけ!
+	done				done			done						
+														
+_SaffronCityText2::				_SaffronCityText2::										
+	text	BOSS said he'll			text	老大說，要把這座城市		text	老大说，要把这座城市	BOSS said he'll	Boss said he’ll take this town in the name of	老大说，	ボスは　この　まちを	ボスは　この　まちを
+	line	take this town!			line	歸入火箭隊名下！		line	归入火箭队名下！	take this town!	Team Rocket!	要把这座城市归入火箭队名下！	ロケットだんの　ものに　するってよォ	ロケットだんの　ものに　するってよォ
+	done				done			done						
+														
+_SaffronCityText3::				_SaffronCityText3::										
+	text	Get out of the			text	喂！敢跟我們作對，		text	喂！跟我们对着干，	Get out of the	...What? You got it out of the way? Thanks!	……什么！你让它走开了吗？	……え！　どかして　くれたの？	え
+	line	way!			line	你可是要吃苦頭的！		line	你可是要吃苦头的！	way!		谢谢你！	ありがとう！	
+	done				done			done						ばこ
+														
+_SaffronCityText4::				_SaffronCityText4::										
+	text	SAFFRON belongs			text	金黃市已經完全		text	金黄市已经完全	SAFFRON belongs	Saffron City belongs to Team Rocket!	金黄市已经完全	ヤマブキシティ　ごと	ヤマブキ　シティ　ごと
+	line	to TEAM ROCKET!			line	被我們火箭隊佔領啦！		line	被我们火箭队占领啦！	to TEAM ROCKET!		被我们火箭队占领啦！	ロケットだんが　のっとったぜ！	ロケットだんが　のっとったぜ!
+	done				done			done						
+														
+_SaffronCityText5::				_SaffronCityText5::										
+	text	Being evil makes			text	每當做盡壞事，		text	每当做尽坏事，	Being evil makes	My life as a criminal makes me feel so alive!	每当做尽坏事，	わるい　こと　やりまくると	わるい　こと　やりまくると
+	line	me feel so alive!			line	我就覺得心情舒暢啊！		line	我就觉得心情舒畅啊！	me feel so alive!		我就觉得心情舒畅啊！	スカッと　するぜ！	スカッと　するぜ!
+	done				done			done						
+														
+_SaffronCityText6::				_SaffronCityText6::										
+	text	Ow! Watch where			text	啊呀！你個混蛋！		text	啊呀！你个混蛋！	Ow! Watch where	Ow! You jerk!	啊呀！你个混蛋！	いてッ！　この　やろ！	いてッ!　この　やろ!
+	line	you're walking!			line	走路看著點兒啊！		line	走路看着点儿啊！	you're walking!	Watch where you’re walking!	走路看着点儿啊！	どこ　みて　あるいてんだよ！	どこ　みて　あるいてんだよ!
+	done				done			done						
+														
+_SaffronCityText7::				_SaffronCityText7::										
+	text	With SILPH under			text	佔領了西爾佛公司之後，		text	占领了西尔佛公司之后，	With SILPH under	With Silph Co. under our control, we can sell	占领了西尔佛公司之后，	シルフカンパニー　のっとったら	シルフ　カンパニー　のっとったら
+	line	control, we can			line	就能把寶可夢		line	就能把宝可梦	control, we can	Pokémon for profit all around the world!	就能把宝可梦卖到世界各地，	せかいじゅうに　ポケモン　うって	せかい　じゅうに　ポケモン　うって
+	cont	exploit #MON			cont	賣到世界各地，		cont	卖到世界各地，	exploit #MON				ガバガバ　おお　もうけ　だぜ!
+	cont	around the world!			cont	發一筆大財了耶！		cont	发一笔大财了耶！	around the world!	We’ll get stinking rich. Yee-haw!	发一笔大财了耶！	ガバガバ　おおもうけよ！	
+	done				done			done						
+														
+_SaffronCityText8::				_SaffronCityText8::										
+	text	You beat TEAM			text	聽說趕走火箭隊的		text	听说赶走火箭队的	You beat TEAM	You two young friends beat Team Rocket?	听说赶走火箭队的	ロケットだん　やっつけたの	ロケットだん　やっつけたの
+	line	ROCKET all alone?			line	居然是小孩子……		line	居然是小孩子……	ROCKET all alone?	That’s amazing!	居然是小孩子……真是厉害了！	こどもたち　だって……　すごいな	たった　ひとり　だって…　すごいな
+	cont	That's amazing!			cont	真是厲害了！		cont	真是厉害了！	That's amazing!				
+	done				done			done						
+														
+_SaffronCityText9::				_SaffronCityText9::										
+	text	Yeah! TEAM ROCKET			text	萬歲～～！		text	万岁～～！	Yeah! TEAM ROCKET	Yeah! Team Rocket is gone!	万岁～～！	ばんざーい！	ばんざーい!
+	line	is gone!			line	火箭隊的人終於滾蛋了！		line	火箭队的人终于滚蛋了！	is gone!	I don’t have to be afraid to go outside anymore!	火箭队的人终于滚蛋了！	ロケットだんが　いなくなった！	ロケットだんが　いなくなった!
+	cont	It's safe to go			cont	終於可以不用		cont	终于可以不用	It's safe to go				ビビらないで　そと　あるけるんだ!
+	cont	out again!			cont	擔驚受怕地出門了！		cont	担惊受怕地出门了！	out again!		终于可以不用担惊受怕地出门了！	ビビらないで　そと　あるけるんだ！	
+	done				done			done						
+														
+_SaffronCityText10::				_SaffronCityText10::										
+	text	People should be			text	之前很多人逃離這裡，		text	之前很多人逃离这里，	People should be	People fled from Saffron City in droves when	之前很多人逃离这里，	ヤマブキシティも　いちじは	ヤマブキ　シティも　いちじは
+	line	flocking back to			line	弄得金黃市冷冷清清……		line	弄得金黄市冷冷清清……	flocking back to	those thugs came.	弄得金黄市冷冷清清……	ひとが　にげて　へっちゃった　けど	ひとが　にげて　へっちゃった　けど
+	cont	SAFFRON now.			cont	現在終於能變回從前的		cont	现在终于能变回从前的	SAFFRON now.				にぎやかな　まちに　もどるわ!
+	done				cont	熱鬧景象了！		cont	热闹景象了！		They should start flocking back now!	现在终于能变回从前的热闹景象了！	にぎやかな　まちに　もどるわ！	
+					done			done						
+_SaffronCityText11::				_SaffronCityText11::										
+	text	I flew here on my			text	我聽說火箭隊		text	我听说火箭队	I flew here on my	I flew right here on my Pidgeot when I read that	我听说火箭队袭击了西尔佛！	ロケットだんが　シルフ　おそって	ロケットだんが　シルフ　おそって
+	line	PIDGEOT when I			line	襲擊了西爾佛！		line	袭击了西尔佛！	PIDGEOT when I	Team Rocket was invading Silph!	就让大比鸟带我飞到了这里！	だいじけんって　きいて！	だいじけんって　きいて!
+	cont	read about SILPH.			cont	就讓大比鳥帶我		cont	就让大比鸟带我	read about SILPH.				ピジョットで　とんで　きたッス
+					cont	飛到了這裡！		cont	飞到了这里！	It's already over?	But...shucks, it’s already over?	你说这件事已经解决了……？	ピジョットで　とんで　きたッス	かいけつ　した…?
+	para	It's already over?			para	你說這件事		para	你说这件事	I missed the		不好意思！		すんません!
+	line	I missed the			line	已經解決了……？		line	已经解决了……？	media action.	Sorry! I’m just a sucker for drama!		かいけつ　した……？	ねっからの　ヤジウマ　で!
+	cont	media action.			cont	不好意思！		cont	不好意思！			我天生就喜欢看热闹！	すんません！	
+	done				cont	我天生就喜歡看熱鬧！		cont	我天生就喜欢看热闹！					
+					done			done					ねっからの　ヤジウマ　で！	
+_SaffronCityText12::				_SaffronCityText12::										
+	text	PIDGEOT: Bi bibii!@			text	大比鳥：比比～～！@		text	大比鸟：比比～～！@	PIDGEOT: Bi bibii!@	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	text_end				text_end			text_end			2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+														
+_SaffronCityText13::				_SaffronCityText13::										
+	text	I saw ROCKET			text	我都看到了！		text	我都看到了！	I saw ROCKET	I saw him!	我都看到了！	おれ　みたぜ！　シルフの　ビル　から	おれ　みたぜ!　シルフの　ビル　から
+	line	BOSS escaping			line	火箭隊的老大		line	火箭队的老大	BOSS escaping		火箭队的老大从西尔佛的楼里逃跑了！	ロケットの　ボスが　にげて　いくの！	ロケットの　ボスが　にげて　いくの!
+	cont	SILPH's building.			cont	從西爾佛的樓裡逃跑了！		cont	从西尔佛的楼里逃跑了！	SILPH's building.	I saw the boss of Team Rocket escaping from			
+	done				done			done			the Silph building!			
+														
+_SaffronCityText14::				_SaffronCityText14::										
+	text	I'm a security			text	我是這裡的警衛。		text	我是这里的警卫。	I'm a security	I’m a security guard.	我是这里的警卫。	わたしは　けいびいんだが	わたしは　けいびいんだが
+	line	guard.			para	像你這樣可疑的小孩子……		para	像你这样可疑的小孩子……	guard.	And I don’t let suspicious kids in!	像你这样可疑的小孩子……	あやしい　こどもは	あやしい　こどもは
+					line	我是不能放你過去的。		line	我是不能放你过去的。	Suspicious kids I				とおせんぼ　することに　してるのだ
+	para	Suspicious kids I			done			done		don't allow in!		我是不能放你过去的。	とおせんぼ　することに　してるのだ	
+	line	don't allow in!												
+	done													
+														
+_SaffronCityText15::				_SaffronCityText15::										
+	text	...			text	………………		text	………………	...	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	Snore...			line	呼……呼……		line	呼……呼……	Snore...	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+					para	非常好！		para	非常好！	Hah! He's taking				…　シルフ　カンパニー
+	para	Hah! He's taking			line	他正在呼呼地打瞌睡。		line	他正在呼呼地打瞌睡。	a snooze!		……西尔佛公司	……シルフカンパニー	
+	line	a snooze!			done			done						
+	done													
+														
+_SaffronCityText16::				_SaffronCityText16::										
+	text	SAFFRON CITY			text	這裡是金黃市。		text	这里是金黄市。	SAFFRON CITY	Saffron City:	这里是金黄市。	ここは　ヤマブキシティ	ここは　ヤマブキ　シティ
+	line	Shining, Golden			line	金黃即是閃耀輝煌的		line	金黄即是闪耀辉煌的	Shining, Golden	Shining Golden Land of Commerce	金黄即是闪耀辉煌的黄金之色。	ヤマブキ　きんいろ　かがやきのいろ	ヤマブキ　きんいろ　かがやきのいろ
+	cont	Land of Commerce			cont	黃金之色。		cont	黄金之色。	Land of Commerce				
+	done				done			done						
+														
+_SaffronCityText17::				_SaffronCityText17::										
+	text	FIGHTING DOJO			text	格鬥道場！		text	格斗道场！	FIGHTING DOJO	Hwaah!	嘿呀！	オスッ！	オスッ!
+	done				done			done						ここを　かくとう　どうじょうと
+											You’re trespassing in our Fighting Dojo!	明知这里是格斗道场竟然	ここを　かくとうどうじょうと	しっての　ぶれい　か!
+_SaffronCityText18::				_SaffronCityText18::								还敢硬闯，你好大的胆子！	しっての　ぶれい　か！	
+	text	SAFFRON CITY			text	金黃市寶可夢道館		text	金黄市宝可梦道馆	SAFFRON CITY	Saffron City Pokémon Gym	金黄市宝可梦道馆	ヤマブキシティ　ポケモンジム	ヤマブキ　シティ　ポケモン　ジム
+	line	#MON GYM			line	館主：娜姿		line	馆主：娜姿	#MON GYM	Gym Leader: Sabrina	馆主：娜姿	リーダー　ナツメ	りーダー　ナツメ
+	cont	LEADER: SABRINA			cont	超能力少女！		cont	超能力少女！	LEADER: SABRINA				エスパー　しょうじょ!
+					done			done		The Master of	The Master of Psychic Pokémon!	超能力少女！	エスパー　しょうじょ！	
+	para	The Master of								Psychic #MON!				
+	line	Psychic #MON!												
+	done													
+														
+_SaffronCityText20::				_SaffronCityText20::										
+	text	TRAINER TIPS			text	……有用的公告牌！		text	……有用的公告牌！	TRAINER TIPS	Trainer Tips	……有用的公告牌！	……おとくな　けいじばん！	…　おとくな　けいじばん!
+					para	無論是睡眠、中毒、		para	无论是睡眠、中毒、	FULL HEAL cures				なんでもなおしは
+	para	FULL HEAL cures			line	灼傷、冰凍……		line	灼伤、冰冻……	all ailments like	A Full Heal will cure being asleep,	无论是睡眠、中毒、灼伤、冰冻……	なんでもなおしは	ねむり　どく　やけど　こおり…
+	line	all ailments like			cont	萬靈藥都能治癒！		cont	万灵药都能治愈！	sleep and burns.	poisoned, burned, frozen...	万灵药都能治愈！	ねむり　どく　やけど　こおり……	なんでも　なおします!
+	cont	sleep and burns.			para	雖然價格偏高，		para	虽然价格偏高，	It costs a bit				すこし　たかい　けど
+					line	但是不用分開買解眠藥、		line	但是不用分开买解眠药、	more, but it's	It’s pretty full of healing power!	虽然价格偏高，	なんでも　なおします！	ねむけざまし　どくけし　などを
+	para	It costs a bit			cont	解毒藥什麼的，省事極了！		cont	解毒药什么的，省事极了！	more convenient.		但是不用分开买解眠药、解毒药什么的，		バラバラに　かうより　らくちん!
+	line	more, but it's			done			done			It costs more, but it can be easier than buying		すこし　たかい　けど	
+	cont	more convenient.									items like Awakenings and Antidotes separately.	省事极了！	ねむけざまし　どくけし　などを	
+	done													
+													バラバラに　かうより　らくちん！	
+_SaffronCityText21::				_SaffronCityText21::										
+	text	TRAINER TIPS			text	……有用的公告牌！		text	……有用的公告牌！	TRAINER TIPS	Trainer Tips	……有用的公告牌！	……おとくな　けいじばん！	…　おとくな　けいじばん!
+					para	新商品“超級球”		para	新商品“超级球”	New GREAT BALL				しんせいひん　スーパーボールは
+	para	New GREAT BALL			line	與精靈球相比		line	与精灵球相比	offers improved	The new Ultra Ball is even better at catching	新商品“高级球”	しんせいひん　ハイパーボールは	モンスターボール　より　かくじつに
+	line	offers improved			cont	更容易捉到寶可夢！		cont	更容易捉到宝可梦！	capture rates.	Pokémon than a Great Ball is!	与超级球相比	スーパーボール　より　かくじつに	ポケモンを　つかまえます!
+	cont	capture rates.			para	試試用超級球，挑戰一下		para	试试用超级球，挑战一下	Try it on those				なかなか　つかまえ　られない
+					line	不容易捉到的寶可夢吧！		line	不容易捉到的宝可梦吧！	hard-to-catch	Try it on those hard-to-catch Pokémon.	更容易捉到宝可梦！	ポケモンを　つかまえます！	ポケモンには　こちらを　ためそう!
+	para	Try it on those			done			done		#MON.				
+	line	hard-to-catch										试试用高级球，挑战一下	なかなか　つかまえ　られない	
+	cont	#MON.										不容易捉到的宝可梦吧！	ポケモンには　こちらを　ためそう！	
+	done													
+														
+_SaffronCityText22::				_SaffronCityText22::										
+	text	SILPH CO.			text	西爾佛公司總部大樓		text	西尔佛公司总部大楼	SILPH CO.	Silph Co. Head Office	西尔佛公司总部大楼	シルフカンパニー　ほんしゃ　ビル	シルフ　カンパニー　ほんしゃ　ビル
+	line	OFFICE BUILDING			done			done		OFFICE BUILDING				
+	done													
+														
+_SaffronCityText24::				_SaffronCityText24::										
+	text	MR.PSYCHIC's			text	超能力大叔的家		text	超能力大叔的家	MR.PSYCHIC's	Mr. Psychic’s House	超能力大叔的家	エスパーおやじの　いえ	トレーナーぞ
+	line	HOUSE			done			done		HOUSE				きド5ま
+	done													
+														
+_SaffronCityText25::				_SaffronCityText25::										
+	text	SILPH's latest			text	傳聞中的		text	传闻中的	SILPH's latest	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	product!			line	西爾佛公司新產品！		line	西尔佛公司新产品！	product!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+					para	……發售日期未定。		para	……发售日期未定。	Release to be				…　シルフ　カンパニー
+	para	Release to be			done			done		determined...		……西尔佛公司	……シルフカンパニー	
+	line	determined...												
+	done													
+end				end										

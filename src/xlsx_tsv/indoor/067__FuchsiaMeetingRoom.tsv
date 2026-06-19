@@ -1,0 +1,28 @@
+text/FuchsiaMeetingRoom.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_FuchsiaMeetingRoomText1::				_FuchsiaMeetingRoomText1::										
+	text	We nicknamed the			text	我們園長的綽號		text	我们园长的绰号	We nicknamed the	We nicknamed the warden “Slowpoke.”	我们园长的绰号	ウチの　えんちょう	ウチの　えんちょう
+	line	WARDEN SLOWPOKE.			line	叫作呆呆獸呢。		line	叫作呆呆兽呢。	WARDEN SLOWPOKE.		叫作呆呆兽呢。	あだな　ヤドンって　いうんです	あだな　ヤドンって　いうんです
+					para	你看！寶可夢呆呆獸		para	你看！宝可梦呆呆兽	He and SLOWPOKE	’Cause, you know, he has that vacant look like			ほら!　ポケモンの　ヤドンって
+	para	He and SLOWPOKE			line	總是一副在發呆的樣子吧！		line	总是一副在发呆的样子吧！	both look vacant!	a Slowpoke.	你看！宝可梦呆呆兽	ほら！　ポケモンの　ヤドンって	とぼけた　かんじ　でしょ!
+	line	both look vacant!			done			done				总是一副在发呆的样子吧！	とぼけた　かんじ　でしょ！	
+	done													
+														
+_FuchsiaMeetingRoomText2::				_FuchsiaMeetingRoomText2::										
+	text	SLOWPOKE is very			text	呆呆獸先生		text	呆呆兽先生	SLOWPOKE is very	Warden Slowpoke is very knowledgeable	呆呆兽先生	ヤドンさんって	ヤドンさんって
+	line	knowledgeable			line	對寶可夢瞭如指掌！		line	对宝可梦了如指掌！	knowledgeable	about Pokémon.	对宝可梦了如指掌！	すごい　ポケモン　くわしいんだ！	すごい　ポケモン　くわしいんだ!
+	cont	about #MON!			para	他甚至還有一些		para	他甚至还有一些	about #MON!				みた　ことも　ない
+					line	我從未見過的		line	我从未见过的	He even has some	He even has some Fossils of Pokémon	他甚至还有一些	みた　ことも　ない	ポケモンの　カセキとか　もってるし
+	para	He even has some			cont	寶可夢的化石呢。		cont	宝可梦的化石呢。	fossils of rare,	I’ve never seen.	我从未见过的宝可梦的化石呢。	ポケモンの　カセキとか　もってるし	
+	line	fossils of rare,			done			done		extinct #MON!				
+	cont	extinct #MON!												
+	done													
+														
+_FuchsiaMeetingRoomText3::				_FuchsiaMeetingRoomText3::										
+	text	SLOWPOKE came in,			text	我們家的呆呆獸		text	我们家的呆呆兽	SLOWPOKE came in,	I found this most remarkable Fossil inside	我在月见山	ぼく　オツキミやまで	ぼく　おつきみやまで
+	line	but I couldn't			line	不知道在說些什麼。		line	不知道在说些什么。	but I couldn't	Mt. Moon.	发现了化石～！	カセキを　みつけましてねー！	カセキを　みつけましてねー!
+	cont	understand him.			cont	是不是犯傻了呀？		cont	是不是犯傻了呀？	understand him.				どうやら　めずらしい
+					done			done		I think he's got	I think it’s of a rare Pokémon.	而且貌似还是	どうやら　めずらしい	ポケモンの　カセキ　らしいんですよ
+	para	I think he's got								a speech problem!		罕见宝可梦的化石～！	ポケモンの　カセキ　らしいんですよ	ゲぼグゥべへ
+	line	a speech problem!												
+	done													
+end				end										

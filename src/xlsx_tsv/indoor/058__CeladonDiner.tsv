@@ -1,0 +1,64 @@
+text/CeladonDiner.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CeladonDinerText1::				_CeladonDinerText1::										
+	text	Hi!			text	歡迎光臨！		text	欢迎光临！	Hi!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+					para	常客比較多，真是抱歉！		para	常客比较多，真是抱歉！	We're taking a	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	para	We're taking a			done			done		break now.				…　シルフ　カンパニー
+	line	break now.										……西尔佛公司	……シルフカンパニー	
+	done													
+														
+_CeladonDinerText2::				_CeladonDinerText2::										
+	text	My #MON are			text	我家裡養的		text	我家里养的	My #MON are	My Pokémon are weak, so I often buy medicines	我家里养的那只宝可梦啊……	うちで　かってる　ポケモン……	うちで　かってる　ポケモン…
+	line	weak, so I often			line	那隻寶可夢啊……		line	那只宝可梦啊……	weak, so I often	at the department store.	总是会体力不支，	たいりょく　ないから　いつも	たいりょく　ないから　いつも
+	cont	have to go to the			cont	總是會體力不支。		cont	总是会体力不支。	have to go to the				デパートで　おくすり　かって　くるの
+	cont	DRUG STORE.			para	所以我才要去		para	所以我才要去	DRUG STORE.		所以我才要去百货公司买药呢。	デパートで　おくすり　かって　くるの	
+	done				line	百貨公司買藥呢。		line	百货公司买药呢。					
+					done			done						
+_CeladonDinerText3::				_CeladonDinerText3::										
+	text	Psst! There's a			text	偷偷摸摸……吧唧吧唧……		text	偷偷摸摸……吧唧吧唧……	Psst! There's a	Hey!	我翻我翻……！	ガサゴソ……！	ガサゴソ…!
+	line	basement under			line	……遊戲城的下面		line	……游戏城的下面	basement under	There’s a switch under the trash?!	嘿哟！垃圾箱底	おっと！　ゴミばこの　そこに	おっと!　ゴミばこの　そこに
+	cont	the GAME CORNER.			cont	好像有個地下室啊……		cont	好像有个地下室啊……	the GAME CORNER.				また　スイッチが　あった!
+	done				done			done			Let’s push it!	有一个开关！	スイッチが　あった！	おして　みよう!　…　ポチッとな
+														ゲへ
+_CeladonDinerText4::				_CeladonDinerText4::								按一下试试吧！	おして　みよう！　……ポチッとな	
+	text	Munch...			text	我嚼我嚼……！		text	我嚼我嚼……！	Munch...	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+					para	對面那桌的大叔		para	对面那桌的大叔	The man at that	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	para	The man at that			line	好像在老虎機上		line	好像在老虎机上	table lost it all				…　シルフ　カンパニー
+	line	table lost it all			cont	把錢都花光了！		cont	把钱都花光了！	at the slots.		……西尔佛公司	……シルフカンパニー	
+	cont	at the slots.			done			done						
+	done													
+														
+_CeladonDinerText_491a7::				_CeladonDinerText_491a7::										
+	text	Go ahead! Laugh!			text	嗚哦……笑一笑！		text	呜哦……笑一笑！	Go ahead! Laugh!	SABRINA: ...It’s true that psychic power is	娜姿：……超能力	ナツメ『……ちょうのうりょくは	…　…　…
+					para	我在遊戲城		para	我在游戏城	I'm flat out	a potent ability.	是一种强大的力量。	つよい　ちから	わたしの　ひみつ…!
+	para	I'm flat out			line	輸得連一文錢都沒有了！		line	输得连一文钱都没有了！	busted!				とくいなもの　…　ものまね!
+	line	busted!			para	我決定放棄老虎機！		para	我决定放弃老虎机！	No more slots for	However, there are things that cannot be	然而这种力量	だけど　それだけ　では	しゅみ　…　ぬいぐるみ!
+					line	腳踏實地地開始工作！		line	脚踏实地地开始工作！	me! I'm going	overcome with that power alone.	并非能控制一切。	どうしようもない　ことも　ある	すきなもの　…　ピッピ!
+	para	No more slots for			para	……因此，		para	……因此，	straight!				…　…　…
+	line	me! I'm going			line	這個就給你吧！		line	这个就给你吧！	Here! I won't be	I finally understand that now, after losing to you	以那种方式输给你之后，	あなたに　あんな　まけかたを	
+	cont	straight!			prompt			prompt		needing this any-	in our last battle.	我才终于明白了这个道理。	して　それが　わかったわ	
+										more!				
+	para	Here! I won't be									I won’t be relying on just psychic power this time.	如今的我所拥有的不只有超能力。	ちょうのうりょく　だけでは　ない	
+	line	needing this any-									My true strength...my true self...	那么就让你帮我……	いまの　わたしの	
+	cont	more!												
+	prompt										Allow me to test them against you!	证明我真正的实力吧！	ほんきの　ちから……	
+														
+_ReceivedCoinCaseText::				_ReceivedCoinCaseText::									あなたで　たしかめ　させて！	
+	text	<PLAYER> received			text	<PLAYER>從大叔那裡		text	<PLAYER>从谜之训练家	<PLAYER> received	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	a @			line	得到了@		line	那里得到了@	a @	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	text_ram	wStringBuffer			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer				…　シルフ　カンパニー
+	text	!@			text	！@		text	！@	!@		……西尔佛公司	……シルフカンパニー	
+	text_end				text_end			text_end						
+														
+_CoinCaseNoRoomText::				_CoinCaseNoRoomText::										
+	text	Make room for			text	行李已滿了呢！		text	行李已满了呢！	Make room for	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	this!			done			done		this!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done													
+														
+_CeladonDinerText_491b7::				_CeladonDinerText_491b7::										
+	text	I always thought			text	啊——啊！		text	啊——啊！	I always thought	To tell you the truth...	说实话……	ほんとうは……	…　はしを　わたるのが　こわくて
+	line	I was going to			line	本來以為一定能贏的！		line	本来以为一定能赢的！	I was going to				ずっと　ここに　かくれてたんだ
+	cont	win it back...			cont	結果成了這幅狼狽樣……！		cont	结果成了这幅狼狈样……！	win it back...	I thought you might show up, so I was writing	我有预感	なんとなく　おまえが　ここに	
+	done				done			done			a letter to you.	你应该会再来这里……	くるのでは　ないかと　おもい……	
+end				end										
+												所以我写了一封信，	ちょうど　おきてがみを	
+												准备留在这里。	かいて　いたのです	

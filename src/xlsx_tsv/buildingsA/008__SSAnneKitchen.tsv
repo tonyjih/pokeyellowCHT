@@ -1,0 +1,71 @@
+text/SSAnneKitchen.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SSAnne6Text1::				_SSAnne6Text1::										
+	text	You, mon petit!			text	我說！你站在那裡		text	我说！你站在那里	You, mon petit!	You there, m[VAR GENDBR(00FF,0808)]on petita petite!	我说！	ほら！	ほら!
+	line	We're busy here!			line	很礙事啊有沒有！		line	很碍事啊有没有！	We're busy here!	We’re busy here!	你站在那里很碍事啊有没有！	そこの　きみ　じゃまだよ！	そこの　きみ　じゃまだよ!
+	cont	Out of the way!			cont	讓開讓開！		cont	让开让开！	Out of the way!				どいた　どいた!
+	done				done			done			Out of the way! Shoo! Shoo!	让开让开！	どいた　どいた！	
+														
+_SSAnne6Text2::				_SSAnne6Text2::										
+	text	I saw an odd ball			text	垃圾箱裡有一個奇怪的球。		text	垃圾箱里有一个奇怪的球。	I saw an odd ball	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	in the trash.			line	那會是什麼呢？		line	那会是什么呢？	in the trash.	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	done				done			done						…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_SSAnne6Text3::				_SSAnne6Text3::										
+	text	I'm so busy I'm			text	忙得我兩眼冒金星！		text	忙得我两眼冒金星！	I'm so busy I'm	I’m so busy, I’m getting dizzy!	忙得我两眼冒金星！	いそがしくって　めが　まわる！	いそがしくって　めが　まわる!
+	line	getting dizzy!			line	拜託你到別處去玩吧！		line	拜托你到别处去玩吧！	getting dizzy!	You have to give me room here!	拜托你到别处去玩吧！	たのむ　から　あっち　いってくれ！	たのむ　から　あっち　いってくれ!
+	done				done			done						
+														
+_SSAnne6Text4::				_SSAnne6Text4::										
+	text	Hum-de-hum-de-			text	我削我削……		text	我削我削……	Hum-de-hum-de-	Hum-de-hum-de-ho...	我削我削……	せっせ　せっせ……	せっせ　せっせ…
+	line	ho...			para	我每天要做的工作，		para	我每天要做的工作，	ho...				おれは　まいにち
+					line	就是削土豆皮！		line	就是削土豆皮！	I peel spuds	I peel spuds every day!	我每天要做的工作，	おれは　まいにち	イモの　かわむきだ!
+	para	I peel spuds			cont	我削我削……		cont	我削我削……	every day!	Hum-hum...	就是削土豆皮！	イモの　かわむきだ！	せっせ　せっせ…
+	line	every day!			done			done		Hum-hum...				
+	cont	Hum-hum...										我削我削……	せっせ　せっせ……	
+	done													
+														
+_SSAnne6Text5::				_SSAnne6Text5::										
+	text	Did you hear about			text	話說，你知道		text	话说，你知道	Did you hear about	Where did you come from?	你从哪里来？	きみ　どこから？	うらぐちから　タダで　はいろうなんて
+	line	SNORLAX?			line	貪吃的卡比獸嗎？		line	贪吃的卡比兽吗？	SNORLAX?				ちゃっかりもの　だね
+					para	沒有其他的寶可夢		para	没有其他的宝可梦	All it does is	Oh... Pallet Town, huh?	……噢，真新镇是嘛。	……へえ　マサラタウンかあ	それより　きみ
+	para	All it does is			line	比它更能吃睡了！		line	比它更能吃睡了！	eat and sleep!	It’s very nice and quiet there, I hear.	那是个恬静的好地方呐！	のどかで　いいよね！	コハクって　しってる?
+	line	eat and sleep!			done			done						
+	done													
+														
+_SSAnne6Text6::				_SSAnne6Text6::										
+	text	Snivel...Sniff...			text	淚流滿面……		text	泪流满面……	Snivel...Sniff...	*snivel...sniff*	泪流满面……	しくしく　しくしく……	しくしく　しくしく…
+					para	我每天要做的工作，		para	我每天要做的工作，	I only get to				おれは　まいにち
+	para	I only get to			line	就是剝洋蔥皮！		line	就是剥洋葱皮！	peel onions...	I only get to peel onions...	我每天要做的工作，	おれは　まいにち	タマネギの　かわむきだー
+	line	peel onions...			cont	淚流滿面……		cont	泪流满面……	Snivel...	*snivel*	就是剥洋葱皮！	タマネギの　かわむきだー	しくしく　しくしく…
+	cont	Snivel...			done			done						ゲ
+	done											泪流满面……	しくしく　しくしく……	
+														
+_SSAnne6Text_61807::				_SSAnne6Text_61807::										
+	text	Er-hem! Indeed I			text	嗯哼！		text	嗯哼！	Er-hem! Indeed I	Er-hem!	嗯哼！	おっほん！	おっほん!
+	line	am le CHEF!			line	這裡的主廚就是我！		line	这里的主厨就是我！	am le CHEF!	Indeed I am le chef!	这里的主厨就是我！	わたしが　ここの　シェフです！	わたしが　ここの　シェフです!
+					para	今天的主菜是——		para	今天的主菜是——	Le main course is				きょうの　メイン　ディッシュは
+	para	Le main course is			prompt			prompt			Le main course today is...	今天的主菜是——	きょうの　メイン　ディッシュは	
+	prompt													
+														
+_SSAnne6Text_6180c::				_SSAnne6Text_6180c::										
+	text	Salade de Salmon!			text	香煎魚排！		text	香煎鱼排！	Salmon du Salad!	my flavorful Whirlpool sushi!	新鲜活捉的潮旋寿司！	とれたて　ピチピチ　うずしおスシ！	したびらめの　ムニエル!
+					para	估計客人們又會抱怨		para	估计客人们又会抱怨	Les guests may				しかし　おきゃくさんに
+	para	Les guests may			line	“今天怎麼又吃魚？”……		line	“今天怎么又吃鱼？”……	gripe it's fish	Though les guests may complain that it’s fish	估计客人们又会抱怨	しかし　おきゃくさんに	また　さかな?　と　いわれそうだ
+	line	gripe it's fish			done			done		again, however!	yet again...	“今天怎么又吃鱼？”……	また　さかな？　と　いわれそうだ	
+	cont	again, however!												
+	done													
+														
+_SSAnne6Text_61811::				_SSAnne6Text_61811::										
+	text	Eels au Barbecue!			text	鹽烤秋刀魚！		text	盐烤秋刀鱼！	Eels au Barbecue!	le Kantonian flavor of Pewter Crunchies!	关都的味道——深灰米果！	カントーの　あじ！　ニビあられ！	さんまの　しおやき!
+					para	……上這道菜的話，		para	……上这道菜的话，	Les guests will				…じゃ　おきゃく　さんに
+	para	Les guests will			line	客人應該會生氣吧？		line	客人应该会生气吧？	mutiny, I fear.	Les guests will mutiny, I fear.	……上这道菜的话，	……じゃ　おきゃく　さんに	おこられるか?
+	line	mutiny, I fear.			done			done				客人应该会生气吧？	おこられるか？	
+	done													
+														
+_SSAnne6Text_61816::				_SSAnne6Text_61816::										
+	text	Prime Beef Steak!			text	菲力牛排！		text	菲力牛排！	Prime Beef Steak!	my juicy Take Down steak!	肉汁十足的猛撞大排！	ジューシーな　とっしんステーキ！	ぎゅう　フィレの　ステーキ!
+					para	不過……		para	不过……	But, have I enough				でも　ざいりょう
+	para	But, have I enough			line	不知道食材夠不夠用啊？		line	不知道食材够不够用啊？	fillets du beef?	But have I enough pour les guests?	不过……	でも　ざいりょう	にんずう　ぶん　あったかな?
+	line	fillets du beef?			done			done				不知道食材够不够用啊？	にんずう　ぶん　あったかな？	ズ
+	done													
+end				end										

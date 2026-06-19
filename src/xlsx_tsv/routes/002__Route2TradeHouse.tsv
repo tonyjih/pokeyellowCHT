@@ -1,0 +1,8 @@
+text/Route2TradeHouse.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route2HouseText1::				_Route2HouseText1::										
+	text	A fainted #MON			text	陷入瀕死狀態的寶可夢		text	陷入濒死状态的宝可梦	A fainted #MON	It’s a costume set that you can use to dress up	这是可以让你变身为	きみの　あいぼうポケモンに	…　こまった　ことに　むすめは
+	line	can't fight. But,			line	雖然沒有活力去戰鬥，		line	虽然没有活力去战斗，	can't fight. But,	like your partner Pokémon!	搭档宝可梦的换装组合！	なりきれる　おきがえセット　じゃ！	ひとの　まねが　すきでな!
+	cont	it can still use			cont	但是像居合斬之類的招式		cont	但是像居合斩之类的招式	it can still use				しょっちゅう　ひとを　からかう　ので
+	cont	moves like CUT!			cont	好像還是能隨時用的！		cont	好像还是能随时用的！	moves like CUT!	You can change via the Bag option in the	去菜单里的包包中选择，	メニューがめんの　バッグから	きんじょ　じゃ
+	done				done			done			main menu!	就可以换装了唷！	きがえることが　できる　ぞい！	モノマネ　むすめと　よばれとる!
+end				end										

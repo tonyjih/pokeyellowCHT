@@ -1,0 +1,29 @@
+text/PewterPokecenter.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_PewterPokecenterText2::				_PewterPokecenterText2::										
+	text	What!?			text	你說什麼！？		text	你说什么！？	What!?	What?!	你说什么！？	なに！？	なに!?
+					para	火箭隊在月見山……		para	火箭队在月见山……	TEAM ROCKET is	Team Rocket is at Mt. Moon?			ロケットだんが　オツキミやまで…
+	para	TEAM ROCKET is			line	幹什麼……？		line	干什么……？	at MT.MOON? Huh?		火箭队在月见山……	ロケットだんが　オツキミやまで……	…ん?　でんわ　してるんだ!
+	line	at MT.MOON? Huh?			cont	沒看我打電話呢嗎？		cont	没看我打电话呢吗？	I'm on the phone!	Huh?	干什么……？没看我打电话呢吗？	……ん？　でんわ　してるんだ！	じゃま　しないで　くれ!
+	cont	I'm on the phone!			para	別礙事，去別處玩去！		para	别碍事，去别处玩去！	Scram!	I’m on the phone! Scram!			ゲギぶ
+					done			done				别碍事，去别处玩去！	じゃま　しないで　くれ！	
+	para	Scram!												
+	done													
+														
+_PewterPokecenterText3::				_PewterPokecenterText3::										
+	text	#MON CENTERS			text	寶可夢中心真的太棒了！			ポケモン　センターって　いいわね		Trainer Tips	……有用的公告牌！	……おとくな　けいじばん！	…　おとくな　けいじばん!
+	line	are wonderful!												なんでもなおしは
+											A Full Heal will cure being asleep,	无论是睡眠、中毒、灼伤、冰冻……	なんでもなおしは	ねむり　どく　やけど　こおり…
+	para	They heal #MON									poisoned, burned, frozen...	万灵药都能治愈！	ねむり　どく　やけど　こおり……	なんでも　なおします!
+	line	completely.												すこし　たかい　けど
+											It’s pretty full of healing power!	虽然价格偏高，	なんでも　なおします！	ねむけざまし　どくけし　などを
+	para	Even conditions			para	就算寶可夢陷入睡眠、			ねむり　どく　やけど　マヒなど			但是不用分开买解眠药、解毒药什么的，		バラバラに　かうより　らくちん!
+	line	like sleep, burn,			line	中毒、灼傷、麻痺等狀態，			ポケモンの　たいちょう　も		It costs more, but it can be easier than buying		すこし　たかい　けど	
+	cont	poison and others			cont	也能恢復回來呢。			なおして　くれるのよ		items like Awakenings and Antidotes separately.	省事极了！	ねむけざまし　どくけし　などを	
+	cont	are cured.												
+	done				done								バラバラに　かうより　らくちん！	
+														
+_PewterJigglypuffText::				_PewterJigglypuffText::										
+	text	JIGGLYPUFF: Puu			text	胖丁：胖～胖～！		text	胖丁：胖～胖～！	JIGGLYPUFF: Puu	JIGGLYPUFF: Fhun fhun!	胖丁：胖～胖～！	プリン『ぷん　ぷん！	プりン『ぷうー　ぷぷうー
+	line	pupuu!			done			done		pupuu!				パぽぱ
+	done													
+end				end										

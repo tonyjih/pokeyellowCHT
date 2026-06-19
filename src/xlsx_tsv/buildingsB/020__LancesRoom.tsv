@@ -1,0 +1,66 @@
+text/LancesRoom.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_LanceBeforeBattleText::				_LanceBeforeBattleText::										
+	text	Ah! I heard about			text	是嘛！原來你就是		text	是嘛！原来你就是	Ah! I heard about	I’ve been waiting for you, champ in the making!	等你很久喽！	まってたぜ	おーす!
+	line	you, <PLAYER>!			line	<PLAYER>啊！		line	<PLAYER>啊！	you <PLAYER>!		未来的冠军！	みらいの　チャンピオン！	みらいの　チャンピオン!
+					para	我是四天王的統帥！		para	我是四天王的统帅！	I lead the ELITE	Lt. Surge here is the Gym Leader in this city.			マチス　しょうさの　あだなは
+	para	I lead the ELITE			line	龍使者阿渡……！		line	龙使者阿渡……！	FOUR! You can	He’s an expert on Electric-type Pokémon and	道馆馆主马志士少校是个	ジムリーダー　マチスしょうさは	イナズマ　アメりカン!
+	line	FOUR! You can			para	你應該也知道，		para	你应该也知道，	call me LANCE the		能将电属性宝可梦	でんきタイプの　ポケモンを	でんき　ポケモン　つかわせたら
+	cont	call me LANCE the			line	龍是神聖的傳說中的生物！		line	龙是神圣的传说中的生物！	dragon trainer!	a real tough guy!			アメりカ　ナンバー1　らしいぜ!
+	cont	dragon trainer!			para	雖然不容易捕捉，		para	虽然不容易捕捉，	You know that		运用自如的硬汉子！	つかいこなす　タフガイだ！	ひこう　タイプ　みず　タイプは
+					line	但是只要努力培養，		line	但是只要努力培养，	dragons are	Flying- and Water-type Pokémon don’t do well			あいしょうが　わるいぜ!
+	para	You know that			cont	力量將會天下無雙！		cont	力量将会天下无双！	mythical #MON!	matched up against Electric types.	飞行属性和水属性	ひこうタイプ　みずタイプは	マヒ　させられないよう
+	line	dragons are			para	它們的身體結實得很，		para	它们的身体结实得很，	They're hard to		可能不太好对付他喔！	あいしょうが　わるいぜ！	きを　つけな!
+	cont	mythical #MON!			line	耍小聰明的攻擊		line	耍小聪明的攻击	catch and raise,	You’ll also want to watch out so your Pokémon			それと　マチスは　ようじん　ぶかい!
+					cont	動不了它們一根汗毛！		cont	动不了它们一根汗毛！	but their powers	don’t get stuck paralyzed!	你可要小心，	マヒ　させられないよう	かれの　へやは　ロック　されて
+	para	They're hard to			para	……那好吧！		para	……那好吧！	are superior!		不要被电麻痹了！	きを　つけな！	かんたんには　はいれないぜ!
+	line	catch and raise,			line	差不多可以開始了！		line	差不多可以开始了！	They're virtually	And here’s my last tip...			
+	cont	but their powers			para	還是說你現在準備		para	还是说你现在准备	indestructible!		还有，马志士做事极为谨慎，	それと　マチスは　ようじんぶかい！	
+	cont	are superior!			line	捲鋪蓋回家呢？		line	卷铺盖回家呢？	Well, are you	Lt. Surge is the cautious type.	想要接近他可没那么容易呐！	かんたんには　ちかづけ　ないぜ！	
+					cont	<PLAYER>！		cont	<PLAYER>！	ready to lose?	He’s put barriers between himself and the rest of			
+	para	They're virtually			done			done		Your LEAGUE				
+	line	indestructible!								challenge ends	this room, so it won’t be easy getting to him.			
+										with me, <PLAYER>!				
+	para	Well, are you												
+	line	ready to lose?												
+														
+	para	Your LEAGUE												
+	line	challenge ends												
+	cont	with me, <PLAYER>!												
+	done													
+														
+_LanceEndBattleText::				_LanceEndBattleText::										
+	text	That's it!			text	唔……！		text	唔……！	That's it!	That’s it!	唔……！	うう……！	うう…!
+					para	雖然很不甘心，		para	虽然很不甘心，	I hate to admit				くやしいが　きみの
+	para	I hate to admit			line	但你在指揮寶可夢戰鬥上		line	但你在指挥宝可梦战斗上	it, but you are a	I hate to admit it, but you are a first-class	虽然很不甘心，但你在指挥	くやしいが　きみの	ポケモンの　うでは　ほんものだ!
+	line	it, but you are a			cont	確實很有一套！		cont	确实很有一套！	#MON master!	Pokémon Trainer!	宝可梦战斗上确实很有一套！	ポケモンの　うでは　ほんものだ！	
+	cont	#MON master!			prompt			prompt						
+	prompt													
+														
+_LanceAfterBattleText::				_LanceAfterBattleText::										
+	text	I still can't			text	我的龍之軍團		text	我的龙之军团	I still can't	BLAINE: Hah!	夏伯：嘿～～！	カツラ『うおーす！	へブ {PKMN} の　　　ビブ　　　　　　　　　　ボ
+	line	believe my			line	居然會輸給你，		line	居然会输给你，	believe my	Well done, returning here to my Gym!	你来得正好！	よく　きたな！	
+	cont	dragons lost to			cont	簡直太難以置信了！		cont	简直太难以置信了！	dragons lost to				
+	cont	you, <PLAYER>!			para	從這一刻起，你就是		para	从这一刻起，你就是	you, <PLAYER>!	You’re the one who retrieved the key to this	我猜你是去宝可梦屋	おまえは　ポケモンやしきに	
+					line	寶可夢聯盟的冠軍了！		line	宝可梦联盟的冠军了！	You are now the	Gym from the Pokémon Mansion!	拿到了这个道馆的钥匙吧！	この　ジムの　カギを	
+	para	You are now the			para	………………		para	………………	#MON LEAGUE				
+	line	#MON LEAGUE			line	……你以為我會這麼說嗎？		line	……你以为我会这么说吗？	champion!	Did you see anything interesting while you were	那时你有没有看到些什么？	とりに　いったの　だったな！	
+	cont	champion!			cont	其實你必須		cont	其实你必须	...Or, you would	in there?			
+					cont	再與一個人對決！		cont	再与一个人对决！	have been, but		那里应该有我的旧友	そのとき　なにかを　みたか？	
+	para	...Or, you would			para	這個訓練家的名字就是……		para	这个训练家的名字就是……	you have one more	That place still holds the remnants of my old	从事研究时的痕迹！		
+	line	have been, but			para	當然就是<RIVAL>了！		para	当然就是<RIVAL>了！	challenge ahead.	friend’s research!		あそこには　ふるい　ともだちの	
+	cont	you have one more			line	他呢……比你更早就		line	他呢……比你更早就	You have to face		我听说最近，	けんきゅうの　あとが　ある！	
+	cont	challenge ahead.			cont	戰勝了我們四天王！		cont	战胜了我们四天王！	another trainer!	By the way, I’ve been hearing an interesting	有个少女正在调查那个……		
+					para	現在他才是寶可夢聯盟		para	现在他才是宝可梦联盟	His name is...	rumor floating around recently...		さいきん　それを　しらべる	
+	para	You have to face			line	真正的冠軍！@		line	真正的冠军！@	<RIVAL>!		你认识一个	しょうじょの　うわさを　きいた……	
+	line	another trainer!			text_end			text_end		He beat the ELITE	You wouldn’t happen to know a young lady	叫作碧蓝的少女吗？		
+	cont	His name is...								FOUR before you!	named Green, would you?		おまえは　ブルー　という	
+										He is the real		……哎，	しょうじょは　しらんか？	
+	para	<RIVAL>!								#MON LEAGUE	...Hmph, well, it’s not as though I really know	我也不太清楚！		
+	line	He beat the ELITE								champion!@	the whole story anyway.		……まあ　わしにも	
+	cont	FOUR before you!										不说这个了，择日不如撞日，	よく　わからん　はなしなのだ！	
+											More importantly, since you came all this way,	现在就和我比试一场吧！		
+	para	He is the real									we should have a battle!		そんな　ことより　せっかく　だから	
+	line	#MON LEAGUE										嘿～～哈！	ひとつ　しょうぶと　いこう！	
+	cont	champion!@									Hah!			
+	text_end												うおおーす！	
+end				end										

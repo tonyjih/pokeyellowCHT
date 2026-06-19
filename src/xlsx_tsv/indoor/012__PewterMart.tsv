@@ -1,0 +1,19 @@
+text/PewterMart.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_PewterMartText2::				_PewterMartText2::										
+	text	A shady old man			text	我從一個陰森森的大叔那裡		text	我从一个阴森森的大叔那里	A shady, old man	A shady old guy suckered me into buying this	我从一个阴森森的大叔那里	インチキ　くさい　おじさんから	インチキ　くさい　おじさんから
+	line	got me to buy			line	買了一隻奇怪的寶可夢！		line	买了一只奇怪的宝可梦！	got me to buy	weird Pokémon!	买了一只奇怪的宝可梦！	なんだか　ヘンな　ポケモンを	なんだか　へンな　ポケモンを
+	cont	this really weird			para	真的是超級弱！		para	真的是超级弱！	this really weird				かっちゃったよ!
+	cont	fish #MON!			line	白花了我¥500啊……		line	白花了我¥500啊……	fish #MON!	It’s totally weak, and it cost 500!	真的是超级弱！	かっちゃったよ！	すっげー　よわいの!
+					done			done		It's totally weak		白花了我500啊……		500円も　したのに…
+	para	It's totally weak								and it cost ¥500!			すっげー　よわいの！	ゲ
+	line	and it cost ¥500!											５００円も　したのに……	
+	done													
+														
+_PewterMartText3::				_PewterMartText3::										
+	text	Good things can			text	即使是很弱的寶可夢，		text	即使是很弱的宝可梦，	Good things can	Good things can happen if you raise	即使是很弱的宝可梦，	よわい　ポケモンでも	よわい　ポケモンでも
+	line	happen if you			line	只要你努力去培育，		line	只要你努力去培育，	happen if you	Pokémon diligently.	只要你努力去培育，	いっしょうけんめい　そだてれば	いっしょうけんめい　そだてれば
+	cont	raise #MON			cont	就一定會有好事發生的！		cont	就一定会有好事发生的！	raise #MON				いいこと　あるさ!
+	cont	diligently, even			done			done		diligently, even	Even the weak ones can surprise you if	就一定会有好事发生的！	いいこと　あるさ！	
+	cont	the weak ones!								the weak ones!	you don’t give up on them.			
+	done													
+end				end										

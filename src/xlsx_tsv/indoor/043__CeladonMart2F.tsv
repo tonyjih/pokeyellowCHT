@@ -1,0 +1,28 @@
+text/CeladonMart2F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CeladonMart2Text3::				_CeladonMart2Text3::										
+	text	SUPER REPEL keeps			text	白銀噴霧能讓		text	白银喷雾能让	SUPER REPEL keeps	It’s a Pokémon Report!	……是宝可梦报告！	……ポケモンレポートだ！	…　ポケモン　レポートだ!
+	line	weak #MON at			line	弱小的寶可夢不會撲過來。		line	弱小的宝可梦不会扑过来。	weak #MON at				ポケモン　けんきゅうじょ　では
+	cont	bay...			para	嚯！看來是比除蟲噴霧		para	嚯！看来是比除虫喷雾	bay...	The research section succeeded in creating	在研究部门，	けんきゅう　セクション　では	じんこうの　ポケモン
+					line	更強力的玩意哪。		line	更强力的玩意哪。	Hmm, it's a more	Porygon, an artificial Pokémon created	我们成功制造出了	じんこうの　ポケモン	ポりゴンを　つくる　ことに
+	para	Hmm, it's a more			done			done		powerful REPEL!				せいこう　した…　…
+	line	powerful REPEL!									by humans.	多边兽这种人工宝可梦……	ポリゴンを　つくる　ことに	
+	done													
+													せいこう　した……	
+_CeladonMart2Text4::				_CeladonMart2Text4::										
+	text	For long outings,			text	從長遠考慮，		text	从长远考虑，	For long outings,	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	you should buy			line	買一些活力碎片		line	买一些活力碎片	you should buy	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	REVIVE.			cont	會比較好哇。		cont	会比较好哇。	REVIVE.				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_CeladonMart2Text5::				_CeladonMart2Text5::										
+	text	Top Grade Items			text	訓練家商品		text	训练家商品	Top Grade Items	“1F: Service Counter	１楼……　服务柜台	１かい……　サービス・カウンター	おくじょう　…　いこいの　ひろば
+	line	for Trainers!			line	應有盡有！		line	应有尽有！	for Trainers!		２楼……　训练家广场	２かい……　トレーナーズ・マーケット	　　　　　　…　じどう　はんばいき
+					para	２樓……　訓練家廣場		para	２楼……　训练家广场	2F: TRAINER'S	“2F: Trainers’ Market			プ
+	para	2F: TRAINER'S			done			done		    MARKET		３楼……　电子游戏专卖店	３かい……　テレビ　ゲーム　ショップ	
+	line	    MARKET									“3F: Video Game Shop	４楼……　聪明人礼品店	４かい……　ワイズマン・ギフト	
+	done													
+end				end							“4F: Wiseman Gifts	５楼……　饰品天地	５かい……　アクセサリー　マーケット	
+												顶楼……　自动贩卖机	おくじょう……　じどう　はんばいき	
+											“5F: Accessory Market			
+														
+											“Roof: Relaxation Space & Vending Machines”			

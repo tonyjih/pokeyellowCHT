@@ -1,0 +1,156 @@
+text/CeladonCity.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CeladonCityText1::				_CeladonCityText1::										
+	text	I got my KOFFING			text	這是我的瓦斯彈！			わたしの　ドガース!					
+	line	from my friend!			line	是從朋友那裡得到的哦！			ともだちから　もらったの!					
+														
+	para	We get along now,			para	為了能和它更親近，			なかよく　なるために					
+	line	because I was			line	我在好好照顧它哦！			いろいろ　やさしくして　あげたのよ!					
+	cont	very nice to it!												
+	done				done						So...	要老夫说起宝可梦的事，	ポケモンに　かんしては	で…
+												那可是三天三夜都说不完哇！	ホント　うるさい！　ですぞ！	きみは　わしの　ポケモン　じまんを
+_CeladonCityText2::				_CeladonCityText2::							Did you come visit to hear about			ききに　きたの　かね?
+	text	Heheh! This GYM			text	嘿嘿嘿！		text	嘿嘿嘿！	Heheh! This GYM	Haha! This Gym is great!	嘿嘿嘿！这个道馆好的很哇！	にひひ！　この　ジムは　ええ！	にひひ!　この　ジムは　ええ!
+	line	is great! It's			line	這個道館好的很哇！		line	这个道馆好的很哇！	is great! It's	It’s full of strong Trainers!	道馆里头美女多哇！	おんなのこ　ばっかし　じゃ！	おんなのこ　ばっかし　じゃ!
+	cont	full of women!			cont	道館裡頭美女多哇！		cont	道馆里头美女多哇！	full of women!		你一定是来这里倾听老夫	きみは　わしの　ポケモン　じまんを	
+	done				done			done				炫耀那些赞赞的宝可梦的吧？	ききに　きたの　かね？	
+														
+_CeladonCityText3::				_CeladonCityText3::										
+	text	The GAME CORNER			text	玉虹市最讓人自豪的地方		text	玉虹市最让人自豪的地方	The GAME CORNER	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	is bad for our			line	就是它優美的街道環境。		line	就是它优美的街道环境。	is bad for our	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	city's image!			cont	但是遊戲城令人頭疼！		cont	但是游戏城令人头疼！	city's image!				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_CeladonCityText4::				_CeladonCityText4::										
+	text	Moan! I blew it			text	哎呀呀……！		text	哎呀呀……！	Moan! I blew it	I’m the chairman of the Pokémon Fan Club!	宝可梦发烧友俱乐部的会长	ポケモン　だいすき　クラブの	ポケモン　だいすき　クラブの
+	line	all at the slots!			line	又輸了一把老虎機！		line	又输了一把老虎机！	all at the slots!	I raise more than a hundred Pokémon!	正是老夫！	かいちょうは　わし　じゃ！	かいちょうは　わし　じゃ!
+					para	早知道這樣		para	早知道这样	I knew I should				だいじに　しとるポケモンは
+	para	I knew I should			line	就應該事先把代幣		line	就应该事先把代币	have cashed in my	I’m very fussy when it comes to Pokémon!	老夫手里的宝可梦	もってる　ポケモンは	100ぴきを　こえとる!
+	line	have cashed in my			cont	換成獎品的！		cont	换成奖品的！	coins for prizes!	I surely am!	已经超过了100只！	１００ぴきを　こえとる！	ポケモンに　かんしては
+	cont	coins for prizes!			done			done						ホント　うるさい!　ですぞ!
+	done										So...	要老夫说起宝可梦的事，	ポケモンに　かんしては	で…
+												那可是三天三夜都说不完哇！	ホント　うるさい！　ですぞ！	きみは　わしの　ポケモン　じまんを
+_TM41PreText::				_TM41PreText::							Did you come visit to hear about			ききに　きたの　かね?
+	text	Hello, there!			text	哎喲喲！		text	哎哟哟！	Hello, there!	Hello there!	哎哟哟！	やあ　やあ！	やあ　やあ!
+					para	我眼巴巴地看你		para	我眼巴巴地看你	I've seen you,				わたしは　いつも　きみが
+	para	I've seen you,			line	走來走去無數次……		line	走来走去无数次……	but I never had a	I’ve been watching you walk right past me this	我眼巴巴地看你	わたしは　いつも　きみが	そこを　とおるのを　みてたが
+	line	but I never had a			cont	終於有機會和你說上話了！		cont	终于有机会和你说上话了！	chance to talk!	whole time, and I was hoping you’d come to visit	走来走去无数次……	そこを　とおるのを　みてた……	やっと　あう　ことが　できた!
+	cont	chance to talk!			para	請你收下這個		para	请你收下这个	Here's a gift for				それでは　とっておきの
+					line	特別的禮物吧！		line	特别的礼物吧！	dropping by!	me someday.	不知道你何时才能走过来，	いつ　きて　くれるかな　って	これを!　きみに　あげよう!
+	para	Here's a gift for			prompt			prompt				我的心里寂寞得	もう　ほんと　さみしく　みてた	
+	line	dropping by!									I was really lonely...			
+	prompt											就像是秋风扫落叶啊……	どうして　こんな　いえの　まえに	
+											Why did I make a pond right in front of		いけを　つくって　しまったのか……	
+_ReceivedTM41Text::				_ReceivedTM41Text::							my house...?	我为啥要在家的正前方		
+	text	<PLAYER> received			text	<PLAYER>從大叔那裡					“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	@			line	得到了@					2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_ram	wStringBuffer			text_ram	wStringBuffer								
+	text	!@			text	！@								
+	text_end				text_end									
+														
+_TM41ExplanationText::				_TM41ExplanationText::										
+	text	TM41 teaches			text	招式學習器４１		text	招式学习器４１	TM41 teaches	“1F: Service Counter	１楼……　服务柜台	１かい……　サービス・カウンター	おくじょう　…　いこいの　ひろば
+	line	SOFTBOILED!			line	是“生蛋”！		line	是“生蛋”！	SOFTBOILED!		２楼……　训练家广场	２かい……　トレーナーズ・マーケット	　　　　　　…　じどう　はんばいき
+					para	只有一種寶可夢		para	只有一种宝可梦	Only one #MON	“2F: Trainers’ Market			プ
+	para	Only one #MON			line	能夠學會它！		line	能够学会它！	can use it!		３楼……　电子游戏专卖店	３かい……　テレビ　ゲーム　ショップ	
+	line	can use it!			para	那隻寶可夢就是		para	那只宝可梦就是	That #MON is	“3F: Video Game Shop	４楼……　聪明人礼品店	４かい……　ワイズマン・ギフト	
+					line	吉利蛋！		line	吉利蛋！	CHANSEY!				
+	para	That #MON is			done			done			“4F: Wiseman Gifts	５楼……　饰品天地	５かい……　アクセサリー　マーケット	
+	line	CHANSEY!										顶楼……　自动贩卖机	おくじょう……　じどう　はんばいき	
+	done										“5F: Accessory Market			
+														
+_TM41NoRoomText::				_TM41NoRoomText::							“Roof: Relaxation Space & Vending Machines”			
+	text	Oh, your pack is			text	行李已滿了。		text	行李已满了。	Oh, your pack is	Oh, no need to pay!	啊，钱就不用给了！	あ　おだいは　けっこうですよ！	あ!　やせいの
+	line	full of items!			done			done		full of items!	We hope you continue your support of your			@
+	done											今后也请您	これからも	
+											neighborhood Poké Mart!	多多光顾友好商店～	フレンドリィショップを　ごひいきにー	
+_CeladonCityText6::				_CeladonCityText6::										
+	text	This is my trusted			text	這隻蚊香泳士		text	这只蚊香泳士	This is my trusted	This is my trusted pal, Poliwrath.	这只蚊香泳士	こいつ　おれの　あいかた！	こいつ　おれの　あいかた!
+	line	pal, POLIWRATH!			line	就是我的搭檔！		line	就是我的搭档！	pal, POLIWRATH!		就是我的搭档！	ニョロボン！	ニョロボン!
+					para	它是在我用了水之石後，		para	它是在我用了水之石后，	It evolved from	It evolved from a Poliwhirl when I used			みずのいしを　あてたら
+	para	It evolved from			line	從蚊香君進化而成的。		line	从蚊香君进化而成的。	POLIWHIRL when I	a Water Stone on it.	它是在我用了水之石后，	みずのいしを　あてたら	ニョロゾ　が　しんか　したよ
+	line	POLIWHIRL when I			done			done		used WATER STONE!		从蚊香君进化而成的。	ニョロゾが　しんか　したよ	
+	cont	used WATER STONE!												
+	done													
+														
+_CeladonCityText7::				_CeladonCityText7::										
+	text	POLIWRATH: Ribi			text	蚊香泳士：		text	蚊香泳士：	POLIWRATH: Ribi	POLIWRATH: Ribi ribit!	蚊香泳士：呱～呱呱～～！	ニョロボン『ゲロゲーロ！	トレーナーぞ
+	line	ribit!@			line	呱～呱呱～～！@		line	呱～呱呱～～！@	ribit!@				きド5ま
+	text_end				text_end			text_end						
+														
+_CeladonCityText8::				_CeladonCityText8::										
+	text	What are you			text	看什麼看！		text	看什么看！	What are you	What?!	你说什么！？	なに！？	なに!?
+	line	staring at?			line	再不滾開我可要揍你了！		line	再不滚开我可要揍你了！	staring at?	Team Rocket is at Mt. Moon?			ロケットだんが　オツキミやまで…
+	done				done			done				火箭队在月见山……	ロケットだんが　オツキミやまで……	…ん?　でんわ　してるんだ!
+											Huh?	干什么……？没看我打电话呢吗？	……ん？　でんわ　してるんだ！	じゃま　しないで　くれ!
+_CeladonCityText9::				_CeladonCityText9::							I’m on the phone! Scram!			ゲギぶ
+	text	Keep out of TEAM			text	你竄來竄去地真是神煩啊！		text	你窜来窜去地真是神烦啊！	Keep out of TEAM	JAMES: Those who are in Team Rocket’s way	小次郎：给火箭队捣乱的家伙	コジロウ『ロケットだんの	おれたちの　じゃまを　する
+	line	ROCKET's way!			line	是在鄙視火箭隊嗎！		line	是在鄙视火箭队吗！	ROCKET's way!	won’t get away unscathed!	可不是说走就能走的！	じゃま　する　やつは	やつは　じゃま　なのだ!
+	done				done			done						
+													ただ　じゃ　おかないぞ！	
+_CeladonCityText11::				_CeladonCityText11::										
+	text	CELADON CITY			text	這裡是玉虹市。		text	这里是玉虹市。	CELADON CITY	Celadon City:	这里是玉虹市。	ここは　タマムシシティ	ここは　タマムシ　シティ
+	line	The City of			line	玉虹即是如夢似幻的		line	玉虹即是如梦似幻的	The City of	The City of Rainbow Dreams	玉虹即是如梦似幻的彩虹之色。	タマムシ　にじいろ　ゆめの　いろ	タマムシ　にじいろ　ゆめの　いろ
+	cont	Rainbow Dreams			cont	彩虹之色。		cont	彩虹之色。	Rainbow Dreams				
+	done				done			done						
+														
+_CeladonCityText13::				_CeladonCityText13::										
+	text	CELADON CITY			text	玉虹市寶可夢道館		text	玉虹市宝可梦道馆	CELADON CITY	Celadon City Pokémon Gym	玉虹市宝可梦道馆	タマムシシティ　ポケモンジム	タマムシ　シティ　ポケモン　ジム
+	line	#MON GYM			line	館主：莉佳		line	馆主：莉佳	#MON GYM	Gym Leader: Erika	馆主：莉佳	リーダー　エリカ	りーダー　エりカ
+	cont	LEADER: ERIKA			cont	熱愛自然的大小姐！		cont	热爱自然的大小姐！	LEADER: ERIKA				しぜんを　あいする　おじょうさま!
+					done			done		The Nature Loving	The Nature-Loving Princess!	热爱自然的大小姐！	しぜんを　あいする　おじょうさま！	
+	para	The Nature-Loving								Princess!				
+	line	Princess!												
+	done													
+														
+_CeladonCityText14::				_CeladonCityText14::										
+	text	CELADON MANSION			text	玉虹大廈		text	玉虹大厦	CELADON MANSION	Celadon City:	这里是玉虹市。	ここは　タマムシシティ	ここは　タマムシ　シティ
+	done				done			done			The City of Rainbow Dreams	玉虹即是如梦似幻的彩虹之色。	タマムシ　にじいろ　ゆめの　いろ	タマムシ　にじいろ　ゆめの　いろ
+														
+_CeladonCityText15::				_CeladonCityText15::										
+	text	Find what you			text	必能邂逅		text	必能邂逅	Find what you	That Poké Ball over there...	你想要那边那个球是吗？	あの　アイテムボール	あの　アイテム　ボール
+	line	need at CELADON			line	您夢寐以求的商品！		line	您梦寐以求的商品！	need at CELADON	Were you wanting that?	…………我也想要啊！	ほしいって　おもった？	ほしいって　おもった?
+	cont	DEPT. STORE!			cont	玉虹百貨公司		cont	玉虹百货公司	DEPT. STORE!				…　…　…　ぼくもさ!
+	done				done			done			Well, so was I!	什么？那居然不是个球？	……　……ぼくもさ！	…　え　あれ　いきものなの?
+														
+_CeladonCityText16::				_CeladonCityText16::							...Huh? That’s actually a Pokémon?		……え　あれ　いきものなの？	
+	text	TRAINER TIPS			text	……有用的公告牌！		text	……有用的公告牌！	TRAINER TIPS	Trainer Tips	……有用的公告牌！	……おとくな　けいじばん！	…　おとくな　けいじばん!
+					para	在戰鬥中使用能力防守		para	在战斗中使用能力防守	GUARD SPEC.				エフェクトガードは
+	para	GUARD SPEC.			line	可以保護寶可夢減少		line	可以保护宝可梦减少	protects #MON	Guard Spec. protects Pokémon from having	在战斗中使用能力防守可以避免	エフェクトガードは	ほのお　や　みず　でんき　など
+	line	protects #MON			cont	來自諸如水、火、電		cont	来自诸如水、火、电	against SPECIAL	their stats lowered if you use one in a battle.	被对手降低我方宝可梦的能力！	せんとうちゅうに　つかうと	とくしゅな　こうげき　から
+	cont	against SPECIAL			cont	等屬性的傷害！		cont	等属性的伤害！	attacks such as				ポケモンを　まもって　くれる!
+	cont	attacks such as			para	購買道具，		para	购买道具，	fire and water!	If you’re in the market for items, the Celadon	购买道具，	みかたの　ポケモンの　のうりょくを	アイテムの　おかいもとめは
+	cont	fire and water!			line	請認準玉虹百貨公司！		line	请认准玉虹百货公司！	Get your items at	Department Store is your one-stop shop!	请认准玉虹百货公司！		タマムシ　デパートで　どうぞ!
+					done			done		CELADON DEPT.			さげられずに　すみます！	
+	para	Get your items at								STORE!				
+	line	CELADON DEPT.											どうぐの　おかいもとめは	
+	cont	STORE!											タマムシデパートで　どうぞ！	
+	done													
+														
+_CeladonCityText17::				_CeladonCityText17::										
+	text	Coins exchanged			text	用代幣兌換精美禮品！		text	用代币兑换精美礼品！	Coins exchanged	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	for prizes!			line	……禮品兌換處		line	……礼品兑换处	for prizes!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	cont	PRIZE EXCHANGE			done			done		PRIZE EXCHANGE				
+	done													
+														
+_CeladonCityText18::				_CeladonCityText18::										
+	text	ROCKET GAME CORNER			text	大人的休閒樂園！		text	大人的休闲乐园！	ROCKET GAME CORNER	Rocket Game Corner:	大人和小孩的休闲乐园！	おとなと　こどもの　あそびば！	おとなの　あそびば!
+	line	The playground			line	……火箭遊戲城		line	……火箭游戏城	The playground	A Playground for Grown-Ups and Kids Alike!	……火箭游戏城	……ロケット　ゲームコーナー	…　ロケット
+	cont	for grownups!			done			done		for grown-ups!				
+	done													
+														
+_CeladonCityText10::				_CeladonCityText10::										
+	text	TRAINER TIPS			text	……有用的公告牌！		text	……有用的公告牌！	TRAINER TIPS	Trainer Tips	……有用的公告牌！	……おとくな　けいじばん！	…　おとくな　けいじばん!
+					para	命中強化可以		para	命中强化可以	X ACCURACY boosts				ヨクアタールは　わざの
+	para	X ACCURACY boosts			line	提高招式的命中率！		line	提高招式的命中率！	the accuracy of	X Accuracy boosts a Pokémon’s accuracy.	命中强化可以	ヨクアタールは　わざの	めいちゅう　りつ　を　あげる!
+	line	the accuracy of			para	要害攻擊可以		para	要害攻击可以	techniques!	Dire Hit boosts the likelihood of critical hits.	提高招式的命中率！	めいちゅうりつを　あげる！	クりティカッターは　わざが
+	cont	techniques!			line	讓招式更容易擊中要害！		line	让招式更容易击中要害！	DIRE HIT jacks up				きゅうしょに　あたり　やすくなる
+					para	更多精彩商品，		para	更多精彩商品，	the likelihood of	If you’re in the market for items, the Celadon	要害攻击可以	クリティカットは　わざが	アイテムの　おかいもとめは
+	para	DIRE HIT jacks up			line	玉虹百貨公司		line	玉虹百货公司	critical hits!	Department Store is your one-stop shop!	让招式更容易击中要害！	きゅうしょに　あたりやすく　なる！	タマムシ　デパートで　どうぞ!
+	line	the likelihood of			cont	歡迎您的光臨！		cont	欢迎您的光临！	Get your items at				
+	cont	critical hits!			done			done		CELADON DEPT.		更多精彩商品，	どうぐの　おかいもとめは	
+										STORE!		玉虹百货公司欢迎您的光临！	タマムシデパートで　どうぞ！	
+	para	Get your items at												
+	line	CELADON DEPT.												
+	cont	STORE!												
+	done													
+end				end										

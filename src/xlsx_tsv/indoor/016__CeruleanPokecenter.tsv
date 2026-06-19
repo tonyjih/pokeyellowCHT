@@ -1,0 +1,26 @@
+text/CeruleanPokecenter.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CeruleanPokecenterText2::				_CeruleanPokecenterText2::										
+	text	That BILL!			text	正輝那傢伙！		text	正辉那家伙！	That BILL!	Oooh, that Bill!	正辉那家伙！	マサキの　ヤツ！	マサキの　ヤツ!
+					para	聽說只要是為了		para	听说只要是为了	I heard that				めずらしい　ポケモンを
+	para	I heard that			line	收集罕見的寶可夢……		line	收集罕见的宝可梦……	he'll do whatever	I heard that he’ll do anything to get his hands on	听说只要是为了	めずらしい　ポケモンを	てに　いれる　ためには…
+	line	he'll do whatever			cont	無論是什麼事情，		cont	无论是什么事情，	it takes to get	rare Pokémon. Anything at all!	收集罕见的宝可梦……	てに　いれる　ためには……	あんな　ことも　こんな　ことも
+	cont	it takes to get			cont	他都做得出來！		cont	他都做得出来！	rare #MON!				へいきで　するって　きいたよ!
+	cont	rare #MON!			done			done				无论是什么事情，	あんな　ことも　こんな　ことも	
+	done											他都做得出来！	へいきで　するって　きいたよ！	
+														
+_CeruleanPokecenterText3::				_CeruleanPokecenterText3::										
+	text	Have you heard			text	你也聽說了		text	你也听说了	Have you heard	Have you heard about Bill?	你也听说了	きみも	きみも
+	line	about BILL?			line	關於正輝的傳言嗎？		line	关于正辉的传言吗？	about BILL?		关于正辉的传言吗？	マサキの　うわさ　きいてるか？	マサキの　うわさ　きいてるか?
+					para	大家都管那傢伙叫作		para	大家都管那家伙叫作	Everyone calls	Everyone calls him a Pokémon fanatic!			みんなが　あいつを
+	para	Everyone calls			line	寶可夢狂熱迷呢！		line	宝可梦狂热迷呢！	him a #MANIAC!		大家都管那家伙叫作	みんなが　あいつを	ポケモン　マニアと　よんでるよ!
+	line	him a #MANIAC!			para	不過，任誰都會		para	不过，任谁都会	I think people	But with a collection like his, who wouldn’t want	宝可梦狂热迷呢！	ポケモンマニアと　よんでるよ！	でも　ものを　あつめたり
+					line	喜歡收集東西，或是		line	喜欢收集东西，或是	are just jealous	to brag a little bit?			じまん　したい　きもちは
+	para	I think people			cont	向人炫耀自己的收藏嘛！		cont	向人炫耀自己的收藏嘛！	of BILL, though.		不过，任谁都会喜欢收集东西，	でも　ものを　あつめたり	だれでも　ある!
+	line	are just jealous			cont	大家都一定是在羨慕他吧！		cont	大家都一定是在羡慕他吧！	Who wouldn't want	I think people are just jealous!	或是向人炫耀自己的收藏嘛！	じまん　したい　きもちは	みんなも　うらやましいんだな!
+	cont	of BILL, though.			done			done		to boast about				ゲ
+										their #MON?		大家都一定是在羡慕他吧！	だれでも　ある！	
+	para	Who wouldn't want												
+	line	to boast about											みんなも　うらやましいんだな！	
+	cont	their #MON?												
+	done													
+end				end										

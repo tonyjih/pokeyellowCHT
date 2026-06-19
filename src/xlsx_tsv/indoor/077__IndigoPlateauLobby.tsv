@@ -1,0 +1,27 @@
+text/IndigoPlateauLobby.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_IndigoPlateauLobbyText2::				_IndigoPlateauLobbyText2::										
+	text	Yo! Champ in			text	嗨～！		text	嗨～！	Yo! Champ in	Yo!	嗨～！	おーす！	おーす!
+	line	making!			line	未來的冠軍！		line	未来的冠军！	making!	Champ in the making!	未来的冠军！	みらいの　チャンピオン！	みらいの　チャンピオン!
+					para	這裡的規則是		para	这里的规则是	At #MON LEAGUE,				ポケモン　りーグ　してんのうは
+	para	At #MON LEAGUE,			line	要連續打敗４位		line	要连续打败４位	you have to face	At the Pokémon League, you will face the	这里的规则是	ポケモンリーグ　してんのうは	4にん　つづけて
+	line	you have to face			cont	寶可夢聯盟四天王！		cont	宝可梦联盟四天王！	the ELITE FOUR in	Elite Four all in a row.	要连续打败４位	４にん　つづけて	しょうぶ　する　ルールだ!
+	cont	the ELITE FOUR in			para	要是輸了就必須從頭來過！		para	要是输了就必须从头来过！	succession.				まけたら　ひとりめ　から
+	cont	succession.			line	已經走到最後了！		line	已经走到最后了！	If you lose, you	If you lose, you have to start all over again!	宝可梦联盟四天王！	しょうぶ　する　ルールだ！	やりなおしに　なるぞ!
+					cont	加油吧！		cont	加油吧！	have to start all	This is it! Go for it!			これが　さいごだ!　がんばれよ!
+	para	If you lose, you			done			done		over again! This		要是输了就必须从头来过！	まけたら　ひとりめ　から	
+	line	have to start all								is it! Go for it!		已经走到最后了！加油吧！	やりなおしに　なるぞ！	
+	cont	over again! This												
+	cont	is it! Go for it!											これが　さいごだ！　がんばれよ！	
+	done													
+														
+_IndigoPlateauLobbyText3::				_IndigoPlateauLobbyText3::										
+	text	From here on, you			text	接下來你必須		text	接下来你必须	From here on, you	If you go on ahead, you’ll face the Elite Four	接下来你必须	このさきは　してんのうと	このさきは　してんのうと
+	line	face the ELITE			line	與四天王一一對戰哦！		line	与四天王一一对战哦！	face the ELITE	one by one.	与四天王一一对战哦！	ひとりずつ　たたかうの！	ひとりずつ　たたかうの!
+	cont	FOUR one by one!			para	要是你贏了，		para	要是你赢了，	FOUR one by one!				もし　かてたら　ドアが　ひらいて
+					line	門會自動開啟，		line	门会自动打开，	If you win, a	If you win, a door opens to the next Trainer.	要是你赢了，门会自动打开，	もし　かてたら　ドアが　ひらいて	おくの　へやに　すすめるわ!
+	para	If you win, a			cont	你就可以前往		cont	你就可以前往	door opens to the	Good luck!	你就可以前往更里边的房间了！	おくの　へやに　すすめるわ！	がんばって!
+	line	door opens to the			cont	更裡邊的房間了！		cont	更里边的房间了！	next trainer!				0ゲ
+	cont	next trainer!			cont	要加油哦！		cont	要加油哦！	Good luck!		要加油哦！	がんばって！	
+	cont	Good luck!			done			done						
+	done													
+end				end										

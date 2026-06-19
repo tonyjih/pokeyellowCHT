@@ -1,0 +1,11 @@
+text/CinnabarLabTradeRoom.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Lab2Text1::				_Lab2Text1::										
+	text	I found this very			text	我在月見山		text	我在月见山	I found this very	I found this most remarkable Fossil inside	我在月见山	ぼく　オツキミやまで	ぼく　おつきみやまで
+	line	strange fossil in			line	發現了化石～！		line	发现了化石～！	strange fossil in	Mt. Moon.	发现了化石～！	カセキを　みつけましてねー！	カセキを　みつけましてねー!
+	cont	MT.MOON!			para	而且貌似還是		para	而且貌似还是	MT.MOON!				どうやら　めずらしい
+					line	罕見寶可夢的化石～！		line	罕见宝可梦的化石～！	I think it's a	I think it’s of a rare Pokémon.	而且貌似还是	どうやら　めずらしい	ポケモンの　カセキ　らしいんですよ
+	para	I think it's a			done			done		rare, prehistoric		罕见宝可梦的化石～！	ポケモンの　カセキ　らしいんですよ	ゲぼグゥべへ
+	line	rare, prehistoric								#MON!				
+	cont	#MON!												
+	done													
+end				end										

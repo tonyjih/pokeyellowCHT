@@ -1,0 +1,107 @@
+text/SSAnne1FRooms.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SSAnne8Text8::				_SSAnne8Text8::										
+	text	WIGGLYTUFF: Puup			text	胖可丁：胖～胖胖～～@		text	胖可丁：胖～胖胖～～@	WIGGLYTUFF: Puup	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	pupuu!@			text_end			text_end		pupuu!@	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_end													
+														
+_SSAnne8BattleText1::				_SSAnne8BattleText1::										
+	text	I travel alone			text	我是一個人出來		text	我是一个人出来	I travel alone	I flew right here on my Pidgeot when I read that	我听说火箭队袭击了西尔佛！	ロケットだんが　シルフ　おそって	ロケットだんが　シルフ　おそって
+	line	on my journeys!			line	獨自旅行的……！		line	独自旅行的……！	on my journeys!	Team Rocket was invading Silph!	就让大比鸟带我飞到了这里！	だいじけんって　きいて！	だいじけんって　きいて!
+					cont	寶可夢是我唯一的朋友！		cont	宝可梦是我唯一的朋友！	My #MON are my				ピジョットで　とんで　きたッス
+	para	My #MON are my			done			done		only friends!	But...shucks, it’s already over?	你说这件事已经解决了……？	ピジョットで　とんで　きたッス	かいけつ　した…?
+	line	only friends!										不好意思！		すんません!
+	done										Sorry! I’m just a sucker for drama!		かいけつ　した……？	ねっからの　ヤジウマ　で!
+												我天生就喜欢看热闹！	すんません！	
+_SSAnne8EndBattleText1::				_SSAnne8EndBattleText1::										
+	text	My, my			text	我、我的朋友……		text	我、我的朋友……	My, my	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	friends...			prompt			prompt		friends...	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt													
+														
+_SSAnne8AfterBattleText1::				_SSAnne8AfterBattleText1::										
+	text	You should be			text	那個！		text	那个！	You should be	BLUE: The two of you should be able to use	青绿：以你们两个的实力，	グリーン『ふたり　なら	はー　はーッ!
+	line	nice to friends!			line	要好好對待你的朋友哦！		line	要好好对待你的朋友哦！	nice to friends!	these well! These are Mega Stones!	应该可以运用自如的。	つかい　こなせる　はずだぜ	はげしい　たたかい　だった!
+	done				done			done						きみの　かちだ!
+												这就是超级石了！	メガストーンは　これだ！	いま…
+_SSAnne8BattleText2::				_SSAnne8BattleText2::										その　あかしに
+	text	You pup! How dare			text	嗯，你是？進來也不敲門，		text	嗯，你是？进来也不敲门，	You pup! How dare	You insolent pup!	嗯，你是？进来也不敲门，	む　きみは？　だまって　はいって	む　きみは?　だまって　はいって
+	line	you barge in!			line	這是個沒禮貌的孩子！		line	这是个没礼貌的孩子！	you barge in!	How dare you barge in!	这是个没礼貌的孩子！	しつれいな　こどもだ！	しつれいな　こどもだ!
+	done				done			done						
+														
+_SSAnne8EndBattleText2::				_SSAnne8EndBattleText2::										
+	text	Humph!			text	哼！		text	哼！	Humph!	Humph! You rude child!	哼！	ふん！	ふん!
+	line	You rude child!			line	你可真是沒禮貌。		line	你可真是没礼貌。	You rude child!	You have no sense of courtesy!	你可真是没礼貌。	れいぎを　しらんよ　きみは	れいぎを　しらんよ　きみは
+	prompt				prompt			prompt						
+														
+_SSAnne8AfterBattleText2::				_SSAnne8AfterBattleText2::										
+	text	I wish to be left			text	我想一個人待著。		text	我想一个人呆着。	I wish to be left	I wish to be left alone!	我想一个人呆着。	わたしは　ひとりで　いたいんだ	わたしは　ひとりで　いたいんだ
+	line	alone! Get out!			line	你給我出去！		line	你给我出去！	alone! Get out!	Get out!	你给我出去！	でて　いって　くれ！	でて　いって　くれ!
+	done				done			done						
+														
+_SSAnne8BattleText3::				_SSAnne8BattleText3::										
+	text	I love #MON!			text	我非常喜歡寶可夢！		text	我非常喜欢宝可梦！	I love #MON!	I love Pokémon!	我非常喜欢宝可梦！	ぼくは　ポケモン　だいすきだ！	ぼくは　ポケモン　だいすきだ!
+	line	Do you?			line	你也喜歡寶可夢嗎？		line	你也喜欢宝可梦吗？	Do you?	Do you?	你也喜欢宝可梦吗？	きみも　ポケモン　やるの！	きみも　ポケモン　やるの!
+	done				done			done						
+														
+_SSAnne8EndBattleText3::				_SSAnne8EndBattleText3::										
+	text	Wow!			text	哇塞！		text	哇塞！	Wow!	Wow!	哇塞！	うわあ！	うわあ!
+	line	You're great!			line	你好厲害啊。		line	你好厉害啊。	You're great!	You’re great!	你好厉害啊。	つよいんだ　きみって	つよいんだ　きみって
+	prompt				prompt			prompt						
+														
+_SSAnne8AfterBattleText3::				_SSAnne8AfterBattleText3::										
+	text	Let me be your			text	對了！		text	对了！	Let me be your	Listen, listen!	对了！	ね　ね！	ね　ね!
+	line	friend, OK?			line	我們來當好朋友吧！		line	我们来当好朋友吧！	friend, OK?	Let me be your friend, OK?	我们来当好朋友吧！	ぼくと　ともだちに　なってよ！	ぼくと　ともだちに　なってよ!
+					para	然後！		para	然后！	Then we can trade				それでね!
+	para	Then we can trade			line	我們來交換寶可夢吧。		line	我们来交换宝可梦吧。	#MON!	Then we can trade Pokémon and do stuff.	然后！	それでね！	ポケモン　こうかんとか　しようよ
+	line	#MON!			done			done				我们来交换宝可梦吧。	ポケモン　こうかんとか　しようよ	
+	done													
+														
+_SSAnne8BattleText4::				_SSAnne8BattleText4::										
+	text	I collected these			text	快看，這可是我從世界各地		text	快看，这可是我从世界各地	I collected these	I collected these Pokémon from all around	快看，这可是我从世界各地	あたしが　せかい　じゅうから	あたしが　せかい　じゅうから
+	line	#MON from all			line	收集來的寶可夢呢！		line	收集来的宝可梦呢！	#MON from all	the world!	收集来的宝可梦呢！	あつめた　ポケモン　みてー！	あつめた　ポケモン　みてー!
+	cont	around the world!			done			done		around the world!				
+	done													
+														
+_SSAnne8EndBattleText4::				_SSAnne8EndBattleText4::										
+	text	Oh no!			text	不！		text	不！	Oh no!	Oh no!	不！这可是我从世界各地	いやーん！	いやーん!
+	line	I went around the			line	這可是我從世界各地		line	这可是我从世界各地	I went around the	I went around the world for these!	收集到的宝可梦啊……	せかいの　ポケモン　なのに……	せかいの　ポケモン　なのに…
+	cont	world for these!			cont	收集到的寶可夢啊……		cont	收集到的宝可梦啊……	world for these!				
+	prompt				prompt			prompt						
+														
+_SSAnne8AfterBattleText4::				_SSAnne8AfterBattleText4::										
+	text	You hurt my poor			text	真是的……！你竟然把我的		text	真是的……！你竟然把我的	You hurt my poor	You hurt my poor Pokémon!	真是的……！你竟然把我的	もう……！　わたしの	もう…!　わたしの
+	line	worldly #MON!			line	寶可夢打成這幅模樣！		line	宝可梦打成这幅模样！	worldly #MON!		宝可梦打成这幅模样！	ポケモン　こんなに　しちゃって！	ポケモン　こんなに　しちゃって!
+					para	我要求你去寶可夢中心		para	我要求你去宝可梦中心	I demand that you	I demand you heal them at a Pokémon Center!			ポケモン　センターで
+	para	I demand that you			line	幫它們恢復活力！		line	帮它们恢复活力！	heal them at a		我要求你去宝可梦中心	ポケモンセンターで	げんきに　してきて　ほしいわ!
+	line	heal them at a			done			done		#MON CENTER!		帮它们恢复活力！	げんきに　してきて　ほしいわ！	
+	cont	#MON CENTER!												
+	done													
+														
+_SSAnne8Text5::				_SSAnne8Text5::										
+	text	Waiter, I would			text	喂！服務員小哥！		text	喂！服务员小哥！	Waiter, I would	I sure would like a Blaine doll...	好想要夏伯玩偶～	カツラさんにんぎょう　ほしー	トレーナーぞ
+	line	like a cherry pie			line	我想吃蛋糕啊！		line	我想吃蛋糕啊！	like a cherry pie				きド5ま
+	cont	please!			cont	給我上一塊千層蛋糕吧！		cont	给我上一块千层蛋糕吧！	please!				
+	done				done			done						
+														
+_SSAnne8Text6::				_SSAnne8Text6::										
+	text	A cruise is so			text	坐船去國外旅遊		text	坐船去国外旅游	A cruise is so	A world cruise is so elegant and nice!	坐船去国外旅游	ふねで　かいがい　りょこう　なんて	ふねで　かいがい　りょこう　なんて
+	line	elegant yet cozy!			line	是多麼優雅啊！		line	是多么优雅啊！	elegant yet cozy!		是多么优雅啊！	ゆうがで　いいよー！	ゆうがで　いいよー!
+	done				done			done						
+														
+_SSAnne8Text7::				_SSAnne8Text7::										
+	text	I always travel			text	我要永遠和我的		text	我要永远和我的	I always travel	I always travel with Wigglytuff.	我要永远和我的	あたしと　プクリンは	あたしと　プクりンは
+	line	with WIGGLYTUFF!			line	胖可丁在一起呢！		line	胖可丁在一起呢！	with WIGGLYTUFF!	I never leave home without it!	胖可丁在一起呢！	ずーっと　いっしょ　なの！	ずーっと　いっしょ　なの!
+	done				done			done						
+														
+_SSAnne8Text9::				_SSAnne8Text9::										
+	text	We are cruising			text	我正在和孩子們一起		text	我正在和孩子们一起	We are cruising	Haha! We’re cruising around the world,	我正在和孩子们一起	わたくし　こども　たちと	わたくし　こども　たちと
+	line	around the world.			line	周遊世界哦～呵呵！		line	周游世界哦～呵呵哒！	around the world.	my children and I!	周游世界哦～呵呵哒！	せかいを　まわって　ますの　おほほ	せかいを　まわって　ますの　おほほ
+	done				done			done						
+														
+_SSAnne8Text11::				_SSAnne8Text11::										
+	text	Ssh! I'm a GLOBAL			text	噓……！		text	嘘……！	Ssh! I'm a GLOBAL	Shhh!	嘘……！	しー……！	しー…!
+	line	POLICE agent!			line	我是一名國際警察！		line	我是一名国际警察！	POLICE agent!	I’m an agent for the International Police!	我是一名国际警察！	わたしは　こくさい　けいさつ！	わたしは　こくさい　けいさつ!
+					para	我正在追查		para	我正在追查	I'm on the trail				ロケットだんの　わるだくみを
+	para	I'm on the trail			line	火箭隊的邪惡陰謀！		line	火箭队的邪恶阴谋！	of TEAM ROCKET!	I’m on the trail of Team Rocket.	我正在追查	ロケットだんの　わるだくみを	おって　いる　ところだ!
+	line	of TEAM ROCKET!			done			done			They’re up to nothing good!	火箭队的邪恶阴谋！	おって　いる　ところだ！	ズギ
+	done													
+end				end										

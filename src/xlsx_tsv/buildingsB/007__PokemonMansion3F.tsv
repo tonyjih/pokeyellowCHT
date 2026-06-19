@@ -1,0 +1,39 @@
+text/PokemonMansion3F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Mansion3BattleText1::				_Mansion3BattleText1::										
+	text	This place is			text	說起來，		text	说起来，	This place is	This place is, like, huge!	说起来，	それに　しても	それに　しても
+	line	like, huge!			line	這房子還真是大啊！		line	这房子还真是大啊！	like, huge!		这房子还真是大啊！	でっけー　やしき　だねえ！	でっけー　やしき　だねえ!
+	done				done			done						
+														
+_Mansion3EndBattleText1::				_Mansion3EndBattleText1::										
+	text	Ayah!			text	啊呀！		text	啊——！	Ayah!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			prompt			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_Mansion3AfterBattleText1::				_Mansion3AfterBattleText1::										つ {PLAYER}  {PLAYER} 
+	text	I wonder where			text	……我想知道		text	……我想知道	I wonder where	I wonder where my partner went.	……我想知道我伙伴去哪了？	……あいかたが　いたんだ	…　あいぼうが　いたんだ
+	line	my partner went.			line	我夥伴去哪了？		line	我伙伴去哪了？	my partner went.			どこ　いったんだろ？	どこ　いったんだろ?
+	done				done			done						
+														
+_Mansion3BattleText2::				_Mansion3BattleText2::										
+	text	My mentor once			text	我老師以前		text	我老师以前	My mentor once	My mentor once lived here.	我老师以前就住在这里。	ここは　かつて	ここは　かつて
+	line	lived here.			line	就住在這裡。		line	就住在这里。	lived here.			わたしの　せんせいが　すんでいた	わたしの　せんせいが　すんでいた
+	done				done			done						
+														
+_Mansion3EndBattleText2::				_Mansion3EndBattleText2::										
+	text	Whew!			text	竟然這麼厲害！		text	竟然这么厉害！	Whew!	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	Overwhelming!			prompt			prompt		Overwhelming!		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	prompt										D’aww... Failed again?			
+														
+_Mansion3AfterBattleText2::				_Mansion3AfterBattleText2::										
+	text	So, you're stuck?			text	無法去自己想去的地方，		text	无法去自己想去的地方，	So, you're stuck?	So, hey, I’m just curious...	难道说你也是……	まさか　そっちも　そのー……	あなたも
+	line	Try jumping off			line	是不是令你很困擾呢……		line	是不是令你很困扰呢……	Try jumping off	Are you here because you’re also looking for...	来这里寻找那个的吗？	あの　アレ　さがしに　きたの？	おはか　まいりに　きたの?
+	cont	over there!			cont	從那邊大膽的跳下去吧！		cont	从那边大胆的跳下去吧！	over there!				ポケモン　おもいの　おとこのこ　ね
+	done				done			done			y’know, something special?			
+														
+_Mansion3Text5::				_Mansion3Text5::										
+	text	Diary: Feb. 6			text	日記　２月６日		text	日记　２月６日	Diary: Feb. 6	“Diary: Feb. 6	日记　２月６日	にっき　２がつ６か	にっき　2がつ6か
+	line	MEW gave birth.			line	我們得到了一隻		line	我们得到了一只	MEW gave birth.	We obtained a new Pokémon from Mew.	我们得到了一只	ミュウが　こどもを　うむ	ミュウが　こどもを　うむ
+					cont	誕生自夢幻的寶可夢。		cont	诞生自梦幻的宝可梦。	We named the				うまれた　ばかりの　ジュニアを
+	para	We named the			para	我們決定為這隻新的寶可夢		para	我们决定为这只新的宝可梦	newborn MEWTWO.	“We have named this new Pokémon ‘Mewtwo.’”	诞生自梦幻的宝可梦。	うまれた　ばかりの　ジュニアを	ミュウツーと　よぶことに…
+	line	newborn MEWTWO.			line	取名為超夢……		line	取名为超梦……				ミュウツーと　よぶことに……	
+	done				done			done				我们决定为这只新的宝可梦		
+end				end								取名为超梦……		

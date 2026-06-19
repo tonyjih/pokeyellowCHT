@@ -1,0 +1,45 @@
+text/Route12Gate2F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_TM39PreReceiveText::				_TM39PreReceiveText::										
+	text	My #MON's			text	我曾經最疼愛的寶可夢		text	我曾经最疼爱的宝可梦	My #MON's	My Pokémon’s ashes are resting in	我曾经最疼爱的宝可梦	わたしが　かわいがってた　ポケモン	わたしが　かわいがってた　ポケモン
+	line	ashes are stored			line	現在正沉睡在		line	现在正沉睡在	ashes are stored	the Pokémon Tower.	现在正沉睡在宝可梦塔里……	いまは　ポケモンタワーで	いまは　ポケモン　タワーで
+	cont	in #MON TOWER.			cont	寶可夢塔裡……		cont	宝可梦塔里……	in #MON TOWER.				ねむってるの…
+					para	……對了！		para	……对了！	You can have this	You can have this TM. I don’t need it anymore...	……对了！我的招式学习器	おやすみ　してるの……	…　そうだ　わたしの　 {5C} 
+	para	You can have this			line	我的招式學習器		line	我的招式学习器	TM. I don't need		还是送给大姐姐吧！		おにいちゃんに　あげるわ
+	line	TM. I don't need			cont	還是送給大哥哥吧！		cont	还是送给大哥哥吧！	it any more...			……そうだ　わたしの　わざマシン	わたし…　もう　いらない　から
+	cont	it anymore...			cont	我留著它也沒有用了……		cont	我留着它也没有用了……			我……留着它也没有用了……	おねえちゃんに　あげるわ	
+	prompt				prompt			prompt						
+													わたし……　もう　いらない　から	
+_ReceivedTM39Text::				_ReceivedTM39Text::										
+	text	<PLAYER> received			text	<PLAYER>從女孩那裡		text	<PLAYER>从谜之训练家	<PLAYER> received	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	TM39!@			line	得到了TM39！@		line	那里得到了@	a @	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_end				text_end			text_ram	wStringBuffer	wStringBuffer				
+								text	！@	!@				
+_TM39ExplanationText::				_TM39ExplanationText::				text_end						
+	text	TM39 is a move			text	招式學習器３９是被叫做		text	招式学习器３９是被叫做	TM39 is a move	If you’re new to training Pokémon, you should	如果你是宝可梦新手，	ポケモンしょしんしゃ　なら	にいちゃん
+	line	called SWIFT.			line	“高速星星”的招式哦。		line	“高速星星”的招式哦。	called SWIFT.	give my place a little visit.	不如来我家试试吧。	うちに　よっていくと　いいよ	ポケモン　ずかん　つくってる　なら
+					para	因為這個招式的命中率		para	因为这个招式的命中率	It's very accurate,				サファり　ゾーン　いくと　いいよ
+	para	It's very accurate,			line	非常地高，		line	非常地高，	so use it during	It’s an empty house, but I’ve rented it so people	我不在的时候都把房子租出去，	じょうほうこうかんの　ば　として	めずらしい　ポケモンが
+	line	so use it during			cont	在不想輸掉對戰的時候		cont	在不想输掉对战的时候	battles you can't	can use it as a place to gather and share tips!	作为交换信息的地方呢。	るすちゅう　いえ　かしとるん　だわ	たくさん　はんしょく　してるって
+	cont	battles you can't			cont	能夠大派用場哦。		cont	能够大派用场哦。	afford to lose.				
+	cont	afford to lose.			done			done						
+	done													
+														
+_TM39NoRoomText::				_TM39NoRoomText::										
+	text	You don't have			text	行李已滿，拿不下了喲。		text	你的行李已满了哦。	You don't have any	You don’t have enough dough.	你啊……	アナタさま……　さきだつ　ものが	…　おとくな　けいじばん!
+	line	room for this.						done		room for this.		最最重要的东西好像不太够噢？	たりませんよ？	ひとの　ポケモンは　ひとの　もの!
+	done				done						...Dough means money, kid.			やせいの　ポケモンに　だけ
+												最最重要的东西……	さきだつ　もの　とは	モンスターボールを　なげて
+_Route12GateUpstairsText_495b8::				_Route12GateUpstairsText_495b8::								当然就是指钱咯！	……おかねの　こと　です	つかまえよう!
+	text	Looked into the			text	使用望遠鏡觀看！		text	使用望远镜观看！	Looked into the	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	binoculars.			para	有個叔叔在釣魚！		para	有个叔叔在钓鱼！	binoculars.	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+					done			done		A man fishing!				…　シルフ　カンパニー
+	para	A man fishing!										……西尔佛公司	……シルフカンパニー	
+	done													
+														
+_Route12GateUpstairsText_495c4::				_Route12GateUpstairsText_495c4::										
+	text	Looked into the			text	使用望遠鏡觀看！		text	使用望远镜观看！	Looked into the	Let’s see what the binoculars have to show...	使用望远镜观看！	ぼうえんきょうを　のぞいた！	ぼうえんきょうを　のぞいた!
+	line	binoculars.			para	看見了寶可夢塔！		para	看见了宝可梦塔！	binoculars.				およいでる　ひとが　みえる!
+					done			done		It's #MON TOWER!	It’s the Pokémon Tower!	看见了宝可梦塔！	ポケモンタワーが　みえる！	ザ
+	para	It's #MON TOWER!												
+	done													
+end				end										

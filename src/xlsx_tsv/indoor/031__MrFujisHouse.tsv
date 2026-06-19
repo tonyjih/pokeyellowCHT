@@ -1,0 +1,91 @@
+text/MrFujisHouse.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_LavenderHouse1Text_1d8d1::				_LavenderHouse1Text_1d8d1::										
+	text	That's odd, MR.FUJI			text	奇了怪了！		text	奇了怪了！	That's odd, MR.FUJI	That’s odd... Mr. Fuji isn’t here.	奇了怪了！	おっかしいなー！	おっかしいなー!
+	line	isn't here.			line	富士老人居然不在！		line	富士老人居然不在！	isn't here.	Where’d he go?	富士老人居然不在！	フジろうじんが　いないぞ！	フジ　ろうじんが　いないぞ!
+	cont	Where'd he go?			cont	你說他究竟去了哪裡呢？		cont	你说他究竟去了哪里呢？	Where'd he go?				どこに　いったのかな?
+	done				done			done				你说他究竟去了哪里呢？	どこに　いったのかな？	
+														
+_LavenderHouse1Text_1d8d6::				_LavenderHouse1Text_1d8d6::										
+	text	MR.FUJI had been			text	原來富士老人		text	原来富士老人	MR.FUJI had been	Your Pokémon have been sent to the professor!	已将宝可梦发送给博士！	ポケモンを　はかせに　おくった！	 {next} 
+	line	praying alone for			line	是去給嘎啦嘎啦祭靈了啊。		line	是去给嘎啦嘎啦祭灵了啊。	praying alone for				@
+	cont	CUBONE's mother.			done			done		CUBONE's mother.	... ... ...	……　……　……	……　……　……	 {PLAYER}  {RIVAL} ポケモン
+	done											大木博士来信息了！	はかせから　メッセージが　きた！	…
+											You got a message back from the professor!			
+_LavenderHouse1Text_1d8f4::				_LavenderHouse1Text_1d8f4::										 {TARGET}  {USER}  {5B}  {5C} トレーナーロケットだん
+	text	This is really			text	這裡以前曾經是		text	这里以前曾经是	This is really	This place is actually Mr. Fuji’s home.	这里以前曾经是	ここは　もともと	ここは　もともと
+	line	MR.FUJI's house.			line	富士老人的家哦！		line	富士老人的家哦！	MR.FUJI's house.	He’s really kind.	富士老人的家哦！	フジじいちゃんの　おうち　なの	フジ　じいちゃんの　おうち　なの
+					para	老爺爺他人很好的！		para	老爷爷他人很好的！	He's really kind!				じいちゃん　やさしいのよ!
+	para	He's really kind!			para	他收留並照顧了許多		para	他收留并照顾了许多	He looks after	He looks after Pokémon that’ve been abandoned	老爷爷他人很好的！	じいちゃん　やさしいのよ！	すてられたり　かえなくなった
+					line	被遺棄的寶可夢		line	被遗弃的宝可梦	abandoned and	or orphaned.			ポケモンを　あずかって
+	para	He looks after			cont	和難以培育的寶可夢呢。		cont	和难以培育的宝可梦呢。	orphaned #MON!		他收留并照顾了许多	すてられたり　かえなくなった	せわ　してるの
+	line	abandoned and			done			done				被遗弃的宝可梦和	ポケモンを　あずかって	
+	cont	orphaned #MON!												
+	done											难以培育的宝可梦呢。	せわ　してるの	
+														
+_LavenderHouse1Text_1d8f9::				_LavenderHouse1Text_1d8f9::										
+	text	It's so warm!			text	啊……暖暖的呢！		text	啊……暖暖的呢！	It's so warm!	Ahhh, it’s so warm!	啊……暖暖的呢！	はあ　あったかい……！	はあ　あったかい…!
+	line	#MON are so			line	沒想到寶可夢抱起來		line	没想到宝可梦抱起来	#MON are so	Pokémon are so cuddly and nice to hug!	没想到宝可梦抱起来	ポケモンって　だっこ　すると	ポケモンって　だっこ　すると
+	cont	nice to hug!			cont	會讓人覺得這麼溫暖！		cont	会让人觉得这么温暖！	nice to hug!				あったかいんだよねー!
+	done				done			done				会让人觉得这么温暖！	あったかいんだよねー！	
+														
+_LavenderHouse1Text3::				_LavenderHouse1Text3::										
+	text	PSYDUCK: Gwappa!@			text	可達鴨：呱～啪！@		text	可达鸭：呱～啪！@	PSYDUCK: Gwappa!@	PSYDUCK: Yai yai!	可达鸭：可啦叭～	コダック『グラパァ	トレーナーぞ
+	text_end				text_end			text_end						きド5ま
+														
+_LavenderHouse1Text4::				_LavenderHouse1Text4::										
+	text	NIDORINO: Gaoo!@			text	尼多力諾：嘎噢～！@		text	尼多力诺：嘎噢～！@	NIDORINO: Gaoo!@	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	text_end				text_end			text_end				给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+											D’aww... Failed again?			
+_LavenderHouse1Text_1d94c::				_LavenderHouse1Text_1d94c::										
+	text	MR.FUJI: <PLAYER>.			text	富士：好了，		text	富士：好了，	MR.FUJI: <PLAYER>.	Hello there!	哎哟哟！	やあ　やあ！	やあ　やあ!
+					line	<PLAYER>……		line	<PLAYER>……	Your #DEX quest				わたしは　いつも　きみが
+	para	Your #DEX quest			para	收集寶可夢圖鑑需要訓練家		para	收集宝可梦图鉴需要训练家	may fail without	I’ve been watching you walk right past me this	我眼巴巴地看你	わたしは　いつも　きみが	そこを　とおるのを　みてたが
+	line	may fail without			line	對寶可夢十足的愛。		line	对宝可梦十足的爱。	love for your	whole time, and I was hoping you’d come to visit	走来走去无数次……	そこを　とおるのを　みてた……	やっと　あう　ことが　できた!
+	cont	love for your			cont	如果缺少了這十足的愛，		cont	如果缺少了这十足的爱，	#MON.				それでは　とっておきの
+	cont	#MON.			cont	圖鑑就很難集齊了。		cont	图鉴就很难集齐了。	I think this may	me someday.	不知道你何时才能走过来，	いつ　きて　くれるかな　って	これを!　きみに　あげよう!
+					para	雖然不知道是否能幫到你，		para	虽然不知道是否能帮到你，	help your quest.		我的心里寂寞得	もう　ほんと　さみしく　みてた	
+	para	I think this may			line	我就把這個送給你吧！		line	我就把这个送给你吧！		I was really lonely...			
+	line	help your quest.			prompt			prompt				就像是秋风扫落叶啊……	どうして　こんな　いえの　まえに	
+	prompt										Why did I make a pond right in front of		いけを　つくって　しまったのか……	
+											my house...?	我为啥要在家的正前方		
+_ReceivedFluteText::				_ReceivedFluteText::								造这么个破池子啊……		
+	text	<PLAYER> received			text	<PLAYER>從富士那裡		text	<PLAYER>从谜之训练家	<PLAYER> received	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	a @			line	得到了@		line	那里得到了@	a @	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	text_ram	wStringBuffer			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer				…　シルフ　カンパニー
+	text	!@			text	！@		text	！@	!@		……西尔佛公司	……シルフカンパニー	
+	text_end				text_end			text_end						
+														
+_FluteExplanationText::				_FluteExplanationText::										
+	text_start				text_start			text_start			Upon hearing the Poké Flute, sleeping Pokémon	有的宝可梦会在听到	ポケモンのふえを　ふくと	
+					para	即便是呼呼大睡的寶可夢，		para	即便是呼呼大睡的宝可梦，	Upon hearing #	will spring awake.	宝可梦之笛的笛声后醒来。	めをさます　ポケモンが　いましてね	ポケモンのふえを　ふくと
+	para	Upon hearing #			line	聽了寶可夢之笛的笛聲後，		line	听了宝可梦之笛的笛声后，	FLUTE, sleeping				グーグー　ねむってる　ポケモンでも
+	line	FLUTE, sleeping			cont	也能醒來變得精力充沛！		cont	也能醒来变得精力充沛！	#MON will	Try using it if you ever find a sleeping Pokémon.	如果你在什么地方	もし　どこかで	げんきが　わいて　とびおきる!
+	cont	#MON will			para	當有寶可夢睡著而		para	当有宝可梦睡着而	spring awake.		遇到了正在睡觉的宝可梦，	ねている　ポケモンに　であったら	ポケモンが　いねむり　して
+	cont	spring awake.			line	感到困擾時，就用用看吧。		line	感到困扰时，就用用看吧。	It works on all				こまったら　つかって　みなさい
+					done			done		sleeping #MON.		就试着吹吹看这个笛子吧。	ふえを　ふいて　みなさい	
+	para	It works on all												
+	line	sleeping #MON.												
+	done													
+														
+_FluteNoRoomText::				_FluteNoRoomText::										
+	text	You must make			text	行李已滿了哪。		text	行李已满了哪。	You must make	Thank you for keeping an eye on dear Slowpoke!	谢谢你能	ヤドンちゃんの　こと	セキチク　シティ　サファり　ゾーン
+	line	room for this!			done			done		room for this!	Here, this is for your trouble.	帮我照看小呆呆兽。	みててくれて　ありがとう	いった　こと　あるかね?
+	done													あそこは　めずらしい　ポケモンが
+												这是我的一点心意，	これ　おだちんよ	たくさん　いた!
+_MrFujiAfterFluteText::				_MrFujiAfterFluteText::								你愿意收下吗？	うけとって　くださる？	
+	text	MR.FUJI: Has my			text	富士：		text	富士：	MR.FUJI: Has my	MR. FUJI: Has my Poké Flute helped you?	富士：不知道之前送你的笛子	フジ『このあいだ　さしあげた　ふえは	フジ『このあいだ　さしあげた
+	line	FLUTE helped you?			line	不知道之前送你的笛子		line	不知道之前送你的笛子	FLUTE helped you?		有没有帮到你呢？	やくに　たって　ますかな？	ふえは　やくに　たってるかな?
+	done				cont	有沒有幫到你呢？		cont	有没有帮到你呢？					
+					done			done						
+_LavenderHouse1Text6::				_LavenderHouse1Text6::										
+	text	#MON Monthly			text	有機會獲得豪華獎品！		text	有机会获得豪华奖品！	#MON Monthly	You could win the Grand Prize Drawing given	有机会获得豪华奖品！	ごうか　しょうひんが　あたる！	ごうか　しょうひんが　あたる!
+	line	Grand Prize			line	《寶可夢之友月刊》		line	《宝可梦之友月刊》	Grand Prize	out by the Pokémon Fan Magazine!	《宝可梦之友月刊》	げっかん　ポケモンの　とも	げっかん　ポケモンの　とも
+	cont	Drawing!			para	參加方法……		para	参加方法……	Drawing!				ビッグ
+					para	……哎呀，		para	……哎呀，	The application	The application form is...	豪华大奖！	ビッグ・プレゼント！	
+	para	The application			line	這頁被人剪掉了！		line	这页被人剪掉了！	form is...				
+	line	form is...			done			done		Gone! It's been	Gone! It’s already been clipped out.	参加方法……	……おうぼ　ほうほうは	
+										clipped out!				
+	para	Gone! It's been										……哎呀，这页被人剪掉了！	……あら　きりとって　ある！	
+	line	clipped out!												
+	done													
+end				end										

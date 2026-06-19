@@ -1,0 +1,28 @@
+text/LavenderCuboneHouse.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_LavenderHouse2Text1::				_LavenderHouse2Text1::										
+	text	CUBONE: Kyarugoo!@			text	卡拉卡拉：卡拉咕——@		text	卡拉卡拉：卡拉咕——@	CUBONE: Kyarugoo!@	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	text_end				text_end			text_end				给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+											D’aww... Failed again?			
+_LavenderHouse2Text_1d9dc::				_LavenderHouse2Text_1d9dc::										
+	text	I hate those			text	我真的……！		text	我真的……！	I hate those	I saw Cubone’s mother trying to escape from	我也看到卡拉卡拉	カラカラの　おかあさんが	カラカラの　おかあさんが
+	line	horrible ROCKETs!			line	沒有辦法原諒火箭隊！		line	没有办法原谅火箭队！	horrible ROCKETs!	Team Rocket.	从火箭队那里逃跑……	ロケットだんから　にげる　ところ	ロケットだんから　にげる　ところ
+					para	那隻卡拉卡拉，		para	那只卡拉卡拉，	That poor CUBONE's				わたしも　みたわ…
+	para	That poor CUBONE's			line	它的媽媽嘎啦嘎啦……		line	它的妈妈嘎啦嘎啦……	mother...	But she got caught...	然后又被抓回去了……	わたしも　みたわ……	にげる　とちゅうで　ころされたわ
+	line	mother...			para	它在逃走的路上，		para	它在逃走的路上，	It was killed				ゲ
+					line	被火箭隊殺害了。		line	被火箭队杀害了。	trying to escape	I was so scared that I couldn’t even go to try to	我当时因为太害怕，	でも　つかまって……	
+	para	It was killed			done			done		from TEAM ROCKET!	save her.	所以没能去救它。		
+	line	trying to escape											わたし　おそろしくて	
+	cont	from TEAM ROCKET!											たすけること　できなかったわ	
+	done													
+														
+_LavenderHouse2Text_1d9e1::				_LavenderHouse2Text_1d9e1::										
+	text	The GHOST of			text	聽說寶可夢塔裡		text	听说宝可梦塔里	The GHOST of	The ghost of the Pokémon Tower is gone!	听说宝可梦塔里	ポケモンタワーの	ポケモン　タワーの
+	line	#MON TOWER is			line	已經不會出現幽靈了！		line	已经不会出现幽灵了！	#MON TOWER is	Someone must have soothed its restless spirit!	已经不会出现幽灵了！	ゆうれい　でなく　なったって！	ゆうれい　でなく　なったって!
+	cont	gone!			para	一定是有人使那些		para	一定是有人使那些	gone!				だれかが　まよえる　たましいを
+					line	無家可歸的靈魂		line	无家可归的灵魂	Someone must have	And a Trainer adopted that young Cubone.	一定是有人使那些	だれかが　まよえる　たましいを	しずめて　くれたのね
+	para	Someone must have			cont	得到安息了吧。		cont	得到安息了吧。	soothed its	I’m so glad everything worked out in the end.	无家可归的灵魂得到安息了吧。	しずめて　くれたのね	ザ
+	line	soothed its			done			done		restless soul!				
+	cont	restless soul!										卡拉卡拉那孩子	それに　こどもの　カラカラも	
+	done											也被训练家领养了，	トレーナーさんに　ひきとられて	
+end				end										
+												这一切真是太好了！	いったの！　よかったわね	

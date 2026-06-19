@@ -1,0 +1,31 @@
+text/PokemonMansion1F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Mansion1BattleText2::				_Mansion1BattleText2::										
+	text	Who are you? There			text	你是誰？		text	你是谁？	Who are you? There	Who are you?	你是谁？	だれも　いない　はずの	だれも　いない　はずの
+	line	shouldn't be			line	在這裡走來走去做什麼？		line	在这里走来走去做什么？	shouldn't be	There shouldn’t be anyone here.	在这里走来走去做什么？	いえを　あるき　まわる	いえを　あるき　まわる
+	cont	anyone here.			cont	這裡不應該有人才對啊。		cont	这里不应该有人才对啊。	anyone here.				きみは　だれだね?
+	done				done			done				这里不应该有人才对啊。	きみは　だれだね？	
+														
+_Mansion1EndBattleText2::				_Mansion1EndBattleText2::										
+	text	Ouch!			text	我輸了。		text	唔，咕嘟咕嘟……	Ouch!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			prompt		Torpedoed!	Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_Mansion1AfterBattleText2::				_Mansion1AfterBattleText2::										つ {PLAYER}  {PLAYER} 
+	text	A key? I don't			text	……什麼？		text	……什么？	A key? I don't	A key? I don’t know what you’re talking about.	……什么？	……なに？	…　なに?
+	line	know what you're			line	你在找鑰匙？		line	你在找钥匙？	know what you're		你在找钥匙？	カギを　さがして　いるのか	カギを　さがして　いるのか
+	cont	talking about.			cont	我不清楚鑰匙在哪裡……		cont	我不清楚钥匙在哪里……	talking about.				さあ　しらないねえ…
+	done				done			done				我不清楚钥匙在哪里……	さあ　しらないねえ……	ゲ
+														
+_MansionSwitchText::				_MansionSwitchText::										
+	text	A secret switch!			text	有一個秘密開關！		text	有一个秘密开关！	A secret switch!	Hey!	我翻我翻……！	ガサゴソ……！	ガサゴソ…!
+					para	要按下去嗎？		para	要按下去吗？	Press it?	There’s a switch under the trash?!	嘿哟！垃圾箱底	おっと！　ゴミばこの　そこに	おっと!　ゴミばこの　そこに
+	para	Press it?			done			done						また　スイッチが　あった!
+	done										Let’s push it!	有一个开关！	スイッチが　あった！	おして　みよう!　…　ポチッとな
+														ゲへ
+_MansionSwitchPressedText::				_MansionSwitchPressedText::								按一下试试吧！	おして　みよう！　……ポチッとな	
+	text	Who wouldn't?			text	按下去吧！……咔噠		text	按下去吧！……咔哒	Who wouldn't?	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	prompt				prompt			prompt			2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+														
+_MansionSwitchNotPressedText::				_MansionSwitchNotPressedText::										
+	text	Not quite yet!			text	還是別按了吧。		text	还是别按了吧。	Not quite yet!	BLAINE: We’re not done yet!	夏伯：接下来还有唷～！	カツラ『まだまだ　いくぞー！	 {RIVAL} ロケットだんヅ
+	done				done			done			The second question!	第２题！	だい　２もん！	ロケットだんてばぢグレン@カツラ@ョゥ
+end				end										

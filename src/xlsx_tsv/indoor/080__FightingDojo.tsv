@@ -1,0 +1,132 @@
+text/FightingDojo.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_FightingDojoText_5ce8e::				_FightingDojoText_5ce8e::										
+	text	Grunt!			text	嘿呀！		text	嘿呀！	Grunt!	KARATE MASTER: *grunt*	嘿呀！	オスッ！	オスッ!
+					para	我就是格鬥道場的師傅，		para	我就是格斗道场的师傅，	I am the KARATE				ここを　かくとう　どうじょうと
+	para	I am the KARATE			line	空手道大王！		line	空手道大王！	MASTER! I am the	I am the Karate Master!	我就是格斗道场的师傅，	わしが　かくとう　どうじょうの	しっての　ぶれい　か!
+	line	MASTER! I am the			para	你是過來踢館的嗎？		para	你是过来踢馆的吗？	LEADER here!	I am the leader here!	空手道大王！	しはん　からてだいおう　である！	
+	cont	LEADER here!			line	真是這樣的話		line	真是这样的话	You wish to				
+					cont	我可不會心慈手軟！		cont	我可不会心慈手软！	challenge us?				
+	para	You wish to			para	接招吧！		para	接招吧！	Expect no mercy!				
+	line	challenge us?			done			done		Fwaaa!				
+	cont	Expect no mercy!												
+														
+	para	Fwaaa!												
+	done													
+														
+_FightingDojoText_5ce93::				_FightingDojoText_5ce93::										
+	text	Hwa!			text	嘿呀！		text	嘿呀！	Hwa!	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	Arrgh! Beaten!			line	呀！我被打敗了！		line	呀！我被打败了！	Arrgh! Beaten!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt				prompt			prompt						
+														
+_FightingDojoText_5ce98::				_FightingDojoText_5ce98::										
+	text	Indeed, I have			text	我確實輸了！		text	我确实输了！	Indeed, I have	OAK: I’ll stop you right there, son!	大木博士：真是拿你没办法！	オーキド『こらこら！　それは	…　おとくな　けいじばん!
+	line	lost!			para	但是無論如何……		para	但是无论如何……	lost!	Those Berries are for Pokémon to eat, not you!	那是给宝可梦吃的东西！	ポケモンが　たべる　もんじゃ！	ポケモンを　つかまえる　ときは
+					line	都拜託你不要帶走		line	都拜托你不要带走	But, I beseech				なるべく　よわらせてから!
+	para	But, I beseech			cont	道場的招牌！		cont	道场的招牌！	you, do not take	When you want to catch a Pokémon, try throwing	捕捉宝可梦时……	ポケモンを　つかまえる　とき……	ポケモンが　げんきだと
+	line	you, do not take			para	不如這樣吧，		para	不如这样吧，	our emblem as	one of those at your target before you take a			にげるかも　しれないよ!
+	cont	our emblem as			line	我把我重要的		line	我把我重要的	your trophy!		在准备精灵球之前	ボールを　かまえる　まえに	
+	cont	your trophy!			cont	格鬥寶可夢送給你！		cont	格斗宝可梦送给你！	In return, I will	Poké Ball in hand.	投出蔓莓果的话，	ズリのみを　ポイっと　なげれば	
+					para	如何！		para	如何！	give you a prized				
+	para	In return, I will			line	選你喜歡的那隻吧！		line	选你喜欢的那只吧！	fighting #MON!	You’ll find that wild Pokémon will be so happy to	宝可梦就会变得高兴，	ポケモンが　よろこんで	
+	line	give you a prized			done			done		Choose whichever	have a Berry to nibble on that they’ll become			
+	cont	fighting #MON!								one you like!		这样也就更容易捉到了唷！	ぐっと　つかまえ　やすく　なる！	
+											much easier for you to catch!			
+	para	Choose whichever												
+	line	one you like!												
+	done													
+														
+_FightingDojoText_5ce9d::				_FightingDojoText_5ce9d::										
+	text	Ho!			text	嘿呀！		text	嘿呀！	Ho!	KARATE MASTER: Hyah!	嘿呀！	オスッ！	オスッ!
+					para	如何？要順便		para	如何？要顺便	Stay and train at	Stay and train at karate with us!			どうだ?　ついでに　ここで
+	para	Stay and train at			line	在這裡練習一下空手道嗎？		line	在这里练习一下空手道吗？	Karate with us!		如何？要顺便	どうだ？　ついでに　ここで	カラテ　れんしゅう　していくか!
+	line	Karate with us!			done			done				在这里练习一下空手道吗？	からて　れんしゅう　していくか！	ゲ
+	done													
+														
+_FightingDojoBattleText1::				_FightingDojoBattleText1::										
+	text	Hoargh! Take your			text	你好！		text	你好！	Hoargh! Take your	Team Rocket took off!	火箭队已经逃跑了！	ロケットだんは　にげたよ！	ロケットだんは　にげたよ!
+	line	shoes off!			line	難道！你是來踢館的？		line	难道！你是来踢馆的？	shoes off!	Did you get rid of them?	原来是你赶走了他们啊！	きみが　おっぱらったのかい	きみが　おっぱらったのかい
+	done				done			done						…　ありがとう!
+											Thank you!	……真是太感谢你了！	……ありがとう！	ゲ
+_FightingDojoEndBattleText1::				_FightingDojoEndBattleText1::										
+	text	I give			text	我、我輸了！		text	哇啊，我输了！	Stop!	Oof!	唔！我输了！	ぐッ！　まいった！	ぐッ!　まいった!
+	line	up!						line	我再也不敢了！	I give up! I'll	I give up!			
+	prompt				prompt			cont	放过我吧！	leave quietly!				
+								prompt						
+_FightingDojoAfterBattleText1::				_FightingDojoAfterBattleText1::										
+	text	You wait 'til you			text	別高興太早，		text	别高兴太早，	You wait 'til you	You wait till you see our master!	别高兴太早，	あんしん　するのは	あんしん　するのは
+	line	see our Master!			line	等你贏了我師父再說吧！		line	等你赢了我师父再说吧！	see our Master!	I’m a small fry compared to him!	等你赢了我师父再说吧！	しはんに　かって　からに　しろ！	しはんに　かって　からに　しろ!
+					para	贏了我根本就不算什麼！		para	赢了我根本就不算什么！	I'm a small fry				おれに　かっても
+	para	I'm a small fry			line	嘿呀！		line	嘿呀！	compared to him!		赢了我根本就不算什么！嘿呀！	おれに　かっても	たいした　こと　ないぜ!　オスッ!
+	line	compared to him!			done			done					たいした　こと　ないぜ！　オスッ！	ゲ
+	done													
+														
+_FightingDojoBattleText2::				_FightingDojoBattleText2::										
+	text	I hear you're			text	嘿呀！看來你有兩把刷子！		text	嘿呀！看来你有两把刷子！	I hear you're	No way you’re getting into the Gym if you don’t	哎～！	べー！	ともだちが　かわいい　ポケモン
+	line	good! Show me!			line	不用客氣，放馬過來吧！		line	不用客气，放马过来吧！	good! Show me!	show me a cute Pokémon!	没有带可爱的宝可梦来，	かわいい　ポケモン	いっぱい　もってるの
+	done				done			done						…　くやしいわ!
+											Bye!	就没有什么话好说的了。	もって　ないなんて　ろんがい！	
+_FightingDojoEndBattleText2::				_FightingDojoEndBattleText2::										
+	text	Judge!			text	嘿呀！		text	嘿呀！	Judge!	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	1 point!			line	得一分！		line	得一分！	1 point!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt				prompt			prompt						
+														
+_FightingDojoAfterBattleText2::				_FightingDojoAfterBattleText2::										
+	text	Our Master is a			text	我師父是格鬥家之神！		text	我师父是格斗家之神！	Our Master is a	Our master is a pro fighter.	我师父是格斗家之神！	しはんは　かくとうかの　かみさまだ！	しはんは　かくとうかの　かみさまだ!
+	line	pro fighter!			line	要挑戰他的話，		line	要挑战他的话，	pro fighter!	Be prepared to lose!	要挑战他的话，你得抱有必死的决心！	いどむと　いうなら　かくご　していけ	いどむと　いうなら　かくご　していけ
+	done				cont	你得抱有必死的決心！		cont	你得抱有必死的决心！					ゲ
+					done			done						
+_FightingDojoBattleText3::				_FightingDojoBattleText3::										
+	text	Nothing tough			text	嘿呀！		text	嘿呀！	Nothing tough	Hiyah!	嘿呀！	チェストー！	チェストー!
+	line	frightens me!			line	硬物根本不足為懼！		line	硬物根本不足为惧！	frightens me!	I have no fear for anything tough!	硬物根本不足为惧！	かたい　もの　など　こわく　ない！	かたい　もの　など　こわく　ない!
+					para	我每天都在練習		para	我每天都在练习	I break boulders				まいにち　こぶしで
+	para	I break boulders			line	使用拳頭擊碎岩石！		line	使用拳头击碎岩石！	for training!	I shatter boulders for training every day!	我每天都在练习	まいにち　こぶしで	いわを　わる　れんしゅう　してる!
+	line	for training!			done			done				使用拳头击碎岩石！	いわを　わる　れんしゅう　してる！	
+	done													
+														
+_FightingDojoEndBattleText3::				_FightingDojoEndBattleText3::										
+	text	Yow!			text	啊呀！		text	啊呀！	Yow!	Yow!	啊呀！嘿呀！	あたっ！　オスッ！	あたっ!　オスッ!
+	line	Stubbed fingers!			line	嘿呀！		line	嘿呀！	Stubbed fingers!	Stubbed fingers!			
+	prompt				prompt			prompt						
+														
+_FightingDojoAfterBattleText3::				_FightingDojoAfterBattleText3::										
+	text	The only thing			text	格鬥家也就懼怕超能力！		text	格斗家也就惧怕超能力！	The only thing	The only thing that frightens us is psychic power!	格斗家也就惧怕超能力！	かくとうかが　こわい　もの　など	かくとうかが　こわい　もの　など
+	line	that frightens us			line	嘿呀！		line	嘿呀！	that frightens us		……另外就是会飞的，	ちょうのうりょく　ぐらいだ！	ちょうのうりょく　ぐらいだ!オスッ!
+	cont	is psychic power!			done			done		is psychic power!	...Oh, and things that fly around.			ゲ
+	done											还有妖精属性！嘿呀！	……あと　とんでる　やつ　とか	
+											...And fairies. But that’s it!		フェアリーも　だな！　オスッ！	
+_FightingDojoBattleText4::				_FightingDojoBattleText4::										
+	text	Hoohah!			text	嘿呀！		text	嘿呀！	Hoohah!	Hwaah!	嘿呀！	オスッ！	オスッ!
+					para	明知這裡是格鬥道場		para	明知这里是格斗道场	You're trespassing				ここを　かくとう　どうじょうと
+	para	You're trespassing			line	竟然還敢硬闖，		line	竟然还敢硬闯，	in our FIGHTING	You’re trespassing in our Fighting Dojo!	明知这里是格斗道场竟然	ここを　かくとうどうじょうと	しっての　ぶれい　か!
+	line	in our FIGHTING			cont	你好大的膽子！		cont	你好大的胆子！	DOJO!		还敢硬闯，你好大的胆子！	しっての　ぶれい　か！	
+	cont	DOJO!			done			done						
+	done													
+														
+_FightingDojoEndBattleText4::				_FightingDojoEndBattleText4::										
+	text	Oof!			text	唔！我輸了！		text	唔！我输了！	Oof!	Oof!	唔！我输了！	ぐッ！　まいった！	ぐッ!　まいった!
+	line	I give up!			prompt			prompt		I give up!	I give up!			
+	prompt													
+														
+_FightingDojoAfterBattleText4::				_FightingDojoAfterBattleText4::										
+	text	The prime fighters			text	這裡是雲集了		text	这里是云集了	The prime fighters	The prime fighters across the land train here.	这里是云集了全国格斗家的道场！	ここは　ぜんこくの　かくとうか　が	ここは　ぜんこくの　かくとうか　が
+	line	across the land			line	全國格鬥家的道場！		line	全国格斗家的道场！	across the land		嘿呀！	あつまる　どうじょう　だ！　オスッ！	あつまる　どうじょう　だ!　オスッ!
+	cont	train here.			cont	嘿呀！		cont	嘿呀！	train here.				ゲ4だら?たぐゲ
+	done				done			done						
+														
+_WantHitmonleeText::				_WantHitmonleeText::										
+	text	You want the			text	嘿呀！		text	嘿呀！	You want the	KARATE MASTER: You want the hard-kicking	嘿呀！	ウスッ！　キックわざの　おに！	ウスッ!　キック　わざのおに!
+	line	hard-kicking			line	於是你要選擇		line	于是你要选择	hard kicking	Hitmonlee?	于是你要选择踢腿大师飞腿郎吗？	サワムラーを　とるか？	サワムラーを　とるか?
+	cont	HITMONLEE?			cont	踢腿大師飛腿郎嗎？		cont	踢腿大师飞腿郎吗？	HITMONLEE?				ゲ4だら?たぐゲ
+	done				done			done						
+														
+_WantHitmonchanText::				_WantHitmonchanText::										
+	text	You want the			text	嘿呀！		text	嘿呀！	You want the	KARATE MASTER: You want the piston-punching	嘿呀！	ウスッ！　うなる　こぶし！	ウスッ!　うなる　こぶし!
+	line	piston-punching			line	於是你要選擇		line	于是你要选择	piston punching	Hitmonchan?	于是你要选择拳击大师快拳郎吗？	エビワラーに　するか？	エビワラーに　するか?
+	cont	HITMONCHAN?			cont	拳擊大師快拳郎嗎？		cont	拳击大师快拳郎吗？	HITMONCHAN?				
+	done				done			done						
+														
+_OtherHitmonText::				_OtherHitmonText::										
+	text	Better not get			text	不能貪心……		text	不能贪心……	Better not get	Well, better get back to work.	……好了好了！	……さてと！	…　さてと!
+	line	greedy...			done			done		greedy...		去工作啊去工作！	しごと　しなきゃ　しごと！	しごと　しなきゃ　しごと!
+	done													ゲ
+end				end										

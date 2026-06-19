@@ -1,0 +1,23 @@
+text/CopycatsHouse1F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CopycatsHouse1FText1::				_CopycatsHouse1FText1::										
+	text	My daughter is so			text	我家閨女啊，		text	我家闺女啊，	My daughter is so	My daughter is so self-centered.	我家闺女啊，	たくの　むすめは	たくの　むすめは
+	line	self-centered.			line	真的是從小給慣壞了……		line	真的是从小给惯坏了……	self-centered.	She has but a few friends.	真的是从小给惯坏了……	ほんと　わがままに　そだって……	ほんと　わがままに　そだって…
+	cont	She only has a			cont	朋友也沒幾個。		cont	朋友也没几个。	She only has a				おともだちも　あまり　おりませんの
+	cont	few friends.			done			done		few friends.	Maybe she’ll mellow down a little if you show	朋友也没几个。	おともだちも　あまり　おりませんの	
+	done										her a Pokémon she likes?			
+												如果把她喜欢的宝可梦给她看，	あのこの　すきな　ポケモン　みせれば	
+_CopycatsHouse1FText2::				_CopycatsHouse1FText2::								不知道她会不会变懂事些呢？	ちょっとは　やさしく　なるかしら？	
+	text	My daughter likes			text	我女兒喜歡模仿這一點		text	我女儿喜欢模仿这一点	My daughter likes	My daughter likes to mimic people.	我女儿喜欢模仿这一点	……こまった　ことに　むすめは	…　こまった　ことに　むすめは
+	line	to mimic people.			line	真的讓我非常頭疼……！		line	真的让我非常头疼……！	to mimic people.	It’s rather vexing.	真的让我非常头疼……！	ひとの　まねが　すきでな！	ひとの　まねが　すきでな!
+					para	因為她沒事就去捉弄別人，		para	因为她没事就去捉弄别人，	Her mimicry has				しょっちゅう　ひとを　からかう　ので
+	para	Her mimicry has			line	周圍的人都叫她		line	周围的人都叫她	earned her the	In fact, people now call her the Copycat because	因为她没事就去捉弄别人，	しょっちゅう　ひとを　からかう　ので	きんじょ　じゃ
+	line	earned her the			cont	“模仿少女”！		cont	“模仿少女”！	nickname COPYCAT	of her mimicry!	周围的人都叫她“模仿少女”！	きんじょ　じゃ	モノマネ　むすめと　よばれとる!
+	cont	nickname COPYCAT			done			done		around here!				
+	cont	around here!											モノマネむすめと　よばれとる！	
+	done													
+														
+_CopycatsHouse1FText3::				_CopycatsHouse1FText3::										
+	text	CHANSEY: Chaaan			text	吉利蛋：吉～利～！@		text	吉利蛋：吉～利～！@	CHANSEY: Chaan!	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	sey!@			text_end			text_end		Sii!@		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	text_end										D’aww... Failed again?			
+end				end										

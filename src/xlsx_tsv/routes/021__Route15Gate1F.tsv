@@ -1,0 +1,9 @@
+text/Route15Gate1F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route15GateText1::				_Route15GateText1::										
+	text	Are you working			text	正在收集寶可夢圖鑑的孩子		text	正在收集宝可梦图鉴的孩子	Are you working	Are you the kid who’s working on a Pokédex?	正在收集宝可梦图鉴的孩子	ポケモンずかん	ポケモンずかん
+	line	on a #DEX?			line	指的就是你吧？		line	指的就是你吧？	on a #DEX?		指的就是你吧？	つくってる　こ　って　きみ？	つくってる　こ　って　きみ?
+					para	大木博士的助手		para	大木博士的助手	PROF.OAK's AIDE	One of Professor Oak’s assistants came by here,			オーキドはかせの　じょしゅの
+	para	PROF.OAK's AIDE			line	剛才來找過你呢！		line	刚才来找过你呢！	came by here.	and he seemed to be looking for you.	大木博士的助手	オーキドはかせの　じょしゅの	かたが　きてたよ
+	line	came by here.			done			done				刚才来找过你呢！	かたが　きてたよ	ザガ
+	done													
+end				end										

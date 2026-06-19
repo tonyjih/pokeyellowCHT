@@ -1,0 +1,240 @@
+text/SaffronGym.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SabrinaPreBattleText::				_SabrinaPreBattleText::										
+	text	I had a vision of			text	……你果然來了！		text	……你果然来了！	I had a vision of	Shh! Listen, I need to share a	嘘……！	しー！	しー!
+	line	your arrival!			line	其實我早有預感！		line	其实我早有预感！	your arrival!	secret with someone.	偷偷告诉你，	ないしょ　だけど　このコハク	ないしょ　だけど　このコハク
+					para	自打我隨手把湯匙一扔		para	自打我随手把汤匙一扔	I have had psychic				ポケモンの　いでんしが　のこってると
+	para	I have had psychic			line	就讓它彎曲的那一天起……		line	就让它弯曲的那一天起……	powers since I	I think that this chunk of amber	我推测这个琥珀里面	ポケモンの　いでんしが　のこってると	おれは　にらんでるんだ!
+	line	powers since I			cont	我，就成為了一個		cont	我，就成为了一个	was a child.	contains Pokémon DNA!	留有宝可梦的遗传基因！	おれは　にらんでるんだ！	もし　いきかえらせたら
+	cont	was a child.			cont	超能力少女。		cont	超能力少女。	I first learned				ポケモンの　いちだい　はっけんだ!
+					para	雖然我不喜歡戰鬥，		para	虽然我不喜欢战斗，	to bend spoons	It would be a shattering scientific	如果能让它复活，	もし　いきかえらせたら	でも　ここの　なかまは
+	para	I first learned			line	但既然你這麼希望了……		line	但既然你这么希望了……	with my mind.	breakthrough if Pokémon could be	那简直就是宝可梦的一大发现！	ポケモンの　いちだい　はっけんだ！	おれの　いうこと　しんじないんだ
+	line	to bend spoons			cont	我便讓你見識一下		cont	我便让你见识一下	I dislike fight-				⋯⋯それで
+	cont	with my mind.			cont	我的力量！		cont	我的力量！	ing, but if you	resurrected from it.	可惜这里的同事们	でも　ここの　なかまは	きみに　たのみが　ある!
+					done			done		wish, I will show		没人把我说的话当回事。	おれの　いうこと　しんじないんだ	これを　どこかの
+	para	I dislike fight-								you my powers!	But my colleagues just ignore			けんきゅうじょに　もって　いって
+	line	ing, but if you									what I have to say.	所以啊……	……それで	しらべて　ほしいんだ!
+	cont	wish, I will show										我需要你的帮助！	きみに　たのみが　ある！	
+	cont	you my powers!									So I have a favor to ask!			
+	done											麻烦你拿着这个琥珀，	これを　どこかの	
+											I want you to get this examined at	找一家研究所，	けんきゅうじょに　もって　いって	
+_ReceivedMarshBadgeText::				_ReceivedMarshBadgeText::							a Pokémon Lab somewhere.			
+	text	I'm			text	我竟然輸了……！		text	我竟然输了……！	I'm	This loss shocks me!	我竟然输了……！	まける　なんて……！	まける　なんて…!
+	line	shocked!			line	太讓人吃驚了！		line	太让人吃惊了！	shocked!	But a loss is a loss...	太让人吃惊了！	とても　ショック！	とても　ショック!
+	cont	But, a loss is a			cont	但輸了就是輸了……！		cont	但输了就是输了……！	But, a loss is a				でも　まけは　まけ…!
+	cont	loss.			para	我承認		para	我承认	loss.	I admit I didn’t work hard enough to win.	但输了就是输了……！	でも　まけは　まけ……！	わたしの　しょうぶの　あまさを
+					line	是我太小看對戰了！		line	是我太小看对战了！	I admit I didn't				いさぎよく　みとめるわ!
+	para	I admit I didn't			para	為了證明你的勝利，		para	为了证明你的胜利，	work hard enough		我承认是我太小看对战了！	わたしの　しょうぶの　あまさを	かった　あかしに
+	line	work hard enough			line	這枚金色徽章就送給你了。@		line	这枚金色徽章就送给你了。@	to win!			いさぎよく　みとめるわ！	ゴールド　バッジを
+	cont	to win!			text_end			text_end		You earned the				あなたに　さしあげ　ましょう@ヅギ@
+										MARSHBADGE!@				
+	para	You earned the												
+	line	MARSHBADGE!@												
+	text_end													
+														
+_SabrinaPostBattleAdviceText::				_SabrinaPostBattleAdviceText::										
+	text	Everyone has			text	超能力並不是		text	超能力并不是	Everyone has	Psychic power isn’t something that only a few	超能力并不是	ちょうのうりょくは　かぎられた	ちょうのうりょくは　かぎられた
+	line	psychic power!			line	只屬於特定人物的能力！		line	只属于特定人物的能力！	psychic power!	people have.	只属于特定人物的能力！	ひとの　ちから　では　ないわ！	ひとの　ちから　では　ないわ!
+	cont	People just don't			cont	無論是誰都擁有超能力！		cont	无论是谁都拥有超能力！	People just don't				だれでも　もってるのよ!
+	cont	realize it!			cont	他們只是沒有意識到而已。		cont	他们只是没有意识到而已。	realize it!	Everyone has psychic power.	无论是谁都拥有超能力！	だれでも　もってるのよ！	ただ　それに　きが　つかない　だけ
+	done				done			done			People just don’t realize it.			
+												他们只是没有意识到而已。	ただ　それに　きが　つかない　だけ	
+_KogaMarshBadgeInfoText::				_KogaMarshBadgeInfoText::										
+	text	The MARSHBADGE			text	有了金色徽章，		text	有了金色徽章，	The MARSHBADGE	MISTY: I heard an interesting rumor!	小霞：我听到传闻了！听说你	カスミ『うわさは　きいたわ！	 {next} 
+	line	makes #MON up			line	等級在７０以內的寶可夢，		line	等级在７０以内的宝可梦，	makes #MON up	Not only did you and that other kid defeat	和另一个孩子不但战胜了火箭队，	きみや　あのこが	@
+	cont	to L70 obey you!			cont	都會乖乖聽話！		cont	都会乖乖听话！	to L70 obey you!				 {PLAYER}  {RIVAL} ポケモン
+					para	更強的寶可夢		para	更强的宝可梦	Stronger #MON	those Team Rocket guys, but you also	还互相争夺了联盟冠军是吧。	ロケットだんを　たおして	…
+	para	Stronger #MON			line	還是會不服氣不搭理你，		line	还是会不服气不搭理你，	will become wild,				
+	line	will become wild,			cont	把你的話當成耳旁風！		cont	把你的话当成耳旁风！	ignoring your	met again in the battle for Champion.	……我啊！简直是	チャンピオンを　きそい　あったって	 {TARGET}  {USER}  {5B}  {5C} トレーナーロケットだん
+	cont	ignoring your			para	所以要注意別把		para	所以要注意别把	orders in battle!		心痒痒到不行了呢！		
+	cont	orders in battle!			line	你的寶可夢養過頭了！		line	你的宝可梦养过头了！	Just don't raise	Argh!		……わたし！　もう	
+					para	還有……！		para	还有……！	your #MON too	I just can’t take it anymore!	我真的忍不住想快点和	うずうずして　しょうが　ないの	
+	para	Just don't raise			line	請你拿好這個招式學習器。		line	请你拿好这个招式学习器。	much!		变强的你再次对战了！		
+	line	your #MON too			done			done		Wait, please take	You’ve gotten so strong that I just absolutely		つよくなった　きみと　もういちど	
+	cont	much!								this TM with you!	have to battle you again!	你应该不会对我说“不”吧！	たたかって　みたくて　たまらない！	
+														
+	para	Wait, please take									You got that? No refusing!		いやとは　いわない　わよね！	
+	line	this TM with you!												
+	done													
+														
+_ReceivedTM46Text::				_ReceivedTM46Text::										
+	text	<PLAYER> received			text	<PLAYER>從娜姿那裡		text	<PLAYER>从谜之训练家	<PLAYER> received	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	TM46!@			line	得到了TM46！@		line	那里得到了@	a @	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_end				text_end			text_ram	wStringBuffer	wStringBuffer				
+								text	！@	!@				
+_TM46ExplanationText::				_TM46ExplanationText::				text_end						
+	text_start				text_start			text_start			[VAR 01CD(0000)]: Hi!	[VAR TRNAME(0000)]：唷！	[VAR TRNAME(0000)]『ようっ！	 {PLAYER} 『やあ!　さっきは
+					para	招式學習器４６		para	招式学习器４６	TM46 is PSYWAVE!	Thanks for earlier!	刚才真是谢谢你了！	さっきは　ありがとな！	 {5C} 　ありがとう!
+	para	TM46 is PSYWAVE!			line	是“精神波”！		line	是“精神波”！	It uses powerful				 {PLAYER} 『…　なーに?
+	line	It uses powerful			para	能用強大的念力波		para	能用强大的念力波	psychic waves to	[VAR 01CD(0000)]: Pardon?	[VAR TRNAME(0000)]：……哈～	[VAR TRNAME(0000)]『……はぁー	 {PLAYER} 『ぼくの　まね　して
+	cont	psychic waves to			line	造成巨大的傷害哦！		line	造成巨大的伤害哦！	inflict damage!				そんなに　たのしい　かい?
+	cont	inflict damage!			done			done			[VAR 01CD(0000)]: Hmph!	[VAR TRNAME(0000)]：你怎么又学我！	[VAR TRNAME(0000)]『また　ぼくの　マネ！	モノマネむすめ『うん…!
+	done										Is it that fun to mimic everything I say?	模仿别人有那么愉快吗？	それって　ほんとに　たのしいの？	とっても　たのしいー!
+														
+_TM46NoRoomText::				_TM46NoRoomText::							COPYCAT: You bet! It’s a scream!	模仿少女：嗯……！	モノマネむすめ『うん……！	
+	text	Your pack is full			text	啊，行李已滿了哦。		text	啊，行李已满了哦。	Your pack is full	Haha! This Gym is great!	嘿嘿嘿！这个道馆好的很哇！	にひひ！　この　ジムは　ええ！	にひひ!　この　ジムは　ええ!
+	line	of other items!			done			done		of other items!	It’s full of strong Trainers!	道馆里头美女多哇！	おんなのこ　ばっかし　じゃ！	おんなのこ　ばっかし　じゃ!
+	done													
+														
+_SaffronGymGuidePreBattleText::				_SaffronGymGuidePreBattleText::										
+	text	Yo! Champ in			text	嗨～！		text	嗨～！	Yo! Champ in	Sabrina’s Pokémon use psychic power to	娜姿的宝可梦会使用超能力	ナツメの　ポケモンは	おーす!
+	line	making!			line	未來的冠軍！		line	未来的冠军！	making!	perplex your Pokémon.	迷惑你的宝可梦！	ちょうのうりょくを　つかって	みらいの　チャンピオン!
+					para	娜姿的寶可夢會使用超能力		para	娜姿的宝可梦会使用超能力	SABRINA's #MON				ナツメの　ポケモンは
+	para	SABRINA's #MON			line	迷惑你的寶可夢！		line	迷惑你的宝可梦！	use psychic power	Fighting-type Pokémon are especially weak	尤其啊……！她的宝可梦会	おまえの　ポケモンを　まどわすぜ！	ちょうのうりょくを　つかって
+	line	use psychic power			para	尤其啊……！		para	尤其啊……！	instead of force!	against Psychic-type moves.	克制格斗属性的宝可梦！		おまえの　ポケモンを　まどわすぜ!
+	cont	instead of force!			line	她的寶可夢會剋制		line	她的宝可梦会克制	Fighting #MON			とくに……！　かくとう　ポケモンは	とくに…!　かくとう　ポケモンは
+					cont	格鬥屬性的寶可夢！		cont	格斗属性的宝可梦！	are weak against	They’ll get destroyed before they can even aim	所以在它们使出全力之前，	あいしょうが　わるい！	あいしょうが　わるい!
+	para	Fighting #MON			para	所以在它們使出全力之前，		para	所以在它们使出全力之前，	psychic #MON!	a punch!	就已经变成了对手的牺牲品了！		パワーを　はっきする　まえに
+	line	are weak against			line	就已經變成了		line	就已经变成了	They get creamed			パワーを　はっきする　まえに	エジキに　なっちまう　からな!
+	cont	psychic #MON!			cont	對手的犧牲品了！		cont	对手的牺牲品了！	before they can			エジキに　なっちまう　からな！	
+					done			done		even aim a punch!				
+	para	They get creamed												
+	line	before they can												
+	cont	even aim a punch!												
+	done													
+														
+_SaffronGymGuidePostBattleText::				_SaffronGymGuidePostBattleText::										
+	text	Psychic power,			text	超能力嗎……！		text	超能力吗……！	Psychic power,	Psychic power, huh?	超能力吗……！	ちょうのうりょく……　か！	ちょうのうりょく…　か!
+	line	huh?			para	我要是有這種能力啊，		para	我要是有这种能力啊，	huh?				おれに　そんな　ものが　あったら
+					line	就可以各種隨心所欲了！		line	就可以各种随心所欲了！	If I had that,	Man, if I had that kind of power, I’d...	我要是有这种能力啊，	おれに　そんな　ものが　あったら	スロットで　あてほうだい　だぜ!
+	para	If I had that,			cont	啊哈哈哈哈……！		cont	啊哈哈哈哈……！	I'd make a bundle	Oh, and then I could also... Heh heh heh!	就可以各种随心所欲了！	アレを　アレ　しほうだい　だぜ！	
+	line	I'd make a bundle			done			done		at the slots!				
+	cont	at the slots!									And nobody would even know!	啊哈哈哈哈……！	うほほほッ……！	
+	done													
+														
+_SaffronGymBattleText1::				_SaffronGymBattleText1::										
+	text	SABRINA is younger			text	雖然娜姿應該沒我大……		text	虽然娜姿应该没我大……	SABRINA is younger	Sabrina is younger than me...	虽然娜姿没我大……	ナツメさんは　わたし　より	ナツメは…　わたし　より
+	line	than I, but I			line	但我十分尊敬她！		line	但我十分尊敬她！	than I, but I	but she has earned my respect!	但我十分尊敬她！	としした　ですが……	だいぶ　としした　だが!
+	cont	respect her!			done			done		respect her!				かのじょを　そんけい　している!
+	done												かのじょを　そんけい　しています！	
+														
+_SaffronGymEndBattleText1::				_SaffronGymEndBattleText1::										
+	text	Not			text	還不夠！		text	输了！	Not	Not good enough!	输了！	だめだわ！	トレーナーぞ
+	line	good enough!			prompt			prompt		good enough!				きド5ま
+	prompt													
+														
+_SaffronGymAfterBattleText1::				_SaffronGymAfterBattleText1::										
+	text	In a battle of			text	勢均力敵時……		text	势均力敌时……	In a battle of	In a battle of equals, the one with the stronger	势均力敌时……	ちからが　ごかく　ならば……	しょうぶが　ごかくの　ときは
+	line	equals, the one			line	氣勢強者勝！		line	气势强者胜！	equals, the one	will wins.	气势强者胜！	きもちが　つよい　ほうが	きもちが　つよい　ほうが　かつ!
+	cont	with the stronger			para	你要在心中		para	你要在心中	with the stronger				ナツメに　かちたい　なら
+	cont	will wins!			line	大聲地告訴自己，		line	大声地告诉自己，	will wins!	If you wish to beat Sabrina, focus and will	你要在心中大声地告诉自己，	かつのですよ！	きみも　かちたいッ!　と
+					cont	我要戰勝娜姿！		cont	我要战胜娜姿！	If you wish	yourself to victory.	我要战胜娜姿！		つよく　ねんじた　ほうが　いい
+	para	If you wish			done			done		to beat SABRINA,			ナツメさんに　かちたいと	
+	line	to beat SABRINA,								focus on winning!			つよく　ねんじて　ごらんなさい！	
+	cont	focus on winning!												
+	done													
+														
+_SaffronGymBattleText2::				_SaffronGymBattleText2::										
+	text	Does our unseen			text	你是不是覺得那些		text	你是不是觉得那些	Does our unseen	Hey! You have Pokémon, right?	嗨！	よーしッ！	よーしッ!
+	line	power scare you?			line	使用看不見的力量的		line	使用看不见的力量的	power scare you?	Come on!	你有宝可梦的吧？	きみは　ポケモン　もってるな？	きみは　ポケモン　もってるな?
+	done				cont	超能力者很可怕呢？		cont	超能力者很可怕呢？					しょうぶ　しようぜ!
+					done			done			Let’s battle ’em!	我们来对战！	しょうぶ　しようぜ！	
+_SaffronGymEndBattleText2::				_SaffronGymEndBattleText2::										
+	text	I never			text	我也是		text	我也是	I never	I never foresaw this!	我也是会输的啊……	こういう　ことも	こういう　ことも
+	line	foresaw this!			line	會輸的啊……		line	会输的啊……	foresaw this!			あるのか……	あるのか…
+	prompt				prompt			prompt						
+														
+_SaffronGymAfterBattleText2::				_SaffronGymAfterBattleText2::										
+	text	Psychic #MON			text	剋制超能力的屬性？		text	克制超能力的属性？	Psychic #MON	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	fear only bugs!			line	有倒是有。		line	有倒是有。	fear only ghosts	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				cont	那就是蟲屬性！		cont	那就是幽灵属性和虫属性！	and bugs!				
+					done			done						
+_SaffronGymBattleText3::				_SaffronGymBattleText3::										
+	text	#MON take on			text	你知道寶可夢會和		text	你知道宝可梦会和	#MON take on	The trick is this...	做法就是……	やりかたは……	はっはッ!
+	line	the appearance of			line	飼主長得越來越像嗎？		line	饲主长得越来越像吗？	the appearance of				はーッ　はっ　はッ!
+	cont	their trainers.			para	你的寶可夢		para	你的宝可梦	their trainers.	Hrrrkh! You grit your teeth as hard as you can!	先站稳了！	しっかと！	…　はァ　はァ…
+					line	一定很強吧？		line	一定很强吧？	Your #MON must	...If you’ve got ’em...	咬紧牙关，蓄满力道！	はァ　くいしばって　いっきに！	ゲ
+	para	Your #MON must			done			done		be tough, then!				
+	line	be tough, then!									Then all at once, just let ’er rip!			
+	done													
+														
+_SaffronGymEndBattleText3::				_SaffronGymEndBattleText3::										
+	text	I knew			text	我就知道！		text	啊……	I	Ha, I knew it!	果然是吧！	やっぱりな！	さすが　つよい!
+	line	it!						line	果然是这样。	knew it!	I’m always right.	不愧是本大爷！	さすが　おれさま！	
+	prompt				prompt			prompt						
+														
+_SaffronGymAfterBattleText3::				_SaffronGymAfterBattleText3::										
+	text	I must teach			text	我還要繼續努力……		text	我还要继续努力……	I must teach	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	better techniques			line	成為精神強念大師，		line	成为精神强念大师，	better techniques	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	to my #MON!			cont	然後教給我的寶可夢！		cont	然后教给我的宝可梦！	to my #MON!				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_SaffronGymBattleText4::				_SaffronGymBattleText4::										
+	text	You know that			text	你明白的吧？		text	你明白的吧？	You know that	That Poké Ball over there...	你想要那边那个球是吗？	あの　アイテムボール	あの　アイテム　ボール
+	line	power alone isn't			line	寶可夢只靠力量		line	宝可梦只靠力量	power alone isn't	Were you wanting that?	…………我也想要啊！	ほしいって　おもった？	ほしいって　おもった?
+	cont	enough!			cont	是贏不了的！		cont	是赢不了的！	enough!				…　…　…　ぼくもさ!
+	done				done			done			Well, so was I!	什么？那居然不是个球？	……　……ぼくもさ！	…　え　あれ　いきものなの?
+														
+_SaffronGymEndBattleText4::				_SaffronGymEndBattleText4::							...Huh? That’s actually a Pokémon?		……え　あれ　いきものなの？	
+	text	I don't			text	……我		text	……我	I don't	ARCHER: Ugh!	阿波罗：可恶！	アポロ『くッ！	なんだ　おまえは
+	line	believe this!			line	竟然輸了！		line	竟然输了！	believe this!	I don’t have time for this! I must warn the boss!	既然这样，我得赶紧联系老大……	これでは　ボスに　れんらくが……	ボスに　なんの　ようだ!
+	prompt				prompt			prompt						
+														
+_SaffronGymAfterBattleText4::				_SaffronGymAfterBattleText4::										
+	text	SABRINA just wiped			text	就算是隔壁的空手道大王		text	就算是隔壁的空手道大王	SABRINA just wiped	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	out the KARATE			line	在我們娜姿小姐面前		line	在我们娜姿小姐面前	out the KARATE	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	MASTER next door!			cont	也輸得體無完膚。		cont	也输得体无完肤。	MASTER next door!				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_SaffronGymBattleText5::				_SaffronGymBattleText5::										
+	text	You and I, our			text	你我得讓我們的		text	你我得让我们的	You and I, our	You are challenged by	[VAR 010E(0000)][VAR TRNAME(0001)]和	[VAR 010E(0000)]の　[VAR TRNAME(0001)]と	が
+	line	#MON shall			line	寶可夢戰鬥……！		line	宝可梦战斗……！	#MON shall	[VAR 010E(0000)] [VAR TRNAME(0001)] and	[VAR 010E(0002)][VAR TRNAME(0003)]	[VAR 010E(0002)]の　[VAR TRNAME(0003)]が	しょうぶを　しかけてきた!
+	cont	fight!			done			done		fight!				
+	done										[VAR 010E(0002)] [VAR TRNAME(0003)]!	前来挑战了！	しょうぶを　しかけてきた！	
+														
+_SaffronGymEndBattleText5::				_SaffronGymEndBattleText5::										
+	text	I lost			text	唔……！		text	唔……！	I lost	I lost after all!	唔……！	くっ……！	くっ…!
+	line	after all!			line	我果然被打敗了麼。		line	我果然被打败了么。	after all!		我果然被打败了么。	やはり　わたしが　やぶれたか	やはり　わたしが　やぶれたか
+	prompt				prompt			prompt						
+														
+_SaffronGymAfterBattleText5::				_SaffronGymAfterBattleText5::										
+	text	I knew that this			text	我就知道會有這樣的結果。		text	我就知道会有这样的结果。	I knew that this	I knew that this was going to take place.	我就知道会有这样的结果……	こういう　けっかは　わかってた……	こういう　けっかは　わかってた…
+	line	was going to take			line	……沒錯！		line	……没错！	was going to take	Yes! This ability is called precognition!	……没错！	……そう！	…　そう!
+	cont	place.			cont	這就是所謂的預知能力。		cont	这就是所谓的预知能力。	place.				これが　よち　のうりょく　だ
+	done				done			done				这就是所谓的预知能力。	これが　よち　のうりょく　だ	
+														
+_SaffronGymBattleText6::				_SaffronGymBattleText6::										
+	text	SABRINA is young,			text	娜姿年紀輕輕便實力非凡，		text	娜姿年纪轻轻便实力非凡，	SABRINA is young,	Sabrina is young, but she’s also our highly	娜姿年纪轻轻便实力非凡，	ナツメさんは　わかく　して	ナツメさんは　わかく　して
+	line	but she's also			line	更掌管著這座寶可夢道館。		line	更掌管着这座宝可梦道馆。	but she's also	skilled Gym Leader.	更掌管着这座宝可梦道馆。	この　ポケモンジムを　しきる	この　ポケモン　ジムを　しきる
+	cont	our LEADER!			para	你休想		para	你休想	our LEADER!				じつりょくしゃ!
+					line	這麼輕易就見到她！		line	这么轻易就见到她！	You won't reach	I won’t let you reach her easily!	你休想这么轻易就见到她！	じつりょくしゃ！	かんたん　には　あわせ　ないぜ!
+	para	You won't reach			done			done		her easily!				
+	line	her easily!											かんたん　には　あわせ　ないぜ！	
+	done													
+														
+_SaffronGymEndBattleText6::				_SaffronGymEndBattleText6::										
+	text	I lost			text	我輸了！		text	我输了！	I lost	I lost my grip!	手滑了……！	てが　すべった……！	てが　すべった…!
+	line	my concentration!			prompt			prompt		my concentration!				
+	prompt													
+														
+_SaffronGymAfterBattleText6::				_SaffronGymAfterBattleText6::										
+	text	There used to be			text	就讓我來告訴你吧……		text	就让我来告诉你吧……	There used to be	There used to be two Gyms in Saffron City.	就让我来告诉你吧……	おしえて　やろう……	おしえて　やろう…
+	line	2 #MON GYMs in			line	以前金黃市裡有兩座		line	以前金黄市里有两座	2 #MON GYMs in		以前金黄市里有两座宝可梦道馆。	かつて　ヤマブキ　には	かつて　ヤマブキ　には
+	cont	SAFFRON.			cont	寶可夢道館。		cont	宝可梦道馆。	SAFFRON.	The Fighting Dojo next door lost its Gym			ふたつの　ポケモン　ジムが　あった
+					para	在統一比賽上輸掉的正是		para	在统一比赛上输掉的正是	The FIGHTING DOJO	status, though.	在统一比赛上输掉的正是	ふたつの　ポケモンジムが　あった	とういつ　しあいに　まけた　のが
+	para	The FIGHTING DOJO			line	隔壁的那座格鬥道場！		line	隔壁的那座格斗道场！	next door lost		隔壁的那座格斗道场！		となりの　かくとう　どうじょうだ!
+	line	next door lost			done			done		its GYM status	We simply creamed them when we decided to		とういつ　しあいに　まけた　のが	
+	cont	its GYM status								when we went and	have just one Gym.		となりの　かくとうどうじょうだ！	
+	cont	when we went and								creamed them!				
+	cont	creamed them!												
+	done													
+														
+_SaffronGymBattleText7::				_SaffronGymBattleText7::										
+	text	SAFFRON #MON			text	金黃道館！		text	金黄道馆！	SAFFRON #MON	The Saffron City Pokémon Gym is famous for	金黄道馆！	ヤマブキジム！	ヤマブキ　ジム!
+	line	GYM is famous for			line	又名超能力訓練館。		line	又名超能力训练馆。	GYM is famous for	training psychics.	又名超能力训练馆。	またの　なを	またの　なを
+	cont	its psychics!			para	你……		para	你……	its psychics!				エスパー　ようせい　じょ
+					line	……想見娜姿吧？		line	……想见娜姿吧？	You want to see	You want to see Sabrina, don’t you? I can tell!	你……	エスパー　ようせい　じょ	おまえ…
+	para	You want to see			cont	沒錯吧！我明白的！		cont	没错吧！我明白的！	SABRINA!				…　ナツメに　あおうと　してるな?
+	line	SABRINA!			done			done		I can tell!		……想见娜姿吧？	おまえ……	そうだろ!
+	cont	I can tell!										没错吧！		わかってるんだ!
+	done												……ナツメに　あおうと　してるな？	
+												我就知道是这样！	そうだろ！	
+_SaffronGymEndBattleText7::				_SaffronGymEndBattleText7::										
+	text	Arrrgh!			text	嗚哇啊啊……！		text_start			Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			done			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_SaffronGymAfterBattleText7::				_SaffronGymAfterBattleText7::										つ {PLAYER}  {PLAYER} 
+	text	That's right! I			text	……對了！		text	……对了！	That's right! I	That’s right! The ability to read people’s minds	……对了！	……そうだ！	…　そうだ!
+	line	used telepathy to			line	能夠讀取對手心思的		line	能够读取对手心思的	used telepathy to	is called telepathy!	能够读取对手心思的	ひとの　こころを　よむ	ひとの　こころを　よむ
+	cont	read your mind!			cont	能力就叫做心靈感應！		cont	能力就叫做心灵感应！	read your mind!				のうりょくを　テレパス　という!
+	done				done			done				能力就叫做心灵感应！	のうりょくを　テレパス　という！	ぜ
+end				end										

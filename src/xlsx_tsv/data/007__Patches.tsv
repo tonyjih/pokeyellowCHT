@@ -1,0 +1,22 @@
+scripts/FuchsiaGoodRodHouse.asm					
+	！		!		全角变半角
+	　		 		全角空格变半角空格
+engine/debug/debug_menu.asm					
+	０		0		
+	１		1		
+	２		2		
+	３		3		
+	４		4		
+	５		5		
+	６		6		
+	．		.		
+data/text/alphabets.asm	@				
+	"""PIN@"""	拼音			
+	"""PCH@"""	符號			
+	"""UPP@"""	大寫			
+	"""UP  DON@"""	上頁 下頁			
+end					
+Makefile					
+	RGBASMFLAGS += -D _DEBUG		RGBASMFLAGS +=		
+	-Wtruncation=1 $(CHAR_FLAGS)		-Wtruncation=1 $(CHAR_FLAGS) -D _DEBUG		
+end					

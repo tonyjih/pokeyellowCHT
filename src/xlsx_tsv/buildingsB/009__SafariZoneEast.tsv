@@ -1,0 +1,18 @@
+text/SafariZoneEast.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SafariZoneEastText5::				_SafariZoneEastText5::										
+	text	REST HOUSE			text	休息小屋 …… 喘口氣		text	休息小屋 …… 喘口气	REST HOUSE	Mr. Psychic’s House	超能力大叔的家	エスパーおやじの　いえ	トレーナーぞ
+	done				done			done						きド5ま
+														
+_SafariZoneEastText6::				_SafariZoneEastText6::										
+	text	TRAINER TIPS			text	……有用的公告牌！		text	……有用的公告牌！	TRAINER TIPS	Trainer Tips	……有用的公告牌！	……おとくな　けいじばん！	…　おとくな　けいじばん!
+					para	……剩餘時間		para	……剩余时间	The remaining time				しんせいひん　スーパーボールは
+	para	The remaining time			line	會隨著你的步數增加		line	会随着你的步数增加	declines only	The new Ultra Ball is even better at catching	新商品“高级球”	しんせいひん　ハイパーボールは	モンスターボール　より　かくじつに
+	line	declines only			cont	而不斷減少！		cont	而不断减少！	while you walk!	Pokémon than a Great Ball is!	与超级球相比	スーパーボール　より　かくじつに	ポケモンを　つかまえます!
+	cont	while you walk!			done			done						なかなか　つかまえ　られない
+	done										Try it on those hard-to-catch Pokémon.	更容易捉到宝可梦！	ポケモンを　つかまえます！	ポケモンには　こちらを　ためそう!
+														
+_SafariZoneEastText7::				_SafariZoneEastText7::								试试用高级球，挑战一下	なかなか　つかまえ　られない	
+	text	CENTER AREA			text	這裡是中央廣場		text	这里是中央广场	CENTER AREA	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	NORTH: AREA 2			line	北 …… 第２區		line	北 …… 第２区	NORTH: AREA 2	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done			done						
+end				end										

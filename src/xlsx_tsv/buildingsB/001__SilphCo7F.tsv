@@ -1,0 +1,211 @@
+text/SilphCo7F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_MeetLaprasGuyText::				_MeetLaprasGuyText::										
+	text	Oh! Hi! You're			text	完了……有人來了！		text	完了……有人来了！	Oh! Hi! You're	Oh! Hi! You’re not a Rocket!	完了……有人来了！	あ……　ひとだ！	あ…　ひとだ!
+	line	not a ROCKET! You			line	哦，你不是火箭隊的人啊！		line	哦，你不是火箭队的人啊！	not a ROCKET! You	You came to save us?	哦，你不是火箭队的人啊！	ロケットだん　じゃ　ないね	ロケットだん　じゃ　ないね
+	cont	came to save us?			cont	你……是來救我的嗎？		cont	你……是来救我的吗？	came to save us?				きみ…
+	cont	Why, thank you!			cont	天啊！真的太感謝你了！		cont	天啊！真的太感谢你了！	Why, thank you!	Why, thank you!	你……是来救我的吗？	きみ……	たすけに　きてくれたのか!
+					para	這樣吧！		para	这样吧！	I want you to			たすけに　きてくれたのか！	おお　ありがとう!
+	para	I want you to			line	為了報答你來救我，就把		line	为了报答你来救我，就把	have this #MON	I want you to have this Pokémon	天啊！真的太感谢你了！	おお　ありがとう！	そうだ!
+	line	have this #MON			cont	這隻寶可夢送給你好了！		cont	这只宝可梦送给你好了！	for saving us.	for saving us.			たすけに　きて　くれた　きみに
+	cont	for saving us.			prompt			prompt				这样吧！	そうだ！	この　ポケモンを　わたそう!
+	prompt											为了报答你来救我，	たすけに　きて　くれた　きみに	
+														
+_HeresYourLaprasText::				_HeresYourLaprasText::								就把这只宝可梦送给你好了！	この　ポケモンを　わたそう！	
+	text	It's LAPRAS. It's			text	它叫拉普拉斯，是一種		text	它叫拉普拉斯，是一种	It's LAPRAS. It's	It’s a Lapras.	它叫拉普拉斯，	こいつは　ラプラスと　いって	こいつは　ラプラスと　いって
+	line	very intelligent.			line	頭腦非常聰明的寶可夢！		line	头脑非常聪明的宝可梦！	very intelligent.	It’s a very intelligent Pokémon.	是一种头脑非常聪明的宝可梦！	とても　あたまのいい　ポケモンだ！	とても　あたまのいい　ポケモンだ!
+					para	我本來是在西爾佛的		para	我本来是在西尔佛的	We kept it in our				シルフの　けんきゅうしつで
+	para	We kept it in our			line	研究室裡養育它的……		line	研究室里养育它的……	lab, but it will	We kept it in our lab, but it will	我本来是在	シルフの　けんきゅうしつで	かっていたが…
+	line	lab, but it will			cont	與其讓它待在這裡，		cont	与其让它待在这里，	be much better	be much better off with you.	西尔佛的研究室里养育它的……	かっていたが……	ここに　いる　よりは
+	cont	be much better			cont	不如就把它交給你吧！		cont	不如就把它交给你吧！	off with you!				ずっと　いい　はずだ!
+	cont	off with you!			para	我覺得你一定會		para	我觉得你一定会	I think you will	I think you will be a good Trainer	与其让它待在这里，	ここに　いる　よりは	きみなら　かわいがって　くれそうだし
+					line	細心照料拉普拉斯，		line	细心照料拉普拉斯，	be a good trainer	for Lapras!			ラプラスも　よろこぶ　だろう!
+	para	I think you will			cont	它也會很高興的吧！		cont	它也会很高兴的吧！	for LAPRAS!		不如就把它交给你吧！	ずっと　いい　はずだ！	およぎが　とくい　だから
+	line	be a good trainer			para	這傢伙游泳可厲害了！		para	这家伙游泳可厉害了！	It's a good	It loves to swim, so take good care of it, OK?			うえに　のって
+	cont	for LAPRAS!			line	就算是渡過大海，		line	就算是渡过大海，	swimmer. It'll		我觉得你一定会细心照料拉普拉斯，	きみなら　かわいがって　くれそうだし	うみを　すすんでも　いいぞ!
+					cont	對它來說也是輕而易舉呢！		cont	对它来说也是轻而易举呢！	give you a lift!		它也会很高兴的吧！	ラプラスも　よろこぶ　だろう！	
+	para	It's a good			done			done						
+	line	swimmer. It'll										这只最喜欢游泳的家伙	およぎが　だいすきな　こいつを	
+	cont	give you a lift!										就拜托你了！	よろしく　たのむよ！	
+	done													
+														
+_LaprasGuyText::				_LaprasGuyText::										
+	text	TEAM ROCKET's			text	剛才看到火箭隊的老大		text	刚才看到火箭队的老大	TEAM ROCKET's	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	BOSS went to the			line	進入社長室了！		line	进入社长室了！	BOSS went to the	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	boardroom! Is our			cont	……社長他沒事吧？		cont	……社长他没事吧？	boardroom! Is our				…　シルフ　カンパニー
+	cont	PRESIDENT OK?			done			done		PRESIDENT OK?		……西尔佛公司	……シルフカンパニー	
+	done													
+														
+_LaprasGuySavedText::				_LaprasGuySavedText::										
+	text	Saved at last!			text	終於得救了……		text	终于得救了……	Saved at last!	Hey! You have Pokémon, right?	嗨！	よーしッ！	よーしッ!
+	line	Thank you!			line	謝謝你！		line	谢谢你！	Thank you!	Come on!	你有宝可梦的吧？	きみは　ポケモン　もってるな？	きみは　ポケモン　もってるな?
+	done				done			done						しょうぶ　しようぜ!
+											Let’s battle ’em!	我们来对战！	しょうぶ　しようぜ！	
+_SilphCo7Text_51e00::				_SilphCo7Text_51e00::										
+	text	TEAM ROCKET was			text	我猜火箭隊是盯上了		text	我猜火箭队是盯上了	TEAM ROCKET was	The best Poké Ball with the ultimate level of	必定能捉到野生宝可梦的，	やせいの　ポケモンを　かならず	ポケモンを　もちきれません!
+	line	after the MASTER			line	能捉到任何寶可夢的		line	能捉到任何宝可梦的	after the MASTER	performance. With it, you will catch any wild	性能最好的球。	つかまえることが　できる	ボックスも　いっぱいで
+	cont	BALL which will			cont	大師球！		cont	大师球！	BALL which will	Pokémon without fail.		さいこう　せいのうの　ボール。	てんそうできません!
+	cont	catch any #MON!			done			done		catch any #MON!				ポケモンセンターなどで
+	done													ボックスを　かえてきて　ください
+														
+_CanceledMasterBallText::				_CanceledMasterBallText::										
+	text	We canceled the			text	因為這次的事件……		text	因为这次的事件……	We canceled the	We canceled the Master Ball project because of	因为这次的事件……	じけんの　せいで……	じけんの　せいで…
+	line	MASTER BALL			line	本來要發售的大師球		line	本来要发售的大师球	MASTER BALL	Team Rocket.	本来要发售的大师球	マスターボールは	マスターボールは
+	cont	project because			cont	也取消發售了。		cont	也取消发售了。	project because				はつばい　ちゅうしに　なったよ
+	cont	of TEAM ROCKET.			done			done		of TEAM ROCKET.		也取消发售了。	はつばい　ちゅうしに　なったよ	ゲ4きらひ
+	done													
+														
+_SilphCo7Text_51e23::				_SilphCo7Text_51e23::										
+	text	It would be bad			text	不管是西爾佛		text	不管是西尔佛	It would be bad	It’ll be bad if Team Rocket gets complete	不管是西尔佛还是宝可梦……	シルフも　ポケモンも……	シルフも　ポケモンも…
+	line	if TEAM ROCKET			line	還是寶可夢……		line	还是宝可梦……	if TEAM ROCKET	control of Silph and our Pokémon...	要是被火箭队掌控了，	ロケットだんの　いいなりに	ロケットだんの　いいなりに
+	cont	took over SILPH			cont	要是被火箭隊掌控了，		cont	要是被火箭队掌控了，	took over SILPH				なったら　やだなあ
+	cont	or our #MON!			cont	那後果真是不堪設想啊。		cont	那后果真是不堪设想啊。	or our #MON!		那后果真是不堪设想啊。	なったら　やだなあ	
+	done				done			done						
+														
+_SilphCo7Text_51e28::				_SilphCo7Text_51e28::										
+	text	Wow! You chased			text	好厲害啊！		text	好厉害啊！	Wow! You chased	Wow!	好厉害啊！	すごいなあ！	すごいなあ!
+	line	off TEAM ROCKET			line	聽說是你趕走了		line	听说是你赶走了	off TEAM ROCKET		听说是你赶走了	ロケットだんの　れんちゅうを	ロケットだんの　れんちゅうを
+	cont	all by yourself?			cont	火箭隊那群人嗎？		cont	火箭队那群人吗？	all by yourself?	You chased off Team Rocket?			おっぱらったんだって?
+	done				done			done				火箭队那群人吗？	おっぱらったんだって？	ゲ4きらひ
+														
+_SilphCo7Text_51e46::				_SilphCo7Text_51e46::										
+	text	You! It's really			text	喂……！		text	喂……！	You! It's really	You!	喂……！	あなた……！	あなた…!
+	line	dangerous here!			line	這裡很危險的！		line	这里很危险的！	dangerous here!	It’s really dangerous here!	这里很危险的！	ここは　あぶないわよ！	ここは　あぶないわよ!
+	cont	You came to save			cont	什麼？你是來救我的？一個		cont	什么？你是来救我的？一个	You came to save				たすけに　きた?
+	cont	me? You can't!			cont	小孩子是救不了我的……		cont	小孩子是救不了我的……	me? You can't!	You came to save me?	什么？你是来救我的？	たすけに　きた？	…　だめよ
+	done				done			done			You can’t!			
+												一个小孩子是救不了我的……	……だめよ	
+_SilphCo7Text_51e4b::				_SilphCo7Text_51e4b::										
+	text	Safe at last!			text	終於得救了……謝謝你！		text	终于得救了……谢谢你！	Safe at last!	So, you’ve done it at last!	大木博士：你终于做到了！	オーキド『とうとう　やったな！	オーキド『とうとう　かったな!
+	line	Oh thank you!			done			done		Oh thank you!	You’ve defeated the Pokémon League!	我由衷地祝贺你	ポケモンリーグ　せいは！	ポケモン　りーグ　せいは!
+	done													こころ　から　おめでとう!
+											My sincerest congratulations!	称霸了宝可梦联盟！	こころ　から　おめでとう！	はじめて　@
+_SilphCo7BattleText1::				_SilphCo7BattleText1::										
+	text	Aha! I smell a			text	哎呀！		text	哎呀！	Oh ho! I smell a	Phew. I’ll take a little break...	呼，稍微休息一下……	ふぅ　ちょっと　きゅうけい……	…　おとくな　けいじばん!
+	line	little rat!			line	發現一隻小老鼠！		line	发现一只小老鼠！	little rat!	You need to take breaks when playing games.			ポケモンを　つかまえる　ときは
+	done				done			done				玩游戏的时候，	ゲームで　あそぶ　ときは	なるべく　よわらせてから!
+												怎么能缺少适当的休息呢？	てきどに　きゅうけい　しなきゃね	ポケモンが　げんきだと
+_SilphCo7EndBattleText1::				_SilphCo7EndBattleText1::										にげるかも　しれないよ!
+	text	Lights			text	這怎麼可能！		text	这怎么可能！	Lights	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	out!			prompt			prompt		out!		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	prompt										D’aww... Failed again?			
+														
+_SilphCo7AfterBattleText1::				_SilphCo7AfterBattleText1::										
+	text	You won't find my			text	一味地四處溜達		text	一味地四处溜达	You won't find my	You won’t find anything by just scurrying around!	一味地四处溜达	ちょろちょろ　してる　だけじゃ	ちょろちょろ　してる　だけじゃ
+	line	BOSS by just			line	是無濟於事的。		line	是无济于事的。	BOSS by just		是无济于事的。	なんにも　ならないぜ！	ボスには　たどり　つけないぜ
+	cont	scurrying around!			done			done		scurrying around!				ゲ
+	done													
+														
+_SilphCo7BattleText2::				_SilphCo7BattleText2::										
+	text	Heheh!			text	哈哈哈！		text	哈哈哈！	Heheh!	Heheh!	哈哈哈！	ふひゃひゃ！	ふひゃひゃ!
+					para	你把我當成		para	你把我当成	You mistook me for				シルフの　しゃいんだと
+	para	You mistook me for			line	西爾佛的員工了吧？		line	西尔佛的员工了吧？	a SILPH worker?	You mistook me for a Silph worker?	你把我当成	シルフの　しゃいんだと	おもったかい?
+	line	a SILPH worker?			done			done				西尔佛的员工了吧？	おもったかい？	
+	done													
+														
+_SilphCo7EndBattleText2::				_SilphCo7EndBattleText2::										
+	text	I'm			text	已經沒有		text	……被打败了！	I'm done	Hiya!	您好！	こんちわ！	こんちわ!
+	line	done!			line	寶可夢了。		prompt		for!	I’m a Pokémon...	我是宝可梦……！	ぼく　ポケモン……！	サファり　ゲームは　はじめて?
+	prompt				prompt									
+											N-no! I mean—!	……错！	……ちゃうわい！	
+_SilphCo7AfterBattleText2::				_SilphCo7AfterBattleText2::										
+	text	Despite your age,			text	你雖然是個孩子……		text	你虽然是个孩子……	Despite your age,	You completed your Pokédex? Impressive!	你完成图鉴了？	ずかん　できたの？	を　もらって
+	line	you are a skilled			line	但確實有兩下子。		line	但确实有两下子。	you are a skilled		有两下子嘛！	すごい　じゃんー！	ポケモン　ずかん　あつめに
+	cont	trainer!			done			done		trainer!	But you still have a long way to go...			でかけた　ころと　くらべると
+	done											不过你的冒险	でも　きみの　ぼうけんは	たくましく　なったな!
+											Just kidding!	才刚刚开始啊！	まだまだ　これからだ！	…　いやいや!
+_SilphCo7BattleText3::				_SilphCo7BattleText3::										 {PLAYER} は　おとなに　なった!
+	text	I am one of the 4			text	我正是		text	我正是	I am one of the 4	I am one of the four Rocket Sisters!	我正是火箭队四姐妹之一！	わたくし　こそが	おれこそは
+	line	ROCKET BROTHERS!			line	火箭隊四兄弟之一！		line	火箭队四兄弟之一！	ROCKET BROTHERS!	And I’m the oldest.	是她们的大姐大！	ロケット　４しまいの　ひとり！	ロケット　4きょうだいの　ひとり!
+	done				done			done						
+													って　いうか　ちょうじょ！	
+_SilphCo7EndBattleText3::				_SilphCo7EndBattleText3::										
+	text	Aack!			text	哥哥，		text	哥哥，	Aack!	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	Brothers, I lost!			line	對不起！		line	对不起！	Brothers, I lost!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt				prompt			prompt						
+														
+_SilphCo7AfterBattleText3::				_SilphCo7AfterBattleText3::										
+	text	Doesn't matter.			text	算了。		text	算了。	Doesn't matter.	Doesn’t matter.	算了。	まあ　いいわ	すこしは　できる　みたいね!
+	line	My brothers will			line	哥哥會替我報仇的。		line	哥哥会替我报仇的。	My brothers will	My sisters will repay the favor!	姐姐会替我报仇的。	ねえさんが　かたきを　とるもの	わかった…!
+	cont	repay the favor!			done			done		repay the favor!				つぎの　へやに　すすむと　いいわ!
+	done										And if that thought scares you, go home already.	……你要是怕了，	……こわけりゃ	ポケモン　りーグ　しんの　パワーは
+												就赶快回去吧。	さっさと　かえるのね	まだまだ…!
+_SilphCo7BattleText4::				_SilphCo7BattleText4::										こんな　ものじゃ　ないわよ!
+	text	A child intruder?			text	你就是那個……		text	你就是那个……	A child intruder?	A flute that can be used to summon Latios or Latias	无论身在何处，	どこに　いても	かたくて　こうげき　できる
+	line	That must be you!			line	闖入西爾佛的小孩吧！		line	闯入西尔佛的小孩吧！	That must be you!	no matter where you are.	都能召唤拉帝欧斯或	ラティオスや　ラティアスを	トランセルって　さいこうだよ!
+	done				done			done				拉帝亚斯的笛子。	よびよせることが　できる　ふえ。	
+														
+_SilphCo7EndBattleText4::				_SilphCo7EndBattleText4::										
+	text	Fine!			text	好吧！		text	好吧！	Fine!	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	I lost!			line	我輸了！		line	我输了！	I lost!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt				prompt			prompt						
+														
+_SilphCo7AfterBattleText4::				_SilphCo7AfterBattleText4::										
+	text	Go on home			text	趁著老大還沒發火，		text	趁着老大还没发火，	Go on home	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	before my BOSS			line	我還是趕緊回去		line	我还是赶紧回去	before my BOSS	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	gets ticked off!			cont	睡個覺好了！		cont	睡个觉好了！	gets ticked off!				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_SilphCo7Text_51ebe::				_SilphCo7Text_51ebe::										
+	text	<RIVAL>: What			text	<RIVAL>：		text	<RIVAL>：	<RIVAL>: What	What’re you lookin’ at?	干嘛啊！烦不烦啊！	っだよ！　っせーな！	っだよ!　っせーな!
+	line	kept you <PLAYER>?			line	等你很久了，		line	等你很久了，	kept you <PLAYER>?				
+	done				cont	<PLAYER>？		cont	<PLAYER>？					
+					done			done						
+_SilphCo7Text_51ec3::				_SilphCo7Text_51ec3::										
+	text	<RIVAL>: Hahaha!			text	<RIVAL>：哈哈哈！		text	<RIVAL>：哈哈哈！	<RIVAL>: Hahaha!	MISTY: I heard an interesting rumor!	小霞：我听到传闻了！听说你	カスミ『うわさは　きいたわ！	 {next} 
+	line	I thought you'd			line	我就知道，只要在這等著		line	我就知道，只要在这等着	I thought you'd	Not only did you and that other kid defeat	和另一个孩子不但战胜了火箭队，	きみや　あのこが	@
+	cont	turn up if I			cont	你就一定會出現的！		cont	你就一定会出现的！	turn up if I				 {PLAYER}  {RIVAL} ポケモン
+	cont	waited here!			para	看起來火箭隊這幫人		para	看起来火箭队这帮人	waited here!	those Team Rocket guys, but you also	还互相争夺了联盟冠军是吧。	ロケットだんを　たおして	…
+					line	讓你挺頭疼的啊！		line	让你挺头疼的啊！	I guess TEAM				
+	para	I guess TEAM			cont	可是……		cont	可是……	ROCKET slowed you	met again in the battle for Champion.	……我啊！简直是	チャンピオンを　きそい　あったって	 {TARGET}  {USER}  {5B}  {5C} トレーナーロケットだん
+	line	ROCKET slowed you			cont	這和本大爺沒關係！		cont	这和本大爷没关系！	down! Not that I		心痒痒到不行了呢！		
+	cont	down! Not that I			para	之前無意中看到		para	之前无意中看到	care!	Argh!		……わたし！　もう	
+	cont	care!			line	你在金黃市到處閒晃，		line	你在金黄市瞎晃悠，	I saw you in	I just can’t take it anymore!	我真的忍不住想快点和	うずうずして　しょうが　ないの	
+					cont	所以我覺得你應該……		cont	所以我觉得你应该……	SAFFRON, so I		变强的你再次对战了！		
+	para	I saw you in			cont	比以前要強一些了吧！		cont	比以前要强一些了吧！	decided to see if	You’ve gotten so strong that I just absolutely		つよくなった　きみと　もういちど	
+	line	SAFFRON, so I			done			done		you got better!	have to battle you again!	你应该不会对我说“不”吧！	たたかって　みたくて　たまらない！	
+	cont	decided to see if												
+	cont	you got better!									You got that? No refusing!		いやとは　いわない　わよね！	
+	done													
+														
+_SilphCo7Text_51ec8::				_SilphCo7Text_51ec8::										
+	text	Oh-oh!			text	很好～！		text	很好～！	Oh ho!	You are challenged by	[VAR 010E(0000)][VAR TRNAME(0001)]和	[VAR 010E(0000)]の　[VAR TRNAME(0001)]と	が
+	line	So, you are ready			line	看來你已經準備好		line	看来你已经准备好	So, you are ready	[VAR 010E(0000)] [VAR TRNAME(0001)] and	[VAR 010E(0002)][VAR TRNAME(0003)]	[VAR 010E(0002)]の　[VAR TRNAME(0003)]が	しょうぶを　しかけてきた!
+	cont	for BOSS ROCKET!			cont	面對火箭隊的挑戰了！		cont	面对火箭队的挑战了！	for BOSS ROCKET!				
+	prompt				prompt			prompt			[VAR 010E(0002)] [VAR TRNAME(0003)]!	前来挑战了！	しょうぶを　しかけてきた！	
+														
+_SilphCo7Text_51ecd::				_SilphCo7Text_51ecd::										
+	text	<RIVAL>: How can			text	<RIVAL>：我說你啊，		text	<RIVAL>：我说你啊，	<RIVAL>: How can	Oh! Hi! You’re not a Rocket!	完了……有人来了！	あ……　ひとだ！	あ…　ひとだ!
+	line	I put this?			line	就只有這兩下嗎？		line	就只有这两下吗？	I put this?	You came to save us?	哦，你不是火箭队的人啊！	ロケットだん　じゃ　ないね	ロケットだん　じゃ　ないね
+					para	還差得遠呢……		para	还差得远呢……	You're not good				きみ…
+	para	You're not good			line	你這樣根本就		line	你这样根本就	enough to play	Why, thank you!	你……是来救我的吗？	きみ……	たすけに　きてくれたのか!
+	line	enough to play			cont	算不上是男子漢啊！		cont	算不上是男子汉啊！	with us big boys!			たすけに　きてくれたのか！	おお　ありがとう!
+	cont	with us big boys!			prompt			prompt			I want you to have this Pokémon	天啊！真的太感谢你了！	おお　ありがとう！	そうだ!
+	prompt										for saving us.			たすけに　きて　くれた　きみに
+												这样吧！	そうだ！	この　ポケモンを　わたそう!
+_SilphCo7Text_51ed2::				_SilphCo7Text_51ed2::								为了报答你来救我，	たすけに　きて　くれた　きみに	
+	text	Well, <PLAYER>!			text	拜拜了，<PLAYER>！		text	拜拜了，<PLAYER>！	Well, <PLAYER>!	BLUE: Yo, [VAR TRNAME(0000)]!	青绿：唷！[VAR TRNAME(0000)]！	グリーン『よう！　[VAR TRNAME(0000)]	 {next} 
+					para	本大爺要		para	本大爷要	I'm moving on up				
+	para	I'm moving on up			line	先走一步了！		line	先走一步了！	and ahead!	Since I’ve become the Gym Leader here,	本大爷当上了道馆馆主之后，	おれさまが　ジムリーダーに　なって	
+	line	and ahead!			para	收集寶可夢圖鑑的同時，		para	收集宝可梦图鉴的同时，	By checking my	the Viridian City Gym has really stepped it up!	常青道馆热闹得人山人海啊！	トキワジムは　おおにぎわい！	
+					line	我也漸漸開始瞭解		line	我也渐渐开始了解	#DEX, I'm				
+	para	By checking my			cont	哪些寶可夢比較強、		cont	哪些宝可梦比较强、	starting to see	It’s made each day pretty busy, though!	每天都忙得不可开交！	まいにち　たいへん　だぜ！	
+	line	#DEX, I'm			cont	哪隻會進化成哪隻……		cont	哪只会进化成哪只……	what's strong and				
+	cont	starting to see			cont	我大概是天才吧？		cont	我大概是天才吧？	how they evolve!	By the way...	不过吧……	しっかし　さあ……	
+	cont	what's strong and			para	得，就說到這吧。		para	得，就说到这吧。	I'm going to the	what do you think of this Gym’s design?	你觉得这个道馆的设计如何？	このジムの　デザイン　どう？	
+	cont	how they evolve!			line	接下來我要把		line	接下来我要把	#MON LEAGUE				
+					cont	寶可夢聯盟的四天王		cont	宝可梦联盟的四天王	to boot out the	It makes me look like some kinda bad guy, right?	会不会显得本大爷像个坏人一样？	おれ　わるもの　みたいじゃねー？	
+	para	I'm going to the			cont	一個接一個解決掉！		cont	一个接一个解决掉！	ELITE FOUR!				
+	line	#MON LEAGUE			para	然後，我要成為		para	然后，我要成为	I'll become the	I’ve been thinking of remodeling the place.	也许是该重新装修一下了吧？	つくりなおそう　かなあ？	
+	cont	to boot out the			line	天下第一的訓練家！		line	天下第一的训练家！	world's most				
+	cont	ELITE FOUR!			para	<PLAYER>，		para	<PLAYER>，	powerful trainer!	Well, it doesn’t matter all that much, I guess.	虽然无论在哪都不会	ま　どんな　ところでも	
+					line	你也給我好好加油。		line	你也给我好好加油。	<PLAYER>, well	No matter the place, I’m still the best there is!	改变本大爷非凡的实力就是了！	おれの　つよさは　かわらねー　けど！	
+	para	I'll become the			cont	就這樣吧！		cont	就这样吧！	good luck to you!				
+	line	world's most			cont	拜咯！		cont	拜咯！	Don't sweat it!	All right! It’s been a while since I’ve gone all out.	……好了！就久违地	……よし！　ひさびさに	
+	cont	powerful trainer!			done			done		Smell ya!	So I’ll show you the strength of a top Trainer!	让你见识一下本大爷的实力吧！	おれさまの　じつりょく	
+														
+	para	<PLAYER>, well											みせつけて　やるか！	
+	line	good luck to you!												
+	cont	Don't sweat it!												
+	cont	Smell ya!												
+	done													
+end				end										

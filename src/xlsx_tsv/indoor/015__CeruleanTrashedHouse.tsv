@@ -1,0 +1,40 @@
+text/CeruleanTrashedHouse.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CeruleanTrashedText_1d6ab::				_CeruleanTrashedText_1d6ab::										
+	text	Those miserable			text	都怪這煩人的火箭隊！		text	都怪这烦人的火箭队！	Those miserable	“Future Activities of Pokémon Fanatic Bill	关于宝可梦狂热迷正辉今后的动向：	ポケモンマニア　マサキさんの	 {RIVAL} 『よおーッ!　 {PLAYER} !
+	line	ROCKETs!			para	他們居然把我家		para	他们居然把我家	ROCKETs!			こんごの　かつどう　に　ついて	 {PLAYER} も　きたか!
+					line	搞成這個樣子！		line	搞成这个样子！	Look what they	“‘Well, I’m researching about how to become	“关于这个嘛……我现在正在研究		…　はッはッ　うれしいぜ!
+	para	Look what they			para	被他們偷走的招式學習器，		para	被他们偷走的招式学习器，	did here!	a Pokémon!	怎么整能让我变成宝可梦！	『そうですねー　いま　やっとるのは	ライバルの　おまえが　よわいと
+	line	did here!			line	可是能讓猴怪啊穿山鼠它們		line	可是能让猴怪啊穿山鼠它们	They stole a TM			ポケモンに　なる　けんきゅう　です！	はりあい　ないからな!
+					cont	學會“挖洞”這招式的		cont	学会“挖洞”这招式的	for teaching	“‘...It’s just a joke!	……开玩笑开玩笑！		おれは　ずかん　あつめ　ながら
+	para	They stole a TM			cont	東西啊……		cont	东西啊……	#MON how to	Don’t take it seriously!	您可真别当真！	……って　じょうだん　ですやん！	かんぺきな　ポケモンを　さがした!
+	line	for teaching			para	那可是很貴的啊！		para	那可是很贵的啊！	DIG holes!			ほんきに　せんといて！	いろんな　タイプの　ポケモンに
+	cont	#MON how to			done			done		That cost me a	“‘Actually, I’m doing research on understanding	其实我真正在研究的内容是		かち　まくる　ような
+	cont	DIG holes!								bundle, it did!	the minds of Pokémon.	如何理解宝可梦的思维。	ほんとはね　ポケモンの　きもちが	コンビネーションを　さがした!
+													わかる　けんきゅうを　しとります	…　そして　いま!
+	para	That cost me a									“‘I want to understand what they are thinking!’”	因为我真特想知道		おれは　ポケモン　りーグの
+	line	bundle, it did!										宝可梦正在思考些啥！”	ポケモンが　なにを　かんがえてるのか	ちょうてんに　いる!
+	done												しりたい　ですからね！』　	 {PLAYER} !
+														この　いみが　わかるか?
+_CeruleanTrashedText_1d6b0::				_CeruleanTrashedText_1d6b0::										…　…　…
+	text	I figure what's			text	我明白了，		text	我明白了，	I figure what's	Oh, you retrieved the TM?	是你帮我夺回了我的	ありがとう！　わざマシン	ぬすまれた　ものは
+	line	lost is lost!			line	丟了的東西是不會回來的。		line	丢了的东西是不会回来的。	lost is lost!	Thank you very much!	招式学习器吗？谢谢你！	とりかえして　くれたんだね	もどって　こないと　あきらめて
+					para	至於我自己的那隻地鼠，		para	至于我自己的那只地鼠，	I decided to teach				うちの　ディグダには
+	para	I decided to teach			line	我還是拿出耐心來培養它，		line	我还是拿出耐心来培养它，	DIGLETT how to	You can keep that, though. I’ve decided to take	不过，这个还是送给你吧！	それは　きみに　あげるよ！	きながに　そだてながら
+	line	DIGLETT how to			cont	慢慢教會它學會挖洞吧！		cont	慢慢教会它学会挖洞吧！	DIG without a TM!	my time training Diglett and have them learn Dig			あなほりを
+	cont	DIG without a TM!			done			done				至于我自己的那只地鼠，	うちの　ディグダには	おしえる　ことに　したよ
+	done										that way.	我还是拿出耐心来培养它，	きながに　そだてながら	
+														
+_CeruleanHouseTrashedText2::				_CeruleanHouseTrashedText2::								慢慢教会它学会挖洞吧！	あなをほるを　おしえるよ！	
+	text	TEAM ROCKET must			text	火箭隊……！		text	火箭队……！	TEAM ROCKET must	Team Rocket must be trying to dig their way	火箭队……！	ロケットだん……！	ロケットだん…!
+	line	be trying to DIG			line	他們讓寶可夢到處挖洞，		line	他们让宝可梦到处挖洞，	be trying to DIG	into something no good!	他们让宝可梦到处挖洞，	ポケモンに　あなを　ほらせて	ポケモンに　あなを　ほらせて
+	cont	their way into no			cont	肯定是又在計劃著		cont	肯定是又在计划着	their way into no				きっと　また
+	cont	good!			cont	要做什麼壞事啊！		cont	要做什么坏事啊！	good!		肯定是又在计划着	きっと　また	わるだくみを　かんがえてるのよ!
+	done				done			done				要做什么坏事啊！	わるだくみを　かんがえてるのよ！	
+														
+_CeruleanHouseTrashedText3::				_CeruleanHouseTrashedText3::										
+	text	TEAM ROCKET left			text	牆上有一個洞！		text	墙上有一个洞！	TEAM ROCKET left	Team Rocket took off!	火箭队逃跑了啊！	ロケットだん　にげてったね！	ロケットだん　にげてったね!
+	line	a way out!			line	從這個洞裡應該可以出去！		line	从这个洞里应该可以出去！	a way out!	We can go out safely again!	这样一来就再也不用害怕出门了！	これからは　そと　あるいても	これからは　そと　あるいても
+	done				done			done						ちっとも　こわくない!
+end				end							That’s great!	太好了！	ちっとも　こわくない！	よかったね!
+														
+													よかったね！	

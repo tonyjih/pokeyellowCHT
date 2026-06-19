@@ -1,0 +1,243 @@
+text/ViridianGym.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_GiovanniPreBattleText::				_GiovanniPreBattleText::										
+	text	Fwahahaha! This is			text	哈哈哈哈哈！		text	哈哈哈哈哈！	Fwahahaha! This is	But you have found me again.	不过……	しかし……　きみに	を　おぼえたい…!
+	line	my hideout!			line	歡迎來到我的藏身之所！		line	欢迎来到我的藏身之所！	my hideout!	So be it.	既然被你发现我藏身于此，	みつかって　しまっては	しかし　@
+					para	我本打算在火箭隊		para	我本打算在火箭队	I planned to				
+	para	I planned to			line	復活的那天到來之前，		line	复活的那天到来之前，	resurrect TEAM	This time, I’m not holding back!	那也没办法了！	しょうがない！	
+	line	resurrect TEAM			cont	先在這座道館裡重整態勢！		cont	先在这座道馆里重整态势！	ROCKET here!				
+	cont	ROCKET here!			para	不過……		para	不过……	But, you have		这次我是不会手下留情的！	こんどは　てかげん　なしだ！	
+					line	既然被你發現我藏身於此，		line	既然被你发现我藏身于此，	caught me again!				
+	para	But, you have			cont	那也沒辦法了！		cont	那也没办法了！	So be it! This				
+	line	caught me again!			cont	這次我是不會手下留情的！		cont	这次我是不会手下留情的！	time, I'm not				
+	cont	So be it! This			para	那麼……就再讓你嚐嚐！		para	那么……就再让你尝尝！	holding back!				
+	cont	time, I'm not			line	最強的寶可夢訓練家——		line	最强的宝可梦训练家——	Once more, you				
+	cont	holding back!			cont	我坂木的厲害！		cont	我坂木的厉害！	shall face				
+					done			done		GIOVANNI, the				
+	para	Once more, you								greatest trainer!				
+	line	shall face												
+	cont	GIOVANNI, the												
+	cont	greatest trainer!												
+	done													
+														
+_ReceivedEarthBadgeText::				_ReceivedEarthBadgeText::										
+	text	Ha!			text	呼——呼——！		text	呼——呼——！	Ha!	SABRINA: I foresaw that you would come here	娜姿：我早意识到你会过来。	ナツメ『あなたが　くるのは	こういう　けっかは　わかってた…
+	line	That was a truly			line	真是一場激烈的對戰！		line	真是一场激烈的对战！	That was a truly	by looking into the future.		わかって　いたわ	…　そう!
+	cont	intense fight!			cont	……確實是你贏了！		cont	……确实是你赢了！	intense fight!		可我故意不去预测		これが　よち　のうりょく　だ
+	cont	You have won!			para	為了證明		para	为了证明	You have won!	But I intentionally didn’t look to see who will	与你对战后的输赢……	でも　しょうぶの　ゆくえは	
+	cont	As proof, here is			line	剛才所發生的一切，		line	刚才所发生的一切，	As proof, here is	win our battle.		あえて　よち　してないの	
+	cont	the EARTHBADGE!@			cont	就把綠色徽章給你吧！@		cont	就把绿色徽章给你吧！@	the EARTHBADGE!@		因为这是要比过才能知道！		
+	text_end				text_end			text_end			Let’s find out now, together!		だって　いまから　わかるもの！	
+														
+_GiovanniPostBattleAdviceText::				_GiovanniPostBattleAdviceText::										
+	text	Having lost, I			text	以這樣的方式輸給你，		text	以这样的方式输给你，	Having lost, I	MISTY: I heard an interesting rumor!	小霞：我听到传闻了！听说你	カスミ『うわさは　きいたわ！	 {next} 
+	line	cannot face my			line	我確實沒有辦法		line	我确实没有办法	cannot face my	Not only did you and that other kid defeat	和另一个孩子不但战胜了火箭队，	きみや　あのこが	@
+	cont	underlings!			cont	向部下交代！		cont	向部下交代！	underlings!				 {PLAYER}  {RIVAL} ポケモン
+	cont	TEAM ROCKET is			cont	火箭隊……		cont	火箭队……	TEAM ROCKET is	those Team Rocket guys, but you also	还互相争夺了联盟冠军是吧。	ロケットだんを　たおして	…
+	cont	finished forever!			cont	就從今天起正式解散！		cont	就从今天起正式解散！	finished forever!				
+					para	我自己，		para	我自己，	I will dedicate my	met again in the battle for Champion.	……我啊！简直是	チャンピオンを　きそい　あったって	 {TARGET}  {USER}  {5B}  {5C} トレーナーロケットだん
+	para	I will dedicate my			line	則決定從頭開始		line	则决定从头开始	life to the study		心痒痒到不行了呢！		
+	line	life to the study			cont	寶可夢的修行！		cont	宝可梦的修行！	of #MON!	Argh!		……わたし！　もう	
+	cont	of #MON!			para	希望有一天……		para	希望有一天……	Let us meet again	I just can’t take it anymore!	我真的忍不住想快点和	うずうずして　しょうが　ないの	
+					line	我們還能有機會見面！		line	我们还能有机会见面！	some day!		变强的你再次对战了！		
+	para	Let us meet again			cont	……再見了！@		cont	……再见了！@	Farewell!@	You’ve gotten so strong that I just absolutely		つよくなった　きみと　もういちど	
+	line	someday!			text_end			text_end			have to battle you again!	你应该不会对我说“不”吧！	たたかって　みたくて　たまらない！	
+	cont	Farewell!@												
+	text_end										You got that? No refusing!		いやとは　いわない　わよね！	
+														
+_GiovanniEarthBadgeInfoText::				_GiovanniEarthBadgeInfoText::										
+	text	The EARTHBADGE			text	只要你擁有綠色徽章，		text	只要你拥有绿色徽章，	The EARTHBADGE	It is proof of your mastery as a Pokémon Trainer.	这是你成为了一名	きみが　いちにんまえの	ぼくは　ポケモン　トレーナーに
+	line	makes #MON of			line	不管寶可夢等級多高，		line	不管宝可梦等级多高，	makes #MON of	With it, you can challenge the Pokémon League.	优秀宝可梦训练家的证明！	トレーナーに　なった　あかしだ！	なった　ばかり　だ!
+	cont	any level obey!			cont	都會聽命於你！		cont	都会听命于你！	any level obey!				でも　かつ　じしん　あるよ!
+					para	這是你成為了一名		para	这是你成为了一名	It is evidence of		这样一来，	これで　ポケモンリーグに	
+	para	It is evidence of			line	優秀寶可夢訓練家的證明！		line	优秀宝可梦训练家的证明！	your mastery as a		你就能挑战宝可梦联盟了吧。	いどむ　ことが　できるだろう	
+	line	your mastery as a			para	這樣一來，你就能挑戰		para	这样一来，你就能挑战	#MON trainer!				
+	cont	#MON trainer!			line	寶可夢聯盟了吧。		line	宝可梦联盟了吧。	With it, you can				
+					para	這個招式學習器就是……！		para	这个招式学习器就是……！	enter the #MON				
+	para	With it, you can			line	為你準備的挑戰		line	为你准备的挑战	LEAGUE!				
+	line	enter the #MON			cont	寶可夢聯盟的餞別之禮了！		cont	宝可梦联盟的饯别之礼了！	It is my gift for				
+	cont	LEAGUE!			done			done		your #MON				
+										LEAGUE challenge!				
+	para	It is my gift for												
+	line	your #MON												
+	cont	LEAGUE challenge!												
+	done													
+														
+_ReceivedTM27Text::				_ReceivedTM27Text::										
+	text	<PLAYER> received			text	<PLAYER>從坂木那裡		text	<PLAYER>从谜之训练家	<PLAYER> received	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	TM27!@			line	得到了TM27！@		line	那里得到了@	a @	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_end				text_end			text_ram	wStringBuffer	wStringBuffer				
+								text	！@	!@				
+_TM27ExplanationText::				_TM27ExplanationText::				text_end						
+	text_start				text_start			text_start			“...	我的秘密就是！	わたしの　ひみつ！	…　…　…
+					para	招式學習器２７		para	招式学习器２７	TM27 is FISSURE!				わたしの　ひみつ…!
+	para	TM27 is FISSURE!			line	是“地裂”！		line	是“地裂”！	It will take out	“My secrets!	我很擅长……模仿！	とくいな　もの……　ものまね！	とくいなもの　…　ものまね!
+	line	It will take out			para	被引誘陷入地裂的話		para	被引诱陷入地裂的话	#MON with just		喜欢的宝可梦是……皮皮！	すきな　ポケモン……　ピッピ！	しゅみ　…　ぬいぐるみ!
+	cont	#MON with just			line	就會被一擊打倒！		line	就会被一击打倒！	one hit!	“Skill: Mimicry!			すきなもの　…　ピッピ!
+	cont	one hit!			cont	是最強的招式！		cont	是最强的招式！	I made it when I	Favorite Pokémon: Clefairy!	……不过因为它太少见，	……でも　めずらしい　から	…　…　…
+					para	這是我從前……		para	这是我从前……	ran the GYM here,		我其实还没有亲眼看到过呢。	じつぶつは　みたこと　ないの	
+	para	I made it when I			line	在這裡經營寶可夢道館時		line	在这里经营宝可梦道馆时	too long ago...	“But it’s so rare that I’ve never seen			
+	line	ran the GYM here,			cont	所製作的東西……		cont	所制作的东西……		it in person. I want to see an adorable	好想亲眼看看	いとしの　ピッピ	
+	cont	too long ago...			done			done				可爱的皮皮呀。	いつか　みてみたい　なぁ	
+	done										Clefairy someday.”			
+														
+_TM27NoRoomText::				_TM27NoRoomText::										
+	text	You do not have			text	行李已滿了！		text	行李已满了！	You do not have	You can’t carry any more Pewter Crunchies!	装不下更多的深灰米果了！？	もう　ニビあられ　もてないよ！？	おきゃくさん　もう　もてないよ@ゼ@
+	line	space for this!			done			done		space for this!	Why do you have so many?	你怎么带了这么多！？	なんで　そんなに　もってるの！？	
+	done													
+											...Please eat them!	……吃完再来买呗！？	……ちゃんと　たべて！？	
+_ViridianGymBattleText1::				_ViridianGymBattleText1::										
+	text	Heh! You must be			text	……那麼！		text	……那么！	Heh! You must be	Heh!	……那么！	……さて！	…　さて!
+	line	running out of			line	你差不多……		line	你差不多……	running out of	You must be running out of steam by now!	你差不多……	そろそろ……	そろそろ…
+	cont	steam by now!			cont	該累壞了吧？		cont	该累坏了吧？	steam by now!				バテて　きたんじゃないか
+	done				done			done				该累坏了吧？	バテて　きたんじゃないか	
+														
+_ViridianGymEndBattleText1::				_ViridianGymEndBattleText1::										
+	text	I			text	……		text	……	I	I ran out of gas!	……我精疲力尽了。	……ちから　つきた	ちから　つきた…
+	line	ran out of gas!			line	我精疲力盡了。		line	我精疲力尽了。	ran out of gas!				
+	prompt				prompt			prompt						
+														
+_ViridianGymAfterBattleText1::				_ViridianGymAfterBattleText1::										
+	text	You need power to			text	體力不夠的話，		text	体力不够的话，	You need power to	You’ll need power to keep up with our	体力不够的话，	たいりょくが　ないと	たいりょくが　ないと
+	line	keep up with our			line	是無法戰勝我們館主的！		line	是无法战胜我们馆主的！	keep up with our	Gym Leader.	是无法战胜我们馆主的！	とても　リーダーには　かてないぜ！	とても　りーダーには　かてないぜ!
+	cont	GYM LEADER!			done			done		GYM LEADER!				ゲ
+	done													
+														
+_ViridianGymBattleText2::				_ViridianGymBattleText2::										
+	text	Rrrroar! I'm			text	嗚哦——！		text	呜哦——！	Rrrroar! I'm	I’m having a meeting with an important client.	我正在和客户开会呢。	おとくいさまと	ぼくは　クラスで　いちばん　つよい!
+	line	working myself			line	我的憤怒達到了最高點！		line	我的愤怒达到了最高点！	working myself			かいぎ　してるんだ	まいあさ　れんしゅうも　してるんだ!
+	cont	into a rage!			done			done		into a rage!	You want to join in?	……你也想一起参加吗？		
+	done												……きみも　まざる？	
+														
+_ViridianGymEndBattleText2::				_ViridianGymEndBattleText2::										
+	text	Wargh!			text	嗚哦——！		text_start			Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			done			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_ViridianGymAfterBattleText2::				_ViridianGymAfterBattleText2::										つ {PLAYER}  {PLAYER} 
+	text	I'm still not			text	嗚哦——！		text	呜哦——！	I'm still not	I’m having a meeting with an important client.	我正在和客户开会呢。	おとくいさまと	ぼくは　クラスで　いちばん　つよい!
+	line	worthy!			line	我的練習還不夠啊。		line	我的练习还不够啊。	worthy!			かいぎ　してるんだ	まいあさ　れんしゅうも　してるんだ!
+	done				done			done			You want to join in?	……你也想一起参加吗？		
+													……きみも　まざる？	
+_ViridianGymBattleText3::				_ViridianGymBattleText3::										
+	text	#MON and I, we			text	我和寶可夢之間的配合！		text	我和宝可梦之间的配合！	#MON and I, we	Pokémon and I, we make wonderful	我和宝可梦之间的配合！	おれと　ポケモンの	おれと　ポケモンの
+	line	make wonderful			line	可是天衣無縫的！		line	可是天衣无缝的！	make wonderful	music together!	可是天衣无缝的！	コンビネーション！	コンビネーション!
+	cont	music together!			done			done		music together!				バツグン　だぜ!
+	done												バツグン　だぜ！	
+														
+_ViridianGymEndBattleText3::				_ViridianGymEndBattleText3::										
+	text	You are in			text	……你和寶可夢		text	……你和宝可梦	You are in	You are in perfect harmony!	……你和宝可梦之间	……おまえと	…　おまえと
+	line	perfect harmony!			line	之間也很默契啊。		line	之间也很默契啊。	perfect harmony!		也很默契啊。	ポケモンも　いきが　あってるな	ポケモンも　いきが　あってるな
+	prompt				prompt			prompt						
+														
+_ViridianGymAfterBattleText3::				_ViridianGymAfterBattleText3::										
+	text	Do you know the			text	你知道這裡的		text	你知道这里的	Do you know the	Do you know the identity of our Gym Leader?	你知道这里的	おまえは　ここの　リーダーが	おまえは　ここの　りーダーが
+	line	identity of our			line	館主是誰嗎……？		line	馆主是谁吗……？	identity of our		馆主是谁吗……？	だれか　しって　いるのか……？	だれか　しって　いるのか…?
+	cont	GYM LEADER?			done			done		GYM LEADER?				ゲ
+	done													
+														
+_ViridianGymBattleText4::				_ViridianGymBattleText4::										
+	text	Karate is the			text	空手道才是		text	空手道才是	Karate is the	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	ultimate form of			line	世界上最強的格鬥技！		line	世界上最强的格斗技！	ultimate form of	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	martial arts!			done			done		martial arts!				…　シルフ　カンパニー
+	done											……西尔佛公司	……シルフカンパニー	
+														
+_ViridianGymEndBattleText4::				_ViridianGymEndBattleText4::										
+	text	Atcho!			text	嗷嗚！		text_start			Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			done			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_ViridianGymAfterBattleText4::				_ViridianGymAfterBattleText4::										つ {PLAYER}  {PLAYER} 
+	text	If my #MON			text	您安！		text	您安！	If my #MON	I wish my boyfriend were as strong as you.	我男朋友要是也能像你	わたしの　かれも	わたしの　かれも
+	line	were as good at			line	如果寶可夢能像我一樣		line	如果宝可梦能像我一样	were as good at		这么厉害就好了。	きみ　くらい　つよいと　いいのに	きみ　くらい　つよいと　いいのに
+	cont	Karate as I...			cont	熟練掌握空手道就好了……		cont	熟练掌握空手道就好了……	Karate as I...				
+	done				done			done						
+														
+_ViridianGymBattleText5::				_ViridianGymBattleText5::										
+	text	The truly talented			text	真正強大的訓練家，		text	真正强大的训练家，	The truly talented	There are Pokémon magazines on the shelves.	这里陈列着宝可梦的杂志！	ポケモンざっしが　ならんでる！	　ぽ　ぽ　
+	line	win with style!			line	贏也要贏得漂漂亮亮的！		line	赢也要赢得漂漂亮亮的！	win with style!				
+	done				done			done			And Pokémon notebooks...	……宝可梦手册	……ポケモンてちょう	
+														
+_ViridianGymEndBattleText5::				_ViridianGymEndBattleText5::							And Pokémon graphs, too!	……宝可梦图表	……ポケモングラフ	
+	text	I			text	手滑了……！		text	手滑了……！	I	I lost my grip!	手滑了……！	てが　すべった……！	てが　すべった…!
+	line	lost my grip!			prompt			prompt		lost my grip!				
+	prompt													
+														
+_ViridianGymAfterBattleText5::				_ViridianGymAfterBattleText5::										
+	text	The LEADER will			text	這樣的輸法……		text	这样的输法……	The LEADER will	The Gym Leader will scold me for losing	这样的输法……	こんな　まけかた　したら……	こんな　まけかた　したら…
+	line	scold me!			line	……會被館主罵的！		line	……会被馆主骂的！	scold me!	this way...	……会被馆主骂的！	……リーダーに　おこられる！	…　りーダーに　おこられる!
+	done				done			done						ゲ
+														
+_ViridianGymBattleText6::				_ViridianGymBattleText6::										
+	text	I'm the KARATE			text	我是空手道之王！		text	我是空手道之王！	I'm the KARATE	I’m the Karate King!	我是空手道之王！	キング　オブ　カラテ！	キング　オブ　カラテ!
+	line	KING! Your fate			line	你休想再前進半步！		line	你休想再前进半步！	KING! Your fate	Your fate rests with me!	你休想再前进半步！	ここから　さきへは	ここから　さきへは
+	cont	rests with me!			done			done		rests with me!				いかせないぜ!
+	done												いかせないぜ！	
+														
+_ViridianGymEndBattleText6::				_ViridianGymEndBattleText6::										
+	text	Ayah!			text	啊呀！		text	啊——！	Ayah!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			prompt			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_ViridianGymAfterBattleText6::				_ViridianGymAfterBattleText6::										つ {PLAYER}  {PLAYER} 
+	text	#MON LEAGUE?			text	你好！		text	你好！	#MON LEAGUE?	The Pokémon League?	你好！	ウィース！	ウィース!
+	line	You? Don't get			line	你的目標是寶可夢聯盟嗎！		line	你的目标是宝可梦联盟吗！	You? Don't get	You? Don’t get cocky!	你的目标是宝可梦联盟吗！	ポケモンリーグ　めざしてるのか！	ポケモン　りーグ　めざしてるのか!
+	cont	cocky!			cont	真是不自量力！		cont	真是不自量力！	cocky!				ませた　こどもだ!
+	done				done			done				真是不自量力！	ませた　こどもだ！	ゲ
+														
+_ViridianGymBattleText7::				_ViridianGymBattleText7::										
+	text	Your #MON will			text	啪！啪！		text	啪！啪！	Your #MON will	Your Pokémon will cower at the crack of	啪！啪！	ピシ　ピシッ！	ピシ　ピシッ!
+	line	cower at the			line	喂！可別害怕哦！		line	喂！可别害怕哦！	cower at the	my whip!	喂！可别害怕哦！	ほら！	ほら!
+	cont	crack of my whip!			done			done		crack of my whip!				ビビってるんじゃないよ!
+	done												ビビってるんじゃないよ！	
+														
+_ViridianGymEndBattleText7::				_ViridianGymEndBattleText7::										
+	text	Yowch!			text	……好、好痛！		text	……好、好痛！	Yowch!	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	Whiplash!			prompt			prompt		Whiplash!		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	prompt										D’aww... Failed again?			
+														
+_ViridianGymAfterBattleText7::				_ViridianGymAfterBattleText7::										
+	text	Wait! I was just			text	啊，等等！		text	啊，等等！	Wait! I was just	I was just careless!	大意了么。	ゆだん　したか	ゆだん　したか
+	line	careless!			line	我剛才只是大意了！		line	我刚才只是大意了！	careless!				
+	done				done			done						
+														
+_ViridianGymBattleText8::				_ViridianGymBattleText8::										
+	text	VIRIDIAN GYM was			text	常青道館之前		text	常青道馆之前	VIRIDIAN GYM was	The Viridian City Gym was closed for a long	常青道馆之前一直都在闭馆，	トキワジムは	トキワ　ジムは
+	line	closed for a long			line	一直都在閉館，		line	一直都在闭馆，	closed for a long	time. But now, our Gym Leader is back!	但从今天起它将重新开业，	ずっと　へいさ　していたが	ずっと　へいさ　していたが
+	cont	time, but now our			cont	但從今天起它將重新開業，		cont	但从今天起它将重新开业，	time, but now our				りーダーが　かえってきて
+	cont	LEADER is back!			cont	因為我們的館主回來了！		cont	因为我们的馆主回来了！	LEADER is back!		因为我们的馆主回来了！	リーダーが　かえってきて	きょうから　ふっかつだ!
+	done				done			done						
+													きょうから　ふっかつだ！	
+_ViridianGymEndBattleText8::				_ViridianGymEndBattleText8::										
+	text	I			text	……果然厲害！		text	……果然厉害！	I	I was beaten?	……果然厉害！	……さすがだ！	トレーナーぞ
+	line	was beaten?			prompt			prompt		was beaten?				きド5ま
+	prompt													
+														
+_ViridianGymAfterBattleText8::				_ViridianGymAfterBattleText8::										
+	text	You can go on to			text	如果能打敗……		text	如果能打败……	You can go onto	If a Support Trainer battles alongside you,	和帮手训练家一起战斗时，	サポートトレーナーに	 {RIVAL} 『あーッ!　 {PLAYER} !
+	line	#MON LEAGUE			line	我們常青的館主，		line	我们常青的馆主，	#MON LEAGUE	you can have two Pokémon on your side to take		いっしょに　たたかって　もらえば	ポケモン　りーグに　いくのか?
+	cont	only by defeating			cont	你應該就能進入		cont	你应该就能进入	only by defeating		可以在对手派出１只宝可梦的情况下		やめとけ!
+	cont	our GYM LEADER!			cont	寶可夢聯盟了吧。		cont	宝可梦联盟了吧。	our GYM LEADER!	on one opposing Pokémon!	用２只宝可梦与其对抗！	あいての　ポケモン　１ぴきに	おまえ　どうせ
+	done				done			done					２ひきで　たいこう　できる！	バッジ　もってねーだろ?
+											You can have the upper hand!	这样对我方有利极了！		みはりの　おっさんが
+_ViridianGymGuidePreBattleText::				_ViridianGymGuidePreBattleText::									すっごい　ゆうり！	とおして　くれねーよ!
+	text	Yo! Champ in			text	嗨～！		text	嗨～！	Yo! Champ in	Yo!	嗨～！	おーす！	おーす!
+	line	making!			line	未來的冠軍！		line	未来的冠军！	making!	Champ in the making!	未来的冠军！	みらいの　チャンピオン！	みらいの　チャンピオン!
+					para	我也不知道		para	我也不知道	Even I don't know				トキワ　りーダーの　しょうたいは
+	para	Even I don't know			line	常青道館的館主究竟是誰！		line	常青道馆的馆主究竟是谁！	VIRIDIAN LEADER's	Even I don’t know who the Viridian City Gym	我也不知道	トキワ　リーダーの　しょうたいは	おれにも　わからん!
+	line	VIRIDIAN LEADER's			para	能確定的是，這裡的館主		para	能确定的是，这里的馆主	identity!	Leader is.	常青道馆的馆主究竟是谁！	おれにも　わからん！	たしかなのは
+	cont	identity!			line	一定比至今為止		line	一定比至今为止	This will be the				いままでの　りーダーの
+					cont	任何的道館館主都要厲害！		cont	任何的道馆馆主都要厉害！	toughest of all	But one thing’s certain:	但既然你已经持有[VAR COLOR(0006)]７个徽章[VAR COLOR(0000)]，	ただ　[VAR COLOR(0006)]バッジを　７つ[VAR COLOR(0000)]　もってる	だれよりも　つよいって　ことだ!
+	para	This will be the			para	看樣子		para	看样子	the GYM LEADERs!		我相信你一定有资格挑战道馆了！	おまえには　ちょうせんの	それと…
+	line	toughest of all			line	這個道館裡聚集了許多		line	这个道馆里聚集了许多	I heard that the	you’re qualified to challenge the Gym Leader			どうも　この　ジムには
+	cont	the GYM LEADERs!			cont	使用地面屬性寶可夢的人。		cont	使用地面属性宝可梦的人。	trainers here	because you have [VAR COLOR(0006)]seven Badges[VAR COLOR(0000)]!	现在我唯一能告诉你的就是，	しかくが　ある　だろう！	じめん　タイプ　ポケモンの
+					done			done		like ground-type		这里的馆主一定比至今为止		つかいてが　あつまってる　らしいぜ
+	para	I heard that the								#MON!	This Gym Leader will be stronger than any		おれに　いえる　ことは	
+	line	trainers here									other Trainers you’ve ever faced.	任何的道馆馆主都要厉害！	ここの　リーダーは　いままでの	
+	cont	like ground-type												
+	cont	#MON!									Also, I heard that the Trainers here are	还有就是……	だれよりも　つよい　だろう！	
+	done										users of Ground-type Pokémon.	看样子这个道馆里聚集了许多		
+													それと……	
+_ViridianGymGuidePostBattleText::				_ViridianGymGuidePostBattleText::								使用地面属性宝可梦的人。	どうも　この　ジムには	
+	text	Blow me away!			text	真是嚇了一跳啊！		text	真是吓了一跳啊！	Blow me away!	That just blew my mind! Giovanni was the Gym	真是吓了一跳啊！	たまげたぜ！	たまげたぜ!
+	line	GIOVANNI was the			line	常青道館的館主		line	常青道馆的馆主	GIOVANNI was the	Leader of Viridian City? It was too dark to tell!	常青道馆的馆主居然是坂木！	トキワの　リーダーが	トキワの　りーダーが
+	cont	GYM LEADER here?			cont	居然是坂木！		cont	居然是坂木！	GYM LEADER here?				サカキ　だったとは!
+	done				done			done				周围太黑我都没发现！	サカキ　だったとは！	
+end				end										
+													くらくて　きづかな　かったぜ！	

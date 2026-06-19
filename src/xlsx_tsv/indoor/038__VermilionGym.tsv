@@ -1,0 +1,169 @@
+text/VermilionGym.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_LTSurgePreBattleText::				_LTSurgePreBattleText::										
+	text	Ten-hut! Welcome			text	Welcome to			ウエルカム　トウー　クチバジム!		Hahaha! You’ve got big and brassy nerves to	哈哈～！	ハッハー！	ちょっと　まったあ!
+	line	to VERMILION GYM!			line	枯葉道館！					take me on with your puny power!	就凭you那一点点的power，	そんな　ハンパな　パワーで	そんな　いそいで　どこに　いく?
+														
+	para	Will you look at			para	嗨！Baby！You就是			ハーイ　べイビー			居然想向me发起挑战，	ミーに　しょうぶを　いどむとは	
+	line	that, a pint-size			line	challenger嗎？			ユーが　チャレンジャー?			Very有胆量啊！	いい　どきょう　ネー！	
+	cont	challenger!												
+														
+	para	Hahaha! You've got			para	哈哈～！就憑you			ハッハー!					
+	line	big and brassy			line	那一點點的power，			そんな　ハンパな　パワーで					
+	cont	nerves to take me			cont	居然想向me發起挑戰，			ミーに　しょうぶを　いどむとは					
+	cont	on with your puny			cont	Very有膽量啊！			いい　どきょう　ネー!					
+	cont	power!												
+														
+	para	A #MON battle			para	寶可夢對戰			ポケモン　バトル					
+	line	is war! I'll show			line	可沒有那麼easy～！			そんなに　あまく　ナーイ!					
+	cont	you, civilian!												
+														
+	para	I'll shock you			para	Me可以讓everyone			みんな　ビりビり　シビれさせて					
+	line	into surrender!			line	渾身麻麻的feel！			あげ　マース!					
+	done				done									
+														
+_LTSurgePostBattleAdviceText::				_LTSurgePostBattleAdviceText::										
+	text	A little word of			text	Hey！還要給you		text	Hey！还要给you	A little word of	And a little word of advice, kid!	Hey！	ヘイ！	へイ!
+	line	advice, kid!			line	一個小建議！		line	一个小建议！	advice, kid!		还要给you一个小建议！	それから　ユーに　アドバイス！	それから　ユーに　アドバイス!
+					para	Electric power		para	Electric power	Electricity is	Electric-type moves are sure powerful!			エレクトりック　パワー
+	para	Electricity is			line	麻麻的很強力～！		line	麻麻的很强力～！	sure powerful!		Electric power	エレクトリック　パワー	ビりビり　つよいネー!
+	line	sure powerful!			para	不過面對地面屬性時，		para	不过面对地面属性时，	But, it's useless	But remember that they’ll get sucked right up	麻麻的很强力～！	ビリビリ　つよいネー！	でも　じめん　タイプには
+					line	Power會被吸收走，		line	Power会被吸收走，	against ground-	by Ground-type Pokémon!			パワー　すいとられて　しまって
+	para	But, it's useless			cont	完全useless唷～！		cont	完全useless唷～！	type #MON!		不过面对地面属性时，	でも　じめん　タイプには	ぜんぜん　きかないヨー!
+	line	against ground-			done			done			Those moves are useless against them!	Power会被吸收走，	パワー　すいとられて　しまって	
+	cont	type #MON!												
+	done											完全useless唷～！	ぜんぜん　きかないヨー！	
+														
+_LTSurgeThunderBadgeInfoText::				_LTSurgeThunderBadgeInfoText::										
+	text	The THUNDERBADGE			text	持有橙色徽章，		text	持有橙色徽章，	The THUNDERBADGE	And that’s not all!	And！	アーンド！	…　ポケモンの　シナりオだ!
+	line	cranks up your			line	You的寶可夢		line	You的宝可梦	cranks up your				これは　エンディングだ!
+	cont	#MON's SPEED!			cont	Speed up！		cont	Speed up！	#MON's SPEED!	You’re special, kid!	给拥有special实力的you，	スペシャルな　つよさの　ユーに	いまは　みないで　おこう…!
+					para	And！可以在戰鬥外		para	And！可以在战斗外	It also lets your	Take this!	这是me的一点心意！	これは　ミーの　きもちネ！	
+	para	It also lets your			line	使用招式“飛翔”了。		line	使用招式“飞翔”了。	#MON FLY any				
+	line	#MON FLY any-			para	You're special,		para	You're special,	time, kid!				
+	cont	time, kid!			line	這是me的一點心意！		line	这是me的一点心意！	You're special,				
+					done			done		kid! Take this!				
+	para	You're special,												
+	line	kid! Take this!												
+	done													
+														
+_ReceivedTM24Text::				_ReceivedTM24Text::										
+	text	<PLAYER> received			text	<PLAYER>從馬志士那裡		text	<PLAYER>从谜之训练家	<PLAYER> received	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	@			line	得到了@		line	那里得到了@	a @	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_ram	wStringBuffer			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer				
+	text	!@			text	！@		text	！@	!@				
+	text_end				text_end			text_end						
+														
+_TM24ExplanationText::				_TM24ExplanationText::										
+	text_start				text_start			text_start			TM36 contains the electrifying Thunderbolt!	招式学习器36是	わざマシン３６は	
+					para	招式學習器２４是		para	招式学习器２４是	TM24 contains		电属性麻麻十万伏特！	でんき　ビリビリ　１０まんボルト	 {5C} 24は
+	para	TM24 contains			line	電屬性麻麻十萬伏特！		line	电属性麻麻十万伏特！	THUNDERBOLT!	Teach it to an Electric-type Pokémon for some			でんき　ビりビり　10まんボルト
+	line	THUNDERBOLT!			para	Please教給		para	Please教给	Teach it to an	extra shock value!	Please教给electric宝可梦噢！	エレクトリック　ポケモンに	エレクトりック　ポケモンに
+					line	electric寶可夢噢！		line	electric宝可梦噢！	electric #MON!			おしえて　くだサーイ！	おしえて　くだサーイ!
+	para	Teach it to an			done			done						
+	line	electric #MON!												
+	done													
+														
+_TM24NoRoomText::				_TM24NoRoomText::										
+	text	Yo kid, make room			text	Full of your 揹包！		text	Full of your 背包！	Yo kid, make room	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	in your pack!			line	你已經拿不下——了！		line	你已经拿不下——了！	in your pack!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	done				done			done						…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_ReceivedThunderBadgeText::				_ReceivedThunderBadgeText::										
+	text	Whoa!			text	Oh，no！		text	Oh，no！	Whoa!	Now that’s a shocker!	Oh，no！	オー　ノー！	オー　ノー!
+					para	You的實力truth！		para	You的实力truth！	You're the real				ユーの　つよさ　トゥルース!
+	para	You're the real			line	也就是說，你是真的厲害！		line	也就是说，你是真的厉害！	deal, kid!	You’re the real deal, kid!	You的实力truth！	ユーの　つよさ　トゥルース！	つまり　ほんもの　ネー!
+	line	deal, kid!			para	OK！		para	OK！	Fine then, take		也就是说，你是真的厉害！	つまり　ほんもの　ネー！	オッケー!
+					line	橙色徽章就交給你了！		line	橙色徽章就交给你了！	the THUNDERBADGE!				オレンジ　バッジ　やるヨ!
+	para	Fine then, take			prompt			prompt						ゲ
+	line	the THUNDERBADGE!												
+	prompt													
+														
+_VermilionGymBattleText1::				_VermilionGymBattleText1::										
+	text	When I was in the			text	我在軍隊裡的時候，		text	我在军队里的时候，	When I was in the	When I was in the army, Lt. Surge was my	我在军队里的时候，	ぐんたいに　いた　ころは	ぐんたいに　いた　ころは
+	line	Army, LT.SURGE			line	馬志士少校非常、非常		line	马志士少校非常、非常	Army, LT.SURGE	strict CO. He was a hard taskmaster.	马志士少校非常、非常	マチス　しょうさに	マチス　しょうさに
+	cont	was my strict CO!			cont	嚴格地鍛鍊了我！		cont	严格地锻炼了我！	was my strict CO!				ビシ!ビシ!　きたえられたぜ!
+	done				done			done				严格地锻炼了我！	ビシ！ビシ！　きたえられたぜ！	
+														
+_VermilionGymEndBattleText1::				_VermilionGymEndBattleText1::										
+	text	Stop!			text	嗯！		text	嗯！	Stop!	Stop!	嗯！	うむ！	うむ!
+	line	You're very good!			line	你的實力不錯。		line	你的实力不错。	You're very good!	You’re very good!	你的实力不错。	なかなかの　うでまえだ	なかなかの　うでまえだ
+	prompt				prompt			prompt						
+														
+_VermilionGymAfterBattleText1::				_VermilionGymAfterBattleText1::										
+	text	The door won't			text	過不去嗎？		text	过不去吗？	The door won't	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	open?			para	馬志士的小心謹慎		para	马志士的小心谨慎	open?	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+					line	在軍隊裡也是很有名的！		line	在军队里也是很有名的！	LT.SURGE always				…　シルフ　カンパニー
+	para	LT.SURGE always			done			done		was cautious!		……西尔佛公司	……シルフカンパニー	
+	line	was cautious!												
+	done													
+														
+_VermilionGymBattleText2::				_VermilionGymBattleText2::										
+	text	I'm a lightweight,			text	雖然我體力不行，		text	虽然我体力不行，	I'm a lightweight,	I’m a lightweight, but I’m good with electricity!	虽然我体力不行，	おれは　たいりょく　ないけど	おれは　たいりょく　ないけど
+	line	but I'm good with			line	但我擅長使用電，		line	但我擅长使用电，	but I'm good with		但我擅长使用电，	でんきの　あつかいを　かわれて	でんきの　あつかいを　かわれて
+	cont	electricity!			cont	所以加入了這個道館！		cont	所以加入了这个道馆！	electricity!	That’s why I joined this Gym.			ここに　きたのだ!
+	done				done			done				所以加入了这个道馆！	ここに　きたのだ！	
+														
+_VermilionGymEndBattleText2::				_VermilionGymEndBattleText2::										
+	text	Fried!			text	呀！被電麻了！		text_start			Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			done			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_VermilionGymAfterBattleText2::				_VermilionGymAfterBattleText2::										つ {PLAYER}  {PLAYER} 
+	text	OK, I'll talk!			text	好了，我說！		text	好了，我说！	OK, I'll talk!	OK, I’ll talk!	好了，我说！	わかった　いうよー！	わかった　いうよー!
+					para	馬志士將房間的開關		para	马志士将房间的开关	LT.SURGE said he				マチスは　へやの　スイッチを
+	para	LT.SURGE said he			line	藏在什麼東西的裡面……		line	藏在什么东西的里面……	hid door switches	I heard there isn’t a switch in any trash cans next	红色垃圾箱旁边	あかい　ゴミばこの　となりには	なにかの…
+	line	hid door switches			done			done		inside something!	to the red trash can!	好像没有开关！	スイッチは　なさそうだぜ！	そこに　かくしたと　いってたな
+	cont	inside something!												ゲ
+	done													
+														
+_VermilionGymBattleText3::				_VermilionGymBattleText3::										
+	text	This is no place			text	不管你如何擅長		text	不管你如何擅长	This is no place	This is no place for kids!	不管你如何擅长指挥宝可梦，	いくら　ポケモン　うまい　からって	いくら　ポケモン　うまい　からって
+	line	for kids!			line	指揮寶可夢，這裡也不是		line	指挥宝可梦，这里也不是	for kids!	Not even if you’re good at Pokémon!	这里也不是你一个孩子	ここは　こどもが	ここは　こどもが
+	done				cont	你一個孩子該來的地方！		cont	你一个孩子该来的地方！					くる　ところ　じゃないぜ!
+					done			done				该来的地方！	くる　ところ　じゃないぜ！	
+_VermilionGymEndBattleText3::				_VermilionGymEndBattleText3::										
+	text	Wow!			text	哦，		text	哦，	Wow!	Wow!	哦，真是让人吃惊！	ほー　おどろきだ！	ほー　おどろきだ!
+	line	Surprised me!			line	真是讓人吃驚！		line	真是让人吃惊！	Surprised me!	Surprised me!			
+	prompt				prompt			prompt						
+														
+_VermilionGymAfterBattleText3::				_VermilionGymAfterBattleText3::										
+	text	LT.SURGE set up			text	馬志士給他的		text	马志士给他的	LT.SURGE set up	Let me give you a hint for the double barriers.	那我就把和双层锁……	２じゅう　ロックの	マチス　しょうさは
+	line	double locks!			line	房間上了雙層鎖。		line	房间上了双层锁。	double locks!		有关的提示告诉你吧。	……ヒントを　あげよう！	へやを　2じゅう　ロック　してるぜ
+	cont	Here's a hint!			cont	……給你點提示吧！		cont	……给你点提示吧！	Here's a hint!	After you push the first switch, you need to push			…　ヒントを　あげよう!
+					para	解開第一道鎖後，		para	解开第一道锁后，	When you open the	the second switch right after.	解开第一道锁后，	だい１　ロックを　はずしたら	だい1　ロックを　はずしたら
+	para	When you open the			line	你得接著解開第二道鎖！		line	你得接着解开第二道锁！	1st lock, the 2nd		你得接着解开第二道锁！	だい２　ロックを	だい2　ロックは　すぐ　そばだ
+	line	1st lock, the 2nd			cont	第二道鎖就在		cont	第二道锁就在	lock is right	The two switches are adjacent to each other.			ふたつの　ロックは
+	cont	lock is right			cont	第一道鎖邊上。		cont	第一道锁边上。	next to it!		第二道锁就在第一道锁边上。	れんぞくで　はずせ！	となりあわせに　あるぜ
+	cont	next to it!			done			done						ゲ4ワよひ
+	done												ふたつの　ロックは	
+													じょうげ　さゆうで	
+_VermilionGymGuidePreBattleText::				_VermilionGymGuidePreBattleText::										
+	text	Yo! Champ in			text	等你很久嘍！		text	等你很久喽！	Yo! Champ in	I’ve been waiting for you, champ in the making!	等你很久喽！	まってたぜ	おーす!
+	line	making!			line	未來的冠軍！		line	未来的冠军！	making!		未来的冠军！	みらいの　チャンピオン！	みらいの　チャンピオン!
+					para	馬志士少校有個別稱，		para	马志士少校有个别称，	LT.SURGE has a	Lt. Surge here is the Gym Leader in this city.			マチス　しょうさの　あだなは
+	para	LT.SURGE has a			line	那就是閃電般的美國人！		line	那就是闪电般的美国人！	nickname. People	He’s an expert on Electric-type Pokémon and	道馆馆主马志士少校是个	ジムリーダー　マチスしょうさは	イナズマ　アメりカン!
+	line	nickname. People			para	能將電屬性寶可夢		para	能将电属性宝可梦	refer to him as		能将电属性宝可梦	でんきタイプの　ポケモンを	でんき　ポケモン　つかわせたら
+	cont	refer to him as			line	運用自如的美國No.1！		line	运用自如的美国No.1！	the Lightning	a real tough guy!			アメりカ　ナンバー1　らしいぜ!
+	cont	the Lightning			para	飛行屬性和水屬性		para	飞行属性和水属性	American!		运用自如的硬汉子！	つかいこなす　タフガイだ！	ひこう　タイプ　みず　タイプは
+	cont	American!			line	可能不太好對付他喔！		line	可能不太好对付他喔！	He's an expert on	Flying- and Water-type Pokémon don’t do well			あいしょうが　わるいぜ!
+					cont	你可要小心，		cont	你可要小心，	electric #MON!	matched up against Electric types.	飞行属性和水属性	ひこうタイプ　みずタイプは	マヒ　させられないよう
+	para	He's an expert on			cont	不要被電麻痺了！		cont	不要被电麻痹了！	Birds and water		可能不太好对付他喔！	あいしょうが　わるいぜ！	きを　つけな!
+	line	electric #MON!			para	還有，		para	还有，	#MON are at	You’ll also want to watch out so your Pokémon			それと　マチスは　ようじん　ぶかい!
+					line	馬志士做事極為謹慎，		line	马志士做事极为谨慎，	risk! Beware of	don’t get stuck paralyzed!	你可要小心，	マヒ　させられないよう	かれの　へやは　ロック　されて
+	para	Birds and water			para	他可不會讓你		para	他可不会让你	paralysis too!		不要被电麻痹了！	きを　つけな！	かんたんには　はいれないぜ!
+	line	#MON are at			line	輕易解開門鎖，		line	轻易解开门锁，	LT.SURGE is very	And here’s my last tip...			
+	cont	risk! Beware of			cont	到達他所在的房間吶！		cont	到达他所在的房间呐！	cautious!		还有，马志士做事极为谨慎，	それと　マチスは　ようじんぶかい！	
+	cont	paralysis too!			done			done		You'll have to	Lt. Surge is the cautious type.	想要接近他可没那么容易呐！	かんたんには　ちかづけ　ないぜ！	
+										break a code to	He’s put barriers between himself and the rest of			
+	para	LT.SURGE is very								get to him!				
+	line	cautious!									this room, so it won’t be easy getting to him.			
+														
+	para	You'll have to												
+	line	break a code to												
+	cont	get to him!												
+	done													
+														
+_VermilionGymGuidePostBattleText::				_VermilionGymGuidePostBattleText::										
+	text	Whew! That match			text	呼—— 國際比賽		text	呼—— 国际比赛	Whew! That match	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	was electric!			line	看得可真讓人緊張啊。		line	看得可真让人紧张啊。	was electric!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done			done						
+end				end										

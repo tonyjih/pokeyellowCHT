@@ -1,0 +1,14 @@
+text/CeladonPokecenter.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CeladonPokecenterText2::				_CeladonPokecenterText2::										
+	text	# FLUTE awakens			text	寶可夢之笛之所以能讓		text	宝可梦之笛之所以能让	# FLUTE awakens	A Poké Flute awakens sleeping Pokémon.	宝可梦之笛之所以能让	ポケモンのふえで　ねてる　ポケモンが	ポケモンのふえで　ねてる　ポケモンが
+	line	#MON with a			line	睡著的寶可夢醒來，		line	睡着的宝可梦醒来，	#MON with a	It does so with a sound that only they can hear.	睡着的宝可梦醒来，	とび　おきるのは	とび　おきるのは
+	cont	sound that only			cont	是因為它可以發出		cont	是因为它可以发出	sound that only				ひとには　きこえない
+	cont	they can hear!			cont	人類無法聽到的特別之音。		cont	人类无法听到的特别之音。	they can hear!		是因为它可以发出	ひとには　きこえない	とくべつな　おとも　でてる　からだよ
+	done				done			done				人类无法听到的特别之音。	とくべつな　おとも　でてる　からだよ	
+														
+_CeladonPokecenterText3::				_CeladonPokecenterText3::										
+	text	I rode uphill on			text	我是從淺紅市過來的，		text	我是从浅红市过来的，	I rode uphill on	There are Pokémon magazines on the shelves.	这里陈列着宝可梦的杂志！	ポケモンざっしが　ならんでる！	　ぽ　ぽ　
+	line	CYCLING ROAD from			line	從腳踏車道爬坡		line	从自行车道爬坡	CYCLING ROAD from				
+	cont	FUCHSIA!			cont	騎過來可真累人啊！		cont	骑过来可真累人啊！	FUCHSIA!	And Pokémon notebooks...	……宝可梦手册	……ポケモンてちょう	
+	done				done			done						
+end				end							And Pokémon graphs, too!	……宝可梦图表	……ポケモングラフ	

@@ -1,0 +1,57 @@
+text/VermilionOldRodHouse.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_VermilionHouse2Text_560b1::				_VermilionHouse2Text_560b1::										
+	text	I'm the FISHING			text	我就是釣魚大叔！		text	我就是	I'm the FISHING	I’m the Day-Care Lady.	这里是培育屋。	わたしは　そだてやさん	…　おとくな　けいじばん!
+	line	GURU!						line	钓鱼大叔的弟弟呀！	GURU's brother!				ポケモンを　つかまえる　ときは
+								para	热爱钓鱼，	I simply Looove	I look after and raise the Pokémon of Trainers	大家把宝可梦寄放在我这里后，	みんなの　ポケモンを　あずかって	なるべく　よわらせてから!
+	para	I simply Looove			para	熱愛釣魚，		line	不忍释手。	fishing!	who leave them here with me.	我就会开始培育它们。	そだてているよ	ポケモンが　げんきだと
+	line	fishing!			line	至死方休。		para	你喜不喜欢钓鱼呢？	Do you like to				にげるかも　しれないよ!
+								done		fish?	Now then, what would you like to do?	那么，你有什么事？	さて　どうするかね？	
+	para	Do you like to			para	你喜不喜歡釣魚呢？								
+	line	fish?												
+	done				done									
+														
+_VermilionHouse2Text_560b6::				_VermilionHouse2Text_560b6::										
+	text	Grand! I like			text	是嗎！		text	是吗！	Grand! I like	“1F: Service Counter	１楼……　服务柜台	１かい……　サービス・カウンター	おくじょう　…　いこいの　ひろば
+	line	your style!			line	看來我和你很投緣嘛！		line	看来我和你很投缘嘛！	your style!		２楼……　训练家广场	２かい……　トレーナーズ・マーケット	　　　　　　…　じどう　はんばいき
+					para	給你這個，		para	给你这个，	Take this and	“2F: Trainers’ Market			プ
+	para	Take this and			line	讓你也來體會一下釣魚吧！		line	让你也来体会一下钓鱼吧！	fish, young one!		３楼……　电子游戏专卖店	３かい……　テレビ　ゲーム　ショップ	
+	line	fish, young one!			para	<PLAYER>從釣魚大叔		para	<PLAYER>从钓鱼大叔	<PLAYER> received	“3F: Video Game Shop	４楼……　聪明人礼品店	４かい……　ワイズマン・ギフト	
+					line	那裡得到了@		line	那里得到了@	an @				
+	para	<PLAYER> received			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer	“4F: Wiseman Gifts	５楼……　饰品天地	５かい……　アクセサリー　マーケット	
+	line	an @			text	！@		text	！@	!@		顶楼……　自动贩卖机	おくじょう……　じどう　はんばいき	
+	text_ram	wStringBuffer			text_end			text_end			“5F: Accessory Market			
+	text	!@												
+	text_end										“Roof: Relaxation Space & Vending Machines”			
+														
+_VermilionHouse2Text_560bb::				_VermilionHouse2Text_560bb::										
+	text_start				text_start			text_start			Oh... You have better things to do, champ in	哎呀……！	おぉ……　こんな　ところで	おお…!
+					para	釣魚就是		para	钓鱼就是	Fishing is a way	the making!	在这种地方偷懒可不好哦！	あぶら　うってて　いいのか！	こんな　ところで
+	para	Fishing is a way			line	屬於大人的浪漫！		line	属于大人的浪漫！	of life!				あぶら　うってて　いいのか!
+	line	of life!			para	無論是海還是河流！		para	无论是海还是河流！	From the seas to	Celadon City’s Gym Leader is Erika.	未来的冠军！	みらいの　チャンピオン！	みらいの　チャンピオン!
+					line	不需要多加思考，		line	不需要多加思考，	rivers, go out				タマムシの　りーダー　エりカは
+	para	From the seas to			cont	用釣竿釣就完了！		cont	用钓竿钓就完了！	and land the big	She is one with nature and a user of	玉虹的馆主莉佳	タマムシの　リーダー　エリカは	しぜんと　こころを　かよわす
+	line	rivers, go out			done			done		one, young one!	Grass-type Pokémon.	是一位能与自然心灵相通的	しぜんと　こころを　かよわす	しょくぶつ　ポケモンの　つかいて!
+	cont	and land the big												おはな　なんか　いけてる　から
+	cont	one, young one!									She might look quiet because she does flower	草属性宝可梦的能手！	くさポケモンの　つかいて！	おとなしそうに　みえるが
+	done										arrangements, but she’s not one to be			てごわい　あいてに　なるぞ!
+												别看她在那里插花，看似温和，	おはな　なんか　いけてる　から	
+_VermilionHouse2Text_560c0::				_VermilionHouse2Text_560c0::							taken lightly!	其实相当不好对付哦！	おとなしそう　だが　てごわいぞ！	
+	text	Oh... That's so			text	什麼嘛……		text	什么嘛……	Oh... That's so	It’s so pleasant...	真舒服……	きもち　いい……	おし!
+	line	disappointing...			line	好失望。		line	好失望。	disappointing...		……呼……呼～	……　すー……　すー	いい　しょうぶ　だった
+	done				done			done			... ... ...			
+														
+_VermilionHouse2Text_560c5::				_VermilionHouse2Text_560c5::							... ... Zzz.			
+	text	Hello there,			text	呀——		text	呀——	Hello there,	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	<PLAYER>!			line	<PLAYER>！		line	<PLAYER>！	<PLAYER>!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+					para	最近		para	最近	How are the fish				…　シルフ　カンパニー
+	para	How are the fish			line	釣得如何呢！		line	钓得如何呢！	biting?		……西尔佛公司	……シルフカンパニー	
+	line	biting?			done			done						
+	done													
+														
+_VermilionHouse2Text_560ca::				_VermilionHouse2Text_560ca::										
+	text	Oh no!			text	哎呀——！		text	哎呀——！	Oh no!	LT. SURGE: No need for introductions this time!	马志士：Welcome again！	マチス『ウエルカム　アゲイン！	クチバ　シティ　ポケモン　ジム
+					para	雖然想給你好東西，		para	虽然想给你好东西，	You have no room				りーダー　マチス
+	para	You have no room			line	但你的行李滿了呀！		line	但你的行李满了呀！	for my gift!	Trainers like us have no need for words!	We之间不需要any言语！	ことばは　いらナイ！	イナズマ　アメりカン!
+	line	for my gift!			done			done			Let’s go, kid!	Let's start！	レッツ　スタート！	
+	done													
+end				end										

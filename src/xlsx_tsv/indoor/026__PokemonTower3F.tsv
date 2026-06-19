@@ -1,0 +1,47 @@
+text/PokemonTower3F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_PokemonTower3BattleText1::				_PokemonTower3BattleText1::										
+	text	Urrg...Awaa...			text	…………嘰……		text	…………叽……	Urrg...Awaa...	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	Huhu...graa..			line	……咕咕咕……！		line	……咕咕咕……！	Huhu...graa..		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	done				done			done			D’aww... Failed again?			
+														
+_PokemonTower3EndBattleText1::				_PokemonTower3EndBattleText1::										
+	text	Hwa!			text	呼……！		text	呼……！	Hwa!	Hwa!	呼……！	むう……！	むう…!
+	line	I'm saved!			line	得救了！		line	得救了！	I'm saved!	I’m saved!	得救了！	たすかった！	たすかった!
+	prompt				prompt			prompt						
+														
+_PokemonTower3AfterBattleText1::				_PokemonTower3AfterBattleText1::										
+	text	The GHOSTs can be			text	聽說西爾佛檢視鏡這機器		text	听说西尔佛检视镜这机器	The GHOSTs can be	I heard that ghosts can be identified with	听说西尔佛检视镜这机器	シルフスコープなる　マシンなら	シルフ　スコープなる　マシンなら
+	line	identified by the			line	能夠識破幽靈寶可夢的		line	能够识破幽灵宝可梦的	identified by the	the Silph Scope.	能够识破幽灵的真面目……	ゆうれいの　しょうたいを	ゆうれい　ポケモンの
+	cont	SILPH SCOPE.			cont	真面目……		cont	真面目……	SILPH SCOPE.				しょうたいを　みやぶる　というが…
+	done				done			done					みやぶる　というが……	
+														
+_PokemonTower3BattleText2::				_PokemonTower3BattleText2::										
+	text	Kekeke....			text	………………		text	………………	Kekeke....	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	Kwaaah!			line	……咔咔！		line	……咔咔！	Kwaaah!		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	done				done			done			D’aww... Failed again?			
+														
+_PokemonTower3EndBattleText2::				_PokemonTower3EndBattleText2::										
+	text	Hmm?			text	……啊？		text	……啊？	Hmm?	Hmm?	……啊？	……あれ？	…あれ?
+	line	What am I doing?			line	我在做什麼啊？		line	我在做什么啊？	What am I doing?	What am I doing?	我在做什么啊？	わしは　なに　してたのじゃ	わしは　なに　してたのじゃ
+	prompt				prompt			prompt						
+														
+_PokemonTower3AfterBattleText2::				_PokemonTower3AfterBattleText2::										
+	text	Sorry! I was			text	對不起！我被惡靈附身了，		text	对不起！我被恶灵附身了，	Sorry! I was	Sorry!	对不起！我被恶灵附身了，	すまぬ！　あくりょうが	すまぬ!　あくりょうが
+	line	possessed!			line	所以不受控制地		line	所以不受控制地	possessed!	I was possessed!	所以不受控制地胡闹了起来。	のりうつって　あばれてるのじゃ！	のりうつって　あばれてるのじゃ!
+	done				cont	胡鬧了起來。		cont	胡闹了起来。					
+					done			done						
+_PokemonTower3BattleText3::				_PokemonTower3BattleText3::										
+	text	Be gone!			text	可惡，你這該死的惡靈！		text	可恶，你这该死的恶灵！	Be gone!	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	Evil spirit!			line	……嗚哇！咕……咔咔！		line	……呜哇！咕……咔咔！	Evil spirit!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done			done						
+														
+_PokemonTower3EndBattleText3::				_PokemonTower3EndBattleText3::										
+	text	Whew!			text	呼……！		text	呼……！	Whew!	Whew!	呼……！	ふう……！	ふう!…
+	line	The spirit left!			line	……惡靈逃走了嗎？		line	……恶灵逃走了吗？	The spirit left!	The spirit left!	……恶灵逃走了吗？	……あくりょうは　にげたか	…あくりょうは　にげたか
+	prompt				prompt			prompt						
+														
+_PokemonTower3AfterBattleText3::				_PokemonTower3AfterBattleText3::										
+	text	My friends were			text	唔！上面的同伴		text	唔！上面的同伴	My friends were	Gahaha! I broke my high score!	嘎哈哈！我更新了自己的最高分！	がはは！　じこベスト　こうしん　だ！	がはは!　もうけた　もうけた…!
+	line	possessed too!			line	好像也被惡靈襲擊了！		line	好像也被恶灵袭击了！	possessed too!	If only every day were like this...	真希望每天都能这样唷！	まいにち　こんな　だと　いいわい	まいにち　こんな　だと　いいわい
+	done				done			done						1ダ
+end				end										

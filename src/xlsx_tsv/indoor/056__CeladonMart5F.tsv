@@ -1,0 +1,30 @@
+text/CeladonMart5F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CeladonMart5Text1::				_CeladonMart5Text1::										
+	text	#MON ability			text	提高寶可夢能力的物品		text	提高宝可梦能力的物品	#MON ability	“If you use what are called Secret Techniques,	如果你使用了	ヒジュツと　よばれる	 {next} 
+	line	enhancers can be			line	只有在這裡才能買到。		line	只有在这里才能买到。	enhancers can be	you can chop trees, open paths,	被称为“秘术”的招式，	わざを　つかえば	@
+	cont	bought only here.			para	特殊增強劑		para	特殊增强剂	bought only here.				 {PLAYER}  {RIVAL} ポケモン
+					line	可以提升特殊能力。		line	可以提升特殊能力。	Use CALCIUM to	light up dark places, and so on.	便可斩断树木开拓道路，	きを　きって　みちを　つくったり	…
+	para	Use CALCIUM to			para	速度增強劑		para	速度增强剂	increase SPECIAL		或是发出光芒照亮洞窟……	くらい　ばしょも　あかるく　みえたり	
+	line	increase SPECIAL			line	則可以提升速度哦。		line	则可以提升速度哦。	abilities.	“They are sure to be very useful!			 {TARGET}  {USER}  {5B}  {5C} トレーナーロケットだん
+	cont	abilities.			done			done		Use CARBOS to		为你的冒险提供便捷！	べんりなこと　だらけ！	
+										increase SPEED.	“Don’t you want to learn Secret Techniques			
+	para	Use CARBOS to									now, too?	你是否也想尝试	あなたも　ヒジュツ	
+	line	increase SPEED.										学习一下“秘术”呢？	まなんで　みませんか？	
+	done										“—The Kanto Secret Technique Association”			
+														
+_CeladonMart5Text2::				_CeladonMart5Text2::								……关都秘术协会	……カントー　ヒジュツ　きょうかい	
+	text	I'm here for			text	我是來買		text	我是来买	I'm here for	“1F: Service Counter	１楼……　服务柜台	１かい……　サービス・カウンター	おくじょう　…　いこいの　ひろば
+	line	#MON ability			line	提高寶可夢能力的物品的！		line	提高宝可梦能力的物品的！	#MON ability		２楼……　训练家广场	２かい……　トレーナーズ・マーケット	　　　　　　…　じどう　はんばいき
+	cont	enhancers.			para	攻擊增強劑		para	攻击增强剂	enhancers.	“2F: Trainers’ Market			プ
+					line	可以提升攻擊力！		line	可以提升攻击力！	PROTEIN increases		３楼……　电子游戏专卖店	３かい……　テレビ　ゲーム　ショップ	
+	para	PROTEIN increases			para	防禦增強劑		para	防御增强剂	ATTACK power.	“3F: Video Game Shop	４楼……　聪明人礼品店	４かい……　ワイズマン・ギフト	
+	line	ATTACK power.			line	則可以提升防禦力呢！		line	则可以提升防御力呢！	IRON increases				
+					done			done		DEFENSE!	“4F: Wiseman Gifts	５楼……　饰品天地	５かい……　アクセサリー　マーケット	
+	para	IRON increases										顶楼……　自动贩卖机	おくじょう……　じどう　はんばいき	
+	line	DEFENSE!									“5F: Accessory Market			
+	done													
+											“Roof: Relaxation Space & Vending Machines”			
+_CeladonMart5Text5::				_CeladonMart5Text5::										
+	text	5F: DRUG STORE			text	５樓……　藥局		text	５楼……　药局	5F: DRUG STORE	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	done				done			done				给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+end				end							D’aww... Failed again?			

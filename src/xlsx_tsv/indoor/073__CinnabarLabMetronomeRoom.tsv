@@ -1,0 +1,66 @@
+text/CinnabarLabMetronomeRoom.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_TM35PreReceiveText::				_TM35PreReceiveText::										
+	text	Tch-tch-tch!			text	嘁、嘁、嘁！		text	嘁、嘁、嘁！	Tch-tch-tch!	MISTY: I lost...	小霞：我输了……	カスミ『まけちゃった……	ちょっと　じかん　かかるよ!
+	line	I made a cool TM!			line	做出個好招式學習器了！		line	做出个好招式学习器了！	I made a cool TM!	I need to try swimming around for a bit	看来我应该游个泳，	ちょっと　およいで	そこらへんを　すこし　
+					para	寶可夢學會這玩意的話，		para	宝可梦学会这玩意的话，	It can cause all				ブラブラ　してくると　よろしー!
+	para	It can cause all			line	會變得很歡樂的！		line	会变得很欢乐的！	kinds of fun!	so that I can clear my head of these feelings.	让自己冷静一下。	あたまを　ひやさなきゃ	
+	line	kinds of fun!			prompt			prompt						
+	prompt										...I definitely won’t lose next time!	……下次我可不会再输给你！	……このつぎは　まけない　から！	
+														
+_ReceivedTM35Text::				_ReceivedTM35Text::										
+	text	<PLAYER> received			text	<PLAYER>從研究員		text	<PLAYER>从谜之训练家	<PLAYER> received	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	@			line	那裡得到了@		line	那里得到了@	a @	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_ram	wStringBuffer			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer				
+	text	!@			text	！@		text	！@	!@				
+	text_end				text_end			text_end						
+														
+_TM35ExplanationText::				_TM35ExplanationText::										
+	text	Tch-tch-tch!			text	嘁、嘁、嘁！		text	嘁、嘁、嘁！	Tch-tch-tch!	It proves a person defeated the Vermilion City	橙色徽章是击败了	クチバジムの　ジムリーダーに	…　…　と　おもった　けど
+	line	That's the sound			line	這就是“揮指”哦！		line	这就是“挥指”哦！	That's the sound	Gym Leader.	枯叶道馆馆主的证明。	しょうり　した　あかし　です	にもつが　いっぱい　だから
+	cont	of a METRONOME!			para	揮動手指的寶可夢的大腦		para	挥动手指的宝可梦的大脑	of a METRONOME!				@
+					line	會受到刺激，從而使出		line	会受到刺激，从而使出	It tweaks your	You may have never heard the word before, but	你可能没听过这种说法，	ききなれない　かも　ですが	
+	para	It tweaks your			cont	各種平常它不會的招式哦！		cont	各种平常它不会的招式哦！	#MON's brain	vermilion is actually the name of a color.	偏红发暗的黄色	くすんだ　あかみ　がかった　きいろを	
+	line	#MON's brain			done			done		into using moves				
+	cont	into using moves								it doesn't know!	It’s a reddish orange, although for some reason	也被称作枯叶色。	くちばいろ　と　いいます	
+	cont	it doesn't know!									the Badge itself doesn’t have this color...			
+	done											徽章的颜色	バッジの　いろも	
+												也是同样的感觉吧。	そんな　かんじ　ですよね	
+_TM35NoRoomText::				_TM35NoRoomText::										
+	text	Your pack is			text	你的行李鼓鼓囊囊的，		text	你的行李鼓鼓囊囊的，	Your pack is	You got [VAR iCOLOR2(0000)][VAR sTRBAG(0000)]!	获得了[VAR ITEM2(0000)]！	[VAR ITEM2(0000)]を　てにいれた！	を　てにいれた!@ジ@
+	line	crammed full!			line	拿不下了哦。		line	拿不下了哦。	crammed full!				
+	done				done			done			But...too bad! Your Bag is already full!	太遗憾了！	ざんねん！	
+												包包满了……	バッグが　いっぱいだ……	
+_Lab3Text2::				_Lab3Text2::										
+	text	EEVEE can evolve			text	是啊！伊布有著能進化成		text	是啊！伊布有着能进化成	EEVEE can evolve	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	into 1 of 3 kinds			line	３種寶可夢的可能性！		line	３种宝可梦的可能性！	into 1 of 3 kinds	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	of #MON.			done			done		of #MON.				…　シルフ　カンパニー
+	done											……西尔佛公司	……シルフカンパニー	
+														
+_Lab3Text3::				_Lab3Text3::										
+	text	There's an e-mail			text	電腦裡		text	电脑里	There's an e-mail	There’s an email on the screen of the PC...	电脑里	パソコンに	 {5B} に
+	line	message!			line	收到了一封郵件！		line	收到了一封邮件！	message!		收到了一封邮件！	メールが　とどいてる！	でんしメールが　とどいてる!
+					para	……		para	……	...	“Articuno, Zapdos, and Moltres are all			…　…　…
+	para	...			para	有三隻傳說中的鳥寶可夢，		para	有三只传说中的鸟宝可梦，	The 3 legendary	legendary bird Pokémon. This we know.	火焰鸟、闪电鸟和急冻鸟	ファイヤー　サンダー　フリーザーは	でんせつの　とりポケモンは
+					line	分別是火焰鳥、		line	分别是火焰鸟、	bird #MON are		是传说的鸟宝可梦。	でんせつの　とりポケモンです	3しゅるい…　ファイヤー
+	para	The 3 legendary			cont	閃電鳥和急凍鳥。		cont	闪电鸟和急冻鸟。	ARTICUNO, ZAPDOS	“Yet their exact whereabouts are still unknown.			サンダー　フりーザー…
+	line	bird #MON are			para	可是現在依然沒有人知曉		para	可是现在依然没有人知晓	and MOLTRES.	We will be investigating the Cerulean Cave next	可是现在依然没有人知晓	しかし　どこに　いるのか	しかし　どこに　いるのか
+	cont	ARTICUNO, ZAPDOS			line	究竟能在哪裡遇到它們。		line	究竟能在哪里遇到它们。	Their whereabouts		究竟能在哪里遇到它们。	まだ　わかって　ません	まだ　わかって　ません
+	cont	and MOLTRES.			para	接下來我們將		para	接下来我们将	are unknown.	and will report back accordingly.			こんど　ハナダ　どうくつに
+					line	前去華藍洞窟調查。		line	前去华蓝洞窟调查。	We plan to explore		接下来我们将	こんど　ハナダのどうくつに	ちょうさに　いきます
+	para	Their whereabouts			para	總之先報告到這裡。		para	总之先报告到这里。	the cavern close	       — The Pokémon Research Team”	前去华蓝洞窟调查。	ちょうさに　いきます	…　まずは　ほうこく　まで
+	line	are unknown.			line	……寶可夢調查隊敬上		line	……宝可梦调查队敬上	to CERULEAN.				ポケモン　ちょうさ　たい
+					done			done		From: #MON		总之先报告到这里。	まずは　ほうこく　まで	…　…　…
+	para	We plan to explore								RESEARCH TEAM		……宝可梦调查队敬上	……ポケモン　ちょうさ　たい	
+	line	the cavern close								...				
+	cont	to CERULEAN.												
+														
+	para	From: #MON												
+	line	RESEARCH TEAM												
+														
+	para	...												
+	done													
+														
+_Lab3Text5::				_Lab3Text5::										
+	text	An amber pipe!			text	有一根琥珀的菸斗！		text	有一根琥珀的烟斗！	An amber pipe!	It’s an amber pipe!	有一根琥珀的烟斗！	コハクの　パイプが　ある！	コハクの　パイプが　ある!
+	done				done			done						
+end				end										

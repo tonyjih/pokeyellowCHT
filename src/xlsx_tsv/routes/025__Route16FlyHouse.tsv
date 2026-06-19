@@ -1,0 +1,35 @@
+text/Route16FlyHouse.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route16HouseText3::				_Route16HouseText3::										
+	text	Oh, you found my			text	哎呀呀……！		text	哎呀呀……！	Oh, you found my	Oh dear.	哎呀呀……！	あらま……！	あらま…!
+	line	secret retreat!			line	被你發現了呢！		line	被你发现了呢！	secret retreat!	You’ve found my secret retreat.	被你发现了呢！	みつかっちゃったわね！	みつかっちゃったわね!
+					para	能不能不要		para	能不能不要	Please don't tell				わたしの　こと
+	para	Please don't tell			line	告訴別人我在這裡呀？		line	告诉别人我在这里呀？	anyone I'm here.	Please don’t tell anyone I’m here.	能不能不要	わたしの　こと	だれにも　いわないで
+	line	anyone I'm here.			cont	這個送給你，		cont	这个送给你，	I'll make it up	I’ll make it up to you with this!	告诉别人我在这里呀？	だれにも　いわないで	これ　あげる　から
+	cont	I'll make it up			cont	……拜託幫我保密吧！		cont	……拜托帮我保密吧！	to you with this!				…　おねがいよ
+	cont	to you with this!			prompt			prompt				这个送给你，	これ　あげる　から	
+	prompt													
+												……拜托帮我保密吧！	……おねがいよ	
+_ReceivedHM02Text::				_ReceivedHM02Text::										
+	text	<PLAYER> received			text	<PLAYER>從女孩那裡		text	<PLAYER>从谜之训练家	<PLAYER> received	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	HM02!@			line	得到了HM02！@		line	那里得到了@	a @	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_end				text_end			text_ram	wStringBuffer	wStringBuffer				
+								text	！@	!@				
+_HM02ExplanationText::				_HM02ExplanationText::				text_end						
+	text	HM02 is FLY.			text	秘傳學習器０２		text	秘传学习器０２	HM02 is FLY.	TM14 is Fly.	招式学习器14是“飞翔”！	わざマシン１４は　そらをとぶ！	ひでんマシン02は　そらをとぶ!
+	line	It will take you			line	是“飛翔”！		line	是“飞翔”！	It will take you				とても　べんりな
+	cont	back to any town.			cont	這是個非常方便的招式！		cont	这是个非常方便的招式！	back to any town.	The user flies up into the sky and attacks on	这个招式可以让宝可梦飞向天空，	そらへと　とびあがって	すばらしい　わざ　なの!
+					para	你要妥善使用哦！		para	你要妥善使用哦！	Put it to good	the next turn.	并在下一个回合攻击对手！	つぎの　ターンに　こうげきするの	だいじに　つかってね!
+	para	Put it to good			done			done		use!				
+	line	use!									Please put it to good use.	你要妥善使用哦！	だいじに　つかってね！	
+	done													
+														
+_HM02NoRoomText::				_HM02NoRoomText::										
+	text	You don't have any			text	你的行李已滿了哦。		text	你的行李已满了哦。	You don't have any	You don’t have enough dough.	你啊……	アナタさま……　さきだつ　ものが	…　おとくな　けいじばん!
+	line	room for this.			done			done		room for this.		最最重要的东西好像不太够噢？	たりませんよ？	ひとの　ポケモンは　ひとの　もの!
+	done										...Dough means money, kid.			やせいの　ポケモンに　だけ
+												最最重要的东西……	さきだつ　もの　とは	モンスターボールを　なげて
+_Route16HouseText_1e652::				_Route16HouseText_1e652::								当然就是指钱咯！	……おかねの　こと　です	つかまえよう!
+	text	FEAROW: Kyueen!			text	大嘴雀：啁～～！		text	大嘴雀：啁～～！	FEAROW: Kyueen!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	done				done			done			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+end				end										4ャよひ
+														つ {PLAYER}  {PLAYER} 

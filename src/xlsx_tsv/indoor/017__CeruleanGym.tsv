@@ -1,0 +1,137 @@
+text/CeruleanGym.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_MistyPreBattleText::				_MistyPreBattleText::										
+	text	Hi, you're a new			text	你！			きみ!		There are ways you can get special bonuses	在这些情况下，	ポケモンを　ほかくする　さい	…　おとくな　けいじばん!
+	line	face!									when you catch a Pokémon!	捕获宝可梦之后会得到奖励加分！	ボーナスが　つく　ケース！	ポケモンを　つかまえる　ときは
+														なるべく　よわらせてから!
+	para	What's your policy			para	你在訓練寶可夢時，			きみは　ポケモン　そだてる　とき		Number one! Time your throw to land when	１！	１！　わっかが　ちいさい　ときに	ポケモンが　げんきだと
+	line	on #MON? What			line	有你自己的原則嗎？			なにか　ポりシーが　ある?		the ring is small!	在圆圈变小时投掷精灵球！	ボールを　あてる！	にげるかも　しれないよ!
+	cont	is your approach?												
+											Number two! Catch them with your first throw...	２！	２！　いっぱつで　ポケモンを	
+	para	My policy is an			para	我的原則就是……			わたしの　ポりシーはね…		And so on!	第一次投球就捉住宝可梦……等等！	つかまえる……　など！	
+	line	all-out offensive			line	派出我的水屬性寶可夢，			みず　タイプ　ポケモンで　せめて					
+	cont	with water-type			cont	痛扁痛扁……痛扁到底哦！			せめて　…せめまくる　ことよ!		You’ll get a lot of good things out of it, such as	除了可以得到更多经验值之外，	けいけんちを　おおく　もらえたり	
+	cont	#MON!									extra Exp. Points.	还会有更多好事发生唷！	いろいろ　いいことが　あるぞ	
+														
+	para	MISTY, the world-			para	好了！			さあ!　せかいの　びしょうじょ					
+	line	famous beauty, is			line	就讓我這世界級美少女			カスミさまが　あいてに　なるわ!					
+	cont	your host!			cont	小霞來做你的對手吧！								
+														
+	para	Are you ready,			para	去吧！			いくわよ!					
+	line	sweetie?			line	我的寶貝！			マーイ　ステディ!					
+	done				done									
+														
+_TM11ExplanationText::				_TM11ExplanationText::										
+	text	TM11 teaches			text	招式學習器１１可以讓		text	招式学习器１１可以让	TM11 teaches	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	BUBBLEBEAM!			line	寶可夢學會“泡沫光線”！		line	宝可梦学会“泡沫光线”！	BUBBLEBEAM!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+					para	你要讓生活在水裡的寶可夢		para	你要让生活在水里的宝可梦	Use it on an				…　シルフ　カンパニー
+	para	Use it on an			line	學學這個招式哦！		line	学学这个招式哦！	aquatic #MON!		……西尔佛公司	……シルフカンパニー	
+	line	aquatic #MON!			done			done						
+	done													
+														
+_MistyCascadeBadgeInfoText::				_MistyCascadeBadgeInfoText::										
+	text	The CASCADEBADGE			text	有了藍色徽章，只要是		text	有了蓝色徽章，只要是	The CASCADEBADGE	Yo!	嗨～！	おーす！	おーす!
+	line	makes all #MON			line	等級在３０以內的寶可夢，		line	等级在３０以内的宝可梦，	makes all #MON	Champ in the making!	未来的冠军！	みらいの　チャンピオン！	みらいの　チャンピオン!
+	cont	up to L30 obey!			cont	都會乖乖聽話哦！		cont	都会乖乖听话哦！	up to L30 obey!				トキワ　りーダーの　しょうたいは
+					para	就算是別人送你的寶可夢		para	就算是别人送你的宝可梦	That includes	Even I don’t know who the Viridian City Gym	我也不知道	トキワ　リーダーの　しょうたいは	おれにも　わからん!
+	para	That includes			line	也包括在內哦。		line	也包括在内哦。	even outsiders!	Leader is.	常青道馆的馆主究竟是谁！	おれにも　わからん！	たしかなのは
+	line	even outsiders!			para	不僅如此，		para	不仅如此，	There's more, you				いままでの　りーダーの
+					line	現在可以隨時隨地		line	现在可以随时随地	can now use CUT	But one thing’s certain:	但既然你已经持有[VAR COLOR(0006)]７个徽章[VAR COLOR(0000)]，	ただ　[VAR COLOR(0006)]バッジを　７つ[VAR COLOR(0000)]　もってる	だれよりも　つよいって　ことだ!
+	para	There's more, you			cont	使用招式“居合斬”了。		cont	使用招式“居合斩”了。	any time!		我相信你一定有资格挑战道馆了！	おまえには　ちょうせんの	それと…
+	line	can now use CUT			para	使用“居合斬”，		para	使用“居合斩”，	You can CUT down	you’re qualified to challenge the Gym Leader			どうも　この　ジムには
+	cont	anytime!			line	可以砍斷小樹，		line	可以砍断小树，	small bushes to	because you have [VAR COLOR(0006)]seven Badges[VAR COLOR(0000)]!	现在我唯一能告诉你的就是，	しかくが　ある　だろう！	じめん　タイプ　ポケモンの
+					cont	並開闢新的道路。		cont	并开辟新的道路。	open new paths!		这里的馆主一定比至今为止		つかいてが　あつまってる　らしいぜ
+	para	You can CUT down			para	……還有，這個是我		para	……还有，这个是我	You can also have	This Gym Leader will be stronger than any		おれに　いえる　ことは	
+	line	small bushes to			line	引以為豪的招式學習器！		line	引以为豪的招式学习器！	my favorite TM!	other Trainers you’ve ever faced.	任何的道馆馆主都要厉害！	ここの　リーダーは　いままでの	
+	cont	open new paths!			done			done						
+											Also, I heard that the Trainers here are	还有就是……	だれよりも　つよい　だろう！	
+	para	You can also have									users of Ground-type Pokémon.	看样子这个道馆里聚集了许多		
+	line	my favorite TM!											それと……	
+	done											使用地面属性宝可梦的人。	どうも　この　ジムには	
+														
+_ReceivedTM11Text::				_ReceivedTM11Text::									じめんタイプ　ポケモンの	
+	text	<PLAYER> received			text	<PLAYER>從小霞那裡					“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	TM11!@			line	得到了TM11！@					2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_end				text_end									
+														
+_TM11NoRoomText::				_TM11NoRoomText::										
+	text	You better make			text	行李已滿了呢。		text	你拿不下	You better make	Thank you for keeping an eye on dear Slowpoke!	谢谢你能	ヤドンちゃんの　こと	セキチク　シティ　サファり　ゾーン
+	line	room for this!						line	自行车了哦。	room for this!	Here, this is for your trouble.	帮我照看小呆呆兽。	みててくれて　ありがとう	いった　こと　あるかね?
+	done				done			done						あそこは　めずらしい　ポケモンが
+												这是我的一点心意，	これ　おだちんよ	たくさん　いた!
+_ReceivedCascadeBadgeText::				_ReceivedCascadeBadgeText::								你愿意收下吗？	うけとって　くださる？	
+	text	I can't			text	誒！我輸了嗎！？			えー!わたしの　まけ!?		???: How many times do I have to tell you?	？？？：我都说了！	？？？『だから	…　…　と　おもった　けど
+	line	believe I lost!									You can’t pass through here right now!	这里现在禁止通行啦！	つうこうどめ　だってば！	にもつが　いっぱい　だから
+														@
+	para	All right!			para	真沒轍！					Don’t children like you have errands to run	小朋友还是快点回去	こどもは　おつかい　でも　して	
+											or something?	帮爸爸妈妈打酱油去吧！	じかん　つぶして　なさいよ！	
+	para	You can have the			para	作為你戰勝我的證明，								
+	line	CASCADEBADGE to			line	藍色徽章就送你了！								
+	cont	show you beat me!												
+	prompt				prompt									
+														
+_CeruleanGymBattleText1::				_CeruleanGymBattleText1::										
+	text	I'm more than good			text	對付你這樣的，		text	对付你这样的，	I'm more than good	LANCE: I’m glad you’ve come.	阿渡：你能来我很高兴。	ワタル『きてくれて　うれしいよ	だれか　ビルに　しのび　こんだと
+	line	enough for you!			line	我一個就綽綽有餘了！		line	我一个就绰绰有余了！	enough for you!				ロケットだんが　さわいでる
+					para	用不著小霞親自出馬。		para	用不着小霞亲自出马。	MISTY can wait!	The newly updated Pokémon League’s reputation	多亏了你，	きみの　おかげで	…　きみの　こと　らしいね
+	para	MISTY can wait!			done			done			has really taken off!	全新宝可梦联盟的口碑也越来越好了！	しんせい　ポケモンリーグの	
+	done													
+											It’s all thanks to you.		ひょうばんは　じょうじょうだ！	
+_CeruleanGymEndBattleText1::				_CeruleanGymEndBattleText1::										
+	text	You			text	我認輸了！		text	我认输了！	You	Whoa!	哇啊！	うわーッ！	うわーッ!
+	line	overwhelmed me!			prompt			prompt		overwhelmed me!	You surprised me!	吓死我了！	びっくり　した！	びっくり　した!
+	prompt													…　なんだ　こどもか
+											...Oh, you’re just a kid?	……什么嘛，是个孩子啊。	……なんだ　こどもか	
+_CeruleanGymAfterBattleText1::				_CeruleanGymAfterBattleText1::										
+	text	You have to face			text	不和形形色色的		text	不和形形色色的	You have to face	BROCK: With a Boulder Badge, Pokémon up to	当你有了灰色徽章，	グレーバッジが　あれば	ブルー　バッジが　あれば
+	line	other trainers to			line	訓練家交手過，		line	训练家交手过，	other trainers to	Lv. 20 from other Trainers will listen to you	即使是从别人手里得到的宝可梦，	ひとから　もらった　ポケモンでも	レべル30までの　ポケモンは
+	cont	find out how good			cont	就無法看清自己的實力呢。		cont	就无法看清自己的实力呢。	find out how good				おとなしく　いうこと　きくわ!
+	cont	you really are.			done			done		you really are.	without question!	只要等级在20以内，	レベル２０まで　なら	それが　たとえ
+	done													ひとから　もらった　ポケモンでもね
+											Oh...and wait!	它们都会听你的话！	いうことを　きいて　くれるぞ！	それと　たたかって　なくても
+_CeruleanGymBattleText2::				_CeruleanGymBattleText2::							Take this with you, too.			いあいぎりが　つかえるわ
+	text	Splash!			text	噗嚕嚕！		text	噗噜噜！	Splash!	What? That’s too bad.	啊～！真没劲！	えー！　つまんないの！	
+					para	首先是我來當你的對手！		para	首先是我来当你的对手！	I'm first up!				つり　こそ
+	para	I'm first up!			line	來戰鬥吧！		line	来战斗吧！	Let's do it!	Let’s do it next time.	下次一定要比试哦！	つぎ　こそ　しようね！	おとこの　ロマン　だ!
+	line	Let's do it!			done			done			Promise me!	一定哦～！	ぜったい　だよ～！	うみでも　かわでも!
+	done													えんりょ　なく
+														つりざおを　つかって　くれい!
+_CeruleanGymEndBattleText2::				_CeruleanGymEndBattleText2::										
+	text	That			text	這不可能！		text	这怎么可能！	That	That can’t be true!	这怎么可能！	そりゃ　ねえだろ	そりゃ　ねえだろ
+	line	can't be!						prompt		can't be true!				
+	prompt				prompt									
+														
+_CeruleanGymAfterBattleText2::				_CeruleanGymAfterBattleText2::										
+	text	MISTY is going to			text	小霞是在此之上		text	小霞是在此之上	MISTY is going to	The trick is this...	做法就是……	やりかたは……	はっはッ!
+	line	keep improving!			line	更為厲害的訓練家！		line	更为厉害的训练家！	keep improving!				はーッ　はっ　はッ!
+					para	她不會輸給		para	她不会输给	She won't lose to	Hrrrkh! You grit your teeth as hard as you can!	先站稳了！	しっかと！	…　はァ　はァ…
+	para	She won't lose to			line	你這樣的人的！		line	你这样的人的！	someone like you!	...If you’ve got ’em...	咬紧牙关，蓄满力道！	はァ　くいしばって　いっきに！	ゲ
+	line	someone like you!			done			done						
+	done										Then all at once, just let ’er rip!			
+														
+_CeruleanGymGuidePreBattleText::				_CeruleanGymGuidePreBattleText::										
+	text	Yo! Champ in			text	喲！		text	哟！	Yo! Champ in	Let me give you some advice!	给你一个小建议吧！	アドバイス　しよう！	おーす!
+	line	making!			line	未來的冠軍！		line	未来的冠军！	making!				みらいの　チャンピオン!
+					para	給你一個小建議吧！		para	给你一个小建议吧！	Here's my advice!	The Gym Leader, Misty, is a pro who uses	这里的馆主小霞	ここの　リーダー　カスミは	アドバイス　しよう!
+	para	Here's my advice!			para	這裡的館主小霞在運用		para	这里的馆主小霞在运用	The LEADER, MISTY,	Water-type Pokémon.	在运用栖息于水中的宝可梦方面	みずに　すむ　ポケモンを　つかう	ここの　りーダー　カスミは
+					line	棲息於水中的寶可夢方面		line	栖息于水中的宝可梦方面	is a pro who uses				みずに　すむ　ポケモンを　つかう
+	para	The LEADER, MISTY,			cont	可是個專家！		cont	可是个专家！	water #MON!	You can drain all their water with	可是个专家！	プロフェッショナルだ！	プロフェッショナルだ!
+	line	is a pro who uses			para	這種時候的策略就是使用		para	这种时候的策略就是使用	You can drain all	Grass-type moves.			こんな　ときは　しょくぶつ　タイプで
+	cont	water #MON!			line	植物寶可夢把水吸乾！		line	植物宝可梦把水吸干！	their water with		这种时候的策略就是	こんな　ときは　くさタイプで	みずを　すいとる　さくせんだ
+					para	……或者用電屬性的寶可夢		para	……或者用电属性的宝可梦	plant #MON!	Or you might use Electric-type moves and	使用草属性宝可梦把水吸干！	みずを　すいとる　さくせんだ	…　それか　でんき　タイプで
+	para	You can drain all			line	來讓對手陷入麻痺狀態		line	来让对手陷入麻痹状态	Or, zap them with	zap them!			しびれ　させるのも　いいぜ
+	line	their water with			cont	也不錯！		cont	也不错！	electricity!		……或者用电属性的宝可梦	……それか　でんき　タイプで	
+	cont	plant #MON!			done			done				来让对手陷入麻痹状态也不错！	しびれ　させるのも　いいぜ	
+														
+	para	Or, zap them with												
+	line	electricity!												
+	done													
+														
+_CeruleanGymGuidePostBattleText::				_CeruleanGymGuidePostBattleText::										
+	text	You beat MISTY!			text	你戰勝了小霞啊！		text	你战胜了小霞啊！	You beat MISTY!	Hey, do you know what Catch Combos are?	连续捕获！	れんぞくゲット！	…　おとくな　けいじばん!
+	line	What'd I tell ya?			line	我說的很管用吧？		line	我说的很管用吧？	What'd I tell ya?		……你知道这个吗？	……って　しってる？	ポケモンを　つかまえる　ときは
+					para	你很厲害呢，		para	你很厉害呢，	You and me kid,	If you keep catching the same species of			なるべく　よわらせてから!
+	para	You and me, kid,			line	我也很厲害吧？		line	我也很厉害吧？	we make a pretty	Pokémon over and over, you’ll have a better	连续捕捉相同种类的宝可梦，	おなじ　しゅるいの　ポケモンを	ポケモンが　げんきだと
+	line	we make a pretty			done			done		darn good team!		就会更容易遇到厉害的宝可梦了！	つづけて　つかまえてると	にげるかも　しれないよ!
+	cont	darn good team!									chance of meeting a really strong one!			
+	done												つよい　ヤツと　であいやすい！	
+end				end										

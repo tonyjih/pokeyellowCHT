@@ -1,0 +1,71 @@
+text/PalletTown.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_OakAppearsText::				_OakAppearsText::										
+	text	OAK: Hey! Wait!			text	大木：喂！		text	大木：喂！	OAK: Hey! Wait!	Yeah! Team Rocket is gone!	万岁～～！	ばんざーい！	ばんざーい!
+	line	Don't go out!@			line	等等！待在那別動！@		line	等等！待在那别动！@	Don't go out!@	I don’t have to be afraid to go outside anymore!	火箭队的人终于滚蛋了！	ロケットだんが　いなくなった！	ロケットだんが　いなくなった!
+	text_end				text_end			text_end						ビビらないで　そと　あるけるんだ!
+												终于可以不用担惊受怕地出门了！	ビビらないで　そと　あるけるんだ！	
+_OakWalksUpText::				_OakWalksUpText::										
+	text	OAK: That was			text	大木：這樣很危險的！		text	大木：这样很危险的！	OAK: It's unsafe!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	close!						line	野生的宝可梦	Wild #MON live	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+								cont	会从草丛中扑过来！	in tall grass!				…　シルフ　カンパニー
+	para	Wild #MON live			para	野生的寶可夢		para	你要是有宝可梦的话，	You need your own		……西尔佛公司	……シルフカンパニー	
+	line	in tall grass!			line	會從草叢中撲過來！		line	就可以战斗了。	#MON for your				
+	done				done			cont	对了！	protection.				
+								para	请你跟我来吧！	I know!				
+_OakWhewText::				_OakWhewText::				done		Here, come with				
+	text	OAK: Whew...			text	大木：呼……			オーキド『ふう…		Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	done				done							给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+											D’aww... Failed again?			
+_OakGrassText::				_OakGrassText::										
+	text	OAK: A #MON can			text	大木：就像這樣，			オーキド『このように　くさむらは		OAK: [VAR TRNAME(0000)].	大木博士：[VAR TRNAME(0000)]！	オーキド『[VAR TRNAME(0000)]！	オーキド『 {PLAYER} !
+	line	appear anytime in			line	不知道什麼時候會有			いつ　ポケモンが　とびだして					ポケモン　りーグを　せいは　したのは
+	cont	tall grass.			cont	寶可夢從草叢裡撲過來！			くるか　わからない!		You understand that your victory was not just	你应该也明白……	ポケモンリーグを　せいは　したのは	ひとりの　ちから　では　ないことを
+											your own doing, don’t you?	你能称霸宝可梦联盟的原因，	ひとりの　ちから　では　ないことを	…　おまえは　わかっとるな!
+	para	You need your own			para	你要是有寶可夢的話，								 {PLAYER} と　ポケモンの
+	line	#MON for your			line	就可以戰鬥了。					It was the marvelous bond you share with your	不单单只有你个人的努力！	……おまえは　わかっとるな！	ぜつみょうな　コンビネーション!
+	cont	protection.			cont	對了！					Pokémon that brought you here.			みごと　だったぞ!
+	cont	I know!										你与宝可梦绝妙的搭配，	[VAR TRNAME(0000)]と　ポケモンの	それでは…　 {PLAYER} !
+											Now, [VAR TRNAME(0000)]!	也是让人刮目相看啊！	ぜつみょうな　コンビネーション！	わたしに　ついて　きなさい!
+	para	Here, come with			para	請你跟我來吧！					Come with me!			
+	line	me!										那么……[VAR TRNAME(0000)]！	みごと　だったぞ！	
+	done				done							请你跟我来吧！		
+													それでは……　[VAR TRNAME(0000)]！	
+_PalletTownText2::				_PalletTownText2::									わしに　ついて　きなさい！	
+	text	I'm raising			text	我也在培育寶可夢哦！		text	我也在培育宝可梦哦！	I'm raising	I’m raising Pokémon, too.	我也在培育宝可梦哦！	わたしも	わたしも
+	line	#MON too!			para	要是它們夠厲害，		para	要是它们够厉害，	#MON too!			ポケモンを　そだててるの！	ポケモンを　そだててるの!
+					line	就可以來給我當保安了呢！		line	就可以来给我当保安了呢！	When they get	When they get strong, they’ll be able to	要是它们够厉害，		つよく　なれば
+	para	When they get			done			done		strong, they can	protect me.	就可以来给我当保安了呢！	つよく　なれば	ガードマンの　かわりに　なるしね
+	line	strong, they can								protect me!			ガードマンの　かわりに　なるしね	
+	cont	protect me!												
+	done													
+														
+_PalletTownText3::				_PalletTownText3::										
+	text	Technology is			text	科學的力量好厲害！		text	科学的力量好厉害！	Technology is	Technology is incredible!	科学的力量好厉害！	かがくの　ちからって　すげー！	かがくの　ちからって　すげー!
+	line	incredible!			para	現在我們可以用電腦，		para	现在我们可以用电脑，	incredible!				いまは　 {5B} つうしんで
+					line	寄放和取出		line	寄放和取出	You can now store	Now you can connect your smartphone to your	现在我们可以通过	いまは　スマートフォンと	どうぐや　ポケモンを
+	para	You can now store			cont	道具和寶可夢了！		cont	道具和宝可梦了！	and recall items	game console and send data between them!	连接智能手机和游戏机	ゲームきを　れんどう　させて	データにして　おくれるんだと
+	line	and recall items			done			done		and #MON as				
+	cont	and #MON as								data via PC!		来传送数据了。	データを　おくれるんだと	
+	cont	data via PC!												
+	done													
+														
+_PalletTownText4::				_PalletTownText4::										
+	text	OAK #MON			text	這裡是		text	这里是	OAK #MON	Oak Pokémon Research Lab	这里是大木博士的	ここは　オーキドはかせの	ここは　たちいり　きんしだ
+	line	RESEARCH LAB			line	大木博士的研究所。		line	大木博士的研究所。	RESEARCH LAB		宝可梦研究所。	ポケモンけんきゅうじょ	かえりなさい!
+	done				done			done						
+														
+_PalletTownText5::				_PalletTownText5::										
+	text	PALLET TOWN			text	這裡是真新鎮。		text	这里是真新镇。	PALLET TOWN	Pallet Town:	这里是真新镇。	ここは　マサラタウン	ここは　マサラ　タウン
+	line	Shades of your			line	真新即是象徵啟程的		line	真新即是象征启程的	Shades of your	Shades of Your Journey Await!	真新即是象征启程的纯白之色。	マサラは　まっしろ　はじまりのいろ	マサラは　まっしろ　はじまりのいろ
+	cont	journey await!			cont	純白之色。		cont	纯白之色。	journey await!				
+	done				done			done						
+														
+_PalletTownText6::				_PalletTownText6::										
+	text	<PLAYER>'s house			text	這裡是		text	这里是	<PLAYER>'s house	Mr. Psychic’s House	超能力大叔的家	エスパーおやじの　いえ	トレーナーぞ
+	done				line	<PLAYER>的家。		line	<PLAYER>的家。					きド5ま
+					done			done						
+_PalletTownText7::				_PalletTownText7::										
+	text	<RIVAL>'s house			text	這裡是		text	这里是	<RIVAL>'s house	Mr. Psychic’s House	超能力大叔的家	エスパーおやじの　いえ	トレーナーぞ
+	done				line	<RIVAL>的家。		line	<RIVAL>的家。					きド5ま
+end					done			done						
+				end										

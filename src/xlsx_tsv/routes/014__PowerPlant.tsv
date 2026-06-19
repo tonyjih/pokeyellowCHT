@@ -1,0 +1,9 @@
+text/PowerPlant.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_VoltorbBattleText::				_VoltorbBattleText::										
+	text	Bzzzt!			text	霹靂靂！		text	霹雳雳！	Bzzzt!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	done				done			done			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_ZapdosBattleText::				_ZapdosBattleText::										つ {PLAYER}  {PLAYER} 
+	text	Gyaoo!@			text	嘯——！@		text	啸——！@	Gyaoo!@	...Huh?	……呃，嗯？	……って　ん？	
+	text_end				text_end			text_end						　ぽ　ぽ　
+end				end							Is that...?	那个是？…………	あれは？　……　……	

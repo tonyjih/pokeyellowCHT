@@ -1,0 +1,24 @@
+text/Route22Gate.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route22GateText_1e704::				_Route22GateText_1e704::										
+	text	Only truly skilled			text	前方只有真正實力雄厚的		text	前方只有真正实力雄厚的	Only truly skilled	Only truly skilled Trainers can pass through here.	前方只有真正实力雄厚的	ここから　さきは	ここから　さきは
+	line	trainers are			line	訓練家才可以通行。		line	训练家才可以通行。	trainers are	You don’t have a Boulder Badge yet![VAR BE05(0005)][VAR BE05(0000)]	训练家才可以通行。	ほんとうに　つよい	ほんとうに　つよい
+	cont	allowed through.			para	你還並沒有		para	你还并没有	allowed through.				ポケモントレーナーだけ　とおれます
+					line	攜帶灰色徽章！@		line	携带灰色徽章！@	You don't have the	You must have it to get to the Pokémon League.	你还并没有	ポケモントレーナーだけ　とおれます	あなたは　まだ
+	para	You don't have the			text_end			text_end		BOULDERBADGE yet!@		携带灰色徽章！[VAR BE05(0005)][VAR BE05(0000)]		グレーバッジを　もって　ませんね!@ゲぼラへ
+	line	BOULDERBADGE yet!@											あなたは　まだ	
+	text_end											我必须依照规定办事，	グレーバッジを　もって　ませんね！[VAR BE05(0005)][VAR BE05(0000)]	
+												不能让你通行！		
+_Route22GateText_1e715::				_Route22GateText_1e715::									きまり　ですから	
+	text_start				text_start			text_start			Hello, stranger!	虽然我不知道你这新人	うみのもの　とも　やまのもの　とも	うみのもの　とも　やまのもの　とも
+					para	我必須依照規定辦事，		para	我必须依照规定办事，	The rules are		是来自山上还是海里，	わからない　しんいり　さん！	わからない　しんいり　さん!
+	para	The rules are			line	不能讓你通行！		line	不能让你通行！	rules. I can't	I can’t tell if you’re from the seas or mountains,			わたしが　もってるのは
+	line	rules. I can't			done			done		let you pass.	but stop and chat.	但我手上的宝可梦可全都来自海里！	わたしが　もってるのは	うみのもの　ばかり　です!
+	cont	let you pass.											うみのもの　ばかり　です！	
+	done										All my Pokémon are from the sea.			
+														
+_Route22GateText_1e71a::				_Route22GateText_1e71a::										
+	text	Oh! That is the			text	噢～～！		text	噢～～！	Oh! That is the	The Safari Zone has the Playful Park out in front!	狩猎地带的入口附近是	サファリゾーンの　いりぐち　ふきんは	サファり　ゾーンは
+	line	BOULDERBADGE!			line	那確實是灰色徽章！		line	那确实是灰色徽章！	BOULDERBADGE!		训练家和宝可梦的互动区！	ポケモンとの　ふれあいエリア！	いりぐち　ふきんは　どうぶつえんで
+	cont	Go right ahead!@			cont	你可以過去了！@		cont	你可以过去了！@	Go right ahead!@	Out back is the GO Park complex!			おくに　いくと　ポケモンが
+	text_end				text_end			text_end				再往里面就是GO Park了！	おく　には　ＧＯパークが　ある！	とりほうだいの　サファり　ゲームじゃ
+end				end										

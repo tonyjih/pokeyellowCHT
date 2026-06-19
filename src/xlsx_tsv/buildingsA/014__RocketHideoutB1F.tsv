@@ -1,0 +1,76 @@
+text/RocketHideoutB1F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_RocketHideout1EndBattleText6::				_RocketHideout1EndBattleText6::										
+	text	Why...?@			text	為什麼……？@		text_start			Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	text_end				text_end			done			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_RocketHideout1BattleText2::				_RocketHideout1BattleText2::										つ {PLAYER}  {PLAYER} 
+	text	Who are you? How			text	……你是誰？		text	……你是谁？	Who are you? How	Who are you?	……你是谁？	……おまえは　だれだ？	…　おまえは　だれだ?
+	line	did you get here?			line	是怎麼進來的？		line	是怎么进来的？	did you get here?	How did you get here?	是怎么进来的？	どうやって　ここに　はいった	どうやって　ここに　はいった
+	done				done			done						
+														
+_RocketHideout1EndBattleText2::				_RocketHideout1EndBattleText2::										
+	text	Oww!			text	啊！被打敗了。		text	啊！被打败了。	Oww!	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	Beaten!			prompt			prompt		Beaten!		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	prompt										D’aww... Failed again?			
+														
+_RocketHideout1AfterBattleTxt2::				_RocketHideout1AfterBattleTxt2::										
+	text	Are you dissing			text	可惡……		text	可恶……	Are you dissing	You two young friends beat Team Rocket?	听说赶走火箭队的	ロケットだん　やっつけたの	ロケットだん　やっつけたの
+	line	TEAM ROCKET?			line	你竟敢小看火箭隊！		line	你竟敢小看火箭队！	TEAM ROCKET?	That’s amazing!	居然是小孩子……真是厉害了！	こどもたち　だって……　すごいな	たった　ひとり　だって…　すごいな
+	done				done			done						
+														
+_RocketHideout1BattleText3::				_RocketHideout1BattleText3::										
+	text	You broke into			text	你這傢伙		text	你这家伙	You broke into	You came barging into our hideout just for that?	没想到你为了这点事	まさか　それだけの　ために	いざ　という　ときの　ために
+	line	our operation?			line	竟敢潛入火箭隊。		line	竟敢潜入火箭队。	our operation?		还专程潜入我们的基地。	アジトまで　のりこんで　くるとは	どうぐは　おおめに　かうべきだね
+	done				done			done						
+														
+_RocketHideout1EndBattleText3::				_RocketHideout1EndBattleText3::										
+	text	Burnt!			text	輸了……！		text_start			Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			done			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_RocketHideout1AfterBattleTxt3::				_RocketHideout1AfterBattleTxt3::										つ {PLAYER}  {PLAYER} 
+	text	You're not going			text	可惡！別以為接下來		text	可恶！别以为接下来	You're not going	You’re not going to get away with this, brat!	可恶！别以为接下来	くそう！　このまま　らくに	くそう!　このまま　らくに
+	line	to get away with			line	你就能輕鬆前進！		line	你就能轻松前进！	to get away with		你就能轻松前进！	すすめると　おもうな！	すすめると　おもうな!
+	cont	this, brat!			done			done		this, brat!				
+	done													
+														
+_RocketHideout1BattleText4::				_RocketHideout1BattleText4::										
+	text	Intruder alert!			text	發現入侵者！		text	发现入侵者！	Intruder alert!	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	done				done			done				给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+											D’aww... Failed again?			
+_RocketHideout1EndBattleText4::				_RocketHideout1EndBattleText4::										
+	text	I			text	啊！輸了麼。		text	啊！输了么。	I	I can’t do it!	啊！输了么。	ああ！　だめか	ああ!　だめか
+	line	can't do it!			prompt			prompt		can't do it!				
+	prompt													
+														
+_RocketHideout1AfterBattleTxt4::				_RocketHideout1AfterBattleTxt4::										
+	text	SILPH SCOPE?			text	嗯……！		text	嗯……！	SILPH SCOPE?	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	I don't know			line	你在找西爾佛檢視鏡嗎？		line	你在找西尔佛检视镜吗？	I don't know	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	where it is!			cont	……我不知道它在哪裡。		cont	……我不知道它在哪里。	where it is!				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_RocketHideout1BattleText5::				_RocketHideout1BattleText5::										
+	text	Why did you come			text	你來這裡有何目的？		text	你来这里有何目的？	Why did you come	Hey! You have Pokémon, right?	嗨！	よーしッ！	よーしッ!
+	line	here?			done			done		here?	Come on!	你有宝可梦的吧？	きみは　ポケモン　もってるな？	きみは　ポケモン　もってるな?
+	done													しょうぶ　しようぜ!
+											Let’s battle ’em!	我们来对战！	しょうぶ　しようぜ！	
+_RocketHideout1EndBattleText5::				_RocketHideout1EndBattleText5::										
+	text	This			text	這樣可不行啊。		text	这样可不行啊。	This	This won’t do!	这样可不行啊。	こりゃ　イカン	こりゃ　イカン
+	line	won't do!			prompt			prompt		won't do!				
+	prompt													
+														
+_RocketHideout1AfterBattleTxt5::				_RocketHideout1AfterBattleTxt5::										
+	text	OK, I'll talk!			text	好吧，我告訴你……		text	好吧，我告诉你……	OK, I'll talk!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	Take the elevator			line	要見我們老大的話，		line	要见我们老大的话，	Take the elevator	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	to see my BOSS!			cont	就去乘電梯吧。		cont	就去乘电梯吧。	to see my BOSS!				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_RocketHideout1BattleText6::				_RocketHideout1BattleText6::										
+	text	Are you lost, you			text	你這孩子……		text	你这孩子……	Are you lost, you	What do you want?	有何贵干！	なんだァ！	なんだァ!
+	line	little rat?			line	是迷路了嗎？		line	是迷路了吗？	little rat?	Get lost, you little squirt!	一边儿去！一边儿去！	てめえ！　あっち　いけ！	ぼうず!　あっち　いけ!
+	done				done			done						
+														
+_RocketHideout1AfterBattleTxt6::				_RocketHideout1AfterBattleTxt6::										
+	text	Uh-oh, that fight			text	咦？在剛才的騷亂中，		text	咦？在刚才的骚乱中，	Uh-oh, that fight	Uh-oh, that ruckus somehow opened the door!	咦？在刚才的骚乱中，	あれ？　いまの　さわぎで	あれ?　いまの　さわぎで
+	line	opened the door!			line	門被開啟了。		line	门被打开了。	opened the door!		门被打开了。	とびらが　あいた　しまった	とびらが　あいて　しまった
+	done				done			done						ぜガ
+end				end										

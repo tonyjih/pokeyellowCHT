@@ -1,0 +1,15 @@
+text/RockTunnelPokecenter.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_RockTunnelPokecenterText2::				_RockTunnelPokecenterText2::										
+	text	The element types			text	由於寶可夢屬性的不同，		text	由于宝可梦属性的不同，	The element types	You’ve got a better chance of catching	朝着宝可梦的正中间	ポケモンの　どまんなかに	ねむり　どく　やけど　マヒ…
+	line	of #MON make			line	既有容易戰勝的寶可夢，		line	既有容易战胜的宝可梦，	of #MON make	a Pokémon if you throw your Poké Ball and	投掷精灵球的话会更容易捉到哦！	ボール　あてると　つかまえやすいよ	ポケモンの　たいちょうが　わるいと
+	cont	them stronger			cont	也有不好對付的寶可夢。		cont	也有不好对付的宝可梦。	them stronger				つかまえ　やすいよ
+	cont	than some types			done			done		than some types	get ’em right in the center!	不过……	でも……　かならず　とれる	でも…　かならず　とれる
+	cont	and weaker than								and weaker than		似乎也不是百分之百能捉到。	わけじゃ　ないみたい	わけじゃ　ないみたい
+	cont	others!								others!	But catching Pokémon is never a sure thing!			ザ
+	done													
+														
+_RockTunnelPokecenterText3::				_RockTunnelPokecenterText3::										
+	text	I sold a useless			text	我說把沒用的金珠賣了吧，		text	我说把没用的金珠卖了吧，	I sold a useless	I sold a Nugget that I had no use for, and I got	我说把没用的金珠卖了吧，	つかいみち　ないから　きんのたまを	つかいみち　ないから　きんのたまを
+	line	NUGGET for ¥5000!			line	結果居然賣了¥5000吶！		line	结果居然卖了¥5000呐！	NUGGET for ¥5000!	5,000 for it!	结果居然卖了5000呐！	うったら　５０００円で　うれた！	うったら　5000円で　うれた!
+	done				done			done						0ゲ
+end				end										

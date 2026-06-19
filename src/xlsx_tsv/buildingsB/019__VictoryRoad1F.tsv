@@ -1,0 +1,33 @@
+text/VictoryRoad1F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_VictoryRoad1BattleText1::				_VictoryRoad1BattleText1::										
+	text	I wonder if you			text	呵呵，對於自己		text	呵呵，对于自己	I wonder if you	I wonder if you are good enough for me...	呵呵，对于自己我还是很有自信的。	ふふ　あたし　じしん　あるわよ	ふふ　あたし　じしん　あるわよ
+	line	are good enough			line	我還是很有自信的。		line	我还是很有自信的。	are good enough		你能对付得了我吗？	あなたの　てに　おえるかな？	あなたの　てに　おえるかな?
+	cont	for me!			cont	你能對付得了我嗎？		cont	你能对付得了我吗？	for me!				
+	done				done			done						
+														
+_VictoryRoad1EndBattleText1::				_VictoryRoad1EndBattleText1::										
+	text	I			text	我輸了……		text	我输了……	I	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	lost out!			prompt			prompt		lost out!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt													
+														
+_VictoryRoad1AfterBattleText1::				_VictoryRoad1AfterBattleText1::										
+	text	I never wanted to			text	我最討厭輸給		text	我最讨厌输给	I never wanted to	I never wanted to lose to anybody, especially to	我最讨厌输给	とししたに　まけるの　だけは	おとこに　まけるの　だけは
+	line	lose to anybody!			line	男生了！		line	男生了！	lose to anybody!	a younger kid...	比我年轻的人了！	いや　だったのに！	いや　だったのに!
+	done				done			done						
+														
+_VictoryRoad1BattleText2::				_VictoryRoad1BattleText2::										
+	text	I can see you're			text	看來你很厲害啊。		text	看来你很厉害啊。	I can see you're	I can see you’re good.	看来你很厉害啊。	なかなか　やりての　ようだな	なかなか　やりての　ようだな
+	line	good! Let me see			line	還望不吝賜教，		line	还望不吝赐教，	good! Let me see	Let me see exactly how good!	还望不吝赐教，指点一二！	おて　あわせ　ねがおうか！	おて　あわせ　ねがおうか!
+	cont	exactly how good!			cont	指點一二！		cont	指点一二！	exactly how good!				
+	done				done			done						
+														
+_VictoryRoad1EndBattleText2::				_VictoryRoad1EndBattleText2::										
+	text	I			text	等我有了寶可夢，		text	等我有了宝可梦，	I	If I had a Pokémon, I would go to	等我有了宝可梦，	ぼくも　ポケモン　もってたら	ぼくも　じてんしゃ　もってたら
+	line	had a chance...			line	我一定要和它一起		line	我一定要和它一起	had a chance...	Pokémon Road, too!	我一定要和它一起去宝可梦大道！	ポケモンロード　いきたーい！	サイクりング　ロード　いきたーい!
+	prompt				cont	去腳踏車道！		cont	去自行车道！					
+					prompt			prompt						
+_VictoryRoad1AfterBattleText2::				_VictoryRoad1AfterBattleText2::										
+	text	I concede, you're			text	切！這就是所謂的		text	切！这就是所谓的	I concede, you're	Tsk.	切！这就是所谓的	ちっ！　うえには	ちっ!　うえには
+	line	better than me!			line	人上有人，天外有天嗎……		line	人上有人，天外有天吗……	better than me!	I concede—you’re better than me!	人上有人，天外有天吗……	うえが　いたって　ことか……	うえが　いたって　ことか…
+	done				done			done						
+end				end										

@@ -1,0 +1,14 @@
+text/SaffronPokecenter.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SaffronPokecenterText2::				_SaffronPokecenterText2::										
+	text	#MON growth			text	寶可夢的種類不同，		text	宝可梦的种类不同，	#MON growth	Pokémon’s growth rates differ from species	宝可梦的种类不同，	ポケモンは　しゅるいに　よって	ポケモンは　しゅるいに　よって
+	line	rates differ from			line	它們成長的節奏		line	它们成长的节奏	rates differ from	to species.	它们成长的节奏	せいちょうする　テンポが	せいちょうする　テンポが
+	cont	specie to specie.			cont	好像也不太一樣呢。		cont	好像也不太一样呢。	specie to specie.				ちがう　らしいわ
+	done				done			done				好像也不太一样呢。	ちがう　らしいわ	
+														
+_SaffronPokecenterText3::				_SaffronPokecenterText3::										
+	text	SILPH CO. is very			text	雖說西爾佛公司		text	虽说西尔佛公司	SILPH CO. is very	Silph Co. is widely known to all.	虽说西尔佛公司	だれもが　みんな　しってる	だれもが　みんな　しってる
+	line	famous. That's			line	無人不知無人不曉……		line	无人不知无人不晓……	famous. That's		无人不知无人不晓……	シルフカンパニー　だが	シルフ　カンパニー　だが
+	cont	why it attracted			cont	俗話說樹大招風，		cont	俗话说树大招风，	why it attracted	It’s a victim of its own fame. It attracted			ゆうめい　だと　それだけ
+	cont	TEAM ROCKET!			cont	被人盯上的風險也不小啊。		cont	被人盯上的风险也不小啊。	TEAM ROCKET!	Team Rocket.	俗话说树大招风，	ゆうめい　だと　それだけ	ねらわれる　きけんも　あるのだ
+	done				done			done				被人盯上的风险也不小啊。	ねらわれる　きけんも　あるのだ	0ゲ
+end				end										

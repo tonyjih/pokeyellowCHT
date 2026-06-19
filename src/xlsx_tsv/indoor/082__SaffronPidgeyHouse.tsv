@@ -1,0 +1,29 @@
+text/SaffronPidgeyHouse.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SaffronHouse1Text1::				_SaffronHouse1Text1::										
+	text	Thank you for			text	……謝謝你給我寫信！		text	……谢谢你给我写信！	Thank you for	...Thank you for writing.	……谢谢你给我写信！	……おてがみ　ありがとう！	…　おてがみ　ありがとう!
+	line	writing. I hope			line	好想快點見到你……		line	好想快点见到你……	writing. I hope	I hope to see you soon!	好想快点见到你……	はやく　あなたに　あいたいな……	はやく　あなたに　あいたいな…
+	cont	to see you soon!			para	哎呀～！		para	哎呀～！	to see you soon!				いやーん!
+					line	不要偷看人家寫信啦！		line	不要偷看人家写信啦！	Hey! Don't look	Hey!	哎呀～！	いやーん！	てがみ　かいてんだから　みないで!
+	para	Hey! Don't look			done			done		at my letter!	Don’t look at my letter!	不要偷看人家写信啦！	てがみ　かいてんだから　みないで！	
+	line	at my letter!												
+	done													
+														
+_SaffronHouse1Text2::				_SaffronHouse1Text2::										
+	text	PIDGEY: Kurukkoo!@			text	波波：咕嚕咕～@		text	波波：咕噜咕～@	PIDGEY: Kurukkoo!@	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	text_end				text_end			text_end				给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+											D’aww... Failed again?			
+_SaffronHouse1Text3::				_SaffronHouse1Text3::										
+	text	The COPYCAT is			text	模仿少女真可愛！		text	模仿少女真可爱！	The COPYCAT is	The Copycat is cute!	模仿少女真可爱！	モノマネむすめって　かわいい！	こんな　かわいい　ポケモンと
+	line	cute! I'm getting			line	我打算給她		line	我打算给她	cute! I'm getting		听说她特别喜欢皮皮，	かのじょ　ピッピが　すきなんだって	いっしょで　あなたも　しあわせね
+	cont	her a # DOLL!			cont	買個皮皮玩偶！		cont	买个皮皮玩偶！	her a # DOLL!	I hear she really likes Clefairy, so I’m gonna go			
+	done				done			done			show it to her once I catch one!	如果我捉到了一定要给她看看！	つかまえたら　みせてあげるんだ！	
+														
+_SaffronHouse1Text4::				_SaffronHouse1Text4::										
+	text	I was given a PP			text	……不久之前		text	……不久之前	I was given a PP	“I was given a PP Up the other day as a gift.	……不久之前	……この　あいだ	…　この　あいだ
+	line	UP as a gift.			line	別人送了我一個%提升劑。		line	别人送了我一个%提升剂。	UP as a gift.		别人送了我一个PP提升剂。	ポイントアップ　もらったの	ポイント　アップ　もらったの
+					para	特別強大的招式%會很少，		para	特别强大的招式%会很少，	It's used for	“You know, a lot of powerful moves have really			すごく　つよい　わざって
+	para	It's used for			line	用這個就能		line	用这个就能	increasing the PP	low PP. Maybe I should use this to give one of	特别强大的招式PP会很少，	すごく　つよい　わざって	パワー　ポイント　すくないけど
+	line	increasing the PP			cont	增加%了吧……？		cont	增加%了吧……？	of techniques!		用这个就能增加PP了吧……？	ＰＰ　すくないけど	これで　ふやせば　いいのね…?
+	cont	of techniques!			done			done			those moves a little more PP...”			ザ
+	done												これで　ふやせば　いいのね……？	
+end				end										

@@ -1,0 +1,223 @@
+text/FuchsiaGym.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_KogaBeforeBattleText::				_KogaBeforeBattleText::										
+	text	KOGA: Fwahahaha!			text	阿桔：……哈！哈！哈！		text	阿桔：……哈！哈！哈！	KOGA: Fwahahaha!	A mere child like you dares to challenge me?	像你这样的小孩子，	こわっぱ　ごときが	きびしい　たたかいを　つづけて
+					para	像你這樣的小孩子，		para	像你这样的小孩子，	A mere child like	The very idea makes me shiver with mirth!	居然想对在下发起挑战……	せっしゃに　たたかいを　いどむとは	ほんとうの　つよさが　みに　つくわ
+	para	A mere child like			line	居然想對在下發起挑戰……		line	居然想对在下发起挑战……	you dares to				
+	line	you dares to			cont	簡直是可笑至極！		cont	简直是可笑至极！	challenge me?	Very well, I shall show you true terror as a	简直是可笑至极！	かたはら　いたいで　ござる！	
+	cont	challenge me?			para	……在毒中自然滅亡！		para	……在毒中自然灭亡！	Very well, I	ninja master!			
+					line	在睡眠中陷入永眠。		line	在睡眠中陷入永眠。	shall show you				
+	para	Very well, I			para	……就讓你見識一下		para	……就让你见识一下	true terror as a				
+	line	shall show you			line	忍術的極致之處吧！		line	忍术的极致之处吧！	ninja master!				
+	cont	true terror as a			done			done		You shall feel				
+	cont	ninja master!								the despair of				
+										poison and sleep				
+	para	You shall feel								techniques!				
+	line	the despair of												
+	cont	poison and sleep												
+	cont	techniques!												
+	done													
+														
+_ReceivedSoulBadgeText::				_ReceivedSoulBadgeText::										
+	text	Humph!			text	嗯……！		text	嗯……！	Humph!	Hmph!	嗯……！	ふん……！	ふん!
+	line	You have proven			line	你可真有一手。		line	你可真有一手。	You have proven	You have proven your worth!	你可真有一手。	おぬし　やるで　ござるな	れいぎを　しらんよ　きみは
+	cont	your worth!			para	喂！		para	喂！	your worth!				
+					line	收下這粉紅徽章吧！		line	收下这粉红徽章吧！	Here! Take the				
+	para	Here! Take the			prompt			prompt		SOULBADGE!				
+	line	SOULBADGE!												
+	prompt													
+														
+_KogaPostBattleAdviceText::				_KogaPostBattleAdviceText::										
+	text	When afflicted by			text	“劇毒”可以使對手		text	“剧毒”可以使对手	When afflicted by	When hit with Toxic’s poisonous effects,	“剧毒”可以使对手在中毒后	どくどくは　どくを　あびたら	どくどくは　どくを　あびたら
+	line	TOXIC, #MON			line	在中毒後，每回合受到		line	在中毒后，每回合受到	TOXIC, #MON	a Pokémon will take more and more damage	每回合受到更大的中毒伤害！	１ターン　ごとに　どんどん	1ターン　ごとに　どんどん
+	cont	suffer more and			cont	更大的中毒傷害！		cont	更大的中毒伤害！	suffer more and				ダメージが　おおきく　なる!
+	cont	more as battle			para	這是個能讓對手		para	这是个能让对手	more as battle	with each turn that passes in battle!	这是个能让对手	ダメージが　おおきく　なる！	これは　あいてに
+	cont	progresses!			line	感受到恐怖的招式。		line	感受到恐怖的招式。	progresses!		感受到恐怖的招式。		きょうふを　あたえる　わざで　ござる
+					done			done		It will surely	It will surely terrorize your opponent!		これは　あいてに	
+	para	It will surely								terrorize foes!			きょうふを　あたえる　わざで　ござる	
+	line	terrorize foes!												
+	done													
+														
+_KogaSoulBadgeInfoText::				_KogaSoulBadgeInfoText::										
+	text	Now that you have			text	有了粉紅徽章，		text	有了粉红徽章，	Now that you have	Now that you have a Soul Badge, Pokémon up	有了粉红徽章，	ピンクバッジを　もって　おれば	ピンク　バッジを　もって　おれば
+	line	the SOULBADGE,			line	你的寶可夢防禦力會提高！		line	你的宝可梦防御力会提高！	the SOULBADGE,	to Lv. [VAR NUM2(0004)] will heed your command if you	无论是从谁那里得到的宝可梦，	だれの　ポケモンでも	おぬしの　ポケモンの
+	cont	the DEFENSE of			para	招式“衝浪”		para	招式“冲浪”	the DEFENSE of				ぼうぎょ　りょくを　あげる!
+	cont	your #MON			line	就算是在戰鬥外		line	就算是在战斗外	your #MON	received them in a trade.	等级[VAR NUM2(0004)]为止的宝可梦都会听命于你！	レベル[VAR NUM2(0004)]　までは	たたかって　ない　ときでも
+	cont	increases!			cont	也可以使用了！		cont	也可以使用了！	increases!				なみのりの　わざを
+					para	對了……！		para	对了……！	It also lets you	Ah! Take this, too.	对了……！这个就给你了！	おぬしに　したがう　ようになる！	つかえる　ように　なる!
+	para	It also lets you			line	這個就給你了！		line	这个就给你了！	SURF outside of				そうだ…!　これを　おぬしに!
+	line	SURF outside of			done			done		battle!			そうだ……！　これを　おぬしに！	
+	cont	battle!								Ah! Take this				
+										too!				
+	para	Ah! Take this												
+	line	too!												
+	done													
+														
+_ReceivedTM06Text::				_ReceivedTM06Text::										
+	text	<PLAYER> received			text	<PLAYER>從阿桔那裡		text	<PLAYER>从谜之训练家	<PLAYER> received	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	@			line	得到了@		line	那里得到了@	a @	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_ram	wStringBuffer			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer				
+	text	!@			text	！@		text	！@	!@				
+	text_end				text_end			text_end						
+														
+_TM06ExplanationText::				_TM06ExplanationText::										
+	text_start				text_start			text_start			“1F: Service Counter	１楼……　服务柜台	１かい……　サービス・カウンター	おくじょう　…　いこいの　ひろば
+	para	TM06 contains			para	這是在下的家族裡		para	这是在下的家族里	TM06 contains		２楼……　训练家广场	２かい……　トレーナーズ・マーケット	　　　　　　…　じどう　はんばいき
+	line	TOXIC!			line	代代相傳了４００年的		line	代代相传了４００年的	TOXIC!	“2F: Trainers’ Market			プ
+					cont	寶可夢招式。		cont	宝可梦招式。	It is a secret		３楼……　电子游戏专卖店	３かい……　テレビ　ゲーム　ショップ	
+	para	It is a secret			para	在這招式學習器０６裡，		para	在这招式学习器０６里，	technique over	“3F: Video Game Shop	４楼……　聪明人礼品店	４かい……　ワイズマン・ギフト	
+	line	technique over			line	封印著絕招“劇毒”！		line	封印着绝招“剧毒”！	400 years old!				
+	cont	400 years old!			done			done			“4F: Wiseman Gifts	５楼……　饰品天地	５かい……　アクセサリー　マーケット	
+	done											顶楼……　自动贩卖机	おくじょう……　じどう　はんばいき	
+											“5F: Accessory Market			
+_TM06NoRoomText::				_TM06NoRoomText::										
+	text	Make space for			text	行李已滿了！		text	行李已满了！	Make space for	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	this, child!			done			done		this, child!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done													
+														
+_FuchsiaGymBattleText1::				_FuchsiaGymBattleText1::										
+	text	Strength isn't			text	光有力量可不行！		text	光有力量可不行！	Strength isn't	Strength isn’t the only key for Pokémon.	光有力量可不行！	ただ　つよい　だけでは　だめだ！	ただ　つよい　だけでは　だめだ!
+	line	the key for			line	……你明白嗎？		line	……你明白吗？	the key for	Do you understand this?	……你明白吗？	……わかるか？	…　わかるか?
+	cont	#MON!			para	寶可夢對戰拼的是技術！		para	宝可梦对战拼的是技术！	#MON!				ポケモンは　テクニックだ!
+					para	既然你來到了這座道館，		para	既然你来到了这座道馆，	It's strategy!	Pokémon battles are about strategy!	宝可梦对战拼的是技术！	ポケモンは　テクニックだ！	この　ジムに　きた　から　には
+	para	It's strategy!			line	那麼我會好好讓你知道		line	那么我会好好让你知道	I'll show you how				そういう　ポケモンの　おく　ふかさ
+					cont	寶可夢對戰是有多麼深奧！		cont	宝可梦对战是有多么深奥！	strategy can beat	I’ll show you how strategy can beat	既然你来到了这座道馆，	この　ジムに　きた　から　には	タップり　おしえて　やる!
+	para	I'll show you how			done			done		brute strength!	brute strength.	那么我会好好让你知道	そういう　ポケモンの　おくぶかさ	
+	line	strategy can beat												
+	cont	brute strength!										宝可梦对战是有多么深奥！	タップリ　おしえて　やる！	
+	done													
+														
+_FuchsiaGymEndBattleText1::				_FuchsiaGymEndBattleText1::										
+	text	What?			text	……！		text	干嘛啊！烦不烦啊！	What're you	What?	……哎呀？	……　おや？	…　おや!?
+	line	Extraordinary!			line	你果然不是泛泛之輩！		done		lookin' at?	[VAR PKNICK(0001)] is evolving?!	[VAR PKNICK(0001)]的样子……	[VAR PKNICK(0001)]の　ようすが……	@
+	prompt				prompt									
+											Nope!	并没有发生变化！	かわらなかった！	
+_FuchsiaGymAfterBattleText1::				_FuchsiaGymAfterBattleText1::										
+	text	So, you mix brawn			text	雖然你這訓練家		text	虽然你这训练家	So, you mix brawn	So, you mix brawn with brains?	虽然你这训练家还是一个孩子，	こどもの　トレーナー　とはいえ	こどもの　トレーナー　とはいえ
+	line	with brains?			line	還是一個孩子，		line	还是一个孩子，	with brains?	Good strategy!	但你不光有力量，	パワー　だけでなく	パワー　だけでなく
+	cont	Good strategy!			cont	但你不光有力量，		cont	但你不光有力量，	Good strategy!				テクニックも　みがいてるな!
+	done				cont	還有高超的技巧！		cont	还有高超的技巧！		That’s remarkable for a child Trainer.	还有高超的技巧！	テクニックも　みがいてるな！	ゲ
+					done			done						
+_FuchsiaGymBattleText2::				_FuchsiaGymBattleText2::										
+	text	I wanted to become			text	身為魔術師的我，		text	身为魔术师的我，	I wanted to become	I was a magician once upon a time.	身为魔术师的我，	マジシャン　だった　おれは	マジシャン　だった　おれは
+	line	a ninja, so I			line	因為憧憬成為一名忍者，		line	因为憧憬成为一名忍者，	a ninja, so I		因为憧憬成为一名忍者，	ニンジャに　あこがれて	ニンジャに　あこがれて
+	cont	joined this GYM!			cont	所以加入了這個淺紅道館！		cont	所以加入了这个浅红道馆！	joined this GYM!	But I dreamed of becoming a ninja, so I joined			この　セキチク　ジムに　はいった!
+	done				done			done			this Gym.	所以加入了这个浅红道馆！	この　セキチクジムに　はいった！	
+														
+_FuchsiaGymEndBattleText2::				_FuchsiaGymEndBattleText2::										
+	text	I'm done			text	……被打敗了！		text	……被打败了！	I'm done	I’m done for!	……被打败了！	……やられた！	トレーナーぞ
+	line	for!			prompt			prompt		for!				きド5ま
+	prompt													
+														
+_FuchsiaGymAfterBattleText2::				_FuchsiaGymAfterBattleText2::										
+	text	I will keep on			text	即便輸了，		text	即便输了，	I will keep on	Even though I’ve lost, I will keep training	即便输了，	たとえ　まけても　おれは	たとえ　まけても　おれは
+	line	training under			line	我也打算一生貫徹		line	我也打算一生贯彻	training under	according to the teachings of Koga,	我也打算一生贯彻	ニンジャ　マスター	ニンジャ　マスター
+	cont	KOGA, my ninja			cont	忍者大師阿桔的教誨。		cont	忍者大师阿桔的教诲。	KOGA, my ninja				キョウの　おしえに　いきる　つもりだ
+	cont	master!			done			done		master!	my ninja master.	忍者大师阿桔的教诲。	キョウの　おしえに　いきる　つもりだ	ゲ
+	done													
+														
+_FuchsiaGymBattleText3::				_FuchsiaGymBattleText3::										
+	text	Let's see you			text	讓你好好感受下		text	让你好好感受下	Let's see you	Let’s see you beat my special techniques!	让你好好感受下	おれの　ポケモン　あやしの　わざ	おれの　ポケモン　あやしの　わざ
+	line	beat my special			line	我寶可夢那奇異的招式！		line	我宝可梦那奇异的招式！	beat my special		我宝可梦那奇异的招式！	たっぷりと　あじわいな！	たっぷりと　あじわいな!
+	cont	techniques!			done			done		techniques!				
+	done													
+														
+_FuchsiaGymEndBattleText3::				_FuchsiaGymEndBattleText3::										
+	text	You			text	……原來如此！		text	……原来如此！	You	You had me fooled!	……原来如此！	……そうか！	…　そうか!
+	line	had me fooled!			line	你也是使用招式的好手麼？		line	你也是使用招式的好手么？	had me fooled!		你也是使用招式的好手么？	おまえも　わざ　つかいか？	おまえも　わざ　つかいか?
+	prompt				prompt			prompt						
+														
+_FuchsiaGymAfterBattleText3::				_FuchsiaGymAfterBattleText3::										
+	text	I like poison and			text	毒、睡眠這些效果		text	毒、睡眠这些效果	I like poison and	I like poison and sleep effects, as they linger	毒、睡眠这些效果就算是在	たたかい　おわった　あとでも	たたかい　おわった　あとでも
+	line	sleep techniques,			line	就算是在戰鬥結束後		line	就算是在战斗结束后	sleep techniques,	after battle!	战斗结束后也会持续存在，	どく　ねむり　といった　こうかは	どく　ねむり　といった　こうかは
+	cont	as they linger			cont	也會持續存在，		cont	也会持续存在，	as they linger				のこる　ところが　すき　だぜ!
+	cont	after battle!			cont	我就喜歡它們這一點！		cont	我就喜欢它们这一点！	after battle!		我就喜欢它们这一点！	のこる　ところが　すき　だぜ！	ゲ
+	done				done			done						
+														
+_FuchsiaGymBattleText4::				_FuchsiaGymBattleText4::										
+	text	Stop right there!			text	啊！你站住！		text	啊！你站住！	Stop right there!	Stop right there!	啊！你站住！	おっと！　まちな！	おっと!　まちな!
+					para	淺紅道館的特色系統		para	浅红道馆的特色系统	Our invisible				セキチク　ジムの　めいぶつ
+	para	Our invisible			line	“看不見的牆壁”如何？		line	“看不见的墙壁”如何？	walls have you	What do you think about the famed invisible	浅红道馆的特色系统	セキチクジムの　めいぶつ	みえない　かべ　システムは　どうだ
+	line	walls have you			done			done		frustrated?	walls of the Fuchsia City Gym?	“看不见的墙壁”如何？	みえない　かべ　システムは　どうだ	
+	cont	frustrated?												
+	done													
+														
+_FuchsiaGymEndBattleText4::				_FuchsiaGymEndBattleText4::										
+	text	Whoa!			text	……哦！		text	……哦！	Whoa!	It’s so pleasant...	真舒服……	きもち　いい……	おし!
+	line	He's got it!			line	有兩下子啊！		line	有两下子啊！	He's got it!		……呼……呼～	……　すー……　すー	いい　しょうぶ　だった
+	prompt				prompt			prompt			... ... ...			
+														
+_FuchsiaGymAfterBattleText4::				_FuchsiaGymAfterBattleText4::							... ... Zzz.			
+	text	You impressed me!			text	你好像很有骨氣嘛！那就		text	你好像很有骨气嘛！那就	You impressed me!	You impressed me!	你好像很有骨气嘛！	おまえは　ほねが　ありそう　だ！	おまえは　ほねが　ありそう　だ!
+	line	Here's a hint!			line	破例給你一個提示好了！		line	破例给你一个提示好了！	Here's a hint!	Here’s a hint!	那就破例给你一个提示好了！	とくべつに　ヒントを　おしえよう！	とくべつに　ヒントを　おしえよう!
+					para	仔細看的話，就能發現		para	仔细看的话，就能发现	Look very closely				みえない　かべは　よく　みると
+	para	Look very closely			line	“看不見的牆壁”上的		line	“看不见的墙壁”上的	for gaps in the	Look very closely for gaps in the invisible walls!	仔细看的话，就能发现	みえない　かべは　よく　みると	しきりが　みえて　くる…!
+	line	for gaps in the			cont	縫隙哦……！		cont	缝隙哦……！	invisible walls!		“看不见的墙壁”上的缝隙哦……！	しきりが　みえて　くる……！	ゲ
+	cont	invisible walls!			done			done						
+	done													
+														
+_FuchsiaGymBattleText5::				_FuchsiaGymBattleText5::										
+	text	I also study the			text	我也是		text	我也是	I also study the	I also study the way of the ninja with	我也是忍者阿桔的弟子！	この　おれも	この　おれも
+	line	way of the ninja			line	忍者阿桔的弟子！		line	忍者阿桔的弟子！	way of the ninja	Master Koga!	据说忍者过去就经常利用活物。	ニンジャ　キョウの　もんかせい！	ニンジャ　キョウの　もんかせい!
+	cont	with master KOGA!			para	據說忍者過去		para	据说忍者过去	with master KOGA!				ニンジャは　むかし　から
+					line	就經常利用活物。		line	就经常利用活物。	Ninja have a long	Ninja have a long history of using creatures!		ニンジャは　むかし　から	よく　どうぶつを　つかった　という
+	para	Ninja have a long			done			done		history of using			よく　いきものを　つかった　という	
+	line	history of using								animals!				
+	cont	animals!												
+	done													
+														
+_FuchsiaGymEndBattleText5::				_FuchsiaGymEndBattleText5::										
+	text	Awoo!			text	哇啊……！		text_start			Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			done			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_FuchsiaGymAfterBattleText5::				_FuchsiaGymAfterBattleText5::										つ {PLAYER}  {PLAYER} 
+	text	I still have much			text	不行，不行！		text	不行，不行！	I still have much	I still have much to learn.	不行，不行！	まだ　まだ！	まだ　まだ!
+	line	to learn!			line	我的修行還不夠。		line	我的修行还不够。	to learn!		我的修行还不够。	おれには　しゅぎょうが　たりない	おれには　しゅぎょうが　たりない
+	done				done			done						ゲ
+														
+_FuchsiaGymBattleText6::				_FuchsiaGymBattleText6::										
+	text	Master KOGA comes			text	這裡的館主阿桔		text	这里的馆主阿桔	Master KOGA comes	Master Koga descended from a family of ninja.	阿桔可是百年世家	キョウは　なんびゃくねんも　つづく	ここの　りーダー　キョウは
+	line	from a long line			line	可是伊賀忍者家族的子孫！		line	可是伊贺忍者家族的子孙！	from a long line	A tradition that’s lasted for hundreds of years!	忍者家族的子孙！	ニンジャの　かけいの　しそんよ！	イガ　ニンジャの　しそんだ!
+	cont	of ninjas!			para	喂！		para	喂！	of ninjas!				おいッ!
+					line	你是誰的子孫？		line	你是谁的子孙？	What did you	What did you descend from?	你是谁的子孙？	あなたは　なにの　しそん　なの？	おまえは　なにの　しそん　なんだ?
+	para	What did you			done			done		descend from?				
+	line	descend from?												
+	done													
+														
+_FuchsiaGymEndBattleText6::				_FuchsiaGymEndBattleText6::										
+	text	Dropped			text	有兩把刷子！		text	有两把刷子！	Dropped	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	my balls!			prompt			prompt		my balls!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt													
+														
+_FuchsiaGymAfterBattleText6::				_FuchsiaGymAfterBattleText6::										
+	text	Where there is			text	……有光的地方		text	……有光的地方	Where there is	Where there is light, there is shadow!	……有光的地方就有阴影！	……ひかり　ある　ところに	…　ひかり　ある　ところに
+	line	light, there is			line	就有陰影！		line	就有阴影！	light, there is		光与阴影！	かげが　ある！	かげが　ある!
+	cont	shadow!			para	光與陰影！		para	光与阴影！	shadow!	Light and shadow!			ひかりと　かげ!
+					line	你會選擇哪一方呢？		line	你会选择哪一方呢？	Light and shadow!	Which do you choose?	你会选择哪一方呢？	ひかりと　かげ！	おまえは　どちらを　えらぶ?
+	para	Light and shadow!			done			done		Which do you			あなたは　どちらを　えらぶ？	ゲ4ヅらひ
+	line	Which do you								choose?				
+	cont	choose?												
+	done													
+														
+_FuchsiaGymGuidePreBattleText::				_FuchsiaGymGuidePreBattleText::										
+	text	Yo! Champ in			text	嗨～！		text	嗨～！	Yo! Champ in	The Fuchsia City Gym is a tricked-up place.	浅红道馆是个戏法屋，	セキチクジムは　からくり　やしき	おーす!
+	line	making!			line	未來的冠軍！		line	未来的冠军！	making!	It’s riddled with invisible walls!	室内被隐形墙壁分隔开来！	みえない　かべで　しきられてる！	みらいの　チャンピオン!
+					para	淺紅道館是個戲法屋，		para	浅红道馆是个戏法屋，	FUCHSIA GYM is				セキチク　ジムは　からくり　やしき
+	para	FUCHSIA GYM is			line	室內被隱形牆壁分隔開來！		line	室内被隐形墙壁分隔开来！	riddled with	Koga might look within reach, sure...	即使阿桔那家伙	キョウの　やつは　すぐ　そこに	みえない　かべで　しきられてる!
+	line	riddled with			para	即使阿桔那傢伙		para	即使阿桔那家伙	invisible walls!	but it’s not always that easy!	看上去离你不远……	いる　ように　みえるが……	キョウの　やつは　すぐ　そこに
+	cont	invisible walls!			line	看上去離你不遠……		line	看上去离你不远……	KOGA might appear				いる　ように　みえるが…
+					para	如果你找不到		para	如果你找不到	close, but he's	You’ll have to find the gaps in the walls if you	如果你找不到隐形墙壁的缺口，	みえない　かべの　とぎれてる　とこを	みえない　かべの　とぎれてる　とこを
+	para	KOGA might appear			line	隱形牆壁的缺口，		line	隐形墙壁的缺口，	blocked off!	hope to reach him for a battle.	就永远没法站到他面前了！	さがし　ださないと　あえないぜ！	さがし　ださないと　あえないぜ!
+	line	close, but he's			cont	就永遠沒法站到他面前了！		cont	就永远没法站到他面前了！	You have to find				
+	cont	blocked off!			done			done		gaps in the walls				
+										to reach him!				
+	para	You have to find												
+	line	gaps in the walls												
+	cont	to reach him!												
+	done													
+														
+_FuchsiaGymGuidePostBattleText::				_FuchsiaGymGuidePostBattleText::										
+	text	It's amazing how			text	看來你已經見識到		text	看来你已经见识到	It's amazing how	It’s amazing how terrifying ninjas can be, even	看来你已经见识到	げんだいに　なお　いき　のこる	げんだいに　なお　いき　のこる
+	line	ninja can terrify			line	傳承至今的忍者		line	传承至今的忍者	ninja can terrify	today in the modern age!	传承至今的忍者有多厉害了！	ニンジャの　こわさを　みたな！	ニンジャの　こわさを　みたな!
+	cont	even now!			cont	有多厲害了！		cont	有多厉害了！	even now!				
+	done				done			done						
+end				end										

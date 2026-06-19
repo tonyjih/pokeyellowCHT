@@ -1,0 +1,111 @@
+text/Route10.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route10BattleText1::				_Route10BattleText1::										
+	text	Wow, are you a			text	竟有人會來到這種地方。		text	竟有人会来到这种地方。	Wow, are you a	Wow, you came all the way here?	竟有人会来到这种地方。	こんな　とこ　まで　くる　とは	こんな　とこ　まで　くる　とは
+	line	#MANIAC too?			line	難道你也是愛好者？		line	难道你也是爱好者？	#MANIAC too?	Maybe you’re a Poké Maniac, too?	难道你也是爱好者？	きみも　マニア？　……じゃ	きみも　マニア?　…　じゃ
+	cont	Want to see my			cont	……那麼，		cont	……那么，	Want to see my				ぼくの　コレクション　みる?
+	cont	collection?			cont	讓你看看我的收藏吧。		cont	让你看看我的收藏吧。	collection?	Want to see my collection?	……那么，让你看看我的收藏吧。	ぼくの　コレクション　みる？	
+	done				done			done						
+														
+_Route10EndBattleText1::				_Route10EndBattleText1::										
+	text	Humph.			text	呵呵……！		text	呵呵……！	Humph.	Humph.	呵呵……！	へーん……！	へーん…!
+	line	I'm not angry!			line	我不後悔！		line	我不后悔！	I'm not angry!	I’m not angry!	我不后悔！	くやしく　ないよ！	くやしく　ないよ!
+	prompt				prompt			prompt						
+														
+_Route10AfterBattleText1::				_Route10AfterBattleText1::										
+	text	I have more rare			text	我家裡還有		text	我家里还有	I have more rare	I have more rare Pokémon at home!	我家里还有	うちに　かえれば　もっと	うちに　かえれば　もっと
+	line	#MON at home!			line	更珍貴的寶可夢。		line	更珍贵的宝可梦。	#MON at home!		更珍贵的宝可梦。	めずらしい　ポケモン　あるもん	めずらしい　ポケモン　あるもん
+	done				done			done						ゲ
+														
+_Route10BattleText2::				_Route10BattleText2::										
+	text	Ha-hahah-ah-ha!			text	哈、哈哈！		text	哈、哈哈！	Ha-hahah-ah-ha!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	done				done			done			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_Route10EndBattleText2::				_Route10EndBattleText2::										つ {PLAYER}  {PLAYER} 
+	text	Ha-haha!			text	哈！哈——		text	哈！哈——	Ha-haha!	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	Not laughing!			line	哈哈……其實……		line	哈哈……其实……	Not laughing!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	cont	Ha-hay fever!			cont	是我好像吃到笑菇了。		cont	是我好像吃到笑菇了。	Ha-hay fever!				
+	cont	Haha-ha-choo!			prompt			prompt		Haha-ha-choo!				
+	prompt													
+														
+_Route10AfterBattleText2::				_Route10AfterBattleText2::										
+	text	Haha-ha-choo!			text	哈哈！		text	哈哈！	Haha-ha-choo!	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	Ha-choo!			line	哈、哈、哈！		line	哈、哈、哈！	Ha-choo!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	cont	Snort! Snivel!			cont	哈啊……哈啊……		cont	哈啊……哈啊……	Snort! Snivel!				
+	done				done			done						
+														
+_Route10BattleText3::				_Route10BattleText3::										
+	text	Hi, kid, want to			text	對了、對了！		text	对了、对了！	Hi kid, want to	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	see my #MON?			line	你要看看我的寶可夢嗎？		line	你要看看我的宝可梦吗？	see my #MON?	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	done				done			done						…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_Route10EndBattleText3::				_Route10EndBattleText3::										
+	text	Oh no!			text	啊！		text	啊！	Oh no!	Oh!	……！	……！	 {next} 
+	line	My #MON!			line	這可是我寶貴的寶可夢啊！		line	这可是我宝贵的宝可梦啊！	My #MON!	It appears it is my loss...	我输了。	まいり　ましたわ	@
+	prompt				prompt			prompt						 {PLAYER}  {RIVAL} ポケモン
+											... ... ...	………………	……　……　……	…
+_Route10AfterBattleText3::				_Route10AfterBattleText3::										
+	text	I don't like you			text	……我討厭你！		text	……我讨厌你！	I don't like you	I won’t encounter a Trainer like you for around	像你这样的训练家，	あなた　ほどの　トレーナーは	トキワの　もり　…　でぐち
+	line	for beating me!			line	我討厭比我強的傢伙！		line	我讨厌比我强的家伙！	for beating me!	another three years.	今后３年应该再也见不到了。	このさき　３ねんは　あらわれない　わね	このさき　ニビ　シティ
+	done				done			done						
+														
+_Route10BattleText4::				_Route10BattleText4::										
+	text	I've been to a			text	我有時也會去寶可夢道館！		text	我有时也会去宝可梦道馆！	I've been to a	I’ve been out at a Pokémon Gym a few times...	我有时也会去宝可梦道馆！	ぼくも　たまに	わたしも　たまに
+	line	#MON GYM a few			line	……雖然每次都輸。		line	……虽然每次都输。	#MON GYM a few	but I always lose.	……虽然每次都输。	ポケモンジムに　いくよ！	ポケモン　ジムに　いくの!
+	cont	times. But, I			done			done		times. But, I				…　…　まけちゃう　けどね
+	cont	lost each time.								lost each time.			……まけちゃう　けどね	
+	done													
+														
+_Route10EndBattleText4::				_Route10EndBattleText4::										
+	text	Ohh!			text	真是的……！		text	真是的……！	Ohh!	It’s so pleasant...	真舒服……	きもち　いい……	おし!
+	line	Blew it again!			line	明明已經特訓過了。		line	明明已经特训过了。	Blew it again!		……呼……呼～	……　すー……　すー	いい　しょうぶ　だった
+	prompt				prompt			prompt			... ... ...			
+														
+_Route10AfterBattleText4::				_Route10AfterBattleText4::							... ... Zzz.			
+	text	I noticed some			text	對了……！		text	对了……！	I noticed some	I noticed some Poké Maniacs prowling around.	对了……！有些爱好者还会	ねえ……！	ねえ…!
+	line	#MANIACs			line	有些愛好者還會到這樣的		line	有些爱好者还会到这样的	#MANIACs		到这样的深山野林里来呢……	こんな　やま　みちに	こんな　やま　みちに
+	cont	prowling around.			cont	深山野林裡來呢……		cont	深山野林里来呢……	prowling around.	Can you imagine? Them?			マニアが　いる　のよ…　みた?
+	done				para	你見到他們了？		para	你见到他们了？		Up here in the mountains?	你见到他们了？	マニアが　いるんだ……　みた？	ゲ
+					done			done						
+_Route10BattleText5::				_Route10BattleText5::										
+	text	Ah! This mountain			text	吸～呼～！吸～呼～！		text	吸～呼～！吸～呼～！	Ah! This mountain	Aaaaaahhh...	吸～呼～！吸～呼～！	すーはー　すーはー！	すーはー　すーはー!
+	line	air is delicious!			line	山上的空氣好清新啊！		line	山上的空气好清新啊！	air is delicious!	This mountain air is delicious!	山上的空气好清新啊！	やまの　くうきは　うまいッ！	やまの　くうきは　うまいッ!
+	done				done			done						
+														
+_Route10EndBattleText5::				_Route10EndBattleText5::										
+	text	That			text	吸～呼～！		text	吸～呼～！	That	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	cleared my head!			line	啊，我輸了！		line	啊，我输了！	cleared my head!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt				prompt			prompt						
+														
+_Route10AfterBattleText5::				_Route10AfterBattleText5::										
+	text	I feel bloated on			text	山上的空氣吸多後，		text	山上的空气吸多后，	I feel bloated on	I feel bloated on mountain air!	山上的空气吸多后，	やまの　くうき	やまの　くうき
+	line	mountain air!			line	肚子鼓起來了！		line	肚子鼓起来了！	mountain air!		肚子鼓起来了！	すい　すぎて　はらが　ふくれた！	すい　すぎて　はらが　ふくれた!
+	done				done			done						ゲ
+														
+_Route10BattleText6::				_Route10BattleText6::										
+	text	I'm feeling a bit			text	哈啊……！		text	哈啊……！	I'm feeling a bit	I’m a huge Raichu fan who came all the way	我是来自阿罗拉的雷丘爱好者！	わたし　アローラから　きた	…　きみは　とても　だいじに
+	line	faint from this			line	好久沒走山路了，		line	好久没走山路了，	faint from this	from Alola!		ライチュウ　マニア！	ポケモンを　そだてて　いるな
+	cont	tough hike.			cont	好像有點貧血。		cont	好像有点贫血。	tough hike.		你愿意拿关都的雷丘和		そんな　こどもに
+	done				done			done			Let’s trade your Kantonian Raichu and	我的阿罗拉的雷丘交换吗？	あなたの　カントー　ライチュウと	わたしの　かんがえは
+											my Alolan Raichu again!		わたしの　アローラ　ライチュウ	とても　りかい　できないだろう
+_Route10EndBattleText6::				_Route10EndBattleText6::										　…!
+	text	I'm			text	……身體不好，		text	……身体不好，	I'm	Hey, I hope you show me an amazing match	今天也让我见识你	きょうも　すごい　しあいを	ほっほう!
+	line	not up to it!			line	輸了也是正常的。		line	输了也是正常的。	not up to it!	today, too! I’m looking forward to it!	精彩的对决吧！	みせて　くれよ！	では…　わしが
+	prompt				prompt			prompt						おてほんを　みせて　やるかな!
+												我真的非常期待哦！	きたい　してるぜ！	
+_Route10AfterBattleText6::				_Route10AfterBattleText6::										
+	text	The #MON here			text	山裡的寶可夢全都長得		text	山里的宝可梦全都长得	The #MON here	The Pokémon here in the mountains are	山里的宝可梦全都长得	やまの　ポケモンって	やまの　ポケモンって
+	line	are so chunky!			line	虎背熊腰的……		line	虎背熊腰的……	are so chunky!	so chunky...	虎背熊腰的……	ごついの　ばっかり……	ごついの　ばっかり…
+	cont	There should be a			cont	要是有寶可夢能擁有		cont	要是有宝可梦能拥有	There should be a				ピンクの　はながらの
+	cont	pink one with a			cont	粉色花紋那該多好。		cont	粉色花纹那该多好。	pink one with a	I wish there were pink Pokémon with a	要是有宝可梦能拥有	ピンクの　はながらの	ポケモンが　いれば　いいのに
+	cont	floral pattern!			done			done		floral pattern!	floral pattern!	粉色花纹那该多好。		
+	done												ポケモンが　いれば　いいのに	
+														
+_Route10Text9::				_Route10Text9::										
+_Route10Text7::				_Route10Text7::				text	这里是海角小屋	SEA COTTAGE		Text File: 453		トレーナーぞ
+	text	ROCK TUNNEL			text	這裡是岩山隧道		text	这里是岩山隧道	ROCK TUNNEL	Rock Tunnel	这里是岩山隧道	ここは　イワヤマトンネル	ここは　ポケモン　りーグ
+	done				done			done			(To Lavender Town)	前往紫苑镇的小路	シオンタウンへの　まわりみち	しょうめん　ゲート
+														4ャよひ
+_Route10Text10::				_Route10Text10::										つ {PLAYER}  {PLAYER} 
+	text	POWER PLANT			text	這裡是無人發電廠		text	这里是无人发电厂	POWER PLANT	Power Plant Passes	发电厂通行证	はつでんしょパス	トレーナーぞ
+	done				done			done						きド5ま
+end				end										

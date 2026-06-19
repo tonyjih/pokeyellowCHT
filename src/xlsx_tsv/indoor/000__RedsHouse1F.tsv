@@ -1,0 +1,44 @@
+text/RedsHouse1F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_MomWakeUpText::				_MomWakeUpText::										
+	text	MOM: Right.			text	媽媽：……是這樣啊，		text	妈妈：……是这样啊，	MOM: Right.	All right! Now that everything’s back to normal,	好了！既然这里恢复了和平，	よし！　へいわに　なったし	
+	line	All boys leave			line	男孩子都是志在四方的嘛，		line	男孩子都是志在四方的嘛，	All boys leave	I guess it’s time for the next Pokémon Gym!	接下来就继续我们的道馆之旅吧！	また　ポケモンジム　めぐりだな！	　ぽ　ぽ　
+	cont	home someday.			cont	嗯……電視上是這麼說的！		cont	嗯……电视上是这么说的！	home some day.				
+	cont	It said so on TV.			\			\		It said so on TV.	Have you been to the [VAR COLOR(0006)]Saffron City Gym[VAR COLOR(0000)]	[VAR TRNAME(0000)]你	[VAR TRNAME(0000)]は	
+					para	說起來，		para	说起来，	PROF.OAK, next	already, [VAR TRNAME(0000)]?	去过[VAR COLOR(0006)]金黄道馆[VAR COLOR(0000)]了吗？	[VAR COLOR(0006)]ヤマブキ　ジム[VAR COLOR(0000)]　いったか？	
+	para	PROF.OAK, next			line	隔壁的大木博士		line	隔壁的大木博士	door, is looking				
+	line	door, is looking			cont	正在找你哦。		cont	正在找你哦。	for you.	How many Badges have you got?	你现在有几个道馆徽章呢？	いま　ジムバッジ　いくつ？	
+	cont	for you.			done			done						
+	done										...That many, huh? Wow.	……噢，是嘛。	……へー　そっか	
+														
+_MomHealText1::				_MomHealText1::										
+	text	MOM: <PLAYER>, if			text	媽媽：<PLAYER>……！			おかあさん『 {PLAYER} …!		MOM: Oh, goodness, [VAR TRNAME(0000)]!	妈妈：哎呀，不好……！	おかあさん『ああ　たいへん……！	おかあさん『あらあら!
+	line	you drive your			line	如果讓寶可夢硬撐的話，			あんまり　むり　させてると		You and your Pokémon have been pushing	[VAR TRNAME(0000)]你和宝可梦	[VAR TRNAME(0000)]も　ポケモンも	あなたも　ポケモンも
+	cont	#MON too hard,			cont	它們會不喜歡你呢。			ポケモンに　きらわれるわよ					げんき　いっぱいね!
+	cont	they'll dislike									yourselves a bit too hard, haven’t you?	也太逞强了！	がんばり　すぎちゃった　のね	それじゃ　きを　つけて!
+	cont	you.												いってらっしゃい!
+											I think you could use a little rest.	快去休息一下吧。	すこし　きゅうけい　すると　いいわ	
+	para	You should take a			para	要不要休息一下呢……？			やすんで　いったら　どうかしら…?					
+	line	rest.												
+	prompt				prompt									
+														
+_MomHealText2::				_MomHealText2::										
+	text	MOM: Oh good!			text	媽媽：		text	妈妈：	MOM: Oh good!	MOM: Much better!	太好了！	よかった！	ポケモンも　クイズも　すきなのさ
+	line	You and your			line	你和寶可夢都恢復活力了！		line	你和宝可梦都恢复活力了！	You and your	You and your Pokémon are looking great now!	[VAR TRNAME(0000)]你和宝可梦	[VAR TRNAME(0000)]も　ポケモンも	
+	cont	#MON are			cont	路上要多注意安全！		cont	路上要多注意安全！	#MON are				
+	cont	looking great!			cont	要多保重！		cont	要多保重！	looking great!		都恢复活力了！	げんきに　なった　わね！	
+	cont	Take care now!			done			done		Take care now!				
+	done													
+														
+_StandByMeText::				_StandByMeText::										
+	text	There's a movie			text	電視上正在放電影！		text	电视上正在放电影！	There's a movie	They are showing a movie on TV.	电视上正在放电影！	テレビで　えいがを　やってる！	テレビで　えいがを　やってる!
+	line	on TV. Four boys			line	有４個男孩子		line	有４个男孩子	on TV. Four boys		有４个男孩子	おとこのこが　４にん	おとこのこが　4にん
+	cont	are walking on			cont	正在鐵軌上走……		cont	正在铁轨上走……	are walking on	The scene is showing four boys walking down			せんろのうえを　あるいてる…
+	cont	railroad tracks.			para	……我也該趕緊出發了！		para	……我也该赶紧出发了！	railroad tracks.	a set of railroad tracks...	正在铁轨上走……	せんろの　うえを　あるいてる……	…　ぼくも　もう　いかなきゃ!
+					done			done		I better go too.				
+	para	I better go too.									But it’s time you got going!	……我也该赶紧出发了！	……ぼくも　もう　いかなきゃ！	
+	done													
+														
+_TVWrongSideText::				_TVWrongSideText::										
+	text	Oops, wrong side.			text	看不見……		text	看不见……	Oops, wrong side.	Oops, wrong side...	看不见……	みえない……	トレーナーぞ
+	done				done			done						きド5ま
+end				end										

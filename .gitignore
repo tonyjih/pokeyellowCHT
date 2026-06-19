@@ -43,3 +43,5 @@ roms/rb/.DS_Store
 roms/rgb/.DS_Store
 .DS_Store
 rgbds-cn/
+/backups
+/reports

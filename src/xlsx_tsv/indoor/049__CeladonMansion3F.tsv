@@ -1,0 +1,120 @@
+text/CeladonMansion3F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_ProgrammerText::				_ProgrammerText::										
+	text	Me? I'm the			text	我嗎？		text	我吗？	Me? I'm the	Me?	我吗？我是程序员哦！	おれ？　プログラマー　だよ！	おれ?　プログラマー　だよ!
+	line	programmer!			line	我是程式設計師哦！		line	我是程序员哦！	programmer!	I’m a programmer!			
+	done				done			done						
+														
+_ProgrammerText2::				_ProgrammerText2::										
+	text	Me? I'm the			text	我嗎？			おれ?　プログラマー　だよ!		MISTY: Oh, me?	小霞：……我吗？	カスミ『……え　わたし？	わたし　フレンドりィショップの
+	line	programmer!			line	我是程式設計師哦！					I’m going swimming in the sea.	当然是去海水浴咯！	かいすいよく　よ	てんいん　です
+														べんりな　どうぐや　ですから
+	para	What a surprise!			para	真讓人吃驚呢！			おどろいたなー!		There are times when you just want to break free	我也会有想要离开小泳池	せまい　プールから　とびだして	トキワ　シティで
+	line	I never expected			line	我從來沒有想過，			ずかんを　かんせいさせる　ひとが		from a puny little pool and swim in the big blue!	到广阔大海里畅游的时候呢！	ひろーい　うみで	ぜひ　よって　くださいね!
+	cont	anyone to fill a			cont	竟然有人能把圖鑑完成呢！			いるとは　おもわなかったよ!					そうだ!
+	cont	#DEX.											およぎたい　ときも　あるの！	みほんを　さしあげましょう
+	done				done									…　どうぞ!
+														
+_GraphicArtistText::				_GraphicArtistText::										
+	text	I'm the graphic			text	我是個插畫師！		text	我是个插画师！	I'm the graphic	I’m a graphic artist!	我是个插画师！	おれ　グラフィッカー！	おれ　グラフィッカー!
+	line	artist!			line	你的插圖就是由我負責的！		line	你的插图就是由我负责的！	artist!	I’m the one who designed you!	你的建模就是由我负责的！	きみを　モデリング　したの　おれさ！	おまえを　かいたの　おれさ!
+	cont	I drew you!			done			done		I drew you!				
+	done													
+														
+_GraphicArtistText2::				_GraphicArtistText2::										
+	text	I'm the graphic			text	我是個插畫師！			おれ　グラフィッカー!	Is that right?	Your [VAR PKNAME(0003)] looks very promising.	嚯……你的[VAR PKNAME(0003)]	ほう　きみの　[VAR PKNAME(0003)]	…　おとくな　けいじばん!
+	line	artist!								I'm the game		长了一双漂亮的眼睛啊……	とても　いい　め　を　しているね……	ポケモンには　たいりょくの　ほか
+										designer!	I’m pretty sure that [VAR PKNAME(0003)] can learn			わざを　くりだす　げんきの　もと
+	para	Wow, you finished			para	哦，圖鑑完成了嗎！			おっ　ずかん　かんせい　したんだ!	Filling up your	a marvelous move that I’ve developed!	这孩子一定能学会由我创造出的	そのコ　なら　わたしが　あみだした	パワーポイントが　あります
+	line	your #DEX!			line	要不要列印一份			きねんに　ひょうしょうじょう　を	#DEX is tough,		棒呆了的招式哦！	マーベラスな　わざを　おぼえられるよ！	わざ　ごとの　パワーポイントが
+	cont	Want me to PRINT			cont	紀念獎狀呢？			プりント　して　あげようか?	but don't quit!	Do you want me to teach a marvelous move			なくなった　ときも
+	cont	out a DIPLOMA								When you finish,	to [VAR PKNAME(0003)]? What do you say?	怎么说？想让[VAR PKNAME(0003)]	どうだい？　その　[VAR PKNAME(0003)]に	ポケモンセンターで　やすませて!
+	cont	as proof?								come tell me!		学学看棒呆了的招式吗？	マーベラスな　わざ　おしえてみる？	
+	done				done									
+														
+_GraphicArtistText3::				_GraphicArtistText3::										
+	text	Just tell me if			text	如果想列印的話，			プりント　したく　なったら	Do you want to	If you want to try out your strength,	如果你想试试自己的实力，	ちからを　ためしたければ	おいらの　ゆめ…?
+	line	you want to PRINT			line	就跟我說一聲吧。			こえを　かけてね	give a nickname	you should definitely battle us.	应该会接受我的挑战吧？	ぜひ　しょうぶ　してくれよな	どろぼう　ポケモンが　いりゃ
+	cont	out a DIPLOMA.								to @				ぜひ　つかって　みたいねー!
+	done				done					wcd6d				ゲへ
+										?				
+_GraphicArtistText4::				_GraphicArtistText4::										
+	text	All done!			text	完成了哦。			おわったよ	<PLAYER> received	Pokémon Fan Club:	这里是宝可梦发烧友俱乐部。	こちら　ポケモンだいすきクラブ	こちら　ポケモン　だいすき　クラブ
+	done				done					a @	All Pokémon Fans Welcome!	热烈欢迎任何喜欢宝可梦的朋友！	ポケモンずき　だれでも　かんげい！	ポケモンずき　だれでも　かんげい!
+										wStringBuffer				
+_GraphicArtistText5::				_GraphicArtistText5::						!@				
+	text	OK, let's not			text	列印中止了哦。			プりントは　ちゅうし　するよ	You're going to	It’s so pleasant...	真舒服……	きもち　いい……	おし!
+	line	PRINT.								see BILL? First,		……呼……呼～	……　すー……　すー	いい　しょうぶ　だった
+	done				done					let's fight!	... ... ...			
+														
+_WriterText::				_WriterText::							... ... Zzz.			
+	text	I wrote the story!			text	我是遊戲的編劇！		text	我是游戏的编剧！	I wrote the story!	I wrote the story!	我是游戏的编剧！	ぼく　シナリオ　かいた！	ぼく　シナりオ　かいた!
+	line	Isn't ERIKA cute?			line	那啥……莉佳很可愛吧？		line	那啥……莉佳很可爱吧？	Isn't ERIKA cute?	Hey, tell me... Don’t you think Erika is cute?	那啥……莉佳很可爱吧？	あの……　エリカ　かわいい　でしょ	あの…　エりカ　かわいい　でしょ
+					para	小霞也不錯吧！		para	小霞也不错吧！	I like MISTY a				カスミも　いいよね!
+	para	I like MISTY a			para	娜姿也不錯吧！		para	娜姿也不错吧！	lot too!	I like Misty a lot, too!	小霞也不错吧！	カスミも　いいよね！	ナツメも　いいよね!
+	line	lot too!			done			done		Oh, and SABRINA,	Oh, and Sabrina! I like her, too!			
+										I like her!		娜姿也不错吧！	ナツメも　いいよね！	
+	para	Oh, and SABRINA,												
+	line	I like her!												
+	done													
+														
+_WriterText2::				_WriterText2::										
+	text	I wrote the story!			text	我是遊戲的編劇！			ぼく　シナりオ　かいた!		LANCE: I’m glad you’ve come.	阿渡：你能来我很高兴。	ワタル『きてくれて　うれしいよ	だれか　ビルに　しのび　こんだと
+														ロケットだんが　さわいでる
+	para	It's great you			para	你能找到全部的寶可夢，			ぜんぶの　ポケモンみつけてくれて		The newly updated Pokémon League’s reputation	多亏了你，	きみの　おかげで	…　きみの　こと　らしいね
+	line	caught all the			line	我真是太高興了！			とても　うれしいよ!		has really taken off!	全新宝可梦联盟的口碑也越来越好了！	しんせい　ポケモンリーグの	
+	cont	#MON! Thanks!												
+	done				done						It’s all thanks to you.		ひょうばんは　じょうじょうだ！	
+														
+_GameDesignerText::				_GameDesignerText::										
+	text	Is that right?			text	是嘛！		text	是嘛！	Is that right?	I’m the game director!	我是游戏总监！	ぼくは　ゲーム　ディレクター	そーですかー!
+					para	我是遊戲設計師！		para	我是游戏设计师！	I'm the game				ぼくは　ゲーム　デザイナー
+	para	I'm the game			para	收集寶可夢圖鑑		para	收集宝可梦图鉴	designer!	I’m very happy that you’re playing this game!	看到你在玩这个游戏，	このゲームを　あそんで　もらえて	ポケモンずかん　ぜんぶ　あつめるの
+	line	designer!			line	不是件容易的事，		line	不是件容易的事，	Filling up your		我真的觉得非常开心！	とっても　うれしいです！	たいへん　だけど　がんばって!
+					cont	要加油啊！		cont	要加油啊！	#DEX is tough,	Good luck with filling up your Pokédex!			もし　ぜんぶ　あつめたら
+	para	Filling up your			para	如果你填滿了圖鑑，		para	如果你填满了图鉴，	but don't quit!	If you collect all of the Pokémon, let me know!	要加油收集宝可梦图鉴啊！	ポケモンずかん　がんばってね！	おしえてね!
+	line	#DEX is tough,			line	記得要來告訴我！		line	记得要来告诉我！	When you finish,				
+	cont	but don't quit!			done			done		come tell me!		如果你填满了图鉴，	もし　ぜんぶ　あつめたら	
+												记得要来告诉我！	おしえてね！	
+	para	When you finish,												
+	line	come tell me!												
+	done													
+														
+_CompletedDexText::				_CompletedDexText::										
+	text	Wow! Excellent!			text	哇～厲害了！		text	哇～厉害了！	Wow! Excellent!	Wow! Excellent!	哇～厉害了！	おー！　すごい！	
+	line	You completed			line	看來你已經把寶可夢圖鑑		line	看来你已经把宝可梦图鉴	You completed	You completed your Pokédex!	看来你已经把宝可梦图鉴	ついに　ポケモンずかんが	　ぽ　ぽ　
+	cont	your #DEX!			cont	全部集齊了啊！		cont	全部集齐了啊！	your #DEX!				
+	cont	Congratulations!			cont	祝賀你啊！@		cont	祝贺你啊！@	Congratulations!	So wonderful!	全部集齐了啊！	かんせい　したんだね！	
+	cont	...@			text_end			text_end		...@				
+	text_end										Congratulations!	哎妈，真是了不起啊！	いやー　すばらしい！	
+											Please allow me to honor you with an award!			
+_CompletedDexText2::				_CompletedDexText2::								祝贺你完成图鉴！	ずかん　かんせい　おめでとう！	
+	text	Go show off your			text	給開發組的各位			かいはつの　みんなにも		Your Pokémon have been sent to the professor!	已将宝可梦发送给博士！	ポケモンを　はかせに　おくった！	 {next} 
+	line	DIPLOMA to			line	也好好地炫耀一下獎狀吧。			ひょうしょうじょう　を					@
+	cont	the development							みせて　あげてよ!		... ... ...	……　……　……	……　……　……	 {PLAYER}  {RIVAL} ポケモン
+	cont	crew.										大木博士来信息了！	はかせから　メッセージが　きた！	…
+	done				done						You got a message back from the professor!			
+														 {TARGET}  {USER}  {5B}  {5C} トレーナーロケットだん
+_CeladonMansion3Text5::				_CeladonMansion3Text5::										
+	text	It's the game			text	是遊戲的程式！		text	是游戏的程序！	It's the game	It’s the game code!	是游戏的程序！	ゲームの　プログラムだ！	ゲームの　プログラムだ!
+	line	program! Messing			line	要是修改了這個		line	要是修改了这个	program! Messing	Messing with it could bug out the game!	要是修改了这个游戏可能会出错吧。	これ　かえたら　バグる　かも	これ　かえたら　バグる　かも
+	cont	with it could bug			cont	遊戲可能會出錯吧。		cont	游戏可能会出错吧。	with it could bug				
+	cont	out the game!			done			done		out the game!				
+	done													
+														
+_CeladonMansion3Text6::				_CeladonMansion3Text6::										
+	text	Someone's playing			text	還以為是有人		text	还以为是有人	Someone's playing	Someone’s playing a game instead of working!	还以为是有人在用电脑工作……	パソコンで　しごと　ちゅう……	 {5B} で　しごと　ちゅう…
+	line	a game instead of			line	在用電腦工作……		line	在用电脑工作……	a game instead of		结果居然是在玩游戏啊！	と　おもったら　ゲーム　だった！	と　おもったら　ゲーム　だった!
+	cont	working!			cont	結果居然是在玩遊戲啊！		cont	结果居然是在玩游戏啊！	working!				
+	done				done			done						
+														
+_CeladonMansion3Text7::				_CeladonMansion3Text7::										
+	text	It's the script!			text	……是寶可夢的劇本！		text	……是宝可梦的剧本！	It's the script!	It’s the script!	……是宝可梦的剧本！	……ポケモンの　シナリオだ！	…　ポケモンの　シナりオだ!
+	line	Better not look			line	這一段是結尾！		line	这一段是结尾！	Better not look	Better not look at the ending!	这一段是结尾！	これは　エンディングだ！	これは　エンディングだ!
+	cont	at the ending!			cont	現在還是先別看了……！		cont	现在还是先别看了……！	at the ending!				いまは　みないで　おこう…!
+	done				done			done				现在还是先别看了……！	いまは　みないで　おこう……！	
+														
+_CeladonMansion3Text8::				_CeladonMansion3Text8::										
+	text	GAME FREAK			text	GAME FREAK		text	GAME FREAK	GAME FREAK	GAME FREAK Development Office	GAME FREAK　开发室	ゲームフリーク　かいはつ　しつ	ゲームフりーク　かいはつ　しつ
+	line	Development Room			line	開發室		line	开发室	Development Room				4
+	done				done			done						
+end				end										

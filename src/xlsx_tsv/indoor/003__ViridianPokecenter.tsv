@@ -1,0 +1,18 @@
+text/ViridianPokecenter.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_ViridianPokeCenterText2::				_ViridianPokeCenterText2::										
+	text	You can use that			text	你可以隨意使用		text	你可以随意使用	You can use that	Please feel free to read any of the books on	你可以随意阅读	すみに　ある　マガジンラックの	すみに　ある　 {5B} は　どうぞ
+	line	PC in the corner.			line	牆角旁邊的電腦！		line	墙角旁边的电脑！	PC in the corner.	the magazine rack in the corner.	墙角杂志架上的书！	ほんは　ごじゆうに　およみください！	ごじゆうに　おつかいください!
+					para	…問訊處的小姐這麼說的。		para	…问讯处的小姐这么说的。	The receptionist				…と　うけつけの　ねーちゃんが
+	para	The receptionist			line	她真是待人親切啊！		line	她真是待人亲切啊！	told me. So kind!	The receptionist told me so.	……问讯处的小姐这么说的。	……と　うけつけの　ねーちゃんが	いっとった　しんせつやのう
+	line	told me. So kind!			done			done			It’s so kind of her!	她真是待人亲切啊！	いっとった　しんせつやのう	
+	done													
+														
+_ViridianPokeCenterText3::				_ViridianPokeCenterText3::										
+	text	There's a #MON			text	從這裡開始每個城鎮裡		text	从这里开始每个城镇里	There's a #MON	There’s a Pokémon Center in every town ahead.	从这里开始	ポケモンセンターは　このさき	ポケモンセンターは　このさき
+	line	CENTER in every			line	都有寶可夢中心！		line	都有宝可梦中心！	CENTER in every		每个城镇里都有宝可梦中心！	どこの　まちに　いっても　ある！	どこの　まちに　いっても　ある!
+	cont	town ahead.			para	反正不收費，你可以經常去		para	反正不收费，你可以经常去	town ahead.	They charge no money, so don’t be shy about			なんびき　あずけても　ただ　だし
+					line	讓你的寶可夢接受治療哦！		line	让你的宝可梦接受治疗哦！	They don't charge	healing your Pokémon.	反正不收费，你可以经常去	なんびき　あずけても　ただ　だし	こまめに　つかうと　いいよ!
+	para	They don't charge			done			done		any money either!		让你的宝可梦接受治疗哦！	こまめに　つかうと　いいよ！	0ゲ
+	line	any money either!												
+	done													
+end				end										

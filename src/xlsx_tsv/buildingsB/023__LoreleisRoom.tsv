@@ -1,0 +1,46 @@
+text/LoreleisRoom.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_LoreleiBeforeBattleText::				_LoreleiBeforeBattleText::										
+	text	Welcome to			text	歡迎來到		text	欢迎来到	Welcome to	Freezing moves are powerful. Your Pokémon will	能冻住对方	あいてを　こおらせるって	しかも　とっても　あなたに
+	line	#MON LEAGUE!			line	寶可夢聯盟！		line	宝可梦联盟！	#MON LEAGUE!	be at my mercy when they are frozen solid.	可是很厉害的哦！	とっても　きょうりょくよ！	なついて　しあわせそうだわ
+					para	我是四天王中的科拿！		para	我是四天王中的科拿！	I am LORELEI of				
+	para	I am LORELEI of			para	只要能讓我用		para	只要能让我用	the ELITE FOUR!				
+	line	the ELITE FOUR!			line	冰屬性寶可夢，		line	冰属性宝可梦，	No one can best				
+					cont	就絕對沒人能贏得過我！		cont	就绝对没人能赢得过我！	me when it comes				
+	para	No one can best			para	能凍住對方		para	能冻住对方	to icy #MON!				
+	line	me when it comes			line	可是很厲害的哦！		line	可是很厉害的哦！	Freezing moves				
+	cont	to icy #MON!			para	因為如果被凍住，		para	因为如果被冻住，	are powerful!				
+					line	你的寶可夢就無法動彈了！		line	你的宝可梦就无法动弹了！	Your #MON will				
+	para	Freezing moves			para	……啊哈哈！		para	……啊哈哈！	be at my mercy				
+	line	are powerful!			line	你做好覺悟了吧！		line	你做好觉悟了吧！	when they are				
+					done			done		frozen solid!				
+	para	Your #MON will								Hahaha!				
+	line	be at my mercy								Are you ready?				
+	cont	when they are												
+	cont	frozen solid!												
+														
+	para	Hahaha!												
+	line	Are you ready?												
+	done													
+														
+_LoreleiEndBattleText::				_LoreleiEndBattleText::										
+	text	How			text	真是個厲害的傢伙！		text	真是个厉害的家伙！	How	GIOVANNI: How dare you?!	坂木：你说什么！？	サカキ『なにィ！？	トレーナーぞ
+	line	dare you!			prompt			prompt		dare you!				きド5ま
+	prompt													
+														
+_LoreleiAfterBattleText::				_LoreleiAfterBattleText::										
+	text	You're better			text	比我預想中有本事呢！		text	比我预想中有本事呢！	You're better	LORELEI: Looks like you’ve gotten stronger since	科拿：原来你已经变得这么强了！	カンナ『ここまで　つよく　なったのね	すこしは　できる　みたいね!
+	line	than I thought!			line	好吧……！		line	好吧……！	than I thought!	we last met!	好吧……！	わかった……！	わかった…!
+	cont	Go on ahead!			cont	你可以前往下一個房間了！		cont	你可以前往下一个房间了！	Go on ahead!				つぎの　へやに　すすむと　いいわ!
+					para	不過，		para	不过，	You only got a	Go on ahead.	你可以前往下一个房间了！	つぎの　へやに　すすむと　いいわ！	ポケモン　りーグ　しんの　パワーは
+	para	You only got a			line	寶可夢聯盟真正的力量		line	宝可梦联盟真正的力量	taste of #MON				まだまだ…!
+	line	taste of #MON			cont	還在後頭呢……！		cont	还在后头呢……！	LEAGUE power!	You only got a taste of	不过，	だけど	こんな　ものじゃ　ないわよ!
+	cont	LEAGUE power!			cont	可沒有你想的那麼簡單！		cont	可没有你想的那么简单！		the Pokémon League’s power.	宝可梦联盟真正的力量	ポケモンリーグ　しんの　パワーは	
+	done				done			done						
+												还在后头呢……！	まだまだ……！	
+_LoreleiDontRunAwayText::				_LoreleiDontRunAwayText::										
+	text	Someone's voice:			text	聽到了某人的聲音：		text	听到了某人的声音：	Someone's voice:	You don’t have enough dough.	你啊……	アナタさま……　さきだつ　ものが	…　おとくな　けいじばん!
+	line	Don't run away!			line	“不能逃走呀！”		line	“不能逃走呀！”	Don't run away!		最最重要的东西好像不太够噢？	たりませんよ？	ひとの　ポケモンは　ひとの　もの!
+	done				done			done			...Dough means money, kid.			やせいの　ポケモンに　だけ
+end				end								最最重要的东西……	さきだつ　もの　とは	モンスターボールを　なげて
+												当然就是指钱咯！	……おかねの　こと　です	つかまえよう!
+														

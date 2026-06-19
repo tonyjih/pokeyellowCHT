@@ -1,0 +1,21 @@
+text/CeruleanMart.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CeruleanMartText2::				_CeruleanMartText2::										
+	text	Use REPEL to keep			text	除蟲噴霧		text	除虫喷雾	Use REPEL to keep	Celadon City takes pride in its efforts to keep	玉虹市最让人自豪的地方	きれいな　まちづくりが	きれいな　まちづくりが　じまんの
+	line	bugs and weak			line	除了驅蟲以外，		line	除了驱虫以外，	bugs and weak	itself clean and beautiful.	就是它优美的街道环境。	じまんの　タマムシ　だけど	タマムシに　ゲーム　コーナーが
+	cont	#MON away.			cont	也可以讓寶可夢遠離你哦。		cont	也可以让宝可梦远离你哦。	#MON away.				できちゃって!　こまった　ものよ!
+					para	將強大的寶可夢		para	将强大的宝可梦	Put your strongest	The area around the Game Corner is a different	只是游戏城那边	ゲームコーナーの　あたりは	
+	para	Put your strongest			line	放在最前的位置的話，		line	放在最前的位置的话，	#MON at the	story, though. It gets a bit rough around there.	让人瘆得慌啊！	ちょっと　こわいわ	
+	line	#MON at the			cont	效果會倍增哦！		cont	效果会倍增哦！	top of the list				
+	cont	top of the list			done			done		for best results!				
+	cont	for best results!												
+	done													
+														
+_CeruleanMartText3::				_CeruleanMartText3::										
+	text	Have you seen any			text	你知道神奇糖果嗎？		text	你知道神奇糖果吗？	Have you seen any	Have you ever seen a Rare Candy?	你知道神奇糖果吗？	おみせでは　みた　こと　ないけど	おみせでは　みた　こと　ないけど
+	line	RARE CANDY?			line	我從來沒在商店裡		line	我从来没在商店里	RARE CANDY?	I’ve never found one at a shop.	我从来没在商店里看到过呢。	ふしぎなアメ　しってる？	ふしぎなアメ　しってる?
+					cont	看到過呢。		cont	看到过呢。	It's supposed to				ポケモンが　いっきに　そだって
+	para	It's supposed to			para	聽說它可以讓寶可夢		para	听说它可以让宝可梦	make #MON go	I heard that it makes a Pokémon	听说它可以让宝可梦	ポケモンが　いっきに　そだって	レべルが　あがる　らしいの
+	line	make #MON go			line	迅速成長，等級提升哦。		line	迅速成长，等级提升哦。	up one level!	level up instantly.	迅速成长，等级提升哦。	レベルが　あがる　らしいの	
+	cont	up one level!			done			done						
+	done													
+end				end										

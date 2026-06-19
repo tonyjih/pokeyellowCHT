@@ -1,0 +1,20 @@
+text/SafariZoneEastRestHouse.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SafariZoneRestHouse3Text1::				_SafariZoneRestHouse3Text1::										
+	text	How many did you			text	你捕捉到多少隻了？		text	你捕捉到多少只了？	How many did you	Hello, dear.	哎呀呀～	あらあら　あら　	
+	line	catch? I'm bushed			line	我都不知道捕捉多少了，		line	我都不知道捕捉多少了，	catch? I'm bushed	How did you like the outfit?	我送你的衣服怎么样呀？	おようふく　どう　だったかしら？	
+	cont	from the work!			cont	人都要累死了！		cont	人都要累死了！	from the work!				
+	done				done			done			I wanted you to wear it because you looked like	因为你真的跟我孙[VAR GENDBR(00FF,0101)]子女像极了，	うちの　まご　に　にてたから	『
+											my grand[VAR GENDBR(00FF,0803)]sondaughter.	所以我特别想让你穿上试试呢……	どうしても　きてほしかったの……	ヲ
+_SafariZoneRestHouse3Text2::				_SafariZoneRestHouse3Text2::										ュ
+	text	I caught a			text	我捕捉到了吉利蛋！		text	我捕捉到了吉利蛋！	I caught a	I just caught a Squirtle that was always getting	我最近捕获了	さいきん　いたずら　ばかりする	さいきん　いたずら　ばかりする
+	line	CHANSEY!			para	最起碼		para	最起码	CHANSEY!	into mischief.	一只喜欢捣乱的杰尼龟！	ゼニガメを　つかまえたの！	ゼニガメを　つかまえたの!
+					line	把老本賺回來了！		line	把老本赚回来了！	That makes this				うでのいい　トレーナーが　いたら
+	para	That makes this			done			done		all worthwhile!	I think it needs a good Trainer to set it straight.	要是能碰到个有水平的训练家，	うでのいい　トレーナーが　いたら	このこを　まかせたいんだけど…
+	line	all worthwhile!										我想把杰尼龟托付出去……	このこを　まかせたいんだけど……	
+	done													に
+														ー
+_SafariZoneRestHouse3Text3::				_SafariZoneRestHouse3Text3::										!
+	text	Whew! I'm tired			text	呼……！		text	呼……！	Whew! I'm tired	Whew! I’m trying to memorize all my notes.	呼～	ふー	ふー
+	line	from all the fun!			line	興奮過頭，有點累了。		line	兴奋过头，有点累了。	from all the fun!		我要把笔记里的所有内容	ノートの　なかの　こと	ノートの　なかの　こと
+	done				done			done						わたし　ぜんぶ　おぼえるの
+end				end								都清清楚楚地记住！	わたし　ぜんぶ　おぼえるの	ゲギぶ

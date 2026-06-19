@@ -1,0 +1,197 @@
+text/ViridianCity.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_ViridianCityText_19219::				_ViridianCityText_19219::										
+	text	First, you need			text	捕捉寶可夢之前，		text	捕捉宝可梦之前，	First, you need	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	to weaken the			line	要先削弱它們！		line	要先削弱它们！	to weaken the	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	target #MON.			done			done		target #MON.				…　シルフ　カンパニー
+	done											……西尔佛公司	……シルフカンパニー	
+														
+_ViridianCityText_1920a::				_ViridianCityText_1920a::										
+	text	Ahh, I've had my			text	唔……			うーん…		Shh! Listen, I need to share a	嘘……！	しー！	しー!
+	line	coffee now and I			line	我應該是喝多了。			よっぱらってた　みたいじゃ!		secret with someone.	偷偷告诉你，	ないしょ　だけど　このコハク	ないしょ　だけど　このコハク
+	cont	feel great!			cont	頭有點痛……			あたまが　いたい…					ポケモンの　いでんしが　のこってると
+											I think that this chunk of amber	我推测这个琥珀里面	ポケモンの　いでんしが　のこってると	おれは　にらんでるんだ!
+	para	Sure, you can go									contains Pokémon DNA!	留有宝可梦的遗传基因！	おれは　にらんでるんだ！	もし　いきかえらせたら
+	line	through!												ポケモンの　いちだい　はっけんだ!
+									…　なに?		It would be a shattering scientific	如果能让它复活，	もし　いきかえらせたら	でも　ここの　なかまは
+	para	I'm sorry I was			para	……什麼？			わしが　じゃまで　とおれなかった?		breakthrough if Pokémon could be	那简直就是宝可梦的一大发现！	ポケモンの　いちだい　はっけんだ！	おれの　いうこと　しんじないんだ
+	line	so rude to you!			line	你說我擋了你的路？			…　…　ほっほう					⋯⋯それで
+					cont	……不好意思啊。					resurrected from it.	可惜这里的同事们	でも　ここの　なかまは	きみに　たのみが　ある!
+	para	I see you're using										没人把我说的话当回事。	おれの　いうこと　しんじないんだ	これを　どこかの
+	line	a #DEX.									But my colleagues just ignore			けんきゅうじょに　もって　いって
+											what I have to say.	所以啊……	……それで	しらべて　ほしいんだ!
+	para	I'll show you how			para	你在收集寶可夢圖鑑是嗎！			ポケモンずかんを　つくっとるのか!			我需要你的帮助！	きみに　たのみが　ある！	
+	line	to catch #MON			line	為了向你道歉，讓我來			だったら　おわびに　ポケモンの		So I have a favor to ask!			
+	cont	as my apology.			cont	給你展示如何捕捉寶可夢！			つかまえかたを　みせてやろう!			麻烦你拿着这个琥珀，	これを　どこかの	
+	done				done						I want you to get this examined at	找一家研究所，	けんきゅうじょに　もって　いって	
+											a Pokémon Lab somewhere.			
+_OldManTextAfterBattle::				_OldManTextAfterBattle::								请人帮我调查个究竟吧！	しらべて　ほしいんだ！	
+	text	That didn't work!			text	嗯，失敗了呢～			んー　しっぱい　じゃー		KOGA: With Trainers like you	阿桔：有了像你或是	キョウ『おぬしや	キョウ『…　ファ　ファ　ファ!
+	line	I must be losing			line	我確實不行了呢～			わしも　うでが　おちたのー		and [VAR TRNAME(0001)],	[VAR TRNAME(0001)]这样的训练家，	[VAR TRNAME(0001)]の　ような　トレーナーが	こわっぱ　ごときが
+	cont	my touch.							モンスターボールも					せっしゃに　たたかいを　いどむとは
+									なくなって　しまったし		the Pokémon League must be a place	如今在宝可梦联盟一定能	いるので　あれば	かたはら　いたいで　ござる!
+	para	I've run out of			para	這會兒			ちかくの　フレンドりィショップに		of formidable strength!	看到群英荟萃一般的景象吧！		…　どくを　くらったら　じめつ!
+	line	# BALLs too.			line	精靈球也用完了呀。			かいに　いくかな				いまの　ポケモンリーグは	ねむって　しまったら　むていこう
+											Truly, it is something to be proud of!	在下要不要也以成为四天王	そうとうな　つよさを	…　しのびの　わざの　ごくいを
+	para	I have to get some			para	要不去附近的友好商店						为目标而努力一番呐……		うけて　みよ!
+	line	at #MON MART.			line	再買一些呢？					As it so happens, I have been thinking		ほこる　しせつで　ござろう！	
+	done				done						of aiming to join the Elite Four myself...			
+													せっしゃも　してんのうを	
+_ViridianCityText1::				_ViridianCityText1::									めざして　みようか……	
+	text	Those # BALLs			text	你腰上掛著精靈球！		text	你腰上挂着精灵球！	Those # BALLs	Those Poké Balls you’ve got!	和你在一起的……！	きみが　つれて　いるのは……！	きみが　こしに　つけてる
+	line	at your waist!			line	……難道是寶可夢！		line	……难道是宝可梦！	at your waist!	You have Pokémon, don’t you.	正是宝可梦啊！	まさしく　ポケモンだね！	その　モンスターボールは…!
+	cont	You have #MON!			para	能隨時隨地		para	能随时随地	You have #MON!				まさしく　ポケモンだね!
+					line	帶著寶可夢到處走，		line	带着宝可梦到处走，	It's great that	It’s great that you can carry and use your	能和喜欢的宝可梦一起走动，	すきな　ポケモンと	いつでも　ポケモンの　だしいれが
+	para	It's great that			cont	真的好方便啊！		cont	真的好方便啊！	you can carry and	Pokémon anytime, anywhere.	这个世界真是太美好了！	いっしょに　あるける　なんて	じゆうに　できる　なんて
+	line	you can carry and			done			done		use #MON any				べんりな　よのなかだね
+	cont	use #MON any-								time, anywhere!			すてきな　よのなかだね	
+	cont	time, anywhere!												
+	done													
+														
+_ViridianCityText_19122::				_ViridianCityText_19122::										
+	text	This #MON GYM			text	不管什麼時候來，		text	不管什么时候来，	This #MON GYM	This Pokémon Gym is always closed...	不管什么时候来，	いつ　きても	いつ　きても
+	line	is always closed.			line	這裡的道館總是關著門……		line	这里的道馆总是关着门……	is always closed.		这里的道馆总是关着门……	この　ポケモンジムは　しまっとる	この　ポケモン　ジムは　しまっとる
+					para	不知道這裡的館主		para	不知道这里的馆主	I wonder who the	I wonder who the Gym Leader is...			いったい　どんな　ヤツが
+	para	I wonder who the			line	究竟是怎樣的傢伙啊？		line	究竟是怎样的家伙啊？	LEADER is?		不知道这里的馆主	いったい　どんな　ヤツが	りーダーを　しとるんじゃろか?
+	line	LEADER is?			done			done				究竟是怎样的家伙啊？	リーダーを　しとるんじゃろか？	
+	done													
+														
+_ViridianCityText_19127::				_ViridianCityText_19127::										
+	text	VIRIDIAN GYM's			text	常青市的道館館主		text	常青市的道馆馆主	VIRIDIAN GYM's	The Viridian City Gym Leader has returned!	常青市的道馆馆主	トキワジムの　リーダーが	トキワ　ジムの　りーダーが
+	line	LEADER returned!			line	回來了唷！		line	回来了唷！	LEADER returned!		回来了唷！	かえって　きたぞ！	かえって　きたぞ!
+	done				done			done						
+														
+_ViridianCityText_1914d::				_ViridianCityText_1914d::										
+	text	You want to know			text	你一定不知道蟲寶寶寶可夢		text	你一定不知道虫宝宝宝可梦	You want to know	What do you want to know about	你想了解大师训练家的	マスタートレーナーズに　ついて	つの　ひみつ
+	line	about the 2 kinds			line	有２種吧？		line	有２种吧？	about the 2 kinds	the Master Trainers?	哪一个方面呢？	どんなことが　しりたい？	どれに　ついて　はなし　ましょう?
+	cont	of caterpillar			done			done		of caterpillar				
+	cont	#MON?								#MON?				
+	done													
+														
+_ViridianCityText_19152::				_ViridianCityText_19152::										
+	text	Oh, OK then!			text	哦，那好吧！		text	哦，那好吧！	Oh, OK then!	Oh, then good!	绿毛虫是没有毒的，	キャタピーは　どくが　ないけど	キャタピーは　どくが　ないけど
+	done				done			done				可是独角虫有毒！	ビードルには　どくが　あるよ	ビードルには　どくが　あるよ
+														ポケモンが　さされないように
+_ViridianCityText_19157::				_ViridianCityText_19157::								你要注意不要让	ポケモンが　さされないように	きを　つけようね
+	text	CATERPIE has no			text	綠毛蟲是沒有毒的，		text	绿毛虫是没有毒的，	CATERPIE has no	Caterpie has no poison, but Weedle does.	哦，那好吧！	それなら　いいんだ！	それなら　いいんだ!
+	line	poison, but			line	可是獨角蟲有毒！		line	可是独角虫有毒！	poison, but				
+	cont	WEEDLE does.			para	你要注意不要讓你的寶可夢		para	你要注意不要让你的宝可梦	WEEDLE does.	Watch that your Pokémon aren’t hit with			
+					line	被它扎到哦！		line	被它扎到哦！	Watch out for its	Weedle’s Poison Sting.			
+	para	Watch out for its			done			done		POISON STING!				
+	line	POISON STING!												
+	done													
+														
+_ViridianCityText_19175::				_ViridianCityText_19175::										
+	text	Oh Grandpa! Don't			text	哎呀，爺爺！		text	哎呀，爷爷！	Oh Grandpa! Don't	No?! Now don’t be so cold!	您说不？	そんなあ……	そんなあ…
+	line	be so mean!			line	你怎麼在這裡睡著了呢……		line	你怎么在这里睡着了呢……	be so mean!		……别这么没人情味。	つめたい　こと　いわんといて	つめたい　こと　いわんといて
+	cont	He hasn't had his			cont	沒辦法了！		cont	没办法了！	He hasn't had his	Come on, you gotta help a guy in such deep,			よッ…　いろおとこ!
+	cont	coffee yet.			cont	只能等他醒過來了。		cont	只能等他醒过来了。	coffee yet.	deep trouble!	嘿……！大美女～！	よッ……　いいおんな！	にくいねーッ
+	done				done			done				您最厉害！您是老大！	にくいねーッ！　だいとうりょう！	だいとうりょう!
+											What do you say?			ほな!　オッケー　やな!
+_ViridianCityText_1917a::				_ViridianCityText_1917a::							Please?	是吧！OK吧！	ほな！　オッケー　やな！	きまりや!
+	text	When I go shop in			text	我偶爾會去深灰市購物。		text	我偶尔会去深灰市购物。	When I go shop in	I go shopping in Pewter City occasionally.	我偶尔	ときどき　ニビシティまで	ときどき　ニビシティまで
+	line	PEWTER CITY, I			line	每次去都要經過常青森林		line	每次去都要经过常青森林	PEWTER CITY, I		会去深灰市购物。	おかいものに　いきますけど	おかいものに　いきますけど
+	cont	have to take the			cont	那拐來拐去的路呢。		cont	那拐来拐去的路呢。	have to take the	I have to take the winding trail in Viridian Forest			トキワのもり　って
+	cont	winding trail in			done			done		winding trail in	when I go.	每次去都要经过	トキワのもり　って	みちが　まがり　くねってるのよ
+	cont	VIRIDIAN FOREST.								VIRIDIAN FOREST.		常青森林那拐来拐去的路呢。	みちが　まがり　くねってるのよ	
+	done													
+														
+_ViridianCityText_19191::				_ViridianCityText_19191::										
+	text	You can't go			text	喂！給我……等一下！		text	喂！给我……等一下！	You can't go	???: What do you want? You can’t pass through	？？？：干嘛！不行不行！	？？？『なによ！　ダメダメ！	…　きゃ!
+	line	through here!			line	來聽我說幾句！		line	来听我说几句！	through here!	here right now!	这里现在禁止通行！	ここは　いま　つうこうどめ！	いま　からだ　さわらなかった?
+					para	……你這傢伙！		para	……你这家伙！	This is private				
+	para	This is private			line	不準從這走過去！		line	不准从这走过去！	property!	We’re in the middle of guard duty, and it’s	我们正在执行	だいじな　みはりの	
+	line	property!			done			done			very important!	重要的把风任务呢！	まっさいちゅう　なんだから！	
+	done													
+														
+_ViridianCityText_191ca::				_ViridianCityText_191ca::										
+	text	Yawn!			text	哈啊……！		text	哈啊……！	Yawn!	Yo!	嗨～！	おーす！	おーす!
+	line	I must have dozed			line	想要曬會兒太陽，		line	想要晒会儿太阳，	I must have dozed	Champ in the making!	未来的冠军！	みらいの　チャンピオン！	みらいの　チャンピオン!
+	cont	off in the sun.			cont	結果居然就這麼睡著了……		cont	结果居然就这么睡着了……	off in the sun.				トキワ　りーダーの　しょうたいは
+					para	我做了個很奇怪的夢……		para	我做了个很奇怪的梦……	I had this dream	Even I don’t know who the Viridian City Gym	我也不知道	トキワ　リーダーの　しょうたいは	おれにも　わからん!
+	para	I had this dream			line	我夢見有隻催眠貘		line	我梦见有只催眠貘	about a DROWZEE	Leader is.	常青道馆的馆主究竟是谁！	おれにも　わからん！	たしかなのは
+	line	about a DROWZEE			cont	正在吃我的夢啊！		cont	正在吃我的梦啊！	eating my dream.				いままでの　りーダーの
+	cont	eating my dream.			cont	咦？我手裡怎麼會		cont	咦？我手里怎么会	What's this?	But one thing’s certain:	但既然你已经持有[VAR COLOR(0006)]７个徽章[VAR COLOR(0000)]，	ただ　[VAR COLOR(0006)]バッジを　７つ[VAR COLOR(0000)]　もってる	だれよりも　つよいって　ことだ!
+	cont	What's this?			cont	拿著一個招式學習器咧？		cont	拿着一个招式学习器咧？	Where did this TM		我相信你一定有资格挑战道馆了！	おまえには　ちょうせんの	それと…
+	cont	Where did this TM			para	這簡直太邪門了！		para	这简直太邪门了！	come from?	you’re qualified to challenge the Gym Leader			どうも　この　ジムには
+	cont	come from?			line	給你吧，你快拿去！		line	给你吧，你快拿去！	This is spooky!	because you have [VAR COLOR(0006)]seven Badges[VAR COLOR(0000)]!	现在我唯一能告诉你的就是，	しかくが　ある　だろう！	じめん　タイプ　ポケモンの
+					prompt			prompt		Here, you can		这里的馆主一定比至今为止		つかいてが　あつまってる　らしいぜ
+	para	This is spooky!								have this TM.	This Gym Leader will be stronger than any		おれに　いえる　ことは	
+	line	Here, you can									other Trainers you’ve ever faced.	任何的道馆馆主都要厉害！	ここの　リーダーは　いままでの	
+	cont	have this TM.												
+	prompt										Also, I heard that the Trainers here are	还有就是……	だれよりも　つよい　だろう！	
+											users of Ground-type Pokémon.	看样子这个道馆里聚集了许多		
+_ReceivedTM42Text::				_ReceivedTM42Text::									それと……	
+	text	<PLAYER> received			text	<PLAYER>從大哥哥那裡					“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	TM42!@			line	得到了TM42！@					2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_end				text_end								じめんタイプ　ポケモンの	
+														
+_TM42Explanation::				_TM42Explanation::									つかいてが　あつまってる　らしい	
+	text	TM42 contains			text	招式學習器４２		text	招式学习器４２	TM42 contains	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	DREAM EATER...			line	是“食夢”……		line	是“食梦”……	DREAM EATER...	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	cont	...Snore...			cont	……呼嚕……		cont	……呼噜……	...Snore...				
+	done				done			done						
+														
+_TM42NoRoomText::				_TM42NoRoomText::										
+	text	You have too much			text	行李滿了。		text	行李满了。	You have too much	Hey! You have Pokémon, right?	嗨！	よーしッ！	よーしッ!
+	line	stuff already.			done			done		stuff already.	Come on!	你有宝可梦的吧？	きみは　ポケモン　もってるな？	きみは　ポケモン　もってるな?
+	done													しょうぶ　しようぜ!
+											Let’s battle ’em!	我们来对战！	しょうぶ　しようぜ！	
+_OldManAgainText1::				_OldManAgainText1::										
+	text	Hmm? You want me			text	什麼！？			なんじゃ!?		COPYCAT: Oh, hey! Do you want me to mimic	模仿少女：哎呀，是你呀！	モノマネむすめ『あ　きみ！	あ!　やせいの
+	line	to show you how			line	你又想來讓我來教你			また　つかまえかたの		you again?			@
+	cont	to catch #MON			cont	捕捉寶可夢的方法嗎？			おてほんを　みに　きたのか?			你又来了呀。	また　わたしに	
+	cont	again?										又想让我模仿你了是吗？	ものまね　されに　きたのー？	
+	done				done									
+														
+_OldManAgainText2::				_OldManAgainText2::										
+	text	Dandy! Watch what			text	嚯嚯！			ほっほう!		Oh... What am I to do now?	这该怎么办……	どうしようかしら……	どうしようかしら…
+	line	I do closely now!			line	那就讓我親自給你			では…　わしが			这可真让人头疼。	こまったわ	こまったわ
+	done				cont	示範看看吧！			おてほんを　みせて　やるかな!					
+					done									
+_OldManAgainText3::				_OldManAgainText3::										
+	text	Oh... I'm not good			text	是嗎……			そうか………		Oh, I’m sorry for fussing over you.	抱歉，是我多管闲事了。	おせっかいで　ごめんなさいね	トレーナーぞ
+	line	enough for you.			line	是因為我不夠出色嗎。			わしは　うまくないからなー		It’s just because you look like my little sister...	因为你真的长得很像我妹妹……	あなたが　いもうとに　にていたから……	きド5ま
+	done				done									
+														
+_ViridianCityText8::				_ViridianCityText8::										
+	text	VIRIDIAN CITY			text	這裡是常青市。		text	这里是常青市。	VIRIDIAN CITY	Viridian City:	这里是常青市。	ここは　トキワシティ	ここは　トキワシティ
+	line	The Eternally			line	常青即是亙古恆久的		line	常青即是亘古恒久的	The Eternally	The Eternally Green Paradise	常青即是亘古恒久的翠绿之色。	トキワは　みどり　えいえんのいろ	トキワは　みどり　えいえんのいろ
+	cont	Green Paradise			cont	翠綠之色。		cont	翠绿之色。	Green Paradise				
+	done				done			done						
+														
+_ViridianCityText9::				_ViridianCityText9::										
+	text	TRAINER TIPS			text	……有用的公告牌！		text	……有用的公告牌！	TRAINER TIPS	Place a Pokémon in your Poké Ball Plus,	将宝可梦放入	モンスターボール Plusに	…　おとくな　けいじばん!
+					para	多多捕捉寶可夢，		para	多多捕捉宝可梦，	Catch #MON	and take your Pokémon for a stroll!	精灵球 Plus后再外出吧！	ポケモンを　いれて　おでかけしましょう！	ポケモンを　つかまえる　ときは
+	para	Catch #MON			line	並擴大同行的隊伍吧！		line	并扩大同行的队伍吧！	and expand your				なるべく　よわらせてから!
+	line	and expand your			para	同行寶可夢數量越多，		para	同行宝可梦数量越多，	collection!	The more you walk and play with your Pokémon,	如果陪它一起走动玩耍的话，	いっしょに　あるいて　あそんで　あげると	ポケモンが　げんきだと
+	cont	collection!			line	對戰會變得越容易！		line	对战会变得越容易！	The more you have,	the faster it’ll grow.	宝可梦就会快速成长。	ポケモンが　すくすく　そだちます	にげるかも　しれないよ!
+					done			done		the easier it is				
+	para	The more you have,								to fight!	Walk and play a lot, and you’ll also receive	如果经常陪它走动玩耍的话，	たくさん　あるいて　あそんでいると	
+	line	the easier it is									great rewards.	还能获得非常棒的奖励。	すてきな　ごほうびも　てに　はいります	
+	cont	to fight!												
+	done													
+														
+_ViridianCityText10::				_ViridianCityText10::										
+	text	TRAINER TIPS			text	……有用的公告牌！		text	……有用的公告牌！	TRAINER TIPS	There’s an email on the screen of the PC...	电脑里	パソコンに	 {5B} に
+					para	對於寶可夢來說，		para	对于宝可梦来说，	The battle moves		收到了一封邮件！	メールが　とどいてる！	でんしメールが　とどいてる!
+	para	The battle moves			line	體力以外的另一個重要因素		line	体力以外的另一个重要因素	of #MON are	“Articuno, Zapdos, and Moltres are all			…　…　…
+	line	of #MON are			cont	就是決定招式次數的%。		cont	就是决定招式次数的%。	limited by their	legendary bird Pokémon. This we know.	火焰鸟、闪电鸟和急冻鸟	ファイヤー　サンダー　フリーザーは	でんせつの　とりポケモンは
+	cont	limited by their			para	在每個招式的%被用盡時，		para	在每个招式的%被用尽时，	POWER POINTs, PP.		是传说的鸟宝可梦。	でんせつの　とりポケモンです	3しゅるい…　ファイヤー
+	cont	POWER POINTs, PP.			line	就帶寶可夢去寶可夢中心		line	就带宝可梦去宝可梦中心	To replenish PP,	“Yet their exact whereabouts are still unknown.			サンダー　フりーザー…
+					cont	休息吧！		cont	休息吧！	rest your tired	We will be investigating the Cerulean Cave next	可是现在依然没有人知晓	しかし　どこに　いるのか	しかし　どこに　いるのか
+	para	To replenish PP,			done			done		#MON at a		究竟能在哪里遇到它们。	まだ　わかって　ません	まだ　わかって　ません
+	line	rest your tired								#MON CENTER!	and will report back accordingly.			こんど　ハナダ　どうくつに
+	cont	#MON at a										接下来我们将	こんど　ハナダのどうくつに	ちょうさに　いきます
+	cont	#MON CENTER!									       — The Pokémon Research Team”	前去华蓝洞窟调查。	ちょうさに　いきます	…　まずは　ほうこく　まで
+	done													ポケモン　ちょうさ　たい
+												总之先报告到这里。	まずは　ほうこく　まで	…　…　…
+_ViridianCityText13::				_ViridianCityText13::								……宝可梦调查队敬上	……ポケモン　ちょうさ　たい	
+	text	VIRIDIAN CITY			text	常青市寶可夢道館		text	常青市宝可梦道馆	VIRIDIAN CITY	Viridian City Pokémon Gym	常青市宝可梦道馆	トキワ　ポケモンジム	トキワ　ポケモンジム
+	line	#MON GYM			done			done		#MON GYM	Gym Leader: Giovanni	坂木认证训练家！	サカキ　にんてい　トレーナー！	
+	done													
+											Certified Trainers:	[VAR TRNAME(0000)]	[VAR TRNAME(0000)]	
+_ViridianCityText14::				_ViridianCityText14::							[VAR TRNAME(0000)]			
+	text	The GYM's doors			text	常青道館的大門		text	常青道馆的大门	The GYM's doors	The doors to the Viridian City Pokémon Gym	常青道馆的大门	トキワジムの　ドアには	ドアには
+	line	are locked...			line	鎖得緊緊的。		line	锁得紧紧的。	are locked...	are locked tight!	锁得紧紧的……！	カギが　かかって　いた……！	カギが　かかって　いた…!
+	done				done			done						
+end				end										

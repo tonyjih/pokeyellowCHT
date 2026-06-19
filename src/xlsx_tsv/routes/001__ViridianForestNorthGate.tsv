@@ -1,0 +1,21 @@
+text/ViridianForestNorthGate.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_ViridianForestExitText1::				_ViridianForestExitText1::										
+	text	Many #MON live			text	有些寶可夢只有		text	有些宝可梦只有	Many #MON live	Many Pokémon live only in forests and caves.	有些宝可梦只有	もりや　どうくつ　しか	もりや　どうくつ　しか
+	line	only in forests			line	森林或洞窟裡才有。		line	森林或洞窟里才有。	only in forests		森林或洞窟里才有。	いない　ポケモンも　おおいよ	いない　ポケモンも　おおいよ
+	cont	and caves.			para	要是想各種寶可夢		para	要是想各种宝可梦	and caves.	You need to be persistent and look everywhere			いろんな　ポケモン　とるなら
+					line	都捉一遍，就得有耐心地		line	都捉一遍，就得有耐心地	You need to look	to get different species.	要是想各种宝可梦都捉一遍，	いろんな　ポケモン　とるなら	しつこく　さがしまわる　ことだね
+	para	You need to look			cont	慢慢找啊。		cont	慢慢找啊。	everywhere to get		就得有耐心地慢慢找啊。	しつこく　さがしまわる　ことだね	
+	line	everywhere to get			done			done		different kinds!				
+	cont	different kinds!												
+	done													
+														
+_ViridianForestExitText2::				_ViridianForestExitText2::										
+	text	Have you noticed			text	路上不是經常有		text	路上不是经常有	Have you noticed	Have you noticed the [VAR COLOR(0006)]skinny trees[VAR COLOR(0000)] on	路上不是经常有	どうろの　あちこちに	どうろの　あちこちに
+	line	the bushes on the			line	枝幹偏細的樹木嗎？		line	枝干偏细的树木吗？	the bushes on the	the roadside?	[VAR COLOR(0006)]枝干偏细的树木[VAR COLOR(0000)]吗？	[VAR COLOR(0006)]ほそいえだの　き[VAR COLOR(0000)]が　あったろ？	ほそい　きが　あったろ?
+	cont	roadside?			para	使用寶可夢招式，		para	使用宝可梦招式，	roadside?				あそこは　ポケモンの　わざで
+					line	就能順利走過去了喲！		line	就能顺利走过去了哟！	They can be cut	They can be chopped down with the Secret	用叫作秘术“袈裟斩”的招式砍断，	ヒジュツ・ケサギリ　という　わざで	きって　とおれる　そうじゃ
+	para	They can be cut			done			done		down by a special	Technique called Chop Down, I hear.	就能顺利走过去了哟！	きって　とおれる　そうじゃ	ザ
+	line	down by a special								#MON move.				
+	cont	#MON move.												
+	done													
+end				end										

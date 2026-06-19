@@ -1,0 +1,10 @@
+text/DiglettsCaveRoute11.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_DiglettsCaveEntRoute11Text1::				_DiglettsCaveEntRoute11Text1::										
+	text	What a surprise!			text	你不要感到吃驚！		text	你不要感到吃惊！	What a surprise!	“If a Pokémon falls asleep, it will be unable to	处于睡眠状态时，	ねてしまうと　その　あいだは	ねてしまうと　その　あいだは
+	line	DIGLETTs dug this			line	這條深邃的隧道啊，		line	这条深邃的隧道啊，	DIGLETTs dug this	attack till it wakes.	宝可梦将无法攻击！	こうげき　できません！	こうげき　できません!
+	cont	long tunnel!			cont	可是地鼠挖出來的哦！		cont	可是地鼠挖出来的哦！	long tunnel!				たたかい　おわっても　ねたまま
+					para	它一直通到		para	它一直通到	It goes right to	“It will stay asleep after battle.	即使战斗结束也无法解除。	たたかい　おわっても　ねたまま	ねむけざましで　めが　さめます
+	para	It goes right to			line	常青市呢！		line	常青市呢！	VIRIDIAN CITY!		可以使用解眠药让宝可梦醒来。	ねむけざましで　めが　さめます	
+	line	VIRIDIAN CITY!			done			done			“Use an Awakening to wake it up.”			
+	done													
+end				end										

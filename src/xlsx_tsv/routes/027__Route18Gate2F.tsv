@@ -1,0 +1,17 @@
+text/Route18Gate2F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route18GateUpstairsText_49993::				_Route18GateUpstairsText_49993::										
+	text	Looked into the			text	使用望遠鏡觀看！		text	使用望远镜观看！	Looked into the	Let’s see what the binoculars have to show...	使用望远镜观看！	ぼうえんきょうを　のぞいた！	ぼうえんきょうを　のぞいた!
+	line	binoculars.			para	看見了西邊的真新鎮。		para	看见了西边的真新镇。	binoculars.				にしに　マサラ　タウンが　みえる
+					done			done		PALLET TOWN is in	Pallet Town is to the west.	看见了西边的真新镇。	にしに　マサラタウンが　みえる	ゲ
+	para	PALLET TOWN is in								the west!				
+	line	the west!												
+	done													
+														
+_Route18GateUpstairsText_4999f::				_Route18GateUpstairsText_4999f::										
+	text	Looked into the			text	使用望遠鏡觀看！		text	使用望远镜观看！	Looked into the	Let’s see what the binoculars have to show...	使用望远镜观看！	ぼうえんきょうを　のぞいた！	ぼうえんきょうを　のぞいた!
+	line	binoculars.			para	看見有人在游泳！		para	看见有人在游泳！	binoculars.				およいでる　ひとが　みえる!
+					done			done		There are people	There are people swimming.	看见有人在游泳！	およいでる　ひとが　みえる！	ザ
+	para	There are people								swimming!				
+	line	swimming!												
+	done													
+end				end										

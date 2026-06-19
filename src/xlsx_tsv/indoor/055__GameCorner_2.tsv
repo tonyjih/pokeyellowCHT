@@ -1,0 +1,6 @@
+text/GameCorner_2.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CeladonGameCornerText_48f19::				_CeladonGameCornerText_48f19::										
+	text	Oops! Forgot the			text	糟糕！		text	糟糕！	Oops! Forgot the	“Diary: July 10	日记　７月10日	にっき　７がつ１０か	にっき　7がつ10か
+	line	COIN CASE!			line	沒有代幣盒！		line	没有代币盒！	COIN CASE!	We christened the newly discovered	我给新发现的宝可梦	しんはっけんの　ポケモンを	しんはっけんの　ポケモンを
+	done				done			done						わたしは　ミュウと　なづけた
+end				end							Pokémon ‘Mew.’”	取名为梦幻。	わたしは　ミュウと　なづけた	ゲ

@@ -1,0 +1,25 @@
+engine/menus/players_pc.asm		
+	"""WITHDRAW ITEM"""	取出道具
+	"""DEPOSIT ITEM"""	寄放道具
+	"""TOSS ITEM"""	丟棄道具
+	"""LOG OFF@"""	關機@
+engine/pokemon/bills_pc.asm		
+	"""SOMEONE's PC@"""	某人的電腦@
+	"""BILL's PC@"""	正輝的電腦@
+	"""'s PC@"""	的電腦@
+	"""PROF.OAK's PC@"""	大木的電腦@
+	"""<PKMN>LEAGUE@"""	#聯盟@
+	"""LOG OFF@"""	關機@
+	"""WITHDRAW <PKMN>"""	取出#
+	"""DEPOSIT <PKMN>"""	寄放#
+	"""RELEASE <PKMN>"""	放生#
+	"""CHANGE BOX"""	更換盒子
+	"""SEE YA!"""	再見
+	"""PRINT BOX"""	列印盒子
+	"""BOX No.@"""	盒子@
+	"""Whattt?@"""	要做什麼？@
+	"""DEPOSIT@"""	寄放@
+	"""WITHDRAW@"""	取出@
+	"""STATS"""	檢視能力
+	"""CANCEL@"""	取消@
+end		

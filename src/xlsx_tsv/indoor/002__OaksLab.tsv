@@ -1,0 +1,405 @@
+text/OaksLab.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_OaksLabGaryText1::				_OaksLabGaryText1::										
+	text	<RIVAL>: Yo			text	<RIVAL>：喲！		text	<RIVAL>：哟！	<RIVAL>: Yo	JESSIE: Argh! Don’t be such a wimp!	武藏：哎呀！我说你啊，	ムサシ『もーッ！　なによ	…　ポケモンの　シナりオだ!
+	line	<PLAYER>! Gramps			line	<PLAYER>！		line	<PLAYER>！	<PLAYER>! Gramps		别在那磨磨蹭蹭的！	ウジウジ　しちゃって！	これは　エンディングだ!
+	cont	isn't around!			cont	大木爺爺不在這裡呢！		cont	大木爷爷不在这里哟！	isn't around!	This is the boss we’re talking about!			いまは　みないで　おこう…!
+								done				他可是我们的坂木老大啊！	サカキさまの　こと　なんだから！	
+	para	I ran here 'cos			para	他說要給我寶可夢，			ポケモンを　くれるって　いうから		He’s hiding himself for now, but he must be	现在肯定只是	いまは　いったん　みを　かくして	
+	line	he said he had a			line	所以這才急忙過來的……			オレも　いそいで　きたんだけど⋯		preparing for the next scheme!			
+	cont	#MON for me.										临时找了个地方藏身，	つぎの　わるだくみの　じゅんび	
+	done				done							这样才能为将来的阴谋做准备啊！	してるに　きまってんでしょ！	
+														
+_OaksLabText40::				_OaksLabText40::										
+	text	<RIVAL>: Humph!			text	<RIVAL>：哼！			 {RIVAL} 『ふん!		If you catch [VAR NUM1(0000)] of the Scratch Cat Pokémon	等你捉到[VAR NUM1(0000)]只	ばけねこポケモンの　ニャースを	…　おとくな　けいじばん!
+	line	I'll get a better			line	我之後要拿到			おまえよりも　いい　ポケモン		Meowth, I’ll give you a pretty Pokémon! You can	妖怪猫宝可梦喵喵，	[VAR NUM1(0000)]ひき　つかまえて　きたら	とにかく　ポケモンを　つかまえて
+	cont	#MON than you!			cont	比你的更好的寶可夢！			あとで　もらうもんねー!					ドンドン　ふやそう!
+	done				done						ride on its back!	我就送你一只漂亮的宝可梦！	せなかに　のれる	トレーナーとの　しょうぶも
+												你可以骑在它的背上噢！	プリティーな　ポケモン　あげちゃう！	たくさん　もってると　ゆうり!
+_OaksLabText41::				_OaksLabText41::										
+	text	<RIVAL>: Heh, my			text	<RIVAL>：看起來，			 {RIVAL} 『おれの		Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	#MON looks a			line	我的寶可夢更強呢。			ポケモンの　ほうが　つよそうだぜ		Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	lot stronger.												…　シルフ　カンパニー
+	done				done							……西尔佛公司	……シルフカンパニー	
+														
+_OaksLabText39::				_OaksLabText39::										
+	text	That's a #			text	是精靈球。			モンスターボールだ		I’ve heard that there’s a tunnel even darker	听说某个地方有个	どこかに　ここよりも	…　ひかり　ある　ところに
+	line	BALL. There's a			line	裡面裝有寶可夢！			なかに　ポケモンが　はいってるぞ!		inside than this one somewhere...	远远比这里昏暗的隧道。	ずっと　まっくらな	かげが　ある!
+	cont	#MON inside!												ひかりと　かげ!
+	done				done						Somewhere out there...		トンネルが　ある　らしいな	おまえは　どちらを　えらぶ?
+														ゲ4ヅらひ
+_OaksLabPikachuText::				_OaksLabPikachuText::										
+	text	OAK: Go ahead,			text	大木：那麼，			オーキド『さあ		It’s so pleasant...	真舒服……	きもち　いい……	おし!
+	line	it's yours!			line	快點去拿吧！			とるが　よい!			……呼……呼～	……　すー……　すー	いい　しょうぶ　だった
+	done				done						... ... ...			
+														
+_OaksLabText_1d2f5::				_OaksLabText_1d2f5::							... ... Zzz.			
+	text	OAK: If a wild			text	大木：對了！					If a Support Trainer battles alongside you,	和帮手训练家一起战斗时，	サポートトレーナーに	 {RIVAL} 『あーッ!　 {PLAYER} !
+	line	#MON appears,			line	哪怕有野生的寶可夢出現，					you can have two Pokémon on your side to take		いっしょに　たたかって　もらえば	ポケモン　りーグに　いくのか?
+	cont	your #MON can			cont	只要與它們戰鬥，						可以在对手派出１只宝可梦的情况下		やめとけ!
+	cont	fight against it!			cont	就能前往下一個城鎮了！					on one opposing Pokémon!	用２只宝可梦与其对抗！	あいての　ポケモン　１ぴきに	おまえ　どうせ
+													２ひきで　たいこう　できる！	バッジ　もってねーだろ?
+	para	Afterward, go on									You can have the upper hand!	这样对我方有利极了！		みはりの　おっさんが
+	line	to the next town.											すっごい　ゆうり！	とおして　くれねーよ!
+	done				done									…　それよりさあ!
+														おまえの　ポケモン
+_OaksLabText_1d2fa::				_OaksLabText_1d2fa::										すこしは　つよく　なったかよ?
+	text	OAK: You should			text	大木：偶爾和它說說話，			オーキド『たまには		Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	talk to it and			line	看看它的情況，			そいつに　はなしかけて		Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	see how it feels.			cont	應該會很不錯吧！			ようすを　みると　いいじゃろう					…　シルフ　カンパニー
+	done				done							……西尔佛公司	……シルフカンパニー	
+														
+_OaksLabDeliverParcelText1::				_OaksLabDeliverParcelText1::										
+	text	OAK: Oh, <PLAYER>!			text	大木：哦哦！<PLAYER>，		text	大木：哦哦！<PLAYER>，	OAK: Oh, <PLAYER>!	ERIKA: Oh, if it isn’t the one who’s been trying	莉佳：我记得你应该是	エリカ『たしか　ずかんを	 {next} 
+					line	如何了？		line	如何了？	How is my old	to fill the Pokédex.	在收集图鉴的那位训练家吧。	つくって　いらした　かたね	@
+	para	How is my old			para	有沒有和我給你的		para	有没有和我给你的	#MON?				 {PLAYER}  {RIVAL} ポケモン
+	line	#MON?			line	寶可夢……		line	宝可梦……	Well, it seems to	I do hope things have been going well for you	不知道	あれからは　いかが	…
+					cont	變得更加親密一點呢？		cont	变得更加亲密一点呢？	like you a lot.	since our last encounter.	那之后你过得如何？	おすごし　でしたの？	
+	para	Well, it seems to			para	你很有		para	你很有	You must be				 {TARGET}  {USER}  {5B}  {5C} トレーナーロケットだん
+	line	like you a lot.			line	訓練家的才能啊！		line	训练家的才能啊！	talented as a	...I see.	……是这样啊。	……まあ　そうなの	
+					para	……什麼？		para	……什么？	#MON trainer!	You certainly have been busy.	看来你发挥了你的实力。	ごかつやく　されてる　のね	
+	para	You must be			line	你有東西要給我？		line	你有东西要给我？	What? You have				
+	line	talented as a			para	<PLAYER>把包裹		para	<PLAYER>把包裹	something for me?	I’m not particularly fond of those kinds of	我平时不太关心	わたくし　せけんの　ことには	
+	cont	#MON trainer!			line	交給了大木博士！@		line	交给了大木博士！@	<PLAYER> delivered				
+					text_end			text_end		OAK's PARCEL.@	public things...	世界上都发生了什么……	あまり　きょうみが　なくて……	
+	para	What? You have												
+	line	something for me?									However, battles are different.	不过对战就另当别论了。	でも　しあいは　べつ　ですわ	
+											That’s what you came for, isn’t it?	你一定也是为了对战而来吧？	そのために　いらしたの　でしょう？	
+	para	<PLAYER> delivered												
+	line	OAK's PARCEL.@												
+	text_end													
+														
+_OaksLabDeliverParcelText2::				_OaksLabDeliverParcelText2::										
+	text_start				text_start			text_start			Hello there!	哎哟哟！	やあ　やあ！	やあ　やあ!
+	para	Ah! This is the			para	哦哦！這不是		para	哦哦！这不是	Ah! This is the				わたしは　いつも　きみが
+	line	custom # BALL			line	我預訂的特殊精靈球嘛。		line	我预订的特殊精灵球嘛。	custom # BALL	I’ve been watching you walk right past me this	我眼巴巴地看你	わたしは　いつも　きみが	そこを　とおるのを　みてたが
+	cont	I ordered!			cont	真是謝謝你了，		cont	真是谢谢你了！	I ordered!	whole time, and I was hoping you’d come to visit	走来走去无数次……	そこを　とおるのを　みてた……	やっと　あう　ことが　できた!
+	cont	Thanks, <PLAYER>!			cont	<PLAYER>！		done		Thank you!				それでは　とっておきの
+											me someday.	不知道你何时才能走过来，	いつ　きて　くれるかな　って	これを!　きみに　あげよう!
+	para	By the way, I must			para	順便，剛才忘了說了，			ところで　さっき　いいわすれたが			我的心里寂寞得	もう　ほんと　さみしく　みてた	
+	line	ask you to do			line	我有事要拜託……			おねがいが　あるんじゃ…		I was really lonely...			
+	cont	something for me.										就像是秋风扫落叶啊……	どうして　こんな　いえの　まえに	
+	done				done						Why did I make a pond right in front of		いけを　つくって　しまったのか……	
+											my house...?	我为啥要在家的正前方		
+_OaksLabAroundWorldText::				_OaksLabAroundWorldText::								造这么个破池子啊……		
+	text	#MON around the			text	生活在這個世界上的		text	生活在这个世界上的	#MON around the	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	world wait for			line	寶可夢們正在等待著你唷，		line	宝可梦们正在等待着你唷，	world wait for	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	you, <PLAYER>!			cont	<PLAYER>！		cont	<PLAYER>！	you, <PLAYER>!				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_OaksLabGivePokeballsText1::				_OaksLabGivePokeballsText1::										
+	text	OAK: You can't get			text	大木：單只是		text	大木：单只是	OAK: You can't get	OAK: You’ll find you can’t get very detailed data	大木博士：单只是发现宝可梦，	オーキド『ポケモンを	オーキド『ポケモンを
+	line	detailed data on			line	發現寶可夢，是無法獲取		line	发现宝可梦，是无法获取	detailed data on	on Pokémon by just seeing them.	是无法获取宝可梦的详细信息的！	ただ　みつけただけ　では	ただ　みつけただけ　では
+	cont	#MON by just			cont	寶可夢的詳細資訊的！		cont	宝可梦的详细信息的！	#MON by just				くわしい　データを
+	cont	seeing them.			para	你們必須		para	你们必须	seeing them.	You must catch a Pokémon to gather the most	你们必须将宝可梦捉住才行！	くわしい　データを	てに　いれる　ことは　できん!
+					line	將寶可夢捉住才行！		line	将宝可梦捉住才行！	You must catch	complete data!			かならず
+	para	You must catch			cont	為了實現這一點，		cont	为了实现这一点，	them! Use these			てに　いれる　ことは　できん！	つかまえなければ　ならんのだ!
+	line	them! Use these			cont	我會給你這個重要的道具！		cont	我会给你这个重要的道具！	to capture wild				ほれ　そのために…
+	cont	to capture wild			para	<PLAYER>得到了		para	<PLAYER>得到了	#MON.			かならず	モンスターボールをわたそう!
+	cont	#MON.			line	５個精靈球！@		line	５个精灵球！@	<PLAYER> got 5			つかまえなければ　ならんのだ！	 {PLAYER} は　5こ
+					text_end			text_end		# BALLs!@				モンスターボールを　もらった!@ヅ
+	para	<PLAYER> got 5												
+	line	# BALLs!@												
+	text_end													
+														
+_OaksLabGivePokeballsText2::				_OaksLabGivePokeballsText2::										
+	text_start				text_start			text_start			You will find the Pokémon brought from	从Pokémon GO那里	ＧＯパークでは　Pokémon GOから	なぜ…
+	para	When a wild			para	當野生的寶可夢		para	当野生的宝可梦	When a wild	Pokémon GO playing in a GO Park.	带来的宝可梦们	つれてきた　ポケモン　たちが	なぜ　まけてしまったんだ…
+	line	#MON appears,			line	撲過來時就是機會！		line	扑过来时就是机会！	#MON appears,				おれの　そだてかた…
+	cont	it's fair game.								it's fair game.	Go and speak to a Pokémon to try to catch it	会在GO Park里玩耍。	あそんで　います	まちがってなんか　いないはずなのに
+											or to move it to a different GO Park.			しょうが　ないぜ…
+	para	Just like I showed			para	就像我剛才展示的那樣，			わしが　やってみせたように			如果和宝可梦交谈，	ポケモンに　はなしかけると	おまえが　ポケモン　りーグ
+	line	you, throw a #			line	把精靈球“咻”地扔出去，			モンスターボールを		Once you catch a Pokémon in a GO Park,	就能捕捉它们，	つかまえたり　ほかの	しん　チャンピオンだ…!
+	cont	BALL at it and try			cont	就能捉到寶可夢了！			ポイ!っと　なげれば		you will not be able to return it to a GO Park.			…　…　…
+	cont	to catch it!							ポケモンを　つかまえ　られる!			或者将它们移动到	ＧＯパークに　いどう　できます	…　みとめたく　ねーけど
+											If you want to leave a GO Park,			
+	para	This won't always			para	但是……也要明白並不是			ただし…　うまく　とれるか		press the X Button.	别的GO Park。	つかまえた　ポケモンは	
+	line	work, though.			line	每一次都會順利捉到！			どうかは　わからんぞ!				ＧＯパークには　もどせません	
+												被捉住的宝可梦		
+	para	A healthy #MON			para	健康的寶可夢很容易逃脫，			げんきな　ポケモンは　にげやすいし			无法返回GO Park。	ＧＯパークから　かえる　ときは	
+	line	could escape. You			line	所以運氣也是需要的！			うんも　あるからな!				Ｘボタンを　おしてください	
+	cont	have to be lucky!										如果想离开GO Park，		
+	done				done							请按X键。		
+														
+_OaksLabPleaseVisitText::				_OaksLabPleaseVisitText::										
+	text	OAK: Come see me			text	大木：時不時		text	大木：时不时	OAK: Come see me	OAK: Ah, welcome!	大木博士：你来的正好！	オーキド『よく　きた！	オーキド『よく　きた!
+	line	sometimes.			line	來我這邊露個臉吧！		line	来我这边露个脸吧！	sometimes.	Tell me, how is the old Pokédex coming along?	宝可梦图鉴收集的如何了？	ポケモンずかんの	ポケモンずかんの
+					para	讓我看看寶可夢圖鑑的		para	让我看看宝可梦图鉴的	I want to know how				ちょうしは　どうかな?
+	para	I want to know how			line	頁面進展到什麼程度吧！		line	页面进展到什么程度吧！	your #DEX is	Wahaha!	哇哈哈……！	ちょうしは　どうかな？	どれ…　ちょっと
+	line	your #DEX is			done			done		coming along.		其实图鉴收集得如何我早就知道了，		みて　あげようか!
+	cont	coming along.									Actually, I already know how it is, but I love		わはは……！　ほんとうは	ゲ
+	done										seeing it again anyway!	但就是想多确认几次啊！	もう　わかって　おるのじゃが	
+														
+_OaksLabText_1d31d::				_OaksLabText_1d31d::							Let’s see...	来来来……让我瞅瞅……	なんどでも　たしかめたいんじゃ！	
+	text	OAK: Good to see			text	你來的正好！		text	你来的正好！	OAK: Good to see	OAK: Good to see you!	你来的正好！	オーキド『よく　きた！	オーキド『よく　きた!
+	line	you! How is your			line	寶可夢圖鑑收集得如何了？		line	宝可梦图鉴收集得如何了？	you! How is your	And how is your Pokédex coming along?	宝可梦图鉴收集得如何了？	ポケモンずかんの	ポケモンずかんの
+	cont	#DEX coming?			cont	來來來……		cont	来来来……	#DEX coming?				ちょうしは　どうかな?
+	cont	Here, let me take			cont	讓我幫你瞅瞅！		cont	让我帮你瞅瞅！	Here, let me take	Here, let me take a look...	来来来……	ちょうしは　どうかな？	どれ…　ちょっと
+	cont	a look!			prompt			prompt		a look!		让我帮你瞅瞅！	どれ……　ちょっと	みて　あげようか!
+	prompt												みて　あげようか！	ゲ
+														
+_OaksLabText_1d32c::				_OaksLabText_1d32c::										
+	text	It's encyclopedia-			text	有著像圖鑑一樣的東西！		text	有着像图鉴一样的东西！	It's encyclopedia-	There’s no Steel-type Gym, but I love it anyway!	虽然没有钢属性的道馆，	はがねタイプの　ジムは　ないけど	キャタピーは　どくが　ないけど
+	line	like, but the			line	但裡面的頁面都是空白的！		line	但里面的页面都是空白的！	like, but the	Yes, the Steel type!	我真的！非常喜欢钢属性！	すきです！　はがねタイプ！	ビードルには　どくが　あるよ
+	cont	pages are blank!			done			done		pages are blank!				ポケモンが　さされないように
+	done										Steel-type moves are strong against Fairy types!	对抗妖精属性时也强的很啊！	フェアリーにも　つよいヨ！	きを　つけようね
+														
+_OaksLabText8::				_OaksLabText8::										
+	text	?			text	？		text_ram	wStringBuffer	wStringBuffer	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	done				done			text_start			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+								line	已滑落至取物口！	popped out!				4ャよひ
+_OaksLabText_1d340::				_OaksLabText_1d340::				done						つ {PLAYER}  {PLAYER} 
+	text	PROF.OAK is the			text	別看大木博士那個樣子，		text	别看大木博士那个样子，	PROF.OAK is the	The third page says...	第３页……	３ページめ……	3ぺージめ　…
+	line	authority on			line	他可是寶可夢界的權威哦！		line	他可是宝可梦界的权威哦！	authority on				ポケモンどうしを　たたかわせ
+	cont	#MON!			para	尊敬博士的寶可夢訓練家		para	尊敬博士的宝可梦训练家	#MON!	“Pokémon Trainers seek others to battle and	对训练家来说，	ポケモンどうしを　たたかわせ	かつことは　トレーナーに　とって
+					line	也是大有人在呢！		line	也是大有人在呢！	Many #MON	defeat in Pokémon battles.	最大的喜悦莫过于	かつことは　トレーナーに　とって	さいこうの　よろこび　である!
+	para	Many #MON			done			done		trainers hold him				かくちの　ポケモン　ジムでは
+	line	trainers hold him								in high regard!	“To Trainers, the taste of victory	宝可梦在对战中获胜了！	さいこうの　よろこび　である！	いつも　はげしい
+	cont	in high regard!									is sweet indeed.			たたかいが　くりひろげられてる!
+	done											在各个宝可梦道馆，	かくちの　ポケモンジムでは	
+											“Battles are constantly waged at Pokémon	无论何时都能看到	いつも　はげしい	
+_OaksLabRivalWaitingText::				_OaksLabRivalWaitingText::							Gyms everywhere.”			
+	text	<RIVAL>: Gramps!			text	<RIVAL>：爺爺！		text	<RIVAL>：爷爷！	<RIVAL>: Gramps!	I’m having a meeting with an important client.	我正在和客户开会呢。	おとくいさまと	ぼくは　クラスで　いちばん　つよい!
+	line	I'm fed up with			line	我等了好久呀！		line	我等了好久呀！	I'm fed up with			かいぎ　してるんだ	まいあさ　れんしゅうも　してるんだ!
+	cont	waiting!			done			done		waiting!	You want to join in?	……你也想一起参加吗？		
+	done												……きみも　まざる？	
+														
+_OaksLabChooseMonText::				_OaksLabChooseMonText::										
+	text	OAK: Hmm? <RIVAL>?			text	大木：哦哦，<RIVAL>？			オーキド『おお　 {RIVAL} !		BLAINE: Hah!	夏伯：嘿～～！	カツラ『うおーす！	へブ {PKMN} の　　　ビブ　　　　　　　　　　ボ
+	line	Why are you here			line	什麼呀，你早就來了嗎？			なんじゃ　もう　きていたのか?		Well done, returning here to my Gym!	你来得正好！	よく　きたな！	
+	cont	already?												
+											You’re the one who retrieved the key to this	我猜你是去宝可梦屋	おまえは　ポケモンやしきに	
+	para	I said for you to			para	明明之前跟你說了，			しばらく　してから		Gym from the Pokémon Mansion!	拿到了这个道馆的钥匙吧！	この　ジムの　カギを	
+	line	come by later...			line	讓你過一會兒再來的……			くるように　いっておいたのに⋯					
+											Did you see anything interesting while you were	那时你有没有看到些什么？	とりに　いったの　だったな！	
+	para	Ah, whatever!			para	嘛，算了。			まあ　よい		in there?			
+	line	Just wait there.			line	你在那裡稍微等我一下。			ちょっと　そこで　まっておれ			那里应该有我的旧友	そのとき　なにかを　みたか？	
+											That place still holds the remnants of my old	从事研究时的痕迹！		
+	para	Look, <PLAYER>! Do			para	快看，<PLAYER>！			ほれ　 {PLAYER} !		friend’s research!		あそこには　ふるい　ともだちの	
+	line	you see that ball			line	那邊有個圓圓的小球對吧？			そこに　まるいたまが　あるじゃろう			我听说最近，	けんきゅうの　あとが　ある！	
+	cont	on the table?									By the way, I’ve been hearing an interesting	有个少女正在调查那个……		
+														
+					para	嚯嚯！			ほっほ!		rumor floating around recently...		さいきん　それを　しらべる	
+														
+	para	It's called a #			para	它叫做精靈球，			モンスターボールと　いって			你认识一个	しょうじょの　うわさを　きいた……	
+	line	BALL. It holds a			line	裡面裝著寶可夢呢。			ポケモンが　はいって　おるのじゃ		You wouldn’t happen to know a young lady	叫作碧蓝的少女吗？		
+	cont	#MON inside.									named Green, would you?		おまえは　ブルー　という	
+												……哎，	しょうじょは　しらんか？	
+	para	You may have it!			para	我準備把它給你！			それを　おまえに　やろう!		...Hmph, well, it’s not as though I really know	我也不太清楚！		
+	line	Go on, take it!			line	那麼，快點去拿吧！			さあ　とるがよい!		the whole story anyway.		……まあ　わしにも	
+	done				done							不说这个了，择日不如撞日，	よく　わからん　はなしなのだ！	
+											More importantly, since you came all this way,	现在就和我比试一场吧！		
+_OaksLabRivalInterjectionText::				_OaksLabRivalInterjectionText::							we should have a battle!		そんな　ことより　せっかく　だから	
+	text	<RIVAL>: Hey!			text	<RIVAL>：啊！偏心！		text	<RIVAL>：啊！偏心！	<RIVAL>: Hey!	ARCHER: What did I want you to think about me	阿波罗：写这种东西，	アポロ『こんな　ものを　かいて	こんな　とこ　まで　くる　とは
+	line	Gramps! What			line	爺爺！我也想要！		line	爷爷！我也想要！	Gramps! What	by writing such a letter...?	我到底是希望你	おまえに　どう　おもって	きみも　マニア?　…　じゃ
+	cont	about me?			done			done		about me?				ぼくの　コレクション　みる?
+	done										Humph.	对我有什么想法啊……	もらいたかった　のか……	
+														
+_OaksLabBePatientText::				_OaksLabBePatientText::								呵呵……	フフ……	
+	text	OAK: Be patient,			text	大木：嗨！著什麼急呀			オーキド『まー!		If you catch [VAR NUM1(0000)] of the Scratch Cat Pokémon	等你捉到[VAR NUM1(0000)]只	ばけねこポケモンの　ニャースを	…　おとくな　けいじばん!
+	line	<RIVAL>, I'll give			line	<RIVAL>！			そう　あわてるな　 {RIVAL} !		Meowth, I’ll give you a pretty Pokémon! You can	妖怪猫宝可梦喵喵，	[VAR NUM1(0000)]ひき　つかまえて　きたら	とにかく　ポケモンを　つかまえて
+	cont	you one later.			cont	我過一會兒也會給你的！			おまえにも　あとで　やるから					ドンドン　ふやそう!
+	done				done						ride on its back!	我就送你一只漂亮的宝可梦！	せなかに　のれる	トレーナーとの　しょうぶも
+												你可以骑在它的背上噢！	プリティーな　ポケモン　あげちゃう！	たくさん　もってると　ゆうり!
+_OaksLabRivalTakesText1::				_OaksLabRivalTakesText1::										
+	text	<RIVAL>: No way!			text	<RIVAL>：<PLAYER>！			 {RIVAL} 『 {PLAYER} !		Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	<PLAYER>, I want			line	這傢伙就歸我了！			こいつは　おれが　もらったぜ!		Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	this #MON!												…　シルフ　カンパニー
+	prompt				prompt							……西尔佛公司	……シルフカンパニー	
+														
+_OaksLabRivalTakesText2::				_OaksLabRivalTakesText2::										
+	text	<RIVAL> snatched			text	<RIVAL>			 {RIVAL} は　		“Diary: July 10	日记　７月10日	にっき　７がつ１０か	にっき　7がつ10か
+	line	the #MON!@			line	奪走了寶可夢！@			ポケモンを　よこどりした!		We christened the newly discovered	我给新发现的宝可梦	しんはっけんの　ポケモンを	しんはっけんの　ポケモンを
+	text_end				text_end									わたしは　ミュウと　なづけた
+											Pokémon ‘Mew.’”	取名为梦幻。	わたしは　ミュウと　なづけた	ゲ
+_OaksLabRivalTakesText3::				_OaksLabRivalTakesText3::										
+	text	OAK: <RIVAL>! What			text	大木：喂！<RIVAL>！			オーキド『こら!　 {RIVAL} !		There are Pokémon magazines on the shelves.	这里陈列着宝可梦的杂志！	ポケモンざっしが　ならんでる！	　ぽ　ぽ　
+	line	are you doing?			line	你在幹什麼！			なにを　やっておるんじゃ!					
+	prompt				prompt						And Pokémon notebooks...	……宝可梦手册	……ポケモンてちょう	
+														
+_OaksLabRivalTakesText4::				_OaksLabRivalTakesText4::							And Pokémon graphs, too!	……宝可梦图表	……ポケモングラフ	
+	text	<RIVAL>: Gramps, I			text	<RIVAL>：爺爺！			 {RIVAL} 『じいさん!		I sometimes see suspicious-looking people in	我有的时候会在游戏城	ゲームコーナーで　たまに	ぼうそうぞく…
+	line	want this one!			line	我就想要這個嘛！			おれは　これが　ほしい!		this Game Corner.	看到一些形迹可疑的人，	あやしい　ひと　みかける　けど	よく　みかける　けど
+	prompt				prompt									こわそうで　いやだわ
+											I wonder what they’re up to.	不知道他们都是什么人物呢？	なにもの　なんだろう？	
+_OaksLabRivalTakesText5::				_OaksLabRivalTakesText5::										
+	text	OAK: But, I... Oh,			text	大木：真拿你沒辦法呢……			オーキド『⋯しかたのない　やつじゃ⋯		Hello there!	哎哟哟！	やあ　やあ！	やあ　やあ!
+	line	all right then.			line	好吧！那隻寶可夢			よかろう!　そのポケモンは					わたしは　いつも　きみが
+	cont	That #MON is			cont	就給你了！			おまえに　やろう!		I’ve been watching you walk right past me this	我眼巴巴地看你	わたしは　いつも　きみが	そこを　とおるのを　みてたが
+	cont	yours.									whole time, and I was hoping you’d come to visit	走来走去无数次……	そこを　とおるのを　みてた……	やっと　あう　ことが　できた!
+														それでは　とっておきの
+	para	I was going to			para	本來我就打算也會給你			どうせ　おまえにも		me someday.	不知道你何时才能走过来，	いつ　きて　くれるかな　って	これを!　きみに　あげよう!
+	line	give you one			line	１隻寶可夢的……			わたす　つもり　だったからな⋯			我的心里寂寞得	もう　ほんと　さみしく　みてた	
+	cont	anyway...									I was really lonely...			
+												就像是秋风扫落叶啊……	どうして　こんな　いえの　まえに	
+	para	<PLAYER>, come over			para	<PLAYER>，			 {PLAYER} 		Why did I make a pond right in front of		いけを　つくって　しまったのか……	
+	line	here.			line	你到這邊來一下吧。			こっちに　きてくれんか		my house...?	我为啥要在家的正前方		
+	done				done							造这么个破池子啊……		
+														
+_OaksLabOakGivesText::				_OaksLabOakGivesText::										
+	text	OAK: <PLAYER>, this			text	大木：<PLAYER>！			オーキド『 {PLAYER} !		It proves a person defeated the Celadon City	彩虹徽章是击败了	タマムシジムの　ジムリーダーに	 {5B} を　みると
+	line	is the #MON I			line	這傢伙是剛才那隻寶可夢！			こいつは　さっきの　ポケモンじゃ!		Gym Leader.	玉虹道馆馆主的证明。	しょうり　した　あかし　です	なんと　でんしメールが　きていた!
+	cont	caught earlier.												…　…　…
+											This is the most colorful of all the Badges here	由于是关都地区	カントーバッジの　なかで	ポケモンを　つよく　そだてて
+	para	You can have it.			para	雖然才剛剛被捉到，			つかまえた　ばかりで		in the Kanto region, and it’s also the most	最五彩斑斓的徽章，	いちばん　カラフルな　バッジなので	たたかう　ポケモン　トレーナー!
+	line	I caught it in			line	還不太能和人類親近，			あまり　ひとには　なれておらんが					ここに　さいきょうの
+	cont	the wild and it's			cont	作為替代，這隻給你吧！			こいつを　かわりに　やろう!		expensive to make.	制作费也是最昂贵的。	いちばん　せいさくひも　たかいです	トレーナーが　あつまり　ました
+	cont	not tame yet.												ばしょは　セキエイ　こうげんの
+	prompt				prompt						If you put it on the ground and spin it like a top,	把它放在地上旋转起来的话，	じめんに　おいて　まわすと	ポケモン　りーグ　ほんぶ　です!
+											it’s very pretty!	会变成漂亮鲜艳的颜色哦！	いろ　あざやかで　きれいですよ	オーキドはかせも
+_OaksLabReceivedText::				_OaksLabReceivedText::										いちど　ごらん　ください
+	text	<PLAYER> received			text	<PLAYER>從大木那裡		text	<PLAYER>从大木那里	<PLAYER> received	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	a @			line	得到了@		line	得到了@	a @	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	text_ram	wcd6d			text_ram	wcd6d		text_ram	wcd6d	wcd6d				…　シルフ　カンパニー
+	text	!@			text	！@		text	！@	!@		……西尔佛公司	……シルフカンパニー	
+	text_end				text_end			text_end						
+														
+_OaksLabLeavingText::				_OaksLabLeavingText::				done		Congratulations,				
+	text	OAK: Hey! Don't go			text	大木：喂，		text	大木：喂，	OAK: Hey! Don't go	Yeah! Team Rocket is gone!	万岁～～！	ばんざーい！	ばんざーい!
+	line	away yet!			line	你要去哪裡！？快回來！		line	你要去哪里！？快回来！	away yet!	I don’t have to be afraid to go outside anymore!	火箭队的人终于滚蛋了！	ロケットだんが　いなくなった！	ロケットだんが　いなくなった!
+	done				done			done						ビビらないで　そと　あるけるんだ!
+												终于可以不用担惊受怕地出门了！	ビビらないで　そと　あるけるんだ！	
+_OaksLabRivalChallengeText::				_OaksLabRivalChallengeText::										
+	text	<RIVAL>: Wait			text	<RIVAL>：等一下		text	<RIVAL>：等一下	<RIVAL>: Wait	Let’s check out the notebook.	偷看了一下笔记！	ノートを　のぞいた！	ノートを　のぞいた!
+	line	<PLAYER>!			line	<PLAYER>！		line	<PLAYER>！	<PLAYER>!				1ぺージめ　…
+	cont	Let's check out			cont	好不容易從爺爺那裡		cont	好不容易从爷爷那里	Let's check out	The first page says...	第１页……	１ページめ……	ポケモンは
+	cont	our #MON!			cont	得到了寶可夢！		cont	得到了宝可梦！	our #MON!				モンスターボールで　つかまえて
+					para	……		para	……就稍微	Come on, I'll take	“Poké Balls are used to catch and	用精灵球捕捉到宝可梦后，	ポケモンは	6つまで　もち　あるける
+	para	Come on, I'll take			line	就稍微來比試一下吧！		line	来比试一下吧！	you on!	carry Pokémon.	就可以把它们随身带着走了。	モンスターボールで　つかまえて	ポケモンを　そだてて　たたかわせる
+	line	you on!			done			done						ひとを　ポケモン　トレーナーという
+	done										“People who raise and battle with	培育宝可梦去战斗的人	もち　あるける	
+											Pokémon are called Trainers.”	被称为宝可梦训练家。		
+_OaksLabText_1d3be::				_OaksLabText_1d3be::									ポケモンを　そだてて　たたかわせる	
+	text	WHAT?			text	哎？		text	哎？	WHAT?	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	Unbelievable!			line	不應該啊！早知道		line	不应该啊！早知道	Unbelievable!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	I picked the			cont	就選你這隻寶可夢了！		cont	就选你这只宝可梦了！	I picked the				…　シルフ　カンパニー
+	cont	wrong #MON!			prompt			prompt		wrong #MON!		……西尔佛公司	……シルフカンパニー	
+	prompt													
+														
+_OaksLabText_1d3c3::				_OaksLabText_1d3c3::										
+	text	<RIVAL>: Yeah! Am			text	<RIVAL>：真棒！		text	<RIVAL>：真棒！	<RIVAL>: Yeah! Am	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	I great or what?			line	我或許是天才吧？		line	我或许是天才吧？	I great or what?	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	prompt				prompt			prompt						…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_OaksLabRivalToughenUpText::				_OaksLabRivalToughenUpText::										
+	text	<RIVAL>: Okay!			text	<RIVAL>：好！		text	<RIVAL>：好！	<RIVAL>: Okay!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	I'll make my			line	我會讓我的寶可夢		line	我会让我的宝可梦	I'll make my	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	#MON fight to			cont	和其他寶可夢戰鬥，		cont	和其他宝可梦战斗，	#MON fight to				…　シルフ　カンパニー
+	cont	toughen it up!			cont	變得越來越強！		cont	变得越来越强！	toughen it up!		……西尔佛公司	……シルフカンパニー	
+					para	<PLAYER>！爺爺！		para	<PLAYER>！爷爷！	<PLAYER>! Gramps!				
+	para	<PLAYER>! Gramps!			line	那就這樣吧，我先閃了！		line	那就这样吧，我先闪了！	Smell you later!				
+	line	Smell you later!			done			done						
+	done													
+														
+_OaksLabPikachuDislikesPokeballsText1::				_OaksLabPikachuDislikesPokeballsText1::										
+	text	OAK: What?			text	大木：哎呀？			オーキド『おや?		What?	……哎呀？	……　おや？	…　おや!?
+	done				done						[VAR PKNICK(0001)] is evolving?!	[VAR PKNICK(0001)]的样子……	[VAR PKNICK(0001)]の　ようすが……	@
+														
+_OaksLabPikachuDislikesPokeballsText2::				_OaksLabPikachuDislikesPokeballsText2::							Nope!	并没有发生变化！	かわらなかった！	
+	text	OAK: Would you			text	大木：嚯！			オーキド『ほう!		“The president of the Pokémon Fan Club tells us	关于发烧友俱乐部会长的讲究	だいすきクラブ　かいちょうさんの	そうか!
+	line	look at that!									about the things he simply can’t get enough of:		こだわり　に　ついて	では　さっそく　はじめるか!
+												“在抚摸宝可梦的时候，		あのな…　わしの　おきにいりの
+	para	It's odd, but it			para	真是稀奇，			めずらしいこと　だが		“‘When you pet a Pokémon, touch it very lightly.	轻轻抚摸才是诀窍哇！	『ポケモンを　なでる　ときは	ギャロップがな…　…
+	line	appears that your			line	那傢伙好像討厭精靈球……			そいつは　モンスターボールが		For example, for my Rapidash, I stroke it along		ふわっと　ふれるのが　コツ　じゃ！	…　でな…　が…
+	cont	PIKACHU dislikes							きらいな　ようじゃのう…			就拿老夫的烈焰马来举例子吧，		…　…　かわいくてな…
+	cont	# BALLs.									its fur like this...	就像这样！顺着它的毛皮哇……	たとえば　わしの　ギャロップ　なら	たまらん…　くう…
+													この　ように！　けなみに　そって……	…　さらに…　もう…
+	para	You should just			para	帶著它一起走如何？			ならば　つれて　あるいたらどうだ?		“‘Oh ho! Feel how smooth it is!	……嗯哼！为什么如此柔顺……		すごすぎ…　…　で…
+	line	keep it with you.									It’s like a gentle breeze... It feels so nice!	仿佛就像微风一样……心情愉悦哇……	……おほ！　なんという　スベスベ……	…　そう　おもうか…
+													そよかぜの　ような……　ここちよい……	どうして…　…　すき…
+	para	That should make			para	這麼做的話，			そのほうが　そいつも		“‘And when you go like so...	……这么来…………对哇……		…　はー!
+	line	it happy!			line	它也會很高興的吧！			よろこぶ　ことじゃろう!		Mm-hmm. That’s the best! I could spend my		……　それでいて……　……じゃもん	…　…　だきしめて…
+												……非常好……这个哇……		ねるときも…
+	para	You can talk to it			para	和它交談的話，			はなしかけて　ようすを		whole day like this...		……すばらし　……　この……	…　じゃろ…　…
+	line	and see how it			line	就能觀察它的狀況了！			みることも　できるからな!			意犹未尽……喝～！！		…　…　すばらし…!
+	cont	feels about you.									“‘Oh! I’m sorry!		たまらん……　はー！！	…　うつくし…
+	done				done						What was I talking about?’”	……哦！打住！		…　…　ありゃ!
+												你的问题是啥来着？”	……おぉ　いかん！	もう　こんな　じかんか!
+_OaksLabText21::				_OaksLabText21::									なんの　はなし　じゃった　かのう？』　	ちょっと　しゃべり　すぎたわい
+	text	<RIVAL>: Gramps!			text	<RIVAL>：爺爺！		text	<RIVAL>：爷爷！	<RIVAL>: Gramps!	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	done				done			done				给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+											D’aww... Failed again?			
+_OaksLabText22::				_OaksLabText22::										
+	text	<RIVAL>: Gramps,			text	<RIVAL>：爺爺，			 {RIVAL} 『じいさん		My Koffing is the best partner ever!	这是我的瓦斯弹！	わたしの　ドガース！	　げんき?
+	line	my #MON has			line	我的寶可夢成長了呢！			おれの　ポケモン　そだったぜ!		It spews out Poison Gas when it gets angry...	它是我最棒的搭档哦！	さいこうな　あいぼう　なの！	わたしの　@
+	cont	grown stronger!			cont	來看一看吧。			ちょっと　みてくれよ					
+	cont	Check it out!									but it’s usually very sweet—I promise!	虽然它一生气就会朝我喷毒气……	おこると　どくガス　はくけど……	
+	done				done									
+												它平时还是很听话的！	ふだんは　いいこ　なのよ	
+_OaksLabText23::				_OaksLabText23::										
+	text	OAK: Ah, <RIVAL>,			text	大木：哦，<RIVAL>，			オーキド『おお　 {RIVAL} か		Bonjour!	Bonjour！	ボン　ジュール！	ボン　ジュール!
+	line	good timing!			line	你來得正好！			ちょうど　いい!		I am le waiter on zis ship!	我是这艘客轮的服务员！	わたしは　このふねの　ボーイです	わたしは　このふねの　ボーイです
+														ごようを　なんなりと
+	para	I needed to ask			para	我有事要拜託你們兩個。			おまえたちに　たのみが　あるんじゃ		I will be happy to serve you anything you please!	您要是有任何吩咐	ごようを　なんなりと	おもうしつけ　ください!
+	line	both of you to do										尽管来联系我！	おもうしつけ　ください！	…　…　…
+	cont	something for me.									... ... ...			…　むくちな　かた　ですね
+	done				done							………………	…………	
+											Ah! Le strong, silent type! Très bien!	……看来您是位不爱开口的客人。	……むくちな　かた　ですね	
+_OaksLabText24::				_OaksLabText24::										
+	text	On the desk there			text	在桌子上面的		text	在桌子上面的	On the desk there	OAK: This is the Pokédex that I’ve designed!	这是我设计的宝可梦图鉴！	わしが　せっけい　した	つくえの　うえに　あるのは
+	line	is my invention,			line	是我所製作的寶可夢圖鑑！		line	是我所制作的宝可梦图鉴！	is my invention,			ポケモンずかん　じゃ！	わしが　つくった　ポケモンずかん!
+	cont	#DEX!			para	當你發現寶可夢之後，		para	当你发现宝可梦之后，	#DEX!	It automatically records data on Pokémon you’ve	当你发现宝可梦之后，		みつけた　ポケモンの　データが
+					line	這圖鑑會自動記錄		line	这图鉴会自动记录	It automatically	seen or caught, and it makes an entry for each.	这图鉴会自动记录宝可梦的信息，	みつけた　ポケモンの　データが	じどうてきに　かきこまれて
+	para	It automatically			cont	寶可夢的資訊，		cont	宝可梦的信息，	records data on			じどうてきに　かきこまれて	ぺージが　ふえて　いく　という
+	line	records data on			cont	圖鑑的頁數也會增加。		cont	图鉴的页数也会增加。	#MON you've	It’s an extremely high-tech tool!	图鉴的页数也会增加。		たいへん　ハイテクな
+	cont	#MON you've			para	這可是個		para	这可是个	seen or caught!			ページが　ふえて　いく　という	ずかん　なのじゃ!
+	cont	seen or caught!			line	非常高科技的道具喔！		line	非常高科技的道具喔！	It's a hi-tech		这可是个非常高科技的道具喔！		
+					done			done		encyclopedia!			たいへん　ハイテクな	
+	para	It's a hi-tech												
+	line	encyclopedia!											どうぐ　なのじゃ！	
+	done													
+														
+_OaksLabText25::				_OaksLabText25::										
+	text	OAK: <PLAYER> and			text	大木：<PLAYER>、		text	大木：<PLAYER>、	OAK: <PLAYER> and	The trick is this...	做法就是……	やりかたは……	はっはッ!
+	line	<RIVAL>! Take			line	<RIVAL>，		line	<RIVAL>，	<RIVAL>! Take				はーッ　はっ　はッ!
+	cont	these with you!			cont	這個就給你們了！		cont	这个就给你们了！	these with you!	Hrrrkh! You grit your teeth as hard as you can!	先站稳了！	しっかと！	…　はァ　はァ…
+					para	<PLAYER>從大木那裡		para	<PLAYER>从大木那里	<PLAYER> got	...If you’ve got ’em...	咬紧牙关，蓄满力道！	はァ　くいしばって　いっきに！	ゲ
+	para	<PLAYER> got			line	得到了寶可夢圖鑑！@		line	得到了宝可梦图鉴！@	#DEX from OAK!@				
+	line	#DEX from OAK!@			text_end			text_end			Then all at once, just let ’er rip!			
+	text_end													
+														
+_OaksLabText26::				_OaksLabText26::										
+	text	To make a complete			text	曾幾何時，我的夢想就是		text	曾几何时，我的梦想就是	To make a complete	BLAINE: Hah!	夏伯：嘿～～！	カツラ『うおーす！	へブ {PKMN} の　　　ビブ　　　　　　　　　　ボ
+	line	guide on all the			line	製造出一個記錄了		line	制造出一个记录了	guide on all the	Well done, returning here to my Gym!	你来得正好！	よく　きたな！	
+	cont	#MON in the			cont	這個世界上所有的寶可夢的		cont	这个世界上所有的宝可梦的	#MON in the				
+	cont	world...			cont	完美圖鑑！		cont	完美图鉴！	world...	You’re the one who retrieved the key to this	我猜你是去宝可梦屋	おまえは　ポケモンやしきに	
+					para	可我現在已經		para	可我现在已经	That was my dream!	Gym from the Pokémon Mansion!	拿到了这个道馆的钥匙吧！	この　ジムの　カギを	
+	para	That was my dream!			line	是個老頭子了！所以也		line	是个老头子了！所以也	But, I'm too old!				
+					cont	沒有辦法完成這個夢想了！		cont	没有办法完成这个梦想了！	I can't do it!	Did you see anything interesting while you were	那时你有没有看到些什么？	とりに　いったの　だったな！	
+	para	But, I'm too old!			para	因此我希望你們能代替我		para	因此我希望你们能代替我	So, I want you two	in there?			
+	line	I can't do it!			line	去實現這個夢想喔！		line	去实现这个梦想喔！	to fulfill my		那里应该有我的旧友	そのとき　なにかを　みたか？	
+					para	那麼你們兩個		para	那么你们两个	dream for me!	That place still holds the remnants of my old	从事研究时的痕迹！		
+	para	So, I want you two			line	就快快出發吧！		line	就快快出发吧！	Get moving, you	friend’s research!		あそこには　ふるい　ともだちの	
+	line	to fulfill my			para	這簡直就是可以載入		para	这简直就是可以载入	two!		我听说最近，	けんきゅうの　あとが　ある！	
+	cont	dream for me!			line	寶可夢史冊的大工程啊！		line	宝可梦史册的大工程啊！	This is a great	By the way, I’ve been hearing an interesting	有个少女正在调查那个……		
+					done			done		undertaking in	rumor floating around recently...		さいきん　それを　しらべる	
+	para	Get moving, you								#MON history!		你认识一个	しょうじょの　うわさを　きいた……	
+	line	two!									You wouldn’t happen to know a young lady	叫作碧蓝的少女吗？		
+											named Green, would you?		おまえは　ブルー　という	
+	para	This is a great										……哎，	しょうじょは　しらんか？	
+	line	undertaking in									...Hmph, well, it’s not as though I really know	我也不太清楚！		
+	cont	#MON history!									the whole story anyway.		……まあ　わしにも	
+	done											不说这个了，择日不如撞日，	よく　わからん　はなしなのだ！	
+											More importantly, since you came all this way,	现在就和我比试一场吧！		
+_OaksLabText27::				_OaksLabText27::							we should have a battle!		そんな　ことより　せっかく　だから	
+	text	<RIVAL>: Alright			text	<RIVAL>：好的！		text	<RIVAL>：好的！	<RIVAL>: Alright	ERIKA: Oh, if it isn’t the one who’s been trying	莉佳：我记得你应该是	エリカ『たしか　ずかんを	 {next} 
+	line	Gramps! Leave it			line	爺爺！全都交給我吧！		line	爷爷！全都交给我吧！	Gramps! Leave it	to fill the Pokédex.	在收集图鉴的那位训练家吧。	つくって　いらした　かたね	@
+	cont	all to me!			para	<PLAYER>，非常遺憾，		para	<PLAYER>，非常遗憾，	all to me!				 {PLAYER}  {RIVAL} ポケモン
+					line	這事完全沒有		line	这事完全没有	<PLAYER>, I hate to	I do hope things have been going well for you	不知道	あれからは　いかが	…
+	para	<PLAYER>, I hate to			cont	你出場的機會呢！		cont	你出场的机会呢！	say it, but I	since our last encounter.	那之后你过得如何？	おすごし　でしたの？	
+	line	say it, but I			para	對了！我要找老姐		para	对了！我要找老姐	don't need you!				 {TARGET}  {USER}  {5B}  {5C} トレーナーロケットだん
+	cont	don't need you!			line	去借城鎮地圖！		line	去借城镇地图！	I know! I'll	...I see.	……是这样啊。	……まあ　そうなの	
+					para	我會跟她說的，讓她不要		para	我会跟她说的，让她不要	borrow a TOWN MAP	You certainly have been busy.	看来你发挥了你的实力。	ごかつやく　されてる　のね	
+	para	I know! I'll			line	借給<PLAYER>，		line	借给<PLAYER>，	from my sis!				
+	line	borrow a TOWN MAP			cont	所以就算你去找老姐		cont	所以就算你去找老姐	I'll tell her not	I’m not particularly fond of those kinds of	我平时不太关心	わたくし　せけんの　ことには	
+	cont	from my sis!			cont	也是白跑一趟！		cont	也是白跑一趟！	to lend you one,				
+					done			done		<PLAYER>! Hahaha!	public things...	世界上都发生了什么……	あまり　きょうみが　なくて……	
+	para	I'll tell her not												
+	line	to lend you one,									However, battles are different.	不过对战就另当别论了。	でも　しあいは　べつ　ですわ	
+	cont	<PLAYER>! Hahaha!									That’s what you came for, isn’t it?	你一定也是为了对战而来吧？	そのために　いらしたの　でしょう？	
+	done													
+														
+_OaksLabText_1d405::				_OaksLabText_1d405::										
+	text	I study #MON as			text	作為博士的助手，我也在		text	作为博士的助手，我也在	I study #MON as	I also study Pokémon as	作为博士的助手，	わたしも　はかせの　じょしゅ　として	わたしも　はかせの　じょしゅ　として
+	line	PROF.OAK's AIDE.			line	做一些寶可夢的研究。		line	做一些宝可梦的研究。	PROF.OAK's AIDE.	Professor Oak’s assistant.	我也在做一些宝可梦的研究。	ポケモンを　けんきゅう　してます	ポケモンを　けんきゅう　してます
+	done				done			done						
+end				end										

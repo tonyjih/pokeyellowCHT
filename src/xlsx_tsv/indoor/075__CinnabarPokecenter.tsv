@@ -1,0 +1,23 @@
+text/CinnabarPokecenter.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CinnabarPokecenterText2::				_CinnabarPokecenterText2::										
+	text	You can cancel			text	你用過取消進化嗎？		text	你用过取消进化吗？	You can cancel	Trainer Tips	……有用的公告牌！	……おとくな　けいじばん！	…　おとくな　けいじばん!
+	line	evolution.			para	在進化的途中取消掉，		para	在进化的途中取消掉，	evolution.				しんかの　さいちゅうに
+					line	這樣寶可夢的外形		line	这样宝可梦的外形	When a #MON is	If you press the B Button when a Pokémon is	在宝可梦进化时	しんかの　さいちゅうに	ビー　ボタンを　おすと
+	para	When a #MON is			cont	就不會變化。		cont	就不会变化。	evolving, you can	in the middle of evolving, you can make it stop!	按下Ｂ键，	Ｂボタンを　おすと	しんかは　とまって　しまいます
+	line	evolving, you can			cont	這可是培育的技術哦。		cont	这可是培育的技术哦。	stop it and leave				
+	cont	stop it and leave			done			done		it the way it is.		进化就会停止。	しんかは　とまって　しまいます	
+	cont	it the way it is.												
+	done													
+														
+_CinnabarPokecenterText3::				_CinnabarPokecenterText3::										
+	text	Do you have any			text	不知道		text	不知道	Do you have any	Do you have lots of friends?	不知道你有没有朋友呢？	きみには　ともだちは　いるかな？	きみには　ともだちは　いるかな?
+	line	friends?			line	你有沒有朋友呢？		line	你有没有朋友呢？	friends?				ともだちと　こうかんして
+					para	據說透過和朋友交換		para	据说通过和朋友交换	#MON you get	People say Pokémon you get by trading with a	据说通过和朋友交换	ともだちと　こうかんして	もらった　ポケモンは
+	para	#MON you get			line	得到的寶可夢		line	得到的宝可梦	in trades grow	friend grow faster.	得到的宝可梦	もらった　ポケモンは	とても　はやく　そだつと　いう
+	line	in trades grow			cont	可以快速成長。		cont	可以快速成长。	very quickly.				ためして　みる　かちは
+	cont	very quickly.			para	我覺得這個聽上去		para	我觉得这个听上去	I think it's	I think it would be worth your time to give	可以快速成长。	とても　はやく　そだつと　いう	あると　おもうがね
+					line	還挺值得嘗試一下的。		line	还挺值得尝试一下的。	worth a try!	trading a try.			0ゲ
+	para	I think it's			done			done				我觉得这个听上去	ためして　みる　かちは	
+	line	worth a try!										还挺值得尝试一下的。	あると　おもうがね	
+	done													
+end				end										

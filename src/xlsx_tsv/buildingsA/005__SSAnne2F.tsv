@@ -1,0 +1,65 @@
+text/SSAnne2F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SSAnne2Text1::				_SSAnne2Text1::										
+	text	This ship, she is			text	這艘載著來自		text	这艘载着来自	This ship, she is	This ship—she’s a luxury liner that Pokémon	这艘载着来自	この　ふねは　せかい　かくちの	この　ふねは　せかい　かくちの
+	line	a luxury liner			line	世界各地訓練家的豪華客輪		line	世界各地训练家的豪华客轮	a luxury liner	Trainers the world over love to get a ride on!	世界各地训练家的豪华客轮	ポケモントレーナーが　のってる	ポケモン　トレーナーが　のってる
+	cont	for trainers!			cont	是所有人夢寐以求的地方！		cont	是所有人梦寐以求的地方！	for trainers!				あこがれの　ごうか　きゃくせん!
+					para	每當抵達港口，我們都會和		para	每当抵达港口，我们都会和	At every port, we	Every time we pull into port, we have a fancy	是所有人梦寐以求的地方！	あこがれの　ごうか　きゃくせん！	みなとに　つくたびに
+	para	At every port, we			line	被邀請來的訓練家		line	被邀请来的训练家	hold parties with	party and invite all the best Trainers to attend.			しょうたい　された　トレーナーと
+	line	hold parties with			cont	一起舉行交流派對。		cont	一起举行交流派对。	invited trainers!		每当抵达港口，	みなとに　つくたびに	こうりゅう　パーティを　してます
+	cont	invited trainers!			done			done				我们都会和被邀请来的训练家	しょうたい　された　トレーナーと	ゲ
+	done													
+												一起举行交流派对。	こうりゅう　パーティを　してます	
+_SSAnneRivalBeforeBattleText::				_SSAnneRivalBeforeBattleText::										
+	text	<RIVAL>: Bonjour!			text	<RIVAL>：Bonjour!		text	<RIVAL>：Bonjour!	<RIVAL>: Bonjour!	There’s an email on the screen of the PC...	电脑里	パソコンに	 {5B} に
+	line	<PLAYER>!			line	<PLAYER>！		line	<PLAYER>！	<PLAYER>!		收到了一封邮件！	メールが　とどいてる！	でんしメールが　とどいてる!
+					para	哎呀哎呀！沒想到		para	哎呀哎呀！没想到	Imagine seeing	“Articuno, Zapdos, and Moltres are all			…　…　…
+	para	Imagine seeing			line	會在這種地方見到你！		line	会在这种地方见到你！	you here!	legendary bird Pokémon. This we know.	火焰鸟、闪电鸟和急冻鸟	ファイヤー　サンダー　フリーザーは	でんせつの　とりポケモンは
+	line	you here!			para	<PLAYER>，		para	<PLAYER>，	<PLAYER>, were you		是传说的鸟宝可梦。	でんせつの　とりポケモンです	3しゅるい…　ファイヤー
+					line	你也受到邀請了啊？		line	你也受到邀请了啊？	really invited?	“Yet their exact whereabouts are still unknown.			サンダー　フりーザー…
+	para	<PLAYER>, were you			para	所以你的圖鑑		para	所以你的图鉴	So how's your	We will be investigating the Cerulean Cave next	可是现在依然没有人知晓	しかし　どこに　いるのか	しかし　どこに　いるのか
+	line	really invited?			line	完成得如何了呢！		line	完成得如何了呢！	#DEX coming?		究竟能在哪里遇到它们。	まだ　わかって　ません	まだ　わかって　ません
+					para	我這會兒居然		para	我这会儿居然	I already caught	and will report back accordingly.			こんど　ハナダ　どうくつに
+	para	So how's your			line	已經捉到４０種啦！		line	已经捉到４０种啦！	40 kinds, pal!		接下来我们将	こんど　ハナダのどうくつに	ちょうさに　いきます
+	line	#DEX coming?			para	選擇的道路不一樣，		para	选择的道路不一样，	Different kinds	       — The Pokémon Research Team”	前去华蓝洞窟调查。	ちょうさに　いきます	…　まずは　ほうこく　まで
+					line	能捕捉的寶可夢也會不同！		line	能捕捉的宝可梦也会不同！	are everywhere!				ポケモン　ちょうさ　たい
+	para	I already caught			para	進入那些草叢中		para	进入那些草丛中	Crawl around in		总之先报告到这里。	まずは　ほうこく　まで	…　…　…
+	line	40 kinds, pal!			line	仔細探索一下吧！		line	仔细探索一下吧！	grassy areas!		……宝可梦调查队敬上	……ポケモン　ちょうさ　たい	
+					done			done						
+	para	Different kinds												
+	line	are everywhere!												
+														
+	para	Crawl around in												
+	line	grassy areas!												
+	done													
+														
+_SSAnneRivalDefeatedText::				_SSAnneRivalDefeatedText::										
+	text	Humph!			text	哼！		text	哼！	Humph!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+					para	能看出來你還是有好好地		para	能看出来你还是有好好地	At least you're	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	para	At least you're			line	在培養寶可夢呢！		line	在培养宝可梦呢！	raising your				…　シルフ　カンパニー
+	line	raising your			prompt			prompt		#MON!		……西尔佛公司	……シルフカンパニー	
+	cont	#MON!												
+	prompt													
+														
+_SSAnneRivalWonText::				_SSAnneRivalWonText::										
+	text	<PLAYER>! What are			text	<PLAYER>！		text	<PLAYER>！	<PLAYER>! What are	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	you, seasick?			line	你這是暈船了嗎？		line	你这是晕船了吗？	you, seasick?	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+					para	你還是去		para	你还是去	You should shape				…　シルフ　カンパニー
+	para	You should shape			line	多練練再來吧！		line	多练练再来吧！	up, pal!		……西尔佛公司	……シルフカンパニー	
+	line	up, pal!			prompt			prompt						
+	prompt													
+														
+_SSAnneRivalCaptainText::				_SSAnneRivalCaptainText::										
+	text	<RIVAL>: I heard			text	<RIVAL>：我聽別人說		text	<RIVAL>：我听别人说	<RIVAL>: I heard	SABRINA: There was once a time when I was	娜姿：即使输给你，	ナツメ『あなたに　まけても	
+	line	there was a CUT			line	船上有一位居合斬大師。		line	船上有一位居合斩大师。	there was a CUT	shocked that I lost to you.	现在的我也不会受到打击。	ショックを　うける　ことは	　ぽ　ぽ　
+	cont	master on board.			para	見到他之後，		para	见到他之后，	master on board.				
+					line	才發現他只不過是個		line	才发现他只不过是个	But, he was just a	That feeling is gone now.	因为，与之相比，	なくなったわ	
+	para	But, he was just a			cont	會暈船的老頭呢！		cont	会晕船的老头呢！	seasick, old man!		我更想拥有的是		
+	line	seasick, old man!			para	不過，居合斬這個招式		para	不过，居合斩这个招式	But, CUT itself is	It’s been replaced with a desire to grow strong		そのかわり　あなたの　ような	
+					line	是真的很有用！		line	是真的很有用！	really useful!	and live freely, as you do.	和你一样的实力与自由！	つよさや　じゆうを	
+	para	But, CUT itself is			para	你也最好去看看他！		para	你也最好去看看他！	You should go see				
+	line	really useful!			line	那麼，我先走了！		line	那么，我先走了！	him! Smell ya!			てに　いれたいと　おもうの	
+					done			done						
+	para	You should go see												
+	line	him! Smell ya!												
+	done													
+end				end										

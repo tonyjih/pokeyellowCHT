@@ -1,0 +1,35 @@
+text/LavenderMart.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_LavenderMartText2::				_LavenderMartText2::										
+	text	I'm searching for			text	叔叔我正在找的是……		text	叔叔我正在找的是……	I'm searching for	I’m searching for items that boost a Pokémon’s	叔叔我正在找的是……	おじさんが　さがしてる　のは……	おじさんが　さがしてる　のは…
+	line	items that raise			line	能讓寶可夢在戰鬥時		line	能让宝可梦在战斗时	items that raise	stats for the length of one battle.			ポケモンが　たたかってる　とき
+	cont	the abilities of			cont	暫時提升能力的道具……		cont	暂时提升能力的道具……	the abilities of		能让宝可梦在战斗时	ポケモンが　たたかってる　とき	のうりょくを　いちじ　てきに
+	cont	#MON during a			para	力量強化、防禦強化、		para	力量强化、防御强化、	#MON during a	X Attack, X Defense, X Speed, and X Sp. Atk...	暂时提升能力的道具……	のうりょくを　いちじ　てきに	あげる　どうぐ　なんだが…
+	cont	single battle.			line	速度強化、特殊強化……		line	速度强化、特殊强化……	single battle.	Those are what I’m after!			プラスパワー　ディフェンダー
+					para	好像是這麼叫的……		para	好像是这么叫的……	X ATTACK, X		力量强化、防御强化、	あげる　どうぐ　なんだが……	スピーダー　スぺシャルアップ…
+	para	X ATTACK, X			line	你知道這些道具嗎？		line	你知道这些道具吗？	DEFEND, X SPEED	Do you know where I can get them?	速度强化、特攻强化……		…という
+	line	DEFEND, X SPEED			done			done		and X SPECIAL are			プラスパワー　ディフェンダー	なまえ　なんだが　しらんかな?
+	cont	and X SPECIAL are								what I'm after.		好像是这么叫的……	スピーダー　スペシャルアップ……	ゲ4
+	cont	what I'm after.								Do you know where		你知道这些道具吗？		らひ
+										I can get them?			……という	
+	para	Do you know where											なまえ　なんだが　しらんかな？	
+	line	I can get them?												
+	done													
+														
+_LavenderMartReviveText::				_LavenderMartReviveText::										
+	text	You know REVIVE?			text	你買活力碎片了嗎？		text	你买活力碎片了吗？	You know REVIVE?	That Poké Ball over there...	你想要那边那个球是吗？	あの　アイテムボール	あの　アイテム　ボール
+	line	It revives any			line	這種方便的道具可以讓		line	这种方便的道具可以让	It revives any	Were you wanting that?	…………我也想要啊！	ほしいって　おもった？	ほしいって　おもった?
+	cont	fainted #MON!			cont	處於瀕死狀態的寶可夢		cont	处于濒死状态的宝可梦	fainted #MON!				…　…　…　ぼくもさ!
+	done				cont	重獲生機哦！		cont	重获生机哦！		Well, so was I!	什么？那居然不是个球？	……　……ぼくもさ！	…　え　あれ　いきものなの?
+					done			done						
+_LavenderMartNuggetText::				_LavenderMartNuggetText::							...Huh? That’s actually a Pokémon?		……え　あれ　いきものなの？	
+	text	I found a NUGGET			text	我在這附近的山上		text	我在这附近的山上	I found a NUGGET	OAK: Ah, welcome!	大木博士：你来的正好！	オーキド『よく　きた！	オーキド『よく　きた!
+	line	in the mountains.			line	撿到了一顆金珠！		line	捡到了一颗金珠！	in the mountains.	Tell me, how is the old Pokédex coming along?	宝可梦图鉴收集的如何了？	ポケモンずかんの	ポケモンずかんの
+					para	我本來以為這東西		para	我本来以为这东西	I thought it was				ちょうしは　どうかな?
+	para	I thought it was			line	沒什麼用的，沒想到		line	没什么用的，没想到	useless, but it	Wahaha!	哇哈哈……！	ちょうしは　どうかな？	どれ…　ちょっと
+	line	useless, but it			cont	居然賣了¥5000吶！		cont	居然卖了¥５０００呐！	sold for ¥5000!		其实图鉴收集得如何我早就知道了，		みて　あげようか!
+	cont	sold for ¥5000!			done			done			Actually, I already know how it is, but I love		わはは……！　ほんとうは	ゲ
+	done										seeing it again anyway!	但就是想多确认几次啊！	もう　わかって　おるのじゃが	
+end				end										
+											Let’s see...	来来来……让我瞅瞅……	なんどでも　たしかめたいんじゃ！	
+														
+													どれどれ……	

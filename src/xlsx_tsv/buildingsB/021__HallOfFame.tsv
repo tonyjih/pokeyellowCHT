@@ -1,0 +1,30 @@
+text/HallOfFame.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_HallofFameRoomText1::				_HallofFameRoomText1::										
+	text	OAK: Er-hem!			text	大木：……嗯哼！		text	大木：……嗯哼！	OAK: Er-hem!	BLAINE: Hah!	夏伯：嘿～～！	カツラ『うおーす！	へブ {PKMN} の　　　ビブ　　　　　　　　　　ボ
+	line	Congratulations,			line	<PLAYER>！祝賀你！		line	<PLAYER>！祝贺你！	Congratulations	Well done, returning here to my Gym!	你来得正好！	よく　きたな！	
+	cont	<PLAYER>!			para	歷代寶可夢聯盟中，		para	历代宝可梦联盟中，	<PLAYER>!				
+					line	每一隻在訓練家身邊		line	每一只在训练家身边	This floor is the	You’re the one who retrieved the key to this	我猜你是去宝可梦屋	おまえは　ポケモンやしきに	
+	para	This floor is the			cont	大展身手的寶可夢……		cont	大展身手的宝可梦……	#MON HALL OF	Gym from the Pokémon Mansion!	拿到了这个道馆的钥匙吧！	この　ジムの　カギを	
+	line	#MON HALL OF			para	都會被記錄在這個樓層，		para	都会被记录在这个楼层，	FAME!				
+	cont	FAME!			line	作為永恆的表彰！		line	作为永恒的表彰！	#MON LEAGUE	Did you see anything interesting while you were	那时你有没有看到些什么？	とりに　いったの　だったな！	
+					para	寶可夢訓練家們		para	宝可梦训练家们	champions are	in there?			
+	para	#MON LEAGUE			line	將這樣的表彰		line	将这样的表彰	honored for their		那里应该有我的旧友	そのとき　なにかを　みたか？	
+	line	champions are			cont	稱為“登入名人堂”！		cont	称为“登入名人堂”！	exploits here!	That place still holds the remnants of my old	从事研究时的痕迹！		
+	cont	honored for their			cont	這是至高無上的喜悅！		cont	这是至高无上的喜悦！	Their #MON are	friend’s research!		あそこには　ふるい　ともだちの	
+	cont	exploits here!			para	<PLAYER>！		para	<PLAYER>！	also recorded in		我听说最近，	けんきゅうの　あとが　ある！	
+					line	你在經歷了激烈的對決後，		line	你在经历了激烈的对决后，	the HALL OF FAME!	By the way, I’ve been hearing an interesting	有个少女正在调查那个……		
+	para	Their #MON are			cont	成為了聯盟冠軍！		cont	成为了联盟冠军！	<PLAYER>! You have	rumor floating around recently...		さいきん　それを　しらべる	
+	line	also recorded in			para	接下來就把<PLAYER>和		para	接下来就把<PLAYER>和	endeavored hard		你认识一个	しょうじょの　うわさを　きいた……	
+	cont	the HALL OF FAME!			line	寶可夢們的名字		line	宝可梦们的名字	to become the new	You wouldn’t happen to know a young lady	叫作碧蓝的少女吗？		
+					cont	也記錄於此吧！		cont	也记录于此吧！	LEAGUE champion!	named Green, would you?		おまえは　ブルー　という	
+	para	<PLAYER>! You have			done			done		Congratulations,		……哎，	しょうじょは　しらんか？	
+	line	endeavored hard								<PLAYER>, you and	...Hmph, well, it’s not as though I really know	我也不太清楚！		
+	cont	to become the new								your #MON are	the whole story anyway.		……まあ　わしにも	
+	cont	LEAGUE champion!								HALL OF FAMERs!		不说这个了，择日不如撞日，	よく　わからん　はなしなのだ！	
+											More importantly, since you came all this way,	现在就和我比试一场吧！		
+	para	Congratulations,									we should have a battle!		そんな　ことより　せっかく　だから	
+	line	<PLAYER>, you and										嘿～～哈！	ひとつ　しょうぶと　いこう！	
+	cont	your #MON are									Hah!			
+	cont	HALL OF FAMERs!											うおおーす！	
+	done													
+end				end										

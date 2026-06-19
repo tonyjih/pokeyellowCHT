@@ -1,0 +1,32 @@
+text/CeladonMart4F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CeladonMart4Text2::				_CeladonMart4Text2::										
+	text	I'm getting a			text	我打算給金黃市的模仿少女			ヤマブキの　モノマネむすめ　に		I’m getting a present for my girlfriend...	我准备给女朋友买个礼物来着。	かのじょに　プレゼントを　かうんだ	ヤマブキの　モノマネむすめ　に
+	line	gift for COPYCAT			line	買個禮物來著。			プレゼントを　かうんだ		Hmm...			プレゼントを　かうんだ
+	cont	in CERULEAN CITY.										如果送她水之石，	みずのいし　あげたら	やっぱり　ピッピにんぎょう　だな!
+											I could give her a Water Stone, but who knows?	不知道她会不会进个化啥的。	かのじょ　しんか　しちゃったりして	にんき　あるんだよね!
+	para	It's got to be a			para	果然還是皮皮玩偶最合適！			やっぱり　ピッピにんぎょう　だな!		It might cause her to evolve!			
+	line	# DOLL. They			line	這玩意兒很流行的！			にんき　あるんだよね!					
+	cont	are trendy!												
+	done				done									
+														
+_CeladonMart4Text3::				_CeladonMart4Text3::										
+	text	I heard something			text	我聽說了一點點		text	我听说了一点点	I heard something	Do you have lots of friends?	不知道你有没有朋友呢？	きみには　ともだちは　いるかな？	きみには　ともだちは　いるかな?
+	line	useful.			line	有用的情報哦。		line	有用的情报哦。	useful.				ともだちと　こうかんして
+					para	在寶可夢撲過來的時候		para	在宝可梦扑过来的时候	You can run from	People say Pokémon you get by trading with a	据说通过和朋友交换	ともだちと　こうかんして	もらった　ポケモンは
+	para	You can run from			line	投出皮皮玩偶，		line	投出皮皮玩偶，	wild #MON by	friend grow faster.	得到的宝可梦	もらった　ポケモンは	とても　はやく　そだつと　いう
+	line	wild #MON by			cont	寶可夢就會被它所吸引，		cont	宝可梦就会被它所吸引，	distracting them				ためして　みる　かちは
+	cont	distracting them			cont	也就是我們能逃掉了！		cont	也就是我们能逃掉了！	with a # DOLL!	I think it would be worth your time to give	可以快速成长。	とても　はやく　そだつと　いう	あると　おもうがね
+	cont	with a # DOLL!			done			done			trading a try.			0ゲ
+	done											我觉得这个听上去	ためして　みる　かちは	
+												还挺值得尝试一下的。	あると　おもうがね	
+_CeladonMart4Text4::				_CeladonMart4Text4::										
+	text	Express yourself			text	４樓……　誠心誠意送禮！		text	４楼……　诚心诚意送礼！	Express yourself	“4F: Wiseman Gifts	４楼……　诚心诚意送礼！	４かい……　まごころ　おくろう！	ギフト　ショップ!
+	line	with gifts!			line	聰明人禮品店！		line	聪明人礼品店！	with gifts!	“‘Express yourself with gifts!	聪明人礼品店！	ワイズマン・ギフト　ショップ！	ただいま　ポケモン　しんかのいし
+					para	現在正在舉辦		para	现在正在举办	4F: WISEMAN GIFTS				とくべつ　はんばい　ちゅう!
+	para	4F: WISEMAN GIFTS			line	寶可夢進化之石大促銷！		line	宝可梦进化之石大促销！	Evolution Special!	“‘Evolution Special!	现在正在举办	ただいま　ポケモン　しんかのいし	ダ
+					done			done		Element STONEs on	“‘Evolution stones on sale now!’”	宝可梦进化之石大促销！	とくべつ　はんばい　ちゅう！	
+	para	Evolution Special!								sale now!				
+	line	Element STONEs on												
+	cont	sale now!												
+	done													
+end				end										
