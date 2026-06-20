@@ -1,9 +1,9 @@
 data/text/text_5.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
 _IsEvolvingText::				_IsEvolvingText::										
-	text	What? @			text	哦……？		text	哦……？	What? @	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	text	What? @			text	咦……？		text	哦……？	What? @	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
 	text_ram	wStringBuffer			line	@		line	@	wStringBuffer	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
 	text_start				text_ram	wStringBuffer		text_ram	wStringBuffer					…　シルフ　カンパニー
-	line	is evolving!			text	的樣子！		text	的样子！	is evolving!		……西尔佛公司	……シルフカンパニー	
+	line	is evolving!			text	的樣子……！		text	的样子！	is evolving!		……西尔佛公司	……シルフカンパニー	
 	done				done			done						
 														
 _FellAsleepText::				_FellAsleepText::										
@@ -23,12 +23,12 @@ _PoisonedText::				_PoisonedText::							... ... Zzz.
 														
 _BadlyPoisonedText::				_BadlyPoisonedText::										
 	text	<TARGET>'s			text	<TARGET>		text	<TARGET>	<TARGET>'s	It’s so pleasant...	真舒服……	きもち　いい……	おし!
-	line	badly poisoned!			line	中劇毒了！		line	中剧毒了！	badly poisoned!		……呼……呼～	……　すー……　すー	いい　しょうぶ　だった
+	line	badly poisoned!			line	中了劇毒！		line	中剧毒了！	badly poisoned!		……呼……呼～	……　すー……　すー	いい　しょうぶ　だった
 	prompt				prompt			prompt			... ... ...			
 														
 _BurnedText::				_BurnedText::							... ... Zzz.			
 	text	<TARGET>			text	<TARGET>		text	<TARGET>	<TARGET>	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
-	line	was burned!			line	被灼傷了！		line	被灼伤了！	was burned!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	line	was burned!			line	灼傷了！		line	被灼伤了！	was burned!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
 	prompt				prompt			prompt						
 														
 _FrozenText::				_FrozenText::										
@@ -37,9 +37,9 @@ _FrozenText::				_FrozenText::
 	prompt				prompt			prompt						
 														
 _FireDefrostedText::				_FireDefrostedText::										
-	text	Fire defrosted			text	火焰融化了		text	火焰融化了	Fire defrosted	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	text	Fire defrosted			text	火焰讓		text	火焰融化了	Fire defrosted	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
 	line	<TARGET>!			line	<TARGET>		line	<TARGET>	<TARGET>!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
-	prompt				cont	的冰凍！		cont	的冰冻！					
+	prompt				cont	解凍了！		cont	的冰冻！					
 					prompt			prompt						
 _MonsStatsRoseText::				_MonsStatsRoseText::										
 	text	<USER>'s			text	<USER>的		text	<USER>的	<USER>'s	Well, I guess that’s that...	……好了好了！	……さてと！　じゃあ	ゲームの　プログラムだ!
@@ -73,17 +73,17 @@ _FellText::				_FellText::										つ {PLAYER}  {PLAYER}
 								text_ram	wDayCareMonName 	wDayCareMonName 	D’aww... Failed again?			
 _RanFromBattleText::				_RanFromBattleText::				text	！	 back!				
 	text	<USER>			text	<USER>		text	<USER>	<USER>	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
-	line	ran from battle!			line	脫離了戰鬥！		line	脱离了战斗！	ran from battle!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	line	ran from battle!			line	逃離了戰鬥！		line	脱离了战斗！	ran from battle!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
 	prompt				prompt			prompt						
 														
 _RanAwayScaredText::				_RanAwayScaredText::										
 	text	<TARGET>			text	<TARGET>		text	<TARGET>	<TARGET>	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
-	line	ran away scared!			line	膽怯得逃走了！		line	胆怯得逃走了！	ran away scared!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	line	ran away scared!			line	嚇得逃走了！		line	胆怯得逃走了！	ran away scared!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
 	prompt				prompt			prompt						
 														
 _WasBlownAwayText::				_WasBlownAwayText::										
 	text	<TARGET>			text	<TARGET>		text	<TARGET>	<TARGET>	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
-	line	was blown away!			line	被吹飛了！		line	被吹飞了！	was blown away!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	line	was blown away!			line	被吹走了！		line	被吹飞了！	was blown away!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
 	prompt				prompt			prompt						
 														
 _ChargeMoveEffectText::				_ChargeMoveEffectText::										
@@ -92,17 +92,17 @@ _ChargeMoveEffectText::				_ChargeMoveEffectText::
 														4ャよひ
 _MadeWhirlwindText::				_MadeWhirlwindText::										つ {PLAYER}  {PLAYER} 
 	text_start				text	<USER>		text	<USER>		It’s a Pokémon Report!	……是宝可梦报告！	……ポケモンレポートだ！	…　ポケモン　レポートだ!
-	line	made a whirlwind!			line	周圍的空氣產生了旋渦！		line	周围的空气产生了旋涡！	made a whirlwind!				ポケモンが　つかう　わざは
+	line	made a whirlwind!			line	掀起了旋風！		line	周围的空气产生了旋涡！	made a whirlwind!				ポケモンが　つかう　わざは
 	prompt				prompt			prompt			Over 200 Pokémon moves have been confirmed.	仅是现在已被人知晓的	ポケモンが　つかう　わざは	げんざい　わかって　いるだけで
 												宝可梦可以使用的招式	げんざい　わかって　いるだけで	160しゅるい　いじょうある
 _TookInSunlightText::				_TookInSunlightText::										
 	text_start				text	<USER>		text	<USER>		... ... ...	………………	……　……　……	…　…　…
-	line	took in sunlight!			line	吸收了光！		line	吸收了光！	took in sunlight!	Zzz...zzz...	呼……呼……	……こっくり　こっくり	…こっくり　こっくり
+	line	took in sunlight!			line	吸收了陽光！		line	吸收了光！	took in sunlight!	Zzz...zzz...	呼……呼……	……こっくり　こっくり	…こっくり　こっくり
 	prompt				prompt			prompt						しめしめ!　いねむり　しているぞ
 											Snrk! G’way, kid...	非常好！他正在呼呼地打瞌睡。	しめしめ！　いねむり　しているぞ	
 _LoweredItsHeadText::				_LoweredItsHeadText::							Lemme nap in peace...			
 	text_start				text	<USER>		text	<USER>		Oh!	哇！	わ！	
-	line	lowered its head!			line	把頭縮了進去！		line	把头缩了进去！	lowered its head!	It suddenly snuggled up to you!	它突然靠了过来！	きゅうに　すりよってきた！	わ。
+	line	lowered its head!			line	低下了頭！		line	把头缩了进去！	lowered its head!	It suddenly snuggled up to you!	它突然靠了过来！	きゅうに　すりよってきた！	わ。
 	prompt				prompt			prompt						ちノゼそ
 											Will you pet its head?	要摸摸它的头吗？	あたまを　なでて　あげますか？	
 _SkyAttackGlowingText::				_SkyAttackGlowingText::										
@@ -112,12 +112,12 @@ _SkyAttackGlowingText::				_SkyAttackGlowingText::
 														
 _FlewUpHighText::				_FlewUpHighText::										
 	text_start				text	<USER>		text	<USER>		Totem [VAR PKNICK(0000)] flew up high!	霸主[VAR PKNICK(0000)]	ぬしの　[VAR PKNICK(0000)]は	は
-	line	flew up high!			line	飛向了高空！		line	飞向了高空！	flew up high!		飞向了高空！	そらたかく　とびあがった！	そらたかく　とびあがった!
+	line	flew up high!			line	飛上了高空！		line	飞向了高空！	flew up high!		飞向了高空！	そらたかく　とびあがった！	そらたかく　とびあがった!
 	prompt				prompt			prompt						
 														
 _DugAHoleText::				_DugAHoleText::										
 	text_start				text	<USER>		text	<USER>		It’s a Pokémon Report!	……是宝可梦报告！	……ポケモンレポートだ！	…　ポケモン　レポートだ!
-	line	dug a hole!			line	鑽入了地裡！		line	钻入了地里！	dug a hole!				ポケモンが　つかう　わざは
+	line	dug a hole!			line	鑽入了地下！		line	钻入了地里！	dug a hole!				ポケモンが　つかう　わざは
 	prompt				prompt			prompt			Over 200 Pokémon moves have been confirmed.	仅是现在已被人知晓的	ポケモンが　つかう　わざは	げんざい　わかって　いるだけで
 												宝可梦可以使用的招式	げんざい　わかって　いるだけで	160しゅるい　いじょうある
 _BecameConfusedText::				_BecameConfusedText::										
@@ -134,38 +134,38 @@ _MimicLearnedMoveText::				_MimicLearnedMoveText::
 	prompt													
 														
 _MoveWasDisabledText::				_MoveWasDisabledText::										
-	text	<TARGET>'s			text	封住了<TARGET>		text	封住了<TARGET>	<TARGET>'s	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
-	line	@			line	的@		line	的@	@	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	text	<TARGET>'s			text	<TARGET>的		text	封住了<TARGET>	<TARGET>'s	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	@			line	@		line	的@	@	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
 	text_ram	wcd6d			text_ram	wcd6d		text_ram	wcd6d	wcd6d				…　シルフ　カンパニー
-	text	 was			text	！		text	！	 was		……西尔佛公司	……シルフカンパニー	
+	text	 was			text	被封住了！		text	！	 was		……西尔佛公司	……シルフカンパニー	
 	cont	disabled!			prompt			prompt		disabled!				
 	prompt													
 														
 _NothingHappenedText::				_NothingHappenedText::										
-	text	Nothing happened!			text	但是，沒有效果！		text	但是，没有效果！	Nothing happened!	But nothing happened!	但是，什么也没有发生！	しかし　なにもおこらない！	しかし　なにもおこらない
+	text	Nothing happened!			text	什麼也沒有發生！		text	但是，没有效果！	Nothing happened!	But nothing happened!	但是，什么也没有发生！	しかし　なにもおこらない！	しかし　なにもおこらない
 	prompt				prompt			prompt						4ォふレた
 														
 _NoEffectText::				_NoEffectText::										
-	text	No effect!			text	但是，什麼也沒有發生！		text	但是，什么也没有发生！	No effect!	But it had no effect!	但是，没有效果！	しかし　こうかが　なかった！	しかし　こうかが　なかった!
+	text	No effect!			text	沒有效果！		text	但是，什么也没有发生！	No effect!	But it had no effect!	但是，没有效果！	しかし　こうかが　なかった！	しかし　こうかが　なかった!
 	prompt				prompt			prompt						
 														
 _ButItFailedText::				_ButItFailedText::										
-	text	But, it failed!			text	但是招式失敗了！		text	但是招式失败了！	But, it failed!	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	text	But, it failed!			text	但是失敗了！		text	但是招式失败了！	But, it failed!	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
 	prompt				prompt			prompt			2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
 														
 _DidntAffectText::				_DidntAffectText::										
-	text	It didn't affect			text	但是對<TARGET>		text	但是对<TARGET>	It didn't affect	It’s so pleasant...	真舒服……	きもち　いい……	おし!
-	line	<TARGET>!			line	沒有起到效果！		line	没有起到效果！	<TARGET>!		……呼……呼～	……　すー……　すー	いい　しょうぶ　だった
+	text	It didn't affect			text	對<TARGET>		text	但是对<TARGET>	It didn't affect	It’s so pleasant...	真舒服……	きもち　いい……	おし!
+	line	<TARGET>!			line	沒有效果！		line	没有起到效果！	<TARGET>!		……呼……呼～	……　すー……　すー	いい　しょうぶ　だった
 	prompt				prompt			prompt			... ... ...			
 														
 _IsUnaffectedText::				_IsUnaffectedText::							... ... Zzz.			
 	text	<TARGET>			text	<TARGET>		text	<TARGET>	<TARGET>	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
-	line	is unaffected!			line	擺出了事不關己的表情！		line	摆出了事不关己的表情！	is unaffected!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	line	is unaffected!			line	不受影響！		line	摆出了事不关己的表情！	is unaffected!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
 	prompt				prompt			prompt						
 														
 _ParalyzedMayNotAttackText::				_ParalyzedMayNotAttackText::										
 	text	<TARGET>'s			text	<TARGET>		text	<TARGET>	<TARGET>'s	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
-	line	paralyzed! It may			line	麻痺了，很難使出招式！		line	麻痹了，很难使出招式！	paralyzed! It may	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	line	paralyzed! It may			line	麻痺了，可能無法行動！		line	麻痹了，很难使出招式！	paralyzed! It may	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
 	cont	not attack!			prompt			prompt		not attack!				…　シルフ　カンパニー
 	prompt											……西尔佛公司	……シルフカンパニー	
 														
@@ -175,18 +175,18 @@ _SubstituteText::				_SubstituteText::
 	prompt										Over 200 Pokémon moves have been confirmed.	仅是现在已被人知晓的	ポケモンが　つかう　わざは	げんざい　わかって　いるだけで
 												宝可梦可以使用的招式	げんざい　わかって　いるだけで	160しゅるい　いじょうある
 _HasSubstituteText::				_HasSubstituteText::										
-	text	<USER>			text	<USER>的		text	<USER>的	<USER>	Totem [VAR PKNICK(0000)] already has a substitute!	但是，霸主[VAR PKNICK(0000)]的	しかし　ぬしの　[VAR PKNICK(0000)]の	しかし　 {USER} の
-	line	has a SUBSTITUTE!			line	替身已經出現了！		line	替身已经出现了！	has a SUBSTITUTE!		替身已经出现了。	みがわりは　すでに　でていた	みがわりは　すでに　でていた!
+	text	<USER>			text	<USER>		text	<USER>的	<USER>	Totem [VAR PKNICK(0000)] already has a substitute!	但是，霸主[VAR PKNICK(0000)]的	しかし　ぬしの　[VAR PKNICK(0000)]の	しかし　 {USER} の
+	line	has a SUBSTITUTE!			line	已經有替身了！		line	替身已经出现了！	has a SUBSTITUTE!		替身已经出现了。	みがわりは　すでに　でていた	みがわりは　すでに　でていた!
 	prompt				prompt			prompt						
 														
 _TooWeakSubstituteText::				_TooWeakSubstituteText::										
-	text	Too weak to make			text	體力已經		text	体力已经	Too weak to make	To make a complete guide to all the Pokémon	曾几何时，我的梦想就是	この　せかい　すべての	1ぴきだけ　そだてても
-	line	a SUBSTITUTE!			line	不夠放出替身了！		line	不够放出替身了！	a SUBSTITUTE!	in the world...	制造出一个记录了这个世界上	ポケモンを　きろくした	つよい　トレーナーに　なれない
+	text	Too weak to make			text	體力不足，		text	体力已经	Too weak to make	To make a complete guide to all the Pokémon	曾几何时，我的梦想就是	この　せかい　すべての	1ぴきだけ　そだてても
+	line	a SUBSTITUTE!			line	無法製造替身！		line	不够放出替身了！	a SUBSTITUTE!	in the world...	制造出一个记录了这个世界上	ポケモンを　きろくした	つよい　トレーナーに　なれない
 	prompt				prompt			prompt						おおくの　ポケモンを　
 											That was my dream!	所有的宝可梦的完美图鉴！	かんぺきな　ずかんを　つくること！	バランス　よく　そだてるのも
 _WasSeededText::				_WasSeededText::										たいへん　だけどな
-	text	<TARGET>			text	將種子種在		text	将种子种在	<TARGET>	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
-	line	was seeded!			line	<TARGET>身上！		line	<TARGET>身上！	was seeded!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text	<TARGET>			text	<TARGET>		text	将种子种在	<TARGET>	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	was seeded!			line	被種下了種子！		line	<TARGET>身上！	was seeded!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
 	prompt				prompt			prompt						
 														
 _EvadedAttackText::				_EvadedAttackText::										
@@ -196,7 +196,7 @@ _EvadedAttackText::				_EvadedAttackText::
 														
 _HitWithRecoilText::				_HitWithRecoilText::										
 	text	<USER>'s			text	<USER>受到了		text	<USER>受到了	<USER>'s	It’s so pleasant...	真舒服……	きもち　いい……	おし!
-	line	hit with recoil!			line	反作用力造成的傷害！		line	反作用力造成的伤害！	hit with recoil!		……呼……呼～	……　すー……　すー	いい　しょうぶ　だった
+	line	hit with recoil!			line	反作用力傷害！		line	反作用力造成的伤害！	hit with recoil!		……呼……呼～	……　すー……　すー	いい　しょうぶ　だった
 	prompt				prompt			prompt			... ... ...			
 														
 _ConvertedTypeText::				_ConvertedTypeText::							... ... Zzz.			
@@ -205,13 +205,13 @@ _ConvertedTypeText::				_ConvertedTypeText::							... ... Zzz.
 	prompt				prompt			prompt			... ... ...			
 														
 _StatusChangesEliminatedText::				_StatusChangesEliminatedText::							... ... Zzz.			
-	text	All STATUS changes			text	所有能力都復原了！		text	所有能力都复原了！	All STATUS changes	All stat changes were eliminated!	所有能力都复原了！	すべての　ステータスが	すべての　ステータスが
+	text	All STATUS changes			text	所有能力變化都消失了！		text	所有能力都复原了！	All STATUS changes	All stat changes were eliminated!	所有能力都复原了！	すべての　ステータスが	すべての　ステータスが
 	line	are eliminated!			prompt			prompt		are eliminated!			もとに　もどった！	もとに　もどった!
 	prompt													4をめ
 														
 _GettingPumpedText::				_GettingPumpedText::										
 	text	<USER>'s			text	<USER>		text	<USER>	<USER>'s	It’s so pleasant...	真舒服……	きもち　いい……	おし!
-	line	getting pumped!			line	現在幹勁十足！		line	现在干劲十足！	getting pumped!		……呼……呼～	……　すー……　すー	いい　しょうぶ　だった
+	line	getting pumped!			line	開始聚氣了！		line	现在干劲十足！	getting pumped!		……呼……呼～	……　すー……　すー	いい　しょうぶ　だった
 	prompt				prompt			prompt			... ... ...			
 														
 _StartedSleepingEffect::				_StartedSleepingEffect::							... ... Zzz.			
@@ -220,14 +220,14 @@ _StartedSleepingEffect::				_StartedSleepingEffect::							... ... Zzz.
 	done				done			done						
 														
 _FellAsleepBecameHealthyText::				_FellAsleepBecameHealthyText::										
-	text	<USER>			text	<USER>睡著了		text	<USER>睡着了	<USER>	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
-	line	fell asleep and			line	並且變得精力充沛！		line	并且变得精力充沛！	fell asleep and	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text	<USER>			text	<USER>睡著了，		text	<USER>睡着了	<USER>	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	fell asleep and			line	恢復了健康！		line	并且变得精力充沛！	fell asleep and	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
 	cont	became healthy!			done			done		became healthy!				
 	done													
 														
 _RegainedHealthText::				_RegainedHealthText::										
 	text	<USER>			text	<USER>		text	<USER>	<USER>	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
-	line	regained health!			line	回覆了體力！		line	回复了体力！	regained health!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	line	regained health!			line	恢復了體力！		line	回复了体力！	regained health!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
 	prompt				prompt			prompt						
 														
 _TransformedText::				_TransformedText::										
@@ -240,13 +240,13 @@ _TransformedText::				_TransformedText::
 														
 _LightScreenProtectedText::				_LightScreenProtectedText::										
 	text	<USER>'s			text	<USER>的		text	<USER>的	<USER>'s	Well, I guess that’s that...	……好了好了！	……さてと！　じゃあ	ゲームの　プログラムだ!
-	line	protected against			line	特殊抗性提高了！		line	抗特殊攻击变强了！	protected against		那这个就先给你了。	これ　あげとくな	これ　かえたら　バグる　かも
+	line	protected against			line	特殊防禦提高了！		line	抗特殊攻击变强了！	protected against		那这个就先给你了。	これ　あげとくな	これ　かえたら　バグる　かも
 	cont	special attacks!			prompt			prompt		special attacks!	Here, take these. I won’t need ’em now!			
 	prompt													
 														
 _ReflectGainedArmorText::				_ReflectGainedArmorText::										
 	text	<USER>			text	<USER>的		text	<USER>的	<USER>	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
-	line	gained armor!			line	物理抗性提高了！		line	抗打击攻击变强了！	gained armor!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	line	gained armor!			line	物理防禦提高了！		line	抗打击攻击变强了！	gained armor!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
 	prompt				prompt			prompt						
 														
 _ShroudedInMistText::				_ShroudedInMistText::										
@@ -260,8 +260,8 @@ _CoinsScatteredText::				_CoinsScatteredText::							... ... Zzz.
 	prompt													
 														
 _SuckedHealthText::				_SuckedHealthText::										
-	text	Sucked health from			text	從<TARGET>		text	从<TARGET>	Sucked health from	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
-	line	<TARGET>!			line	那裡吸取了體力！		line	那里吸取了体力！	<TARGET>!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text	Sucked health from			text	吸取了<TARGET>的		text	从<TARGET>	Sucked health from	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	<TARGET>!			line	體力！		line	那里吸取了体力！	<TARGET>!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
 	prompt				prompt			prompt						
 														
 _DreamWasEatenText::				_DreamWasEatenText::										

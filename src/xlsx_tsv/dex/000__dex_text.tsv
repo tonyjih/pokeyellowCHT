@@ -60,9 +60,9 @@ _CharizardDexEntry::				_CharizardDexEntry::
 	dex				dex				
 									
 _SquirtleDexEntry::				_SquirtleDexEntry::					
-	text	Shoots water at			text	透過從水面噴水來捕食。			
-	next	prey while in the			next	在危急時刻會將四肢			
-	next	water.			next	縮入龜殼裡保護自己。			
+	text	Shoots water at			text	在水中會朝獵物噴水。			
+	next	prey while in the			next	危險時會把四肢			
+	next	water.			next	縮進龜殼裡保護自己。			
 									
 	page	Withdraws into							
 	next	its shell when in							
@@ -71,8 +71,8 @@ _SquirtleDexEntry::				_SquirtleDexEntry::
 									
 _WartortleDexEntry::				_WartortleDexEntry::					
 	text	When tapped, this			text	如果拍打它的頭部，			
-	next	#MON will pull			next	它會把頭縮排殼裡，但尾巴			
-	next	in its head, but			next	還是會露出來一點點。			
+	next	#MON will pull			next	它會把頭縮進殼裡，			
+	next	in its head, but			next	但尾巴還是會露出一點。			
 									
 	page	its tail will							
 	next	still stick out a							
@@ -81,8 +81,8 @@ _WartortleDexEntry::				_WartortleDexEntry::
 									
 _BlastoiseDexEntry::				_BlastoiseDexEntry::					
 	text	Once it takes aim			text	一旦鎖定了目標，			
-	next	at its enemy, it			next	它會以超越了			
-	next	blasts out water			next	消防水槍的力道來噴水。			
+	next	at its enemy, it			next	它噴出的水柱力道			
+	next	blasts out water			next	比消防水管還要強。			
 									
 	page	with even more							
 	next	force than a fire							
@@ -102,7 +102,7 @@ _CaterpieDexEntry::				_CaterpieDexEntry::
 _MetapodDexEntry::				_MetapodDexEntry::					
 	text	Hardens its shell			text	它會讓外殼變硬來保護			
 	next	to protect itself.			next	自己。但遇到強烈衝擊時，			
-	next	However, a large			next	它的身體還是會被撞出來。			
+	next	However, a large			next	身體可能會從殼裡彈出。			
 									
 	page	impact may cause							
 	next	it to pop out of							
@@ -131,8 +131,8 @@ _WeedleDexEntry::				_WeedleDexEntry::
 									
 _KakunaDexEntry::				_KakunaDexEntry::					
 	text	Able to move only			text	雖然幾乎動也動不了，			
-	next	slightly. When			next	但是如果遇到了危險，有時			
-	next	endangered, it			next	似乎會豎起毒刺來反抗。			
+	next	slightly. When			next	但遇到危險時，有時會			
+	next	endangered, it			next	伸出毒刺來反抗。			
 									
 	page	may stick out its							
 	next	stinger and poison							
@@ -140,9 +140,9 @@ _KakunaDexEntry::				_KakunaDexEntry::
 	dex				dex				
 									
 _BeedrillDexEntry::				_BeedrillDexEntry::					
-	text	It has 3 poisonous			text	它會用雙手			
+	text	It has 3 poisonous			text	它會用前腳			
 	next	stingers on its			next	和尾部的３根毒針			
-	next	forelegs and its			next	反覆刺傷敵人。			
+	next	forelegs and its			next	反覆刺擊敵人。			
 									
 	page	tail. They are							
 	next	used to jab its							
@@ -160,9 +160,9 @@ _PidgeyDexEntry::				_PidgeyDexEntry::
 	dex				dex				
 									
 _PidgeottoDexEntry::				_PidgeottoDexEntry::					
-	text	This #MON is			text	擁有超群的體力，			
-	next	full of vitality.			next	而且飛翔範圍廣，經常飛到			
-	next	It constantly			next	很遠的地方尋找食物。			
+	text	This #MON is			text	充滿活力的寶可夢。			
+	next	full of vitality.			next	會在廣大的地盤裡飛行，			
+	next	It constantly			next	四處尋找獵物。			
 									
 	page	flies around its							
 	next	large territory in							
@@ -180,9 +180,9 @@ _PidgeotDexEntry::				_PidgeotDexEntry::
 	dex				dex				
 									
 _RattataDexEntry::				_RattataDexEntry::					
-	text	Will chew on any-			text	有兩顆大門牙，見啥咬啥。			
-	next	thing with its			next	只要看到１隻小拉達出沒，			
-	next	fangs. If you see			next	附近必還住著４０隻以上。			
+	text	Will chew on any-			text	有兩顆大門牙，			
+	next	thing with its			next	見到什麼就咬什麼。			
+	next	fangs. If you see			next	附近還有４０隻以上。			
 									
 	page	one, it is certain							
 	next	that 40 more live							
@@ -200,9 +200,9 @@ _RaticateDexEntry::				_RaticateDexEntry::
 	dex				dex				
 									
 _SpearowDexEntry::				_SpearowDexEntry::					
-	text	Inept at flying			text	不擅長高空飛行。會以			
-	next	high. However, it			next	超高速在地盤裡四處盤旋，			
-	next	can fly around			next	以保護自己地盤不被侵犯。			
+	text	Inept at flying			text	不擅長高空飛行。			
+	next	high. However, it			next	但會在領地裡高速飛行，			
+	next	can fly around			next	保護地盤不被侵犯。			
 									
 	page	very fast to							
 	next	protect its ter-							
@@ -211,8 +211,8 @@ _SpearowDexEntry::				_SpearowDexEntry::
 									
 _FearowDexEntry::				_FearowDexEntry::					
 	text	A #MON that			text	很久以前就存在的寶可夢。			
-	next	dates back many			next	哪怕只察覺到一絲危險，			
-	next	years. If it			next	都會立即飛向高空。			
+	next	dates back many			next	只要察覺到一絲危險，			
+	next	years. If it			next	就會立刻飛向高空。			
 									
 	page	senses danger, it							
 	next	flies high and							
@@ -231,8 +231,8 @@ _EkansDexEntry::				_EkansDexEntry::
 									
 _ArbokDexEntry::				_ArbokDexEntry::					
 	text	The frightening			text	根據研究證實，			
-	next	patterns on its			next	它腹部那可怕的紋路大約有			
-	next	belly have been			next	６個種類已經得到確認。			
+	next	patterns on its			next	它腹部那可怕的紋路			
+	next	belly have been			next	目前已確認有６種。			
 									
 	page	studied. Six							
 	next	variations have							
@@ -240,9 +240,9 @@ _ArbokDexEntry::				_ArbokDexEntry::
 	dex				dex				
 									
 _PikachuDexEntry::				_PikachuDexEntry::					
-	text	It keeps its tail			text	會將尾巴豎起來來感覺周圍			
-	next	raised to monitor			next	是否安全。所以如果隨便			
-	next	its surroundings.			next	去拉它的尾巴，會被咬喔。			
+	text	It keeps its tail			text	會豎起尾巴感知周遭。			
+	next	raised to monitor			next	如果隨便去拉它的尾巴，			
+	next	its surroundings.			next	可是會被咬的。			
 									
 	page	If you yank its							
 	next	tail, it will try							
@@ -272,7 +272,7 @@ _SandshrewDexEntry::				_SandshrewDexEntry::
 _SandslashDexEntry::				_SandslashDexEntry::					
 	text	It is skilled at			text	它很擅長用爪子抓傷敵人。			
 	next	slashing enemies			next	偶爾在戰鬥中會折斷爪子，			
-	next	with its claws.			next	但到次日就會長出新的來。			
+	next	with its claws.			next	但隔天就會長出新的來。			
 									
 	page	If broken, they							
 	next	start to grow back							
@@ -280,9 +280,9 @@ _SandslashDexEntry::				_SandslashDexEntry::
 	dex				dex				
 									
 _NidoranFDexEntry::				_NidoranFDexEntry::					
-	text	A mild-mannered			text	它性格溫順不喜歡戰鬥，			
-	next	#MON that does			next	但由於小犄角中含有毒液，			
-	next	not like to			next	請一定要小心提防。			
+	text	A mild-mannered			text	它性格溫順，不喜歡戰鬥。			
+	next	#MON that does			next	但小角會分泌毒液，			
+	next	not like to			next	所以一定要小心。			
 									
 	page	fight. Beware, its							
 	next	small horns							
@@ -290,9 +290,9 @@ _NidoranFDexEntry::				_NidoranFDexEntry::
 	dex				dex				
 									
 _NidorinaDexEntry::				_NidorinaDexEntry::					
-	text	When resting deep			text	待在巢穴深處的時候，			
-	next	in its burrow, its			next	它必會把身上的刺收起來。			
-	next	thorns always			next	這表明它正處於放鬆狀態。			
+	text	When resting deep			text	待在巢穴深處時，			
+	next	in its burrow, its			next	會收起身上的刺。			
+	next	thorns always			next	這表示它正處於放鬆狀態。			
 									
 	page	retract.							
 	next	This is proof that							
@@ -302,7 +302,7 @@ _NidorinaDexEntry::				_NidorinaDexEntry::
 _NidoqueenDexEntry::				_NidoqueenDexEntry::					
 	text	Tough scales cover			text	堅硬的鱗片覆蓋著強壯的			
 	next	the sturdy body			next	身體。據說它的鱗片			
-	next	of this #MON.			next	會自己長出新的。			
+	next	of this #MON.			next	會週期性地長出新的。			
 									
 	page	It appears that							
 	next	the scales grow							
@@ -310,9 +310,9 @@ _NidoqueenDexEntry::				_NidoqueenDexEntry::
 	dex				dex				
 									
 _NidoranMDexEntry::				_NidoranMDexEntry::					
-	text	Its large ears			text	一直豎起它的大耳朵感知			
-	next	are always kept			next	周圍的情形。當它察覺到			
-	next	upright. If it			next	危險便會使用毒針。			
+	text	Its large ears			text	總是豎起大耳朵			
+	next	are always kept			next	感知周圍的情形。察覺到			
+	next	upright. If it			next	危險時便會用毒針攻擊。			
 									
 	page	senses danger, it							
 	next	will attack with a							
@@ -320,9 +320,9 @@ _NidoranMDexEntry::				_NidoranMDexEntry::
 	dex				dex				
 									
 _NidorinoDexEntry::				_NidorinoDexEntry::					
-	text	Its horns contain			text	頭上的犄角裡含有毒素，			
-	next	venom. If they			next	當犄角撞穿了什麼東西時，			
-	next	are stabbed into			next	毒素就會隨著衝擊而流出。			
+	text	Its horns contain			text	頭上的角裡含有毒素。			
+	next	venom. If they			next	當角刺進敵人身上時，			
+	next	are stabbed into			next	毒素就會隨衝擊流出。			
 									
 	page	an enemy, the							
 	next	impact makes the							
@@ -330,9 +330,9 @@ _NidorinoDexEntry::				_NidorinoDexEntry::
 	dex				dex				
 									
 _NidokingDexEntry::				_NidokingDexEntry::					
-	text	Its steel-like			text	透過活用自己鋼一般堅硬的			
-	next	hide adds to its			next	皮膚來使出強力的撞擊。			
-	next	powerful tackle.			next	犄角堅硬得能夠刺穿鑽石。			
+	text	Its steel-like			text	活用鋼一般堅硬的皮膚，			
+	next	hide adds to its			next	使出強力的撞擊。			
+	next	powerful tackle.			next	角堅硬得能夠刺穿鑽石。			
 									
 	page	Its horns are so							
 	next	hard, they can							
@@ -371,8 +371,8 @@ _VulpixDexEntry::				_VulpixDexEntry::
 									
 _NinetalesDexEntry::				_NinetalesDexEntry::					
 	text	According to an			text	傳說這種寶可夢			
-	next	enduring legend,			next	是由９位聖者			
-	next	9 noble saints			next	合體之後而誕生的。			
+	next	enduring legend,			next	是由９位高貴的聖者			
+	next	9 noble saints			next	合而為一後誕生的。			
 									
 	page	were united and							
 	next	reincarnated as							
@@ -380,9 +380,9 @@ _NinetalesDexEntry::				_NinetalesDexEntry::
 	dex				dex				
 									
 _JigglypuffDexEntry::				_JigglypuffDexEntry::					
-	text	Uses its alluring			text	它會用圓溜溜的大眼睛盯著			
-	next	eyes to enrapture			next	對手唱起不可思議的歌曲，			
-	next	its foe. It then			next	舒服的歌曲會讓對手睡著。			
+	text	Uses its alluring			text	會用圓溜溜的大眼睛			
+	next	eyes to enrapture			next	凝視對手，再唱起悅耳的			
+	next	its foe. It then			next	歌聲讓對手睡著。			
 									
 	page	sings a pleasing							
 	next	melody that lulls							
@@ -400,9 +400,9 @@ _WigglytuffDexEntry::				_WigglytuffDexEntry::
 	dex				dex				
 									
 _ZubatDexEntry::				_ZubatDexEntry::					
-	text	Emits ultrasonic			text	由於需要調查前方的狀況，			
-	next	cries while it			next	它會一邊從嘴裡發出超音波			
-	next	flies. They act			next	一邊飛行。			
+	text	Emits ultrasonic			text	飛行時會從嘴裡發出			
+	next	cries while it			next	超音波，像聲納一樣			
+	next	flies. They act			next	確認前方有沒有障礙物。			
 									
 	page	as a sonar used							
 	next	to check for ob-							
@@ -422,7 +422,7 @@ _GolbatDexEntry::				_GolbatDexEntry::
 _OddishDexEntry::				_OddishDexEntry::					
 	text	It may be mistaken			text	若以為它是普通的草而將它			
 	next	for a clump of			next	拔起，就會聽到它的叫聲。			
-	next	weeds. If you try			next	這讓人感到莫名的恐怖。			
+	next	weeds. If you try			next	令人感到莫名恐怖。			
 									
 	page	to yank it out of							
 	next	the ground, it							
@@ -431,8 +431,8 @@ _OddishDexEntry::				_OddishDexEntry::
 									
 _GloomDexEntry::				_GloomDexEntry::					
 	text	Smells incredibly			text	奇臭無比！即使如此，			
-	next	foul! However,			next	一千個人裡總會出現			
-	next	around 1 out of			next	一個人喜歡聞這種味道。			
+	next	foul! However,			next	約每１０００人之中			
+	next	around 1 out of			next	就有１人喜歡聞這種味道。			
 									
 	page	1,000 people enjoy							
 	next	sniffing its nose-							
@@ -460,9 +460,9 @@ _ParasDexEntry::				_ParasDexEntry::
 	dex				dex				
 									
 _ParasectDexEntry::				_ParasectDexEntry::					
-	text	The bug host is			text	因蟲子的精華不斷被吸走，			
-	next	drained of energy			next	在思考的似乎已經不是			
-	next	by the mushrooms			next	蟲子，而是背上的蘑菇了。			
+	text	The bug host is			text	寄主的精力被背上的蘑菇			
+	next	drained of energy			next	不斷吸收。似乎負責思考的			
+	next	by the mushrooms			next	已經是蘑菇了。			
 									
 	page	on its back. They							
 	next	appear to do all							
@@ -470,9 +470,9 @@ _ParasectDexEntry::				_ParasectDexEntry::
 	dex				dex				
 									
 _VenonatDexEntry::				_VenonatDexEntry::					
-	text	Its large eyes act			text	在明亮處你便能發現它具有			
-	next	as radars. In a			next	雷達功能的大眼其實是由			
-	next	bright place, you			next	許多個小眼睛聚集而成的。			
+	text	Its large eyes act			text	在明亮處便能發現，			
+	next	as radars. In a			next	具有雷達功能的大眼睛			
+	next	bright place, you			next	其實是許多小眼睛聚成的。			
 									
 	page	can see that they							
 	next	are clusters of							
@@ -480,9 +480,9 @@ _VenonatDexEntry::				_VenonatDexEntry::
 	dex				dex				
 									
 _VenomothDexEntry::				_VenomothDexEntry::					
-	text	The powdery scales			text	若失手把翅膀上的鱗粉沾到			
-	next	on its wings are			next	身上，不但很難去除，更糟			
-	next	hard to remove.			next	的是毒素也會從那裡滲入。			
+	text	The powdery scales			text	翅膀上的鱗粉一旦沾到			
+	next	on its wings are			next	身上，不但很難去除，			
+	next	hard to remove.			next	毒素也會從那裡滲入。			
 									
 	page	They also contain							
 	next	poison that leaks							
@@ -492,7 +492,7 @@ _VenomothDexEntry::				_VenomothDexEntry::
 _DiglettDexEntry::				_DiglettDexEntry::					
 	text	It prefers dark			text	喜歡陰暗的地方。			
 	next	places. It spends			next	大部分時間都待在地下，			
-	next	most of its time			next	只在洞窟裡會常探頭出來。			
+	next	most of its time			next	有時會在洞窟裡探頭出來。			
 									
 	page	underground,							
 	next	though it may pop							
@@ -500,9 +500,9 @@ _DiglettDexEntry::				_DiglettDexEntry::
 	dex				dex				
 									
 _DugtrioDexEntry::				_DugtrioDexEntry::					
-	text	A team of triplets			text	三合一的力量能讓它們			
-	next	that can burrow			next	挖地深至１００公里，甚至			
-	next	over 60 MPH.			next	有報告說它們會引發地震。			
+	text	A team of triplets			text	由三胞胎組成。挖洞速度			
+	next	that can burrow			next	可超過時速１００公里，			
+	next	over 60 MPH.			next	有人會誤以為是地震。			
 									
 	page	Due to this, some							
 	next	people think it's							
@@ -510,7 +510,7 @@ _DugtrioDexEntry::				_DugtrioDexEntry::
 	dex				dex				
 									
 _MeowthDexEntry::				_MeowthDexEntry::					
-	text	Appears to be more			text	貌似一到晚上就精力充沛。			
+	text	Appears to be more			text	似乎一到晚上就精力充沛。			
 	next	active at night.			next	喜歡又圓又亮的東西，			
 	next	It loves round			next	發現了就一定要撿走。			
 									
@@ -551,8 +551,8 @@ _GolduckDexEntry::				_GolduckDexEntry::
 									
 _MankeyDexEntry::				_MankeyDexEntry::					
 	text	An agile #MON			text	身體輕盈，在樹上生活。			
-	next	that lives in			next	常因雞毛蒜皮的小事發火			
-	next	trees. It angers			next	而飛撲到周圍的東西上。			
+	next	that lives in			next	很容易因一點小事發火，			
+	next	trees. It angers			next	毫不猶豫地攻擊周遭事物。			
 									
 	page	easily and will							
 	next	not hesitate to							
@@ -582,7 +582,7 @@ _GrowlitheDexEntry::				_GrowlitheDexEntry::
 _ArcanineDexEntry::				_ArcanineDexEntry::					
 	text	A legendary #-			text	中國古老傳說中的寶可夢。			
 	next	MON in China.			next	曾有不計其數的人為它			
-	next	Many people are			next	輕巧跑動的身姿而傾倒。			
+	next	Many people are			next	奔跑時的優雅身姿而傾倒。			
 									
 	page	charmed by its							
 	next	grace and beauty							
@@ -610,7 +610,7 @@ _PoliwhirlDexEntry::				_PoliwhirlDexEntry::
 	dex				dex				
 									
 _PoliwrathDexEntry::				_PoliwrathDexEntry::					
-	text	Swims powerfully			text	他會用全身的肌肉奮力			
+	text	Swims powerfully			text	它會用全身的肌肉奮力			
 	next	using all the			next	游泳，連奧林匹克選手			
 	next	muscles in its			next	都甘拜下風。			
 									
@@ -660,9 +660,9 @@ _MachopDexEntry::				_MachopDexEntry::
 	dex				dex				
 									
 _MachokeDexEntry::				_MachokeDexEntry::					
-	text	The belt around			text	只要解開繫在腰上的限制它			
-	next	its waist holds			next	力量的腰帶，豪力就會變得			
-	next	back its energy.			next	勢不可擋。			
+	text	The belt around			text	腰帶限制著力量。			
+	next	its waist holds			next	一旦解開，豪力就會			
+	next	back its energy.			next	變得勢不可擋。			
 									
 	page	Without it, this							
 	next	#MON would be							
@@ -680,8 +680,8 @@ _MachampDexEntry::				_MachampDexEntry::
 	dex				dex				
 									
 _BellsproutDexEntry::				_BellsproutDexEntry::					
-	text	Prefers hot and			text	喜歡溫度高，有一定溼度的			
-	next	humid places.			next	地方。它會用身上的藤蔓			
+	text	Prefers hot and			text	喜歡高溫潮濕的地方。			
+	next	humid places.			next	它會用身上的藤蔓			
 	next	It ensnares tiny			next	抓小蟲來吃。			
 									
 	page	insects with its							
@@ -690,9 +690,9 @@ _BellsproutDexEntry::				_BellsproutDexEntry::
 	dex				dex				
 									
 _WeepinbellDexEntry::				_WeepinbellDexEntry::					
-	text	When hungry, it			text	它在肚子餓的時候會吞掉			
+	text	When hungry, it			text	肚子餓時會吞掉			
 	next	swallows anything			next	周圍會動的東西，			
-	next	that moves. Its			next	分泌溶解液讓其致命。			
+	next	that moves. Its			next	並用強酸將獵物溶解。			
 									
 	page	hapless prey is							
 	next	melted inside by							
@@ -700,9 +700,9 @@ _WeepinbellDexEntry::				_WeepinbellDexEntry::
 	dex				dex				
 									
 _VictreebelDexEntry::				_VictreebelDexEntry::					
-	text	Lures prey with			text	用花蜜香味引誘獵物。據說			
-	next	the sweet aroma of			next	被它吞入嘴裡的東西，只要			
-	next	honey. Swallowed			next	１天會溶解到骨頭都不剩。			
+	text	Lures prey with			text	用花蜜香味引誘獵物。			
+	next	the sweet aroma of			next	據說被它整個吞下後，			
+	next	honey. Swallowed			next	１天內就會溶到骨頭不剩。			
 									
 	page	whole, the prey is							
 	next	melted in a day,							
@@ -711,8 +711,8 @@ _VictreebelDexEntry::				_VictreebelDexEntry::
 									
 _TentacoolDexEntry::				_TentacoolDexEntry::					
 	text	It can sometimes			text	有時能在沙灘上發現它			
-	next	be found all dry			next	乾巴巴的身體，但是			
-	next	and shriveled up			next	它只要沾到水就能復活。			
+	next	be found all dry			next	乾巴巴的身體。只要把它			
+	next	and shriveled up			next	放回海裡就能復活。			
 									
 	page	on a beach. Toss							
 	next	it back into the							
@@ -730,9 +730,9 @@ _TentacruelDexEntry::				_TentacruelDexEntry::
 	dex				dex				
 									
 _GeodudeDexEntry::				_GeodudeDexEntry::					
-	text	Commonly found			text	大多棲息於山路。由於			
-	next	near mountain			next	不留神踩到它會使它			
-	next	trails, etc.			next	大發雷霆，得多加小心。			
+	text	Commonly found			text	常見於山路等地方。			
+	next	near mountain			next	如果不小心踩到它，			
+	next	trails, etc.			next	它就會大發雷霆。			
 									
 	page	If you step on							
 	next	one by accident,							
@@ -741,8 +741,8 @@ _GeodudeDexEntry::				_GeodudeDexEntry::
 									
 _GravelerDexEntry::				_GravelerDexEntry::					
 	text	Often seen rolling			text	常在山路上滾來滾去。			
-	next	down mountain			next	滾動時從來不關心			
-	next	trails. Obstacles			next	前面的路上都有什麼。			
+	next	down mountain			next	滾動時完全不在乎			
+	next	trails. Obstacles			next	前方有什麼障礙。			
 									
 	page	are just things to							
 	next	roll straight							
@@ -780,7 +780,7 @@ _RapidashDexEntry::				_RapidashDexEntry::
 	dex				dex				
 									
 _SlowpokeDexEntry::				_SlowpokeDexEntry::					
-	text	Incredibly slow			text	非常呆，動作也很緩慢。			
+	text	Incredibly slow			text	非常遲鈍，動作也很緩慢。			
 	next	and sluggish. It			next	從不在意時間的流逝，			
 	next	is quite content			next	過著悠閒的生活。			
 									
@@ -800,9 +800,9 @@ _SlowbroDexEntry::				_SlowbroDexEntry::
 	dex				dex				
 									
 _MagnemiteDexEntry::				_MagnemiteDexEntry::					
-	text	It is born with			text	天生就擁有遮斷重力的			
-	next	the ability to			next	能力，可以一邊發出			
-	next	defy gravity. It			next	電磁波一邊在空中移動。			
+	text	It is born with			text	天生就擁有抵抗重力的			
+	next	the ability to			next	能力，會靠強力電磁波			
+	next	defy gravity. It			next	漂浮在空中。			
 									
 	page	floats in air on							
 	next	powerful electro-							
@@ -841,7 +841,7 @@ _DoduoDexEntry::				_DoduoDexEntry::
 									
 _DodrioDexEntry::				_DodrioDexEntry::					
 	text	One of DODUO's 2			text	由嘟嘟的某個頭分裂出的			
-	next	heads splits to			next	變種。以６０千米的時速			
+	next	heads splits to			next	變種。以時速６０公里			
 	next	form a unique			next	在草原上奔跑。			
 									
 	page	species. It runs							
@@ -870,7 +870,7 @@ _DewgongDexEntry::				_DewgongDexEntry::
 	dex				dex				
 									
 _GrimerDexEntry::				_GrimerDexEntry::					
-	text	Made of hardened			text	它由囤積的淤泥而形成。			
+	text	Made of hardened			text	它是由凝固的淤泥形成。			
 	next	sludge. It smells			next	臭到讓人無法碰觸，凡是			
 	next	too putrid to			next	它走過的地方都寸草不生。			
 									
@@ -881,7 +881,7 @@ _GrimerDexEntry::				_GrimerDexEntry::
 									
 _MukDexEntry::				_MukDexEntry::					
 	text	Smells so awful,			text	非常難聞！氣味臭到讓人			
-	next	it can cause			next	窒息，但由於鼻子的退化，			
+	next	it can cause			next	昏倒，但由於鼻子退化，			
 	next	fainting. Through			next	它自己完全聞不到味道。			
 									
 	page	degeneration, it							
@@ -891,7 +891,7 @@ _MukDexEntry::				_MukDexEntry::
 									
 _ShellderDexEntry::				_ShellderDexEntry::					
 	text	The shell can			text	它的硬殼可以承受任何			
-	next	withstand any			next	攻擊，但是一旦硬殼開啟，			
+	next	withstand any			next	攻擊，但是一旦硬殼張開，			
 	next	attack. However,			next	柔軟的內部就會完全暴露。			
 									
 	page	when it is open,							
@@ -922,7 +922,7 @@ _GastlyDexEntry::				_GastlyDexEntry::
 _HaunterDexEntry::				_HaunterDexEntry::					
 	text	By licking, it			text	被它舔到時生命力會被			
 	next	saps the victim's			next	吸走，身體會不受控制地			
-	next	life. It causes			next	不停顫抖，最後一命嗚呼。			
+	next	life. It causes			next	顫抖，最後失去生命。			
 									
 	page	shaking that won't							
 	next	stop until the							
@@ -940,9 +940,9 @@ _GengarDexEntry::				_GengarDexEntry::
 	dex				dex				
 									
 _OnixDexEntry::				_OnixDexEntry::					
-	text	Burrows at high			text	以驚人之勢鑽地覓食。在它			
-	next	speed in search			next	通過之後形成的洞穴會被			
-	next	of food. The			next	地鼠們當作自己的住處。			
+	text	Burrows at high			text	高速鑽地尋找食物。			
+	next	speed in search			next	它留下的隧道會被			
+	next	of food. The			next	地鼠們當作住處。			
 									
 	page	tunnels it leaves							
 	next	are used as homes							
@@ -960,9 +960,9 @@ _DrowzeeDexEntry::				_DrowzeeDexEntry::
 	dex				dex				
 									
 _HypnoDexEntry::				_HypnoDexEntry::					
-	text	Avoid eye contact			text	無意中遇到它的時候，若意			
-	next	if you come across			next	外和他對上視線會很危險。			
-	next	one. It will try			next	它手上的鐘擺會讓人睡著。			
+	text	Avoid eye contact			text	無意中遇到它時，			
+	next	if you come across			next	別和它對上眼。			
+	next	one. It will try			next	它會用鐘擺催眠你。			
 									
 	page	to put you to							
 	next	sleep by using							
@@ -980,9 +980,9 @@ _KrabbyDexEntry::				_KrabbyDexEntry::
 	dex				dex				
 									
 _KinglerDexEntry::				_KinglerDexEntry::					
-	text	One claw grew			text	一邊的鉗子很是巨大，雖說			
-	next	massively and as			next	硬如鋼鐵還擁有１萬馬力，			
-	next	hard as steel.			next	但還是太重了。			
+	text	One claw grew			text	一邊的鉗子巨大無比，			
+	next	massively and as			next	硬如鋼鐵且有１萬馬力，			
+	next	hard as steel.			next	但實在太重了。			
 									
 	page	It has 10,000-HP							
 	next	strength. However,							
@@ -991,8 +991,8 @@ _KinglerDexEntry::				_KinglerDexEntry::
 									
 _VoltorbDexEntry::				_VoltorbDexEntry::					
 	text	It is said to			text	據說它與精靈球相似的外形			
-	next	camouflage itself			next	其實是保護色，但它很容易			
-	next	as a # BALL. It			next	自爆這一點也出人意料。			
+	next	camouflage itself			next	其實是保護色，受到一點			
+	next	as a # BALL. It			next	刺激就會自爆。			
 									
 	page	will self-destruct							
 	next	with very little							
@@ -1001,8 +1001,8 @@ _VoltorbDexEntry::				_VoltorbDexEntry::
 									
 _ElectrodeDexEntry::				_ElectrodeDexEntry::					
 	text	Stores electrical			text	只要受到一點撞擊，			
-	next	energy inside its			next	就會由於體內的電能溢位			
-	next	body. Even the			next	導致爆炸。			
+	next	energy inside its			next	就會因為體內電能溢出，			
+	next	body. Even the			next	導致大爆炸。			
 									
 	page	slightest shock							
 	next	could trigger a							
@@ -1052,7 +1052,7 @@ _MarowakDexEntry::				_MarowakDexEntry::
 _HitmonleeDexEntry::				_HitmonleeDexEntry::					
 	text	When kicking, the			text	在踢中敵人的瞬間，			
 	next	sole of its foot			next	腳底會變得像鑽石般堅硬，			
-	next	turns as hard as			next	將對手踢成碎片。			
+	next	turns as hard as			next	能將對手踢碎。			
 									
 	page	a diamond on im-							
 	next	pact and destroys							
@@ -1070,9 +1070,9 @@ _HitmonchanDexEntry::				_HitmonchanDexEntry::
 	dex				dex				
 									
 _LickitungDexEntry::				_LickitungDexEntry::					
-	text	Its tongue spans			text	它２米長的舌頭比前肢更能			
-	next	almost 7 feet and			next	靈活地移動。不知為何，			
-	next	moves more freely			next	被它舔到之後會覺得發麻。			
+	text	Its tongue spans			text	近２公尺長的舌頭			
+	next	almost 7 feet and			next	比前肢更靈活。不知為何，			
+	next	moves more freely			next	被它舔到後會覺得發麻。			
 									
 	page	than its forelegs.							
 	next	Its licks can							
@@ -1081,8 +1081,8 @@ _LickitungDexEntry::				_LickitungDexEntry::
 									
 _KoffingDexEntry::				_KoffingDexEntry::					
 	text	In hot places, its			text	在炎熱的地方，它體內的			
-	next	internal gases			next	氣體會由於膨脹而產生			
-	next	could expand and			next	爆炸的危險，需要注意。			
+	next	internal gases			next	氣體可能膨脹並突然爆炸。			
+	next	could expand and			next	務必小心！			
 									
 	page	explode without							
 	next	any warning. Be							
@@ -1099,9 +1099,9 @@ _WeezingDexEntry::				_WeezingDexEntry::
 	dex				dex				
 									
 _RhyhornDexEntry::				_RhyhornDexEntry::					
-	text	A #MON with a			text	單細胞的腦子只能思考一件			
-	next	one-track mind.			next	事情。一旦它開始猛撞，			
-	next	Once it charges,			next	直到睡著前都不會停止。			
+	text	A #MON with a			text	腦袋一根筋，			
+	next	one-track mind.			next	開始猛撞後，			
+	next	Once it charges,			next	到睡著前都不停。			
 									
 	page	it won't stop							
 	next	running until it							
@@ -1181,7 +1181,7 @@ _GoldeenDexEntry::				_GoldeenDexEntry::
 _SeakingDexEntry::				_SeakingDexEntry::					
 	text	It is the male's			text	雄性的職責是			
 	next	job to make a			next	用頭上的角			
-	next	nest by carving			next	打穿河裡的石頭築巢。			
+	next	nest by carving			next	鑿穿河裡的石頭築巢。			
 									
 	page	out boulders in a							
 	next	stream using the							
@@ -1199,9 +1199,9 @@ _StaryuDexEntry::				_StaryuDexEntry::
 	dex				dex				
 									
 _StarmieDexEntry::				_StarmieDexEntry::					
-	text	The center section			text	據說當被稱為其核心的中心			据说当被称为其核心的中心
-	next	is named the core.			next	部分閃爍著七色光芒時，			部分闪烁着七色光芒时，
-	next	People think it			next	就代表著它正在傳達資訊。		next	就代表着它正在传达信息。
+	text	The center section			text	據說當被稱為核心的			据说当被称为其核心的中心
+	next	is named the core.			next	中心部分閃爍七色光芒時，			部分闪烁着七色光芒时，
+	next	People think it			next	代表它正在傳達訊息。		next	就代表着它正在传达信息。
 									
 	page	is communicating							
 	next	when it glows in							
@@ -1220,7 +1220,7 @@ _MrMimeDexEntry::				_MrMimeDexEntry::
 									
 _ScytherDexEntry::				_ScytherDexEntry::					
 	text	Leaps out of tall			text	突然從草叢裡竄出來，			
-	next	grass and slices			next	用鋒利的鐮刀斬砍的樣子			
+	next	grass and slices			next	用鋒利鐮刀劈砍的樣子			
 	next	prey with its			next	彷彿就像是忍者。			
 									
 	page	scythes. The move-							
@@ -1239,9 +1239,9 @@ _JynxDexEntry::				_JynxDexEntry::
 	dex				dex				
 									
 _ElectabuzzDexEntry::				_ElectabuzzDexEntry::					
-	text	If a major power			text	要是發生了大片的停電，			
+	text	If a major power			text	要是發生大規模停電，			
 	next	outage occurs, it			next	那一定是電擊獸偷偷吃掉了			
-	next	is certain that			next	發電站的電能。			
+	next	is certain that			next	發電廠的電能。			
 									
 	page	this #MON has							
 	next	eaten electricity							
@@ -1259,7 +1259,7 @@ _MagmarDexEntry::				_MagmarDexEntry::
 	dex				dex				
 									
 _PinsirDexEntry::				_PinsirDexEntry::					
-	text	Grips its prey in			text	用犄角全力夾擊！由於低溫			
+	text	Grips its prey in			text	用大角全力夾擊！由於低溫			
 	next	its pincers and			next	會使它無法動彈，所以它會			
 	next	squeezes hard! It			next	選擇在溫暖的地方生活。			
 									
@@ -1269,8 +1269,8 @@ _PinsirDexEntry::				_PinsirDexEntry::
 	dex				dex				
 									
 _TaurosDexEntry::				_TaurosDexEntry::					
-	text	A rowdy #MON			text	精力充沛且個性火暴。一旦			
-	next	with a lot of			next	開始奔跑，在撞到東西之前			
+	text	A rowdy #MON			text	精力充沛且個性火爆。			
+	next	with a lot of			next	一旦開始奔跑，撞到東西前			
 	next	stamina. Once			next	都不會停下腳步。			
 									
 	page	running, it won't							
@@ -1279,7 +1279,7 @@ _TaurosDexEntry::				_TaurosDexEntry::
 	dex				dex				
 									
 _MagikarpDexEntry::				_MagikarpDexEntry::					
-	text	Famous for being			text	因靠不住而出名的寶可夢。			
+	text	Famous for being			text	以不可靠聞名。			
 	next	very unreliable.			next	它們會在海、河、池子、			
 	next	It can be found			next	水窪等各種地方游來游去。			
 									
@@ -1289,9 +1289,9 @@ _MagikarpDexEntry::				_MagikarpDexEntry::
 	dex				dex				
 									
 _GyaradosDexEntry::				_GyaradosDexEntry::					
-	text	Brutally vicious			text	性格蠻橫愛破壞。在古代，			
-	next	and enormously			next	這個恐怖的寶可夢曾有過把			
-	next	destructive.			next	整座城市燒成焦土的記錄。			
+	text	Brutally vicious			text	性格蠻橫，破壞力驚人。			
+	next	and enormously			next	在古代，這恐怖的寶可夢			
+	next	destructive.			next	曾有摧毀整座城市的紀錄。			
 									
 	page	Known for totally							
 	next	destroying cities							
@@ -1299,8 +1299,8 @@ _GyaradosDexEntry::				_GyaradosDexEntry::
 	dex				dex				
 									
 _LaprasDexEntry::				_LaprasDexEntry::					
-	text	A gentle soul that			text	它擁有可以理解人類語言的			
-	next	can read the minds			next	溫柔之心。會把人載在背上			
+	text	A gentle soul that			text	擁有能理解人心的			
+	next	can read the minds			next	溫柔性情。會把人載在背上			
 	next	of people. It can			next	渡過大海。			
 									
 	page	ferry people							
@@ -1309,9 +1309,9 @@ _LaprasDexEntry::				_LaprasDexEntry::
 	dex				dex				
 									
 _DittoDexEntry::				_DittoDexEntry::					
-	text	When it spots an			text	看到敵人的瞬間身體便如同			
-	next	enemy, its body			next	要融化一般開始轉變，幾乎			
-	next	transfigures into			next	變身成和對方相同的樣子。			
+	text	When it spots an			text	看到敵人的瞬間，身體就像			
+	next	enemy, its body			next	融化般開始轉變，幾乎會			
+	next	transfigures into			next	變成和對方相同的樣子。			
 									
 	page	an almost perfect							
 	next	copy of its oppo-							
@@ -1321,7 +1321,7 @@ _DittoDexEntry::				_DittoDexEntry::
 _EeveeDexEntry::				_EeveeDexEntry::					
 	text	Its genetic code			text	由於基因不穩定，			
 	next	is unstable, so it			next	進化的可能多種多樣。			
-	next	could evolve in			next	只是生存數量很少。			
+	next	could evolve in			next	目前存活的個體很少。			
 									
 	page	a variety of ways.							
 	next	There are only a							
@@ -1329,8 +1329,8 @@ _EeveeDexEntry::				_EeveeDexEntry::
 	dex				dex				
 									
 _VaporeonDexEntry::				_VaporeonDexEntry::					
-	text	Its cell structure			text	它的細胞與水分子相似，			
-	next	is similar to			next	在它溶入於水後，			
+	text	Its cell structure			text	細胞結構與水分子相似，			
+	next	is similar to			next	溶入水中後，			
 	next	water molecules.			next	你就完全看不見它了。			
 									
 	page	It will melt away							
@@ -1340,7 +1340,7 @@ _VaporeonDexEntry::				_VaporeonDexEntry::
 									
 _JolteonDexEntry::				_JolteonDexEntry::					
 	text	A sensitive #-			text	稍微受點刺激			
-	next	MON that easily			next	就會大叫或生氣，			
+	next	MON that easily			next	就容易悲傷或生氣，			
 	next	becomes sad or			next	每當心情變化時都會蓄電。			
 									
 	page	angry. Every time							
@@ -1361,7 +1361,7 @@ _FlareonDexEntry::				_FlareonDexEntry::
 _PorygonDexEntry::				_PorygonDexEntry::					
 	text	The only #MON			text	人們期待它能成為唯一能夠			
 	next	people anticipate			next	飛到宇宙的寶可夢，			
-	next	can fly into			next	然而至今也努力未果。			
+	next	can fly into			next	但目前還沒有成功案例。			
 									
 	page	space. None has							
 	next	managed the feat							
@@ -1370,8 +1370,8 @@ _PorygonDexEntry::				_PorygonDexEntry::
 									
 _OmanyteDexEntry::				_OmanyteDexEntry::					
 	text	An ancient #MON			text	用化石復原出的寶可夢，			
-	next	that was recovered			next	靠巧妙地彎曲它的１０條腿			
-	next	from a fossil. It			next	在古代的大海裡飄蕩。			
+	next	that was recovered			next	靠巧妙地彎動１０條觸手			
+	next	from a fossil. It			next	在古代的大海裡游動。			
 									
 	page	swims by cleverly							
 	next	twisting its 10							
@@ -1379,9 +1379,9 @@ _OmanyteDexEntry::				_OmanyteDexEntry::
 	dex				dex				
 									
 _OmastarDexEntry::				_OmastarDexEntry::					
-	text	Sharp beaks ring			text	它擁有鋒利的牙齒，			
-	next	its mouth. Its			next	但據說它由於外殼過大，			
-	next	shell was too big			next	不易移動而導致滅絕。			
+	text	Sharp beaks ring			text	嘴邊長著鋒利的喙。			
+	next	its mouth. Its			next	但據說它因外殼過大，			
+	next	shell was too big			next	行動不便而導致滅絕。			
 									
 	page	for it to move							
 	next	freely, so it							
@@ -1430,8 +1430,8 @@ _SnorlaxDexEntry::				_SnorlaxDexEntry::
 									
 _ArticunoDexEntry::				_ArticunoDexEntry::					
 	text	A legendary bird			text	傳說的鳥寶可夢。它能將			
-	next	#MON. It			next	日空中的空氣中含有的			
-	next	freezes water			next	水分凍結，降下雪花。			
+	next	#MON. It			next	冬天空氣中的水分凍結，			
+	next	freezes water			next	讓雪花降下。			
 									
 	page	that is contained							
 	next	in winter air and							
@@ -1450,8 +1450,8 @@ _ZapdosDexEntry::				_ZapdosDexEntry::
 									
 _MoltresDexEntry::				_MoltresDexEntry::					
 	text	A legendary bird			text	傳說的鳥寶可夢。當它揮舞			
-	next	#MON. As it			next	起劇烈燃燒著的雙翅，			
-	next	flaps its flaming			next	哪怕是夜空也會被點亮。			
+	next	#MON. As it			next	熊熊燃燒的雙翅，			
+	next	flaps its flaming			next	連夜空都會被映紅。			
 									
 	page	wings, even the							
 	next	night sky will							
@@ -1459,9 +1459,9 @@ _MoltresDexEntry::				_MoltresDexEntry::
 	dex				dex				
 									
 _DratiniDexEntry::				_DratiniDexEntry::					
-	text	The existence of			text	本被認為只存於幻想之中，			
-	next	this mythical			next	直到最近有人將它釣起，			
-	next	#MON was only			next	它的存在才得到了證實。			
+	text	The existence of			text	曾被認為是幻想。			
+	next	this mythical			next	直到最近被釣到後，			
+	next	#MON was only			next	才證實其存在。			
 									
 	page	recently confirmed							
 	next	by a fisherman							
@@ -1480,7 +1480,7 @@ _DragonairDexEntry::				_DragonairDexEntry::
 									
 _DragoniteDexEntry::				_DragoniteDexEntry::					
 	text	It is said that			text	據說它生活在無垠大海的			
-	next	this #MON lives			next	某個地方，靠飛行來移動。			
+	next	this #MON lives			next	某個地方，並且會飛行。			
 	next	somewhere in the			next	但這也只是一個傳言罷了。			
 									
 	page	sea and that it							
