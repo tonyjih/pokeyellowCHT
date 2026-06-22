@@ -1,0 +1,28 @@
+text/Route16Gate2F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route16GateUpstairsText_49820::				_Route16GateUpstairsText_49820::										
+	text	I'm going for a			text	我要和女朋友		text	我要和女朋友	I'm going for a	I’m having a meeting with an important client.	我正在和客户开会呢。	おとくいさまと	ぼくは　クラスで　いちばん　つよい!
+	line	ride with my girl			line	一起騎新品腳踏車兜風！		line	一起骑新品自行车兜风！	ride with my girl			かいぎ　してるんだ	まいあさ　れんしゅうも　してるんだ!
+	cont	friend!			done			done		friend!	You want to join in?	……你也想一起参加吗？		
+	done												……きみも　まざる？	
+														
+_Route16GateUpstairsText_4982f::				_Route16GateUpstairsText_4982f::										
+	text	We're going			text	嗚呵呵！		text	呜呵呵！	We're going	Team Rocket took off!	火箭队逃跑了啊！	ロケットだん　にげてったね！	ロケットだん　にげてったね!
+	line	riding together!			line	所以就來腳踏車道了。		line	所以就来自行车道了。	riding together!	We can go out safely again!	这样一来就再也不用害怕出门了！	これからは　そと　あるいても	これからは　そと　あるいても
+	done				done			done						ちっとも　こわくない!
+											That’s great!	太好了！	ちっとも　こわくない！	よかったね!
+_Route16GateUpstairsText_4983b::				_Route16GateUpstairsText_4983b::										
+	text	Looked into the			text	使用望遠鏡觀看！		text	使用望远镜观看！	Looked into the	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	binoculars.			para	看見了玉虹百貨公司！		para	看见了玉虹百货公司！	binoculars.	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+					done			done		It's CELADON DEPT.				…　シルフ　カンパニー
+	para	It's CELADON DEPT.								STORE!		……西尔佛公司	……シルフカンパニー	
+	line	STORE!												
+	done													
+														
+_Route16GateUpstairsText_49847::				_Route16GateUpstairsText_49847::										
+	text	Looked into the			text	使用望遠鏡觀看！		text	使用望远镜观看！	Looked into the	Let’s see what the binoculars have to show...	使用望远镜观看！	ぼうえんきょうを　のぞいた！	ぼうえんきょうを　のぞいた!
+	line	binoculars.			para	看見一條長長的道路		para	看见一条长长的道路	binoculars.				むこうに　うみの　うえを　とおる
+					line	橫跨在海上！		line	横跨在海上！	There's a long	There’s a long path over water far away.	看见一条长长的	むこうに　うみの　うえを　とおる	ながーい　みちが　みえる!
+	para	There's a long			done			done		path over water!		道路横跨在海上！	ながーい　みちが　みえる！	ザ
+	line	path over water!												
+	done													
+end				end										

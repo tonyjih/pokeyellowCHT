@@ -1,0 +1,65 @@
+text/SilphCo9F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SilphCo9Text_5d8e5::				_SilphCo9Text_5d8e5::										
+	text	You look tired!			text	你看上去很累呢！		text	你看上去很累呢！	You look tired!	Oh, are you tired?	哎呀，你们累了吗？	あら　あなたたち　つかれてるの？	つかれてる　みたいよ!
+	line	You should take a			line	到休息室裡小睡一下吧？		line	到休息室里小睡一下吧？	You should take a	You should have a rest here in the nap room.	到休息室里小睡一下吧。	かみんしつで　やすんで　おいきなさい	かみんしつで　やすんで　いったら?
+	cont	quick nap!			prompt			prompt		quick nap!				
+	prompt													
+														
+_SilphCo9Text_5d8ea::				_SilphCo9Text_5d8ea::										
+	text	Don't give up!			text	要加油哦！		text	要加油哦！	Don't give up!	Why don’t you come work for Silph when you	等你长大了，	おおきく　なったら	おおきく　なったら
+	done				done			done			grow up?	可以来西尔佛工作哦！	シルフで　はたらくと　いいよ	シルフで　はたらくと　いいよ
+														ゲ
+_SilphCo9Text_5d8ef::				_SilphCo9Text_5d8ef::										
+	text	Thank you so			text	終於得救了……謝謝你！		text	终于得救了……谢谢你！	Thank you so	Thank you so much!	终于得救了……谢谢你！	たすかったわ　ありがと！	たすかったわ　ありがと
+	line	much!			done			done		much!				ゲ
+	done													
+														
+_SilphCo9BattleText1::				_SilphCo9BattleText1::										
+	text	Your #MON seem			text	明明是個孩子，但你的		text	明明是个孩子，但你的	Your #MON seem	Your Pokémon seem to adore you, kid!	明明是个孩子，	こどもの　くせに　おまえの	こどもの　くせに　おまえの
+	line	to adore you, kid!			line	寶可夢卻很喜歡你呢。		line	宝可梦却很喜欢你呢。	to adore you, kid!		但你的宝可梦却很喜欢你呢。	ポケモン　ずいぶん　なついているな	ポケモン　ずいぶん　なついているな
+	done				done			done						
+														
+_SilphCo9EndBattleText1::				_SilphCo9EndBattleText1::										
+	text	Ghaaah!			text	唔！		text_start			Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			done			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_SilphCo9AfterBattleText1::				_SilphCo9AfterBattleText1::										つ {PLAYER}  {PLAYER} 
+	text	If I had started			text	如果我也能像你這樣，		text	如果我也能像你这样，	If I had started	If only I had started as a Trainer at your age...	如果我也能像你这样，	おまえ　くらいの　としから	おまえ　くらいの　としから
+	line	as a trainer at			line	從小就成為一名		line	从小就成为一名	as a trainer at		从小就成为一名训练家的话……	ポケモン　やってれば　おれも……	ポケモン　やってれば　おれも…
+	cont	your age...			cont	訓練家的話……		cont	训练家的话……	your age...				
+	done				done			done						
+														
+_SilphCo9BattleText2::				_SilphCo9BattleText2::										
+	text	Your #MON have			text	你的寶可夢……有弱點！		text	你的宝可梦……有弱点！	Your #MON have	Your Pokémon have weak points!	你的宝可梦……有弱点！	きみの　ポケモン　には	きみの　ポケモン　には
+	line	weak points! I			line	只要攻擊弱點，我就能贏！		line	只要攻击弱点，我就能赢！	weak points! I	I can nail them!	只要攻击弱点，我就能赢！	……じゃくてんが　ある！	…　じゃくてんが　ある!
+	cont	can nail them!			done			done		can nail them!				そこを　せめれば　おれ　かてるよ!
+	done												そこを　せめれば　おれ　かてるよ！	
+														
+_SilphCo9EndBattleText2::				_SilphCo9EndBattleText2::										
+	text	You			text	沒等我找出		text	没等我找出	You	You hammered me!	没等我找出弱点……	じゃくてんを……	じゃくてんを…
+	line	hammered me!			line	弱點……我就被打敗了。		line	弱点……我就被打败了。	hammered me!		我就被打败了。	つくまえに　やられたあ	つくまえに　やられたあ
+	prompt				prompt			prompt						
+														
+_SilphCo9AfterBattleText2::				_SilphCo9AfterBattleText2::										
+	text	Exploiting weak			text	事實上找準弱點攻擊		text	事实上找准弱点攻击	Exploiting weak	Exploiting weak spots does work.	事实上找准弱点攻击十分不错！	じゃくてんを	じゃくてんを
+	line	spots does work!			line	十分不錯！		line	十分不错！	spots does work!	Think about type matchups.	比如属性之间的相克关系……	せめると　いいのは　じじつだ！	せめると　いいのは　じじつだ!
+	cont	Think about			cont	比如屬性之間的		cont	比如属性之间的	Think about				タイプの　あいしょう　とか…
+	cont	element types!			cont	相剋關係……		cont	相克关系……	element types!			タイプの　あいしょう　とか……	
+	done				done			done						
+														
+_SilphCo9BattleText3::				_SilphCo9BattleText3::										
+	text	I am one of the 4			text	我正是		text	我正是	I am one of the 4	I am one of the four Rocket Sisters!	我正是火箭队四姐妹之一！	わたくし　こそが	おれこそは
+	line	ROCKET BROTHERS!			line	火箭隊四兄弟之一！		line	火箭队四兄弟之一！	ROCKET BROTHERS!	And I’m the oldest.	是她们的大姐大！	ロケット　４しまいの　ひとり！	ロケット　4きょうだいの　ひとり!
+	done				done			done						
+													って　いうか　ちょうじょ！	
+_SilphCo9EndBattleText3::				_SilphCo9EndBattleText3::										
+	text	Warg!			text	哥哥，		text	哥哥，	Warg!	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	Brothers, I lost!			line	我輸了。		line	我输了。	Brothers, I lost!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt				prompt			prompt						
+														
+_SilphCo9AfterBattleText3::				_SilphCo9AfterBattleText3::										
+	text	My brothers will			text	算了。		text	算了。	My brothers will	Argh...	唔唔……	ぐぎぎ……	まあ　いい
+	line	avenge me!			line	我會讓哥哥會替我報仇的。		line	我会让哥哥会替我报仇的。	avenge me!	You embarrassed me...	你竟然敢让我难堪……	わたくしに　はじを　かかせて……	あにきが　かたきを　とって　くれる
+	done				done			done						ぜグ
+end				end							My sisters will avenge me!	我会让妹妹们替我报仇的！	いもうと　たちに	
+													かたきを　とって　もらうわ！	

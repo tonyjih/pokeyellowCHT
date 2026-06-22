@@ -1,0 +1,160 @@
+text/Route19.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route19BattleText1::				_Route19BattleText1::										
+	text	Have to warm up			text	下水前得做熱身運動！		text	下水前得做热身运动！	Have to warm up	I have to exercise and warm up before going out	下水前得做热身运动！	みずに　はいる　まえに	みずに　はいる　まえに
+	line	before my swim!			done			done		before my swim!	for a swim.		じゅんび　たいそう　しなきゃ！	じゅんび　たいそう　しなきゃ!
+	done													
+														
+_Route19EndBattleText1::				_Route19EndBattleText1::										
+	text	All			text	運動結束！		text	运动结束！	All	All warmed up!	运动结束！	たいそう　おわり！	たいそう　おわり!
+	line	warmed up!			prompt			prompt		warmed up!				
+	prompt													
+														
+_Route19AfterBattleText1::				_Route19AfterBattleText1::										
+	text	Thanks, kid! I'm			text	好！在你的幫助下，		text	好！在你的帮助下，	Thanks, kid! I'm	Thanks, kid!	好！在你的帮助下，	よしッ！　おかげで	よしッ!　おかげで
+	line	ready for a swim!			line	我的熱身運動		line	我的热身运动	ready for a swim!	I’m ready for a swim.	我的热身运动很好地完成了！	いい　うんどうに　なった！	いい　うんどうに　なった!
+	done				cont	很好地完成了！		cont	很好地完成了！					
+					done			done						
+_Route19BattleText2::				_Route19BattleText2::										
+	text	Wait! You'll have			text	等等，別慌！要是		text	等等，别慌！要是	Wait! You'll have	Wait! Slow down!	等等，别慌！	まて　あわてるな！	まて　あわてるな!
+	line	a heart attack!			line	心臟麻痺了該怎麼辦啊！		line	心脏麻痹了该怎么办啊！	a heart attack!	You’ll have a heart attack!	要是心脏麻痹了该怎么办啊！	しんぞう　マヒに　なったら　どうする	しんぞう　マヒに　なったら　どうする
+	done				done			done						
+														
+_Route19EndBattleText2::				_Route19EndBattleText2::										
+	text	Ooh!			text	唔，好冷。		text	唔，好冷。	Ooh!	Ooh!	唔，好冷。	うー　さむい	うー　さむい
+	line	That's chilly!			prompt			prompt		That's chilly!	That’s chilly!			
+	prompt													
+														
+_Route19AfterBattleText2::				_Route19AfterBattleText2::										
+	text	Watch out for			text	游泳時要小心，		text	游泳时要小心，	Watch out for	Beware! Zubat is a bloodsucker!	小心！	ズバットの	ズバットの
+	line	TENTACOOL!			line	別被瑪瑙水母蟄了。		line	别被玛瑙水母蛰了。	TENTACOOL!	Watch out for its Leech Life move!	超音蝠会吸血！	きゅうけつ　こうげきに　ちゅうい！	きゅうけつ　こうげきに　ちゅうい!
+	done				done			done						
+														
+_Route19BattleText3::				_Route19BattleText3::										
+	text	I love swimming!			text	我最喜歡游泳了！		text	我最喜欢游泳了！	I love swimming!	I would love it if you could keep an eye on	如果你愿意，	よければ	そうか…!　また　きて　ください
+	line	What about you?			line	……你呢？		line	……你呢？	What about you?	Slowpoke again sometime.	我以后还会拜托你的。	また　よろしくね	
+	done				done			done						
+														
+_Route19EndBattleText3::				_Route19EndBattleText3::										
+	text	Belly			text	撲通！		text	扑通！	Belly	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	flop!			prompt			prompt		flop!		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	prompt										D’aww... Failed again?			
+														
+_Route19AfterBattleText3::				_Route19AfterBattleText3::										
+	text	I can beat #MON			text	比游泳的話，		text	比游泳的话，	I can beat #MON	Well, I guess that’s that...	……好了好了！	……さてと！　じゃあ	ゲームの　プログラムだ!
+	line	at swimming!			line	我不會輸給海裡的寶可夢！		line	我不会输给海里的宝可梦！	at swimming!		那这个就先给你了。	これ　あげとくな	これ　かえたら　バグる　かも
+	done				done			done			Here, take these. I won’t need ’em now!			
+														
+_Route19BattleText4::				_Route19BattleText4::										
+	text	What's beyond the			text	水平線的那一邊……		text	水平线的那一边……	What's beyond the	What’s beyond the horizon?	水平线的那一边……	すいへいせんの　むこう	すいへいせんの　むこう
+	line	horizon?			line	會有什麼呢？		line	会有什么呢？	horizon?		会有什么呢？	……なにが　あるんだろ？	…　なにが　あるんだろ?
+	done				done			done						
+														
+_Route19EndBattleText4::				_Route19EndBattleText4::										
+	text	Glub!			text	哎呀呀……		text	哎呀呀……	Glub!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			prompt			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_Route19AfterBattleText4::				_Route19AfterBattleText4::										つ {PLAYER}  {PLAYER} 
+	text	I see a couple of			text	……		text	……	I see a couple of	I see a couple of islands over yonder!	……我看到那边有几座岛！	……むこうに	…　むこうに
+	line	islands!			line	我看到那邊有幾座島！		line	我看到那边有几座岛！	islands!			いくつか　しまが　みえるぞ！	いくつか　しまが　みえるぞ!
+	done				done			done						
+														
+_Route19BattleText5::				_Route19BattleText5::										
+	text	I tried diving			text	之前……我曾想		text	之前……我曾想	I tried diving	I tried diving for Pokémon from the sea,	之前……我曾想潜入海中捕捉	もぐって……　うみポケモン	もぐって…　うみ　ポケモン
+	line	for #MON, but			line	潛入海中捕捉海洋寶可夢，		line	潜入海中捕捉海洋宝可梦，	for #MON, but	but it was a no-go.	海洋宝可梦，不过好像不行！	とろうとしたけど　だめ　みたいだ！	とろうとしたけど　だめ　みたいだ!
+	cont	it was a no go!			cont	不過好像不行！		cont	不过好像不行！	it was a no go!				
+	done				done			done						
+														
+_Route19EndBattleText5::				_Route19EndBattleText5::										
+	text	Help!			text	咳、咳！		text	咳、咳！	Help!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			prompt			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_Route19AfterBattleText5::				_Route19AfterBattleText5::										つ {PLAYER}  {PLAYER} 
+	text	You have to fish			text	海裡的寶可夢果然		text	海里的宝可梦果然	You have to fish	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	for sea #MON!			line	不釣上來就捉不到呀。		line	不钓上来就捉不到呀。	for sea #MON!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	done				done			done						…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_Route19BattleText6::				_Route19BattleText6::										
+	text	I look at the			text	眺望著蔚藍的大海，		text	眺望着蔚蓝的大海，	I look at the	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	sea to forget!			line	就能忘掉討厭的事情哦！		line	就能忘掉讨厌的事情哦！	sea to forget!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	done				done			done						…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_Route19EndBattleText6::				_Route19EndBattleText6::										
+	text	Ooh!			text	真是討厭的敗仗。		text	真是讨厌的败仗。	Ooh!	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	Traumatic!			prompt			prompt		Traumatic!		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	prompt										D’aww... Failed again?			
+														
+_Route19AfterBattleText6::				_Route19AfterBattleText6::										
+	text	I'm looking at the			text	眺望著蔚藍的大海，		text	眺望着蔚蓝的大海，	I'm looking at the	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	sea to forget!			line	就能忘掉討厭的事情哦！		line	就能忘掉讨厌的事情哦！	sea to forget!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	done				done			done						…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_Route19BattleText7::				_Route19BattleText7::										
+	text	Oh, I just love			text	哎呀！你的坐騎好棒啊。		text	哎呀！你的坐骑好棒啊。	Oh, I just love	Oh, I just love what you’re riding! You’ll give it	哎呀！你的坐骑好棒啊。	ま！　いいのに　のってるわね	ま!　いい　ものに　のってるわね
+	line	your ride! Can I			line	如果我贏了，它就歸我了！		line	如果我赢了，它就归我了！	your ride! Can I	to me if I win, right?	如果我赢了，它就归我了！	かったら　わたしに　ちょうだい！	かったら　わたしに　ちょうだい!
+	cont	have it if I win?			done			done		have it if I win?				
+	done													
+														
+_Route19EndBattleText7::				_Route19EndBattleText7::										
+	text	Oh!			text	我輸了麼。		text	我输了么。	Oh!	Oh!	……！	……！	…!
+	line	I lost!			prompt			prompt		I lost!	I concede defeat.	我输了。	まいり　ましたわ	まいり　ましたわ
+	prompt													さすが
+											You are remarkably strong.	你真的很厉害……	ほんとうに　おつよい　かた……	とのがたは　おつよい　ですわ
+_Route19AfterBattleText7::				_Route19AfterBattleText7::										この　レインボーバッジを
+	text	It's still a long			text	這裡離雙子島		text	这里离双子岛	It's still a long	It’s still a long way to the Seafoam Islands...	这里离双子岛	ふたごじま　まで	ふたごじま　まで
+	line	way to go to			line	還有一段距離呢……		line	还有一段距离呢……	way to go to	I want to go back to Fuchsia City...	还有一段距离呢……	まだ　ありそうだし……	まだ　ありそうだし…
+	cont	SEAFOAM ISLANDS.			cont	好想回淺紅市啊。		cont	好想回浅红市啊。	SEAFOAM ISLANDS.				セキチクに　かえりたいわ
+	done				done			done				好想回浅红市啊。	セキチクに　かえりたいわ	
+														
+_Route19BattleText8::				_Route19BattleText8::										
+	text	Swimming's great!			text	我很喜歡游泳，		text	我很喜欢游泳，	Swimming's great!	Swimming’s great!	我很喜欢游泳，	およぐの　すき　だけど	およぐの　すき　だけど
+	line	Sunburns aren't!			line	不喜歡日曬！		line	不喜欢日晒！	Sunburns aren't!	Sunburns aren’t!	不喜欢日晒！	ひやけ　するのは　いやだわ！	ひやけ　するのは　いやだわ!
+	done				done			done						
+														
+_Route19EndBattleText8::				_Route19EndBattleText8::										
+	text	Shocker!			text	頭好暈……		text	头好晕……	Shocker!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			prompt			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_Route19AfterBattleText8::				_Route19AfterBattleText8::										つ {PLAYER}  {PLAYER} 
+	text	My boy friend			text	我男友對我說，		text	我男友对我说，	My boy friend	My boyfriend wanted to swim to	我男友对我说，	かれが　ふたごじま　まで	かれが　ふたごじま　まで
+	line	wanted to swim to			line	他想要和我游到雙子島去。		line	他想要和我游到双子岛去。	wanted to swim to	the Seafoam Islands.	他想要和我游到双子岛去。	およごうって　いったのよ	およごうって　いったのよ
+	cont	SEAFOAM ISLANDS.			done			done		SEAFOAM ISLANDS.				
+	done													
+														
+_Route19BattleText9::				_Route19BattleText9::										
+	text	These waters are			text	喂，少年，你站住！		text	喂，少年，你站住！	These waters are	Ahoy there!	喂，你站住！	そこの　きみ！	そこの　しょうねん!
+	line	treacherous!			line	這片海洋很危險！		line	这片海洋很危险！	treacherous!	These waters are treacherous!	这片海洋很危险！	この　うみは　きけんだ！	この　うみは　きけんだ!
+	done				done			done						
+														
+_Route19EndBattleText9::				_Route19EndBattleText9::										
+	text	Ooh!			text	我剛才就遇到		text	我刚才就遇到	Ooh!	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	Dangerous!			line	危險了。		line	危险了。	Dangerous!		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	prompt				prompt			prompt			D’aww... Failed again?			
+														
+_Route19AfterBattleText9::				_Route19AfterBattleText9::										
+	text	I got a cramp!			text	腳、腳扭到了！		text	脚、脚扭到了！	I got a cramp!	I’m having a meeting with an important client.	我正在和客户开会呢。	おとくいさまと	ぼくは　クラスで　いちばん　つよい!
+	line	Glub, glub...			line	咕嘟……咕嘟咕嘟……		line	咕嘟……咕嘟咕嘟……	Glub, glub...			かいぎ　してるんだ	まいあさ　れんしゅうも　してるんだ!
+	done				done			done			You want to join in?	……你也想一起参加吗？		
+													……きみも　まざる？	
+_Route19BattleText10::				_Route19BattleText10::										
+	text	I swam here, but			text	我是和大夥一起游到		text	我是和大伙一起游到	I swam here, but	I’m a lightweight, but I’m good with electricity!	虽然我体力不行，	おれは　たいりょく　ないけど	おれは　たいりょく　ないけど
+	line	I'm tired.			line	這裡來的……累死我了。		line	这里来的……累死我了。	I'm tired.		但我擅长使用电，	でんきの　あつかいを　かわれて	でんきの　あつかいを　かわれて
+	done				done			done			That’s why I joined this Gym.			ここに　きたのだ!
+												所以加入了这个道馆！	ここに　きたのだ！	
+_Route19EndBattleText10::				_Route19EndBattleText10::										
+	text	I'm			text	真是累死了……		text	真是累死了……	I'm	Hiya!	您好！	こんちわ！	こんちわ!
+	line	exhausted...			prompt			prompt		exhausted...	I’m a Pokémon...	我是宝可梦……！	ぼく　ポケモン……！	サファり　ゲームは　はじめて?
+	prompt													
+											N-no! I mean—!	……错！	……ちゃうわい！	
+_Route19AfterBattleText10::				_Route19AfterBattleText10::										
+	text	LAPRAS is so big,			text	如果要在海上		text	如果要在海上	LAPRAS is so big,	It’s a pamphlet on TMs, written by Silph Co.	是招式学习器的小册子！	わざマシンの　パンフレットだ！	　『　…　 {next} 
+	line	it must keep you			line	騎寶可夢的話，		line	骑宝可梦的话，	it must keep you		…………	……　……	
+	cont	dry on water.			cont	那就得選擇拉普拉斯才行。		cont	那就得选择拉普拉斯才行。	dry on water.	... ... ...			
+	done				para	因為它的身體很大，		para	因为它的身体很大，			招式学习器	わざマシンは	
+					line	騎在上面不容易弄溼。		line	骑在上面不容易弄湿。		It says there are 60 TMs, or Technical Machines,	一共有60种！	ぜんぶで　６０しゅるい！	
+					done									
+_Route19Text11::				_Route19Text11::				done			in all!			
+	text	SEA ROUTE 19			text	這裡是１９號水路		text	这里是１９号水路	SEA ROUTE 19	Route 19	这里是19号水路	ここは　１９ばんすいどう	ここは　1ばん　どうろ
+	line	FUCHSIA CITY -			line	淺紅市　……　雙子島		line	浅红市　……　双子岛	FUCHSIA CITY -	(Fuchsia City ⇄ Seafoam Islands)	浅红市　……　双子岛	セキチクシティ　……　ふたごじま	マサラ　タウン　…　トキワ　シティ
+	cont	SEAFOAM ISLANDS			done			done		SEAFOAM ISLANDS				4
+	done													
+end				end										

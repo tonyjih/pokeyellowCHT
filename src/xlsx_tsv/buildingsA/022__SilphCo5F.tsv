@@ -1,0 +1,109 @@
+text/SilphCo5F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SilphCo5Text_1a010::				_SilphCo5Text_1a010::										
+	text	TEAM ROCKET is			text	因為有人混進了大樓，		text	因为有人混进了大楼，	TEAM ROCKET is	Team Rocket is in an uproar over some intruder.	因为有人混进了大楼，	だれか　ビルに　しのび　こんだと	だれか　ビルに　しのび　こんだと
+	line	in an uproar over			line	火箭隊完全亂了陣腳。		line	火箭队完全乱了阵脚。	in an uproar over	That’s you, right?	火箭队完全乱了阵脚。	ロケットだんが　さわいでる	ロケットだんが　さわいでる
+	cont	some intruder.			cont	……		cont	……	some intruder.				…　きみの　こと　らしいね
+	cont	That's you right?			cont	估計他們說的人是你吧？		cont	估计他们说的人是你吧？	That's you right?		……估计他们说的人是你吧？	……きみの　こと　らしいね	
+	done				done			done						
+														
+_SilphCo5Text_1a015::				_SilphCo5Text_1a015::										
+	text	TEAM ROCKET took			text	火箭隊已經逃跑了！		text	火箭队已经逃跑了！	TEAM ROCKET took	Team Rocket took off!	火箭队已经逃跑了！	ロケットだんは　にげたよ！	ロケットだんは　にげたよ!
+	line	off! You're our			line	原來是你趕走了他們啊！		line	原来是你赶走了他们啊！	off! You're our	Did you get rid of them?	原来是你赶走了他们啊！	きみが　おっぱらったのかい	きみが　おっぱらったのかい
+	cont	hero! Thank you!			cont	……真是太感謝你了！		cont	……真是太感谢你了！	hero! Thank you!				…　ありがとう!
+	done				done			done			Thank you!	……真是太感谢你了！	……ありがとう！	ゲ
+														
+_SilphCo5BattleText2::				_SilphCo5BattleText2::										
+	text	I heard a kid was			text	剛才聯絡說有個小孩		text	刚才联络说有个小孩	I heard a kid was	I heard a kid was wandering around!	刚才联络说有个小孩	こどもが　うろついてると	こどもが　うろついてると
+	line	wandering around.			line	在這附近溜達！		line	在这附近溜达！	wandering around.		在这附近溜达！	さっき　れんらくが　あったぜ！	さっき　れんらくが　あったぜ!
+	done				done			done						
+														
+_SilphCo5EndBattleText2::				_SilphCo5EndBattleText2::										
+	text	Boom!			text	輸了……		text_start			Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			done			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_SilphCo5AfterBattleText2::				_SilphCo5AfterBattleText2::										つ {PLAYER}  {PLAYER} 
+	text	It's not smart			text	為你自身著想，我勸你		text	为你自身着想，我劝你	It's not smart	It’s not smart to pick a fight with Team Rocket!	为你自身着想，	ロケットだんに	ロケットだんに
+	line	to pick a fight			line	還是不要和火箭隊為敵。		line	还是不要和火箭队为敌。	to pick a fight		我劝你还是不要和火箭队为敌。	たてつかない　ほうが	たてつかない　ほうが
+	cont	with TEAM ROCKET!			done			done		with TEAM ROCKET!				みのため　だぜ
+	done												みのため　だぜ	ゲ
+														
+_SilphCo5BattleText3::				_SilphCo5BattleText3::										
+	text	We study #			text	這一層全是研究		text	这一层全是研究	We study #	We study Poké Ball technology on this floor!	这一层全是研究	この　フロアは	この　フロアは
+	line	BALL technology			line	精靈球的部門！		line	精灵球的部门！	BALL technology		精灵球的部门！	モンスターボールの	モンスターボールの
+	cont	on this floor!			done			done		on this floor!				けんきゅう　セクションだ!
+	done												けんきゅう　セクションだ！	
+														
+_SilphCo5EndBattleText3::				_SilphCo5EndBattleText3::										
+	text	Dang!			text	可惡！		text	可恶！	Dang!	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	Blast it!			prompt			prompt		Blast it!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt													
+														
+_SilphCo5AfterBattleText3::				_SilphCo5AfterBattleText3::										
+	text	We worked on the			text	這裡研究的是……		text	这里研究的是……	We worked on the	We worked on the ultimate Poké Ball—one to	这里研究的是……	ここでは……	ここでは…
+	line	ultimate #			line	連傳說的寶可夢都能		line	连传说的宝可梦都能	ultimate #	catch even Legendary Pokémon without fail.	连传说的宝可梦都能	でんせつの　ポケモンさえ　とれる	でんせつの　ポケモンさえ　とれる
+	cont	BALL which would			cont	捉住的究極精靈球。		cont	捉住的究极精灵球。	BALL which would				きゅうきょくの　モンスターボールを
+	cont	catch anything!			done			done		catch anything!		捉住的究极精灵球。	きゅうきょくの　モンスターボールを	けんきゅう　してたのだ
+	done													ゲ
+													けんきゅう　してたのだ	
+_SilphCo5BattleText4::				_SilphCo5BattleText4::										
+	text	Whaaat? There			text	真奇怪啊。		text	真奇怪啊。	Whaaat? There	Whaaat?	真奇怪啊。	おかしいな？	おかしいな?
+	line	shouldn't be any			line	小孩子應該進不來的啊。		line	小孩子应该进不来的啊。	shouldn't be any	There shouldn’t be any children here!	小孩子应该进不来的啊。	こどもが　はいって　これる	こどもが　はいって　これる
+	cont	children here!			done			done		children here?				わけが　ないんだが
+	done												わけが　ないんだが	
+														
+_SilphCo5EndBattleText4::				_SilphCo5EndBattleText4::										
+	text	Oh			text	這樣可不行。		text	这样可不行。	Oh	Oh dear!	哎呀，危险！	おっと　あぶない！	おっと!　まちな!
+	line	goodness!			prompt			prompt		goodness!				セキチク　ジムの　めいぶつ
+	prompt										[VAR PKNICK(0001)] almost lost its balance!	[VAR PKNICK(0001)]	[VAR PKNICK(0001)]は	みえない　かべ　システムは　どうだ
+												失去平衡了！	バランスを　くずしそうに　なった！	
+_SilphCo5AfterBattleText4::				_SilphCo5AfterBattleText4::										
+	text	You're only on 5F.			text	這裡是５樓……		text	这里是５楼……	You're only on 5F.	You’re only on 5F.	这里是5楼……	ここは　５かい……	ここは　5かい…
+	line	It's a long way			line	你離我們的老大那裡		line	你离我们的老大那里	It's a long way	This building goes all the way up to 11F.	这栋大楼一共11层！	ビルは　ぜんぶで　１１かい！	ボスの　いる　ところ　まで
+	cont	to my BOSS!			cont	還早著呢！		cont	还早着呢！	to my BOSS!				まだまだ　あるぜ!
+	done				done			done			You’ve got a long way to go still, kid.	还早着呢！	まだまだ　あるぜ！	ゲ
+														
+_SilphCo5BattleText5::				_SilphCo5BattleText5::										
+	text	Show TEAM ROCKET			text	你竟敢看不起		text	你竟敢看不起	Show TEAM ROCKET	Show Team Rocket a little respect!	你竟敢看不起我们火箭队！	ロケットだん　あいてに	ロケットだん　あいてに
+	line	a little respect!			line	我們火箭隊！		line	我们火箭队！	a little respect!			なめた　まねして　くれるね！	なめた　まねして　くれるぜ
+	done				done			done						
+														
+_SilphCo5EndBattleText5::				_SilphCo5EndBattleText5::										
+	text	Cough...			text	哼，你只是運氣好，		text	哼，你只是运气好，	Cough...	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	Cough...			line	厲害個蛋蛋！		line	厉害个蛋蛋！	Cough...		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	prompt				prompt			prompt			D’aww... Failed again?			
+														
+_SilphCo5AfterBattleText5::				_SilphCo5AfterBattleText5::										
+	text	Which reminds me.			text	蛋蛋……我想起來了！		text	蛋蛋……我想起来了！	Which reminds me.	*cough* Which reminds me.	蛋蛋……我想起来了！	たまたま……　おもいだした！	たまたま…　おもいだした!
+					para	蛋蛋		para	蛋蛋	KOFFING evolves		蛋蛋会进化成椰蛋树。		タマタマは
+	para	KOFFING evolves			line	會進化成椰蛋樹。		line	会进化成椰蛋树。	into WEEZING!	Koffing evolves into Weezing!		タマタマは	ナッシーに　しんか　するぞ
+	line	into WEEZING!			done			done					ナッシーに　しんか　するよ	
+	done													
+														
+_SilphCo5Text9::				_SilphCo5Text9::										
+	text	It's a #MON			text	……是寶可夢報告！		text	……是宝可梦报告！	It's a #MON	It’s a Pokémon Report!	……是宝可梦报告！	……ポケモンレポートだ！	…　ポケモン　レポートだ!
+	line	REPORT!			para	在研究部門，		para	在研究部门，	REPORT!				ポケモン　けんきゅうじょ　では
+					line	我們成功製造出了多邊獸		line	我们成功制造出了多边兽	#MON LAB	The research section succeeded in creating	在研究部门，	けんきゅう　セクション　では	じんこうの　ポケモン
+	para	#MON LAB			cont	這種人工寶可夢……		cont	这种人工宝可梦……	created PORYGON,	Porygon, an artificial Pokémon created	我们成功制造出了	じんこうの　ポケモン	ポりゴンを　つくる　ことに
+	line	created PORYGON,			done			done		the first virtual				せいこう　した…　…
+	cont	the first virtual								reality #MON.	by humans.	多边兽这种人工宝可梦……	ポリゴンを　つくる　ことに	
+	cont	reality #MON.												
+	done												せいこう　した……	
+														
+_SilphCo5Text10::				_SilphCo5Text10::										
+	text	It's a #MON			text	……是寶可夢報告！		text	……是宝可梦报告！	It's a #MON	It’s a Pokémon Report!	……是宝可梦报告！	……ポケモンレポートだ！	…　ポケモン　レポートだ!
+	line	REPORT!			para	僅是現在已被人知曉的		para	仅是现在已被人知晓的	REPORT!				ポケモンが　つかう　わざは
+					line	寶可夢可以使用的招式		line	宝可梦可以使用的招式	Over 160 #MON	Over 200 Pokémon moves have been confirmed.	仅是现在已被人知晓的	ポケモンが　つかう　わざは	げんざい　わかって　いるだけで
+	para	Over 160 #MON			cont	就有１６０種以上。		cont	就有１６０种以上。	techniques have		宝可梦可以使用的招式	げんざい　わかって　いるだけで	160しゅるい　いじょうある
+	line	techniques have			done			done		been confirmed.				
+	cont	been confirmed.										就有200种以上。	２００しゅるい　いじょうある	
+	done													
+														
+_SilphCo5Text11::				_SilphCo5Text11::										
+	text	It's a #MON			text	……是寶可夢報告！		text	……是宝可梦报告！	It's a #MON	It’s a Pokémon Report!	……是宝可梦报告！	……ポケモンレポートだ！	…　ポケモン　レポートだ!
+	line	REPORT!			para	現已確認有４種寶可夢		para	现已确认有４种宝可梦	REPORT!				こうかん　ケーブルを　とおすと
+					line	可以透過連線交換進化。		line	可以通过连接交换进化。	4 #MON evolve	Some Pokémon have been confirmed to evolve	现已确认有些宝可梦	つうしん　こうかん　すると	しんかする　ポケモンが
+	para	4 #MON evolve			done			done		only when traded	when they are traded.	可以通过连接交换进化。	しんかする　ポケモンが	4しゅるい　かくにん　された
+	line	only when traded								by link-cable.				ぜグ
+	cont	by link-cable.											いることが　かくにん　された	
+	done													
+end				end										

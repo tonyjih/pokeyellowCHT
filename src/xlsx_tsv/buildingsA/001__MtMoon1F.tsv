@@ -1,0 +1,121 @@
+text/MtMoon1F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_MtMoon1BattleText2::				_MtMoon1BattleText2::										
+	text	WHOA! You shocked			text	哇啊！		text	哇啊！	WHOA! You shocked	Whoa!	哇啊！	うわーッ！	うわーッ!
+	line	me! Oh, you're			line	嚇死我了！		line	吓死我了！	me! Oh, you're	You surprised me!	吓死我了！	びっくり　した！	びっくり　した!
+	cont	just a kid!			cont	……什麼嘛，是個孩子啊。		cont	……什么嘛，是个孩子啊。	just a kid!				…　なんだ　こどもか
+	done				done			done			...Oh, you’re just a kid?	……什么嘛，是个孩子啊。	……なんだ　こどもか	
+														
+_MtMoon1EndBattleText2::				_MtMoon1EndBattleText2::										
+	text	Wow!			text	哇哦！		text	哇哦！	Wow!	Wow!	好厉害啊！	すごいなあ！	すごいなあ!
+	line	Shocked again!			line	真是讓我大吃一驚！		line	真是让我大吃一惊！	Shocked again!		听说是你赶走了	ロケットだんの　れんちゅうを	ロケットだんの　れんちゅうを
+	prompt				prompt			prompt			You chased off Team Rocket?			おっぱらったんだって?
+												火箭队那群人吗？	おっぱらったんだって？	ゲ4きらひ
+_MtMoon1AfterBattleText2::				_MtMoon1AfterBattleText2::										
+	text	Kids like you			text	像你這樣的孩子可不能來		text	像你这样的孩子可不能来	Kids like you	Kids like you shouldn’t be wandering around	像你这样的孩子可不能来	こどもが	こどもが
+	line	shouldn't be			line	這麼黑的地方瞎轉悠。		line	这么黑的地方瞎转悠。	shouldn't be	here in the dark.	这么黑的地方瞎转悠。	こんな　くらい　ところを	こんな　くらい　ところを
+	cont	here!			done			done		here!				ウロウロ　しちゃ　いかん　なあ
+	done												ウロウロ　しちゃ　いかん　なあ	
+														
+_MtMoon1BattleText3::				_MtMoon1BattleText3::										
+	text	Did you come to			text	你也是來探索洞穴的嗎？		text	你也是来探索洞穴的吗？	Did you come to	Did you come to explore the cave, too?	你也是来探索洞穴的吗？	きみも	きみも
+	line	explore too?			done			done		explore too?			どうくつ　たんけんに　きたのかい	どうくつ　たんけんに　きたのかい
+	done													
+														
+_MtMoon1EndBattleText3::				_MtMoon1EndBattleText3::										
+	text	Losing			text	……在對戰中		text	……在对战中	Losing	Losing stinks!	……在对战中输了，	……まける　なんて	…　まける　なんて
+	line	stinks!			line	輸了，真是好遜啊。		line	输了，真是好逊啊。	stinks!	It’s so uncool.	真是好逊啊。	カッコ　わるい	カッコ　わるい
+	prompt				prompt			prompt						
+														
+_MtMoon1AfterBattleText3::				_MtMoon1AfterBattleText3::										
+	text	I came down here			text	為了能在女孩子面前		text	为了能在女孩子面前	I came down here	I came all the way down here to show the girls	为了能在女孩子面前炫耀一把，	おんなのこに	おんなのこに
+	line	to show off to			line	炫耀一把，		line	炫耀一把，	to show off to	how tough I am!	所以我才来到了这种地方。	イイ　とこ　みせようと	イイ　とこ　みせようと
+	cont	girls.			cont	所以我才來到了這種地方。		cont	所以我才来到了这种地方。	girls.				こんな　とこ　まで　きちゃった
+	done				done			done					こんな　とこ　まで　きちゃった	
+														
+_MtMoon1BattleText4::				_MtMoon1BattleText4::										
+	text	Wow! It's way			text	哇啊！		text	哇啊！	Wow! It's way	Wow! It’s way bigger in here than I thought!	哇啊！	わあーッ！	わあーッ!
+	line	bigger in here			line	沒想到洞穴裡		line	没想到洞穴里	bigger in here		没想到洞穴里	どうくつの　なかって	どうくつの　なかって
+	cont	than I thought!			cont	竟然會這麼大呢！		cont	竟然会这么大呢！	than I thought!				いがいと　ひろいのねー!
+	done				done			done				竟然会这么大呢！	いがいと　ひろいのねー！	
+														
+_MtMoon1EndBattleText4::				_MtMoon1EndBattleText4::										
+	text	Oh!			text	啊……我輸了！		text	啊……我输了！	Oh!	Oh!	哇！	わ！	
+	line	I lost it!			prompt			prompt		I lost it!	It suddenly snuggled up to you!	它突然靠了过来！	きゅうに　すりよってきた！	わ。
+	prompt													ちノゼそ
+											Will you pet its head?	要摸摸它的头吗？	あたまを　なでて　あげますか？	
+_MtMoon1AfterBattleText4::				_MtMoon1AfterBattleText4::										
+	text	How do you get			text	出口在哪裡呢？		text	出口在哪里呢？	How do you get	How do you get out of here?	出口在哪里呢？	こんなに　ひろいと	こんなに　ひろいと
+	line	out of here?			line	這裡這麼大，		line	这里这么大，	out of here?	It’s so big, I may get lost.	这里这么大，我都要迷路了。	どっちが　でぐちか　まよっちゃう	どっちが　でぐちか　まよっちゃう
+	done				cont	我都要迷路了。		cont	我都要迷路了。					
+					done			done						
+_MtMoon1BattleText5::				_MtMoon1BattleText5::										
+	text	What! Don't sneak			text	嗚哇！搞什麼啊？		text	呜哇！搞什么啊？	What! Don't sneak	What!	呜哇！搞什么啊？	うわッ！　なんだ？	うわッ!　なんだ?
+	line	up on me!			line	別突然和我說話！		line	别突然和我说话！	up on me!	Don’t sneak up on me!	别突然和我说话！	きゅうに　こえを　かけるな！	きゅうに　こえを　かけるな!
+	done				done			done						
+														
+_MtMoon1EndBattleText5::				_MtMoon1EndBattleText5::										
+	text	My			text	……用這種寶可夢		text	……用这种宝可梦	My	My Pokémon won’t do!	……用这种宝可梦打不赢你么。	……こんな　ポケモン　では　ダメか	…
+	line	#MON won't do!			line	打不贏你麼。		line	打不赢你么。	#MON won't do!				こんな　ポケモン　では　ダメか
+	prompt				prompt			prompt						
+														
+_MtMoon1AfterBattleText5::				_MtMoon1AfterBattleText5::										
+	text	I have to find			text	嗯……！去哪裡才能找到		text	嗯……！去哪里才能找到	I have to find	I have to find stronger Pokémon.	嗯……！去哪里才能找到	えーと……！　どこかに	えーと…!　どこかに
+	line	stronger #MON.			line	厲害的寶可夢呢……		line	厉害的宝可梦呢……	stronger #MON.	Where might they be?	厉害的宝可梦呢……	つよい　ポケモン　いないか……　な	つよい　ポケモン　いないか…　な
+	done				done			done						
+														
+_MtMoon1BattleText6::				_MtMoon1BattleText6::										
+	text	What? I'm waiting			text	幹嘛？我正在這裡		text	干嘛？我正在这里	What? I'm waiting	What?	干嘛？	なによー！	なによー!
+	line	for my friends to			line	等我失散的朋友。		line	等我失散的朋友。	for my friends to	I’m waiting for my friends to find me here.	我正在这里等我失散的朋友。	どうくつで　はぐれた　ともだちを	どうくつで　はぐれた　ともだちを
+	cont	find me here.			done			done		find me here.				ここで　まってるのよ
+	done												ここで　まってるのよ	
+														
+_MtMoon1EndBattleText6::				_MtMoon1EndBattleText6::										
+	text	I lost?			text	我輸了嗎？		text	我也输了呢。	I lost	KARATE MASTER: Indeed, I have lost!	我确实输了！	わしは　たしかに　まけた！	そうか………
+	prompt				prompt			prompt		too!				わしは　うまくないからなー
+														
+_MtMoon1AfterBattleText6::				_MtMoon1AfterBattleText6::										
+	text	I heard there are			text	我是聽說這洞穴裡		text	我是听说这洞穴里	I heard there are	I came because I heard there are some very rare	我是听说这洞穴里有厉害的化石，	この　どうくつに	この　どうくつに
+	line	some very rare			line	有厲害的化石，		line	有厉害的化石，	some very rare	Fossils here.	所以才来这里的。	すごい　カセキが	すごい　カセキが
+	cont	fossils here.			cont	所以才來這裡的。		cont	所以才来这里的。	fossils here.				あるって　きいて　きたの
+	done				done			done					あるって　きいて　きたの	
+														
+_MtMoon1BattleText7::				_MtMoon1BattleText7::										
+	text	Suspicious men			text	有個可疑的傢伙		text	有个可疑的家伙	Suspicious men	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	are in the cave.			line	正在洞穴裡徘徊。		line	正在洞穴里徘徊。	are in the cave.	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	What about you?			cont	你是……？		cont	你是……？	What about you?				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_MtMoon1EndBattleText7::				_MtMoon1EndBattleText7::										
+	text	You			text	被打敗了！		text	……好强！	You	Man, you got to Mewtwo before me or that girl!	看来我和那个大姐姐	オレも　あの　おねえさんも	あの…
+	line	got me!			prompt			prompt		got me!		都被赶超了啊！	さき　こされちゃったな！	ポケモン　コスプレ　しってます?
+	prompt													
+														
+_MtMoon1AfterBattleText7::				_MtMoon1AfterBattleText7::										
+	text	I saw them! I'm			text	我之前看到的那傢伙！		text	我之前看到的那家伙！	I saw them! I'm	But I really saw suspicious characters!	我之前看到的那家伙！	ぼくが　みた　やつ！	ぼくが　みた　やつ!
+	line	sure they're from			line	沒錯！是火箭隊的成員！		line	没错！是火箭队的成员！	sure they're from	I’m sure they’re from Team Rocket!	没错！是火箭队的成员！	まちがい　ない！	まちがい　ない!
+	cont	TEAM ROCKET!			done			done		TEAM ROCKET!				あいつ　ロケットだん　だぜ!
+	done												あいつ　ロケットだん　だぜ！	
+														
+_MtMoon1BattleText8::				_MtMoon1BattleText8::										
+	text	Go through this			text	要去華藍市的話，		text	要去华蓝市的话，	Go through this	You need to go through this cave to get to	要去华蓝市的话，	ハナダシティに　いくには	ハナダ　シティに　いくには
+	line	cave to get to			line	必須得穿過這個洞穴		line	必须得穿过这个洞穴	cave to get to	Cerulean City.	必须得穿过这个洞穴才行哦！	どうくつを	どうくつを
+	cont	CERULEAN CITY!			cont	才行哦！		cont	才行哦！	CERULEAN CITY!				ぬけないと　だめだよ!
+	done				done			done					ぬけないと　だめだよ！	
+														
+_MtMoon1EndBattleText8::				_MtMoon1EndBattleText8::										
+	text	I			text	我輸了。		text	我输了。	I	Hiya!	您好！	こんちわ！	こんちわ!
+	line	lost.			prompt			prompt		lost.	I’m a Pokémon...	我是宝可梦……！	ぼく　ポケモン……！	サファり　ゲームは　はじめて?
+	prompt													
+											N-no! I mean—!	……错！	……ちゃうわい！	
+_MtMoon1AfterBattleText8::				_MtMoon1AfterBattleText8::										
+	text	ZUBAT is tough!			text	超音蝠這寶可夢		text	超音蝠这宝可梦	ZUBAT is tough!	You can pass this point only if you have a	前方只有	ここから　さきは　クリムゾンバッジを	バッジを
+	line	But, it can be			line	可不好對付！		line	可不好对付！	But, it can be	Volcano Badge.	携带深红徽章的人才能通行！	もった　もの　だけが　すすめる！	もった　もの　だけが　すすめる!
+	cont	useful if you			cont	但只要你能捉住它，		cont	但只要你能捉住它，	useful if you				むむッ…!
+	cont	catch one.			cont	它還是很可靠的。		cont	它还是很可靠的。	catch one.	Oh! That’s a Volcano Badge![VAR BE05(0004)][VAR BE05(0001)]	那那……！	むむッ……！	それは　@
+	done				done			done				那是深红徽章没错！[VAR BE05(0004)][VAR BE05(0001)]	それは　クリムゾンバッジ！[VAR BE05(0004)][VAR BE05(0001)]	
+											OK then.			
+_MtMoon1Text14::				_MtMoon1Text14::							Please go right ahead.	我明白了……	わかった……！	
+	text	Beware! ZUBAT is			text	小心！		text	小心！	Beware! ZUBAT is	Beware! Zubat is a bloodsucker!	小心！	ズバットの	ズバットの
+	line	a bloodsucker!			line	超音蝠會吸血！		line	超音蝠会吸血！	a blood sucker!	Watch out for its Leech Life move!	超音蝠会吸血！	きゅうけつ　こうげきに　ちゅうい！	きゅうけつ　こうげきに　ちゅうい!
+	done				done			done						
+end				end										

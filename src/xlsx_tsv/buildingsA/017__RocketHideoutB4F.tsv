@@ -1,0 +1,69 @@
+text/RocketHideoutB4F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_RocketHideoutJessieJamesText1::				_RocketHideoutJessieJamesText1::										
+	text	Not another step,			text	站住站住～！！@			ちょっと　まったー!!		“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	brat!@									2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_end				text_end									
+														
+_RocketHideoutJessieJamesText2::				_RocketHideoutJessieJamesText2::										
+	text	How dare you			text	你上次在月見山			よくも　オツキミヤマでは		Wow, I think you’re plenty strong already!	你这不是很强大了嘛！	もう　じゅーぶん　つよいじゃん！	
+	line	humiliate us at			line	給我們添了不少亂啊！			じゃまを　してくれたな!					 {5C} 31の　なかは
+	cont	MT.MOON!									So, what do you say? Don’t you think it’s time	差不多应该考虑一下	そろそろ　わたしの　ポケモンに	わたしの　だいすきな　ものまね!
+											you become one of my Pokémon?	和超梦一起	なって　くれても　よくない？	あなたの　すきな　ポケモンに
+	para	It's payback time,			para	是該跟你算算之前的帳了！			このまえの　かりを　かえすぜ!					つかって　あげて!@ゼ@
+	line	you brat!									Along with Mewtwo, of course!	来做我的宝可梦吧！	ミュウツーと　いっしょに！	
+	done				done									
+														
+_RocketHideoutJessieJamesText3::				_RocketHideoutJessieJamesText3::										
+	text	Such			text	你可真是一個			ほんとに		Such a dreadful twerp!	你可真是一个	ほんとに	ほんとに
+	line	a dreadful twerp!			line	令人討厭的小鬼頭。			にくたらしい　ぢゃりボーイね			令人讨厌的小鬼头。	にくたらしい　ジャリンコね	にくたらしい　ぢゃりボーイね
+	prompt				prompt									
+														
+_RocketHideoutJessieJamesText4::				_RocketHideoutJessieJamesText4::										
+	text	Looks like TEAM			text	好討厭的感覺啊～！@					JESSIE & JAMES: Looks like Team Rocket’s	火箭队：好讨厌的感觉啊～！	ロケットだん『やなかんじィー！	　ま♂
+	line	ROCKET's blasting									blasting off again!			ロケットだん
+	cont	off again!@												
+	text_end				text_end									
+														
+_RocketHideout4Text_4557a::				_RocketHideout4Text_4557a::										
+	text	So! I must say, I			text	能來到這裡，		text	能来到这里，	So! I must say, I	I must say—I am impressed you got here.	能来到这里，你的确很不简单！	こんな　ところ　まで　よくきた	こんな　かわいい　ポケモンと
+	line	am impressed you			line	你的確很不簡單！		line	你的确很不简单！	am impressed you				いっしょで　あなたも　しあわせね
+	cont	got here!			done			done		got here!				
+	done													
+														
+_RocketHideout4Text_4557f::				_RocketHideout4Text_4557f::										
+	text	WHAT!			text	唔、唔！		text	唔、唔！	WHAT!	What could this machine be?	这是某种机器吗！？	なにの　きかい　だろう！？	なんだろう…?
+	line	This cannot be!			line	這不可能啊！		line	这不可能啊！	This cannot be!	Better not mess around with it!	还是别随便乱碰比较好！	さわるのは　やめて　おこう！	なにかの　きかい　かな?@ゼ@
+	prompt				prompt			prompt						
+														
+_RocketHideout4Text_45584::				_RocketHideout4Text_45584::										
+	text	I see that you			text	看來你也很認真地		text	看来你也很认真地	I see that you	Shh! Listen, I need to share a	嘘……！	しー！	しー!
+	line	raise #MON			line	在培育你的寶可夢啊……		line	在培育你的宝可梦啊……	raise #MON	secret with someone.	偷偷告诉你，	ないしょ　だけど　このコハク	ないしょ　だけど　このコハク
+	cont	with utmost care.			para	可像你這樣的孩子，		para	可像你这样的孩子，	with utmost care.				ポケモンの　いでんしが　のこってると
+					line	大概是沒辦法理解		line	大概是没办法理解	A child like you	I think that this chunk of amber	我推测这个琥珀里面	ポケモンの　いでんしが　のこってると	おれは　にらんでるんだ!
+	para	A child like you			cont	我的遠大理想吧……		cont	我的远大理想吧……	would never	contains Pokémon DNA!	留有宝可梦的遗传基因！	おれは　にらんでるんだ！	もし　いきかえらせたら
+	line	would never			para	……！		para	……！	understand what I				ポケモンの　いちだい　はっけんだ!
+	cont	understand what I			line	這次我就不陪你玩了！		line	这次我就不陪你玩了！	hope to achieve.	It would be a shattering scientific	如果能让它复活，	もし　いきかえらせたら	でも　ここの　なかまは
+	cont	hope to achieve.			para	希望在其他地方		para	希望在其他地方	I shall step	breakthrough if Pokémon could be	那简直就是宝可梦的一大发现！	ポケモンの　いちだい　はっけんだ！	おれの　いうこと　しんじないんだ
+					line	還能再跟你一比高下……！		line	还能再跟你一比高下……！	aside this time!				⋯⋯それで
+	para	I shall step			done			done		I hope we meet	resurrected from it.	可惜这里的同事们	でも　ここの　なかまは	きみに　たのみが　ある!
+	line	aside this time!								again...		没人把我说的话当回事。	おれの　いうこと　しんじないんだ	これを　どこかの
+											But my colleagues just ignore			けんきゅうじょに　もって　いって
+	para	I hope we meet									what I have to say.	所以啊……	……それで	しらべて　ほしいんだ!
+	line	again...										我需要你的帮助！	きみに　たのみが　ある！	
+	done										So I have a favor to ask!			
+												麻烦你拿着这个琥珀，	これを　どこかの	
+_RocketHideout4BattleText4::				_RocketHideout4BattleText4::							I want you to get this examined at	找一家研究所，	けんきゅうじょに　もって　いって	
+	text	The elevator			text	哈哈哈！		text	哈哈哈！	The elevator	Hahaha! What’s that?	哈哈哈～！	はははーッ！	はははーッ!
+	line	doesn't work? Who			line	坐不了電梯是吧？		line	坐不了电梯是吧？	doesn't work? Who	You say the elevator doesn’t work?	你说电梯用不了？	エレベータが　つかえないって？	エレべータが　つかえないって?
+	cont	has the LIFT KEY?			cont	你猜鑰匙在誰手上呢？		cont	你猜钥匙在谁手上呢？	has the LIFT KEY?				カギは　だれが　もってるのかなー?
+	done				done			done			Course not! I’ve been keeping the Lift Key safe	那当然是因为	オレが　ずっと　カギを	
+											this whole time!	我一直在保护着钥匙啦～！	みまもって　いるからだー！	
+_RocketHideout4EndBattleText4::				_RocketHideout4EndBattleText4::										
+	text	No!			text	不可能！					VOLTORB: No orb...	霹雳电球：霹～霹雳雳……	ビリリダマ『ノードゥグ……	トレーナーぞ
+	prompt				prompt									きド5ま
+														
+_RocketHideout4Text_455ec::				_RocketHideout4Text_455ec::										
+	text	Oh no! I dropped			text	糟了！我特地藏起來的		text	糟了！我特地藏起来的	Oh no! I dropped	Oh no!	不！这可是我从世界各地	いやーん！	いやーん!
+	line	the LIFT KEY!			line	電梯鑰匙要沒了！		line	电梯钥匙要没了！	the LIFT KEY!	I went around the world for these!	收集到的宝可梦啊……	せかいの　ポケモン　なのに……	せかいの　ポケモン　なのに…
+	done				done			done						
+end				end										

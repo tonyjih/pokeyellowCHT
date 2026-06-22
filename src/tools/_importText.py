@@ -128,13 +128,13 @@ textCommands=['page','text','line','cont','para','next']
 textPlacerCommands=['text_ram','text_decimal','text_bcd']
 textOldPlacerCommands=['TX_RAM','TX_NUM','TX_BCD']
 # charmap "%",$2EB8 ;PP
-# charmap "&", $5D ;训练家
-# charmap "+", $5E ;火箭队
-# charmap "^", $5C ;招式学习器
+# charmap "&", $5D ;訓練家
+# charmap "+", $5E ;火箭隊
+# charmap "^", $5C ;招式學習器
 # charmap "~", $56 ;......
-textReplacement = {'#MON':'#','#':'宝可梦','&':'训练家'}
-#textRevReplacement = {'宝可梦':'#','训练家':'&','火箭队':'+','#MON':'#','招式学习器':'^','……':'~'}
-textRevReplacement = {'宝可梦':'#','&':'训练家','#MON':'#','+':'火箭队'}
+textReplacement = {'#MON':'#','#':'寶可夢','&':'訓練家'}
+#textRevReplacement = {'寶可夢':'#','宝可梦':'#','訓練家':'&','训练家':'&','火箭隊':'+','火箭队':'+','#MON':'#','招式學習器':'^','招式学习器':'^','……':'~'}
+textRevReplacement = {'寶可夢':'#','宝可梦':'#','&':'訓練家','#MON':'#','+':'火箭隊'}
 chsReplacement = {'<PLAYER>':'ć','<RIVAL>':'č','<USER>':'犇','<TARGET>':'骉'}
 def getInstType(inst):
     if inst == None:

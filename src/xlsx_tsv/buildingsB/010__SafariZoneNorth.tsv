@@ -1,0 +1,37 @@
+text/SafariZoneNorth.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SafariZoneNorthText3::				_SafariZoneNorthText3::										
+	text	REST HOUSE			text	休息小屋 …… 喘口氣		text	休息小屋 …… 喘口气	REST HOUSE	Mr. Psychic’s House	超能力大叔的家	エスパーおやじの　いえ	トレーナーぞ
+	done				done			done						きド5ま
+														
+_SafariZoneNorthText4::				_SafariZoneNorthText4::										
+	text	TRAINER TIPS			text	……有用的公告牌！		text	……有用的公告牌！	TRAINER TIPS	Trainer Tips	……有用的公告牌！	……おとくな　けいじばん！	…　おとくな　けいじばん!
+					para	財寶小屋		para	财宝小屋	The SECRET HOUSE				しんかの　さいちゅうに
+	para	The SECRET HOUSE			line	還有些距離！加油！		line	还有些距离！加油！	is still ahead!	If you press the B Button when a Pokémon is	在宝可梦进化时	しんかの　さいちゅうに	ビー　ボタンを　おすと
+	line	is still ahead!			done			done			in the middle of evolving, you can make it stop!	按下Ｂ键，	Ｂボタンを　おすと	しんかは　とまって　しまいます
+	done													
+												进化就会停止。	しんかは　とまって　しまいます	
+_SafariZoneNorthText5::				_SafariZoneNorthText5::										
+	text	AREA 2			text	區域２		text_decimal	hSpriteIndexOrTextID, 1, 2 	hSpriteIndexOrTextID, 1, 2 	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	done				done			text	 出错。	 ERROR.		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+								done			D’aww... Failed again?			
+_SafariZoneNorthText6::				_SafariZoneNorthText6::										
+	text	TRAINER TIPS			text	……有用的公告牌！		text	……有用的公告牌！	TRAINER TIPS	Trainer Tips	……有用的公告牌！	……おとくな　けいじばん！	…　おとくな　けいじばん!
+					para	寶可夢喜歡		para	宝可梦喜欢	#MON hide in				ポケモンを　つかまえる　ときは
+	para	#MON hide in			line	躲藏在草叢之中！		line	躲藏在草丛之中！	tall grass!	When you’re catching Pokémon, try to throw	捕捉宝可梦时，	ポケモンを　つかまえる　ときは	なるべく　よわらせてから!
+	line	tall grass!			para	當你實在是		para	当你实在是	Zigzag through	your Poké Ball inside the colored ring!	要瞄准有颜色的圆圈投球！	いろの　ついた　リングの	ポケモンが　げんきだと
+					line	找不到寶可夢的時候，		line	找不到宝可梦的时候，	grassy areas to				にげるかも　しれないよ!
+	para	Zigzag through			cont	就在草叢中轉來轉去吧！		cont	就在草丛中转来转去吧！	flush them out.	Get Nice Throws or Great Throws, based on	圆圈越小，就越有可能出现	なかに　ボールを　あてよう！	
+	line	grassy areas to			done			done			how small the ring is, to make catching	“漂亮一投”和“精彩一投”，		
+	cont	flush them out.											リングが　ちいさい　ときほど	
+	done										Pokémon a breeze!	宝可梦也越容易捕捉。	ナイススロー　グレートスローが	
+														
+_SafariZoneNorthText7::				_SafariZoneNorthText7::									でて　つかまえ　やすくなる	
+	text	TRAINER TIPS			text	……有用的公告牌！		text	……有用的公告牌！	TRAINER TIPS	Trainer Tips	……有用的公告牌！	……おとくな　けいじばん！	…　おとくな　けいじばん!
+					para	只要你找到了財寶小屋，		para	只要你找到了财宝小屋，	Win a free HM for				しんせいひん　スーパーボールは
+	para	Win a free HM for			line	就能獲得秘傳學習器！		line	就能获得秘传学习器！	finding the	The new Ultra Ball is even better at catching	新商品“高级球”	しんせいひん　ハイパーボールは	モンスターボール　より　かくじつに
+	line	finding the			done			done		SECRET HOUSE!	Pokémon than a Great Ball is!	与超级球相比	スーパーボール　より　かくじつに	ポケモンを　つかまえます!
+	cont	SECRET HOUSE!												なかなか　つかまえ　られない
+	done										Try it on those hard-to-catch Pokémon.	更容易捉到宝可梦！	ポケモンを　つかまえます！	ポケモンには　こちらを　ためそう!
+end				end										
+												试试用高级球，挑战一下	なかなか　つかまえ　られない	
+												不容易捉到的宝可梦吧！	ポケモンには　こちらを　ためそう！	

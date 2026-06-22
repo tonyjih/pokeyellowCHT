@@ -1,0 +1,80 @@
+text/CinnabarLabFossilRoom.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Lab4Text_75dc6::				_Lab4Text_75dc6::										
+	text	Hiya!			text	是囉～！		text	是啰～！	Hiya!	Hiya!	是啰～！	はいー！	はいー!
+					para	我是熊厲害博士的囉！		para	我是熊厉害博士的啰！	I am important		我是熊厉害博士的啰！		わたしは　エラーイ　はかせ
+	para	I am important			para	我致力於研究		para	我致力于研究	doctor!	I am an important doctor.		わたしは　エラーイ　はかせ	いつも　めずらしい　カセキ
+	line	doctor!			line	罕見的寶可夢的囉！		line	罕见的宝可梦的啰！	I study here rare	Yes, very well known indeed.	我致力于研究		けんきゅう　してる　アルよ!
+					para	你囉！		para	你啰！	#MON fossils!		罕见的宝可梦的啰！	いつも　めずらしい　カセキ	あなた!
+	para	I study here rare			line	有沒有了不得的化石的囉？		line	有没有了不得的化石的啰？	You! Have you a	Here, I study rare Pokémon Fossils.		けんきゅう　してる　アルよ！	いい　カセキ　もってるか?
+	line	#MON fossils!			prompt			prompt		fossil for me?		你啰！		
+											Hey!	有没有了不得的化石的啰？	あなた！	
+	para	You! Have you a									Do you have a Fossil for me?		いい　カセキ　もってるか？	
+	line	fossil for me?												
+	prompt													
+														
+_Lab4Text_75dcb::				_Lab4Text_75dcb::										
+	text	No! Is too bad!			text	你沒有的囉……		text	你没有的啰……	No! Is too bad!	No!	你没有的啰……	もってない　アルね……	もってない　アルね…
+	done				done			done			Too bad!			
+														
+_Lab4Text_75dd0::				_Lab4Text_75dd0::										
+	text	I take a little			text	需要花一點時間哦！		text	需要花一点时间哦！	I take a little	TM57 is for the move Pay Day.	招式学习器57的内容是	わざマシン５７の　なかみは	…　おとくな　けいじばん!
+	line	time!			para	你就在這附近稍微		para	你就在这附近稍微	time!		招式“聚宝功”！	ネコにこばん！	ポケモンには　たいりょくの　ほか
+					line	溜達溜達吧——！		line	溜达溜达吧——！	You go for walk a	It’s a move that’ll scatter money around that			わざを　くりだす　げんきの　もと
+	para	You go for walk a			done			done		little while!	you can pick up later for a little extra	用了这个招式，你就可以捡起	おかねが　ちらばって　ひろえる	パワーポイントが　あります
+	line	little while!										散落在地上的钱，小赚一把了！	ちょっと　おとくな　わざ　だよ！	わざ　ごとの　パワーポイントが
+	done										pocket money!			なくなった　ときも
+														ポケモンセンターで　やすませて!
+_Lab4Text_75dd5::				_Lab4Text_75dd5::										
+	text	Where were you?			text	你來得好晚啊～！		text	你来得好晚啊～！	Where were you?	There are so many accessories that you can give	这些都是专门为	ポケモンに　つけて　あげる	あらま…!
+					para	你的化石已經		para	你的化石已经	Your fossil is	your Pokémon to wear!	宝可梦准备的饰品呢！	アクセサリー！	みつかっちゃったわね!
+	para	Your fossil is			line	恢復生氣了哦——！		line	恢复生气了哦——！	back to life!				わたしの　こと
+	line	back to life!			para	果然化石就是		para	果然化石就是@	It was @	And they’re all so cute...	为什么全都这么可爱！	どれも　かわいーの！	だれにも　いわないで
+					line	@		text_ram	wStringBuffer	wStringBuffer				これ　あげる　から
+	para	It was @			text_ram	wStringBuffer		text_start			I think I’d rather keep some of them for myself!	我都想戴上用用看呢！	むしろ　あたしが　つけたい！	…　おねがいよ
+	text_ram	wStringBuffer			text	的囉！		line	的啰！	like I think!				
+	text_start				prompt			prompt						
+	line	like I think!												
+	prompt													
+														
+_Lab4Text_610ae::				_Lab4Text_610ae::										
+	text	Oh! That is			text	哇喔！那個是		text	哇喔！那个是	Oh! That is	Oh!	哇喔！	おお！	　いう　カセキね!
+	line	@			line	@		line	@	@	That is [VAR iCOLOR2(0002)][VAR ITEM2(0002)], it is!	那个是[VAR ITEM2(0002)]！	それは　[VAR ITEM2(0002)]！	わたしの　つくった
+	text_ram	wcd6d			text_ram	wcd6d		text_ram	wcd6d	wcd6d				カセキ　さいせい　マシンで
+	text	!			text	！		text	！	!	It is a Fossil of [VAR PKNAME(0001)], a Pokémon	它是很久很久以前的宝可梦	おお　むかしの　ポケモン	これ!
+					para	它是很久很久以前的寶可夢		para	它是很久很久以前的宝可梦	It is fossil of	that is already extinct!	[VAR PKNAME(0001)]的化石啰！	[VAR PKNAME(0001)]　いう　カセキね！	いきかえらせて　みせるね!
+	para	It is fossil of			line	@		line	@	@				
+	line	@			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer	Shall I use my Resurrection Machine to make	让我用我研发的化石再生器	わたしの　つくった	
+	text_ram	wStringBuffer			text	的化石囉！		text	的化石啰！	, a	that Pokémon live again?	把它复活给你看的啰！	カセキ　さいせい　マシンで	
+	text	, a			para	讓我用我研發的化石再生器		para	让我用我研发的化石再生器	#MON that is				
+	cont	#MON that is			line	把它復活給你看的囉！		line	把它复活给你看的啰！	already extinct!			これ！	
+	cont	already extinct!			done			done		My Resurrection			いきかえらせて　みせるね！	
+										Machine will make				
+	para	My Resurrection								that #MON live				
+	line	Machine will make								again!				
+	cont	that #MON live												
+	cont	again!												
+	done													
+														
+_Lab4Text_610b3::				_Lab4Text_610b3::										
+	text	So! You hurry and			text	好——！那就		text	好——！那就	So! You hurry and	“1F: Service Counter	１楼……　服务柜台	１かい……　サービス・カウンター	おくじょう　…　いこいの　ひろば
+	line	give me that!			line	快把它交給我吧！		line	快把它交给我吧！	give me that!		２楼……　训练家广场	２かい……　トレーナーズ・マーケット	　　　　　　…　じどう　はんばいき
+					para	<PLAYER>把@		para	<PLAYER>把@	<PLAYER> handed	“2F: Trainers’ Market			プ
+	para	<PLAYER> handed			text_ram	wcd6d		text_ram	wcd6d	over @		３楼……　电子游戏专卖店	３かい……　テレビ　ゲーム　ショップ	
+	line	over @			text_start			text_start		wcd6d	“3F: Video Game Shop	４楼……　聪明人礼品店	４かい……　ワイズマン・ギフト	
+	text_ram	wcd6d			line	交給了奇怪的博士！		line	交给了奇怪的博士！	!				
+	text	!			prompt			prompt			“4F: Wiseman Gifts	５楼……　饰品天地	５かい……　アクセサリー　マーケット	
+	prompt											顶楼……　自动贩卖机	おくじょう……　じどう　はんばいき	
+											“5F: Accessory Market			
+_Lab4Text_610b8::				_Lab4Text_610b8::										
+	text	I take a little			text	需要花一點時間哦！		text	需要花一点时间哦！	I take a little	TM57 is for the move Pay Day.	招式学习器57的内容是	わざマシン５７の　なかみは	…　おとくな　けいじばん!
+	line	time!			para	你就在這附近稍微		para	你就在这附近稍微	time!		招式“聚宝功”！	ネコにこばん！	ポケモンには　たいりょくの　ほか
+					line	溜達溜達吧——！		line	溜达溜达吧——！	You go for walk a	It’s a move that’ll scatter money around that			わざを　くりだす　げんきの　もと
+	para	You go for walk a			done			done		little while!	you can pick up later for a little extra	用了这个招式，你就可以捡起	おかねが　ちらばって　ひろえる	パワーポイントが　あります
+	line	little while!										散落在地上的钱，小赚一把了！	ちょっと　おとくな　わざ　だよ！	わざ　ごとの　パワーポイントが
+	done										pocket money!			なくなった　ときも
+														ポケモンセンターで　やすませて!
+_Lab4Text_610bd::				_Lab4Text_610bd::										
+	text	Aiyah! You come			text	再見囉！		text	再见啰！	Aiyah! You come	Oh, you don’t have enough money!	哎呀，你的钱不够啊！	ありゃ　おかねが　たりないよ！	また　きてね
+	line	again!			line	等你再來的囉！		line	等你再来的啰！	again!	Please come back again!	欢迎下次再来！	また　きてね！	
+	done				done			done						
+end				end										

@@ -1,0 +1,24 @@
+text/CeladonHotel.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CeladonHotelText1::				_CeladonHotelText1::										
+	text	#MON? No, this			text	哎呀呀，寶可夢……？		text	哎呀呀，宝可梦……？	#MON? No, this	Huh? Pokémon?	哎呀呀，宝可梦……？	はあ　ポケモン……？	はあ　ポケモン…?
+	line	is a hotel for			line	哦哦……！這裡呀		line	哦哦……！这里呀	is a hotel for	Oh! No, this is a hotel for people.	哦哦……！这里呀	ああ……！　ここは	ああ…!　ここは
+	cont	people.			cont	是給人住的旅館哦！		cont	是给人住的旅馆哦！	people.				ひとが　とまる　りょかん　ですじゃ
+					para	很不巧，已經全住滿了呀。		para	很不巧，已经全住满了呀。	We're full up.	And we’re full up, unfortunately.	是给人住的旅馆哦！	ひとが　とまる　りょかん　ですじゃ	あいにく　へや　いっぱい　でな
+	para	We're full up.			done			done						
+	done											很不巧，已经全住满了呀。	あいにく　へや　いっぱい　でな	
+														
+_CeladonHotelText2::				_CeladonHotelText2::										
+	text	I'm on vacation			text	我呀！		text	我呀！	I'm on vacation	I came here on vacation with my brother and	我呀！是和我弟弟还有男朋友	あたし！　おとうと　と　かれし	あたし!　おとうと　と　かれし
+	line	with my brother			line	是和我弟弟還有男朋友		line	是和我弟弟还有男朋友	with my brother	my boyfriend—just the three of us.	３个人一起来旅行的哦！	３にんで　りょこうに　きたの！	3にんで　りょこうに　きたの!
+	cont	and boy friend.			cont	３個人一起來旅行的哦！		cont	３个人一起来旅行的哦！	and boy friend.				タマムシ　シティって
+					para	玉虹市真是個		para	玉虹市真是个	CELADON is such a	Isn’t Celadon a beautiful city?	玉虹市真是个	タマムシシティって	とても　きれいな　まち　なのね
+	para	CELADON is such a			line	漂亮的城市呢！		line	漂亮的城市呢！	pretty city!		漂亮的城市呢！	とても　きれいな　まち　なのね	
+	line	pretty city!			done			done						
+	done													
+														
+_CeladonHotelText3::				_CeladonHotelText3::										
+	text	Why did she bring			text	什麼情況啊……？		text	什么情况啊……？	Why did she bring	Why?	什么情况啊……？明明应该是	なんで……？　かのじょと	なんで…?　かのじょと
+	line	her brother?			line	明明應該是和女朋友		line	明明应该是和女朋友	her brother?	Why did she bring her brother along, too?	和女朋友两个人来旅行才对啊！	ふたり　きりの　りょこうの　はずが！	ふたり　きりの　りょこうの　はずが!
+	done				cont	兩個人來旅行才對啊！		cont	两个人来旅行才对啊！					
+end					done			done						
+				end										

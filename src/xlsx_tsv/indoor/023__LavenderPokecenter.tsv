@@ -1,0 +1,14 @@
+text/LavenderPokecenter.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_LavenderPokecenterText2::				_LavenderPokecenterText2::										
+	text	TEAM ROCKET will			text	火箭隊的這群混蛋……		text	火箭队的这群混蛋……	TEAM ROCKET will	Team Rocket will do anything for the sake	火箭队的这群混蛋……	ロケットだんの　れんちゅう……	ロケットだんの　れんちゅう…
+	line	do anything for			line	為了聚財謀利，		line	为了聚财谋利，	do anything for	of money!	为了聚财谋利，	おかね　もうけの　ためなら	おかね　もうけの　ためなら
+	cont	the sake of gold!			cont	什麼壞事都做得出來！		cont	什么坏事都做得出来！	the sake of gold!				どんな　わるい　ことでも　やるのさ
+	done				done			done			There is no job too dirty, no deed too heinous,	什么坏事都做得出来！	どんな　わるい　ことでも　やるのさ	
+											no crime too wicked!			
+_LavenderPokecenterText3::				_LavenderPokecenterText3::										
+	text	I saw CUBONE's			text	我也看到卡拉卡拉的媽媽		text	我也看到卡拉卡拉的妈妈	I saw CUBONE's	There’s a lab somewhere trying to resurrect	我听说有个研究所	コハクに　まじった	コハクに　まじった
+	line	mother die trying			line	從火箭隊那裡逃跑……		line	从火箭队那里逃跑……	mother die trying	creatures from amber, which contains	正在进行一个大实验。	むかしのいきものを　よみがえらせる	むかしのいきものを　よみがえらせる
+	cont	to escape from			cont	它在逃跑的途中，		cont	它在逃跑的途中，	to escape from				そうだいな　じっけんを　どこかの
+	cont	TEAM ROCKET!			cont	被殘忍的殺害了。		cont	被残忍的杀害了。	TEAM ROCKET!	the genetic material of ancient creatures.	他们似乎是要从琥珀里	そうだいな　じっけんを　どこかの	けんきゅうじょが　してるんだって
+	done				done			done				复活出远古生物来。	けんきゅうじょが　してるんだって	
+end				end										

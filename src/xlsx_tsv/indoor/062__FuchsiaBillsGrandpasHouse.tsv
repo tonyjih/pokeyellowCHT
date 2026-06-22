@@ -1,0 +1,30 @@
+text/FuchsiaBillsGrandpasHouse.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_FuchsiaHouse1Text1::				_FuchsiaHouse1Text1::										
+	text	SAFARI ZONE's			text	別看狩獵地帶的園長		text	别看狩猎地带的园长	SAFARI ZONE's	The Safari Zone’s warden may be old, but he’s	别看狩猎地带的园长一把年纪了，	サファリゾーンの　えんちょう	サファり　ゾーンの　えんちょう
+	line	WARDEN is old,			line	一把年紀了，		line	一把年纪了，	WARDEN is old,	still in great health!	他呀可是精神的很了！	おとし　なのに　すごく　げんきよ	おとし　なのに　すごく　げんきよ
+	cont	but still active!			cont	他呀可是精神的很了！		cont	他呀可是精神的很了！	but still active!				でも…「は」は
+					para	只不過……		para	只不过……	All his teeth are	Though...his teeth are all false, to be fair.	只不过……	でも……　「は」は	ぜんぶ　いれば　らしい　けど
+	para	All his teeth are			line	他的牙好像都是假牙來著。		line	他的牙好像都是假牙来着。	false, though.		他的牙好像都是假牙来着。	ぜんぶ　いれば　らしい　けど	
+	line	false, though.			done			done						
+	done													
+														
+_FuchsiaHouse1Text2::				_FuchsiaHouse1Text2::										
+	text	Hmm? You've met			text	哦？		text	哦？	Hmm? You've met	Hmm?	哦？	おや？　あんた	おや?　あんた
+	line	BILL?			line	你應該認識正輝那小子吧？		line	你应该认识正辉那小子吧？	BILL?	You’ve met Bill?	你应该认识正辉那小子吧？	マサキの　ことを　しっとるのかね？	マサキの　ことを　しっとるのかね?
+					para	正輝是我的孫子唷！		para	正辉是我的孙子唷！	He's my grandson!				マサキは　わしの　まごじゃ!
+	para	He's my grandson!			para	他從小就是一個		para	他从小就是一个	He always liked	He’s my grandson!	正辉是我的孙子唷！	マサキは　わしの　まごじゃ！	ちいさい　ころから
+					line	喜歡罕見事物的孩子！		line	喜欢罕见事物的孩子！	collecting things				ものを　あつめるのが　すきな
+	para	He always liked			done			done		even as a child!	He always liked rare things, even as a child!	他从小就是一个	ちいさい　ころから	こども　じゃった!
+	line	collecting things										喜欢罕见事物的孩子！	めずらしい　ものが　すきな	
+	cont	even as a child!												
+	done												こども　じゃった！	
+														
+_FuchsiaHouse1Text3::				_FuchsiaHouse1Text3::										
+	text	BILL files his			text	正輝哥哥		text	正辉哥哥	BILL files his	Bonjour!	Bonjour！	ボン　ジュール！	ボン　ジュール!
+	line	own #MON data			line	將自己收集的寶可夢		line	将自己收集的宝可梦	own #MON data	I am le waiter on zis ship!	我是这艘客轮的服务员！	わたしは　このふねの　ボーイです	わたしは　このふねの　ボーイです
+	cont	on his PC!			cont	資料放在他的電腦裡哦！		cont	资料放在他的电脑里哦！	on his PC!				ごようを　なんなりと
+					para	他給你看了嗎？		para	他给你看了吗？	Did he show you?	I will be happy to serve you anything you please!	您要是有任何吩咐	ごようを　なんなりと	おもうしつけ　ください!
+	para	Did he show you?			done			done				尽管来联系我！	おもうしつけ　ください！	…　…　…
+	done										... ... ...			…　むくちな　かた　ですね
+end				end								………………	…………	
+											Ah! Le strong, silent type! Très bien!	……看来您是位不爱开口的客人。	……むくちな　かた　ですね	

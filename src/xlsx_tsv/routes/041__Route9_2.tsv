@@ -1,0 +1,23 @@
+text/Route9_2.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route9BattleText9::				_Route9BattleText9::										
+	text	Go, my super bug			text	我可愛的蟲寶可夢們！		text	我可爱的虫宝可梦们！	Go, my super bug	Go, my super bug Pokémon!	我可爱的虫宝可梦们！	おいらの　かわいい　むしポケ！	おいらの　かわいい　むし　ポケ!
+	line	#MON!			line	上吧！		line	上吧！	#MON!		上吧！	それいけー！	それいけー!
+	done				done			done						
+														
+_Route9EndBattleText9::				_Route9EndBattleText9::										
+	text	My			text	我的蟲蟲……		text	我的虫虫……	My	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	bugs...			prompt			prompt		bugs...		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	prompt										D’aww... Failed again?			
+														
+_Route9AfterBattleText9::				_Route9AfterBattleText9::										
+	text	If you don't like			text	我不和不懂		text	我不和不懂	If you don't like	If you don’t like bug Pokémon, you bug me!	我不和不懂	むしポケモンの　よさが	むし　ポケモンの　よさが
+	line	bug #MON, you			line	蟲寶可夢好的傢伙說話！		line	虫宝可梦好的家伙说话！	bug #MON, you		虫宝可梦好的家伙说话！	わからない　やつは　むし！	わからない　やつは　むし!
+	cont	bug me!			done			done		bug me!				
+	done													
+														
+_Route9Text11::				_Route9Text11::										
+	text	ROUTE 9			text	這裡是９號道路		text	这里是９号道路	ROUTE 9	Route 9	这里是９号道路	ここは　９ばんどうろ	ここは　ハナダシティ
+	line	CERULEAN CITY-			line	華藍市　……　岩山隧道		line	华蓝市　……　岩山隧道	CERULEAN CITY-	(Cerulean City ⇄ Rock Tunnel)	华蓝市　……　岩山隧道	ハナダシティ　……　イワヤマトンネル	ハナダは　みずいろ　しんぴのいろ
+	cont	ROCK TUNNEL			done			done		ROCK TUNNEL				
+	done													
+end				end										

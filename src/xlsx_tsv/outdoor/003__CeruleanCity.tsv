@@ -1,0 +1,237 @@
+text/CeruleanCity.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CeruleanCityText_19668::				_CeruleanCityText_19668::										
+	text	<RIVAL>: Yo!			text	<RIVAL>：喲！		text	<RIVAL>：哟！	<RIVAL>: Yo!	Hiya!	嗨！	おっす！	おっす!
+	line	<PLAYER>!			line	<PLAYER>！		line	<PLAYER>！	<PLAYER>!	You’re here to challenge the Gym, aren’t you?	你是道馆挑战者吧！	ジムの　ちょうせんしゃ　だな！	ポケモン　チャンピオンを
+					para	你在這兒轉來轉去的，		para	你怎么也来这里了？	You're still				めざして　みないか?
+	para	You're still			line	是要幹什麼呀？		line	而且还鬼鬼祟祟的！	struggling along	I’m not a Trainer, but I can tell if you’re worthy	我不是训练家，	おれは　トレーナー　じゃない	おれは　トレーナー　じゃない
+	line	struggling along			para	我可是捉到了很多		para	我可是捉到了很多	back here?	of challenging the Gym Leader.	但是我可以判断你	しかし　おまえが　ジムリーダーに	しかし　かつ　ために　ばっちり
+	cont	back here?			line	又帥又厲害的寶可夢呢！		line	又帅又厉害的宝可梦呢！	I'm doing great!				アドバイス　できるぜ!
+					cont	我現在感覺狀態特別好！		cont	我现在感觉状态特别好！	I caught a bunch	Now, let’s get started...	是否有足够的水准	ちょうせん　するに　ふさわしい	な…!　いっしょに
+	para	I'm doing great!			para	就讓我來看看		para	就让我来看看	of strong and				ポケモン　チャンピオン　めざそうぜ
+	line	I caught a bunch			line	<PLAYER>		line	<PLAYER>	smart #MON!		去挑战道馆馆主！	ヤツか　どうかは　わかるぜ！	
+	cont	of strong and			cont	你都捉到了哪些寶可夢吧！		cont	你都捉到了哪些宝可梦吧！	Here, let me see				
+	cont	smart #MON!			done			done		what you caught,		那赶快……	さっそく　だが……	
+										<PLAYER>!				
+	para	Here, let me see												
+	line	what you caught,												
+	cont	<PLAYER>!												
+	done													
+														
+_CeruleanCityText_1966d::				_CeruleanCityText_1966d::										
+	text	Hey!			text_start			text_start		Hey!	Hey! You have Pokémon, right?	嗨！	よーしッ！	よーしッ!
+	line	Take it easy!			line	什麼情況啊！真讓人不爽！		line	什么情况啊！真让人不爽！	Take it easy!	Come on!	你有宝可梦的吧？	きみは　ポケモン　もってるな？	きみは　ポケモン　もってるな?
+	cont	You won already!			cont	我知道了吶！		cont	我知道了呐！	You won already!				しょうぶ　しようぜ!
+	prompt				prompt			prompt			Let’s battle ’em!	我们来对战！	しょうぶ　しようぜ！	
+														
+_CeruleanCityText_19672::				_CeruleanCityText_19672::										
+	text	Heh!			text	我說什麼來著！		text	我说什么来着！	Heh!	OAK: Thank you for sending along a Pokémon!	大木：谢谢你送我的宝可梦！	オーキド『ポケモンを	オーキド『とうとう　かったな!
+	line	You're no match			line	畢竟我是個天才，		line	毕竟我是个天才，	You're no match	This will help a good deal with my research!	多亏了你，我的研究有进展了！	おくって　くれて　ありがとうよ！	ポケモン　りーグ　せいは!
+	cont	for my genius!			cont	這很正常！		cont	这很正常！	for my genius!				こころ　から　おめでとう!
+	prompt				prompt			prompt					おかげで　けんきゅうが	はじめて　@
+													すすみそうじゃ！	
+_CeruleanCityText_19677::				_CeruleanCityText_19677::										
+	text	<RIVAL>: Hey,			text	<RIVAL>：嘿嘿！		text	<RIVAL>：嘿嘿！	<RIVAL>: Hey,	BLAINE: Hah!	夏伯：嘿～～！	カツラ『うおーす！	へブ {PKMN} の　　　ビブ　　　　　　　　　　ボ
+	line	guess what?			line	你知道嗎？		line	你知道吗？	guess what?	Well done, returning here to my Gym!	你来得正好！	よく　きたな！	
+					para	我之前去了正輝家，		para	我之前去了正辉家，	I went to BILL's				
+	para	I went to BILL's			line	他還特地讓我看了		line	他还特地让我看了	and got him to	You’re the one who retrieved the key to this	我猜你是去宝可梦屋	おまえは　ポケモンやしきに	
+	line	and got him to			cont	很多非常稀有的寶可夢！		cont	很多非常稀有的宝可梦！	show me his rare	Gym from the Pokémon Mansion!	拿到了这个道馆的钥匙吧！	この　ジムの　カギを	
+	cont	show me his rare			para	多虧了他，		para	多亏了他，	#MON!				
+	cont	#MON!			line	我的寶可夢圖鑑		line	我的宝可梦图鉴	That added a lot	Did you see anything interesting while you were	那时你有没有看到些什么？	とりに　いったの　だったな！	
+					cont	又增加了好幾頁！		cont	又增加了好几页！	of pages to my	in there?			
+	para	That added a lot			para	你知道嗎，		para	你知道吗，	#DEX!		那里应该有我的旧友	そのとき　なにかを　みたか？	
+	line	of pages to my			line	正輝可是遠近聞名的		line	正辉可是远近闻名的	After all, BILL's	That place still holds the remnants of my old	从事研究时的痕迹！		
+	cont	#DEX!			cont	寶可夢狂熱迷！		cont	宝可梦狂热迷！	world famous as a	friend’s research!		あそこには　ふるい　ともだちの	
+					para	連線電腦的		para	连接电脑的	#MANIAC!		我听说最近，	けんきゅうの　あとが　ある！	
+	para	After all, BILL's			line	寶可夢寄放系統		line	宝可梦寄放系统	He invented the	By the way, I’ve been hearing an interesting	有个少女正在调查那个……		
+	line	world famous as a			cont	也是由正輝開發的哦！		cont	也是由正辉开发的哦！	#MON Storage	rumor floating around recently...		さいきん　それを　しらべる	
+	cont	#MANIAC!			para	如果你也經常		para	如果你也经常	System on PC!		你认识一个	しょうじょの　うわさを　きいた……	
+					line	在用他的系統，		line	在用他的系统，	Since you're using	You wouldn’t happen to know a young lady	叫作碧蓝的少女吗？		
+	para	He invented the			cont	那應該去道個謝才對！		cont	那应该去道个谢才对！	his system, go	named Green, would you?		おまえは　ブルー　という	
+	line	#MON Storage			para	哎呀，		para	哎呀，	thank him!		……哎，	しょうじょは　しらんか？	
+	cont	System on PC!			line	現在可不是划水的時候！		line	现在可不是划水的时候！	Well, I better	...Hmph, well, it’s not as though I really know	我也不太清楚！		
+					cont	那就拜咯！		cont	那就拜咯！	get rolling!	the whole story anyway.		……まあ　わしにも	
+	para	Since you're using			done			done		Smell ya later!		不说这个了，择日不如撞日，	よく　わからん　はなしなのだ！	
+	line	his system, go									More importantly, since you came all this way,	现在就和我比试一场吧！		
+	cont	thank him!									we should have a battle!		そんな　ことより　せっかく　だから	
+												嘿～～哈！	ひとつ　しょうぶと　いこう！	
+	para	Well, I better									Hah!			
+	line	get rolling!											うおおーす！	
+	cont	Smell ya later!												
+	done													
+														
+_CeruleanCityText_196d9::				_CeruleanCityText_196d9::										
+	text	Hey! Stay out!			text	喂！我說！不要隨便闖進		text	喂！我说！不要随便闯进	Hey! Stay out!	Hey! Stay out!	喂！我说！	あ　こら！	あ　こら!
+	line	It's not your			line	別人家的院子！		line	别人家的院子！	It's not your	It’s not your yard!	不要随便闯进别人家的院子！	ひとんちの　にわ　はいるなよ！	ひとんちの　にわ　はいるなよ!
+	cont	yard! Huh? Me?			cont	……啥？我嗎？		cont	……啥？我吗？	yard! Huh? Me?				…　…　え　おれ?
+					para	……我只是個旁觀者！		para	……我只是一个吃瓜群众！	I'm an innocent	...Huh?	…………啥？我吗？	…………え　おれ？	…　ただの　とおり　すがりだ
+	para	I'm an innocent			line	我真的一點都不可疑啊！		line	我真的一点都不可疑啊！	bystander! Don't	Me?			ぜーんぜん　あやしくないよ!
+	line	bystander! Don't			cont	……我可疑嗎？		cont	……我可疑吗？	you believe me?		……我只是一个吃瓜群众！	……ただの　とおり　すがりだ	…　…　あやしい?
+	cont	you believe me?			done			done			I’m an innocent bystander!	我真的一点都不可疑啊！	ぜーんぜん　あやしくないよ！	
+	done										Don’t you believe me?			
+												…………我可疑吗？	…………あやしい？	
+_ReceivedTM28Text::				_ReceivedTM28Text::										
+	text	<PLAYER> recovered			text	<PLAYER>		text	<PLAYER>	<PLAYER> recovered	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	TM28!@			line	拿回了TM28！@		line	拿回了TM28！@	TM28!@	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_end				text_end			text_end						
+														
+_ReceivedTM28Text2::				_ReceivedTM28Text2::										
+	text_start				text_start			text_start			Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+					para	那麼……！		para	那么……！	I better get	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	para	I better get			line	我就先撤了！		line	我就先撤了！	moving! Bye!@				…　シルフ　カンパニー
+	line	moving! Bye!@			cont	……拜拜～！@		cont	……拜拜～！@			……西尔佛公司	……シルフカンパニー	
+	text_end				text_end			text_end						
+														
+_TM28NoRoomText::				_TM28NoRoomText::										
+	text	Make room for			text	行李已滿了！		text	行李已满了！	Make room for	I’m getting a present for my girlfriend...	我准备给女朋友买个礼物来着。	かのじょに　プレゼントを　かうんだ	ヤマブキの　モノマネむすめ　に
+	line	this!			para	……把這個給你之前，		para	……把这个给你之前，	this!	Hmm...			プレゼントを　かうんだ
+					line	我是不會逃走的哦！		line	我是不会逃走的哦！	I can't run until		如果送她水之石，	みずのいし　あげたら	やっぱり　ピッピにんぎょう　だな!
+	para	I can't run until			done			done		I give it to you!	I could give her a Water Stone, but who knows?	不知道她会不会进个化啥的。	かのじょ　しんか　しちゃったりして	にんき　あるんだよね!
+	line	I give it to you!									It might cause her to evolve!			
+	done													
+														
+_CeruleanCityText_196ee::				_CeruleanCityText_196ee::										
+	text	Stop!			text	哇啊，我輸了！		text	哇啊，我输了！	Stop!	Stop! I give up!	哇啊，我输了！	ひょえー　まいった！	ひょえー　まいった!
+	line	I give up! I'll			line	我再也不敢了！		line	我再也不敢了！	I give up! I'll	I’ll leave quietly!	我再也不敢了！	もう　しないよ！	もう　しないよ!
+	cont	leave quietly!			cont	放過我吧！		cont	放过我吧！	leave quietly!				みのがして　くれい!
+	prompt				prompt			prompt				放过我吧！	みのがして　くれい！	
+														
+_CeruleanCityText_196f3::				_CeruleanCityText_196f3::										
+	text	OK! I'll return			text	……好了好了！		text	……好了好了！	OK! I'll return	...OK.	……好了好了！	……わかった！	…　わかった!
+	line	the TM I stole!			line	物歸原主就是了。		line	物归原主就是了。	the TM I stole!	I’ll return the TM I stole.	物归原主就是了。	ぬすんだ　もの　かえすよ	ぬすんだ　 {5C} も　かえすよ
+	prompt				prompt			prompt						
+														
+_CeruleanCityText3::				_CeruleanCityText3::										
+	text	You're a trainer			text	你也是個訓練家？		text	你也是个训练家？	You're a trainer	You’re a Trainer, too?	你也是个训练家？	きみも　ポケモン　やってるか！	きみも　ポケモン　やってるか!
+	line	too? Collecting,			line	又要對戰又要收集		line	又要对战又要收集	too? Collecting,		又要对战又要收集	あつめたり　たたかったり	あつめたり　たたかったり
+	cont	fighting, it's a			cont	也真是忙不完啊！		cont	也真是忙不完啊！	fighting, it's a	Collecting Pokémon, battling with Pokémon...			いろいろ　たいへん　だな!
+	cont	tough life.			done			done		tough life.	It’s a tough life, isn’t it?	也真是忙不完啊！	いろいろ　たいへん　だな！	
+	done													
+														
+_CeruleanCityText4::				_CeruleanCityText4::										
+	text	That bush in			text	商店前的樹擋著路，		text	商店前的树挡着路，	That bush in	There’s a tree growing in front of the Poké Mart.	商店前的树挡着路，	ショップの　まえに　きが　はえてて	みせの　まえの　うえきが　じゃまで
+	line	front of the shop			line	所以從這邊走不過去呀！		line	所以从这边走不过去呀！	front of the shop	It’s blocking the way to the route to the south!	所以从这边走不过去。	むこうへ　いけないんだ	むこうへ　いけないよ!
+	cont	is in the way.			para	雖然貌似從別處繞個路		para	虽然貌似从别处绕个路	is in the way.				でも　どこか　まわりみち　すると
+					line	就可以走過去了……		line	就可以走过去了……	There might be a	I think there’s a long way around, though...	虽然貌似从别处绕个路	でも　どこか　まわりみち　すると	いける　らしい　けど…
+	para	There might be a			done			done		way around.		就可以走过去了……	いける　らしい　けど……	
+	line	way around.												
+	done													
+														
+_CeruleanCityText5::				_CeruleanCityText5::										
+	text	You're making an			text	呵呵呵……！		text	呵呵呵……！	You're making an	You’re making some sort of encyclopedia of	呵呵呵……！	ほほう……！	ほほう…!
+	line	encyclopedia on			line	你在收集寶可夢圖鑑？		line	你在收集宝可梦图鉴？	encyclopedia on	Pokémon? That sounds like a fun time!	你在收集宝可梦图鉴？	ポケモンの　ずかんを　つくってる？	ポケモンの　ずかんを　つくってる?
+	cont	#MON? That			cont	聽上去還挺有趣的！		cont	听上去还挺有趣的！	#MON? That				それは　たのしそう　だなあ!
+	cont	sounds amusing.			done			done		sounds amusing.		听上去还挺有趣的！	それは　たのしそう　だなあ！	
+	done													
+														
+_CeruleanCityText6::				_CeruleanCityText6::										
+	text	These poor people			text	這家人被小偷				The people here	What a shame...	这家人被小偷	この　いえは	かわいそうに…
+	line	here were robbed.			line	偷了個精光呢！				were robbed.	The people here were robbed!	偷了个精光呢！	ドロボーに　はいられたの！	この　いえは
+					cont	真的太慘了。				It's obvious that				ドロボーに　はいられたの!
+	para	We're positive								TEAM ROCKET is	Someone even saw the thieves escape, and they	据目击者形容，	もくげきしゃに　よると	はんにんは　わかっています!
+	line	that TEAM ROCKET			para	我知道犯人是誰了，			はんにんは　わかっています!	behind this most	say it was none other than Team Rocket!	犯人就是……火箭队！	はんにんは……　ロケットだん！	ロケットだんの　しわざよ!
+	cont	is behind this			line	一定是火箭隊做的！			ロケットだんの　しわざよ!	heinous crime!				けいさつ　としても
+	cont	terrible deed.								Even our POLICE	To protect the poor owners of this house from	为了保护被害者的安全，	ひがいしゃを　まもるため	ロケットだんの　あくじ　には
+										force has trouble	further harm, I won’t be letting anyone in!	暂时禁止任何人进入这个房子，	しばらく　この　いえ　には	ほとほと　こまっているの!
+	para	Even our POLICE			para	就算是警察，				with the ROCKETs!				ゲ円も
+	line	FORCE has trouble			line	也對做盡壞事的火箭隊					Not even a little Rattata will sneak past me!	连１只小拉达都不能放过！	コラッタ　１ぴき　はいらせません！	
+	cont	with the ROCKETs!			cont	感到非常頭疼！								
+	done				done									
+														
+_CeruleanCityText_19730::				_CeruleanCityText_19730::										
+	text	OK! ELECTRODE!			text	去吧頑皮雷彈！		text	去吧呆壳兽！	OK! SLOWBRO!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	Use SONICBOOM!			line	用音爆吧！		line	用音爆吧！	Use SONICBOOM!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	Please ELECTRODE,			cont	頑……喂喂！		cont	呆……喂喂！	Come on, SLOWBRO				…　シルフ　カンパニー
+	cont	pay attention!			cont	你要聽我的話啊！		cont	你要听我的话啊！	pay attention!		……西尔佛公司	……シルフカンパニー	
+	done				done			done						
+														
+_CeruleanCityText_19735::				_CeruleanCityText_19735::										
+	text	ELECTRODE, TACKLE!			text	頑皮雷彈！那裡要用撞擊！		text	呆壳兽！对那里用拳击！	SLOWBRO punch!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	No! You blew it			line	給你跪了……又失敗！		line	给你跪了……又失败！	No! You blew it	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	again!			done			done		again!				…　シルフ　カンパニー
+	done											……西尔佛公司	……シルフカンパニー	
+														
+_CeruleanCityText_1973a::				_CeruleanCityText_1973a::										
+	text	ELECTRODE, SWIFT!			text	頑皮雷彈！用高速星星！		text	呆壳兽！缩入壳中！	SLOWBRO, WITHDRAW!	Electrode! Use Swift!	顽皮雷弹！用高速星星！	マルマイン！　スピードスター！	マルマイン!　スピードスター!
+	line	No! That's wrong!			line	啊呀……不～對～！		line	啊呀……不～对～！	No! That's wrong!		啊呀……不～对～！	あん　……ちがーう！	あん　…ちがーう!
+								para	宝可梦真是太难了！	It's so hard to	No, no, not that move!			ポケモンって　むずかしいわ!
+	para	Training #MON						para	宝可梦肯不肯听话，	control #MON!	Oooh, Pokémon are so hard to control!	宝可梦真是太难了！	ポケモンって　むずかしいわ！	ポケモンが
+	line	is difficult!			para	寶可夢真是太難了！		line	完全取决于训练家的	Your #MON's				いうこと　きくか　どうかは
+								cont	能力啊。	obedience depends	They say it’s up to your skill as a Trainer whether	宝可梦肯不肯听话，	ポケモンが	ひとの　うでまえ　しだい　なんだもの
+	para	Your #MON's			para	寶可夢肯不肯聽話，		done		on your abilities	your Pokémon listen to you or not.	完全取决于训练家的能力啊。	いうこと　きくか　どうかは	ゲ円も
+	line	obedience depends			line	完全取決於訓練家的				as a trainer!				
+	cont	on your abilities			cont	能力啊。							ひとの　うでまえ　しだい　なんだもの	
+	cont	as a trainer!			done									
+	done													
+														
+_CeruleanCityText_1976f::				_CeruleanCityText_1976f::										
+	text	ELECTRODE took a			text	頑皮雷彈		text	呆壳兽	SLOWBRO took a	Electrode is taking a snooze...	顽皮雷弹正在睡午觉……	マルマインは　ひるね　してる……	マルマインは　ひるね　してる…
+	line	snooze...			line	正在睡午覺……		line	正在睡午觉……	snooze...				
+	done				done			done						
+														
+_CeruleanCityText_19774::				_CeruleanCityText_19774::										
+	text	ELECTRODE is			text	頑皮雷彈		text	呆壳兽	SLOWBRO is	Electrode is loafing around...	顽皮雷弹正在偷懒……	マルマインは　なまけてる……	マルマインは　なまけてる…
+	line	loafing around...			line	正在偷懶……		line	正在偷懒……	loafing around...				
+	done				done			done						
+														
+_CeruleanCityText_19779::				_CeruleanCityText_19779::										
+	text	ELECTRODE turned			text	頑皮雷彈		text	呆壳兽	SLOWBRO turned	Electrode turned away!	顽皮雷弹转向了别处！	マルマインは　そっぽを　むいた！	マルマインは　そっぽを　むいた!
+	line	away...			line	轉向了別處！		line	转向了别处！	away...				
+	done				done			done						
+														
+_CeruleanCityText_1977e::				_CeruleanCityText_1977e::										
+	text	ELECTRODE			text	頑皮雷彈		text	呆壳兽	SLOWBRO	Electrode is ignoring orders...	顽皮雷弹假装自己什么都听不懂……	マルマインは　しらんぷり　した……	マルマインは　しらんぷり　した…
+	line	ignored orders...			line	假裝自己什麼都聽不懂……		line	假装自己什么都听不懂……	ignored orders...				
+	done				done			done						
+														
+_CeruleanCityText9::				_CeruleanCityText9::										
+	text	I want a bright			text	我也想要一輛腳踏車！		text	我也想要一辆自行车！	I want a bright	I’m the chairman of the Pokémon Fan Club!	宝可梦发烧友俱乐部的会长	ポケモン　だいすき　クラブの	ポケモン　だいすき　クラブの
+	line	red BICYCLE!			line	又亮又紅的腳踏車！		line	又亮又红的自行车！	red BICYCLE!	I raise more than a hundred Pokémon!	正是老夫！	かいちょうは　わし　じゃ！	かいちょうは　わし　じゃ!
+					para	為了不讓它變髒，		para	为了不让它变脏，	I'll keep it at				だいじに　しとるポケモンは
+	para	I'll keep it at			line	我會把它放在家裡		line	我会把它放在家里	home, so it won't	I’m very fussy when it comes to Pokémon!	老夫手里的宝可梦	もってる　ポケモンは	100ぴきを　こえとる!
+	line	home, so it won't			cont	當作裝飾擺放！		cont	当作装饰摆放！	get dirty!	I surely am!	已经超过了100只！	１００ぴきを　こえとる！	ポケモンに　かんしては
+	cont	get dirty!			done			done						ホント　うるさい!　ですぞ!
+	done										So...	要老夫说起宝可梦的事，	ポケモンに　かんしては	で…
+												那可是三天三夜都说不完哇！	ホント　うるさい！　ですぞ！	きみは　わしの　ポケモン　じまんを
+_CeruleanCityText10::				_CeruleanCityText10::							Did you come visit to hear about			ききに　きたの　かね?
+	text	This is CERULEAN			text	這裡是華藍洞窟！		text	这里是华蓝洞窟！	This is CERULEAN	This is the Cerulean Cave.	这里是华蓝洞窟！	ここは……　ハナダのどうくつ！	ここは…　ハナダ　どうくつ!
+	line	CAVE! Horribly			line	裡面棲息著強到可怕的		line	里面栖息着强到可怕的	CAVE! Horribly	Frightfully strong Pokémon live inside.	里面栖息着	こわい　ほど　つよい　ポケモンが	こわい　ほど　つよい　ポケモンが
+	cont	strong #MON			cont	寶可夢！		cont	宝可梦！	strong #MON				せいそく　してるぞ!
+	cont	live in there!			para	只有寶可夢聯盟認證的冠軍		para	只有宝可梦联盟认证的冠军	live in there!	You’d have to be a very special Trainer to be	强到可怕的宝可梦！	せいそく　してるぞ！	ポケモン　りーグ　にんてい
+					line	才有資格進入這個洞窟。		line	才有资格进入这个洞窟。	The #MON LEAGUE	allowed in—a Champion recognized by			チャンピオン　しか　はいれないのだ!
+	para	The #MON LEAGUE			done			done		champion is the		只有宝可梦联盟认证的冠军	ポケモンリーグ　にんてい	
+	line	champion is the								only person who	the Pokémon League, in fact!	才有资格进入这个洞窟。	チャンピオン　しか　はいれないのだ！	
+	cont	only person who								is allowed in!				
+	cont	is allowed in!												
+	done													
+														
+_CeruleanCityText12::				_CeruleanCityText12::										
+	text	CERULEAN CITY			text	這裡是華藍市。		text	这里是华蓝市。	CERULEAN CITY	Cerulean City:	这里是华蓝市。	ここは　ハナダシティ	ここは　ハナダシティ
+	line	A Mysterious,			line	華藍即是神秘莫測的		line	华蓝即是神秘莫测的	A Mysterious,	A Mysterious Blue Aura Surrounds It	华蓝即是神秘莫测的水蓝之色。	ハナダは　みずいろ　しんぴのいろ	ハナダは　みずいろ　しんぴのいろ
+	cont	Blue Aura			cont	水藍之色。		cont	水蓝之色。	Blue Aura				
+	cont	Surrounds It			done			done		Surrounds It				
+	done													
+														
+_CeruleanCityText13::				_CeruleanCityText13::										
+	text	TRAINER TIPS			text	……有用的公告牌！		text	……有用的公告牌！	TRAINER TIPS	Trainer Tips	……有用的公告牌！	……おとくな　けいじばん！	…　おとくな　けいじばん!
+					para	在寶可夢進化時		para	在宝可梦进化时	Pressing B Button				しんかの　さいちゅうに
+	para	Pressing B Button			line	按下Ｂ鍵，		line	按下Ｂ键，	during evolution	If you press the B Button when a Pokémon is	在宝可梦进化时	しんかの　さいちゅうに	ビー　ボタンを　おすと
+	line	during evolution			cont	進化就會停止。		cont	进化就会停止。	cancels the whole	in the middle of evolving, you can make it stop!	按下Ｂ键，	Ｂボタンを　おすと	しんかは　とまって　しまいます
+	cont	cancels the whole			done			done		process.				
+	cont	process.										进化就会停止。	しんかは　とまって　しまいます	
+	done													
+														
+_CeruleanCityText16::				_CeruleanCityText16::										
+	text	Grass and caves			text	不論草地還是洞窟		text	不论草地还是洞窟	Grass and caves	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	handled easily!			line	都能輕鬆穿越！		line	都能轻松穿越！	handled easily!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	BIKE SHOP			cont	……奇蹟腳踏車店		cont	……奇迹自行车店	BIKE SHOP				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_CeruleanCityText17::				_CeruleanCityText17::										
+	text	CERULEAN CITY			text	華藍市寶可夢道館		text	华蓝市宝可梦道馆	CERULEAN CITY	Cerulean City Pokémon Gym	华蓝市宝可梦道馆	ハナダシティ　ポケモンジム	ハナダ　シティ　ポケモン　ジム
+	line	#MON GYM			line	館主：小霞		line	馆主：小霞	#MON GYM	Gym Leader: Misty	馆主：小霞	リーダー　カスミ	りーダー　カスミ
+	cont	LEADER: MISTY			cont	俏皮的美人魚。		cont	俏皮的美人鱼。	LEADER: MISTY				おてんば　にんぎょ
+					done			done		The Tomboyish	The Tomboyish Mermaid!	俏皮的美人鱼。	おてんば　にんぎょ	へどぶ
+	para	The Tomboyish								Mermaid!				
+	line	Mermaid!												
+	done													
+end				end										

@@ -1,0 +1,39 @@
+text/CinnabarIsland.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CinnabarIslandText8::				_CinnabarIslandText8::										
+	text	The door is			text	大門		text	大门	The door is	The machine is undergoing maintenance.	现在机器正在维修中。	ただいま　マシンの	はいはい　こどもは　
+	line	locked...			line	鎖得緊緊的……！		line	锁得紧紧的……！	locked...		非常抱歉，请稍后再来。	メンテナンスちゅう　です	けんがくりょう　50えん　です
+	done				done			done			Please come back later.			けんがく　しますか?
+													すみませんが　また	
+_CinnabarIslandText1::				_CinnabarIslandText1::									のちほど　おこしください	
+	text	CINNABAR GYM's			text	聽說紅蓮道館的夏伯		text	听说红莲道馆的夏伯	CINNABAR GYM's	The Cinnabar Island Gym’s Blaine is an odd one.	听说红莲道馆的夏伯是个怪人，	グレンジムの　カツラは	グレン　ジムの　カツラは
+	line	BLAINE is an odd			line	是個怪人，		line	是个怪人，	BLAINE is an odd		在研究所成立之前	ラボが　できる　まえから	けんきゅうじょが　できる　まえから
+	cont	man who has lived			cont	在研究所成立之前		cont	在研究所成立之前	man who has lived	He’s lived on the island since way before			すんでて　へんじん　なんだって
+	cont	here for decades.			cont	就已經住在這裡了。		cont	就已经住在这里了。	here for decades.	the Pokémon Lab was built.	就已经住在这里了。	すんでて　へんじん　なんだって	
+	done				done			done						
+														
+_CinnabarIslandText2::				_CinnabarIslandText2::										
+	text	Scientists conduct			text	為了研究寶可夢，		text	为了研究宝可梦，	Scientists conduct	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	experiments in			line	有時會有科學家		line	有时会有科学家	experiments in	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	the burned-out			cont	進出寶可夢屋。		cont	进出宝可梦屋。	the burned out				…　シルフ　カンパニー
+	cont	building.			done			done		building.		……西尔佛公司	……シルフカンパニー	
+	done													
+														
+_CinnabarIslandText3::				_CinnabarIslandText3::										
+	text	CINNABAR ISLAND			text	這裡是紅蓮鎮。		text	这里是红莲镇。	CINNABAR ISLAND	Cinnabar Island:	这里是红莲镇。	ここは　グレンタウン	ここは　グレン　タウン
+	line	The Fiery Town of			line	紅蓮即是熱情如火的		line	红莲即是热情如火的	The Fiery Town of	The Fiery Town of Burning Desire	红莲即是热情如火的鲜红之色。	グレンの　あかは　じょうねつの　いろ	グレンの　あかは　じょうねつの　いろ
+	cont	Burning Desire			cont	鮮紅之色。		cont	鲜红之色。	Burning Desire				
+	done				done			done						
+														
+_CinnabarIslandText6::				_CinnabarIslandText6::										
+	text	#MON LAB			text	這裡是寶可夢研究所		text	这里是宝可梦研究所	#MON LAB	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	done				done			done				给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+											D’aww... Failed again?			
+_CinnabarIslandText7::				_CinnabarIslandText7::										
+	text	CINNABAR ISLAND			text	紅蓮島寶可夢道館		text	红莲岛宝可梦道馆	CINNABAR ISLAND	Cinnabar Island Pokémon Gym	红莲岛宝可梦道馆	グレンじま　ポケモンジム	グレン　じま　ポケモン　ジム
+	line	#MON GYM			line	館主：夏伯		line	馆主：夏伯	#MON GYM	Gym Leader: Blaine	馆主：夏伯	リーダー　カツラ	りーダー　カツラ
+	cont	LEADER: BLAINE			cont	熱血猜謎大叔！		cont	热血猜谜大叔！	LEADER: BLAINE				ねっけつ　クイズ　おやじ
+					done			done		The Hot-Headed	The Hotheaded Quiz Master!	热血猜谜大叔！	ねっけつ　クイズおやじ	へどぶの
+	para	The Hot-Headed								Quiz Master!				
+	line	Quiz Master!												
+	done													
+end				end										

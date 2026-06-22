@@ -1,0 +1,140 @@
+text/Route21.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route21BattleText1::				_Route21BattleText1::										
+	text	You want to know			text	你是想問		text	你是想问	You want to know	You want to know if the fish are biting?	你是想问能不能钓到吧？	「つれますか？」とか　おまえは	「つれますか?」とか　おまえは
+	line	if the fish are			line	能不能釣到吧？		line	能不能钓到吧？	if the fish are			ききたいんじゃないの？	ききたいんじゃないの?
+	cont	biting?			done			done		biting?				
+	done													
+														
+_Route21EndBattleText1::				_Route21EndBattleText1::										
+	text	Dang!			text	啊，被打敗了。		text	啊，被打败了。	Dang!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			prompt			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_Route21AfterBattleText1::				_Route21AfterBattleText1::										つ {PLAYER}  {PLAYER} 
+	text	I can't catch			text	好的寶可夢釣不到！		text	好的宝可梦钓不到！	I can't catch	I can’t catch anything good.	好的宝可梦钓不到！	いい　ポケモン　つれねーよ！	いい　ポケモン　つれねーよ!
+	line	anything good!			line	根本釣不到！		line	根本钓不到！	anything good!	Not one good Pokémon to be had!	根本钓不到！	ぜんぜん！	ぜんぜん!
+	done				done			done						
+														
+_Route21BattleText2::				_Route21BattleText2::										
+	text	I got a big haul!			text	爆護！爆護！		text	爆护！爆护！	I got a big haul!	I got a big haul!	爆护！爆护！	たいりょう！　たいりょう！	たいりょう!　たいりょう!
+	line	Wanna go for it?			line	要和我的寶可夢戰鬥嗎？		line	要和我的宝可梦战斗吗？	Wanna go for it?	Wanna go for it?	要和我的宝可梦战斗吗？	おれの　ポケモンと　たたかう？	おれの　ポケモンと　たたかう?
+	done				done			done						
+														
+_Route21EndBattleText2::				_Route21EndBattleText2::										
+	text	Darn			text	鯉魚王		text	鲤鱼王	Darn	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	MAGIKARP!			line	果然不行麼。		line	果然不行么。	MAGIKARP!		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	prompt				prompt			prompt			D’aww... Failed again?			
+														
+_Route21AfterBattleText2::				_Route21AfterBattleText2::										
+	text	I seem to only			text	為什麼我釣到的		text	为什么我钓到的	I seem to only	I seem to only catch Magikarp!	为什么我钓到的	なぜか　コイキング	なぜか　コイキング
+	line	catch MAGIKARP!			line	都是鯉魚王呢！		line	都是鲤鱼王呢！	catch MAGIKARP!		都是鲤鱼王呢！	ばっかり　つれるんだよ！	ばっかり　つれるんだよ!
+	done				done			done						
+														
+_Route21BattleText3::				_Route21BattleText3::										
+	text	The sea cleanses			text	大海——		text	大海——	The sea cleanses	The sea cleanses my body and soul!	大海——	うみはーッ	うみはーッ
+	line	my body and soul!			line	是男人的浪漫——！		line	是男人的浪漫——！	my body and soul!		是男人的浪漫——！	おとこの　ロマンだーッ！	おとこの　ロマンだーッ!
+	done				done			done						
+														
+_Route21EndBattleText3::				_Route21EndBattleText3::										
+	text	Ayah!			text	啊——！		text	啊——！	Ayah!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			prompt			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_Route21AfterBattleText3::				_Route21AfterBattleText3::										つ {PLAYER}  {PLAYER} 
+	text	I like the			text	我喜歡大海，		text	我喜欢大海，	I like the	I’m the [VAR 010E(0002)]!	我是[VAR 010E(0002)]！	あたし　[VAR 010E(0002)]！	ふふ　あたし　じしん　あるわよ
+	line	mountains too!			line	其實也喜歡山！		line	其实也喜欢山！	mountains too!		正在探寻究极的[VAR PKNAME(0000)]！		あなたの　てに　おえるかな?
+	done				done			done			My goal is to find the ultimate [VAR PKNAME(0000)]!		きゅうきょくの　[VAR PKNAME(0000)]を	
+													ついきゅう　する　そんざいっ！	
+_Route21BattleText4::				_Route21BattleText4::										
+	text	What's wrong with			text	我有時候也會		text	我有时候也会	What's wrong with	What’s wrong with me swimming?	我有时候也会	おれだって　たまには	おれだって　たまには
+	line	me swimming?			line	游泳來這裡呢！		line	游泳来这里呢！	me swimming?		游泳来这里呢！	およぎに　くるぜ！	およぎに　くるぜ!
+	done				done			done						
+														
+_Route21EndBattleText4::				_Route21EndBattleText4::										
+	text	Cheap			text	嗚哇哇！		text	呜哇哇！	Cheap	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	shot!			prompt			prompt		shot!		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	prompt										D’aww... Failed again?			
+														
+_Route21AfterBattleText4::				_Route21AfterBattleText4::										
+	text	I look like what?			text	你說我容易浮起來？		text	你说我容易浮起来？	I look like what?	I look like what?	你说我容易浮起来？	うきやすそう　だと？	うきやすそう　だと?
+	line	A studded inner			line	囉嗦，要你管！		line	啰嗦，要你管！	A studded inner	A studded inner tube? Get lost!	啰嗦，要你管！	うるせー　おおきな　おせわだッ！	うるせー　おおきな　おせわだッ!
+	cont	tube? Get lost!			done			done		tube? Get lost!				
+	done													
+														
+_Route21BattleText5::				_Route21BattleText5::										
+	text	I caught all my			text	我的寶可夢		text	我的宝可梦	I caught all my	I caught my Pokémon at sea.	我的宝可梦	ウチの　ポケモンは	ウチの　ポケモンは
+	line	#MON at sea!			line	是在海裡捉到的。		line	是在海里捉到的。	#MON at sea!		是在海里捉到的。	うみで　とって　きました	うみで　とって　きました
+	done				done			done						
+														
+_Route21EndBattleText5::				_Route21EndBattleText5::										
+	text	Diver!!			text	大——海——！		text	大——海——！	Diver!!	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	Down!!			prompt			prompt		Down!!		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	prompt										D’aww... Failed again?			
+														
+_Route21AfterBattleText5::				_Route21AfterBattleText5::										
+	text	Where'd you catch			text	你的寶可夢		text	你的宝可梦	Where'd you catch	Where’d you catch your Pokémon?	你的宝可梦	きみの　ポケモンは	きみの　ポケモンは
+	line	your #MON?			line	是在哪裡捉到的？		line	是在哪里捉到的？	your #MON?		是在哪里捉到的？	どこで　とって　きたのかな？	どこで　とって　きたのかな?
+	done				done			done						
+														
+_Route21BattleText6::				_Route21BattleText6::										
+	text	Right now, I'm in			text	其實我現在正在		text	其实我现在正在	Right now, I'm in	Right now, I’m in a triathlon meet.	其实我现在正在	じつは　いま　トライアスロンの	じつは　いま　トライアスロンの
+	line	a triathlon meet!			line	進行鐵人三項！		line	进行铁人三项！	a triathlon meet!		进行铁人三项！	まっさいちゅう　なのだ！	まっさいちゅう　なのだ!
+	done				done			done						
+														
+_Route21EndBattleText6::				_Route21EndBattleText6::										
+	text	Pant...			text	呼……呼……！		text	呼……呼……！	Pant...	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	pant...pant...			prompt			prompt		pant...pant...		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	prompt										D’aww... Failed again?			
+														
+_Route21AfterBattleText6::				_Route21AfterBattleText6::										
+	text	I'm beat!			text	累、累死我了……！		text	累、累死我了……！	I'm beat!	I’m beat! But, I still have the bike race and	累、累死我了……！	ば　ばてた…！	ば　ばてた…!
+	line	But, I still have			line	接下來還有……		line	接下来还有……	But, I still have	marathon left!	接下来还有……	あと……　じてんしゃと	あと…　じてんしゃと
+	cont	the bike race and			cont	腳踏車和馬拉松……！		cont	自行车和马拉松……！	the bike race and				マラソンが　あるのに…!
+	cont	marathon left!			done			done		marathon left!		自行车和马拉松……！	マラソンが　あるのに……！	
+	done													
+														
+_Route21BattleText7::				_Route21BattleText7::										
+	text	Ahh! Feel the sun			text	啊～！		text	啊～！	Ahh! Feel the sun	Ahh!	啊～！	あーッ！	あーッ!
+	line	and the wind!			line	陽光照在身上好舒服！		line	阳光照在身上好舒服！	and the wind!	Feel the sun and the wind!	阳光照在身上好舒服！	ひざしが　きもちいーぜ！	ひざしが　きもちいーぜ!
+	done				done			done						
+														
+_Route21EndBattleText7::				_Route21EndBattleText7::										
+	text	Yow!			text	我輸了！		text	我输了！	Yow!	Yow!	我输了！	おれの　まけ！	おれの　まけ!
+	line	I lost!			prompt			prompt		I lost!	I lost!			
+	prompt													
+														
+_Route21AfterBattleText7::				_Route21AfterBattleText7::										
+	text	I'm sunburnt to a			text	曬黑了、曬黑了！		text	晒黑了、晒黑了！	I'm sunburnt to a	I’m sunburnt to a crisp!	晒黑了、晒黑了！	やけた　やけた！　まっくろだ！	やけた　やけた!　まっくろだ!
+	line	crisp!			line	黝黑黝黑！		line	黝黑黝黑！	crisp!		黝黑黝黑！		
+	done				done			done						
+														
+_Route21BattleText8::				_Route21BattleText8::										
+	text	Hey, don't scare			text	你還真是讓人頭疼啊！		text	你还真是让人头疼啊！	Hey, don't scare	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	away the fish!			line	不要破壞海洋！		line	不要破坏海洋！	away the fish!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	done				done			done						…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_Route21EndBattleText8::				_Route21EndBattleText8::										
+	text	Sorry!			text	抱歉！		text	抱歉！	Sorry!	I just adore my Seel!	我可爱的小海狮呀！	あたしの　いとしい　パウワウ！	あたしの　いとしい　パウワウ!
+	line	I didn't mean it!			line	我只是因釣不到而抱怨。		line	我只是因钓不到而抱怨。	I didn't mean it!	It’s so lovable!			だきしめると
+	prompt				prompt			prompt				每当我抱紧它，	だきしめると	きゅー!　って　なくのよ!
+											It squeals “Keeew!” when I hug it!	它都会Ｑ～地这样叫呢！	きゅー！　って　なくのよ！	
+_Route21AfterBattleText8::				_Route21AfterBattleText8::										
+	text	I was just angry			text	釣不到啊！		text	钓不到啊！	I was just angry	Well, I guess that’s that...	……好了好了！	……さてと！　じゃあ	ゲームの　プログラムだ!
+	line	that I couldn't			line	難道說這裡只是		line	难道说这里只是	that I couldn't		那这个就先给你了。	これ　あげとくな	これ　かえたら　バグる　かも
+	cont	catch anything.			cont	沒有魚的大水塘。		cont	没有鱼的大水塘。	catch anything.	Here, take these. I won’t need ’em now!			
+	done				done			done						
+														
+_Route21BattleText9::				_Route21BattleText9::										
+	text	Keep me company			text	魚上鉤之前		text	鱼上钩之前	Keep me company	Keep me company till I get a hit.	鱼上钩之前	アタリが　くるまで	あたりが　くるまで
+	line	'til I get a hit!			line	我就陪你玩玩吧。		line	我就陪你玩玩吧。	'til I get a hit!		我就陪你玩玩吧。	おまえの　あいてでも　してよう	おまえの　あいてでも　してよう
+	done				done			done						
+														
+_Route21EndBattleText9::				_Route21EndBattleText9::										
+	text	That			text	真是不錯的消遣。		text	真是不错的消遣。	That	That burned some time.	真是不错的消遣。	ひまつぶしに　なった	ひまつぶしに　なった
+	line	burned some time.			prompt			prompt		burned some time.				
+	prompt													
+														
+_Route21AfterBattleText9::				_Route21AfterBattleText9::										
+	text	Oh wait! I got a			text	……等等！魚咬鉤了！		text	……等等！鱼咬钩了！	Oh wait! I got a	Oh wait...	……等等！鱼咬钩了！	……まて！　いま　あたりがッ！	…　まて!　いま　あたりがッ!
+	line	bite! Yeah!			line	啊……！		line	啊……！	bite! Yeah!	I got a bite! Yeah!	啊……！在拖拽鱼线，拖拽鱼线！	あ……！　ひいてる　ひいてる！	あ…!　ひいてる　ひいてる!
+	done				cont	在拖拽魚線，拖拽魚線！		cont	在拖拽鱼线，拖拽鱼线！					ゲ
+end					done			done						
+				end										

@@ -1,0 +1,88 @@
+text/VictoryRoad2F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_MoltresBattleText::				_MoltresBattleText::										
+	text	Gyaoo!@			text	嘯——！@		text	啸——！@	Gyaoo!@	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	text_end				text_end			text_end			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_VictoryRoad2BattleText1::				_VictoryRoad2BattleText1::										つ {PLAYER}  {PLAYER} 
+	text	VICTORY ROAD is			text	對於訓練家來說！		text	对于训练家来说！	VICTORY ROAD is	This here is Victory Road.	对于训练家来说！	ここがッ！	ここがッ!
+	line	the final test			line	這條冠軍之路！		line	这条冠军之路！	the final test	It’s the final test for Trainers!	这条冠军之路！	トレーナー　さいごの　しれん！	トレーナー　さいごの　しれん!
+	cont	for trainers!			cont	就是最後的考驗！		cont	就是最后的考验！	for trainers!				チャンピオン　ロード　だあ!
+	done				done			done				就是最后的考验！	チャンピオンロード　だあ！	
+														
+_VictoryRoad2EndBattleText1::				_VictoryRoad2EndBattleText1::										
+	text	Aiyah!			text	厲害！		text	厉害！	Aiyah!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			prompt			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_VictoryRoad2AfterBattleText1::				_VictoryRoad2AfterBattleText1::										つ {PLAYER}  {PLAYER} 
+	text	If you get stuck,			text	這裡到處都是機關！		text	这里到处都是机关！	If you get stuck,	This place is full of tricky spots. If you get stuck,	这里到处都是机关！	ここも　いたる　ところに	ここも　いたる　ところに
+	line	try moving some			line	遇到困難時，		line	遇到困难时，	try moving some	try moving some stone blocks around.	遇到困难时，	しかけが　ある！　こまったときは	しかけが　ある!　こまったときは
+	cont	boulders around!			cont	試著推動石塊看看吧！		cont	试着推动石块看看吧！	boulders around!				いわを　おして　みろ!
+	done				done			done				试着推动石块看看吧！	ブロックを　おして　みろ！	
+														
+_VictoryRoad2BattleText2::				_VictoryRoad2BattleText2::										
+	text	Ah, so you wish			text	你來這裡是打算		text	你来这里是打算	Ah, so you wish	Ah, so you wish to challenge the Elite Four?	你来这里是打算	ここに　きた　から　には	ここに　きた　から　には
+	line	to challenge the			line	挑戰四天王吧！		line	挑战四天王吧！	to challenge the		挑战四天王吧！	してんのうに　いどむ　つもりだな！	してんのうに　いどむ　つもりだな!
+	cont	ELITE FOUR?			done			done		ELITE FOUR?				
+	done													
+														
+_VictoryRoad2EndBattleText2::				_VictoryRoad2EndBattleText2::										
+	text	You			text	……好強！		text	……好强！	You	Man, you got to Mewtwo before me or that girl!	看来我和那个大姐姐	オレも　あの　おねえさんも	あの…
+	line	got me!			prompt			prompt		got me!		都被赶超了啊！	さき　こされちゃったな！	ポケモン　コスプレ　しってます?
+	prompt													
+														
+_VictoryRoad2AfterBattleText2::				_VictoryRoad2AfterBattleText2::										
+	text	<RIVAL> also came			text	對了！<RIVAL>		text	对了！<RIVAL>	<RIVAL> also came	You!	喂……！	あなた……！	あなた…!
+	line	through here!			line	剛才也通過這裡了！		line	刚才也通过这里了！	through here!	It’s really dangerous here!	这里很危险的！	ここは　あぶないわよ！	ここは　あぶないわよ!
+	done				done			done						たすけに　きた?
+											You came to save me?	什么？你是来救我的？	たすけに　きた？	…　だめよ
+_VictoryRoad2BattleText3::				_VictoryRoad2BattleText3::							You can’t!			
+	text	Come on!			text	啪、啪！		text	啪、啪！	Come on!	Come on!	啪、啪！	ピシッ　ピシーッ！	ピシッ　ピシーッ!
+	line	I'll whip you!			line	我的鞭子已經飢渴難耐了！		line	我的鞭子已经饥渴难耐了！	I'll whip you!	I’ll whip you!	我的鞭子已经饥渴难耐了！	ムチが　しなるぜーッ！	ムチが　しなるぜーッ!
+	done				done			done						
+														
+_VictoryRoad2EndBattleText3::				_VictoryRoad2EndBattleText3::										
+	text	I got			text	呀啊！		text	呀啊！	I got	I got whipped!	呀啊！	ひゅーッ！	トレーナーぞ
+	line	whipped!			prompt			prompt		whipped!				きド5ま
+	prompt													
+														
+_VictoryRoad2AfterBattleText3::				_VictoryRoad2AfterBattleText3::										
+	text	You earned the			text	不愧是來		text	不愧是来	You earned the	You earned the right to be on Victory Road...	不愧是来走冠军之路的……！	さすが　チャンピオンロードに	さすが　チャンピオン　ロードに
+	line	right to be on			line	走冠軍之路的……！		line	走冠军之路的……！	right to be on			くる　だけの　ことは　あるな……！	くる　だけの　ことは　あるな…!
+	cont	VICTORY ROAD!			done			done		VICTORY ROAD!				
+	done													
+														
+_VictoryRoad2BattleText4::				_VictoryRoad2BattleText4::										
+	text	If you can get			text	如果能順利通過這裡，		text	如果能顺利通过这里，	If you can get	If you can get through here, you can go meet	如果能顺利通过这里，	ここを　ぶじに　ぬければ	ここを　ぶじに　ぬければ
+	line	through here, you			line	你就能見到四天王了！		line	你就能见到四天王了！	through here, you	the Elite Four.	你就能见到四天王了！	してんのうに　あえるぞ！	してんのうに　あえるぞ!
+	cont	can go meet the			done			done		can go meet the				
+	cont	ELITE FOUR!								ELITE FOUR!				
+	done													
+														
+_VictoryRoad2EndBattleText4::				_VictoryRoad2EndBattleText4::										
+	text	No!			text	……這不可能！		text	……这不可能！	No!	You have no more Pokémon that can fight!	[VAR TRNAME(0000)]的手上没有	[VAR TRNAME(0000)]の　てもとには	 {PLAYER} の　てもとには
+	line	Unbelievable!			prompt			prompt		Unbelievable!		可以战斗的宝可梦！	たたかえる　ポケモンが　いない！	たたかえる　ポケモンが　いない!
+	prompt													 {PLAYER} は
+														めのまえが　まっくらに　なった!
+_VictoryRoad2AfterBattleText4::				_VictoryRoad2AfterBattleText4::										
+	text	I can beat you			text	如果比拼的是關於		text	如果比拼的是关于	I can beat you	I’m pretty sure I can still beat you when it comes	如果比拼的是关于宝可梦的知识，	ポケモンの　ちしき　だったら	ポケモンの　ちしき　だったら
+	line	when it comes to			line	寶可夢的知識，		line	宝可梦的知识，	when it comes to	to knowledge about Pokémon!	我是不会输给你的！	ぼくは　まけないと　おもうぞ！	ぼくは　まけないと　おもうぞ!
+	cont	knowledge about			cont	我是不會輸給你的！		cont	我是不会输给你的！	knowledge about				
+	cont	#MON!			done			done		#MON!				
+	done													
+														
+_VictoryRoad2BattleText5::				_VictoryRoad2BattleText5::										
+	text	Is VICTORY ROAD			text	怎麼樣！		text	怎么样！	Is VICTORY ROAD	Is Victory Road too tough?	怎么样！	どうだ！	どうだ!
+	line	too tough?			line	冠軍之路難走嗎？		line	冠军之路难走吗？	too tough?		冠军之路难走吗？	チャンピオンロードは　きついか？	チャンピオン　ロードは　きついか?
+	done				done			done						
+														
+_VictoryRoad2EndBattleText5::				_VictoryRoad2EndBattleText5::										
+	text	Well			text	好，你合格了！		text	好，你合格了！	Well	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	done!			prompt			prompt		done!		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	prompt										D’aww... Failed again?			
+														
+_VictoryRoad2AfterBattleText5::				_VictoryRoad2AfterBattleText5::										
+	text	Many trainers give			text	來到這裡後筋疲力盡，		text	来到这里后筋疲力尽，	Many trainers give	Many Trainers give up their challenge here and	来到这里后筋疲力尽，	ここで　へばって	ここで　へばって
+	line	up the challenge			line	無功而返的傢伙也不少！		line	无功而返的家伙也不少！	up the challenge	go home.	无功而返的家伙也不少！	ひきかえす　やつも　おおいぜ！	ひきかえす　やつも　おおいぜ!
+	cont	here.			done			done		here.				
+	done													
+end				end										

@@ -1,0 +1,106 @@
+text/Route6.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route6BattleText1::				_Route6BattleText1::										
+	text	I'm doing this			text	這就是愛的特訓，			これは　あいの　とっくん　なんだ		I’m particularly fond of bird Pokémon.	由于我太喜欢鸟宝可梦，	わしは　とりポケモンが	パパも　ぼくも
+	line	out of love.			line	別來煩我啊。			じゃま　しないでよ		Me and my partner Dux here are going to go		だいすき　でね	サファり　ゾーン　だいすき!
+	cont	Leave me alone!										下次要和我的搭档“和尚”		また　あそびに　いきたいな!
+	done				done						catch a Spearow soon.	一起去捉烈雀唷！	こんど　あいぼうの　おしょうと	
+													オニスズメ　つかまえに　いくよ	
+_Route6EndBattleText1::				_Route6EndBattleText1::										
+	text	No,			text	這，			ば　ばかな…		Lapras can’t swim like it used to...	它现在已经不太能游泳了……	ラプラスは　もう　あんまり	わたしが　かわいがってた　ポケモン
+	line	this can't be...			line	這怎麼可能……							およげない　から……	いまは　ポケモン　タワーで
+	prompt				prompt						So we’ll stay here together.	所以我以后也要在这里		ねむってるの…
+												一直一直陪在它身边……	あとは　おれも　ここで	…　そうだ　わたしの　 {5C} 
+_Route6AfterBattleText1::				_Route6AfterBattleText1::									ずっと　そばに　いてやるんだ	おにいちゃんに　あげるわ
+	text	My love will leave			text	這樣的話，			これじゃ		Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	me in disgust.			line	她會討厭我的……			かのじょに　きらわれちゃう…		Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	done				done									…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_Route6BattleText2::				_Route6BattleText2::										
+	text	I'm training for			text	我正在進行愛的特訓，			あいの　とっくんを　してるの		Hey! Stay out!	喂！我说！	あ　こら！	あ　こら!
+	line	my love. Don't			line	不要來妨礙我！			じゃま　しないで!		It’s not your yard!	不要随便闯进别人家的院子！	ひとんちの　にわ　はいるなよ！	ひとんちの　にわ　はいるなよ!
+	cont	bother me!												…　…　え　おれ?
+	done				done						...Huh?	…………啥？我吗？	…………え　おれ？	…　ただの　とおり　すがりだ
+											Me?			ぜーんぜん　あやしくないよ!
+_Route6EndBattleText2::				_Route6EndBattleText2::								……我只是一个吃瓜群众！	……ただの　とおり　すがりだ	…　…　あやしい?
+	text	My			text	怎麼會這樣……			そんな…		“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	textbook never...			line	課本上沒有寫呢。			きょうかしょに　のってなかったわ		2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt				prompt							…………我可疑吗？	…………あやしい？	
+														
+_Route6AfterBattleText2::				_Route6AfterBattleText2::										
+	text	Now I understand,			text	我現在明白了。			けいさん　だけが　すべてじゃない		I can’t face my followers after being defeated	以这样的方式输给你，	このような　まけかたを　しては	ちょうのうりょくは　かぎられた
+	line	#MON isn't			line	計算並非寶可夢的一切。			わかった　きが　するわ		like this.	我确实没有办法向部下交代！	ぶかたちに　しめしが　つかない！	ひとの　ちから　では　ないわ!
+	cont	about calculated												だれでも　もってるのよ!
+	cont	numbers.									Team Rocket is...	火箭队……	ロケットだんは……	ただ　それに　きが　つかない　だけ
+	done				done							就从今天起正式解散！	ほんじつを　もって　かいさんする！	
+											As of today, Team Rocket is finished!			
+_Route6BattleText3::				_Route6BattleText3::										
+	text	There aren't many			text	我在這附近轉來轉去		text	我在这附近转来转去	There aren't many	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	bugs out here.			line	也沒看到什麼蟲子。		line	也没看到什么虫子。	bugs out here.	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	done				done			done						…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_Route6EndBattleText3::				_Route6EndBattleText3::										
+	text	No!			text	這怎麼可能——		text	这怎么可能——	No!	No!	不行！打不赢你。	だめ！　かなわないわ	だめ!　かなわないわ
+	line	You're kidding!			prompt			prompt		You're kidding!	You’re too much.			
+	prompt													
+														
+_Route6AfterBattleText3::				_Route6AfterBattleText3::										
+	text	I like bugs, so			text	我果然還是		text	我果然还是	I like bugs, so	The Copycat is cute!	模仿少女真可爱！	モノマネむすめって　かわいい！	こんな　かわいい　ポケモンと
+	line	I'm going back to			line	喜歡蟲寶可夢，		line	喜欢虫宝可梦，	I'm going back to		听说她特别喜欢皮皮，	かのじょ　ピッピが　すきなんだって	いっしょで　あなたも　しあわせね
+	cont	VIRIDIAN FOREST.			cont	還是回常青森林去吧。		cont	还是回常青森林去吧。	VIRIDIAN FOREST.	I hear she really likes Clefairy, so I’m gonna go			
+	done				done			done			show it to her once I catch one!	如果我捉到了一定要给她看看！	つかまえたら　みせてあげるんだ！	
+														
+_Route6BattleText4::				_Route6BattleText4::										
+	text	Huh? You want			text	幹嗎？		text	干吗？	Huh? You want	Huh?	干吗？	なんだい	なんだい
+	line	to talk to me?			line	你找我有什麼事？		line	你找我有什么事？	to talk to me?	You want to talk to me?	你找我有什么事？	おれに　なんか　よう？	おれに　なんか　よう?
+	done				done			done						
+														
+_Route6EndBattleText4::				_Route6EndBattleText4::										
+	text	I			text	真是丟人。		text	真是丢人。	I	I guess you didn’t need to battle.	你已经训练够了！？	まにあってた　かな！？	なんだろう…?
+	line	didn't start it!			line	竟然在別人主動發起的		line	竟然在别人主动发起的	didn't start it!	OK. Next time!	那以后再找机会吧！	それじゃ　またの　きかいに！	なにかの　きかい　かな?@ゼ@
+	prompt				cont	對戰中輸了。		cont	对战中输了。					
+					prompt			prompt						
+_Route6AfterBattleText4::				_Route6AfterBattleText4::										
+	text	I should carry			text	看來外出時得帶		text	看来外出时得带	I should carry	I should be grateful for my long life.	感动啊！太感动了！	ありがたや！　ありがたや！	ありがたや!　ありがたや!
+	line	more #MON with			line	更多的寶可夢在身上		line	更多的宝可梦在身上	more #MON with				りゅうじん　さまの
+	cont	me for safety.			cont	才令人放心啊。		cont	才令人放心啊。	me for safety.	Never did I think I would get to see the bones of	没想到居然可以瞻仰到	りゅうじん　さまの	ほねを　おがめる　とは!
+	done				done			done			a dragon!	龙神大人的遗骨啊！	ほねを　おがめる　とは！	4もよひ
+														
+_Route6BattleText5::				_Route6BattleText5::										
+	text	Me? Well, OK.			text	我？		text	我？	Me? Well, OK.	Me?	我？	わたし？	わたし?
+	line	I'll play!			line	……嗯。應該可以吧。		line	……嗯。应该可以吧。	I'll play!	Well, OK. I’ll play!	……嗯。	…………うーん	…　…　…　うーん
+	done				done			done						つきあっても　いいかな
+												应该可以吧。	つきあっても　いいかな	
+_Route6EndBattleText5::				_Route6EndBattleText5::										
+	text	Just			text	……		text	……	Just	Things just didn’t work out.	……我好像不太行呢。	……どうも	…　どうも
+	line	didn't work!			line	我好像不太行呢。		line	我好像不太行呢。	didn't work!			うまく　いかないわ	うまく　いかないわ
+	prompt				prompt			prompt						
+														
+_Route6AfterBattleText5::				_Route6AfterBattleText5::										
+	text	I want to get			text	我也想變得更強。		text	我也想变得更强。	I want to get	I want to get stronger.	我也想变得更强。	あたしも　つよく　なりたいの	あたしも　つよく　なりたいの
+	line	stronger! What's			line	你能告訴我訣竅嗎？		line	你能告诉我诀窍吗？	stronger! What's	What’s your secret?	你能告诉我诀窍吗？	コツを　おしえて　くれない　かしら	コツを　おしえて　くれない　かしら
+	cont	your secret?			done			done		your secret?				ゲ
+	done													
+														
+_Route6BattleText6::				_Route6BattleText6::										
+	text	I've never seen			text	哎呀？沒見過你呢！		text	哎呀？没见过你呢！	I've never seen	I’ve never seen you around.	哎呀？没见过你呢！	おや？　みかけない　かお　だ！	おや?　みかけない　かお　だ!
+	line	you around!			line	你很厲害嗎？		line	你很厉害吗？	you around!	Are you good?	你很厉害吗？	つよいのかな？	つよいのかな?
+	cont	Are you good?			done			done		Are you good?				
+	done													
+														
+_Route6EndBattleText6::				_Route6EndBattleText6::										
+	text	You			text	這不應該啊。		text	这不应该啊。	You	Hey, you!	你呀你呀～！你不会是	キミ　キミー！　もしかして	ちょっと　まったあ!
+	line	are too good!			prompt			prompt		are too good!	Are you going to Cinnabar Island, by	要去红莲镇之类的吧？	グレンタウン　いく　けい？	そんな　いそいで　どこに　いく?
+	prompt													
+											any chance?			
+_Route6AfterBattleText6::				_Route6AfterBattleText6::										
+	text	Are my #MON			text	寶可夢太弱了？		text	宝可梦太弱了？	Are my #MON	Is my Pokémon weak?	宝可梦太弱了？	ポケモンが　よわいのか	ポケモンが　よわいのか
+	line	weak? Or, am I			line	還是我的水平太低……？		line	还是我的水平太低……？	weak? Or, am I	Or am I just bad?	还是我的水平太低……？	ぼくの　うでが　わるいのか……	ぼくの　うでが　わるいのか…
+	cont	just bad?			cont	你覺得是哪方面的原因？		cont	你觉得是哪方面的原因？	just bad?				どっちだと　おもう?
+	done				done			done			Which do you think?	你觉得是哪方面的原因？	どっちだと　おもう？	
+														
+_Route6Text7::				_Route6Text7::										
+	text	UNDERGROUND PATH			text	前方是地下通道		text	前方是地下通道	UNDERGROUND PATH	Underground Path	前方是地下通道	ここから　ちかつうろ	ここから　ちかつうろ
+	line	CERULEAN CITY -			line	華藍市　……　枯葉市		line	华蓝市　……　枯叶市	CERULEAN CITY -	(Cerulean City ⇄ Vermilion City)	华蓝市　……　枯叶市	ハナダシティ　……　クチバシティ	タマムシ　…　シオン
+	cont	VERMILION CITY			done			done		VERMILION CITY				へどぶ
+	done													
+end				end										

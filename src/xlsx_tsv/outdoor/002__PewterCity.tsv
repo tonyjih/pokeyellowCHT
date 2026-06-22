@@ -1,0 +1,119 @@
+text/PewterCity.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_PewterCityText1::				_PewterCityText1::										
+	text	It's rumored that			text	你知道嗎？傳說皮皮		text	你知道吗？传说皮皮	It's rumored that	Have you heard the stories that say Clefairy	你知道吗？	ピッピって　つきから　きたって	ピッピって　つきから　きたって
+	line	CLEFAIRYs came			line	是從月亮上來的呢……		line	是从月亮上来的呢……	CLEFAIRYs came	come from the moon?	传说皮皮是从月亮上来的呢……	ウワサ　しってる？	ウワサ　しってる?
+	cont	from the moon!			para	在月之石		para	在月之石	from the moon!				オツキミやまに
+					line	掉到月見山上之後，		line	掉到月见山上之后，	They appeared	People started seeing them after Moon Stones	在月之石掉到月见山上之后，	オツキミやまに	つきのいしが　おちてから
+	para	They appeared			cont	人們才開始看見它們的。		cont	人们才开始看见它们的。	after MOON STONE	fell on Mt. Moon.	人们才开始看见它们的。	つきのいしが　おちてから	みかける　ように　なったの
+	line	after MOON STONE			done			done		fell on MT.MOON.				
+	cont	fell on MT.MOON.											みかける　ように　なったの	
+	done													
+														
+_PewterCityText2::				_PewterCityText2::										
+	text	There aren't many			text	深灰市那裡盡是些		text	深灰市那里尽是些	There aren't many	There aren’t many serious Pokémon Trainers	深灰市那里尽是些	ニビシティは	ニビ　シティは
+	line	serious #MON			line	像是捕蟲少年這樣		line	像是捕虫少年这样	serious #MON	here in Pewter City.	像是捕虫少年这样	むしとりしょうねん　みたいに	むしとり　しょうねん　みたいに
+	cont	trainers here!			cont	把寶可夢當成		cont	把宝可梦当成	trainers here!				ただの　しゅみで　ポケモン
+					cont	興趣愛好的傢伙！		cont	兴趣爱好的家伙！	They're all like	They’re all Bug Catchers and the like.	把宝可梦当成兴趣爱好的家伙！	ただの　しゅみで　ポケモン	やってる　やつ　ばかり!
+	para	They're all like			para	但是深灰道館的小剛		para	但是深灰道馆的小刚	BUG CATCHERs,	You know, just hobbyists.			しかし　ニビ　ポケモン　ジムの
+	line	BUG CATCHERs,			line	卻和他們截然不同！		line	却和他们截然不同！	but PEWTER GYM's		但是深灰道馆的小刚	やってる　やつ　ばかり！	タケシは　ちがうぜ
+	cont	but PEWTER GYM's			done			done		BROCK is totally	But Brock at the Pewter City Gym isn’t like that—	却和他们截然不同！		ゲ
+	cont	BROCK is totally								into it!	not one bit.		しかし　ニビ　ポケモンジムの	
+	cont	into it!											タケシは　ちがうぜ	
+	done													
+														
+_PewterCityText_193f1::				_PewterCityText_193f1::										
+	text	Did you check out			text	你已經參觀過博物館了？		text	你已经参观过博物馆了？	Did you check out	Did you check out the museum already?	你已经参观过博物馆了？	きみは　もう	きみは　もう
+	line	the MUSEUM?			done			done		the MUSEUM?			はくぶつかん　けんがくした？	はくぶつかん　けんがくした?
+	done													
+														
+_PewterCityText_193f6::				_PewterCityText_193f6::										
+	text	Weren't those			text	在月見山發現的化石		text	在月见山发现的化石	Weren't those	The display of those Fossils found on Mt. Moon	在月见山发现的化石	オツキミやまで　みつかった	オツキミやま　で　みつかった
+	line	fossils from MT.			line	真是讓人興奮的展品啊！		line	真是让人兴奋的展品啊！	fossils from MT.	was really something, wasn’t it?	真是让人兴奋的展品啊！	カセキの　てんじ　すごかった！	カセキの　てんじ　すごかった!
+	cont	MOON amazing?			done			done		MOON amazing?				
+	done													
+														
+_PewterCityText_193fb::				_PewterCityText_193fb::										
+	text	Really?			text	不會吧……？		text	不会吧……？	Really?	Really?	不会吧……？	え……！	え…!
+	line	You absolutely			line	那你一定、必須、絕對		line	那你一定、必须、绝对	You absolutely	You absolutely have to go!	那你一定、必须、绝对	そりゃ　ぜったい	そりゃ　ぜったい
+	cont	have to go!			cont	要去參觀一下！		cont	要去参观一下！	have to go!				いった　ほうが　いい!
+	done				done			done				要去参观一下！	いった　ほうが　いい！	
+														
+_PewterCityText13::				_PewterCityText13::										
+	text	It's right here!			text	就是這裡了！		text	就是这里了！	It's right here!	Mm-hmm... It’s clear you’re trying hard!	嗯……你很努力嘛！	ふむ……　がんばってるな！	ふむ…　がんばってるな!
+	line	You have to pay			line	雖然要付費才能參觀，		line	虽然要付费才能参观，	You have to pay		我已经把评定功能交给	１１ばんどうろ　ゲートに　いる	じょしゅに　ダウジングマシンを
+	cont	to get in, but			cont	但是這裡真的值得一去。		cont	但是这里真的值得一去。	to get in, but	I’ve told one of my assistants to set you up with			もたせたぞ!　もらって　くれい!
+	cont	it's worth it!			cont	我就送你到這裡了！		cont	我就送你到这里了！	it's worth it!	the Judge function. He’s waiting at the gate on	在11号道路门口的助手了！	じょしゅに　ジャッジきのうを	
+	cont	See you around!			done			done		See you around!		记得去他那里拿喔！	もたせたぞ！　もらって　くれい！	
+	done										Route 11, so be sure to get it from him!			
+														
+_PewterCityText_19427::				_PewterCityText_19427::										
+	text	Psssst!			text	咻～～！		text	咻～～！	Psssst!	Pssssssssst!	咻～～！	シュー……！	シュー…!
+	line	Do you know what			line	你知道我正在做什麼嗎？		line	你知道我正在做什么吗？	Do you know what	Do you know what I’m doing?	你知道我正在做什么吗？	わたしが	ぼくが
+	cont	I'm doing?			done			done		I'm doing?				なに　やってるか　わかる?
+	done												なに　やってるか　わかる？	
+														
+_PewterCityText_1942c::				_PewterCityText_1942c::										
+	text	That's right!			text	對……沒錯！		text	对……没错！	That's right!	That’s right—anyone can tell just by looking!	对……没错！	そう……　そうなの！	そう…　それ!
+	line	It's hard work!			line	累得我骨頭快斷了！		line	累得我骨头快断了！	It's hard work!	And it’s hard work, too!	累得骨头快要断了呢！	けっこう　ほねが　おれるわ	けっこう　ほねが　おれるよ
+	done				done			done						
+														
+_PewterCityText_19431::				_PewterCityText_19431::										
+	text	I'm spraying REPEL			text	為了讓野生的寶可夢		text	为了让野生的宝可梦	I'm spraying REPEL	I’m spraying Repel around to keep wild Pokémon	为了让野生的宝可梦	かだんに　やせいの　ポケモンが	かだんに　やせいの　ポケモンが
+	line	to keep #MON			line	不要進到花壇裡，		line	不要进到花坛里，	to keep #MON	out of my flower beds!	不要进到花坛里，	はいらない　ように	はいらない　ように
+	cont	out of my garden!			cont	我正在噴除蟲噴霧呢！		cont	我正在喷除虫喷雾呢！	out of my garden!				むしよけスプレー　まいてるのさ
+	done				done			done				我正在喷除虫喷雾呢！	むしよけスプレー　まいてるのさ	ゲ
+														
+_PewterCityText_1945d::				_PewterCityText_1945d::										
+	text	You're a trainer			text	你……！		text	你……！	You're a trainer	You’re a Trainer, right?	你……！	おまえ…！	おまえ…!
+	line	right? BROCK's			line	是寶可夢訓練家吧？		line	是宝可梦训练家吧？	right? BROCK's		是宝可梦训练家吧？	ポケモン　トレーナー　だろ？	ポケモン　トレーナー　だろ?
+	cont	looking for new			cont	小剛正在尋找對手呢。		cont	小刚正在寻找对手呢。	looking for new	Brock’s looking for new challengers. Follow me!			タケシが　あいてを　さがしてる
+	cont	challengers!			cont	……請跟我來！		cont	……请跟我来！	challengers!		小刚正在寻找对手呢。	タケシが　あいてを　さがしてる	…　こっちに　こい!
+	cont	Follow me!			done			done		Follow me!				
+	done											……请跟我来！	……こっちに　こい！	
+														
+_PewterCityText14::				_PewterCityText14::										
+	text	If you have the			text	如果你有信心能贏，		text	如果你有信心能赢，	If you have the	If you think you’ve got the right stuff, you should	如果你有信心能赢，	かてる　じしんが　あるなら	かてる　じしんが　あるなら
+	line	right stuff, go			line	那就去跟小剛對戰試試吧！		line	那就去跟小刚对战试试吧！	right stuff, go	take on Brock!	那就去跟小刚对战试试吧！	タケシと　たたかって　みなよ！	タケシと　たたかって　みなよ!
+	cont	take on BROCK!			done			done		take on BROCK!				
+	done													
+														
+_PewterCityText6::				_PewterCityText6::										
+	text	TRAINER TIPS			text	……有用的公告牌！		text	……有用的公告牌！	TRAINER TIPS	Trainer Tips	……有用的公告牌！	……おとくな　けいじばん！	　『　…　 {next} 
+					para	參加戰鬥的寶可夢，		para	参加战斗的宝可梦，	Any #MON that				
+	para	Any #MON that			line	都可以獲得經驗值！		line	都可以获得经验值！	takes part in	Shake the second controller to call in	连接第２个手柄挥动１次后，	２つめの　コントローラーを	
+	line	takes part in			cont	只要在對戰中露一下面，		cont	只要在对战中露一下面，	battle, however	a Support Trainer!	帮手训练家就会出现！	１かい　ふると	
+	cont	battle, however			cont	就能得到經驗值！		cont	就能得到经验值！	short, earns EXP!				
+	cont	short, earns EXP!			done			done			Enjoy your adventure together!	两个人一起享受冒险的乐趣吧！	サポートトレーナーが	
+	done													
+													あらわれます！	
+_PewterCityText7::				_PewterCityText7::										
+	text	NOTICE!			text	……這裡貼著一張告示！		text	……这里贴着一张告示！	NOTICE!	There’s a notice posted here...	……这里贴着一张告示！	……チラシが　はって　ある！	…　チラシが　はって　ある!
+					para	最近有一群壞蛋在月見山		para	最近有一群坏蛋在月见山	Thieves have been				さいきん　オツキミやまで
+	para	Thieves have been			line	瘋狂盜取珍貴的		line	疯狂盗取珍贵的	stealing #MON	“There have been reports recently of thieves	最近有一群坏蛋在月见山	さいきん　オツキミやまで	きちょうな　ポケモンの
+	line	stealing #MON			cont	寶可夢化石！		cont	宝可梦化石！	fossils at MT.	stealing valuable Pokémon Fossils on Mt. Moon.	疯狂盗取珍贵的宝可梦化石！	きちょうな　ポケモンの	カセキを　ぬすみ　まくる
+	cont	fossils at MT.			cont	如果發現了可疑人物……		cont	如果发现了可疑人物……	MOON! Please call				あくとうが　います!
+	cont	MOON! Please call			cont	……請聯絡深灰市的警察！		cont	……请联系深灰市的警察！	PEWTER POLICE	“Please call the Pewter Police if you have any	如果发现了可疑人物……	カセキを　ぬすみ　まくる	あやしい　ひとを　みたら…!
+	cont	PEWTER POLICE			done			done		with any info!	information or see anything suspicious.”			…　ニビ　けいさつ　まで
+	cont	with any info!										……请联系深灰市的警察！	あくとうが　います！	
+	done													
+													あやしい　ひとを　みたら……！	
+_PewterCityText10::				_PewterCityText10::										
+	text	PEWTER MUSEUM			text	深灰科學博物館		text	深灰科学博物馆	PEWTER MUSEUM	Pewter Museum of Science	深灰科学博物馆	ニビ　かがくはくぶつかん	トレーナーぞ
+	line	OF SCIENCE			done			done		OF SCIENCE				きド5ま
+	done													
+														
+_PewterCityText11::				_PewterCityText11::										
+	text	PEWTER CITY			text	深灰市寶可夢道館		text	深灰市宝可梦道馆	PEWTER CITY	Pewter City Pokémon Gym	深灰市宝可梦道馆	ニビシティ　ポケモンジム	ニビシティ　ポケモン　ジム
+	line	#MON GYM			line	館主：小剛		line	馆主：小刚	#MON GYM	Gym Leader: Brock	馆主：小刚	リーダー　タケシ	りーダー　タケシ
+	cont	LEADER: BROCK			cont	如岩石般強大的男人。		cont	如岩石般强大的男人。	LEADER: BROCK				つよくて　かたい　いしの　おとこ
+					done			done		The Rock Solid	The Rock-Solid Pokémon Trainer!	如岩石般强大的男人。	つよくて　かたい　いしの　おとこ	
+	para	The Rock Solid								#MON Trainer!				
+	line	#MON Trainer!												
+	done													
+														
+_PewterCityText12::				_PewterCityText12::										
+	text	PEWTER CITY			text	這裡是深灰市。		text	这里是深灰市。	PEWTER CITY	Pewter City:	这里是深灰市。	ここは　ニビシティ	ここは　ニビシティ
+	line	A Stone Gray			line	深灰即是堅若磐石的		line	深灰即是坚若磐石的	A Stone Gray	A Stone Gray City	深灰即是坚若磐石的灰黑之色。	ニビは　はいいろ　いしの　いろ	ニビは　はいいろ　いしの　いろ
+	cont	City			cont	灰黑之色。		cont	灰黑之色。	City				へどぶ
+	done				done			done						
+end				end										

@@ -1,0 +1,58 @@
+data/text/text_4.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_FileDataDestroyedText::				_FileDataDestroyedText::										
+	text	The file data is			text	記錄資料		text	记录的内容	The file data is	The machine is undergoing maintenance.	现在机器正在维修中。	ただいま　マシンの	はいはい　こどもは　
+	line	destroyed!			line	已損壞！		line	已损坏！	destroyed!		非常抱歉，请稍后再来。	メンテナンスちゅう　です	けんがくりょう　50えん　です
+	prompt				prompt			prompt			Please come back later.			けんがく　しますか?
+													すみませんが　また	
+_WouldYouLikeToSaveText::				_WouldYouLikeToSaveText::									のちほど　おこしください	
+	text	Would you like to			text	要儲存目前的		text	要保存目前为止的	Would you like to	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	SAVE the game?			line	冒險紀錄嗎？		line	宝可梦记录吗？	SAVE the game?	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	done				done			done						…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_SavingText::				_SavingText::										
+	text	Saving...			text	正在儲存		text_start			Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	done				line	冒險紀錄……		done			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+					done									4ャよひ
+_GameSavedText::				_GameSavedText::										つ {PLAYER}  {PLAYER} 
+	text	<PLAYER> saved			text	<PLAYER>		text	<PLAYER>	<PLAYER> saved	“Diary: July 10	日记　７月10日	にっき　７がつ１０か	にっき　7がつ10か
+	line	the game!			line	儲存了遊戲！		line	完好地写下了记录！	the game!	We christened the newly discovered	我给新发现的宝可梦	しんはっけんの　ポケモンを	しんはっけんの　ポケモンを
+	done				done			done						わたしは　ミュウと　なづけた
+											Pokémon ‘Mew.’”	取名为梦幻。	わたしは　ミュウと　なづけた	ゲ
+_OlderFileWillBeErasedText::				_OlderFileWillBeErasedText::										
+	text	The older file			text	要儲存的話，		text	即将删除	The older file	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	will be erased to			line	舊紀錄會被刪除。		line	之前的宝可梦记录	will be erased to	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	save. Okay?			cont	可以嗎？		cont	可以吗？	save. Okay?				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_WhenYouChangeBoxText::				_WhenYouChangeBoxText::										
+	text	When you change a			text	更換寶可夢盒子時		text	更换盒子时	When you change a	When hit with Toxic’s poisonous effects,	“剧毒”可以使对手在中毒后	どくどくは　どくを　あびたら	どくどくは　どくを　あびたら
+	line	#MON BOX, data			line	會儲存資料。		line	将会写入记录。	#MON BOX, data	a Pokémon will take more and more damage	每回合受到更大的中毒伤害！	１ターン　ごとに　どんどん	1ターン　ごとに　どんどん
+	cont	will be saved.			cont	可以嗎？		cont	可以吗？	will be saved.				ダメージが　おおきく　なる!
+					done			done		Is that okay?	with each turn that passes in battle!	这是个能让对手	ダメージが　おおきく　なる！	これは　あいてに
+	para	Is that okay?										感受到恐怖的招式。		きょうふを　あたえる　わざで　ござる
+	done										It will surely terrorize your opponent!		これは　あいてに	
+													きょうふを　あたえる　わざで　ござる	
+_ChooseABoxText::				_ChooseABoxText::										
+	text	Choose a			text	請選擇		text	请选择	Choose a	It’s a Pokémon Report!	……是宝可梦报告！	……ポケモンレポートだ！	…　ポケモン　レポートだ!
+	line	<PKMN> BOX.@			line	寶可夢盒子。@		line	盒子。@	<PKMN> BOX.@				ポケモンが　つかう　わざは
+	text_end				text_end			text_end			Over 200 Pokémon moves have been confirmed.	仅是现在已被人知晓的	ポケモンが　つかう　わざは	げんざい　わかって　いるだけで
+												宝可梦可以使用的招式	げんざい　わかって　いるだけで	160しゅるい　いじょうある
+_EvolvedText::				_EvolvedText::										
+	text_ram	wStringBuffer			text	恭喜！@		text	恭喜！@	wStringBuffer	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	text	 evolved			text_ram	wStringBuffer		text_ram	wStringBuffer	 evolved	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				text_start			text_start						
+					done			done						
+_IntoText::				_IntoText::										
+	text_start				text_start			text_start			“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	into @			line	進化成@		line	进化为@	into @	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_ram	wcd6d			text_ram	wcd6d		text_ram	wcd6d	wcd6d				
+	text	!			text	了！		text	了！	!				
+	done				done			done						
+														
+_StoppedEvolvingText::				_StoppedEvolvingText::										
+	text	Huh? @			text	咦？@		text	什么……？@	Huh? @	Huh?	什么……？	あれ……？	の　へんかが　とまった!
+	text_ram	wStringBuffer			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer	[VAR PKNICK(0000)] stopped evolving!	[VAR PKNICK(0000)]的变化停止了！	[VAR PKNICK(0000)]の　へんかが　とまった！	
+	text_start				text_start			text_start						
+	line	stopped evolving!			line	停止進化了！		line	的变化停止了！	stopped evolving!				
+	prompt				prompt			prompt						
+end				end										

@@ -590,6 +590,181 @@ INCBIN "dfs/ChineseFonts_2E_L.bin"
 DFS_C_2E_H::
 INCBIN "dfs/ChineseFonts_2E_H.bin"
 
+
+SECTION "Chinese Fonts Extension 14", ROMX
+DFS_C_14_L::
+	INCBIN "dfs/ChineseFonts_14_L.bin"
+DFS_C_14_H::
+	INCBIN "dfs/ChineseFonts_14_H.bin"
+
+SECTION "Chinese Fonts Extension 15", ROMX
+DFS_C_15_L::
+	INCBIN "dfs/ChineseFonts_15_L.bin"
+DFS_C_15_H::
+	INCBIN "dfs/ChineseFonts_15_H.bin"
+
+SECTION "Chinese Fonts Extension 16", ROMX
+DFS_C_16_L::
+	INCBIN "dfs/ChineseFonts_16_L.bin"
+DFS_C_16_H::
+	INCBIN "dfs/ChineseFonts_16_H.bin"
+
+SECTION "Chinese Fonts Extension 17", ROMX
+DFS_C_17_L::
+	INCBIN "dfs/ChineseFonts_17_L.bin"
+DFS_C_17_H::
+	INCBIN "dfs/ChineseFonts_17_H.bin"
+
+SECTION "Chinese Fonts Extension 20", ROMX
+DFS_C_20_L::
+	INCBIN "dfs/ChineseFonts_20_L.bin"
+DFS_C_20_H::
+	INCBIN "dfs/ChineseFonts_20_H.bin"
+
+SECTION "Chinese Fonts Extension 21", ROMX
+DFS_C_21_L::
+	INCBIN "dfs/ChineseFonts_21_L.bin"
+DFS_C_21_H::
+	INCBIN "dfs/ChineseFonts_21_H.bin"
+
+SECTION "Chinese Fonts Extension 22", ROMX
+DFS_C_22_L::
+	INCBIN "dfs/ChineseFonts_22_L.bin"
+DFS_C_22_H::
+	INCBIN "dfs/ChineseFonts_22_H.bin"
+
+SECTION "Chinese Fonts Extension 23", ROMX
+DFS_C_23_L::
+	INCBIN "dfs/ChineseFonts_23_L.bin"
+DFS_C_23_H::
+	INCBIN "dfs/ChineseFonts_23_H.bin"
+
+SECTION "Chinese Fonts Extension 24", ROMX
+DFS_C_24_L::
+	INCBIN "dfs/ChineseFonts_24_L.bin"
+DFS_C_24_H::
+	INCBIN "dfs/ChineseFonts_24_H.bin"
+
+SECTION "Chinese Fonts Extension 25", ROMX
+DFS_C_25_L::
+	INCBIN "dfs/ChineseFonts_25_L.bin"
+DFS_C_25_H::
+	INCBIN "dfs/ChineseFonts_25_H.bin"
+
+SECTION "Chinese Fonts Extension 26", ROMX
+DFS_C_26_L::
+	INCBIN "dfs/ChineseFonts_26_L.bin"
+DFS_C_26_H::
+	INCBIN "dfs/ChineseFonts_26_H.bin"
+
+SECTION "Chinese Fonts Extension 27", ROMX
+DFS_C_27_L::
+	INCBIN "dfs/ChineseFonts_27_L.bin"
+DFS_C_27_H::
+	INCBIN "dfs/ChineseFonts_27_H.bin"
+
+SECTION "Chinese Fonts Extension 2F", ROMX
+DFS_C_2F_L::
+	INCBIN "dfs/ChineseFonts_2F_L.bin"
+DFS_C_2F_H::
+	INCBIN "dfs/ChineseFonts_2F_H.bin"
+
+SECTION "Chinese Fonts Extension 30", ROMX
+DFS_C_30_L::
+	INCBIN "dfs/ChineseFonts_30_L.bin"
+DFS_C_30_H::
+	INCBIN "dfs/ChineseFonts_30_H.bin"
+
+SECTION "Chinese Fonts Extension 31", ROMX
+DFS_C_31_L::
+	INCBIN "dfs/ChineseFonts_31_L.bin"
+DFS_C_31_H::
+	INCBIN "dfs/ChineseFonts_31_H.bin"
+
+SECTION "Chinese Fonts Extension 32", ROMX
+DFS_C_32_L::
+	INCBIN "dfs/ChineseFonts_32_L.bin"
+DFS_C_32_H::
+	INCBIN "dfs/ChineseFonts_32_H.bin"
+
+SECTION "Chinese Fonts Extension 33", ROMX
+DFS_C_33_L::
+	INCBIN "dfs/ChineseFonts_33_L.bin"
+DFS_C_33_H::
+	INCBIN "dfs/ChineseFonts_33_H.bin"
+
+SECTION "Chinese Fonts Extension 34", ROMX
+DFS_C_34_L::
+	INCBIN "dfs/ChineseFonts_34_L.bin"
+DFS_C_34_H::
+	INCBIN "dfs/ChineseFonts_34_H.bin"
+
+SECTION "Chinese Fonts Extension 35", ROMX
+DFS_C_35_L::
+	INCBIN "dfs/ChineseFonts_35_L.bin"
+DFS_C_35_H::
+	INCBIN "dfs/ChineseFonts_35_H.bin"
+
+SECTION "Chinese Fonts Extension 36", ROMX
+DFS_C_36_L::
+	INCBIN "dfs/ChineseFonts_36_L.bin"
+DFS_C_36_H::
+	INCBIN "dfs/ChineseFonts_36_H.bin"
+
+SECTION "Chinese Fonts Extension 37", ROMX
+DFS_C_37_L::
+	INCBIN "dfs/ChineseFonts_37_L.bin"
+DFS_C_37_H::
+	INCBIN "dfs/ChineseFonts_37_H.bin"
+
+SECTION "Chinese Fonts Extension 38", ROMX
+DFS_C_38_L::
+	INCBIN "dfs/ChineseFonts_38_L.bin"
+DFS_C_38_H::
+	INCBIN "dfs/ChineseFonts_38_H.bin"
+
+SECTION "Chinese Fonts Extension 39", ROMX
+DFS_C_39_L::
+	INCBIN "dfs/ChineseFonts_39_L.bin"
+DFS_C_39_H::
+	INCBIN "dfs/ChineseFonts_39_H.bin"
+
+SECTION "Chinese Fonts Extension 3A", ROMX
+DFS_C_3A_L::
+	INCBIN "dfs/ChineseFonts_3A_L.bin"
+DFS_C_3A_H::
+	INCBIN "dfs/ChineseFonts_3A_H.bin"
+
+SECTION "Chinese Fonts Extension 3B", ROMX
+DFS_C_3B_L::
+	INCBIN "dfs/ChineseFonts_3B_L.bin"
+DFS_C_3B_H::
+	INCBIN "dfs/ChineseFonts_3B_H.bin"
+
+SECTION "Chinese Fonts Extension 3C", ROMX
+DFS_C_3C_L::
+	INCBIN "dfs/ChineseFonts_3C_L.bin"
+DFS_C_3C_H::
+	INCBIN "dfs/ChineseFonts_3C_H.bin"
+
+SECTION "Chinese Fonts Extension 3D", ROMX
+DFS_C_3D_L::
+	INCBIN "dfs/ChineseFonts_3D_L.bin"
+DFS_C_3D_H::
+	INCBIN "dfs/ChineseFonts_3D_H.bin"
+
+SECTION "Chinese Fonts Extension 3E", ROMX
+DFS_C_3E_L::
+	INCBIN "dfs/ChineseFonts_3E_L.bin"
+DFS_C_3E_H::
+	INCBIN "dfs/ChineseFonts_3E_H.bin"
+
+SECTION "Chinese Fonts Extension 3F", ROMX
+DFS_C_3F_L::
+	INCBIN "dfs/ChineseFonts_3F_L.bin"
+DFS_C_3F_H::
+	INCBIN "dfs/ChineseFonts_3F_H.bin"
+
 SECTION "MISC", ROMX
 SurfingPikachu1Graphics4:: INCBIN "gfx/surfing_pikachu/surfing_pikachu_4.2bpp"
 INCLUDE "engine/menus/naming_screen_util.asm"

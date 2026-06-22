@@ -1,0 +1,147 @@
+text/Route3.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route3Text1::				_Route3Text1::										
+	text	Whew... I better			text	呼……		text	呼……	Whew... I better	Whew...	呼……	ふう……	ふう…
+	line	take a rest...			line	就在這裡……		line	就在这里……	take a rest...	Just taking a little rest here...	就在这里……	この　へんで……	この　へんで…
+	cont	Groan...			cont	先休息一下好了……		cont	先休息一下好了……	Groan...				…　ひとやすみ　して　いこう
+					para	我從華藍市那邊，		para	我从华蓝市那边，	That tunnel from	That tunnel from Cerulean City takes a lot	先休息一下好了……	……ひとやすみ　して　いこう	ハナダ　シティから
+	para	That tunnel from			line	穿過了洞窟來到這裡，		line	穿过了洞窟来到这里，	CERULEAN takes a	out of you!			どうくつを　ぬけて　きたら
+	line	CERULEAN takes a			cont	實在是累壞了……		cont	实在是累坏了……	lot out of you!		我从华蓝市那边，	ハナダシティから	…　つかれた
+	cont	lot out of you!			done			done				穿过了洞窟来到这里，	どうくつを　ぬけて　きたら	ゲ
+	done													
+												实在是累坏了……	……つかれた	
+_Route3BattleText1::				_Route3BattleText1::										
+	text	Hey! I met you in			text	啊，你是！		text	啊，你是！	Hey! I met you in	Hey!	啊，你是！	あッ　おまえ！	あッ　おかねが　たりない!
+	line	VIRIDIAN FOREST!			line	我在常青森林裡見過你！		line	我在常青森林里见过你！	VIRIDIAN FOREST!	I saw you in Viridian Forest!	我在常青森林里见过你！	トキワのもりで　みかけたぞ！	
+	done				done			done						
+														
+_Route3EndBattleText1::				_Route3EndBattleText1::										
+	text	You			text	雖然很不甘心，		text	虽然很不甘心，	You	COPYCAT: Oh, hey! Do you want me to mimic	模仿少女：哎呀，是你呀！	モノマネむすめ『あ　きみ！	あ!　やせいの
+	line	beat me again!			line	但我輸了。		line	但我输了。	beat me again!	you again?			@
+	prompt				prompt			prompt				你又来了呀。	また　わたしに	
+												又想让我模仿你了是吗？	ものまね　されに　きたのー？	
+_Route3AfterBattleText1::				_Route3AfterBattleText1::										
+	text	There are other			text	你在這裡捉到的寶可夢，		text	你在这里捉到的宝可梦，	There are other	I’ve heard there are many other kinds of	除此之外，	メガストーンは　ほか　にも	なあ!　この　せかいに
+	line	kinds of #MON			line	和你在森林裡捉到的		line	和你在森林里捉到的	kinds of #MON	Mega Stones in the world, as well.	还有其他种类的超级石存在。	いくつかの　しゅるいが　あります	ポケモンは　ぜんぶで　どのくらい
+	cont	than those found			cont	可不一樣哦！		cont	可不一样哦！	than those found				しゅるいが　あると　おもうか?
+	cont	in the forest!			done			done		in the forest!				ゲ
+	done													
+														
+_Route3BattleText2::				_Route3BattleText2::										
+	text	Hi! I like shorts!			text	短褲比較靈活方便，		text	短裤比较灵活方便，	Hi! I like shorts!	Hi! I like shorts!	短裤比较灵活方便，很好的！	たんパン	たんパン
+	line	They're comfy and			line	很好的！		line	很好的！	They're comfy and	They’re comfy and easy to wear!	说起来，你不是也穿着么。	うごき　やすくって　いいぜ！	うごき　やすくって　いいぜ!
+	cont	easy to wear!			cont	要不你也穿穿看？		cont	要不你也穿穿看？	easy to wear!				おまえも　はけば?
+	done				done			done			Wow! You’re wearing shorts, too!		って　おまえも　はいてる　じゃん	
+														
+_Route3EndBattleText2::				_Route3EndBattleText2::										
+	text	I don't			text	本以為我能贏的……		text	本以为我能赢的……	I don't	I don’t believe it!	本以为我能赢的……	いけると　おもったのに	いけると　おもったのに
+	line	believe it!			prompt			prompt		believe it!				
+	prompt													
+														
+_Route3AfterBattleText2::				_Route3AfterBattleText2::										
+	text	Are you storing			text	你在用電腦寄放寶可夢嗎？		text	你在用电脑寄放宝可梦吗？	Are you storing	The trick is this...	做法就是……	やりかたは……	はっはッ!
+	line	your #MON on			line	一個盒子只能寄放		line	一个盒子只能寄放	your #MON on				はーッ　はっ　はッ!
+	cont	PC? Each BOX can			cont	２０隻寶可夢。		cont	２０只宝可梦。	PC? Each BOX can	Hrrrkh! You grit your teeth as hard as you can!	先站稳了！	しっかと！	…　はァ　はァ…
+	cont	hold 20 #MON!			done			done		hold 20 #MON!	...If you’ve got ’em...	咬紧牙关，蓄满力道！	はァ　くいしばって　いっきに！	ゲ
+	done													
+											Then all at once, just let ’er rip!			
+_Route3BattleText3::				_Route3BattleText3::										
+	text	You looked at me,			text	我說你！		text	我说你！	You looked at me,	Excuse me!	我说你！	ちょっと　きみ！	ちょっと　きみ!
+	line	didn't you?			line	剛才有看我了吧？		line	刚才有看我了吧？	didn't you?	You looked at me, didn’t you?	刚才有看我了吧？	いま　わたしの　ほう　みたでしょ	いま　わたしの　ほう　みたでしょ
+	done				done			done						
+														
+_Route3EndBattleText3::				_Route3EndBattleText3::										
+	text	You're			text	真是討厭。		text	真是讨厌。	You're	You’re mean!	真是讨厌。	もう　いや	もう　いや
+	line	mean!			prompt			prompt		mean!				
+	prompt													
+														
+_Route3AfterBattleText3::				_Route3AfterBattleText3::										
+	text	Quit staring if			text	就因為你盯著人家看，		text	就因为你盯着人家看，	Quit staring if	You shouldn’t be staring if you don’t want	就因为你盯着人家看，	じろじろ　みるから	じろじろ　みるから
+	line	you don't want to			line	所以人家才會和你對戰的！		line	所以人家才会和你对战的！	you don't want to	to battle!	所以人家才会和你对战的！	たたかう　ことに　なるのよ！	たたかう　ことに　なるのよ!
+	cont	fight!			done			done		fight!				ゲ
+	done													
+														
+_Route3BattleText4::				_Route3BattleText4::										
+	text	Are you a trainer?			text	你是寶可夢訓練家？		text	你是宝可梦训练家？	Are you a trainer?	Are you a Trainer?	你是宝可梦训练家？	きみ　ポケモントレーナー？	きみ　ポケモン　トレーナー?
+	line	Let's fight!			line	那麼，快來對戰！		line	那么，快来对战！	Let's fight!	Let’s get to it right away!	那么，快来对战！	じゃ　さっそく！	じゃ　さっそく!
+	done				done			done						
+														
+_Route3EndBattleText4::				_Route3EndBattleText4::										
+	text	If I			text	如果把新寶可夢		text	如果把新宝可梦	If I	If I’d had new Pokémon, I would’ve won!	如果把新宝可梦带来的话，	あたらしい　ポケモン	あたらしい　ポケモン
+	line	had new #MON,			line	帶來的話，我就能贏你了。		line	带来的话，我就能赢你了。	had new #MON I		我就能赢你了。	もって　くれば　かてたよ	もって　くれば　かてたよ
+	cont	I would've won!						prompt		would've won!				
+	prompt				prompt									
+														
+_Route3AfterBattleText4::				_Route3AfterBattleText4::										
+	text	If a #MON BOX			text	如果電腦盒子裡		text	如果电脑盒子里	If a #MON BOX	If a Support Trainer battles alongside you,	和帮手训练家一起战斗时，	サポートトレーナーに	 {RIVAL} 『あーッ!　 {PLAYER} !
+	line	on the PC gets			line	寄放的寶可夢滿了的話，		line	寄放的宝可梦满了的话，	on the PC gets	you can have two Pokémon on your side to take		いっしょに　たたかって　もらえば	ポケモン　りーグに　いくのか?
+	cont	full, just switch			cont	只需要切換到		cont	只需要切换到	full, just switch		可以在对手派出１只宝可梦的情况下		やめとけ!
+	cont	to another BOX!			cont	其他的盒子就可以了。		cont	其他的盒子就可以了。	to another BOX!	on one opposing Pokémon!	用２只宝可梦与其对抗！	あいての　ポケモン　１ぴきに	おまえ　どうせ
+	done				done			done					２ひきで　たいこう　できる！	バッジ　もってねーだろ?
+											You can have the upper hand!	这样对我方有利极了！		みはりの　おっさんが
+_Route3BattleText5::				_Route3BattleText5::									すっごい　ゆうり！	とおして　くれねーよ!
+	text	That look you			text	你的視線！		text	你的视线！	That look you	It’s so pleasant...	真舒服……	きもち　いい……	おし!
+	line	gave me, it's so			line	……感覺令人在意！		line	……感觉令人在意！	gave me, it's so		……呼……呼～	……　すー……　すー	いい　しょうぶ　だった
+	cont	intriguing!			done			done		intriguing!	... ... ...			
+	done													
+											... ... Zzz.			
+_Route3EndBattleText5::				_Route3EndBattleText5::										
+	text	Be nice!			text	不能對女生		text	不能对女生	Be nice!	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	prompt				line	溫柔一點嗎？		line	温柔一点吗？			给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+					prompt			prompt			D’aww... Failed again?			
+_Route3AfterBattleText5::				_Route3AfterBattleText5::										
+	text	Avoid fights by			text	如果不想和別人戰鬥，		text	如果不想和别人战斗，	Avoid fights by	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	not letting			line	只需要躲避		line	只需要躲避	not letting	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	people see you!			cont	對方的視線就行。		cont	对方的视线就行。	people see you!				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_Route3BattleText6::				_Route3BattleText6::										
+	text	Hey! You're not			text	什麼啊！		text	什么啊！	Hey! You're not	Oh! [VAR TRNAME(0000)]!	[VAR TRNAME(0001)]：啊！呜哇！！	[VAR TRNAME(0001)]『あ　うわ	あ!　やせいの
+	line	wearing shorts!			line	你為什麼不穿短褲！		line	你为什么不穿短裤！	wearing shorts!	You’ve gotta—! You’re not gonna believe this!	[VAR TRNAME(0000)]，不好了！	[VAR TRNAME(0000)]　たいへんだ！	@
+	done				done			done						
+											A P-P-Pokémon... It...it... Gahhh!	咳……唔……吓啊啊啊！！	ポ……　しゃ……　ひいい！！	
+_Route3EndBattleText6::				_Route3EndBattleText6::										
+	text	Lost!			text	我輸了我輸了。		text	我输了我输了。	Lost!	Lost!	我输了我输了。	まけたまけた	トレーナーぞ
+	line	Lost! Lost!			prompt			prompt		Lost! Lost!	Lost! Lost!			きド5ま
+	prompt													
+														
+_Route3AfterBattleText6::				_Route3AfterBattleText6::										
+	text	I always wear			text	不管夏天還是冬天，		text	不管夏天还是冬天，	I always wear	I always wear shorts, even in winter.	不管夏天还是冬天，	なつも　ふゆも	なつも　ふゆも
+	line	shorts, even in			line	我只穿短褲！		line	我只穿短裤！	shorts, even in	That’s my policy.	我只穿短裤！	たんパン　しか　はかない！	たんパン　しか　はかない!
+	cont	winter!			cont	這是我的原則。		cont	这是我的原则。	winter!				それが　おれの　ポりシー
+	done				done			done				这是我的原则。	それが　おれの　ポリシー	ゲ
+														
+_Route3BattleText7::				_Route3BattleText7::										
+	text	You can fight my			text	這是我剛捉到的寶可夢，		text	这是我刚捉到的宝可梦，	You can fight my	You have no more Pokémon that can fight!	[VAR TRNAME(0000)]的手上没有	[VAR TRNAME(0000)]の　てもとには	 {PLAYER} の　てもとには
+	line	new #MON!			line	就讓它上場戰鬥吧！		line	就让它上场战斗吧！	new #MON!		可以战斗的宝可梦！	たたかえる　ポケモンが　いない！	たたかえる　ポケモンが　いない!
+	done				done			done						 {PLAYER} は
+														めのまえが　まっくらに　なった!
+_Route3EndBattleText7::				_Route3EndBattleText7::										
+	text	Done			text	一敗塗地。		text	一败涂地。	Done	Done like dinner!	一败涂地。	ぼろまけだ	トレーナーぞ
+	line	like dinner!			prompt			prompt		like dinner!				きド5ま
+	prompt													
+														
+_Route3AfterBattleText7::				_Route3AfterBattleText7::										
+	text	Trained #MON			text	果然還是……		text	果然还是……	Trained #MON	Trained Pokémon are stronger than	果然还是……自己亲手培养	やっぱり……　そだてた	やっぱり…　そだてた
+	line	are stronger than			line	自己親手培養起來的		line	自己亲手培养起来的	are stronger than	the wild ones.	起来的宝可梦比较强么。	ポケモンの　ほうが　つよいのかなあ	ポケモンの　ほうが　つよいんだな
+	cont	the wild ones!			cont	寶可夢比較強麼。		cont	宝可梦比较强么。	the wild ones!				ゲ
+	done				done			done						
+														
+_Route3BattleText8::				_Route3BattleText8::										
+	text	Eek! Did you			text	……呀啊！		text	……呀啊！	Eek! Did you	Eek!	……呀啊！	……きゃ！	…　きゃ!
+	line	touch me?			line	你剛才推了我吧？		line	你刚才推了我吧？	touch me?	Did you push me?	你刚才推了我吧？	いま　あんた　おさなかった？	いま　からだ　さわらなかった?
+	done				done			done						
+														
+_Route3EndBattleText8::				_Route3EndBattleText8::										
+	text	That's it?			text	已經結束了？		text	已经结束了？	That's it?	You won’t battle...	算了是吗……	やめるのかぁ	わかった
+	prompt				prompt			prompt			That’s OK. Take it easy.	知道了。你慢走啊～	わかった！　のんびりねー	しばらく@
+														
+_Route3AfterBattleText8::				_Route3AfterBattleText8::										
+	text	ROUTE 4 is at the			text	４號道路		text	４号道路	ROUTE 4 is at the	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	foot of MT.MOON.			line	位於月見山的山腳下。		line	位于月见山的山脚下。	foot of MT.MOON.	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	done				done			done						…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_Route3Text10::				_Route3Text10::										
+	text	ROUTE 3			text	這裡是３號道路		text	这里是３号道路	ROUTE 3	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	MT.MOON AHEAD			line	……前方是月見山		line	……前方是月见山	MT.MOON AHEAD	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done			done						
+end				end										

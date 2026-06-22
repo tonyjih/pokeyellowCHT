@@ -1,0 +1,24 @@
+text/Route16Gate1F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route16GateText_49777::				_Route16GateText_49777::										
+	text	No pedestrians			text	步行通過腳踏車道		text	步行通过自行车道	No pedestrians	There are Pokémon magazines on the shelves.	这里陈列着宝可梦的杂志！	ポケモンざっしが　ならんでる！	　ぽ　ぽ　
+	line	are allowed on			line	是很危險的！		line	是很危险的！	are allowed on				
+	cont	CYCLING ROAD!			cont	騎上腳踏車再來吧。		cont	骑上自行车再来吧。	CYCLING ROAD!	And Pokémon notebooks...	……宝可梦手册	……ポケモンてちょう	
+	done				done			done						
+											And Pokémon graphs, too!	……宝可梦图表	……ポケモングラフ	
+_Route16GateText_4977c::				_Route16GateText_4977c::										
+	text	CYCLING ROAD is a			text	腳踏車道是一條		text	自行车道是一条	CYCLING ROAD is a	This is a reception room.	这里是会客室！	ここは　おうせつしつ！	はあ　ポケモン…?
+	line	downhill course			line	穿過海的坡道！		line	穿过海的坡道！	downhill course	It’s a room where we talk with our guests.	是用来和客户交谈的房间！	おきゃくさんと　はなす　へや！	ああ…!　ここは
+	cont	by the sea. It's			cont	急馳而下的感覺很不錯哦！		cont	急驰而下的感觉很不错哦！	by the sea. It's				ひとが　とまる　りょかん　ですじゃ
+	cont	a great ride.			done			done		a great ride.	When we don’t have guests...	……没有客户到访的时候，	……おきゃくさん　いない　ときは	あいにく　へや　いっぱい　でな
+	done										it’s a place for scientists to slack off.	这里就是研究员们偷懒的天堂了。	けんきゅういんの　サボりば　さ	
+														
+_Route16GateText_49781::				_Route16GateText_49781::										
+	text	Excuse me! Wait			text	等一下，		text	等一下，	Excuse me! Wait	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	up please!			line	你，就是你！		line	你，就是你！	up please!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done			done						
+														
+_Route16GateText2::				_Route16GateText2::										
+	text	How'd you get in?			text	連這種地方都來了！		text	连这种地方都来了！	How'd you get in?	Team Rocket took off!	火箭队已经逃跑了！	ロケットだんは　にげたよ！	ロケットだんは　にげたよ!
+	line	Good effort!			line	到這裡可是很辛苦的！		line	到这里可是很辛苦的！	Good effort!	Did you get rid of them?	原来是你赶走了他们啊！	きみが　おっぱらったのかい	きみが　おっぱらったのかい
+	done				done			done						…　ありがとう!
+end				end							Thank you!	……真是太感谢你了！	……ありがとう！	ゲ

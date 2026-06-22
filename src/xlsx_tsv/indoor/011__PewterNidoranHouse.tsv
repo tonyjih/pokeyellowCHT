@@ -1,0 +1,27 @@
+text/PewterNidoranHouse.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_PewterHouse1Text1::				_PewterHouse1Text1::										
+	text	NIDORAN: Bowbow!@			text	尼多朗：叭噢叭噢！@		text	尼多朗：叭噢叭噢！@	NIDORAN: Bowbow!@	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	text_end				text_end			text_end				给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+											D’aww... Failed again?			
+_PewterHouse1Text2::				_PewterHouse1Text2::										
+	text	NIDORAN sit!			text	尼多朗，坐下！		text	尼多朗，坐下！	NIDORAN sit!	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	done				done			done				给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+											D’aww... Failed again?			
+_PewterHouse1Text3::				_PewterHouse1Text3::										
+	text	Our #MON's an			text	我家的寶可夢是外地來的，		text	我家的宝可梦是外地来的，	Our #MON's an	We got our Pokémon in a trade, so it’s finicky	我家的宝可梦是外地来的，	うちの　ポケモン　よそもの	うちの　ポケモン　よそもの
+	line	outsider, so it's			line	所以它們總是心情不好。		line	所以它们总是心情不好。	outsider, so it's	and hard to handle.	所以它们总是心情不好。	だから　き　むずかしいよ	だから　き　むずかしいよ
+	cont	hard to handle.			para	之所以說是外地來的，		para	之所以说是外地来的，	hard to handle.				よそもの　ってのは　ひとと
+					line	是因為它們是		line	是因为它们是	An outsider is a	Pokémon that you get from trades grow faster,	之所以说是外地来的，	よそもの　ってのは　ひとと	こうかん　した　ポケモンだよ
+	para	An outsider is a			cont	我交換到的寶可夢。		cont	我交换到的宝可梦。	#MON that you	but they won’t listen to a weak Trainer in battle.	是因为它们是我交换到的宝可梦。	こうかん　した　ポケモンだよ	そだつのは　はやいが
+	line	#MON that you			para	雖然培育起來比較快，		para	虽然培育起来比较快，	get in a trade.				ちからのない　トレーナーの
+	cont	get in a trade.			line	可是如果訓練家實力不足，		line	可是如果训练家实力不足，	It grows fast, but	If only we had some Gym Badges...	虽然培育起来比较快，	そだつのは　はやいが	いうことは　きかん!
+					cont	它們就不會好好聽話！		cont	它们就不会好好听话！	it may ignore an		可是如果训练家实力不足，	ちからのない　トレーナーの	バッジさえ　あれば…
+	para	It grows fast, but			para	要是有徽章的話就……		para	要是有徽章的话就……	unskilled trainer				ザ
+	line	it may ignore an			done			done		in battle!		它们就不会好好听话！	いうことは　きかん！	
+	cont	unskilled trainer								If only we had				
+	cont	in battle!								some BADGEs...		要是有徽章的话就……	バッジさえ　あれば……	
+														
+	para	If only we had												
+	line	some BADGEs...												
+	done													
+end				end										

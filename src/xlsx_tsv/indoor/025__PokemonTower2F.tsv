@@ -1,0 +1,63 @@
+text/PokemonTower2F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_PokemonTower2Text_6062d::				_PokemonTower2Text_6062d::										
+	text	<RIVAL>: Hey,			text	<RIVAL>：噢！		text	<RIVAL>：噢！	<RIVAL>: Hey,	Hiya!	嗨！	おっす！	おっす!
+	line	<PLAYER>! What			line	<PLAYER>！		line	<PLAYER>！	<PLAYER>! What	You’re here to challenge the Gym, aren’t you?	你是道馆挑战者吧！	ジムの　ちょうせんしゃ　だな！	ポケモン　チャンピオンを
+	cont	brings you here?			cont	你到這種地方來做什麼？		cont	你到这种地方来做什么？	brings you here?				めざして　みないか?
+	cont	Your #MON			cont	是你的寶可夢死了嗎？		cont	是你的宝可梦死了吗？	Your #MON	I’m not a Trainer, but I can tell if you’re worthy	我不是训练家，	おれは　トレーナー　じゃない	おれは　トレーナー　じゃない
+	cont	don't look dead!			para	……你傻嗎！這不是		para	……你傻吗！这不是	don't look dead!	of challenging the Gym Leader.	但是我可以判断你	しかし　おまえが　ジムリーダーに	しかし　かつ　ために　ばっちり
+					line	好好的嗎？不過要讓它們		line	好好的吗？不过要让它们	I can at least				アドバイス　できるぜ!
+	para	I can at least			cont	無法戰鬥的話，		cont	无法战斗的话，	make them faint!	Now, let’s get started...	是否有足够的水准	ちょうせん　するに　ふさわしい	な…!　いっしょに
+	line	make them faint!			cont	我可以幫你一把！		cont	我可以帮你一把！	Let's go, pal!				ポケモン　チャンピオン　めざそうぜ
+	cont	Let's go, pal!			para	來戰鬥吧！		para	来战斗吧！			去挑战道馆馆主！	ヤツか　どうかは　わかるぜ！	
+	done				done			done						
+												那赶快……	さっそく　だが……	
+_PokemonTower2Text_60632::				_PokemonTower2Text_60632::										
+	text	What?			text	啊！		text	啊！	What?	Hello, dear.	哎呀呀～	あらあら　あら　	
+	line	You stinker!			line	真可惡！下這麼重的手！		line	真可恶！下这么重的手！	You stinker!	How did you like the outfit?	我送你的衣服怎么样呀？	おようふく　どう　だったかしら？	
+					cont	虧我對你手下留情。		cont	亏我对你手下留情。	I took it easy on				
+	para	I took it easy on			prompt			prompt		you too!	I wanted you to wear it because you looked like	因为你真的跟我孙[VAR GENDBR(00FF,0101)]子女像极了，	うちの　まご　に　にてたから	『
+	line	you too!									my grand[VAR GENDBR(00FF,0803)]sondaughter.	所以我特别想让你穿上试试呢……	どうしても　きてほしかったの……	ヲ
+	prompt													ュ
+														い
+_PokemonTower2Text_60637::				_PokemonTower2Text_60637::										か
+	text	<RIVAL>: Well,			text	<RIVAL>：		text	<RIVAL>：	<RIVAL>: Well,	MOM: Oh, goodness, [VAR TRNAME(0000)]!	妈妈：哎呀，不好……！	おかあさん『ああ　たいへん……！	おかあさん『あらあら!
+	line	look at all your			line	啊——啊……！		line	啊——啊……！	look at all your	You and your Pokémon have been pushing	[VAR TRNAME(0000)]你和宝可梦	[VAR TRNAME(0000)]も　ポケモンも	あなたも　ポケモンも
+	cont	wimpy #MON!			cont	全都給我去死吧！		cont	全都给我去死吧！	wimpy #MON!				げんき　いっぱいね!
+					para	太弱了啊——！		para	太弱了啊——！	Toughen them up a	yourselves a bit too hard, haven’t you?	也太逞强了！	がんばり　すぎちゃった　のね	それじゃ　きを　つけて!
+	para	Toughen them up a			line	再好好培育一下吧。		line	再好好培育一下吧。	bit more!				いってらっしゃい!
+	line	bit more!			prompt			prompt			I think you could use a little rest.	快去休息一下吧。	すこし　きゅうけい　すると　いいわ	
+	prompt													ェ
+														♂
+_PokemonTower2Text_6063c::				_PokemonTower2Text_6063c::										んポケモン4ふもひ
+	text	How's your #DEX			text	喂，順便一提……！		text	喂，顺便一提……！	How's your #DEX	“In-depth coverage of the most famous guy in	全程跟拍金黄市的招牌——	ヤマブキシティの　かお！	そうか!
+	line	coming, pal?			line	你的寶可夢圖鑑怎樣了？		line	你的宝可梦图鉴怎样了？	coming, pal?	Saffron City—Karate Master!	空手道大王！	からてだいおう　に　みっちゃく！	では　さっそく　はじめるか!
+	cont	I just caught a			para	我的話，		para	我的话，	I just caught a				あのな…　わしの　おきにいりの
+	cont	CUBONE!			line	找到卡拉卡拉了呢！		line	找到卡拉卡拉了呢！	CUBONE!	“Interviewer: What is the secret of your strength?	您强大的秘诀究竟是什么？	ズバリ　つよさの　ひけつは？	ギャロップがな…　…
+					para	但是長大後的嘎啦嘎拉		para	但是长大后的嘎啦嘎拉	I can't find the				…　でな…　が…
+	para	I can't find the			line	我找不到啊！		line	我找不到啊！	grown-up MAROWAK	“Karate Master: Hwaah! Ever since I opened this	“嘿呀！	『オスッ！　かくとうどうじょうを	…　…　かわいくてな…
+	line	grown-up MAROWAK			cont	到底在哪呢——？		cont	到底在哪呢——？	yet!	Fighting Dojo, I’ve been doing weight training	自我设立了格斗道场以来，	せつりつ　してから　と　いうもの	たまらん…　くう…
+	cont	yet!			para	啊啊—— 		para	啊啊—— 	I doubt there are				…　さらに…　もう…
+					line	在這邊肯定已經沒有了吧！		line	在这边肯定已经没有了吧！	any left! Well, I	with Pokémon every single day.	我都坚持每天	まいにち　かかさず	すごすぎ…　…　で…
+	para	I doubt there are			para	那麼，我也要走了！		para	那么，我也要走了！	better get going!		和宝可梦一起锻炼肌肉！	ポケモンと　きんにく　トレーニング！	…　そう　おもうか…
+	line	any left! Well, I			line	我和你可不一樣，		line	我和你可不一样，	I've got a lot to	“Look at this muscle! Look at this Pokémon!			どうして…　…　すき…
+	cont	better get going!			cont	我可是個大忙人哦！		cont	我可是个大忙人哦！	accomplish, pal!	We’re extremely well trained.	瞅瞅！这只宝可梦！	みよ！　きたえ　ぬかれた	…　はー!
+	cont	I've got a lot to			para	再會！		para	再会！	Smell ya later!		这彻底锻炼过的肉体！	この　にくたい！　この　ポケモン！	…　…　だきしめて…
+	cont	accomplish, pal!			done			done			“Next month, a tournament will be held at the			ねるときも…
+											Saffron City Gym.	下个月在金黄道馆	らいげつ　ヤマブキジムの	…　じゃろ…　…
+	para	Smell ya later!										将举行统一大赛！	とういつ　じあいが　ひらかれるが	…　…　すばらし…!
+	done										“No matter who challenges me, I’ll defeat them			…　うつくし…
+											instantly with my fists!”	无论是怎样的对手，	どんな　ヤツらが　あいて　でも	…　…　ありゃ!
+_PokemonTower2Text2::				_PokemonTower2Text2::								都无法战胜我强力的拳头！”	わしの　コブシで　ひとひねり　よ！』	もう　こんな　じかんか!
+	text	Even we could not			text	主啊！迷惘徘徊著的		text	主啊！迷惘徘徊着的	Even we could not	Even when pushing blocks with Strong Push,	想用“推山掌”推石块，	オシダシで　ブロック　おしてんのに	こんちわ!
+	line	identify the			line	幽靈的真身……		line	幽灵的真身……	identify the	Pokémon can get in the way!	附近的宝可梦却偏要来捣乱！	ポケモン　よってきて　ジャマー！	ぼく　ポケモン…!
+	cont	wayward GHOSTs!			cont	就連我們也無從知曉！		cont	就连我们也无从知晓！	wayward GHOSTs!				…　ちゃうわい!
+					para	有西爾佛檢視鏡的話，		para	有西尔佛检视镜的话，	A SILPH SCOPE	When that happens, I use a Repel so I can get	……在这种时候，	……そんなとき　わたしは	わいは　マサキ!
+	para	A SILPH SCOPE			line	說不定就能識破了……		line	说不定就能识破了……	might be able to	back to pushin’ with no problem.	我就会喷一喷除虫喷雾，	むしよけスプレー　つかって	ひと　よんで　ポケモンマニアや!
+	line	might be able to			done			done		unmask them.				あッ　なんや　そのめは?
+	cont	unmask them.										这样就能淡定地想推就推了。	ゆうがに　オシダシ　ってるわ	あんさん　しんよう　してへんな
+	done													ホントやで!
+end				end										じっけんに　しっぱい　して
+														ポケモンと　くっついて　もうたんや
+														なッ!
+														たすけて　くれへん?
+														

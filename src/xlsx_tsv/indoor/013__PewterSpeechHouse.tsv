@@ -1,0 +1,22 @@
+text/PewterSpeechHouse.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_PewterHouse2Text1::				_PewterHouse2Text1::										
+	text	#MON learn new			text	在培育寶可夢的過程中，		text	在培育宝可梦的过程中，	#MON learn new	Pokémon learn new moves as they grow.	在培育宝可梦的过程中，	ポケモンを　そだてて　いくと	ポケモンを　そだてて　いくと
+	line	techniques as			line	它們可以學會招式！		line	它们可以学会招式！	techniques as	But some moves must be learned by TMs.	它们可以学会招式！	わざを　おぼえる！	わざを　おぼえる!
+	cont	they grow!			para	然而有一些招式只能透過		para	然而有一些招式只能通过	they grow!				しかし　ひとから　おそわらなければ
+					line	訓練家教授才能學會哦！		line	训练家教授才能学会哦！	But, some moves		然而有一些招式只能通过	しかし　わざマシン　からでしか	おぼえない　わざも　あるぞ
+	para	But, some moves			done			done		must be taught by		招式学习器学到噢！	おぼえない　わざも　あるぞ	
+	line	must be taught by								the trainer!				
+	cont	the trainer!												
+	done													
+														
+_PewterHouse2Text2::				_PewterHouse2Text2::										
+	text	#MON become			text	當寶可夢處於睡眠、		text	当宝可梦处于睡眠、	#MON become	SECRETARY: A Poké Ball that can catch any	秘书：一定能够	ひしょ『かならず　つかまえられる	しゃちょう『それは…
+	line	easier to catch			line	中毒、灼傷、麻痺狀態，		line	中毒、灼伤、麻痹状态，	easier to catch	Pokémon without fail...	捉到宝可梦的精灵球……	ボール　なんて……	どこで　かうことも　できない
+	cont	when they are			cont	或者體力不足時，		cont	或者体力不足时，	when they are				ひみつの
+	cont	hurt or asleep!			cont	會更容易捉到哦！		cont	会更容易捉到哦！	hurt or asleep!	It’s not something to be given to just any	如果不是实力雄厚的训练家，	よほどの　トレーナー　でないと	しさくひん　マスターボール!
+					para	不過……似乎也不是		para	不过……似乎也不是	But, it's not a	ordinary Trainer. That’s why the president	也没有使用它的资格。	もつ　べきでは　ありませんわ	なげれば　かならず
+	para	But, it's not a			line	百分之百能捉到。		line	百分之百能捉到。	sure thing!				ポケモンを　つかまえられる!
+	line	sure thing!			done			done			entrusted it to you.	社长正是因为看中你的实力，	しゃちょうは　あなたに　だから	こっそりと…
+	done											才会把大师球送给你的。	マスターボールを　あげたのですわ	…　…　
+end				end										つかって　みて　くれたまえ
+														

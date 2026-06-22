@@ -1,0 +1,63 @@
+text/PokemonTower6F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_PokemonTower2Text_60c1f::				_PokemonTower2Text_60c1f::										
+	text	The GHOST was the			text	原來幽靈的原形……		text	原来幽灵的原形……	The GHOST was the	The true form of the ghost was...	原来幽灵的原形……	ゆうれいの　しょうたいは……	ゆうれいの　しょうたいは…
+	line	restless soul of			line	是卡拉卡拉的母親		line	是卡拉卡拉的母亲	restless soul of	the restless spirit of Cubone’s mother!			カラカラの　おかあさんの
+	cont	CUBONE's mother!			cont	四處徘徊的靈魂！		cont	四处徘徊的灵魂！	CUBONE's mother!		是卡拉卡拉的母亲	カラカラの　おかあさんの	まよえる　たましい　だった!
+	done				done			done				四处徘徊的灵魂！	まよえる　たましい　だった！	
+														
+_PokemonTower2Text_60c24::				_PokemonTower2Text_60c24::										
+	text	The mother's soul			text	四處徘徊的靈魂變回了		text	四处徘徊的灵魂变回了	The mother's soul	The mother’s spirit was calmed, returning to its	四处徘徊的灵魂变回了	やさしい　カラカラの　おかあさんに	やさしい　カラカラの　おかあさんに
+	line	was calmed.			line	卡拉卡拉溫柔的母親……		line	卡拉卡拉温柔的母亲……	was calmed.	kind and gentle nature.	卡拉卡拉温柔的母亲……	もどった　たましいは	もどった　たましいは
+					para	接著安詳地升上天空……		para	接着安详地升上天空……	It departed to				ぶじ　てんに　のぼって…
+	para	It departed to			line	就這樣消失了……		line	就这样消失了……	the afterlife!	It departed to the afterlife...and disappeared.	接着安详地升上天空……	ぶじ　てんに　のぼって……	…　…きえて　いきました
+	line	the afterlife!			done			done				就这样消失了……	……きえて　いきました	
+	done													
+														
+_PokemonTower6BattleText1::				_PokemonTower6BattleText1::										
+	text	Give...me...			text	……血……把……你的血！		text	……血……把……你的血！	Give...me...	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	blood...			line	……給……我……！		line	……给……我……！	blood...		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	done				done			done			D’aww... Failed again?			
+														
+_PokemonTower6EndBattleText1::				_PokemonTower6EndBattleText1::										
+	text	Groan!			text	……唔。		text_start			Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			done			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_PokemonTower6AfterBattleText1::				_PokemonTower6AfterBattleText1::										つ {PLAYER}  {PLAYER} 
+	text	I feel anemic and			text	啊……！我的頭好暈！		text	啊……！我的头好晕！	I feel anemic and	I feel anemic and weak...	啊……！我的头好晕！	ああ……！　クラクラ　する！	ああ…!　クラクラ　する!
+	line	weak...			line	難道是貧血麼……		line	难道是贫血么……	weak...		难道是贫血么……	ひんけつ　かも　しれん……	ひんけつ　かも　しれん…
+	done				done			done						
+														
+_PokemonTower6BattleText2::				_PokemonTower6BattleText2::										
+	text	Urff... Kwaah!			text	定……身……法！		text	定……身……法！	Urff... Kwaah!	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	done				done			done				给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+											D’aww... Failed again?			
+_PokemonTower6EndBattleText2::				_PokemonTower6EndBattleText2::										
+	text	Some-			text	……有什麼東西從		text	……有什么东西从	Some-	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	thing fell out!			line	我身上離開了！		line	我身上离开了！	thing fell out!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt				prompt			prompt						
+														
+_PokemonTower6AfterBattleText2::				_PokemonTower6AfterBattleText2::										
+	text	Hair didn't fall			text	從我身上離開的……		text	从我身上离开的……	Hair didn't fall	My hair didn’t fall out!	从我身上离开的……	わしの　からだ　から　ぬけたもの……	わしの　からだ　から　ぬけたもの…
+	line	out! It was an			line	不是我的頭髮！		line	不是我的头发！	out! It was an	It was a malevolent spirit!	不是我的头发！	それは　かみのけ　では　ない！	それは　かみのけ　では　ない!
+	cont	evil spirit!			cont	是惡靈！		cont	是恶灵！	evil spirit!				あくりょう　じゃ
+	done				done			done				是恶灵！	あくりょう　じゃ	
+														
+_PokemonTower6BattleText3::				_PokemonTower6BattleText3::										
+	text	Ke..ke...ke...			text	啊啊……啊……啊！		text	啊啊……啊……啊！	Ke..ke...ke...	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	ke..ke...ke!!			line	……啊、啊啊……啊啊！		line	……啊、啊啊……啊啊！	ke..ke...ke!!		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	done				done			done			D’aww... Failed again?			
+														
+_PokemonTower6EndBattleText3::				_PokemonTower6EndBattleText3::										
+	text	Keee!			text	啊！		text_start			Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			done			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_PokemonTower6AfterBattleText3::				_PokemonTower6AfterBattleText3::										つ {PLAYER}  {PLAYER} 
+	text	What's going on			text	……啊、啊啊、阿嚏！		text	……啊、啊啊、阿嚏！	What's going on	What’s going on here?	……啊、啊啊、阿嚏！	……ヒ　ヒヒ　ぃっーくしょん！	っーくしょん!
+	line	here?			line	嗯？我怎麼了？		line	嗯？我怎么了？	here?		嗯？我怎么了？	あれ　わしは　どうしてたんじゃ？	あれ　わしは　どうしてたんじゃ?
+	done				done			done						
+														
+_PokemonTower6Text6::				_PokemonTower6Text6::										
+	text	Be gone...			text	……離開吧！		text	……离开吧！	Be gone...	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	Intruders...			line	……從這裡……離開吧……		line	……从这里……离开吧……	Intruders...		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	done				done			done			D’aww... Failed again?			
+end				end										

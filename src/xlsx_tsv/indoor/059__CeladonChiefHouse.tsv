@@ -1,0 +1,24 @@
+text/CeladonChiefHouse.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CeladonHouseText1::				_CeladonHouseText1::										
+	text	Hehehe! The slots			text	咳嘿嘿……！		text	咳嘿嘿……！	Hehehe! The slots	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	just reel in the			line	老虎機行業欣欣向榮！		line	老虎机行业欣欣向荣！	just reel in the	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	dough, big time!			cont	想不賺都難啊！		cont	想不赚都难啊！	dough, big time!				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_CeladonHouseText2::				_CeladonHouseText2::										
+	text	CHIEF!			text	頭兒！		text	头儿！	CHIEF!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+					para	根據今天老虎機的營業額		para	根据今天老虎机的营业额	We just shipped	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	para	We just shipped			line	採購的２０００隻寶可夢		line	采购的２０００只宝可梦	2000 #MON as				…　シルフ　カンパニー
+	line	2000 #MON as			cont	已運輸完畢！		cont	已运输完毕！	slot prizes!		……西尔佛公司	……シルフカンパニー	
+	cont	slot prizes!			done			done						
+	done													
+														
+_CeladonHouseText3::				_CeladonHouseText3::										
+	text	Don't touch the			text	不要碰遊戲城那邊		text	不要碰游戏城那边	Don't touch the	Don’t touch the posters at the Game Corner!	不要碰游戏城那边	ゲームコーナーに　はって　ある	ゲーム　コーナーに　はって　ある
+	line	poster at the			line	貼著的海報！		line	贴着的海报！	poster at the	There’re no secret switches behind any of them!	贴着的海报！	ポスターには　さわんな！	ポスターには　さわんな!
+	cont	GAME CORNER!			para	海報後面才沒有		para	海报后面才没有	GAME CORNER!				うらに　スイッチが　かくして　ある
+					line	藏著什麼開關呢！		line	藏着什么开关呢！	There's no secret		海报后面才没有	うらに　スイッチが　かくして　ある	なんて　こと　ないから!
+	para	There's no secret			done			done		switch behind it!		藏着什么开关呢！	なんて　こと　ないから！	ダ
+	line	switch behind it!												
+	done													
+end				end										

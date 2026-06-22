@@ -1,0 +1,135 @@
+text/FuchsiaCity.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_FuchsiaCityText1::				_FuchsiaCityText1::										
+	text	Did you try the			text	你去過狩獵地帶了嗎？		text	你去过狩猎地带了吗？	Did you try the	Let’s see...	…………我看看！	…………えーと！	…　…　えーと!
+	line	SAFARI GAME? Some			line	那裡有很多珍貴的寶可夢。		line	那里有很多珍贵的宝可梦。	SAFARI GAME? Some	Uh-oh! You’ve only caught [VAR NUM3(0004)] different species	你捕捉到的宝可梦……	つかまえた　ポケモンは……	つかまえた　ポケモンは…
+	cont	#MON can only			cont	在其他地方都找不到哦！		cont	在其他地方都找不到哦！	#MON can only				あれれー?
+	cont	be caught there.			done			done		be caught there.	of Pokémon!	啊呀呀？	あれれー？	まだ　@ゴを
+	done													
+											You’ve got to reach 30 species if you want	还只有[VAR NUM3(0004)]种啊！	まだ　[VAR NUM3(0004)]しゅるい　ですよ！	
+_FuchsiaCityText2::				_FuchsiaCityText2::							the Judge function.			
+	text	SAFARI ZONE has a			text	狩獵地帶的入口附近是		text	狩猎地带的入口附近是	SAFARI ZONE has a	The Safari Zone has the Playful Park out in front!	狩猎地带的入口附近是	サファリゾーンの　いりぐち　ふきんは	サファり　ゾーンは
+	line	zoo in front of			line	動物園。		line	动物园。	zoo in front of		训练家和宝可梦的互动区！	ポケモンとの　ふれあいエリア！	いりぐち　ふきんは　どうぶつえんで
+	cont	the entrance.			para	再往裡面就有可以捕捉		para	再往里面就有可以捕捉	the entrance.	Out back is the GO Park complex!			おくに　いくと　ポケモンが
+					line	寶可夢的狩獵遊戲了。		line	宝可梦的狩猎游戏了。	Out back is the		再往里面就是GO Park了！	おく　には　ＧＯパークが　ある！	とりほうだいの　サファり　ゲームじゃ
+	para	Out back is the			done			done		SAFARI GAME for				
+	line	SAFARI GAME for								catching #MON.				
+	cont	catching #MON.												
+	done													
+														
+_FuchsiaCityText3::				_FuchsiaCityText3::										
+	text	ERIK: Where's			text	弘二：奇了怪了！		text	弘二：奇了怪了！	ERIK: Where's	ERIK: Where’s Sara?	弘二：奇了怪了！我明明跟敦子说好	コージ『おかしいな？　アツコと	コージ『おかしいな?　アツコと
+	line	SARA? I said I'd			line	我明明跟敦子說好在這集合		line	我明明跟敦子说好在这集合	SARA? I said I'd	I said I’d meet her here to catch Pokémon...	在这集合去捉宝可梦的……	ポケモンとりで　まちあわせって…	ポケモンとりで　まちあわせって…
+	cont	meet her here.			cont	捉寶可夢的……		cont	捉宝可梦的……	meet her here.				とりポケモンが　みつからない!
+	done				para	完全看不到敦子的影子啊！		para	完全看不到敦子的影子啊！		But all I’m catching are some weird looks!	完全看不到敦子的影子啊！	とりポケモンが　みつからない！	
+					done			done						
+_FuchsiaCityText4::				_FuchsiaCityText4::										
+	text	That item ball in			text	你想要那邊那個球是嗎？		text	你想要那边那个球是吗？	That item ball in	That Poké Ball over there...	你想要那边那个球是吗？	あの　アイテムボール	あの　アイテム　ボール
+	line	there is really a			line	……我也想要啊！		line	……我也想要啊！	there is really a	Were you wanting that?	…………我也想要啊！	ほしいって　おもった？	ほしいって　おもった?
+	cont	#MON.			cont	什麼？那居然不是個球？		cont	什么？那居然不是个球？	#MON.				…　…　…　ぼくもさ!
+	done				done			done			Well, so was I!	什么？那居然不是个球？	……　……ぼくもさ！	…　え　あれ　いきものなの?
+														
+_FuchsiaCityText5::				_FuchsiaCityText5::							...Huh? That’s actually a Pokémon?		……え　あれ　いきものなの？	
+	text	!			text	寶可夢第一世代		text_ram	wStringBuffer	wStringBuffer	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	done				line	紅藍綠/黃 漢化人員名單		text_start			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+					para	程式：		line	已滑落至取物口！	popped out!				4ャよひ
+					line	星夜之幻、TomJinW								
+					para	翻譯：吃饃法師、								
+					line	無敵阿爾宙斯、夜靈的天空								
+					para	漢化工具：robertking								
+					line	TomJinW								
+					para	美工：								
+					line	臥看微塵、小光								
+					para	測試：無敵阿爾宙斯、小光								
+					line	NELO, SYLVEON								
+					cont	colorcat								
+					para	請勿將漢化用於商業用途								
+					line	若付費購買請聯絡退款！								
+					done									
+														
+_FuchsiaCityText11::				_FuchsiaCityText11::				done						つ {PLAYER}  {PLAYER} 
+	text	FUCHSIA CITY			text	這裡是淺紅市。		text	这里是浅红市。	FUCHSIA CITY	Fuchsia City:	这里是浅红市。	ここは　セキチクシティ	ここは　セキチク　シティ
+	line	Behold! It's			line	淺紅即是華麗絢爛的		line	浅红即是华丽绚烂的	Behold! It's	Behold! It’s Passion Pink!	浅红即是华丽绚烂的红粉之色。	セキチクは　ピンク　はなやかな　いろ	セキチクは　ピンク　はなやかな　いろ
+	cont	Passion Pink!			cont	紅粉之色。		cont	红粉之色。	Passion Pink!				
+	done				done			done						
+														
+_FuchsiaCityText13::				_FuchsiaCityText13::										
+	text	SAFARI GAME			text	狩獵遊戲		text	狩猎游戏	SAFARI GAME	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	#MON-U-CATCH!			line	捕捉你的寶可夢！		line	捕捉你的宝可梦！	#MON-U-CATCH!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done			done						
+														
+_FuchsiaCityText16::				_FuchsiaCityText16::										
+	text	SAFARI ZONE			text	狩獵地帶		text	狩猎地带	SAFARI ZONE	Home of the Safari Zone Warden	狩猎地带	サファリゾーン	サファり　ゾーン
+	line	WARDEN's HOME			line	園長的家		line	园长的家	WARDEN's HOME		园长的家	えんちょうの　いえ	えんちょうの　いえ
+	done				done			done						
+														
+_FuchsiaCityText17::				_FuchsiaCityText17::										
+	text	#MON PARADISE			text	各種寶可夢應有盡有！		text	各种宝可梦应有尽有！	#MON PARADISE	Safari Zone	狩猎地带	サファリゾーン	トレーナーぞ
+	line	SAFARI ZONE			line	歡迎來到狩獵地帶！		line	欢迎来到狩猎地带！	SAFARI ZONE	Playful Park Office	……互动区事务局	……ふれあいエリア　じむきょく	きド5ま
+	done				done			done						
+														
+_FuchsiaCityText18::				_FuchsiaCityText18::										
+	text	FUCHSIA CITY			text	淺紅市寶可夢道館		text	浅红市宝可梦道馆	FUCHSIA CITY	Fuchsia City Pokémon Gym	浅红市宝可梦道馆	セキチクシティ　ポケモンジム	セキチク　シティ　ポケモン　ジム
+	line	#MON GYM			line	館主：阿桔		line	馆主：阿桔	#MON GYM	Gym Leader: Koga	馆主：阿桔	リーダー　キョウ	りーダー　キョウ
+	cont	LEADER: KOGA			cont	毒行天下！		cont	毒行天下！	LEADER: KOGA				どくの　ことなら　なんでも　ござれ
+					done			done		The Poisonous	The Poisonous Ninja Master	毒行天下！	どくの　ことなら　なんでも　ござれ	ゲ
+	para	The Poisonous								Ninja Master				
+	line	Ninja Master!												
+	done													
+														
+_FuchsiaCityChanseyText::				_FuchsiaCityChanseyText::										
+	text	Name: CHANSEY			text	名字：吉利蛋		text	名字：吉利蛋	Name: CHANSEY	Trainer Tips	……有用的公告牌！	……おとくな　けいじばん！	…　おとくな　けいじばん!
+					para	能捉到的話		para	能捉到的话	Catching one is				しんせいひん　スーパーボールは
+	para	Catching one is			line	那就是超級幸運！		line	那就是超级幸运！	all up to chance.	The new Ultra Ball is even better at catching	新商品“高级球”	しんせいひん　ハイパーボールは	モンスターボール　より　かくじつに
+	line	all up to chance.			prompt			prompt			Pokémon than a Great Ball is!	与超级球相比	スーパーボール　より　かくじつに	ポケモンを　つかまえます!
+	prompt													なかなか　つかまえ　られない
+											Try it on those hard-to-catch Pokémon.	更容易捉到宝可梦！	ポケモンを　つかまえます！	ポケモンには　こちらを　ためそう!
+_FuchsiaCityVoltorbText::				_FuchsiaCityVoltorbText::										
+	text	Name: VOLTORB			text	名字：霹靂電球		text	名字：霹雳电球	Name: VOLTORB	Trainer Tips	……有用的公告牌！	……おとくな　けいじばん！	…　おとくな　けいじばん!
+					para	長得和精靈球		para	长得和精灵球	The very image of				しんせいひん　スーパーボールは
+	para	The very image of			line	分毫不差！		line	分毫不差！	a # BALL.	The new Ultra Ball is even better at catching	新商品“高级球”	しんせいひん　ハイパーボールは	モンスターボール　より　かくじつに
+	line	a # BALL.			prompt			prompt			Pokémon than a Great Ball is!	与超级球相比	スーパーボール　より　かくじつに	ポケモンを　つかまえます!
+	prompt													なかなか　つかまえ　られない
+											Try it on those hard-to-catch Pokémon.	更容易捉到宝可梦！	ポケモンを　つかまえます！	ポケモンには　こちらを　ためそう!
+_FuchsiaCityKangaskhanText::				_FuchsiaCityKangaskhanText::										
+	text	Name: KANGASKHAN			text	名字：袋獸		text	名字：袋兽	Name: KANGASKHAN	The ghost of the Pokémon Tower is gone!	听说宝可梦塔里	ポケモンタワーの	ポケモン　タワーの
+					para	充滿母性的寶可夢，		para	充满母性的宝可梦，	A maternal #MON	Someone must have soothed its restless spirit!	已经不会出现幽灵了！	ゆうれい　でなく　なったって！	ゆうれい　でなく　なったって!
+	para	A maternal #MON			line	會把自己的孩子放在		line	会把自己的孩子放在	that raises its				だれかが　まよえる　たましいを
+	line	that raises its			cont	腹部前面的袋子裡撫養。		cont	腹部前面的袋子里抚养。	young in a pouch	And a Trainer adopted that young Cubone.	一定是有人使那些	だれかが　まよえる　たましいを	しずめて　くれたのね
+	cont	young in a pouch			prompt			prompt		on its belly.	I’m so glad everything worked out in the end.	无家可归的灵魂得到安息了吧。	しずめて　くれたのね	ザ
+	cont	on its belly.												
+	prompt											卡拉卡拉那孩子	それに　こどもの　カラカラも	
+												也被训练家领养了，	トレーナーさんに　ひきとられて	
+_FuchsiaCitySlowpokeText::				_FuchsiaCitySlowpokeText::										
+	text	Name: SLOWPOKE			text	名字：呆呆獸		text	名字：呆呆兽	Name: SLOWPOKE	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+					para	因友好的性格而廣為人知。		para	因友好的性格而广为人知。	Friendly and very	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	para	Friendly and very			line	行動遲緩的寶可夢。		line	行动迟缓的宝可梦。	slow moving.				…　シルフ　カンパニー
+	line	slow moving.			prompt			prompt				……西尔佛公司	……シルフカンパニー	
+	prompt													
+														
+_FuchsiaCityLaprasText::				_FuchsiaCityLaprasText::										
+	text	Name: LAPRAS			text	名字：拉普拉斯		text	名字：拉普拉斯	Name: LAPRAS	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+					para	又被稱為“海龍”的		para	又被称为“海龙”的	A.K.A. the king	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	para	A.K.A. the king			line	海之王者。		line	海之王者。	of the seas.				…　シルフ　カンパニー
+	line	of the seas.			prompt			prompt				……西尔佛公司	……シルフカンパニー	
+	prompt													
+														
+_FuchsiaCityOmanyteText::				_FuchsiaCityOmanyteText::										
+	text	Name: OMANYTE			text	名字：菊石獸		text	名字：菊石兽	Name: OMANYTE	What a great battle!	刚才的对战太精彩了！	すばらしい　たたかい　だった！	はー　はーッ!
+					para	從化石中復活的		para	从化石中复活的	A #MON that	That’s what I expected from a Champion!	冠军不愧是冠军！	さすが　チャンピオン　だな！	はげしい　たたかい　だった!
+	para	A #MON that			line	稀有寶可夢。		line	稀有宝可梦。	was resurrected				きみの　かちだ!
+	line	was resurrected			prompt			prompt		from a fossil.	I didn’t stand a chance...	我确实完败于你……	かんぱい　だ……	いま…
+	cont	from a fossil.									Please, accept this from me.	请你收下吧。	もらってくれ	その　あかしに
+	prompt													グりーン　バッジを　わたそう!@ジ@
+														
+_FuchsiaCityKabutoText::				_FuchsiaCityKabutoText::										
+	text	Name: KABUTO			text	名字：化石盔		text	名字：化石盔	Name: KABUTO	What a great battle!	刚才的对战太精彩了！	すばらしい　たたかい　だった！	はー　はーッ!
+					para	從化石中復活的		para	从化石中复活的	A #MON that	That’s what I expected from a Champion!	冠军不愧是冠军！	さすが　チャンピオン　だな！	はげしい　たたかい　だった!
+	para	A #MON that			line	稀有寶可夢。		line	稀有宝可梦。	was resurrected				きみの　かちだ!
+	line	was resurrected			prompt			prompt		from a fossil.	I didn’t stand a chance...	我确实完败于你……	かんぱい　だ……	いま…
+	cont	from a fossil.									Please, accept this from me.	请你收下吧。	もらってくれ	その　あかしに
+	prompt													グりーン　バッジを　わたそう!@ジ@
+														
+_FuchsiaCityText_19b2a::				_FuchsiaCityText_19b2a::										
+	text	...			text	…		text	…	...	...	……噗通～噗通～噗通通！！	……ポチャ　ポチャ　ポチャン！！	トレーナーぞ
+	done				done			done			*splash splash splash*			きド5ま
+end				end										

@@ -1,0 +1,65 @@
+text/VictoryRoad3F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_VictoryRoad3BattleText2::				_VictoryRoad3BattleText2::										
+	text	I heard rumors of			text	聽聞有個孩子		text	听闻有个孩子	I heard rumors of	I heard rumors of a child prodigy.	听闻有个孩子	やたらと　つよい　こどもが　いると	やたらと　つよい　こどもが　いると
+	line	a child prodigy!			line	強大得令人震驚。		line	强大得令人震惊。	a child prodigy!		强大的令人震惊。	ウワサは　きいて　いるよ	ウワサは　きいて　いるよ
+	done				done			done						
+														
+_VictoryRoad3EndBattleText2::				_VictoryRoad3EndBattleText2::										
+	text	The			text	果然所言非虛。		text	果然所言非虚。	The	The rumors were true!	果然所言非虚。	たいした　やつだ	たいした　やつだ
+	line	rumors were true!			prompt			prompt		rumors were true!				
+	prompt													
+														
+_VictoryRoad3AfterBattleText2::				_VictoryRoad3AfterBattleText2::										
+	text	You beat GIOVANNI			text	打倒火箭隊坂木的……		text	打倒火箭队坂木的……	You beat GIOVANNI	So, it was you who beat Giovanni of	打倒火箭队坂木的……	ロケットだんの　サカキを	ロケットだんの　サカキを
+	line	of TEAM ROCKET?			line	就是你嗎！		line	就是你吗！	of TEAM ROCKET?	Team Rocket?	就是你吗！	たおしたのは……　きみか！	たおしたのは　…　きみか!
+	done				done			done						
+														
+_VictoryRoad3BattleText3::				_VictoryRoad3BattleText3::										
+	text	I'll show you just			text	我會讓你知道什麼叫		text	我会让你知道什么叫	I'll show you just	I’ll show you just how good you are...	我会让你知道什么叫	うえには　うえが　いるって	うえには　うえが　いるって
+	line	how good you are!			line	道高一尺魔高一丈！		line	道高一尺魔高一丈！	how good you are!		道高一尺魔高一丈！	おしえて　あげます！	おしえて　あげます!
+	done				done			done			Just kidding!			
+											Time you learned there’s always someone better!			
+_VictoryRoad3EndBattleText3::				_VictoryRoad3EndBattleText3::										
+	text	I'm			text	……我不甘心！		text	……我不甘心！	I'm	Hiya!	您好！	こんちわ！	こんちわ!
+	line	furious!			prompt			prompt		furious!	I’m a Pokémon...	我是宝可梦……！	ぼく　ポケモン……！	サファり　ゲームは　はじめて?
+	prompt													
+											N-no! I mean—!	……错！	……ちゃうわい！	
+_VictoryRoad3AfterBattleText3::				_VictoryRoad3AfterBattleText3::										
+	text	You showed me just			text	你比我強！這就是所謂的		text	你比我强！这就是所谓的	You showed me just	I’ll show you just how good you are...	我会让你知道什么叫	うえには　うえが　いるって	うえには　うえが　いるって
+	line	how good I was!			line	道高一尺魔高一丈麼。		line	道高一尺魔高一丈么。	how good I was!		道高一尺魔高一丈！	おしえて　あげます！	おしえて　あげます!
+	done				done			done			Just kidding!			
+											Time you learned there’s always someone better!			
+_VictoryRoad3BattleText4::				_VictoryRoad3BattleText4::										
+	text	Only the chosen			text	只有被選中之人		text	只有被选中之人	Only the chosen	Only the chosen can pass here!	只有被选中之人	えらばれた　もの　だけが	えらばれた　もの　だけが
+	line	can pass here!			line	才能通過這裡！		line	才能通过这里！	can pass here!		才能通过这里！	ここを　ぬけられるのだ！	ここを　ぬけられるのだ!
+	done				done			done						
+														
+_VictoryRoad3EndBattleText4::				_VictoryRoad3EndBattleText4::										
+	text	I			text	我竟然輸了。		text	本以为我能赢的……	I don't	I don’t believe it!	本以为我能赢的……	いけると　おもったのに	いけると　おもったのに
+	line	don't believe it!			prompt			prompt		believe it!				
+	prompt													
+														
+_VictoryRoad3AfterBattleText4::				_VictoryRoad3AfterBattleText4::										
+	text	All trainers here			text	這裡的訓練家都在以進入		text	这里的训练家都在以进入	All trainers here	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	are headed to the			line	寶可夢聯盟為目標。		line	宝可梦联盟为目标。	are headed to the	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	#MON LEAGUE!			cont	你可不能大意啊！		cont	你可不能大意啊！	#MON LEAGUE!				…　シルフ　カンパニー
+	cont	Be careful!			done			done		Be careful!		……西尔佛公司	……シルフカンパニー	
+	done													
+														
+_VictoryRoad3BattleText5::				_VictoryRoad3BattleText5::										
+	text	Trainers live to			text	追求強大的對手，		text	追求强大的对手，	Trainers live to	Trainers live to seek stronger opponents.	追求强大的对手，	つよい　あいてを　もとめるのは	つよい　あいてを　もとめるのは
+	line	seek stronger			line	就是訓練家的宿命！		line	就是训练家的宿命！	seek stronger		就是训练家的宿命！	トレーナーの　しゅくめいよ！	トレーナーの　しゅくめいよ!
+	cont	opponents!			done			done		opponents!				
+	done													
+														
+_VictoryRoad3EndBattleText5::				_VictoryRoad3EndBattleText5::										
+	text	Oh!			text	啊，你很強！		text	啊，你很强！	Oh!	Oh!	啊，你很强！	ああッ　つよい！	ああッ　つよい!
+	line	So strong!			prompt			prompt		So strong!	So strong!			
+	prompt													
+														
+_VictoryRoad3AfterBattleText5::				_VictoryRoad3AfterBattleText5::										
+	text	By fighting tough			text	只有歷經苦戰，		text	只有历经苦战，	By fighting tough	Team Rocket took off!	火箭队已经逃跑了！	ロケットだんは　にげたよ！	ロケットだんは　にげたよ!
+	line	battles, you get			line	自身才會變得更強。		line	自身才会变得更强。	battles, you get	Did you get rid of them?	原来是你赶走了他们啊！	きみが　おっぱらったのかい	きみが　おっぱらったのかい
+	cont	stronger!			done			done		stronger!				…　ありがとう!
+	done										Thank you!	……真是太感谢你了！	……ありがとう！	ゲ
+end				end										

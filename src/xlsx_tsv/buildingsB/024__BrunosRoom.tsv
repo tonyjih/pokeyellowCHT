@@ -1,0 +1,41 @@
+text/BrunosRoom.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_BrunoBeforeBattleText::				_BrunoBeforeBattleText::										
+	text	I am BRUNO of			text	我是四天王中的希巴！		text	我是四天王中的希巴！	I am BRUNO of	“In-depth coverage of the most famous guy in	全程跟拍金黄市的招牌——	ヤマブキシティの　かお！	そうか!
+	line	the ELITE FOUR!			para	無論是人還是寶可夢，		para	无论是人还是宝可梦，	the ELITE FOUR!	Saffron City—Karate Master!	空手道大王！	からてだいおう　に　みっちゃく！	では　さっそく　はじめるか!
+					line	只要經歷了戰鬥的錘鍊，		line	只要经历了战斗的锤炼，	Through rigorous				あのな…　わしの　おきにいりの
+	para	Through rigorous			cont	就能使實力突破極限！		cont	就能使实力突破极限！	training, people	“Interviewer: What is the secret of your strength?	您强大的秘诀究竟是什么？	ズバリ　つよさの　ひけつは？	ギャロップがな…　…
+	line	training, people			para	我就是在這樣的錘鍊中		para	我就是在这样的锤炼中	and #MON can				…　でな…　が…
+	cont	and #MON can			line	和我的寶可夢		line	和我的宝可梦	become stronger!	“Karate Master: Hwaah! Ever since I opened this	“嘿呀！	『オスッ！　かくとうどうじょうを	…　…　かわいくてな…
+	cont	become stronger!			cont	一起生活，一起成長！		cont	一起生活，一起成长！	I've weight	Fighting Dojo, I’ve been doing weight training	自我设立了格斗道场以来，	せつりつ　してから　と　いうもの	たまらん…　くう…
+					cont	今後也會如此！		cont	今后也会如此！	trained with				…　さらに…　もう…
+	para	I've weight			para	你叫<PLAYER>，對吧！		para	你叫<PLAYER>，对吧！	my #MON!	with Pokémon every single day.	我都坚持每天	まいにち　かかさず	すごすぎ…　…　で…
+	line	trained with			para	你就好好見識一下		para	你就好好见识一下	<PLAYER>!		和宝可梦一起锻炼肌肉！	ポケモンと　きんにく　トレーニング！	…　そう　おもうか…
+	cont	my #MON!			line	我們的強大力量吧！		line	我们的强大力量吧！	We will grind you	“Look at this muscle! Look at this Pokémon!			どうして…　…　すき…
+					para	哼——哈——！		para	哼——哈——！	down with our	We’re extremely well trained.	瞅瞅！这只宝可梦！	みよ！　きたえ　ぬかれた	…　はー!
+	para	<PLAYER>!			done			done		superior power!		这彻底锻炼过的肉体！	この　にくたい！　この　ポケモン！	…　…　だきしめて…
+										Hoo hah!	“Next month, a tournament will be held at the			ねるときも…
+	para	We will grind you									Saffron City Gym.	下个月在金黄道馆	らいげつ　ヤマブキジムの	…　じゃろ…　…
+	line	down with our										将举行统一大赛！	とういつ　じあいが　ひらかれるが	…　…　すばらし…!
+	cont	superior power!									“No matter who challenges me, I’ll defeat them			…　うつくし…
+											instantly with my fists!”	无论是怎样的对手，	どんな　ヤツらが　あいて　でも	…　…　ありゃ!
+	para	Hoo hah!										都无法战胜我强力的拳头！”	わしの　コブシで　ひとひねり　よ！』	もう　こんな　じかんか!
+	done													ちょっと　しゃべり　すぎたわい
+														わしの　ポケモン　じまんを
+_BrunoEndBattleText::				_BrunoEndBattleText::										おとなしく　きいてた　おれいに
+	text	Why?			text	怎麼會這樣！		text	怎么会这样！	Why?	Why?	怎么会这样！	どうした　ことだ！	どうした　ことだ!
+	line	How could I lose?			line	……我竟然輸了！		line	……我竟然输了！	How could I lose?	How could I lose?	……我竟然输了！	……おれが　まけるとは！	…　おれが　まけるとは!
+	prompt				prompt			prompt						
+														
+_BrunoAfterBattleText::				_BrunoAfterBattleText::										
+	text	My job is done!			text	既然輸了，		text	既然输了，	My job is done!	This boy here is your friend and rival who has	这个男孩子	この　おとこのこは	きみの　ポケモン　には
+	line	Go face your next			line	我們的登場也就到此為止！		line	我们的登场也就到此为止！	Go face your next	grown up right next door to you.	既是你的邻居朋友，	きみの　となりに　すむ　ともだちで	…　じゃくてんが　ある!
+	cont	challenge!			cont	可惡！你繼續往前走吧！		cont	可恶！你继续往前走吧！	challenge!				そこを　せめれば　おれ　かてるよ!
+	done				done			done			What was his name, now?	也是你的对手。	ライバルでも　ある	
+														
+_BrunoDontRunAwayText::				_BrunoDontRunAwayText::								他的名字叫什么呢？	なまえは　なんて　いうのかな？	
+	text	Someone's voice:			text	聽到了某人的聲音：		text	听到了某人的声音：	Someone's voice:	You don’t have enough dough.	你啊……	アナタさま……　さきだつ　ものが	…　おとくな　けいじばん!
+	line	Don't run away!			line	“不能逃走呀！”		line	“不能逃走呀！”	Don't run away!		最最重要的东西好像不太够噢？	たりませんよ？	ひとの　ポケモンは　ひとの　もの!
+	done				done			done			...Dough means money, kid.			やせいの　ポケモンに　だけ
+end				end								最最重要的东西……	さきだつ　もの　とは	モンスターボールを　なげて
+												当然就是指钱咯！	……おかねの　こと　です	つかまえよう!
+														

@@ -1,0 +1,9 @@
+text/SilphCo1F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SilphCo1Text1::				_SilphCo1Text1::										
+	text	Welcome!			text	歡迎光臨！		text	欢迎光临！	Welcome!	The president is still in the boardroom	啊……不知道	ああ　１１かいの	ああ…!　クラクラ　する!
+					para	您要找我們社長的話，		para	您要找我们社长的话，	The PRESIDENT is	on the 11th floor!	在11楼的社长安不安全。	しゃちょうは　ぶじ　かなあ	ひんけつ　かも　しれん…
+	para	The PRESIDENT is			line	現在他人在１１樓的		line	现在他人在１１楼的	in the boardroom				
+	line	in the boardroom			cont	社長辦公室裡。		cont	社长办公室里。	on 11F!	I’m so worried. I hope he’s safe...	真是让人担心啊……！	……しんぱいだ！	
+	cont	on 11F!			done			done						
+	done													
+end				end										

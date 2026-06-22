@@ -1,0 +1,67 @@
+text/Route12SuperRodHouse.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route12HouseText_564c0::				_Route12HouseText_564c0::										
+	text	I'm the FISHING			text	我就是		text	我就是	I'm the FISHING	I’m the Day-Care Lady.	这里是培育屋。	わたしは　そだてやさん	…　おとくな　けいじばん!
+	line	GURU's brother!			line	釣魚大叔的弟弟呀！		line	钓鱼大叔的弟弟呀！	GURU's brother!				ポケモンを　つかまえる　ときは
+					para	熱愛釣魚，		para	热爱钓鱼，	I simply Looove	I look after and raise the Pokémon of Trainers	大家把宝可梦寄放在我这里后，	みんなの　ポケモンを　あずかって	なるべく　よわらせてから!
+	para	I simply Looove			line	不忍釋手。		line	不忍释手。	fishing!	who leave them here with me.	我就会开始培育它们。	そだてているよ	ポケモンが　げんきだと
+	line	fishing!			para	你喜不喜歡釣魚呢？		para	你喜不喜欢钓鱼呢？	Do you like to				にげるかも　しれないよ!
+					done			done		fish?	Now then, what would you like to do?	那么，你有什么事？	さて　どうするかね？	
+	para	Do you like to												
+	line	fish?												
+	done													
+														
+_Route12HouseText_564c5::				_Route12HouseText_564c5::										
+	text	Grand! I like			text	是嗎！		text	是吗！	Grand! I like	“1F: Service Counter	１楼……　服务柜台	１かい……　サービス・カウンター	おくじょう　…　いこいの　ひろば
+	line	your style!			line	看來我和你很投緣嘛！		line	看来我和你很投缘嘛！	your style!		２楼……　训练家广场	２かい……　トレーナーズ・マーケット	　　　　　　…　じどう　はんばいき
+					para	給你這個，		para	给你这个，	Take this and	“2F: Trainers’ Market			プ
+	para	Take this and			line	讓你也來體會一下釣魚吧！		line	让你也来体会一下钓鱼吧！	fish, young one!		３楼……　电子游戏专卖店	３かい……　テレビ　ゲーム　ショップ	
+	line	fish, young one!			para	<PLAYER>從釣魚大叔		para	<PLAYER>从钓鱼大叔	<PLAYER> received	“3F: Video Game Shop	４楼……　聪明人礼品店	４かい……　ワイズマン・ギフト	
+					line	那裡得到了@		line	那里得到了@	a @				
+	para	<PLAYER> received			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer	“4F: Wiseman Gifts	５楼……　饰品天地	５かい……　アクセサリー　マーケット	
+	line	a @			text	！@		text	！@	!@		顶楼……　自动贩卖机	おくじょう……　じどう　はんばいき	
+	text_ram	wStringBuffer			text_end			text_end			“5F: Accessory Market			
+	text	!@												
+	text_end										“Roof: Relaxation Space & Vending Machines”			
+														
+_Route12HouseText_564ca::				_Route12HouseText_564ca::										
+	text_start				text_start			text_start			KOGA: With Trainers like you	阿桔：有了像你或是	キョウ『おぬしや	キョウ『…　ファ　ファ　ファ!
+					para	釣魚就是		para	钓鱼就是	Fishing is a way	and [VAR TRNAME(0001)],	[VAR TRNAME(0001)]这样的训练家，	[VAR TRNAME(0001)]の　ような　トレーナーが	こわっぱ　ごときが
+	para	Fishing is a way			line	屬於大人的浪漫！		line	属于大人的浪漫！	of life!				せっしゃに　たたかいを　いどむとは
+	line	of life!			para	無論是海還是河流！		para	无论是海还是河流！	From the seas to	the Pokémon League must be a place	如今在宝可梦联盟一定能	いるので　あれば	かたはら　いたいで　ござる!
+					line	不需要多加思考，		line	不需要多加思考，	rivers, go out	of formidable strength!	看到群英荟萃一般的景象吧！		…　どくを　くらったら　じめつ!
+	para	From the seas to			cont	用釣竿釣就完了！		cont	用钓竿钓就完了！	and land the big			いまの　ポケモンリーグは	ねむって　しまったら　むていこう
+	line	rivers, go out			done			done		one!	Truly, it is something to be proud of!	在下要不要也以成为四天王	そうとうな　つよさを	…　しのびの　わざの　ごくいを
+	cont	and land the big										为目标而努力一番呐……		うけて　みよ!
+	cont	one!									As it so happens, I have been thinking		ほこる　しせつで　ござろう！	
+	done										of aiming to join the Elite Four myself...			
+													せっしゃも　してんのうを	
+_Route12HouseText_564cf::				_Route12HouseText_564cf::									めざして　みようか……	
+	text	Oh... That's so			text	什麼嘛……		text	什么嘛……	Oh... That's so	It’s so pleasant...	真舒服……	きもち　いい……	おし!
+	line	disappointing...			line	好失望。		line	好失望。	disappointing...		……呼……呼～	……　すー……　すー	いい　しょうぶ　だった
+	done				done			done			... ... ...			
+														
+_Route12HouseText_564d4::				_Route12HouseText_564d4::							... ... Zzz.			
+	text	Hello there,			text	呀——		text	呀——	Hello there,	Trainer Tips	……有用的公告牌！	……おとくな　けいじばん！	…　おとくな　けいじばん!
+	line	<PLAYER>!			line	<PLAYER>！		line	<PLAYER>！	<PLAYER>!				ポケモンを　つかまえる　ときは
+					para	回到之前的地點		para	回到之前的地点	Use the SUPER ROD	How you try to catch a Pokémon depends on	使用的手柄不同，	ポケモンの　つかまえかたは	なるべく　よわらせてから!
+	para	Use the SUPER ROD			line	用厲害釣竿，		line	用厉害钓竿，	in any water!	the kind of controller you’re using.	捕捉宝可梦的方法也不同！	コントローラーに　よって　ちがう！	ポケモンが　げんきだと
+	line	in any water!			cont	還會釣上不同的寶可夢！		cont	还会钓上不同的宝可梦！	You can catch				にげるかも　しれないよ!
+	cont	You can catch			para	在各種地方		para	在各种地方	different kinds	If you change your controller, you can check	如果你更换了手柄，	コントローラーを　かえたら	
+	cont	different kinds			line	都釣釣看吧！		line	都钓钓看吧！	of #MON.	the Help option that appears on	记得在捕捉宝可梦的画面上	ポケモンを　つかまえる　がめんで	
+	cont	of #MON.			done			done		Try fishing				
+										wherever you can!	the Pokémon-catching screen for	查看帮助信息！	ヘルプを　みてみよう！	
+	para	Try fishing									a quick tutorial!			
+	line	wherever you can!												
+	done													
+														
+_Route12HouseText_564d9::				_Route12HouseText_564d9::										
+	text	Oh no!			text	哎呀——！		text	哎呀——！	Oh no!	If a Support Trainer battles alongside you,	和帮手训练家一起战斗时，	サポートトレーナーに	 {RIVAL} 『あーッ!　 {PLAYER} !
+					para	雖然想給你好東西，		para	虽然想给你好东西，	I had a gift for	you can have two Pokémon on your side to take		いっしょに　たたかって　もらえば	ポケモン　りーグに　いくのか?
+	para	I had a gift for			line	但你的行李滿了呀！		line	但你的行李满了呀！	you, but you have		可以在对手派出１只宝可梦的情况下		やめとけ!
+	line	you, but you have			done			done		no room for it!	on one opposing Pokémon!	用２只宝可梦与其对抗！	あいての　ポケモン　１ぴきに	おまえ　どうせ
+	cont	no room for it!											２ひきで　たいこう　できる！	バッジ　もってねーだろ?
+	done										You can have the upper hand!	这样对我方有利极了！		みはりの　おっさんが
+end				end									すっごい　ゆうり！	とおして　くれねーよ!
+														…　それよりさあ!
+														おまえの　ポケモン
+														すこしは　つよく　なったかよ?

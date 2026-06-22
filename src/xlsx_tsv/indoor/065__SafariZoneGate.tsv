@@ -1,0 +1,150 @@
+text/SafariZoneGate.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SafariZoneEntranceText1::				_SafariZoneEntranceText1::										
+	text	Welcome to the			text	歡迎來到狩獵地帶！		text	欢迎来到狩猎地带！	Welcome to the	Home of the Safari Zone Warden	狩猎地带	サファリゾーン	サファり　ゾーン
+	line	SAFARI ZONE!			done			done		SAFARI ZONE!		园长的家	えんちょうの　いえ	えんちょうの　いえ
+	done													
+														
+SafariZoneEntranceText_9e814::				SafariZoneEntranceText_9e814::										
+	text	Leaving early?@			text	已經要結束了嗎？@		text	已经要结束了吗？@	Leaving early?@	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	text_end				text_end			text_end				给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+											D’aww... Failed again?			
+_SafariZoneEntranceText_753bb::				_SafariZoneEntranceText_753bb::										
+	text	Please return any			text	那麼請將剩下的狩獵球		text	那么请将剩下的狩猎球	Please return any	You can’t carry any more Pewter Crunchies!	装不下更多的深灰米果了！？	もう　ニビあられ　もてないよ！？	おきゃくさん　もう　もてないよ@ゼ@
+	line	SAFARI BALLs you			line	全部交給我們吧！		line	全部交给我们吧！	SAFARI BALLs you	Why do you have so many?	你怎么带了这么多！？	なんで　そんなに　もってるの！？	
+	cont	have left.			done			done		have left.				
+	done										...Please eat them!	……吃完再来买呗！？	……ちゃんと　たべて！？	
+														
+_SafariZoneEntranceText_753c0::				_SafariZoneEntranceText_753c0::										
+	text	Good Luck!			text	那麼，加油吧！		text	那么，加油吧！	Good Luck!	Good luck out there, Trainer!	加油啊，训练家～！	トレーナーさん　がんばってー	トレーナーぞ
+	done				done			done						きド5ま
+														
+_SafariZoneEntranceText_753c5::				_SafariZoneEntranceText_753c5::										
+	text	Did you get a			text	您辛苦了！		text	您辛苦了！	Did you get a	Hello, [VAR TRNAME(0000)]!	那啥～说你呢～[VAR TRNAME(0000)]啊！	やー　やー　[VAR TRNAME(0000)]！	やー　やー　 {PLAYER} くん!
+	line	good haul?			line	捉到很多寶可夢了嗎？		line	捉到很多宝可梦了吗？	good haul?				また　わしの　ポケモン　じまんを
+	cont	Come again!			cont	下次再來玩吧！		cont	下次再来玩吧！	Come again!	Did you come see me about my Pokémon again?	又想来听老夫介绍	また　わしの　ポケモン　じまんを	ききに　きたの　かね!
+	done				done			done				引以为豪的宝可梦了吧！	ききに　きたの　かね！	…　え　ちがう?
+											No?			なんじゃ…　つまらん
+SafariZoneEntranceText_9e6e4::				SafariZoneEntranceText_9e6e4::							Too bad!	……啥？不是？	……え　ちがう？	
+	text	For just ¥500,			text	只要花¥500		text	只要花¥500	For just ¥500,	The fourth page says...	第４页……	４ページめ……	にんしゅうを　たおすこと!
+	line	you can catch all			line	就能在這片廣闊的狩獵地帶		line	就能在这片广阔的狩猎地带	you can catch all				さらに　ポケモンりーグ　ほんぶには
+	cont	the #MON you			cont	享受盡情捕捉寶可夢的		cont	享受尽情捕捉宝可梦的	the #MON you	“The goal for all Pokémon Trainers is simple. It is	宝可梦训练家的目标	ポケモントレーナーの　もくひょうは	…　もうれつに　つよい!
+	cont	want in the park!			cont	狩獵遊戲！		cont	狩猎游戏！	want in the park!	to defeat the eight Gym Leaders in the region.	就是打败各个宝可梦道馆的	かくちの　ジムに　いる	してんのうが　くんりん　してる!
+					para	要不要參加呢？		para	要不要参加呢？	Would you like to				へどぶぼ
+	para	Would you like to			line	@		line	@	join the hunt?@	“Do so to earn the right to face...the extremely	８位强大的训练家！	つよい　トレーナー	
+	line	join the hunt?@			text_end			text_end			strong Elite Four of the Pokémon League!”	之后还有一场更加困难的战斗！	８にんしゅうを　たおすこと！	
+	text_end													
+												那就是在宝可梦联盟总部	さらに　ポケモンリーグ　ほんぶには	
+SafariZoneEntranceText_9e747::				SafariZoneEntranceText_9e747::								挑战四天王了！	……もうれつに　つよい！	
+	text	That'll be ¥@			text	那麼……！		text	那么……！	That'll be ¥500	“1F: Service Counter	１楼……　服务柜台	１かい……　サービス・カウンター	おくじょう　…　いこいの　ひろば
+					line	收您¥@								
+	text_bcd	wPriceTemp, $c3 			text_bcd	wPriceTemp, $c3 		line	收您¥500！	please!		２楼……　训练家广场	２かい……　トレーナーズ・マーケット	　　　　　　…　じどう　はんばいき
+	text	,			text	！		para	在这里只能使用狩猎专用的	We only use a	“2F: Trainers’ Market			プ
+	line	please!						line	精灵球进行捕捉！	special # BALL		３楼……　电子游戏专卖店	３かい……　テレビ　ゲーム　ショップ	
+								cont	……这些是给您的！	here.	“3F: Video Game Shop	４楼……　聪明人礼品店	４かい……　ワイズマン・ギフト	
+	para	We only use a			para	在這裡只能使用狩獵專用的		para	<PLAYER>从前台那里	<PLAYER> received				
+	line	special # BALL			line	精靈球進行捕捉！		line	得到了３０个狩猎球！@	30 SAFARI BALLs!@	“4F: Wiseman Gifts	５楼……　饰品天地	５かい……　アクセサリー　マーケット	
+	cont	here.			cont	……這些是給您的！		text_end				顶楼……　自动贩卖机	おくじょう……　じどう　はんばいき	
+											“5F: Accessory Market			
+	para	<PLAYER> received			para	<PLAYER>從櫃台那裡								
+	line	30 SAFARI BALLs!@			line	得到了３０個狩獵球！@					“Roof: Relaxation Space & Vending Machines”			
+	text_end				text_end									
+														
+_SafariZoneEntranceText_75360::				_SafariZoneEntranceText_75360::										
+	text_start				text_start			text_start			There’s a notice posted here...	……这里贴着一张告示！	……チラシが　はって　ある！	…　チラシが　はって　ある!
+					para	剩餘時間沒有了，		para	剩余时间没有了，	We'll call you on				さいきん　オツキミやまで
+	para	We'll call you on			line	或是狩獵球用完的話		line	或是狩猎球用完的话	the PA when you	“There have been reports recently of thieves	最近有一群坏蛋在月见山	さいきん　オツキミやまで	きちょうな　ポケモンの
+	line	the PA when you			cont	我們會用擴音器通知您的！		cont	我们会用扩音器通知您的！	run out of time	stealing valuable Pokémon Fossils on Mt. Moon.	疯狂盗取珍贵的宝可梦化石！	きちょうな　ポケモンの	カセキを　ぬすみ　まくる
+	cont	run out of time			cont	那麼……！祝您好運！		cont	那么……！祝您好运！	or SAFARI BALLs!				あくとうが　います!
+	cont	or SAFARI BALLs!			done			done			“Please call the Pewter Police if you have any	如果发现了可疑人物……	カセキを　ぬすみ　まくる	あやしい　ひとを　みたら…!
+	done										information or see anything suspicious.”			…　ニビ　けいさつ　まで
+												……请联系深灰市的警察！	あくとうが　います！	
+_SafariZoneEntranceText_75365::				_SafariZoneEntranceText_75365::										
+	text	OK! Please come			text	是嗎……！		text	是吗……！	OK! Please come	Oh, you don’t have enough money!	哎呀，你的钱不够啊！	ありゃ　おかねが　たりないよ！	また　きてね
+	line	again!			line	歡迎下次再來。		line	欢迎下次再来。	again!	Please come back again!	欢迎下次再来！	また　きてね！	
+	done				done			done					……ニビ　けいさつ　まで	
+														
+_SafariZoneEntranceText_7536a::				_SafariZoneEntranceText_7536a::										
+	text	Oops! Not enough			text	啊，錢不夠！		text	啊，钱不够！	Oops! Not enough	Oops, not enough money!	钱不够！	おかねが　たりないぞ！	おかねが　たりないぞ!
+	line	money!			done			done		money!				
+	done													
+														
+_SafariZoneEntranceText_753e6::				_SafariZoneEntranceText_753e6::										
+	text	Hi! Is it your			text	你好！		text	你好！	Hi! Is it your	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	first time here?			line	是初次參加狩獵遊戲嗎？		line	是初次参加狩猎游戏吗？	first time here?	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	done				done			done						…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_SafariZoneEntranceText_753eb::				_SafariZoneEntranceText_753eb::										
+	text	SAFARI ZONE has 4			text	狩獵遊戲		text	狩猎游戏	SAFARI ZONE has 4	BLUE: Yo, [VAR TRNAME(0000)]!	青绿：唷！[VAR TRNAME(0000)]！	グリーン『よう！　[VAR TRNAME(0000)]	 {next} 
+	line	zones in it.			line	是分成４個地帶的！		line	是分成４个地带的！	zones in it.				
+					para	每個地帶都分別有		para	每个地带都分别有	Each zone has	Since I’ve become the Gym Leader here,	本大爷当上了道馆馆主之后，	おれさまが　ジムリーダーに　なって	
+	para	Each zone has			line	不同種類的稀有寶可夢		line	不同种类的稀有宝可梦	different kinds	the Viridian City Gym has really stepped it up!	常青道馆热闹得人山人海啊！	トキワジムは　おおにぎわい！	
+	line	different kinds			cont	棲息著，請使用專用的		cont	栖息着，请使用专用的	of #MON. Use				
+	cont	of #MON. Use			cont	狩獵球去捕獲它們！		cont	狩猎球去捕获它们！	SAFARI BALLs to	It’s made each day pretty busy, though!	每天都忙得不可开交！	まいにち　たいへん　だぜ！	
+	cont	SAFARI BALLs to			para	但是，當時間到了或是		para	但是，当时间到了或是	catch them!				
+	cont	catch them!			line	狩獵球全部投光了的話，		line	狩猎球全部投光了的话，	When you run out	By the way...	不过吧……	しっかし　さあ……	
+					cont	遊戲就結束了哦！		cont	游戏就结束了哦！	of time or SAFARI	what do you think of this Gym’s design?	你觉得这个道馆的设计如何？	このジムの　デザイン　どう？	
+	para	When you run out			para	在你去玩之前，請確保		para	在你去玩之前，请确保	BALLs, it's game				
+	line	of time or SAFARI			line	您使用空間充足的盒子		line	您使用空间充足的盒子	over for you!	It makes me look like some kinda bad guy, right?	会不会显得本大爷像个坏人一样？	おれ　わるもの　みたいじゃねー？	
+	cont	BALLs, it's game			cont	來儲存新捉到的寶可夢哦！		cont	来储存新捉到的宝可梦哦！	Before you go,				
+	cont	over for you!			done			done		open an unused	I’ve been thinking of remodeling the place.	也许是该重新装修一下了吧？	つくりなおそう　かなあ？	
+										#MON BOX so				
+	para	Before you go,								there's room for	Well, it doesn’t matter all that much, I guess.	虽然无论在哪都不会	ま　どんな　ところでも	
+	line	open an unused								new #MON!	No matter the place, I’m still the best there is!	改变本大爷非凡的实力就是了！	おれの　つよさは　かわらねー　けど！	
+	cont	#MON BOX so												
+	cont	there's room for									All right! It’s been a while since I’ve gone all out.	……好了！就久违地	……よし！　ひさびさに	
+	cont	new #MON!									So I’ll show you the strength of a top Trainer!	让你见识一下本大爷的实力吧！	おれさまの　じつりょく	
+	done													
+													みせつけて　やるか！	
+_SafariZoneEntranceText_753f0::				_SafariZoneEntranceText_753f0::										
+	text	Sorry, you're a			text	哎喲，失禮了！		text	哎哟，失礼了！	Sorry, you're a	You there, m[VAR GENDBR(00FF,0808)]on petita petite!	我说！	ほら！	ほら!
+	line	regular here!			line	原來是常客啊！		line	原来是常客啊！	regular here!	We’re busy here!	你站在那里很碍事啊有没有！	そこの　きみ　じゃまだよ！	そこの　きみ　じゃまだよ!
+	done				done			done						どいた　どいた!
+											Out of the way! Shoo! Shoo!	让开让开！	どいた　どいた！	
+_SafariZoneLowCostText1::				_SafariZoneLowCostText1::										
+	text_start				text_start						Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+											Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	para	Oh, all right, pay			para	……真是沒辦法，			…しょうがないなあ					…　シルフ　カンパニー
+	line	me what you have.			line	有多少就付多少錢吧。			あるだけでいいよ			……西尔佛公司	……シルフカンパニー	
+	prompt				prompt									
+														
+_SafariZoneLowCostText2::				_SafariZoneLowCostText2::										
+	text	But, I can't give			text	但是，			でも　ボールは　へらしとくからね		I can’t face my followers after being defeated	以这样的方式输给你，	このような　まけかたを　しては	ちょうのうりょくは　かぎられた
+	line	you all 30 BALLs.			line	球是不可能都給你的。					like this.	我确实没有办法向部下交代！	ぶかたちに　しめしが　つかない！	ひとの　ちから　では　ないわ!
+	done				done									だれでも　もってるのよ!
+											Team Rocket is...	火箭队……	ロケットだんは……	ただ　それに　きが　つかない　だけ
+_SafariZoneLowCostText3::				_SafariZoneLowCostText3::								就从今天起正式解散！	ほんじつを　もって　かいさんする！	
+	text_start				text_start						Oh! You’re curious, aren’t you?	嘿！你很在意吧！？	お！　きになって　いるね！？	この　ひろい　サファりで
+											You’re curious about me and this machine!	很在意我和这个机器吧！	ボクと　この　マシンが！	いろんな　ポケモン　とりほうだいの
+	para	You're persistent,			para	真是夠固執的……			まったく　しつこいな⋯					ゲームが　たった　500円!
+	line	aren't you?									Do you want to know the details?	想要听听看吗！？	きいてみたい　かい！？	さっそく　やりますか?
+												我会跟你详～细说明的！	くわしい　はなしを　さぁ！	
+	para	OK, you can go in			para	今天算你走運！			こんかいだけだからね					
+	line	for free, but			line	就這一次，讓你進去吧！@			ラッキー!　ただで　いれてくれた!					
+	cont	just this once!@												
+	text_end				text_end									
+														
+_SafariZoneLowCostText4::				_SafariZoneLowCostText4::										
+	text_start				text_start						Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	done				done						Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_SafariZoneLowCostText5::				_SafariZoneLowCostText5::										つ {PLAYER}  {PLAYER} 
+	text	I'm sorry, but you			text	沒有帶錢的人			おかねを　もってない　ひとは		Now, don’t go telling everyone I’m a spy, OK?	你要是告诉别人我的真实身份……	わたしが　スパイな　こと	セキチク　シティ　サファり　ゾーン
+	line	have to pay to			line	不允許進入！			はいれません!		If you do, I’ll have to give you a scolding!	我可是饶不了你的喔！！	もし　バラしたら……	いった　こと　あるかね?
+	cont	enter.												あそこは　めずらしい　ポケモンが
+	done				done								メッ！！　だからね	たくさん　いた!
+														
+_SafariZoneLowCostText6::				_SafariZoneLowCostText6::										
+	text	You can't enter			text	沒帶錢的人不讓進！			おかねが　ないひとは　ダメです!		You!	喂……！	あなた……！	あなた…!
+	line	without paying!									It’s really dangerous here!	这里很危险的！	ここは　あぶないわよ！	ここは　あぶないわよ!
+	done				done									たすけに　きた?
+											You came to save me?	什么？你是来救我的？	たすけに　きた？	…　だめよ
+_SafariZoneLowCostText7::				_SafariZoneLowCostText7::							You can’t!			
+	text	I said, no money,			text	我說過了吧，			おかねが　ないひとは　ダメって		Well, I guess that’s that...	……好了好了！	……さてと！　じゃあ	ゲームの　プログラムだ!
+	line	no entry!			line	沒帶錢的人不讓進！			いってるだろ!			那这个就先给你了。	これ　あげとくな	これ　かえたら　バグる　かも
+	done				done						Here, take these. I won’t need ’em now!			
+														
+_SafariZoneLowCostText8::				_SafariZoneLowCostText8::										
+	text	Read my lips, NO!			text	說了不行，			だめなものは　ダメだって…		Great!	很不错～！	いいねー！　まさに	えんりょは　いらんぜ!
+	line	Get it?			line	那就是不行……					It matches my inspiration perfectly!	这正好完全符合我的灵感！	インスピレーション　そのまんま！	じゃ　さっそく…!
+	done				done									
+end				end							All right! Let’s get right to it!	那么，赶紧地……	じゃ　さっそく……	

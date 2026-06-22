@@ -1,0 +1,26 @@
+engine/printer/printer.asm							
+	"""Press B to Cancel@"""	@	"""      もBやゆ      @"""			"""      もBやゆ      @"""	"""      "",$75,$75,$75,$75,""@"""
+	""" CHECKING LINK...@"""		"""        "",$75,$75,$75,""@"""				
+	"""  TRANSMITTING...@"""		"""       ろわ"",$75,$75,""@"""				
+	"""    PRINTING...@"""		"""       をん"",$75,$75,""@"""				
+	""" Printer Error 1"""	       をんゥェ1					
+	""" Printer Error 2"""	       をんゥェ2					
+	""" Printer Error 3"""	       をんゥェ3					
+	""" Printer Error 4"""	       をんゥェ4					
+	"""Check the Game Boy"""		"""       "",$75,$75,$75,$75,""@"""				
+	"""Printer Manual.@"""	  Printer 說明書。@					
+	"""This is not the"""	連線的並非					
+	"""Game Boy Printer!@"""	Game Boy Printer！@					
+	"""Pikachu's Beach@"""	皮卡丘的夏日海灘@					
+	"""'s Hi-Score@"""	的最高分@					
+	"""Points@"""	分@					
+	"""POKéMON LIST@"""		"""よらりるれ@"""				
+	"""BOX@"""		"""ふへ@"""				
+engine/printer/printer2.asm							
+	"""OT/@"""	初訓/@					
+	"""ATTACK"""	攻擊					
+	"""DEFENSE"""	防禦					
+	"""SPEED"""	速度					
+	"""SPECIAL@"""	特殊@					
+	"""--------------@"""		"$76,$76,$76,$76,$76,$76,$76,$76,""@"""				
+end							

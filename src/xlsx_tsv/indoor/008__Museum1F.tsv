@@ -1,0 +1,111 @@
+text/Museum1F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Museum1FText_5c21a::				_Museum1FText_5c21a::										
+	text	Come again!			text	以後再來哦！		text	再见啰！	Aiyah! You come	I see. Please come again soon.	这样啊。	そうかい	また　きなさいよ
+	done				done			line	等你再来的啰！	again!		那么以后再来吧。	また　きなさいよ	
+								done						
+_Museum1FText_5c21f::				_Museum1FText_5c21f::										
+	text	It's ¥50 for a			text	好了好了。		text	好了好了。	It's ¥50 for a	Hello.	好了好了。	はいはい　こどもは	はいはい　こどもは　
+	line	child's ticket.			line	小孩的參觀費是¥50。		line	小孩的参观费是¥50。	child's ticket.	It’s 50 for kids.	小孩的参观费是50。	けんがくりょう　５０円　です	けんがくりょう　50えん　です
+					para	要參觀嗎？		para	要参观吗？	Would you like to				けんがく　しますか?
+	para	Would you like to			done			done		come in?	Would you like to come in?	要参观吗？	けんがく　しますか？	
+	line	come in?												
+	done													
+														
+_Museum1FText_5c224::				_Museum1FText_5c224::										
+	text	Right, ¥50!			text	好的。		text	好的。	Right, ¥50!	Right, 50!	好的。	はい　たしかに	はい　たしかに
+	line	Thank you!			line	收你¥50！		line	收你¥50！	Thank you!	Thank you!	收你50！	５０円　いただき　ました！	50えん　いただき　ました!
+	done				done			done						
+														
+_Museum1FText_5c229::				_Museum1FText_5c229::										
+	text	You don't have			text	您的錢不夠呢！		text	您的钱不够呢！	You don't have	You don’t have enough dough.	你啊……	アナタさま……　さきだつ　ものが	…　おとくな　けいじばん!
+	line	enough money.			prompt			prompt		enough money.		最最重要的东西好像不太够噢？	たりませんよ？	ひとの　ポケモンは　ひとの　もの!
+	prompt										...Dough means money, kid.			やせいの　ポケモンに　だけ
+												最最重要的东西……	さきだつ　もの　とは	モンスターボールを　なげて
+_Museum1FText_5c22e::				_Museum1FText_5c22e::								当然就是指钱咯！	……おかねの　こと　です	つかまえよう!
+	text	You can't sneak			text	居然想從後門逃票入場，		text	居然想从后门逃票入场，	You can't sneak	You can’t sneak in the back way!	居然想从后门逃票入场，	うらぐちから　タダで	うらぐちから　タダで　はいろうなんて
+	line	in the back way!			line	你還真是會耍小聰明！		line	你还真是会耍小聪明！	in the back way!	Nice try, kid, but no.	你还真是会耍小聪明！	はいろうなんて	ちゃっかりもの　だね
+					para	對了，		para	对了，	Oh, whatever!				それより　きみ
+	para	Oh, whatever!			line	你知道什麼是琥珀嗎？		line	你知道什么是琥珀吗？	Do you know what	Oh, whatever!	对了，你知道什么是琥珀吗？	ちゃっかりもの　だね	コハクって　しってる?
+	line	Do you know what			done			done		AMBER is?	Do you know what amber is?			
+	cont	AMBER is?											それより　きみ	
+	done												コハクって　しってる？	
+														
+_Museum1FText_5c233::				_Museum1FText_5c233::										
+	text	There's a lab			text	我聽說有個研究所		text	我听说有个研究所	There's a lab	There’s a lab somewhere trying to resurrect	我听说有个研究所	コハクに　まじった	コハクに　まじった
+	line	somewhere trying			line	正在進行一個大實驗。		line	正在进行一个大实验。	somewhere trying	creatures from amber, which contains	正在进行一个大实验。	むかしのいきものを　よみがえらせる	むかしのいきものを　よみがえらせる
+	cont	to resurrect			cont	他們似乎是要從琥珀裡		cont	他们似乎是要从琥珀里	to resurrect				そうだいな　じっけんを　どこかの
+	cont	ancient #MON			cont	復活出遠古生物來。		cont	复活出远古生物来。	ancient #MON	the genetic material of ancient creatures.	他们似乎是要从琥珀里	そうだいな　じっけんを　どこかの	けんきゅうじょが　してるんだって
+	cont	from AMBER.			done			done		from AMBER.		复活出远古生物来。	けんきゅうじょが　してるんだって	
+	done													
+														
+_Museum1FText_5c238::				_Museum1FText_5c238::										
+	text	AMBER is fossil-			text	我們把很久很久以前		text	我们把很久很久以前	AMBER is fossil-	This Pokémon Gym is always closed...	不管什么时候来，	いつ　きても	いつ　きても
+	line	ized tree sap.			line	從樹上滴落並凝結起來的		line	从树上滴落并凝结起来的	ized tree sap.		这里的道馆总是关着门……	この　ポケモンジムは　しまっとる	この　ポケモン　ジムは　しまっとる
+	done				cont	類似化石的物體		cont	类似化石的物体		I wonder who the Gym Leader is...			いったい　どんな　ヤツが
+					cont	稱為“琥珀”。		cont	称为“琥珀”。			不知道这里的馆主	いったい　どんな　ヤツが	りーダーを　しとるんじゃろか?
+					done									
+_Museum1FText_5c23d::				_Museum1FText_5c23d::				done				究竟是怎样的家伙啊？	リーダーを　しとるんじゃろか？	
+	text	Please go to the			text	請繞到另外一邊！		text	请绕到另外一边！	Please go to the	Go through the wall to reach the pipes on	穿过墙壁，	カベの　なかを　とおって	おおーッ!
+	line	other side!			done			done		other side!	the other side!	往对面的管道那里走吧！	むこうの　パイプを　めざそう！	それは　たしかに　グレーバッジ!
+	done													どうぞ　とおって　ください!@ジ@ザ
+														
+_Museum1FText_5c242::				_Museum1FText_5c242::										
+	text	Take plenty of			text	請慢慢參觀！		text	请慢慢参观！	Take plenty of	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	time to look!			done			done		time to look!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done													
+														
+_Museum1FText_5c251::				_Museum1FText_5c251::										
+	text	That is one			text	感動啊！太感動了！		text	感动啊！太感动了！	That is one	[VAR 01CD(0001)]: That was close...	[VAR TRNAME(0001)]：好险啊……	[VAR TRNAME(0001)]『……あぶねー	ポグ {PLAYER} ポグ…ポグ {USER} ポオネ
+	line	magnificent			line	沒想到居然可以瞻仰到		line	没想到居然可以瞻仰到	magnificent	I nearly swallowed one of ’em right up myself!	差点就被我给吃了。	オレ　たべちゃう　とこだった	ガル
+	cont	fossil!			cont	龍神大人的遺骨啊！		cont	龙神大人的遗骨啊！	fossil!				グお
+	done				done			done						オレ
+														
+_Museum1FText_5c28e::				_Museum1FText_5c28e::										
+	text	Ssh! I think that			text	噓……！		text	嘘……！	Ssh! I think that	Shh! Listen, I need to share a	嘘……！	しー！	しー!
+	line	this chunk of			line	偷偷告訴你，		line	偷偷告诉你，	this chunk of	secret with someone.	偷偷告诉你，	ないしょ　だけど　このコハク	ないしょ　だけど　このコハク
+	cont	AMBER contains			cont	我推測這個琥珀裡面		cont	我推测这个琥珀里面	AMBER contains				ポケモンの　いでんしが　のこってると
+	cont	#MON DNA!			cont	留有寶可夢的遺傳基因！		cont	留有宝可梦的遗传基因！	#MON DNA!	I think that this chunk of amber	我推测这个琥珀里面	ポケモンの　いでんしが　のこってると	おれは　にらんでるんだ!
+					para	如果能讓它復活，		para	如果能让它复活，	It would be great	contains Pokémon DNA!	留有宝可梦的遗传基因！	おれは　にらんでるんだ！	もし　いきかえらせたら
+	para	It would be great			line	那簡直就是		line	那简直就是	if #MON could				ポケモンの　いちだい　はっけんだ!
+	line	if #MON could			cont	寶可夢的一大發現！		cont	宝可梦的一大发现！	be resurrected	It would be a shattering scientific	如果能让它复活，	もし　いきかえらせたら	でも　ここの　なかまは
+	cont	be resurrected			para	可惜這裡的同事們		para	可惜这里的同事们	from it!	breakthrough if Pokémon could be	那简直就是宝可梦的一大发现！	ポケモンの　いちだい　はっけんだ！	おれの　いうこと　しんじないんだ
+	cont	from it!			line	沒人把我說的話當回事。		line	没人把我说的话当回事。	But, my colleagues				⋯⋯それで
+					para	所以啊……		para	所以啊……	just ignore me!	resurrected from it.	可惜这里的同事们	でも　ここの　なかまは	きみに　たのみが　ある!
+	para	But, my colleagues			line	我需要你的幫助！		line	我需要你的帮助！	So I have a favor		没人把我说的话当回事。	おれの　いうこと　しんじないんだ	これを　どこかの
+	line	just ignore me!			para	麻煩你拿著這個琥珀，		para	麻烦你拿着这个琥珀，	to ask!	But my colleagues just ignore			けんきゅうじょに　もって　いって
+					line	找一家研究所，		line	找一家研究所，	Take this to a	what I have to say.	所以啊……	……それで	しらべて　ほしいんだ!
+	para	So, I have a favor			cont	請人幫我調查個究竟吧！		cont	请人帮我调查个究竟吧！	#MON LAB and		我需要你的帮助！	きみに　たのみが　ある！	
+	line	to ask!			prompt			prompt		get it examined!	So I have a favor to ask!			
+												麻烦你拿着这个琥珀，	これを　どこかの	
+	para	Take this to a									I want you to get this examined at	找一家研究所，	けんきゅうじょに　もって　いって	
+	line	#MON LAB and									a Pokémon Lab somewhere.			
+	cont	get it examined!										请人帮我调查个究竟吧！	しらべて　ほしいんだ！	
+	prompt													
+														
+_ReceivedOldAmberText::				_ReceivedOldAmberText::										
+	text	<PLAYER> received			text	<PLAYER>從大叔那裡		text	<PLAYER>从大叔那里	<PLAYER> received	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	OLD AMBER!@			line	得到了秘密琥珀！@		line	得到了秘密琥珀！@	OLD AMBER!@	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_end				text_end			text_end						
+														
+_Museum1FText_5c299::				_Museum1FText_5c299::										
+	text	Ssh! Get the OLD			text	噓……！		text	嘘……！	Ssh! Get the OLD	Shh!	嘘……！	……しー！	…しー!
+	line	AMBER checked!			line	琥珀的事就拜託你了！		line	琥珀的事就拜托你了！	AMBER checked!	Get the Old Amber checked!	琥珀的事就拜托你了！	コハク　よろしく　たのむよ！	コハク　よろしく　たのむよ!
+	done				done			done						
+														
+_Museum1FText_5c29e::				_Museum1FText_5c29e::										
+	text	You don't have			text	你已經拿不下了！		text	你已经拿不下了！	You don't have	You don’t have enough dough.	你啊……	アナタさま……　さきだつ　ものが	…　おとくな　けいじばん!
+	line	space for this!			done			done		space for this!		最最重要的东西好像不太够噢？	たりませんよ？	ひとの　ポケモンは　ひとの　もの!
+	done										...Dough means money, kid.			やせいの　ポケモンに　だけ
+												最最重要的东西……	さきだつ　もの　とは	モンスターボールを　なげて
+_Museum1FText_5c2ad::				_Museum1FText_5c2ad::								当然就是指钱咯！	……おかねの　こと　です	つかまえよう!
+	text	We are proud of 2			text	這裡展示著２種舉世罕見的		text	这里展示着２种举世罕见的	We are proud of 2	We have two Fossils of rare, prehistoric Pokémon	这里展示着好几种举世罕见的	ここでは　せかいでも　めずらしい	ここでは　せかいでも　めずらしい
+	line	fossils of very			line	古代寶可夢的化石！		line	古代宝可梦的化石！	fossils of very	on exhibit.	古代宝可梦的化石！	こだいポケモンの　カセキを	こだい　ポケモンの　カセキのうち
+	cont	rare, prehistoric			done			done		rare, prehistoric				2しゅるいを　てんじ　してます!
+	cont	#MON!								#MON!			いくつか　てんじ　してますよ！	
+	done													
+														
+_Museum1FText_5c2bc::				_Museum1FText_5c2bc::										
+	text	The AMBER is			text	這裡有一塊晶瑩剔透的		text	这里有一块晶莹剔透的	The AMBER is	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	clear and gold!			line	金黃色琥珀！		line	金黄色琥珀！	clear and gold!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done			done						
+end				end										

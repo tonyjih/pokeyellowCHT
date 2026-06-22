@@ -1,0 +1,100 @@
+text/SilphCo2F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SilphCo2Text_59ded::				_SilphCo2Text_59ded::										
+	text	Eeek!			text	哇哇！		text	哇哇！	Eeek!	Eeek!	哇哇！	きゃあ！	きゃあ!
+	line	No! Stop! Help!			line	來人啊！救命！！		line	来人啊！救命！！	No! Stop! Help!	No! Stop! Help!	来人啊！救命！！	だめよ　たすけてー！	だめよ　たすけてー!
+					para	……咦？		para	……咦？	Oh, you're not				…　あら?
+	para	Oh, you're not			line	你不是火箭隊的人啊……		line	你不是火箭队的人啊……	with TEAM ROCKET.	Oh, you’re not with Team Rocket.	……咦？	……あら？	ロケットだん　じゃない
+	line	with TEAM ROCKET.			cont	不好意思，是我誤會了……		cont	不好意思，是我误会了……	I thought...	I’m sorry. I thought—	你不是火箭队的人啊……	ロケットだん　じゃない	ごめんなさい
+	cont	I thought...			cont	我把我們公司的產品送你，		cont	我把我们公司的产品送你，	I'm sorry. Here,				あたし　てっきり…
+	cont	I'm sorry. Here,			cont	你就原諒我吧！		cont	你就原谅我吧！	please take this!	Oh, I’ll give you one of our products.	不好意思，是我误会了……	ごめんなさい	これ　うちの　せいひん　なの
+	cont	please take this!			prompt			prompt			Please forgive me.		あたし　てっきり……	あげる　から　ゆるしてね
+	prompt											我把我们公司的产品送你，		
+												你就原谅我吧！	これ　うちの　せいひん　なの	
+_ReceivedTM36Text::				_ReceivedTM36Text::									あげる　から　ゆるしてね	
+	text	<PLAYER> got			text	<PLAYER>從姐姐那裡		text	<PLAYER>得到了	<PLAYER> got	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	@			line	得到了@		line	@	@	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_ram	wStringBuffer			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer				
+	text	!@			text	！@		text	！@	!@				
+	text_end				text_end			text_end						
+														
+_TM36ExplanationText::				_TM36ExplanationText::										
+	text	TM36 is			text	招式學習器３６		text	招式学习器３６	TM36 is	TM42 is Self-Destruct!	招式学习器42是“自爆”！	わざマシン４２は　じばく！	 {5C} 36は　じばく!
+	line	SELFDESTRUCT!			line	是“自爆”！		line	是“自爆”！	SELFDESTRUCT!				この　わざは　きょうりょく　だけど
+					para	這個招式雖然很厲害，		para	这个招式虽然很厉害，	It's powerful, but	It’s powerful, but the Pokémon that uses	这个招式虽然很厉害，	この　わざは　きょうりょく　だけど	ポケモンは　わざの　あと
+	para	It's powerful, but			line	但使用完這個招式的寶可夢		line	但使用完这个招式的宝可梦	the #MON that	it faints... So be careful!	但使用完这个招式的宝可梦	ポケモンは　わざの　あと	ひんしじょうたいに　なるわ
+	line	the #MON that			cont	會陷入瀕死狀態，		cont	会陷入濒死状态，	uses it faints!				きを　つけて　つかって
+	cont	uses it faints!			cont	你要多多注意。		cont	你要多多注意。	Be careful.		会陷入濒死状态，	ひんしじょうたいに　なるわ	
+	cont	Be careful.			done			done				你要多多注意。	きを　つけて　つかって	
+	done													
+														
+_TM36NoRoomText::				_TM36NoRoomText::										
+	text	You don't have any			text	已經滿了，拿不下了呀。		text	你的行李已满了哦。	You don't have any	You don’t have enough dough.	你啊……	アナタさま……　さきだつ　ものが	…　おとくな　けいじばん!
+	line	room for this.			done			done		room for this.		最最重要的东西好像不太够噢？	たりませんよ？	ひとの　ポケモンは　ひとの　もの!
+	done										...Dough means money, kid.			やせいの　ポケモンに　だけ
+												最最重要的东西……	さきだつ　もの　とは	モンスターボールを　なげて
+_SilphCo2BattleText1::				_SilphCo2BattleText1::								当然就是指钱咯！	……おかねの　こと　です	つかまえよう!
+	text	Help! I'm a SILPH			text	救、救命！		text	救、救命！	Help! I'm a SILPH	I’m having a meeting with an important client.	我正在和客户开会呢。	おとくいさまと	ぼくは　クラスで　いちばん　つよい!
+	line	employee.			line	我是西爾佛公司的員工。		line	我是西尔佛公司的员工。	employee.			かいぎ　してるんだ	まいあさ　れんしゅうも　してるんだ!
+	done				done			done			You want to join in?	……你也想一起参加吗？		
+													……きみも　まざる？	
+_SilphCo2EndBattleText1::				_SilphCo2EndBattleText1::										
+	text	How			text	唔！暴露了麼。		text	唔！暴露了么。	How	How’d you know I was really from Team Rocket?!	唔！暴露了么。	く！　ばれたか	く!　ばれたか
+	line	did you know I			prompt			prompt		did you know I				
+	cont	was a ROCKET?								was a ROCKET?				
+	prompt													
+														
+_SilphCo2AfterBattleText1::				_SilphCo2AfterBattleText1::										
+	text	I work for both			text	我既是西爾佛公司的員工，		text	我既是西尔佛公司的员工，	I work for both	To be totally accurate, I work for both Silph	我既是西尔佛公司的员工，	わたしは　シルフの　しゃいん	わたしは　シルフの　しゃいん
+	line	SILPH and TEAM			line	也是火箭隊的成員。		line	也是火箭队的成员。	SILPH and TEAM	and Team Rocket. It’s hard to make ends meet!	也是火箭队的成员。	であると　どうじに	であると　どうじに
+	cont	ROCKET!			done			done		ROCKET!				ロケットだんいん　でも　あるのさ
+	done												ロケットだん　でも　あるのさ	
+														
+_SilphCo2BattleText2::				_SilphCo2BattleText2::										
+	text	It's off limits			text	這裡禁止入內。		text	这里禁止入内。	It's off limits	It’s off-limits here!	这里禁止入内。	ここは　たちいり　きんしだ	ここは　たちいり　きんしだ
+	line	here! Go home!			line	快回去！		line	快回去！	here! Go home!	Go home!	快回去！	かえりなさい！	かえりなさい!
+	done				done			done						
+														
+_SilphCo2EndBattleText2::				_SilphCo2EndBattleText2::										
+	text	You're			text	好厲害……		text	好厉害……	You're	You’re good.	好厉害……	なかなか……	トレーナーぞ
+	line	good.			prompt			prompt		good.				きド5ま
+	prompt													
+														
+_SilphCo2AfterBattleText2::				_SilphCo2AfterBattleText2::										
+	text	Can you solve the			text	大樓內部很複雜。		text	大楼内部很复杂。	Can you solve the	Can you find your way through the maze here?	大楼内部很复杂。	ビルの　なかは　ふくざつだぞ	ビルの　なかは　ふくざつだぞ
+	line	maze in here?			line	你能搞定嗎？		line	你能搞定吗？	maze in here?	It’s not easy, I tell you!	你能搞定吗？	きみに　こうりゃく　できるかな？	きみに　こうりゃく　できるかな?
+	done				done			done						
+														
+_SilphCo2BattleText3::				_SilphCo2BattleText3::										
+	text	No kids are			text	這裡不是		text	这里不是	No kids are	No kids are allowed in here!	这里不是小孩子来的地方！	ここは　こどもの	ここは　こどもの
+	line	allowed in here!			line	小孩子來的地方！		line	小孩子来的地方！	allowed in here!			くる　ところ　じゃない！	くる　ところ　じゃない!
+	done				done			done						
+														
+_SilphCo2EndBattleText3::				_SilphCo2EndBattleText3::										
+	text	Tough!			text	好強啊……		text	哈哈哈哈！	Hahaha! Kids	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			line	有活力就好啊！	should be tough!	Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+								done						4ャよひ
+_SilphCo2AfterBattleText3::				_SilphCo2AfterBattleText3::										つ {PLAYER}  {PLAYER} 
+	text	Diamond-shaped			text	菱形設計的地板，		text	菱形设计的地板，	Diamond shaped	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	tiles are			line	是傳送方塊！		line	是传送方块！	tiles are	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	teleport blocks!			para	這可是		para	这可是	teleport blocks!				…　シルフ　カンパニー
+					line	高科技大樓內的移動方式。		line	高科技大楼内的移动方式。	They're hi-tech		……西尔佛公司	……シルフカンパニー	
+	para	They're hi-tech			done			done		transporters!				
+	line	transporters!												
+	done													
+														
+_SilphCo2BattleText4::				_SilphCo2BattleText4::										
+	text	Hey kid! What are			text	你這小孩！		text	你这小孩！	Hey kid! What are	JESSIE: Ah, it’s the twerp!	武藏：啊，是小鬼头！	ムサシ『あッ　ジャリンコ！	あッ　おかねが　たりない!
+	line	you doing here?			line	不要在這裡逛來逛去的！		line	不要在这里逛来逛去的！	you doing here?	What’re you doing here?	你在这里干什么啊！	ここで　なに　してんのよ！	
+	done				done			done						
+											Never mind that—take these off our hands!	哎，无所谓你来干什么了，	どうでも　いいけど	
+_SilphCo2EndBattleText4::				_SilphCo2EndBattleText4::								你快把这个给我拿走啊！	あんた　これ　もってってよ！	
+	text	I goofed!			text	唔！失手了。		text	唔！失手了。	I goofed!	Hiya!	您好！	こんちわ！	こんちわ!
+	prompt				prompt			prompt			I’m a Pokémon...	我是宝可梦……！	ぼく　ポケモン……！	サファり　ゲームは　はじめて?
+														
+_SilphCo2AfterBattleText4::				_SilphCo2AfterBattleText4::							N-no! I mean—!	……错！	……ちゃうわい！	
+	text	SILPH CO. will			text	火箭隊將與西爾佛公司		text	火箭队将与西尔佛公司	SILPH CO. will	Silph Co. definitely has the technology and	西尔佛公司所拥有的开发能力，	シルフカンパニー　には	きみの　ポケモン　には
+	line	be merged with			line	攜手合作！		line	携手合作！	be merged with	skill Team Rocket will need to make our wishes	可以说是完全达到了	われわれ　ロケットだんの	…　じゃくてんが　ある!
+	cont	TEAM ROCKET!			done			done		TEAM ROCKET!				そこを　せめれば　おれ　かてるよ!
+	done										come true.	实现火箭队远大理想所需的标准。	きぼうを　かなえるに　ふさわしい	
+end				end										
+													かいはつ　りょくが　あると　いえます	

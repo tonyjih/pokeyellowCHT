@@ -1,0 +1,159 @@
+text/ViridianForest.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_ViridianForestText1::				_ViridianForestText1::										
+	text	I came here with			text	我正在和朋友們		text	我正在和朋友们	I came here with	I came here with some friends to catch us some	我正在和朋友们	ともだちと　むしポケモン	ともだちと　むし　ポケモン
+	line	some friends!			line	在這裡尋找蟲寶可夢！		line	在这里寻找虫宝可梦！	some friends!	Bug-type Pokémon!	在这里寻找虫宝可梦！	とりに　きてるんだ！	とりに　きてるんだ!
+					para	大家都躍躍欲試著		para	大家都跃跃欲试着	They're out for				ポケモン　しょうぶ　したくて
+	para	They're out for			line	想要進行寶可夢對戰呢！		line	想要进行宝可梦对战呢！	#MON fights!	My pals are all itching to get into some	大家都跃跃欲试着	ポケモン　しょうぶ　したくて	みんな　ウズウズ　してるよ!
+	line	#MON fights!			done			done			Pokémon battles!	想要进行宝可梦对战呢！	みんな　ウズウズ　してるよ！	ゲ
+	done													
+														
+_ViridianForestBattleText1::				_ViridianForestBattleText1::										
+	text	Hey! You have			text	嗨！		text	嗨！	Hey! You have	Hey! You have Pokémon, right?	嗨！	よーしッ！	よーしッ!
+	line	#MON! Come on!			line	你有寶可夢的吧？		line	你有宝可梦的吧？	#MON! Come on!	Come on!	你有宝可梦的吧？	きみは　ポケモン　もってるな？	きみは　ポケモン　もってるな?
+	cont	Let's battle 'em!			cont	我們來對戰！		cont	我们来对战！	Let's battle'em!				しょうぶ　しようぜ!
+	done				done			done			Let’s battle ’em!	我们来对战！	しょうぶ　しようぜ！	
+														
+_ViridianForestEndBattleText1::				_ViridianForestEndBattleText1::										
+	text	No!			text	我輸了！		text	我输了！	No!	No!	我输了！	まけたあ！	まけたあ!
+	line	CATERPIE can't			line	用綠毛蟲什麼的		line	用绿毛虫什么的	CATERPIE can't	Caterpie can’t hack it!	用绿毛虫什么的打不赢你么。	キャタピー　なんか　じゃ　ダメか	キャタピー　なんか　じゃ　ダメか
+	cont	cut it!			cont	打不贏你麼。		cont	打不赢你么。	cut it!				
+	prompt				prompt			prompt						
+														
+_ViridianFrstAfterBattleText1::				_ViridianFrstAfterBattleText1::										
+	text	Ssh! You'll scare			text	噓……！		text	嘘……！	Ssh! You'll scare	Shh! You’ll scare the bugs away.	嘘……！虫子会被你吓跑的。	しッ……！	しッ…!
+	line	the bugs away!			line	蟲子會被你嚇跑的。		line	虫子会被你吓跑的。	the bugs away!	Another time, OK?	那么，再见！	むしが　にげる　から　またな！	むしが　にげる　から　またな!
+	done				cont	那麼，再見！		cont	那么，再见！					
+					done			done						
+_ViridianForestBattleText2::				_ViridianForestBattleText2::										
+	text	Yo! You can't jam			text	喂！		text	喂！	Yo! You can't jam	Yo! You can’t punk out on battle if you’re a	喂！	おーいッ！	おーいッ!
+	line	out if you're a			line	寶可夢訓練家		line	宝可梦训练家	out if you're a	real Pokémon Trainer!	宝可梦训练家	ポケモントレーナーなら	ポケモン　トレーナーなら
+	cont	#MON trainer!			cont	可是不會拒絕對戰的！		cont	可是不会拒绝对战的！	#MON trainer!				しょうぶは　ことわれ　ないぜ!
+	done				done			done				可是不会拒绝对战的！	しょうぶは　ことわれ　ないぜ！	
+														
+_ViridianForestEndBattleText2::				_ViridianForestEndBattleText2::										
+	text	Huh?			text	哎呀？我手上		text	哎呀？我手上	Huh?	I ran out of gas!	……我精疲力尽了。	……ちから　つきた	ちから　つきた…
+	line	I ran out of			line	已經沒有寶可夢了啊。		line	已经没有宝可梦了啊。	I ran out of				
+	cont	#MON!			prompt			prompt		#MON!				
+	prompt													
+														
+_ViridianFrstAfterBattleText2::				_ViridianFrstAfterBattleText2::										
+	text	Darn! I'm going			text	我不甘心！		text	我不甘心！	Darn! I'm going	I’m particularly fond of bird Pokémon.	由于我太喜欢鸟宝可梦，	わしは　とりポケモンが	パパも　ぼくも
+	line	to catch some			line	我要去捉更厲害的寶可夢！		line	我要去捉更厉害的宝可梦！	to catch some	Me and my partner Dux here are going to go		だいすき　でね	サファり　ゾーン　だいすき!
+	cont	stronger ones!			done			done		stronger ones!		下次要和我的搭档“和尚”		また　あそびに　いきたいな!
+	done										catch a Spearow soon.	一起去捉烈雀唷！	こんど　あいぼうの　おしょうと	
+													オニスズメ　つかまえに　いくよ	
+_ViridianForestBattleText3::				_ViridianForestBattleText3::										
+	text	Hey, wait up!			text	等一下！		text	等一下！	Hey, wait up!	Hey, wait up!	等一下！	ちょっと　まったあ！	ちょっと　まったあ!
+	line	What's the hurry?			line	你這麼急是要去哪裡啊？		line	你这么急是要去哪里啊？	What's the hurry?	What’s the hurry? Why the rush?	你这么急是要去哪里啊？	そんな　いそいで　どこに　いく？	そんな　いそいで　どこに　いく?
+	done				done			done						
+														
+_ViridianForestEndBattleText3::				_ViridianForestEndBattleText3::										
+	text	I			text	我認輸！		text	我认输！	I	I give!	我认输！	まいった！	まいった!
+	line	give! You're good			line	你好厲害啊！		line	你好厉害啊！	give! You're good	You’re good at this!	你好厉害啊！	きみは　つよいな！	きみは　つよいな!
+	cont	at this!			prompt			prompt		at this!				
+	prompt													
+														
+_ViridianFrstAfterBattleText3::				_ViridianFrstAfterBattleText3::										
+	text	Sometimes, you			text	其實有些時候，		text	其实有些时候，	Sometimes, you	Oh, are you on your way to	哎呀！你是要……	あら！　あなた……	…あら　あなたも　かわいい
+	line	can find stuff on			line	東西就掉在隱蔽的地方！		line	东西就掉在隐蔽的地方！	can find stuff on	the Pokémon League?	去挑战宝可梦联盟吗？	ポケモンリーグに　いどむの？	ピカチュウを　つれてるわね@ギ@
+	cont	the ground!			para	我剛才不小心		para	我刚才不小心	the ground!				
+					line	把東西弄掉了。		line	把东西弄掉了。	I'm looking for	Well, I’m in the middle of my patrol, but I bet	就由我这个正在巡逻的美女警察	パトロールちゅうの　びじんポリスが	
+	para	I'm looking for			cont	你也來幫我找找看？		cont	你也来帮我找找看？	the stuff I	a bit of encouragement from a beautiful	来为你加油鼓劲吧！	エールを　おくって　あげるわ	
+	line	the stuff I			done			done		dropped!				
+	cont	dropped!									police officer will help you!			
+	done													
+														
+_ViridianForestBattleTextPikaGirl::				_ViridianForestBattleTextPikaGirl::										
+	text	Hi, do you have a			text	嗨，			ねえ　ねえ		Hey, do you have a big Pikachu?	嗨，你手上有那种	ねえ　ねえ	ねえ　ねえ
+	line	PIKACHU?			line	你手上有皮卡丘嗎？			あなた　ピカチュウ　もってる?			大大的皮卡丘吗？	おっきい　ピカチュウ　もってる？	あなた　ピカチュウ　もってる?
+	done				done									
+														
+_ViridianForestEndBattleTextPikaGirl::				_ViridianForestEndBattleTextPikaGirl::										
+	text	Oh no,			text	騙人的吧！？			うそでしょー!?		“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	really?									2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt				prompt									
+														
+_ViridianForestAfterBattleTextPikaGirl::				_ViridianForestAfterBattleTextPikaGirl::										
+	text	I looked forever,			text	我像這樣找了好久			こんなに　さがしても　ピカチュウ		I never thought a criminal would use	真是没想到这个道馆	まさか　ジムが	 {next} 
+	line	but I never found			line	也完全找不到皮卡丘。			ぜんぜん　みつからないの		a Pokémon Gym as their hideout...	居然是他们的藏身之处……	かくれがに　されてた　とは……	@
+	cont	a PIKACHU here!			cont	肯定不在這裡吧！			きっと　ここには　いないのよ!					 {PLAYER}  {RIVAL} ポケモン
+	done				done						... ... ...	………………	……　……　……	…
+														
+_ViridianForestBattleTextSamurai::				_ViridianForestBattleTextSamurai::							That’s it! I’ve decided!	好了，我决定了！	よし　きめた！	 {TARGET}  {USER}  {5B}  {5C} トレーナーロケットだん
+	text	I'm gonna be the			text	我的目標是成為			さいきょうの　トレーナーを　めざす		I’m the game director!	我是游戏总监！	ぼくは　ゲーム　ディレクター	そーですかー!
+	line	best. You just			line	最強的訓練家。			ぼくに　かてるかな?					ぼくは　ゲーム　デザイナー
+	cont	can't beat me!			cont	你能打敗我嗎？					Did you come here to show me your	你又来给我看你的	ポケモンずかん　また	ポケモンずかん　ぜんぶ　あつめるの
+	done				done						Pokédex again?	宝可梦图鉴了是吗？	みせに　きて　くれたの？	たいへん　だけど　がんばって!
+														もし　ぜんぶ　あつめたら
+_ViridianForestEndBattleTextSamurai::				_ViridianForestEndBattleTextSamurai::							All right! Let’s celebrate again!	那我就再表彰你一下吧！	じゃあ　もういちど	おしえてね!
+	text	After			text	……我好不容易			…　せっかく		“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	all I did...			line	從綠毛蟲培育起來的。			キャタピーから　そだてたのに		2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt				prompt								ずかん　かんせい　おめでとう！	
+														
+_ViridianForestAfterBattleTextSamurai::				_ViridianForestAfterBattleTextSamurai::										
+	text	A METAPOD is cool			text	透過變硬來攻擊，			かたくて　こうげき　できる		When my Pokémon is on my shoulder, it will let	我让宝可梦	ぼくの　ポケモン	ねー　ねー!
+	line	because its			line	鐵甲蛹是最棒的！			トランセルって　さいこうだよ!		me know with its tail when there is an item on	站在我的肩膀上的时候，	かたに　のせてると	おたく　ぼくの　ポケモン　みる?
+	cont	attack is its												
+	cont	defense!									the ground nearby.	它就会在附近有道具时，	ちかくに　どうぐが　おちてる　とき	
+	done				done							用尾巴通知我哦。	しっぽで　おしえて　くれるんだ	
+														
+_ViridianForestText8::				_ViridianForestText8::										
+	text	I ran out of #			text	為了捉到寶可夢，		text	为了捉到宝可梦，	I ran out of #	Let’s check out the notebook.	偷看了一下笔记！	ノートを　のぞいた！	ノートを　のぞいた!
+	line	BALLs to catch			line	身上的精靈球		line	身上的精灵球	BALLs to catch				1ぺージめ　…
+	cont	#MON with!			cont	很快就用完了。		cont	很快就用完了。	#MON with!	The first page says...	第１页……	１ページめ……	ポケモンは
+					para	我覺得你也應該多買一點，		para	我觉得你也应该多买一点，	You should carry				モンスターボールで　つかまえて
+	para	You should carry			line	以備不時之需！		line	以备不时之需！	extras!	“Poké Balls are used to catch and	用精灵球捕捉到宝可梦后，	ポケモンは	6つまで　もち　あるける
+	line	extras!			done			done			carry Pokémon.	就可以把它们随身带着走了。	モンスターボールで　つかまえて	ポケモンを　そだてて　たたかわせる
+	done													ひとを　ポケモン　トレーナーという
+											“People who raise and battle with	培育宝可梦去战斗的人	もち　あるける	
+_ViridianForestText9::				_ViridianForestText9::							Pokémon are called Trainers.”	被称为宝可梦训练家。		
+	text	TRAINER TIPS			text	……有用的公告牌！		text	……有用的公告牌！	TRAINER TIPS	Trainer Tips	……有用的公告牌！	……おとくな　けいじばん！	…　おとくな　けいじばん!
+					para	當同行寶可夢變得虛弱，		para	当同行宝可梦变得虚弱，	If you want to				しんかの　さいちゅうに
+	para	If you want to			line	不想讓其參加戰鬥的話，		line	不想让其参加战斗的话，	avoid battles,	If you press the B Button when a Pokémon is	在宝可梦进化时	しんかの　さいちゅうに	ビー　ボタンを　おすと
+	line	avoid battles,			cont	那麼應該要遠離草叢！		cont	那么应该要远离草丛！	stay away from	in the middle of evolving, you can make it stop!	按下Ｂ键，	Ｂボタンを　おすと	しんかは　とまって　しまいます
+	cont	stay away from			done			done		grassy areas!				
+	cont	grassy areas!										进化就会停止。	しんかは　とまって　しまいます	
+	done													
+														
+_ViridianForestText10::				_ViridianForestText10::										
+	text	For poison, use			text	治療中毒狀態		text	治疗中毒状态	For poison, use	Trainer Tips	治疗中毒状态就用解毒药！	どくを　くらったら　どくけし！	どくを　くらったら　どくけし!
+	line	ANTIDOTE! Get it			line	就用解毒藥！		line	就用解毒药！	ANTIDOTE! Get it		治疗麻痹状态就用解麻药！	まひに　されたら　まひなおし！	フレンドりィショップで!
+	cont	at #MON MARTs!			cont	友好商店等待您的光臨！		cont	友好商店等待您的光临！	at #MON MARTs!	For poison, use Antidote!			
+	done				done			done			For paralysis, use Paralyze Heal!	友好商店等待您的光临！	フレンドリィショップで！	
+														
+_ViridianForestText11::				_ViridianForestText11::							Get them at Poké Marts!			
+	text	TRAINER TIPS			text	……有用的公告牌！		text	……有用的公告牌！	TRAINER TIPS	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+					para	透過連線電腦		para	通过连接电脑	Contact PROF.OAK	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	para	Contact PROF.OAK			line	可以讓大木博士鑑定		line	可以让大木博士鉴定	via PC to get				…　シルフ　カンパニー
+	line	via PC to get			cont	你的寶可夢圖鑑！		cont	你的宝可梦图鉴！	your #DEX		……西尔佛公司	……シルフカンパニー	
+	cont	your #DEX			done			done		evaluated!				
+	cont	evaluated!												
+	done													
+														
+_ViridianForestText12::				_ViridianForestText12::										
+	text	TRAINER TIPS			text	……有用的公告牌！		text	……有用的公告牌！	TRAINER TIPS	“1F: Service Counter	１楼……　服务柜台	１かい……　サービス・カウンター	おくじょう　…　いこいの　ひろば
+					para	不能偷走別人的寶可夢！		para	不能偷走别人的宝可梦！	No stealing of		２楼……　训练家广场	２かい……　トレーナーズ・マーケット	　　　　　　…　じどう　はんばいき
+	para	No stealing of			line	精靈球只能投向		line	精灵球只能投向	#MON from	“2F: Trainers’ Market			プ
+	line	#MON from			cont	野生的寶可夢！		cont	野生的宝可梦！	other trainers!		３楼……　电子游戏专卖店	３かい……　テレビ　ゲーム　ショップ	
+	cont	other trainers!			done			done		Catch only wild	“3F: Video Game Shop	４楼……　聪明人礼品店	４かい……　ワイズマン・ギフト	
+	cont	Catch only wild								#MON!				
+	cont	#MON!									“4F: Wiseman Gifts	５楼……　饰品天地	５かい……　アクセサリー　マーケット	
+	done											顶楼……　自动贩卖机	おくじょう……　じどう　はんばいき	
+											“5F: Accessory Market			
+_ViridianForestText13::				_ViridianForestText13::										
+	text	TRAINER TIPS			text	……有用的公告牌！		text	……有用的公告牌！	TRAINER TIPS	“1F: Service Counter	１楼……　服务柜台	１かい……　サービス・カウンター	おくじょう　…　いこいの　ひろば
+					para	在捕捉寶可夢之前		para	在捕捉宝可梦之前	Weaken #MON		２楼……　训练家广场	２かい……　トレーナーズ・マーケット	　　　　　　…　じどう　はんばいき
+	para	Weaken #MON			line	先削弱它們的體力吧！		line	先削弱它们的体力吧！	before attempting	“2F: Trainers’ Market			プ
+	line	before attempting			para	如果它們精力充沛		para	如果它们精力充沛	capture!		３楼……　电子游戏专卖店	３かい……　テレビ　ゲーム　ショップ	
+	cont	capture!			line	或許會從精靈球中掙脫哦！		line	或许会从精灵球中挣脱哦！	When healthy,	“3F: Video Game Shop	４楼……　聪明人礼品店	４かい……　ワイズマン・ギフト	
+					done			done		they may escape!				
+	para	When healthy,									“4F: Wiseman Gifts	５楼……　饰品天地	５かい……　アクセサリー　マーケット	
+	line	they may escape!										顶楼……　自动贩卖机	おくじょう……　じどう　はんばいき	
+	done										“5F: Accessory Market			
+														
+_ViridianForestText14::				_ViridianForestText14::							“Roof: Relaxation Space & Vending Machines”			
+	text	LEAVING			text	常青森林　……　出口		text	常青森林　……　出口	LEAVING	Leaving Viridian Forest	常青森林　……　出口	トキワのもり　……　でぐち	トキワの　もり　…　でぐち
+	line	VIRIDIAN FOREST			line	前方是深灰市		line	前方是深灰市	VIRIDIAN FOREST	(Pewter City Ahead)	前方是深灰市	このさき　ニビシティ	このさき　ニビ　シティ
+	cont	PEWTER CITY AHEAD			done			done		PEWTER CITY AHEAD				
+	done													
+end				end										

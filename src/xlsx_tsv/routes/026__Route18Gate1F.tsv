@@ -1,0 +1,17 @@
+text/Route18Gate1F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route18GateText_49928::				_Route18GateText_49928::										
+	text	You need a BICYCLE			text	請騎上腳踏車		text	请骑上自行车	You need a BICYCLE	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	for CYCLING ROAD!			line	再來腳踏車道！		line	再来自行车道！	for CYCLING ROAD!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	done				done			done						…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_Route18GateText_4992d::				_Route18GateText_4992d::										
+	text	CYCLING ROAD is			text	腳踏車道		text	自行车道	CYCLING ROAD is	Pokémon Road lies uphill from here.	宝可梦大道	ポケモンロード	サイクりング　ロード
+	line	all uphill from			line	從這裡開始上坡。		line	从这里开始上坡。	all uphill from		从这里开始上坡。	こちら　からは　のぼり　ざか　です	こちら　からは　のぼり　ざか　です
+	cont	here.			done			done		here.				
+	done													
+														
+_Route18GateText_49932::				_Route18GateText_49932::										
+	text	Excuse me!			text	……稍微打擾一下！		text	……稍微打扰一下！	Excuse me!	Excuse me!	喂，我说你！	ちょっと　そこの　きみ！	ほら!
+	done				done			done			This is a private conversation!	可别偷听人家的谈话啊。	ひとの　たち　ばなしを	そこの　きみ　じゃまだよ!
+end				end										どいた　どいた!
+													ぬすみ　ぎき　するもんじゃないわ	

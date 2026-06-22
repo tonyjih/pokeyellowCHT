@@ -1,0 +1,88 @@
+text/WardensHouse.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_WardenGibberishText1::				_WardenGibberishText1::										
+	text	WARDEN: Hif fuff			text	園長：呼好哈！		text	园长：呼好哈！	WARDEN: Hif fuff	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	hefifoo!			line	嚯的哈呀嚎呼噠吶！		line	嚯的哈呀嚎呼哒呐！	hefifoo!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+					para	咻以啦，		para	咻以啦，	Ha lof ha feef ee				…　シルフ　カンパニー
+	para	Ha lof ha feef ee			line	吧喔咿嚇哈！		line	吧喔咿吓哈！	hafahi ho. Heff		……西尔佛公司	……シルフカンパニー	
+	line	hafahi ho. Heff			done			done		hee fwee!				
+	cont	hee fwee!												
+	done													
+														
+_WardenGibberishText2::				_WardenGibberishText2::										
+	text	Ah howhee ho hoo!			text	噎噎以哈！		text	噎噎以哈！	Ah howhee ho hoo!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	Eef ee hafahi ho!			line	哈呀咻嗨熟咻嚎毀互哈！		line	哈呀咻嗨熟咻嚎毁互哈！	Eef ee hafahi ho!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	done				done			done						…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_WardenGibberishText3::				_WardenGibberishText3::										
+	text	Ha? He ohay heh			text	以嚯哈？		text	以嚯哈？	Ha? He ohay heh	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	ha hoo ee haheh!			line	喚吶喚吶……		line	唤呐唤呐……	ha hoo ee haheh!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	done				done			done						…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_WardenTeethText1::				_WardenTeethText1::										
+	text	<PLAYER> gave the			text	園長從<PLAYER>那裡		text	园长从<PLAYER>那里	<PLAYER> gave the	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	GOLD TEETH to the			line	得到了金假牙！@		line	得到了金假牙！@	GOLD TEETH to the	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	WARDEN!@			text_end			text_end		WARDEN!@				…　シルフ　カンパニー
+	text_end											……西尔佛公司	……シルフカンパニー	
+														
+_WardenTeethText2::				_WardenTeethText2::										
+	text_start				text_start			text_start			The warden popped in his teeth!	园长急忙把假牙	えんちょうは　もらった　いればを	
+					para	園長急忙把假牙		para	园长急忙把假牙	The WARDEN popped		装进了嘴里！	いそいで　くちに　はめた！	もらった　いればを
+	para	The WARDEN popped			line	裝進了嘴裡！		line	装进了嘴里！	in his teeth!				いそいで　くちに　はめた!
+	line	in his teeth!			prompt			prompt						
+	prompt													
+														
+_WardenThankYouText::				_WardenThankYouText::										
+	text	WARDEN: Thanks,			text	園長：抱歉抱歉！		text	园长：抱歉抱歉！	WARDEN: Thanks,	WARDEN: Yuck!	园长：哎哟！	えんちょう『うわ	えんちょう『すんまへん!
+	line	kid! No one could			line	你可是幫了大忙了哇！		line	你可是帮了大忙了哇！	kid! No one could	They’re all sandy and gritty!	进了一嘴沙子～刷拉拉拉拉～	すなで　ジャリジャリや！	ほんま　たすかったわあ!
+	cont	understand a word			cont	之前無論我怎麼努力說話，		cont	之前无论我怎么努力说话，	understand a word				だれに　なに　いうても
+	cont	that I said.			cont	都沒人能理解我在說啥哇！		cont	都没人能理解我在说啥哇！	that I said.	...Anyway. Thanks, lassie!	……哎呀，抱歉抱歉。	……いや　すんまへん！	ぜんぜん　つうじへんし
+					para	鬱悶得我完全		para	郁闷得我完全	I couldn't work	You’re a real lifesaver!	你可是帮了大忙了哇！	ほんま　たすかったわあ！	はずかしゅうて　じむしょも
+	para	I couldn't work			line	沒臉來辦公室哇！		line	没脸来办公室哇！	that way.				かお　だせへん　かったんや
+	line	that way.			cont	對啦，小少爺！		cont	对啦，小少爷！	Let me give you	No one could understand a word that I said—	之前无论我怎么努力说话，	だれに　なに　いうても	そや　ぼうず!
+	cont	Let me give you			cont	你就收下這個吧！		cont	你就收下这个吧！	something for	not a one!			あんがとな
+	cont	something for			prompt			prompt		your trouble.		都没有人能理解我在说啥哇！	ぜんぜん　つうじへんし	おれいに　ええもん　やるわ!
+	cont	your trouble.									I was too ashamed to show my face around			
+	prompt										the office, even.	郁闷得我完全	はずかしゅうて　じむしょも	
+												没脸来办公室哇！	かお　だせへん　かったんや	
+_ReceivedHM04Text::				_ReceivedHM04Text::							Let me give you something for your trouble.			
+	text	<PLAYER> received			text	<PLAYER>從園長那裡		text	<PLAYER>从谜之训练家	<PLAYER> received	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	@			line	得到了@		line	那里得到了@	a @	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_ram	wStringBuffer			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer				
+	text	!@			text	！@		text	！@	!@				
+	text_end				text_end			text_end						
+														
+_HM04ExplanationText::				_HM04ExplanationText::										
+	text	WARDEN: HM04			text	園長：秘傳學習器０４		text	园长：秘传学习器０４	WARDEN: HM04	There’s an email from [VAR TRNAME(0001)]!	收到了一封	[VAR TRNAME(0001)]　から	へブ {PKMN} の　　　ビブ　　　　　　　　　　ボ
+	line	teaches STRENGTH!			line	裡面包含的是“怪力”！		line	里面包含的是“怪力”！	teaches STRENGTH!		[VAR TRNAME(0001)]发来的邮件！	メールが　とどいてる！	
+					para	寶可夢會		para	宝可梦会	It lets #MON	“Hey, [VAR TRNAME(0000)]!			
+	para	It lets #MON			line	會變得十分大力，		line	会变得十分大力，	move boulders	So here’s what you need to know as a Trainer...	致[VAR TRNAME(0000)]：	[VAR TRNAME(0000)]へ	
+	line	move boulders			cont	在戰鬥以外的時候		cont	在战斗以外的时候	when you're out-		传授你一些训练家的心得吧！	トレーナーの　こころえ　おしえるぞ	
+	cont	when you're out-			cont	變得能夠推動岩石！		cont	变得能够推动岩石！	side of battle.	“Press the A Button, and you can talk to all			
+	cont	side of battle.			para	另外……對了！		para	另外……对了！	Oh yes, did you	kinds of people. And if you tilt the control stick	“按下A键，尽量和更多人说话！”	「Ａボタンで　いろんな　ひとに	
+					line	你找到狩獵地帶的		line	你找到狩猎地带的	find SECRET HOUSE			　はなし　かけよう！」	
+	para	Oh yes, did you			cont	財寶屋了嗎？		cont	财宝屋了吗？	in SAFARI ZONE?	more, you can run!	“用力推动摇杆，可以跑得更快！”		
+	line	find SECRET HOUSE			para	找到的話，能夠得到		para	找到的话，能够得到	If you do, you			「スティックを　おおきく　たおすと	
+	cont	in SAFARI ZONE?			line	秘傳學習器的！		line	秘传学习器的！	win an HM!	“Plus, if you open up the main menu by pressing	“从X键的菜单里选择‘记录’，	　はやく　はしれる！」	
+					para	是非常難以獲得的		para	是非常难以获得的	I hear it's the	the X Button, you can save your progress, too.	就可以记录你的冒险！”		
+	para	If you do, you			line	“衝浪”哦！		line	“冲浪”哦！	rare SURF HM.			「Xボタンの　メニューで	
+	line	win an HM!			done			done			“Boy, I can’t wait to get started. Can you?	真是让人期待啊！	　レポートを　えらべば	
+											"	– [VAR TRNAME(0001)]”"	……[VAR TRNAME(0001)]		
+	para	I hear it's the											　ぼうけんを　きろく　できる！」	
+	line	rare SURF HM.												
+	done												たのしみ　だな！	
+													……[VAR TRNAME(0001)]	
+_HM04NoRoomText::				_HM04NoRoomText::										
+	text	Your pack is			text	什麼呀，		text	什么呀，	Your pack is	You got [VAR iCOLOR2(0000)][VAR sTRBAG(0000)]!	获得了[VAR ITEM2(0000)]！	[VAR ITEM2(0000)]を　てにいれた！	を　てにいれた!@ジ@
+	line	stuffed full!			line	行李已滿了呀！		line	行李已满了呀！	stuffed full!				
+	done				done			done			But...too bad! Your Bag is already full!	太遗憾了！	ざんねん！	
+												包包满了……	バッグが　いっぱいだ……	
+_FuchsiaHouse2Text_75176::				_FuchsiaHouse2Text_75176::										
+	text	#MON photos			text	這裡展示著寶可夢的化石		text	这里展示着宝可梦的化石	#MON photos	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	and fossils.			line	和一些照片！		line	和一些照片！	and fossils.	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done			done						
+														
+_FuchsiaHouse2Text_7517b::				_FuchsiaHouse2Text_7517b::										
+	text	Old #MON			text	這裡展示著陳舊的		text	这里展示着陈旧的	Old #MON	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	merchandise.			line	寶可夢的周邊產品！		line	宝可梦的周边产品！	merchandise.		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	done				done			done			D’aww... Failed again?			
+end				end										

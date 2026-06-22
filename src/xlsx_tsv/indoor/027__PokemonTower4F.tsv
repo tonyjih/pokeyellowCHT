@@ -1,0 +1,47 @@
+text/PokemonTower4F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_PokemonTower4BattleText1::				_PokemonTower4BattleText1::										
+	text	GHOST! No!			text	唔唔……可惡的惡靈……		text	唔唔……可恶的恶灵……	GHOST! No!	Ghost! No!	唔唔……可恶的恶灵……	うぐぐ……　ゆうれいめ……	うぐぐ…　ゆうれいめ…
+	line	Kwaaah!			line	……咔！		line	……咔！	Kwaaah!	Kwaaah!	……咔！	……ケーッ！	…ケーッ!
+	done				done			done						
+														
+_PokemonTower4EndBattleText1::				_PokemonTower4EndBattleText1::										
+	text	Where			text	哈啊！		text	哈啊！	Where	Where is the ghost?	哈啊！	はっ！	はっ!
+	line	is the GHOST?			line	幽、幽靈在哪裡？		line	幽、幽灵在哪里？	is the GHOST?		幽、幽灵在哪里？	ゆ　ゆうれいは　どこじゃ	ゆ　ゆうれいは　どこじゃ
+	prompt				prompt			prompt						
+														
+_PokemonTower4AfterBattleText1::				_PokemonTower4AfterBattleText1::										
+	text	I must have been			text	唔……		text	唔……	I must have been	I must have been dreaming...	唔……	むう……	むう…
+	line	dreaming...			line	就好像是做了一場夢。		line	就好像是做了一场梦。	dreaming...		就好像是做了一场梦。	ゆめを　みてた　ようじゃ	ゆめを　みてた　ようじゃ
+	done				done			done						
+														
+_PokemonTower4BattleText2::				_PokemonTower4BattleText2::										
+	text	Be cursed with			text	一……起……被……		text	一……起……被……	Be cursed with	Old man, you’ll be dealing with me!	大叔！我才是你的对手！	おっさん！　オレが　あいてだ！	トレーナーぞ
+	line	me! Kwaaah!			line	詛……咒……吧！		line	诅……咒……吧！	me! Kwaaah!				きド5ま
+	done				done			done						
+														
+_PokemonTower4EndBattleText2::				_PokemonTower4EndBattleText2::										
+	text	What!			text	……哈啊！		text	啊，嗨呀！	What!?	What?	……哎呀？	……　おや？	…　おや!?
+	prompt				prompt			para	我有点大意了	I was just	[VAR PKNICK(0001)] is evolving?!	[VAR PKNICK(0001)]的样子……	[VAR PKNICK(0001)]の　ようすが……	@
+								line	才被你钻到空子……可恶！	careless!				
+_PokemonTower4AfterBattleText2::				_PokemonTower4AfterBattleText2::				prompt			Nope!	并没有发生变化！	かわらなかった！	
+	text	We can't crack			text	我們怎麼也弄不明白		text	我们怎么也弄不明白	We can't crack	We can’t determine the identity of the ghost...	我们怎么也弄不明白	……どうしても　ゆうれいの	…どうしても　ゆうれいの
+	line	the identity of			line	幽靈的真面目是什麼……		line	幽灵的真面目是什么……	the identity of		幽灵的真面目是什么……	しょうたいが　わからない……	しょうたいが　わからない…
+	cont	the GHOSTs.			done			done		the GHOSTs.				
+	done													
+														
+_PokemonTower4BattleText3::				_PokemonTower4BattleText3::										
+	text	Huhuhu...			text	呵呵呵……！		text	呵呵呵……！	Huhuhu...	Huhuhu...	呵呵呵……！	フフフッ……！	フフフッ…!
+	line	Beat me not!			line	你能……贏嗎！		line	你能……赢吗！	Beat me not!	Beat me not!	你能……赢吗！	カテ……　ルカーッ！	…　カテ…　ルカーッ!
+	done				done			done						
+														
+_PokemonTower4EndBattleText3::				_PokemonTower4EndBattleText3::										
+	text	Huh?			text	……嗯，我是？		text	……嗯，我是？	Huh?	Huh?	……嗯，我是？	……ん　わしは？	…ん　わしは?
+	line	Who? What?			prompt			prompt		Who? What?	Who? What?			
+	prompt													
+														
+_PokemonTower4AfterBattleText3::				_PokemonTower4AfterBattleText3::										
+	text	May the departed			text	呼！		text	呼！	May the departed	May the departed Pokémon rest in peace...	呼！徘徊于世的宝可梦灵魂，	ふう！　ポケモンの	ふう!　ポケモンの
+	line	souls of #MON			line	徘徊於世的寶可夢靈魂，		line	徘徊于世的宝可梦灵魂，	souls of #MON		请安息吧……	さまよえる　れいよ　やすらかに……	さまよえる　れいよ　やすらかに…
+	cont	rest in peace...			cont	請安息吧……		cont	请安息吧……	rest in peace...				
+	done				done			done						
+end				end										

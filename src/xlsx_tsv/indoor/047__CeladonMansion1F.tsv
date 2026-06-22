@@ -1,0 +1,70 @@
+text/CeladonMansion1F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CeladonMansion1Text1::				_CeladonMansion1Text1::										
+	text	MEOWTH: Meow!@			text	喵喵：喵～～嗚！@		text	喵喵：喵～～呜！@	MEOWTH: Meow!@	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	text_end				text_end			text_end				给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+											D’aww... Failed again?			
+_CeladonMansion1Text3::				_CeladonMansion1Text3::										
+	text	CLEFAIRY: Pi			text	皮皮：皮～皮皮～～！@		text	皮皮：皮～皮皮～～！@	CLEFAIRY: Pi	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	pippippi!@			text_end			text_end		pippippi!@	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_end													
+														
+_CeladonMansion1Text4::				_CeladonMansion1Text4::										
+	text	NIDORAN: Kya			text	尼多蘭：啾～啾唔～！@		text	尼多兰：啾～啾唔～！@	NIDORAN: Kya	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	kyaoo!@			text_end			text_end		kyaoo!@	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_end													
+														
+_CeladonMansion1Text5::				_CeladonMansion1Text5::										
+	text	CELADON MANSION			text	玉虹大廈		text	玉虹大厦	CELADON MANSION	Celadon Condominiums:	玉虹大厦	タマムシ　マンション	タマムシ　マンション
+	line	Manager's Suite			line	……管理員室		line	……管理员室	Manager's Suite	Manager’s Office	……管理员室	……かんりにん　しつ	…　かんりにん　しつ
+	done				done			done						ダガジ
+														
+_CeladonMansion1Text2::				_CeladonMansion1Text2::										
+	text	My dear #MON			text	被寶可夢們包圍著就算是		text	被宝可梦们包围着就算是	My dear #MON	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	keep me company.			line	獨自生活也不覺得寂寞哇。		line	独自生活也不觉得寂寞哇。	keep me company.	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+					para	我家的喵喵偶爾		para	我家的喵喵偶尔	MEOWTH even brings				…　シルフ　カンパニー
+	para	MEOWTH even brings			line	還會撿錢回來呢。		line	还会捡钱回来呢。	money home!		……西尔佛公司	……シルフカンパニー	
+	line	money home!			done			done						
+	done													
+														
+_CeladonMansion1Text6::				_CeladonMansion1Text6::										
+	text	Oh, you have an			text	哎呀，你也帶著			…あら　あなたも　かわいい		Hey! You have Pokémon, right?	嗨！	よーしッ！	よーしッ!
+	line	adorable PIKACHU			line	這麼可愛的皮卡丘呢。@			ピカチュウを　つれてるわね		Come on!	你有宝可梦的吧？	きみは　ポケモン　もってるな？	きみは　ポケモン　もってるな?
+	cont	with you.@												しょうぶ　しようぜ!
+	text_end				text_end						Let’s battle ’em!	我们来对战！	しょうぶ　しようぜ！	
+														
+_CeladonMansion1Text7::				_CeladonMansion1Text7::										
+	text	It seems like it			text	但是，它似乎			だけど　ちっとも　あなたに		It’s some sort of machine, with lots of switches	是一台装有	スイッチと　メーターが	セキチク　シティ　サファり　ゾーン
+	line	hasn't been tamed			line	一點都不和你親近呢。			なついてないようね		and gauges.	许多开关和计量表的机器。	たくさん　ついた　きかいだ	いった　こと　あるかね?
+	cont	at all.												あそこは　めずらしい　ポケモンが
+	done				done						It looks like it hasn’t been used in a long time.	似乎已经很久	ながいあいだ	たくさん　いた!
+												没有被启动过了。	つかわれて　なさそう	
+_CeladonMansion1Text8::				_CeladonMansion1Text8::										
+	text	Why don't you			text	但是如果再多關心它一點，			だけど　もうすこし　かわいがって		Oh, I know!	对了！	そうだ！	
+	line	take more care			line	又如何呢？			あげたら　どうかしら					 {5C} 31の　なかは
+	cont	with PIKACHU?									Why don’t you become one of my Pokémon,	你……要不要和超梦一起	きみ……　ミュウツーごと	わたしの　だいすきな　ものまね!
+	done				done						together with Mewtwo?	来做我的宝可梦呢？	わたしの　ポケモンに	あなたの　すきな　ポケモンに
+														つかって　あげて!@ゼ@
+_CeladonMansion1Text9::				_CeladonMansion1Text9::									なって　くれない？	
+	text	You must be happy			text	和這樣可愛的寶可夢			こんな　かわいい　ポケモンと		Did you come to have a look at our lab?	你是来参观的吗？	けんがくに　きたのかい？	きみも
+	line	to have a #MON			line	在一起，你也很幸福吧。			いっしょで　あなたも　しあわせね		Most impressive! I like to see that kind of drive!	佩服，佩服！	かんしん　かんしん！	どうくつ　たんけんに　きたのかい
+	cont	that cute.												
+	done				done									
+														
+_CeladonMansion1Text10::				_CeladonMansion1Text10::										
+	text	Your PIKACHU seems			text	那隻皮卡丘			その　ピカチュウ		“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	tamed.			line	似乎對你非常親近呢。			あなたに　よく　なついているようね		2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done									
+														
+_CeladonMansion1Text11::				_CeladonMansion1Text11::										
+	text	Your PIKACHU looks			text	而且它似乎對你非常親近，			しかも　とっても　あなたに		[VAR PKNICK(0001)] is happy to be swimming	[VAR PKNICK(0001)]很高兴	[VAR PKNICK(0001)]は　[VAR TRNAME(0000)]と	なにも　いない　みたい…
+	line	happy with you.			line	看起來很幸福呢。			なついて　しあわせそうだわ		with you.	能和你一起游泳。	およげて　うれしい　みたい	
+	done				done									
+														
+_CeladonMansion1Text12::				_CeladonMansion1Text12::										
+	text	You look like a			text	而且你們感覺就像是			しかも　あなたたちって		Oh! You’re curious, aren’t you?	嘿！你很在意吧！？	お！　きになって　いるね！？	この　ひろい　サファりで
+	line	fantastic duo.			line	最棒的搭檔一樣，			さいこうの　コンビって　かんじよ		You’re curious about me and this machine!	很在意我和这个机器吧！	ボクと　この　マシンが！	いろんな　ポケモン　とりほうだいの
+									みていて　とっても　うらやましいわ!					ゲームが　たった　500円!
+	para	You're making me			para	我看著你們，					Do you want to know the details?	想要听听看吗！？	きいてみたい　かい！？	さっそく　やりますか?
+	line	jealous!			line	真的很羨慕呢！						我会跟你详～细说明的！	くわしい　はなしを　さぁ！	
+	done				done									
+end				end										

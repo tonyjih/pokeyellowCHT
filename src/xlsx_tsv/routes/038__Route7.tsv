@@ -1,0 +1,7 @@
+text/Route7.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route7Text1::				_Route7Text1::										
+	text	UNDERGROUND PATH			text	前方是地下通道		text	前方是地下通道	UNDERGROUND PATH	Underground Path	前方是地下通道	ここから　ちかつうろ	ここから　ちかつうろ
+	line	CELADON CITY -			line	玉虹市　……　紫苑鎮		line	玉虹市　……　紫苑镇	CELADON CITY -	(Celadon City ⇄ Lavender Town)	玉虹市　……　紫苑镇	タマムシシティ　……　シオンタウン	タマムシ　…　シオン
+	cont	LAVENDER TOWN			done			done		LAVENDER TOWN				へどぶ
+	done													
+end				end										

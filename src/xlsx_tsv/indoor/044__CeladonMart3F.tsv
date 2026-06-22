@@ -1,0 +1,115 @@
+text/CeladonMart3F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CeladonMart3Text2::				_CeladonMart3Text2::										
+	text	Captured #MON			text	捉到寶可夢的人的名字		text	捉到宝可梦的人的名字	Captured #MON	I’m the chairman of the Pokémon Fan Club!	宝可梦发烧友俱乐部的会长	ポケモン　だいすき　クラブの	ポケモン　だいすき　クラブの
+	line	are registered			line	以及ＩＤ也會記錄在		line	以及ＩＤ也会记录在	are registered	I raise more than a hundred Pokémon!	正是老夫！	かいちょうは　わし　じゃ！	かいちょうは　わし　じゃ!
+	cont	with an ID No.			cont	寶可夢的情報裡哦。		cont	宝可梦的情报里哦。	with an ID No.				だいじに　しとるポケモンは
+	cont	and OT, the name			done			done		and OT, the name	I’m very fussy when it comes to Pokémon!	老夫手里的宝可梦	もってる　ポケモンは	100ぴきを　こえとる!
+	cont	of the Original								of the Original	I surely am!	已经超过了100只！	１００ぴきを　こえとる！	ポケモンに　かんしては
+	cont	Trainer that								Trainer that				ホント　うるさい!　ですぞ!
+	cont	caught it!								caught it!	So...	要老夫说起宝可梦的事，	ポケモンに　かんしては	で…
+	done											那可是三天三夜都说不完哇！	ホント　うるさい！　ですぞ！	きみは　わしの　ポケモン　じまんを
+											Did you come visit to hear about			ききに　きたの　かね?
+_CeladonMart3Text3::				_CeladonMart3Text3::							my Pokémon?	于是乎……	で……	
+	text	All right!			text	太好了！		text	太好了！	All right!	Come to me, my new Haunter!	快来我这里吧！	はやく　きて！	はやく　きて!
+					para	旁邊的小鬼說他要用袋獸		para	旁边的小鬼说他要用袋兽	My buddy's going		小鬼斯通～！	ゴースト　ちゃーん！	ゴースト　ちゃーん!
+	para	My buddy's going	YEJP		line	来交换我的鬼斯通呢！		line	来交换我的鬼斯通呢！	to trade me his	I absolutely love Haunter! I collect them!			ぼくは
+	line	to trade me his	YEUS		line	來交換我的隆隆石呢！		done		KANGASKHAN for my		身为一个鬼斯通迷，	ぼくは	ゴースト　マニア　なのね!
+	cont	KANGASKHAN for my								GRAVELER!	...Huh?	我要收集到好多好多鬼斯通哦！	ゴースト　マニア　なのね！	…　あー?
+	cont	GRAVELER!			done									てんそう　されて　きた　ゴーストが
+	done										Haunter evolved into a different Pokémon while	……咦？	……あー？	べつの　ポケモンに!?
+											it was being traded?!			
+_CeladonMart3Text4::				_CeladonMart3Text4::								别人传送来的鬼斯通	てんそう　されて　きた　ゴーストが	
+	text	Come on GRAVELER!	YEJP		text	别人传送来的鬼斯通		text	别人传送来的鬼斯通	Come on GRAVELER!	Come to me, my new Haunter!	快来我这里吧！	はやく　きて！	はやく　きて!
+			YEJP		line	快来我这里吧！		line	快来我这里吧！	I love GRAVELER!		小鬼斯通～！	ゴースト　ちゃーん！	ゴースト　ちゃーん!
+	para	I love GRAVELER!	YEJP		cont	小鬼斯通～！		cont	小鬼斯通～！	I collect them!	I absolutely love Haunter! I collect them!			ぼくは
+	line	I collect them!	YEJP		para	身为一个鬼斯通迷，		para	身为一个鬼斯通迷，	Huh?		身为一个鬼斯通迷，	ぼくは	ゴースト　マニア　なのね!
+			YEJP		line	我要收集到好多好多		line	我要收集到好多好多	GRAVELER turned	...Huh?	我要收集到好多好多鬼斯通哦！	ゴースト　マニア　なのね！	…　あー?
+	para	Huh?	YEJP		cont	鬼斯通哦！		cont	鬼斯通哦！	into a different				てんそう　されて　きた　ゴーストが
+			YEJP		para	……咦？		para	……咦？	#MON!	Haunter evolved into a different Pokémon while	……咦？	……あー？	べつの　ポケモンに!?
+	para	GRAVELER turned	YEJP		para	别人传送来的鬼斯通		para	别人传送来的鬼斯通		it was being traded?!			
+	line	into a different	YEJP		line	怎么变成别的宝可梦了！？		line	怎么变成别的宝可梦了！？			别人传送来的鬼斯通	てんそう　されて　きた　ゴーストが	
+	cont	#MON!	YEJP		done			done				怎么变成别的宝可梦了！？	べつの　ポケモンに！？	
+	done													
+														
+			YEUS		text	別人傳送來的隆隆石		text	别人传送来的鬼斯通	Come on GRAVELER!	Come to me, my new Haunter!	快来我这里吧！	はやく　きて！	はやく　きて!
+			YEUS		line	快來我這裡吧！		line	快来我这里吧！	I love GRAVELER!		小鬼斯通～！	ゴースト　ちゃーん！	ゴースト　ちゃーん!
+			YEUS		cont	小隆隆石～！		cont	小鬼斯通～！	I collect them!	I absolutely love Haunter! I collect them!			ぼくは
+			YEUS		para	身為一個隆隆石迷，		para	身为一个鬼斯通迷，	Huh?		身为一个鬼斯通迷，	ぼくは	ゴースト　マニア　なのね!
+			YEUS		line	我要收集到好多好多		line	我要收集到好多好多	GRAVELER turned	...Huh?	我要收集到好多好多鬼斯通哦！	ゴースト　マニア　なのね！	…　あー?
+			YEUS		cont	隆隆石哦！		cont	鬼斯通哦！	into a different				てんそう　されて　きた　ゴーストが
+			YEUS		para	……咦？		para	……咦？	#MON!	Haunter evolved into a different Pokémon while	……咦？	……あー？	べつの　ポケモンに!?
+			YEUS		para	別人傳送來的隆隆石		para	别人传送来的鬼斯通		it was being traded?!			
+			YEUS		line	怎麼變成別的寶可夢了！？		line	怎么变成别的宝可梦了！？			别人传送来的鬼斯通	てんそう　されて　きた　ゴーストが	
+			YEUS		done			done				怎么变成别的宝可梦了！？	べつの　ポケモンに！？	
+														
+_CeladonMart3Text5::				_CeladonMart3Text5::										
+	text	You can identify			text	是不是別人送的寶可夢，		text	是不是别人送的宝可梦，	You can identify	You can tell which Pokémon you got from other	是不是别人送的宝可梦，	ひとから　もらった　ポケモンは	ひとから　もらった　ポケモンは
+	line	#MON you got			line	看ＩＤ就一目瞭然了。		line	看ＩＤ就一目了然了。	#MON you got	people because their IDs are different.	看ID就一目了然了。	ＩＤが　ちがうから　わかるよ	アイディが　ちがうから　わかるよ
+	cont	in trades by			done			done		in trades by				
+	cont	their ID Numbers!								their ID Numbers!				
+	done													
+														
+_CeladonMart3Text6::				_CeladonMart3Text6::										
+	text	It's an SNES!	YEUS		text	是SNES！		text	是SNES！	It's an SNES!	It’s so pleasant...	真舒服……	きもち　いい……	おし!
+			YEJP		text	是Super Famicom！								
+	done				done			text	是Super Famicom！			……呼……呼～	……　すー……　すー	いい　しょうぶ　だった
+								done			... ... ...			
+_CeladonMart3Text7::				_CeladonMart3Text7::										
+	text	An RPG! There's			text	是角色扮演遊戲！		text	是角色扮演游戏！	An RPG! There's	There’s no more room for that item!	已经拿不下了！	これ　いじょう　もてない！	これ　いじょう　もてない!
+	line	no time for that!			line	……我沒有那個時間玩。		line	……我没有那个时间玩。	no time for that!				
+	done				done			done						
+														
+_CeladonMart3Text9::				_CeladonMart3Text9::										
+	text	A sports game!			text	是運動遊戲！		text	是运动游戏！	A sports game!	A sports game!	是运动游戏！	これは　スポーツ　ゲームだ！	これは　スポーツ　ゲームだ!
+	line	Dad'll like that!			line	……估計爸爸會喜歡玩！		line	……估计爸爸会喜欢玩！	Dad'll like that!	I bet Dad would like that!	……估计爸爸会喜欢玩！	……おとうさんが　すきそう！	…　おとうさんが　すきそう!
+	done				done			done						
+														
+_CeladonMart3Text11::				_CeladonMart3Text11::										
+	text	A puzzle game!			text	是益智解謎遊戲……！		text	是益智解谜游戏……！	A puzzle game!	A fighting game!	是对战动作游戏！	たいせん　アクションゲームだ！	たいせん　アクションゲームだ!
+	line	Looks addictive!			line	……只要開始了		line	……只要开始了	Looks addictive!	It looks pretty difficult!	……看上去挺有难度的！	……ちょっと　むずかしそう！	…　ちょっと　むずかしそう!
+	done				cont	就會停不下來。		cont	就会停不下来。					
+					done			done						
+_CeladonMart3Text13::				_CeladonMart3Text13::										
+	text	A fighting game!			text	是對戰動作遊戲！		text	是对战动作游戏！	A fighting game!	A fighting game!	是对战动作游戏！	たいせん　アクションゲームだ！	たいせん　アクションゲームだ!
+	line	Looks tough!			line	……看上去挺有難度的！		line	……看上去挺有难度的！	Looks tough!	It looks pretty difficult!	……看上去挺有难度的！	……ちょっと　むずかしそう！	…　ちょっと　むずかしそう!
+	done				done			done						
+														
+_CeladonMart3Text14::				_CeladonMart3Text14::										
+	text	3F: TV GAME SHOP			text	３樓……　電子遊戲專賣店		text	３楼……　电子游戏专卖店	3F: TV GAME SHOP	3F: Video Game Shop	3楼　电子游戏专卖店	３かい　テレビ　ゲーム　ショップ	3かい…テレビ　ゲーム　ショップ
+	done				done			done						
+														
+_CeladonMart3Text15::				_CeladonMart3Text15::										
+	text	Red and Blue!	YEUS		text	紅色和藍色！		text	红色和蓝色！	Red and Blue!	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	Both are #MON!	YEUS		line	兩種都是寶可夢！		line	两种都是宝可梦！	Both are #MON!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+			YEJP		text	红色和绿色！								
+			YEJP		line	两种都是精灵宝可梦！								
+	done				done			text	红色和绿色！					
+								line	两种都是精灵宝可梦！					
+_TM18PreReceiveText::				_TM18PreReceiveText::				done						
+	text	Oh, hi! I finally			text	歡迎光臨！不對——！		text	欢迎光临！不对——！	Oh, hi! I finally	Bonjour!	Bonjour！	ボン　ジュール！	ボン　ジュール!
+	line	finished #MON!			line	寶可夢終於弄完了哦！		line	宝可梦终于弄完了哦！	finished #MON!	I am le waiter on zis ship!	我是这艘客轮的服务员！	わたしは　このふねの　ボーイです	わたしは　このふねの　ボーイです
+					para	你還不明白？		para	你还不明白？	Not done yet?				ごようを　なんなりと
+	para	Not done yet?			line	總之，給你個好東西吧。		line	总之，给你个好东西吧。	This might be	I will be happy to serve you anything you please!	您要是有任何吩咐	ごようを　なんなりと	おもうしつけ　ください!
+	line	This might be			prompt			prompt		useful!		尽管来联系我！	おもうしつけ　ください！	…　…　…
+	cont	useful!									... ... ...			…　むくちな　かた　ですね
+	prompt											………………	…………	
+											Ah! Le strong, silent type! Très bien!	……看来您是位不爱开口的客人。	……むくちな　かた　ですね	
+_ReceivedTM18Text::				_ReceivedTM18Text::										
+	text	<PLAYER> received			text	<PLAYER>從店員那裡		text	<PLAYER>从谜之训练家	<PLAYER> received	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	@			line	得到了@		line	那里得到了@	a @	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_ram	wStringBuffer			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer				
+	text	!@			text	！@		text	！@	!@				
+	text_end				text_end			text_end						
+														
+_TM18ExplanationText::				_TM18ExplanationText::										
+	text	TM18 is COUNTER!			text	因為是店員的禮物，		text	因为是店员的礼物，	TM18 is COUNTER!	Oh, you’re not going to change your title?	不想换了吗？	やめるの？　いまの　とおりな	なんじゃ…　つまらん
+	line	Not like the one			line	所以招式學習器１８是		line	所以招式学习器１８是	Not like the one	I guess you really like the one you have now!	看来你很喜欢现在的称号呢！	きに　いってるんだね！	きく　きに　なったら　きてくれい!
+	cont	I'm leaning on,			cont	……“雙倍奉還”！哦！		cont	……“双倍奉还”！哦！	I'm leaning on,				
+	cont	mind you!			cont	那你加油吧！		cont	那你加油吧！	mind you!				
+	done				done			done						
+														
+_TM18NoRoomText::				_TM18NoRoomText::										
+	text	Your pack is full			text	行李已滿了！		text	行李已满了。	Oh, your pack is	Haha! This Gym is great!	嘿嘿嘿！这个道馆好的很哇！	にひひ！　この　ジムは　ええ！	にひひ!　この　ジムは　ええ!
+	line	of items!						done		full of items!	It’s full of strong Trainers!	道馆里头美女多哇！	おんなのこ　ばっかし　じゃ！	おんなのこ　ばっかし　じゃ!
+	done				done									
+end				end										

@@ -1,0 +1,50 @@
+text/MtMoonPokecenter.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_MtMoonPokecenterText1::				_MtMoonPokecenterText1::										
+	text	I've 6 # BALLs			text	把精靈球		text	把精灵球	I've 6 # BALLs	I bought some for you with the prize money	我用至今为止存来的奖金	ここまでに　ためた　しょうきんで	
+	line	set in my belt.			line	往褲帶上這麼一裝……		line	往裤带上这么一装……	set in my belt.	I’ve been earning in all my battles.	把[VAR TRNAME(0000)]的份也买了！	[VAR TRNAME(0000)]の　ぶんも	　ぽ　ぽ　
+					para	１　２　３		para	１　２　３	At most, you can				
+	para	At most, you can			line	４　５　６……！		line	４　５　６……！	carry 6 #MON.	Beat that Gym Leader, [VAR TRNAME(0000)],	等你战胜了道馆馆主，	かって　おいたんだぜ！	
+	line	carry 6 #MON.			cont	最多只能帶６隻寶可夢！		cont	最多只能带６只宝可梦！		and you can really call yourself a true Trainer!	你就是个够格的训练家了！		
+	done				done			done					ジムリーダーに　かてれば	
+											Give it your best!	加油吧！	いちにんまえの　トレーナー　だぞ！	
+_MtMoonPokecenterText3::				_MtMoonPokecenterText3::										
+	text	TEAM ROCKET			text	華藍市的民家		text	华蓝市的民家	TEAM ROCKET	Team Rocket attacking the good people of	华蓝市的民家	ハナダシティの　みんか	ハナダ　シティの　みんか
+	line	attacks CERULEAN			line	被襲擊了……嗎！		line	被袭击了……吗！	attacks CERULEAN	Cerulean City...and in their own homes?	被袭击了……吗！	おそわれる……　か！	おそわれる…　か!
+	cont	citizens...			para	要是哪天的報紙上		para	要是哪天的报纸上	citizens...				しんぶんに　ロケットだんの
+					line	沒有火箭隊的新聞，		line	没有火箭队的新闻，	TEAM ROCKET is	Not a day goes by without Team Rocket being	要是哪天的报纸上	しんぶんに　ロケットだんの	じけんが　のらない　ひは　ないな
+	para	TEAM ROCKET is			cont	那絕對是太陽從西邊		cont	那绝对是太阳从西边	always in the	in the news for some crime or another.	没有火箭队的新闻，	じけんが　のらない　ひは　ないな	ゲ
+	line	always in the			cont	出來了！		cont	出来了！	news!				
+	cont	news!			done			done				那绝对是太阳从西边出来了！		
+	done													
+														
+_MtMoonPokecenterText5::				_MtMoonPokecenterText5::										
+	text_start				text_start			text_ram	wStringBuffer	wStringBuffer	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	done				done			text_start			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+								line	已滑落至取物口！	popped out!				4ャよひ
+_MagikarpSalesmanText1::				_MagikarpSalesmanText1::				done						つ {PLAYER}  {PLAYER} 
+	text	MAN: Hello, there!			text	大叔：嘿！小朋友！		text	大叔：嘿！小朋友！	MAN: Hello, there!	MAN: Hello there, sweetie pie!	大叔：嘿！小妹妹！	おじさん『じょうちゃん	だけに…!
+	line	Have I got a deal			line	有個秘密		line	有个秘密	Have I got a deal	Have I got a deal just for you!	有个秘密我只告～诉～你……！	あ・な・た・だけに……！	いい　おはなしが　ありまして
+	cont	just for you!			cont	我只告～訴～你……！		cont	我只告～诉～你……！	just for you!				ひみつの　ポケモン　コイキングが
+					para	事情是這樣的。		para	事情是这样的。	I'll let you have	I’ll let you have a secret Pokémon—	事情是这样的。	いい　おはなしが　ありまして	なんと　たったの　500円!
+	para	I'll let you have			line	秘密的寶可夢——鯉魚王，		line	秘密的宝可梦——鲤鱼王，	a swell MAGIKARP	a Magikarp—for just 500!			どうだい　かうかね?
+	line	a swell MAGIKARP			cont	現在買的話只收你¥500！		cont	现在买的话只收你¥500！	for just ¥500!		秘密的宝可梦——鲤鱼王，	ひみつの　ポケモン　コイキングが	
+	cont	for just ¥500!			cont	怎麼樣？你要不要買？		cont	怎么样？你要不要买？	What do you say?	So, you’ll buy it, am I right?	现在买的话只收你500！	なんと　たったの　５００円！	
+	cont	What do you say?			done			done						
+	done											怎么样？你要不要买？	どうだい　かうかね？	
+														
+_MagikarpSalesmanNoText::				_MagikarpSalesmanNoText::										
+	text	No? I'm only			text	你不要？		text	你不要？	No? I'm only	No? You say no? I’m only doing this	你不要？	そお？　ざんねんだねえ……	そお?　ざんねんだねえ…
+	line	doing this as a			line	那真是太遺憾了……		line	那真是太遗憾了……	doing this as a	as a favor to you!	那真是太遗憾了……		
+	cont	favor to you!			done			done		favor to you!				
+	done													
+														
+_MagikarpSalesmanNoMoneyText::				_MagikarpSalesmanNoMoneyText::										
+	text	You'll need more			text	你的錢好像不夠啊！		text	你的钱好像不够啊！	You'll need more	You’ll need more money than that!	你的钱好像不够啊！	おかね　たりない　みたいだねえ	おかね　たりない　みたいだねえ
+	line	money than that!			done			done		money than that!				
+	done													
+														
+_MagikarpSalesmanText2::				_MagikarpSalesmanText2::										
+	text	MAN: Well, I don't			text	大叔：對了對了！		text	大叔：对了对了！	MAN: Well, I don't	MAN: Well, I don’t give refunds.	大叔：对了对了！	おじさん『そうそう　ポケモンの	おじさん『そうそう　ポケモンの
+	line	give refunds!			line	寶可夢是不能退貨的喔！		line	宝可梦是不能退货的喔！	give refunds!	You knew what you were getting!	宝可梦是不能退货的喔！	へんぴんは　おことわり　だからな	へんぴんは　おことわり　だからな
+	done				done			done						
+end				end										

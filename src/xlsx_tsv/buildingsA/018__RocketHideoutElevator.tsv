@@ -1,0 +1,6 @@
+text/RocketHideoutElevator.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_RocketElevatorText_4578b::				_RocketElevatorText_4578b::										
+	text	It appears to			text	看來需要鑰匙		text	看来需要钥匙	It appears to	It appears that you need a key.	看来需要钥匙	うごかすには	カギが　ひつよう　みたいだな@ゼ@ダ
+	line	need a key.@			line	才能啟動它。@		line	才能启动它。@	need a key.@		才能启动它。	カギが　ひつよう　みたい	
+	text_end				text_end			text_end						
+end				end										

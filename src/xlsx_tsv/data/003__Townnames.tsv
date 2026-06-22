@@ -1,0 +1,84 @@
+data/maps/names.asm	@	
+	"""PALLET TOWN@"""	真新鎮
+	"""VIRIDIAN CITY@"""	常青市
+	"""PEWTER CITY@"""	深灰市
+	"""CERULEAN CITY@"""	華藍市
+	"""LAVENDER TOWN@"""	紫苑鎮
+	"""VERMILION CITY@"""	枯葉市
+	"""CELADON CITY@"""	玉虹市
+	"""FUCHSIA CITY@"""	淺紅市
+	"""CINNABAR ISLAND@"""	紅蓮鎮
+	"""INDIGO PLATEAU@"""	石英高原
+	"""SAFFRON CITY@"""	金黃市
+	"""ROUTE 1@"""	1號道路
+	"""ROUTE 2@"""	2號道路
+	"""ROUTE 3@"""	3號道路
+	"""ROUTE 4@"""	4號道路
+	"""ROUTE 5@"""	5號道路
+	"""ROUTE 6@"""	6號道路
+	"""ROUTE 7@"""	7號道路
+	"""ROUTE 8@"""	8號道路
+	"""ROUTE 9@"""	9號道路
+	"""ROUTE 10@"""	10號道路
+	"""ROUTE 11@"""	11號道路
+	"""ROUTE 12@"""	12號道路
+	"""ROUTE 13@"""	13號道路
+	"""ROUTE 14@"""	14號道路
+	"""ROUTE 15@"""	15號道路
+	"""ROUTE 16@"""	16號道路
+	"""ROUTE 17@"""	17號道路
+	"""ROUTE 18@"""	18號道路
+	"""SEA ROUTE 19@"""	19號水道
+	"""SEA ROUTE 20@"""	20號水道
+	"""SEA ROUTE 21@"""	21號水道
+	"""ROUTE 22@"""	22號道路
+	"""ROUTE 23@"""	23號道路
+	"""ROUTE 24@"""	24號道路
+	"""ROUTE 25@"""	25號道路
+	"""VIRIDIAN FOREST@"""	常青森林
+	"""MT.MOON@"""	月見山
+	"""ROCK TUNNEL@"""	岩山隧道
+	"""SEA COTTAGE@"""	海角小屋
+	"""S.S.ANNE@"""	聖特安努號
+	"""#MON LEAGUE@"""	#聯盟
+	"""UNDERGROUND PATH@"""	地下通道
+	"""#MON TOWER@"""	#塔
+	"""SEAFOAM ISLANDS@"""	雙子島
+	"""VICTORY ROAD@"""	冠軍之路
+	"""DIGLETT's CAVE@"""	地鼠洞穴
+	"""ROCKET HQ@"""	火箭隊基地
+	"""SILPH CO.@"""	西爾佛公司
+	"""<PKMN> MANSION@"""	#屋
+	"""SAFARI ZONE@"""	狩獵地帶
+	"""CERULEAN CAVE@"""	華藍洞窟
+	"""POWER PLANT@"""	無人發電廠
+engine/items/town_map.asm		
+	"""To@"""	飛往@
+	"""'s"""	的
+	""" nest@"""	分佈@
+	""" AREA UNKNOWN@"""	  　棲息地不明@
+scripts/PewterGym.asm	@	
+	"""PEWTER CITY@"""	深灰市
+	"""BROCK@"""	小剛
+scripts/CeruleanGym.asm	@	
+	"""CERULEAN CITY@"""	華藍市
+	"""MISTY@"""	小霞
+scripts/VermilionGym.asm	@	
+	"""VERMILION CITY@"""	枯葉市
+	"""LT.SURGE@"""	馬志士
+scripts/CeladonGym.asm	@	
+	"""CELADON CITY@"""	玉虹市
+	"""ERIKA@"""	莉佳
+scripts/FuchsiaGym.asm	@	
+	"""FUCHSIA CITY@"""	淺紅市
+	"""KOGA@"""	阿桔
+scripts/SaffronGym.asm	@	
+	"""SAFFRON CITY@"""	金黃市
+	"""SABRINA@"""	娜姿
+scripts/CinnabarGym.asm	@	
+	"""CINNABAR ISLAND@"""	紅蓮鎮
+	"""BLAINE@"""	夏伯
+scripts/ViridianGym.asm	@	
+	"""VIRIDIAN CITY@"""	常青市
+	"""GIOVANNI@"""	坂木
+end		

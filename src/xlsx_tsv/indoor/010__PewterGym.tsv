@@ -1,0 +1,188 @@
+text/PewterGym.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_BrockPreBattleText::				_BrockPreBattleText::										
+	text	I'm BROCK!			text	你來了啊！		text	你来了啊！	I'm BROCK!	The Pewter City Gym only allows Trainers who	不理解[VAR COLOR(0006)]属性相克[VAR COLOR(0000)]的训练家	ニビジム　では	そうか!
+	line	I'm PEWTER's GYM			line	我是深灰市寶可夢道館的		line	我是深灰市宝可梦道馆的	I'm PEWTER's GYM	know [VAR COLOR(0006)]type matchups[VAR COLOR(0000)] to enter!	是没有资格进入深灰道馆的！	[VAR COLOR(0006)]タイプの　あいしょう[VAR COLOR(0000)]を	では　さっそく　はじめるか!
+	cont	LEADER!			cont	館主小剛！		cont	馆主小刚！	LEADER!				あのな…　わしの　おきにいりの
+					para	我擁有硬石頭般的毅力，		para	我拥有硬石头般的毅力，	I believe in rock	There are a few types that have an advantage	道馆馆主会派出[VAR COLOR(0006)]岩石属性[VAR COLOR(0000)]的宝可梦。	しっている　トレーナー　でないと	ギャロップがな…　…
+	para	I believe in rock			line	我的寶可夢們也是一樣！		line	我的宝可梦们也是一样！	hard defense and	against the Gym Leader’s [VAR COLOR(0006)]Rock-type[VAR COLOR(0000)] Pokémon.	虽说能克制岩石属性的		…　でな…　が…
+	line	hard defense and			cont	硬如頑石，堅忍不拔！		cont	硬如顽石，坚忍不拔！	determination!			はいる　ことを　みとめない！	…　…　かわいくてな…
+	cont	determination!			para	沒錯！我所使用的		para	没错！我所使用的	That's why my	But for Trainers who have never challenged a	属性有好几种……		たまらん…　くう…
+					line	都是岩石屬性的寶可夢！		line	都是岩石属性的宝可梦！	#MON are all	Gym before, we have them use either [VAR COLOR(0006)]Grass- [VAR COLOR(0000)]or		ジムリーダーの　つかう	…　さらに…　もう…
+	para	That's why my			para	呵呵！明知會輸，		para	呵呵！明知会输，	the rock-type!		深灰道馆会请第一次	[VAR COLOR(0006)]いわタイプ[VAR COLOR(0000)]の　ポケモンに　ゆうりな	すごすぎ…　…　で…
+	line	#MON are all			line	卻還是要向我挑戰嗎？		line	却还是要向我挑战吗？	Do you still want	[VAR COLOR(0006)]Water-type[VAR COLOR(0000)] Pokémon! You have to show me a	挑战道馆的训练家，		…　そう　おもうか…
+	cont	the rock-type!			cont	這就是寶可夢訓練家的		cont	这就是宝可梦训练家的	to challenge me?			タイプは　いくつか　あるが……	どうして…　…　すき…
+					cont	天性吧。		cont	天性吧。	Fine then! Show	[VAR COLOR(0006)]Grass- [VAR COLOR(0000)]or [VAR COLOR(0006)]Water-type[VAR COLOR(0000)] Pokémon if you want to	使用[VAR COLOR(0006)]草属性[VAR COLOR(0000)]或[VAR COLOR(0006)]水属性[VAR COLOR(0000)]的宝可梦！		…　はー!
+	para	Do you still want			para	好吧！		para	好吧！	me your best!			ジムが　はじめての　トレーナーには	…　…　だきしめて…
+	line	to challenge me?			line	你儘管上吧！		line	你尽管上吧！		face the Gym Leader!	想和道馆馆主对战的话，	[VAR COLOR(0006)]くさタイプ[VAR COLOR(0000)]か　[VAR COLOR(0006)]みずタイプ[VAR COLOR(0000)]の	ねるときも…
+	cont	Fine then! Show			done			done				就给我看一下你的		…　じゃろ…　…
+	cont	me your best!											ポケモンを　つかって　もらっている！	…　…　すばらし…!
+	done											[VAR COLOR(0006)]草属性[VAR COLOR(0000)]或[VAR COLOR(0006)]水属性[VAR COLOR(0000)]的宝可梦吧！		…　うつくし…
+													ジムリーダーと　たたかい　たければ	…　…　ありゃ!
+_BrockPostBattleAdviceText::				_BrockPostBattleAdviceText::									[VAR COLOR(0006)]くさタイプ[VAR COLOR(0000)]か　[VAR COLOR(0006)]みずタイプ[VAR COLOR(0000)]の	もう　こんな　じかんか!
+	text	There are all			text	在這個廣闊的世界裡			この　ひろい　せかいには		There are all kinds of people in this huge world	在这个广阔的世界里	この　ひろい　せかいには	この　ひろい　せかいには
+	line	kinds of trainers			line	生活著各種各樣的人！			いろんな　やつが　いる!		of ours.	生活着各种各样的人！	いろんな　やつが　いる！	いろんな　やつが　いる!
+	cont	in the world!												ポケモンを
+											Some have their Pokémon battle—some just like	他们或是让宝可梦对战，	ポケモンを	たたかわせたり　そだてたり…
+	para	Some raise #MON			para	他們或是讓寶可夢對戰，			ポケモンを		to raise them...			おれは　ここで
+	line	for fights. Some			line	或是訓練它們成長……			たたかわせたり　そだてたり…			或是训练它们成长……	たたかわせたり　そだてたり……	ポケモンを　そだてる　ブりーダーの
+	cont	see them as pets.									I’m hard at work here to learn how to become			しゅぎょうを　しているんだ!
+											a Pokémon Breeder, who helps raise Pokémon.	我在这个地方的目的则是要为	おれは　ここで	きみも　つよい
+	para	I'm in training to			para	我為了成為寶可夢培育家			ポケモンを　そだてる　ブりーダーの			成为宝可梦培育家而努力修行！	ポケモンを　そだてる　ブリーダーの	ポケモン　トレーナーを　めざすなら
+	line	become a #MON			line	正在努力修行！			しゅぎょうを　しているんだ!		You’re aiming to become a strong Trainer, right?			ハナダ　シティの　ジムにも　いき
+	cont	breeder.									Then you should challenge all the other Gyms!	你想要变强？那我推荐你	しゅぎょうを　しているんだ！	きみの　ちからを
+												也去挑战一下其他的道馆吧！		ためして　みると　いい
+	para	If you take your			para	你也很強大呢。			きみも　つよい				きみは　つよさを　めざすのか？	
+	line	#MON training			line	要成為寶可夢訓練家的話，			ポケモン　トレーナーを　めざすなら				なら　ほかの　ジムにも　いくといい！	
+	cont	seriously, go			cont	我推薦你去華藍市的道館			ハナダ　シティの　ジムにも　いき					
+	cont	visit the GYM in			cont	試試身手吧！			きみの　ちからを					
+	cont	CERULEAN and test			done				ためして　みると　いい					
+	cont	your abilities!												
+	done													
+														
+_BeforeReceivedTM34Text::				_BeforeReceivedTM34Text::										
+	text	Wait! Take this			text	還有就是……沒錯！		text	还有就是……没错！	Wait! Take this	[VAR PKNICK(0001)] suddenly started messing	[VAR PKNICK(0001)]突然碰了碰你！	[VAR PKNICK(0001)]は　きゅうに	うわッ!　なんだ?
+	line	with you!			line	這個送給你！		line	这个送给你！	with you!	with you!	要稍微陪陪它吗？	ちょっかいを　だしてきた！	きゅうに　こえを　かけるな!
+	done				done			done						
+											Want to give it a little attention?		すこし　かまって　あげますか？	
+_ReceivedTM34Text::				_ReceivedTM34Text::										
+	text	<PLAYER> received			text	<PLAYER>從小剛那裡		text	<PLAYER>从谜之训练家	<PLAYER> received	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	TM34!@			line	得到了TM34！@		line	那里得到了@	a @	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_end				text_end			text_ram	wStringBuffer	wStringBuffer				
+								text	！@	!@				
+_TM34ExplanationText::				_TM34ExplanationText::				text_end						
+	text_start				text_start			text_start			“This report reached us from a reader wishing	接下来要介绍的是一位	ペンネーム	 {5B} を　みると
+					para	使用招式學習器，		para	使用招式学习器，	A TM contains a	to remain anonymous. They had this to say:	不愿透露姓名的读者带来的故事：	とくめいきぼう　さん　より	なんと　でんしメールが　きていた!
+	para	A TM contains a			line	寶可夢就能立刻		line	宝可梦就能立刻	technique that				…　…　…
+	line	technique that			cont	學會招式了！		cont	学会招式了！	can be taught to	‘It happened when I went to the Pokémon Tower.	“这是我去宝可梦塔时	『わたしが　ポケモンタワーに	ポケモンを　つよく　そだてて
+	cont	can be taught to			para	但是學習器使用一次後		para	但是学习器使用一次后	#MON!		发生的一件事。	いった　ときの　こと　です	たたかう　ポケモン　トレーナー!
+	cont	#MON!			line	就會消失，要讓哪隻		line	就会消失，要让哪只	A TM is good only	I’d been visiting a grave there, and when I went			ここに　さいきょうの
+					cont	寶可夢來學習，		cont	宝可梦来学习，	once! So when you		那天我去塔里扫完墓，	おはかまいりを　おえて	トレーナーが　あつまり　ました
+	para	A TM is good only			cont	好好考慮一下比較好。		cont	好好考虑一下比较好。	use one to teach	to leave, a mysterious dark figure appeared and	正准备要回家，	いざ　かえろうと　すると	ばしょは　セキエイ　こうげんの
+	line	once! So when you			cont	順便說一句……		cont	顺便说一句……	a new technique,				ポケモン　りーグ　ほんぶ　です!
+	cont	use one to teach			para	招式學習器３４裡		para	招式学习器３４里	pick the #MON	chased me! I couldn’t tell what it was, and I tried	突然有一个莫名其妙的	えたいの　しれない	オーキドはかせも
+	cont	a new technique,			line	包含著“忍耐”！		line	包含着“忍耐”！	carefully!		黑乎乎的东西追了过来……	くろい　ものが　おいかけて　きて……	いちど　ごらん　ください
+	cont	pick the #MON			para	在受到攻擊的時候		para	在受到攻击的时候	TM34 contains	as desperately as I could to run away, but in the			…　ポケモン　りーグ　より
+	cont	carefully!			line	會先一動不動地忍耐……		line	会先一动不动地忍耐……	BIDE!		我拼命逃跑，	ひっしに　にげたんです　けど	…　…　…
+					cont	之後再一口氣雙倍奉還！		cont	之后再一口气双倍奉还！	Your #MON will	end, it caught me anyway...	但还是没能逃脱它的追赶……	おいつかれて　わたし……	…　…
+	para	TM34 contains			cont	是個很有趣的招式！		cont	是个很有趣的招式！	absorb damage in				ひ507ム
+	line	BIDE!			done			done		battle then pay	Then the next thing I knew, I was lying on the	等我回过神的时候，	きづいたら　いりぐちで	
+										it back double!		我发现我自己倒在入口那边……	たおれてたんです	
+	para	Your #MON will									ground outside of the tower’s entrance.			
+	line	absorb damage in										那天追赶我的	アレは　いったい	
+	cont	battle then pay									What in the world was that thing?’”	究竟是什么东西呢……？”	なんだったの　かしら……？	
+	cont	it back double!												
+	done													
+														
+_TM34NoRoomText::				_TM34NoRoomText::										
+	text	You don't have			text	持有物已滿了。		text	持有物已满了。	You don't have	You don’t have enough dough.	你啊……	アナタさま……　さきだつ　ものが	…　おとくな　けいじばん!
+	line	room for this!			done			done		room for this!		最最重要的东西好像不太够噢？	たりませんよ？	ひとの　ポケモンは　ひとの　もの!
+	done										...Dough means money, kid.			やせいの　ポケモンに　だけ
+												最最重要的东西……	さきだつ　もの　とは	モンスターボールを　なげて
+_ReceivedBoulderBadgeText::				_ReceivedBoulderBadgeText::								当然就是指钱咯！	……おかねの　こと　です	つかまえよう!
+	text	I took			text	我好像小看你了。		text	我好像小看你了。	I took	I’ve been waiting for you,	……我一直在等你！	……まってたよ！	うーん…
+	line	you for granted.			para	為了證明你戰勝了我，		para	为了证明你战胜了我，	you for granted.	[VAR 010E(0002)]!	[VAR 010E(0002)]！	[VAR 010E(0002)]！	よっぱらってた　みたいじゃ!
+					line	就把寶可夢聯盟認證的		line	就把宝可梦联盟认证的	As proof of your				あたまが　いたい…
+	para	As proof of your			cont	灰色徽章送給你吧！		cont	灰色徽章送给你吧！	victory, here's	Your strength has become truly amazing.	看来你的实力	あなたの　つよさは	…　なに?
+	line	victory, here's			para	<PLAYER>從小剛那裡		para	<PLAYER>从小刚那里	the BOULDERBADGE!		真是无比强大！	とんでもない　みたいね！	わしが　じゃまで　とおれなかった?
+	cont	the BOULDERBADGE!			line	得到了灰色徽章！@		line	得到了灰色徽章！@	<PLAYER> received	The ways to describe your strength and skill			…　…　ほっほう
+					text_end			text_end		the BOULDERBADGE!@	are as many as the Pokémon in this world!	对于你实力的赞美之词，	いま　あなたの　つよさを	ポケモンずかんを　つくっとるのか!
+	para	<PLAYER> received										简直和宝可梦一样多到数不胜数！	あらわす　ことばは	だったら　おわびに　ポケモンの
+	line	the BOULDERBADGE!@									From now on, you will be known as a			つかまえかたを　みせてやろう!
+	text_end										Grand Master!	今后我会称呼你为	ポケモンの　かずほど　あるからね！	
+												“全能大师”！		
+_BrockBoulerBadgeInfoText::				_BrockBoulerBadgeInfoText::									これからは　あなたを	
+	text_start				text_start			text_start			The door is locked!	门上写着一排小字……！	ドアに　ちいさな　もじで	 {5B} に
+					para	當你有了灰色徽章，		para	当你有了灰色徽章，	That's an official			なにか　かいてある……！	でんしメールが　とどいてる!
+	para	That's an official			line	你的寶可夢會變得更強！		line	你的宝可梦会变得更强！	#MON LEAGUE	There’s a message written in small letters on	“问题！		…　…　…
+	line	#MON LEAGUE			para	學會招式“閃光”的		para	学会招式“闪光”的	BADGE!	the door...	　这座道馆的钥匙究竟在哪儿？	「もんだい！　この　ジムの	でんせつの　とりポケモンは
+	cont	BADGE!			line	寶可夢即使在戰鬥外，		line	宝可梦即使在战斗外，	Its bearer's			　カギは　どこに　あるでしょう？	3しゅるい…　ファイヤー
+					cont	也能使用它了！		cont	也能使用它了！	#MON become	“Quiz time!	　提示！		サンダー　フりーザー…
+	para	Its bearer's			prompt			prompt		more powerful!	Where’s the key that’ll let you into this Gym?	　就在缠满草的建筑物里的某处……？”	　ヒント！　くさが　からみついた	しかし　どこに　いるのか
+	line	#MON become								The technique			　たてものの　どこかに……？」	まだ　わかって　ません
+	cont	more powerful!								FLASH can now be	“Hint: The answer can be found somewhere in			こんど　ハナダ　どうくつに
+										used any time!	a building that is overgrown with greenery!”			ちょうさに　いきます
+	para	The technique												…　まずは　ほうこく　まで
+	line	FLASH can now be												ポケモン　ちょうさ　たい
+	cont	used anytime!												…　…　…
+	prompt													
+														
+_PewterGymBattleText1::				_PewterGymBattleText1::										
+	text	Stop right there,			text	站住！		text	站住！	Stop right there,	Stop right there, kid!	站住！	まちなー！	まちなー!
+	line	kid!			para	你一小孩想幹什麼？		para	你一小孩想干什么？	kid!				こどもが　なんの　ようだ!
+					line	想挑戰館主小剛，		line	想挑战馆主小刚，	You're still light	You’re ten thousand light-years from	你一小孩想干什么？	こどもが　なんの　ようだ！	タケシさんに　ちょうせん　なんて
+	para	You're still light			cont	你還早了１００００光年！		cont	你还早了１００００光年！	years from facing	facing Brock!	想挑战馆主小刚，	タケシさんに　ちょうせん　なんて	10000こうねん　はやいんだよ!
+	line	years from facing			done			done		BROCK!				
+	cont	BROCK!										你还早了10000光年！	１００００こうねん　はやいんだよ！	
+	done													
+														
+_PewterGymEndBattleText1::				_PewterGymEndBattleText1::										
+	text	Darn!			text	糟糕！		text	糟糕！	Darn!	Oops!	糟糕！	しまった！	しまった!
+					para	１００００光年……		para	１００００光年……	Light years isn't				10000こうねんは…　…
+	para	Light years isn't			line	不是時間！		line	不是时间！	time! It measures	Light-years isn’t time...	10000光年……	１００００こうねんは……	じかん　じゃない!
+	line	time! It measures			cont	……是距離！		cont	……是距离！	distance!	It measures distance!	不是时间！	じかん　じゃない！	…　…　きょり　だ!
+	cont	distance!			prompt			prompt						
+	prompt											……是距离！	……きょり　だ！	
+														
+_PewterGymAfterBattleText1::				_PewterGymAfterBattleText1::										
+	text	You're pretty hot,			text	你很厲害啊！		text	你很厉害啊！	You're pretty hot,	You’re pretty hot...but not as hot as Brock!	你很厉害啊！	おまえ　なかなか　やるな！	おまえ　なかなか　やるな!
+	line	but not as hot			line	雖然還比不上小剛。		line	虽然还比不上小刚。	but not as hot		虽然还比不上小刚。	タケシさん　ほどじゃ　ないけどな	タケシさん　ほどじゃ　ないけどな
+	cont	as BROCK!			done			done		as BROCK!				ゲ4ワよひぺ
+	done													
+														
+_PewterGymGuidePreAdviceText::				_PewterGymGuidePreAdviceText::										
+	text	Hiya! I can tell			text	嗨！		text	嗨！	Hiya! I can tell	Hiya!	嗨！	おっす！	おっす!
+	line	you have what it			line	你在以寶可夢冠軍		line	你在以宝可梦冠军	you have what it	You’re here to challenge the Gym, aren’t you?	你是道馆挑战者吧！	ジムの　ちょうせんしゃ　だな！	ポケモン　チャンピオンを
+	cont	takes to become a			cont	為目標嗎？		cont	为目标吗？	takes to become a				めざして　みないか?
+	cont	#MON champ!			para	我不是訓練家，		para	我不是训练家，	#MON champ!	I’m not a Trainer, but I can tell if you’re worthy	我不是训练家，	おれは　トレーナー　じゃない	おれは　トレーナー　じゃない
+					line	但是我可以為你提供		line	但是我可以为你提供	I'm no trainer,	of challenging the Gym Leader.	但是我可以判断你	しかし　おまえが　ジムリーダーに	しかし　かつ　ために　ばっちり
+	para	I'm no trainer,			cont	獲勝的建議哦！		cont	获胜的建议哦！	but I can tell				アドバイス　できるぜ!
+	line	but I can tell			para	那……！一起以		para	那……！一起以	you how to win!	Now, let’s get started...	是否有足够的水准	ちょうせん　するに　ふさわしい	な…!　いっしょに
+	cont	you how to win!			line	冠軍為目標吧！		line	冠军为目标吧！	Let me take you				ポケモン　チャンピオン　めざそうぜ
+					done			done		to the top!		去挑战道馆馆主！	ヤツか　どうかは　わかるぜ！	
+	para	Let me take you												
+	line	to the top!										那赶快……	さっそく　だが……	
+	done													
+														
+_PewterGymGuideBeginAdviceText::				_PewterGymGuideBeginAdviceText::										
+	text	All right! Let's			text	好嘞！		text	好嘞！	All right! Let's	All right!	好嘞！	よっしゃーッ！	よっしゃーッ!
+	line	get happening!			line	那麼，趕緊的……！		line	那么，赶紧的……！	get happening!	Let’s get this happening!	那么，赶紧的……！	じゃ　さっそく……！	じゃ　さっそく…!
+	prompt				prompt			prompt						
+														
+_PewterGymGuideAdviceText::				_PewterGymGuideAdviceText::										
+	text	The 1st #MON			text	對戰時		text	对战时	The 1st #MON	The first Pokémon out in a battle is the one in	对战时	しょうぶの　さいしょに　とびだす	しょうぶの　さいしょに　とびだす
+	line	out in a match is			line	第一個上場的寶可夢……		line	第一个上场的宝可梦……	out in a match is	the top left of your party.	第一个上场的宝可梦……	ポケモンは……	ポケモンは…
+	cont	at the top of the			cont	就是寶可夢列表的		cont	就是宝可梦列表的	at the top of the				ポケモン　りストの
+	cont	#MON LIST!			cont	最上方的那隻了！		cont	最上方的那只了！	#MON LIST!	By changing the order of your Pokémon, you	就是同行宝可梦列表的	てもちポケモン　リストの	いちばん　うえの　やつだ!
+					para	只要改變列表裡的順序，		para	只要改变列表里的顺序，	By changing the	may gain an advantage.			りストの　じゅんばんを　かえれば
+	para	By changing the			line	有時也能對自己有利！		line	有时也能对自己有利！	order of #MON,		左上方的那只了！	ひだりうえの　やつだ！	ゆうりに　なることも　ある!
+	line	order of #MON,			cont	你不妨試試看！		cont	你不妨试试看！	matches could be	Try leading with different Pokémon to suit your			ためして　みなよ!
+	cont	matches could be			done			done		made easier!	opponent’s team.	只要改变列表里的顺序，	ポケモンの　じゅんばんを　かえれば	
+	cont	made easier!										有时也能对自己有利！	たたかいが　ゆうりに　なるぜ！	
+	done													
+												你不妨试试看！	ためして　みなよ！	
+_PewterGymText_5c524::				_PewterGymText_5c524::										
+	text	It's a free			text	你不用客氣！		text	你不用客气！	It's a free	It’s a free service!	你不用客气！	えんりょは　いらんぜ！	えんりょは　いらんぜ!
+	line	service! Let's			line	那咱們趕緊的……！		line	那咱们赶紧的……！	service! Let's	Let’s get this happening!	那咱们赶紧的……！	じゃ　さっそく……！	じゃ　さっそく…!
+	cont	get happening!			prompt			prompt		get happening!				
+	prompt													
+														
+_PewterGymGuidePostBattleText::				_PewterGymGuidePostBattleText::										
+	text	Just as I thought!			text	你可真是名不虛傳！		text	你可真是名不虚传！	Just as I thought!	Just as I thought!	你可真是名不虚传！	さすがだな！	さすがだな!
+	line	You're #MON			line	就是這個勢頭！		line	就是这个势头！	You're #MON	You’re Pokémon champ material!	就是这个势头！	この　ちょうしで　めざせ！	この　ちょうしで　めざせ!
+	cont	champ material!			cont	朝著寶可夢冠軍進發吧！		cont	朝着宝可梦冠军进发吧！	champ material!				ポケモン　チャンピオン!
+	done				done			done				朝着宝可梦冠军进发吧！	ポケモン　チャンピオン！	
+														
+_PewterGymGuyText::				_PewterGymGuyText::										
+	text	All right! Let's			text	好嘞！		text	好嘞！	All right! Let's	All right! Now that everything’s back to normal,	好了！既然这里恢复了和平，	よし！　へいわに　なったし	
+	line	get happening!			line	那麼，趕緊的……！		line	那么，赶紧的……！	get happening!	I guess it’s time for the next Pokémon Gym!	接下来就继续我们的道馆之旅吧！	また　ポケモンジム　めぐりだな！	　ぽ　ぽ　
+								prompt						
+	para	It will be tough			para	嗯，對你的皮卡丘來說，			んー　きみの　ピカチュウじゃ		Have you been to the [VAR COLOR(0006)]Saffron City Gym[VAR COLOR(0000)]	[VAR TRNAME(0000)]你	[VAR TRNAME(0000)]は	
+	line	for your PIKACHU			line	要想在這個道館獲勝			このジムを　かちぬくのは		already, [VAR TRNAME(0000)]?	去过[VAR COLOR(0006)]金黄道馆[VAR COLOR(0000)]了吗？	[VAR COLOR(0006)]ヤマブキ　ジム[VAR COLOR(0000)]　いったか？	
+	cont	at this GYM!			cont	可是相當困難的啊！			かなり　きびしいぜ!					
+											How many Badges have you got?	你现在有几个道馆徽章呢？	いま　ジムバッジ　いくつ？	
+	para	Electric attacks			para	電屬性攻擊對小剛使用的			タケシが　つかう　じめんポケモンには					
+	line	are harmless to			line	地面屬性的寶可夢，			でんきこうげきは		...That many, huh? Wow.	……噢，是嘛。	……へー　そっか	
+	cont	BROCK's ground-			cont	是完全無效的！			まったく　つうじないからな!					
+	cont	type #MON.												
+	done				done									
+end				end										

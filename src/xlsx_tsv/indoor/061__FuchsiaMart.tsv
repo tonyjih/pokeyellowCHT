@@ -1,0 +1,16 @@
+text/FuchsiaMart.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_FuchsiaMartText2::				_FuchsiaMartText2::										
+	text	Do you have a			text	就沒有寫著“狩獵地帶！”		text	就没有写着“狩猎地带！”	Do you have a	Now that you have a Soul Badge, Pokémon up	有了粉红徽章，	ピンクバッジを　もって　おれば	ピンク　バッジを　もって　おれば
+	line	SAFARI ZONE flag?			line	的三角旗嗎？		line	的三角旗吗？	SAFARI ZONE flag?	to Lv. [VAR NUM2(0004)] will heed your command if you	无论是从谁那里得到的宝可梦，	だれの　ポケモンでも	おぬしの　ポケモンの
+					para	燈籠呢？		para	灯笼呢？	What about cards				ぼうぎょ　りょくを　あげる!
+	para	What about cards			line	日曆也沒了嗎！		line	日历也没了吗！	or calendars?	received them in a trade.	等级[VAR NUM2(0004)]为止的宝可梦都会听命于你！	レベル[VAR NUM2(0004)]　までは	たたかって　ない　ときでも
+	line	or calendars?			done			done						なみのりの　わざを
+	done										Ah! Take this, too.	对了……！这个就给你了！	おぬしに　したがう　ようになる！	つかえる　ように　なる!
+														そうだ…!　これを　おぬしに!
+_FuchsiaMartText3::				_FuchsiaMartText3::									そうだ……！　これを　おぬしに！	
+	text	Did you try X			text	你買了速度強化沒？		text	你买了速度强化没？	Did you try X	Have you tried using an X Speed? It temporarily	你买了速度强化没？	スピーダーは　かって　みた？	スピーダーは　かって　みた?
+	line	SPEED? It speeds			line	它可以在戰鬥中暫時提升		line	它可以在战斗中暂时提升	SPEED? It speeds	boosts a Pokémon’s Speed in battle.	它可以在战斗中	たたかう　ポケモンの　すばやさを	たたかう　ポケモンの　すばやさを
+	cont	up a #MON in			cont	寶可夢的速度哦。		cont	宝可梦的速度哦。	up a #MON in				いちじてきに　あげるの
+	cont	battle!			done			done		battle!		暂时提升宝可梦的速度哦。	いちじてきに　あげるの	
+	done													
+end				end										

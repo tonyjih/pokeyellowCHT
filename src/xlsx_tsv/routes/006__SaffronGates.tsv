@@ -1,0 +1,40 @@
+text/SaffronGates.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SaffronGateText_1dfe7::				_SaffronGateText_1dfe7::										
+	text	I'm on guard duty.			text	我是一個認真盡職的警衛！		text	我是一个认真尽职的警卫！	I'm on guard duty.	I’m on guard duty.	我是一个认真尽职的警卫！	わたし　まじめな　けいびいん	わたし　まじめな　けいびいん
+	line	Gee, I'm thirsty,			line	哎呀……有點口渴啊！		line	哎呀……有点口渴啊！	Gee, I'm thirsty,	And I take my duty very seriously.	哎呀……有点口渴啊！	はー……　のどが　かわいた！	はー…
+	cont	though!			para	喂喂！		para	喂喂！	though!				のどが　かわいた!
+					line	那邊現在禁止通行！		line	那边现在禁止通行！	Oh wait there,	But, gee, am I ever thirsty!	好想喝[VAR COLOR(0006)]茶[VAR COLOR(0000)]啊。	[VAR COLOR(0006)]おちゃ[VAR COLOR(0000)]　が　のみたいなぁ	おっと　そっちは
+	para	Oh, wait there,			done			done		the road's closed.				いま　つうこう　きんしだよ
+	line	the road's closed.									I wish I had some [VAR COLOR(0006)]tea[VAR COLOR(0000)] to drink...			
+	done													
+														
+_SaffronGateText_8aaa9::				_SaffronGateText_8aaa9::										
+	text	Whoa, boy!			text	啊，那個飲料		text	啊，那个饮料	Whoa, boy!	“Dear Pippi,	亲爱的小皮皮……	……ピピちゃん	…ピピちゃん
+	line	I'm parched!			line	看上去很好喝啊……		line	看上去很好喝啊……	I'm parched!	I hope I can go see you soon. I’ve heard that	我很想去见你。	こんど　あそびに　いきたい　です	こんど　あそびに　いきたい　です
+	cont	...			cont	……		cont	……	...				ヤマブキ　シティでは　ロケットだんの
+	cont	Huh? I can have			cont	嗯？要送給我？		cont	嗯？要送给我？	Huh? I can have	Saffron City is having lots of trouble with Team	听说金黄市最近	ヤマブキシティでは　ロケットだんの	じけんが　おおい　そうですね
+	cont	this drink?			cont	…………謝了！@		cont	…………谢了！@	this drink?		发生了很多与火箭队有关的事件。	じけんが　おおい　そうですね	クチバは　そうでも　ありません…
+	cont	Gee, thanks!@			text_end			text_end		Gee, thanks!@	Rocket. Vermilion City seems safe for now...”			ザ
+	text_end											枯叶市暂时还算安全……	クチバは　そうでも　ありません……	
+														
+_SaffronGateText_1dff1::				_SaffronGateText_1dff1::										
+	text_start				text_start			text_start			Please visit a Pokémon Center whenever your	宝可梦的体力……	ポケモンの　たいりょく……	オーキド『 {RIVAL} …!
+					para	……		para	……	...	Pokémon’s HP is getting low.	也就是HP变少了的话，	ＨＰが　なくなってきたら	…　ざんねんだ!
+	para	...			line	咕嚕咕嚕……		line	咕噜咕噜……	Glug glug...				おまえが　してんのうに　かったと
+	line	Glug, glug...			cont	……		cont	……	...	And if you’re planning to go far off the beaten	请随时来这里回复吧。	こまめに　ここに　きてくださいね	きいて　ここに　とんで　きたのに
+	cont	...			cont	咕嚕咕嚕……		cont	咕噜咕噜……	Gulp...	path, you should probably remember to stock			ポケモン　りーグに　ついて　みたら
+	cont	Gulp...			cont	如果想去		cont	如果想去	If you want to go		如果要去稍微有点远的地方，	すこしでも　とおいところへ	おまえは　まけとった!
+	cont	If you want to go			cont	金黃市的話……		cont	金黄市的话……	to SAFFRON CITY...	up on Potions from the Poké Mart, too.	建议你先去友好商店购买伤药备用。	おでかけに　なるときは	 {RIVAL} よ…!
+	cont	to SAFFRON CITY...			cont	…………		cont	…………	...				なぜ　まけたのか　わかるか?
+	cont	...			cont	你就過去吧……		cont	你就过去吧……	You can go on	Good luck out there, Trainer!	那么，请加油吧！	フレンドリィショップで	…　…　…
+	cont	You can go on			cont	記得去把飲料也分給		cont	记得去把饮料也分给	through. I'll			キズぐすりを　かっておくのが	おまえが　ポケモン　たちへの
+	cont	through. I'll			cont	另一邊入口的警衛哦。		cont	另一边入口的警卫哦。	share this with				しんらいと　あいじょうを
+	cont	share this with			done			done		the other guards!			おすすめです	わすれとる　からだ!
+	cont	the other guards!												それでは　どんなに　がんばっても
+	done												それでは　がんばってください！	トップ　には　たてんぞ!
+														
+_SaffronGateText_1dff6::				_SaffronGateText_1dff6::										
+	text	Hi, thanks for			text	啊……		text	啊……	Hi, thanks for	Thanks again for the ticket.	谢谢你的船票！	チケット　ありがとな！	パーティも　そろそろ　おわるし
+	line	the cool drinks!			line	之前真是謝謝你了！		line	之前真是谢谢你了！	the cool drinks!	This ship is huge—and it’s full of Trainers!	这游轮里不但宽敞，	ふねの　なか　ひろくて	ふねの　しゅっぱつの　じかん　だな
+	done				done			done						
+end				end								而且还有很多很多训练家……	トレーナーも　いっぱいで……	

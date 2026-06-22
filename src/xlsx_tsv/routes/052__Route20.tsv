@@ -1,0 +1,159 @@
+text/Route20.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route20BattleText1::				_Route20BattleText1::										
+	text	The water is			text	在平淺灘附近		text	在平浅滩附近	The water is	The machine is undergoing maintenance.	现在机器正在维修中。	ただいま　マシンの	はいはい　こどもは　
+	line	shallow here.			line	游泳的人也很多哦！		line	游泳的人也很多哦！	shallow here.		非常抱歉，请稍后再来。	メンテナンスちゅう　です	けんがくりょう　50えん　です
+	done				done			done			Please come back later.			けんがく　しますか?
+													すみませんが　また	
+_Route20EndBattleText1::				_Route20EndBattleText1::									のちほど　おこしください	
+	text	Splash!			text	大——海——！		text	大——海——！	Splash!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			prompt			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_Route20AfterBattleText1::				_Route20AfterBattleText1::										つ {PLAYER}  {PLAYER} 
+	text	I wish I could			text	你騎在寶可夢背上		text	你骑在宝可梦背上	I wish I could	I wish I knew how to ride a Pokémon.	我好想有一只	のれる　ポケモン　もって　いたら	じてんしゃ　もって　いたら
+	line	ride my #MON.			line	不會疲勞可真好哪。		line	不会疲劳可真好哪。	ride my #MON.		可以乘坐的宝可梦，	ぼくも　ライド　したい	ぼくも　サイクりング　したい
+	done				done			done						ゲ
+												然后乘着它去兜风。		
+_Route20BattleText2::				_Route20BattleText2::										
+	text	SEAFOAM is a			text	我是來雙子島度假的。		text	我是来双子岛度假的。	SEAFOAM is a	Ah! [VAR PKNICK(0001)] is chewing on	啊！[VAR PKNICK(0001)]	あ！　[VAR PKNICK(0001)]は	あ!　やせいの
+	line	quiet getaway!			done			done		quiet getaway!	a cord!	嘴里叼着电线！	コードを　くわえてる！	@
+	done													
+											Will you scold it?	要冲它发火吗？	おこりますか？	
+_Route20EndBattleText2::				_Route20EndBattleText2::										
+	text	Quit it!			text	快住手啊。		text	快住手啊。	Quit it!	Safari Zone:	各种宝可梦应有尽有！	いろんな　ポケモン　いっぱい！	いろんな　ポケモン　いっぱい!
+	prompt				prompt			prompt			It’s Brimming Full of Different Pokémon!	……欢迎来到狩猎地带！	……サファリゾーンに　ようこそ！	サファり　ゾーンに　ようこそ!
+														
+_Route20AfterBattleText2::				_Route20AfterBattleText2::										
+	text	There's a huge			text	聽說雙子島的地底下		text	听说双子岛的地底下	There's a huge	There’s a huge cavern underneath this island.	听说双子岛的地底下	ふたごじまの　ちかに	ふたごじまの　ちかに
+	line	cavern underneath			line	有一個鐘乳洞。		line	有一个钟乳洞。	cavern underneath		有一个钟乳洞。	しょうにゅうどうが　あるんだって	しょうにゅうどうが　あるんだって
+	cont	this island.			done			done		this island.				
+	done													
+														
+_Route20BattleText3::				_Route20BattleText3::										
+	text	I love floating			text	在波浪中隨波逐流……		text	在波浪中随波逐流……	I love floating	I love floating here among the waves.	在波浪中随波逐流……	なみまに　ぷかぷか　うかぶ	なみまに　ぷかぷか　うかぶ
+	line	with the fishes!			line	我就是一條魚。		line	我就是一条鱼。	with the fishes!	...I’m a fish Pokémon.	我就是一条鱼。	……あたしは　おさかな	…　あたしは　おさかな
+	done				done			done						
+														
+_Route20EndBattleText3::				_Route20EndBattleText3::										
+	text	Yowch!			text	唔，是翻車魚！		text	唔，是翻车鱼！	Yowch!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			prompt			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_Route20AfterBattleText3::				_Route20AfterBattleText3::										つ {PLAYER}  {PLAYER} 
+	text	Want to float			text	你要來和我一起……		text	你要来和我一起……	Want to float	Want to float with me?	你要来和我一起……	あなた　いっしょに	あなた　いっしょに
+	line	with me?			line	隨波逐流嗎？		line	随波逐流吗？	with me?		随波逐流吗？	……ぷかぷか　しない？	…　ぷかぷか　しない?
+	done				done			done						
+														
+_Route20BattleText4::				_Route20BattleText4::										
+	text	Are you on			text	你也是來度假的嗎？		text	你也是来度假的吗？	Are you on	Are you on vacation, too?	你也是来度假的吗？	きみも　リゾートに　きてるの？	きみも　りゾートに　きてるの?
+	line	vacation too?			done			done		vacation too?				
+	done													
+														
+_Route20EndBattleText4::				_Route20EndBattleText4::										
+	text	No			text	你下手真狠啊。		text	你下手真狠啊。	No	No mercy at all!	你下手真狠啊。	てかげん　なしね	てかげん　なしね
+	line	mercy at all!			prompt			prompt		mercy at all!				
+	prompt													
+														
+_Route20AfterBattleText4::				_Route20AfterBattleText4::										
+	text	SEAFOAM used to			text	過去的雙子島		text	过去的双子岛	SEAFOAM used to	Seafoam used to be a single island in	过去的双子岛	ふたごじまは　むかしは	ふたごじまは　むかしは
+	line	be one island!			line	好像是兩座島嶼。		line	好像是两座岛屿。	be one island!	the distant past.	好像是两座岛屿。	ふたつの　しま　だった　らしいね	ふたつの　しま　だった　らしいね
+	done				done			done						
+														
+_Route20BattleText5::				_Route20BattleText5::										
+	text	Check out my buff			text	快看！		text	快看！	Check out my buff	Check out my buff physique!	快看！	みよーッ！	みよーッ!
+	line	physique!			line	我這千錘百煉的身體！		line	我这千锤百炼的身体！	physique!		我这千锤百炼的身体！	きたえ　あげた　この　からだ！	きたえ　あげた　この　からだ!
+	done				done			done						
+														
+_Route20EndBattleText5::				_Route20EndBattleText5::										
+	text	Wimpy!			text	太沒用了。		text	太没用了。	Wimpy!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			prompt			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_Route20AfterBattleText5::				_Route20AfterBattleText5::										つ {PLAYER}  {PLAYER} 
+	text	I should've been			text	比起自己的身體，		text	比起自己的身体，	I should've been	I should’ve been buffing up my	比起自己的身体，	じぶんの　からだ　より	じぶんの　からだ　より
+	line	buffing up my			line	我更應該去鍛鍊		line	我更应该去锻炼	buffing up my	Pokémon, not me!	我更应该去锻炼宝可梦才对。	ポケモンを　きたえる　べきだった	ポケモンを　きたえる　べきだった
+	cont	#MON, not me!			cont	寶可夢才對。		cont	宝可梦才对。	#MON, not me!				
+	done				done			done						
+														
+_Route20BattleText6::				_Route20BattleText6::										
+	text	Why are you			text	竟然騎著寶可夢，		text	竟然骑着宝可梦，	Why are you	You can’t carry any more Pewter Crunchies!	装不下更多的深灰米果了！？	もう　ニビあられ　もてないよ！？	おきゃくさん　もう　もてないよ@ゼ@
+	line	riding a #MON?			line	難道你不會游泳？		line	难道你不会游泳？	riding a #MON?	Why do you have so many?	你怎么带了这么多！？	なんで　そんなに　もってるの！？	
+	cont	Can't you swim?			done			done		Can't you swim?				
+	done										...Please eat them!	……吃完再来买呗！？	……ちゃんと　たべて！？	
+														
+_Route20EndBattleText6::				_Route20EndBattleText6::										
+	text	Ouch!			text	唔，咕嘟咕嘟……		text	唔，咕嘟咕嘟……	Ouch!	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	Torpedoed!			prompt			prompt		Torpedoed!		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	prompt										D’aww... Failed again?			
+														
+_Route20AfterBattleText6::				_Route20AfterBattleText6::										
+	text	Riding a #MON			text	乘著寶可夢前進		text	乘着宝可梦前进	Riding a #MON	Riding on the water like you do instead of	有时候不在水中游泳，	およがないで　きみ　みたいに	うらぐちから　タダで　はいろうなんて
+	line	sure looks fun!			line	也蠻有意思的！		line	也蛮有意思的！	sure looks fun!	swimming sure looks fun!	像你这样随波逐流也蛮有意思的！	うかんで　いくのも　たのしそう！	ちゃっかりもの　だね
+	done				done			done						それより　きみ
+														コハクって　しってる?
+_Route20BattleText7::				_Route20BattleText7::										
+	text	I rode my bird			text	我是騎著鳥寶可夢		text	我是骑着鸟宝可梦	I rode my bird	I rode my bird Pokémon here.	我是骑着鸟宝可梦	とりポケモンに　つかまって	とり　ポケモンに　つかまって
+	line	#MON here!			line	到這裡來的。		line	到这里来的。	#MON here!		到这里来的。	ここまで　きたよ	ここまで　きたよ
+	done				done			done						
+														
+_Route20EndBattleText7::				_Route20EndBattleText7::										
+	text	Oh			text	啊！傷腦筋啊。		text	啊！伤脑筋啊。	Oh	Oh dear!	哎呀，危险！	おっと　あぶない！	おっと!　まちな!
+	line	no!			prompt			prompt		no!				セキチク　ジムの　めいぶつ
+	prompt										[VAR PKNICK(0001)] almost lost its balance!	[VAR PKNICK(0001)]	[VAR PKNICK(0001)]は	みえない　かべ　システムは　どうだ
+												失去平衡了！	バランスを　くずしそうに　なった！	
+_Route20AfterBattleText7::				_Route20AfterBattleText7::										
+	text	My birds can't			text	鳥寶可夢累壞了，		text	鸟宝可梦累坏了，	My birds can't	My bird Pokémon are exhausted.	鸟宝可梦累坏了，回不去了……	とりが　へばっちゃって　もどれないぞ	とりが　へばっちゃって　もどれないぞ
+	line	FLY me back!			line	回不去了……怎麼辦啊。		line	回不去了……怎么办啊。	FLY me back!	They can’t fly me back!	怎么办啊。	……どうしよう	…　どうしよう
+	done				done			done						
+														
+_Route20BattleText8::				_Route20BattleText8::										
+	text	My boy friend gave			text	男朋友給了我一顆		text	男朋友给了我一颗	My boy friend gave	My boyfriend gave me big pearls.	男朋友给了我一颗	かれに	かれに
+	line	me big pearls!			line	很大很大的珍珠！		line	很大很大的珍珠！	me big pearls!		很大很大的珍珠！	おっきな　しんじゅ　もらったわ！	おっきな　しんじゅ　もらったわ!
+	done				done			done						
+														
+_Route20EndBattleText8::				_Route20EndBattleText8::										
+	text	Don't			text	不！		text	不！	Don't	GIRL: Hey!	小女孩：啊～！	おんなのこ『あー！	おんなのこ『あー!
+	line	touch my pearls!			line	我的珍珠還在裡面啊……		line	我的珍珠还在里面啊……	touch my pearls!	Don’t look at my notes!	你不可以看我的笔记！	ノート　みちゃ　だめ！	ノート　みちゃ　だめ!@ゼ@
+	prompt				prompt			prompt						
+														
+_Route20AfterBattleText8::				_Route20AfterBattleText8::										
+	text	Will my pearls			text	如果進一步培育		text	如果进一步培育	Will my pearls	Will my pearls grow bigger	如果进一步培育刺甲贝的话，	パルシェン　もっと　そだてたら	パルシェン　もっと　そだてたら
+	line	grow bigger			line	刺甲貝的話，珍珠是不是		line	刺甲贝的话，珍珠是不是	grow bigger	inside Cloyster?	珍珠是不是也会变得更大呢？	しんじゅも　おっきく　なるかしら	しんじゅも　おっきく　なるかしら
+	cont	inside CLOYSTER?			cont	也會變得更大呢？		cont	也会变得更大呢？	inside CLOYSTER?				
+	done				done			done						
+														
+_Route20BattleText9::				_Route20BattleText9::										
+	text	I swam here from			text	我是從紅蓮島游過來的……		text	我是从红莲岛游过来的……	I swam here from	I swam here from Cinnabar Island.	我是从红莲岛游过来的……	グレンじま　から	グレン　じま　から
+	line	CINNABAR ISLAND!			line	好累啊！		line	好累啊！	CINNABAR ISLAND!	It wasn’t easy, I tell you.	好累啊！	およいで　きたけど……　きついわ！	およいで　きたけど…　きついわ!
+	done				done			done						
+														
+_Route20EndBattleText9::				_Route20EndBattleText9::										
+	text	I'm			text	好失望啊！		text	好失望啊！	I'm	I’m so disappointed!	好失望啊！	がっかり	トレーナーぞ
+	line	so disappointed!			prompt			prompt		so disappointed!				きド5ま
+	prompt													
+														
+_Route20AfterBattleText9::				_Route20AfterBattleText9::										
+	text	#MON have			text	紅蓮島上有一間		text	红莲岛上有一间	#MON have	Pokémon have taken over an abandoned	红莲岛上有一间	グレンじまの	グレン　じまの
+	line	taken over an			line	無人居住的屋子。		line	无人居住的屋子。	taken over an	mansion on Cinnabar Island.	无人居住的屋子。	だれも　すんでない　おやしき	だれも　すんでない　おやしき
+	cont	abandoned mansion			para	不知何時起，		para	不知何时起，	abandoned mansion				いつからか　ポケモンが　すみついて
+	cont	on CINNABAR!			line	寶可夢住了進去，		line	宝可梦住了进去，	on CINNABAR!	They call it the Pokémon Mansion now.	不知何时起，宝可梦住了进去，	いつからか　ポケモンが　すみついて	ポケモン　やしきと　よばれてる
+	done				cont	現在那裡被稱為寶可夢屋。		cont	现在那里被称为宝可梦屋。			现在那里被称为宝可梦屋。	ポケモンやしきと　よばれてる	
+					done			done						
+_Route20BattleText10::				_Route20BattleText10::										
+	text	CINNABAR, in the			text	西邊的紅蓮島是一座		text	西边的红莲岛是一座	CINNABAR, in the	Cinnabar Island, to the west, has a lab for	西边的红莲岛是一座	にしに　ある　グレンじまは	にしに　ある　グレン　じまは
+	line	west, has a LAB			line	研究寶可夢的島嶼！		line	研究宝可梦的岛屿！	west, has a LAB	Pokémon. My daddy works there.	研究宝可梦的岛屿！	ポケモン　けんきゅうの　しま！	ポケモン　けんきゅうの　しま!
+	cont	for #MON.			cont	我爸爸就在那裡上班。		cont	我爸爸就在那里上班。	for #MON.				あそこで　パパも　はたらいてるわ
+	done				done			done				我爸爸就在那里上班。	あそこで　パパも　はたらいてるわ	
+														
+_Route20EndBattleText10::				_Route20EndBattleText10::										
+	text	Wait!			text	等等，真是的！		text	等等，真是的！	Wait!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			prompt			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_Route20AfterBattleText10::				_Route20AfterBattleText10::										つ {PLAYER}  {PLAYER} 
+	text	CINNABAR is a			text	聽說紅蓮島是因為火山噴發		text	听说红莲岛是因为火山喷发	CINNABAR is a	Cinnabar Island Pokémon Gym	红莲岛宝可梦道馆	グレンじま　ポケモンジム	グレン　じま　ポケモン　ジム
+	line	volcanic island!			line	導致地殼隆起而形成的。		line	导致地壳隆起而形成的。	volcanic island!	Gym Leader: Blaine	馆主：夏伯	リーダー　カツラ	りーダー　カツラ
+	done				done			done						ねっけつ　クイズ　おやじ
+											The Hotheaded Quiz Master!	热血猜谜大叔！	ねっけつ　クイズおやじ	へどぶの
+_Route20Text12::				_Route20Text12::										
+_Route20Text11::				_Route20Text11::				text	这里是海角小屋	SEA COTTAGE		Text File: 453		トレーナーぞ
+	text	SEAFOAM ISLANDS			text	雙子島		text	双子岛	SEAFOAM ISLANDS	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	done				done			done			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+end				end										4ャよひ
+														つ {PLAYER}  {PLAYER} 

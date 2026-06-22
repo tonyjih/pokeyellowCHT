@@ -1,0 +1,66 @@
+text/LavenderTown.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_LavenderTownText_4413c::				_LavenderTownText_4413c::										
+	text	Do you believe in			text	你相信		text	你相信	Do you believe in	Do you believe in ghosts?	你相信世界上真的有幽灵吗？	あなた	あなた
+	line	GHOSTs?			line	世界上真的有幽靈嗎？		line	世界上真的有幽灵吗？	GHOSTs?			ゆうれいは　いると　おもう？	ゆうれいは　いると　おもう?
+	done				done			done						
+														
+_LavenderTownText_44141::				_LavenderTownText_44141::										
+	text	Really? So there			text	……噢～原來真的有人		text	……噢～原来真的有人	Really? So there	Really?	……噢～	……ふーん	…ふーん
+	line	are believers...			line	相信幽靈存在呀～		line	相信幽灵存在呀～	are believers...	So there are believers...	原来真的有人相信幽灵存在呀～	しんじてる　ひとって　いるんだ	しんじてる　ひとって　いるんだ
+	done				done			done						
+														
+_LavenderTownText_44146::				_LavenderTownText_44146::										
+	text	Hahaha, I guess			text	哈哈哈！		text	哈哈哈！	Hahaha, I guess	Hahaha, I guess not.	哈哈哈！我也这么觉得！	あはは　そうよね！	あはは　そうよね!
+	line	not.			line	我也這麼覺得！		line	我也这么觉得！	not.				あなたの　みぎかたに
+					para	剛才我還覺得你的右肩上		para	刚才我还觉得你的右肩上	That white hand	That white hand on your shoulder...	刚才我还觉得你的右肩上	あなたの　みぎかたに	しろい　てが　おかれてる　なんて
+	para	That white hand			line	搭著一隻手……		line	搭着一只手……	on your shoulder,	I’m just imagining it.	搭着一只手……	しろい　てが　おかれてる　なんて	…あたしの　みまちがいよね
+	line	on your shoulder,			cont	那一定是我看錯了吧！		cont	那一定是我看错了吧！	it's not real.				
+	cont	it's not real.			done			done				那一定是我看错了吧！	……あたしの　みまちがいよね	
+	done													
+														
+_LavenderTownText2::				_LavenderTownText2::										
+	text	This town is known			text	這個鎮子		text	这个镇子	This town is known	This town is famous for all of the graves made	这个镇子	ここは　ポケモンの　おはかで	ここは　ポケモンの　おはかで
+	line	as the grave site			line	因寶可夢的墳墓而聞名……		line	因宝可梦的坟墓而闻名……	as the grave site	here for Pokémon...	因宝可梦的坟墓而闻名……	ゆうめいな　タウンだ……	ゆうめいな　タウンだ…
+	cont	of #MON.			para	在自己養育的寶可夢		para	在自己养育的宝可梦	of #MON.				かっていた　ポケモンが　しんだとき
+					line	去世之後，		line	去世之后，	Memorial services	They hold memorial services in the Pokémon	在自己养育的宝可梦去世之后，	かっていた　ポケモンが　しんだとき	ポケモン　タワーに　もっていって
+	para	Memorial services			cont	人們會把它帶到寶可夢塔裡		cont	人们会把它带到宝可梦塔里	are held in	Tower for Pokémon that have passed away.	人们会把它带到宝可梦塔里，	ポケモンタワーに　もっていって	めいふくを　いのるのさ…
+	line	are held in			cont	為之祈禱冥福……		cont	为之祈祷冥福……	#MON TOWER.				
+	cont	#MON TOWER.			done			done				为之祈祷冥福……	めいふくを　いのるのさ……	
+	done													
+														
+_LavenderTownText3::				_LavenderTownText3::										
+	text	GHOSTs appeared			text	聽說最近寶可夢塔裡		text	听说最近宝可梦塔里	GHOSTs appeared	There’s talk about ghosts appearing lately in	听说最近宝可梦塔里	さいきん　ポケモンタワーに	さいきん　ポケモン　タワーに
+	line	in #MON TOWER.			line	有幽靈出沒啊……		line	有幽灵出没啊……	in #MON TOWER.	the Pokémon Tower.	有幽灵出没啊……	ゆうれいが　でる　らしいんだ……	ゆうれいが　でる　らしいんだ…
+					para	我猜那八成是		para	我猜那八成是	I think they're				どうも　ロケットだんに　ころされた
+	para	I think they're			line	被火箭隊殺死的寶可夢中		line	被火箭队杀死的宝可梦中	the spirits of	I think they’re the spirits of Pokémon kidnapped	我猜那八成是	どうも　ロケットだんに　さらわれて	ポケモンの　ゆうれい　らしい…
+	line	the spirits of			cont	產生的怨靈。		cont	产生的怨灵。	#MON that the	by Team Rocket and never seen again...	被火箭队带走后失踪的	ゆくえが　わからなかった	
+	cont	#MON that the			done			done		ROCKETs killed.				
+	cont	ROCKETs killed.										宝可梦的幽灵……	ポケモンの　ゆうれい　らしい……	
+	done													
+														
+_LavenderTownText4::				_LavenderTownText4::										
+	text	LAVENDER TOWN			text	這裡是紫苑鎮。		text	这里是紫苑镇。	LAVENDER TOWN	Lavender Town:	这里是紫苑镇。	ここは　シオンタウン	ここは　シオン　タウン
+	line	The Noble Purple			line	紫苑即是氣質高貴的		line	紫苑即是气质高贵的	The Noble Purple	The Noble Purple Town	紫苑即是气质高贵的紫兰之色。	シオンは　むらさき　とうとい　いろ	シオンは　むらさき　とうとい　いろ
+	cont	Town			cont	紫蘭之色。		cont	紫兰之色。	Town				
+	done				done			done						
+														
+_LavenderTownText5::				_LavenderTownText5::										
+	text	New SILPH SCOPE!			text	能看到		text	能看到	New SILPH SCOPE!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+					line	肉眼看不見的寶可夢？		line	肉眼看不见的宝可梦？	Make the Invisible	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	para	Make the Invisible			para	新產品！西爾佛檢視鏡！		para	新产品！西尔佛检视镜！	Plain to See!				…　シルフ　カンパニー
+	line	Plain to See!			line	……西爾佛公司		line	……西尔佛公司	SILPH CO.		……西尔佛公司	……シルフカンパニー	
+					done			done						
+	para	SILPH CO.												
+	done													
+														
+_LavenderTownText8::				_LavenderTownText8::										
+	text	LAVENDER VOLUNTEER			text	愛心志願者聚首於此。		text	爱心志愿者聚首于此。	LAVENDER VOLUNTEER	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	#MON HOUSE			line	寶可夢之家		line	宝可梦之家	#MON HOUSE	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done			done						
+														
+_LavenderTownText9::				_LavenderTownText9::										
+	text	May the Souls of			text	寶可夢靈魂的安息之塔。		text	宝可梦灵魂的安息之塔。	May the Souls of	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	#MON Rest Easy			line	寶可夢塔		line	宝可梦塔	#MON Rest Easy	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	#MON TOWER			done			done		#MON TOWER				…　シルフ　カンパニー
+	done											……西尔佛公司	……シルフカンパニー	
+end				end										

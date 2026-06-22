@@ -1,0 +1,12 @@
+text/UndergroundPathRoute8.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_UndergroundPathEntRoute8Text1::				_UndergroundPathEntRoute8Text1::										
+	text	The dept. store			text	你經常去玉虹市的		text	你经常去玉虹市的	The dept. store	Trainer Tips	……有用的公告牌！	……おとくな　けいじばん！	　『　…　 {next} 
+	line	in CELADON has a			line	百貨公司嗎？		line	百货公司吗？	in CELADON has a				
+	cont	great selection!			cont	那裡商品齊全，		cont	那里商品齐全，	great selection!	Shake the second controller to call in	连接第２个手柄挥动１次后，	２つめの　コントローラーを	
+	done				cont	真是方便極了！		cont	真是方便极了！		a Support Trainer!	帮手训练家就会出现！	１かい　ふると	
+end					done			done						
+				end							Enjoy your adventure together!	两个人一起享受冒险的乐趣吧！	サポートトレーナーが	
+														
+													あらわれます！	
+														
+													ふたりで　ぼうけんを　たのしもう！	

@@ -1,0 +1,16 @@
+text/Route11Gate1F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route11GateText1::				_Route11GateText1::										
+	text	When you catch			text	當你捉了很多寶可夢後，		text	当你捉了很多宝可梦后，	When you catch	Don’t you think it’s hard to think up good names	给宝可梦起昵称确实很费神吧！	ポケモンに　なまえ　つけるの	けっこう　おおい　らしいわ!
+	line	lots of #MON,			line	會覺得給它們起名字		line	会觉得给它们起名字	lots of #MON,	for Pokémon?		けっこう　なやんじゃう　よね！	ふなよい　する　ひと!
+	cont	isn't it hard to			cont	很辛苦吧！		cont	很辛苦吧！	isn't it hard to		倒不如每天都为它们修改昵称呢，		
+	cont	think up names?			para	在這前方的紫苑鎮裡，		para	在这前方的紫苑镇里，	think up names?	But then again, why not just try out new	是不是啊？	いっその　こと　まいにち	
+					line	有個給寶可夢的名字		line	有个给宝可梦的名字	In LAVENDER TOWN,	nicknames every day until you get it right?		なまえを　かえるのは　どうだろ？	
+	para	In LAVENDER TOWN,			cont	占卜的人哦。		cont	占卜的人哦。	there's a man who				
+	line	there's a man who			para	想給寶可夢起個更好的名字		para	想给宝可梦起个更好的名字	rates #MON				
+	cont	rates #MON			line	也可以找他哦。		line	也可以找他哦。	nicknames.				
+	cont	nicknames.			done			done		He'll help you				
+										rename them too!				
+	para	He'll help you												
+	line	rename them too!												
+	done													
+end				end										

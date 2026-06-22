@@ -1,0 +1,30 @@
+text/SafariZoneNorthRestHouse.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SafariZoneRestHouse4Text1::				_SafariZoneRestHouse4Text1::										
+	text	You can keep any			text	您可以帶走狩獵地帶園區內		text	您可以带走狩猎地带园区内	You can keep any	There are ways you can get special bonuses	在这些情况下，	ポケモンを　ほかくする　さい	…　おとくな　けいじばん!
+	line	item you find on			line	掉落的一切道具！		line	掉落的一切道具！	item you find on	when you catch a Pokémon!	捕获宝可梦之后会得到奖励加分！	ボーナスが　つく　ケース！	ポケモンを　つかまえる　ときは
+	cont	the ground here.			para	不過呢，由於時間有限，		para	不过呢，由于时间有限，	the ground here.				なるべく　よわらせてから!
+					line	最好不要期待可以		line	最好不要期待可以	But, you'll run	Number one! Time your throw to land when	１！	１！　わっかが　ちいさい　ときに	ポケモンが　げんきだと
+	para	But, you'll run			cont	一次拿完全部的道具！		cont	一次拿完全部的道具！	out of time if	the ring is small!	在圆圈变小时投掷精灵球！	ボールを　あてる！	にげるかも　しれないよ!
+	line	out of time if			done			done		you try for all				
+	cont	you try for all								of them at once!	Number two! Catch them with your first throw...	２！	２！　いっぱつで　ポケモンを	
+	cont	of them at once!									And so on!	第一次投球就捉住宝可梦……等等！	つかまえる……　など！	
+	done													
+											You’ll get a lot of good things out of it, such as	除了可以得到更多经验值之外，	けいけんちを　おおく　もらえたり	
+_SafariZoneRestHouse4Text2::				_SafariZoneRestHouse4Text2::							extra Exp. Points.	还会有更多好事发生唷！	いろいろ　いいことが　あるぞ	
+	text	Go to the deepest			text	聽說現在好像正在		text	听说现在好像正在	Go to the deepest	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	part of the			line	開展特別活動，		line	开展特别活动，	part of the	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	SAFARI ZONE. You			cont	可以在園區最深處的		cont	可以在园区最深处的	SAFARI ZONE. You				…　シルフ　カンパニー
+	cont	will win a prize!			cont	小屋中獲得獎品耶！		cont	小屋中获得奖品耶！	will win a prize!		……西尔佛公司	……シルフカンパニー	
+	done				done			done						
+														
+_SafariZoneRestHouse4Text3::				_SafariZoneRestHouse4Text3::										
+	text	My EEVEE evolved			text	我的伊布		text	我的伊布	My EEVEE evolved	Come to me, my new Haunter!	快来我这里吧！	はやく　きて！	はやく　きて!
+	line	into FLAREON!			line	進化成了火伊布！		line	进化成了火伊布！	into FLAREON!		小鬼斯通～！	ゴースト　ちゃーん！	ゴースト　ちゃーん!
+					para	可是我朋友的伊布		para	可是我朋友的伊布	But, a friend's	I absolutely love Haunter! I collect them!			ぼくは
+	para	But, a friend's			line	卻進化成了水伊布！		line	却进化成了水伊布！	EEVEE turned into		身为一个鬼斯通迷，	ぼくは	ゴースト　マニア　なのね!
+	line	EEVEE turned into			cont	到底是什麼緣故呢？		cont	到底是什么缘故呢？	a VAPOREON!	...Huh?	我要收集到好多好多鬼斯通哦！	ゴースト　マニア　なのね！	…　あー?
+	cont	a VAPOREON!			done			done		I wonder why?				てんそう　されて　きた　ゴーストが
+	cont	I wonder why?									Haunter evolved into a different Pokémon while	……咦？	……あー？	べつの　ポケモンに!?
+	done										it was being traded?!			
+end				end								别人传送来的鬼斯通	てんそう　されて　きた　ゴーストが	
+												怎么变成别的宝可梦了！？	べつの　ポケモンに！？	

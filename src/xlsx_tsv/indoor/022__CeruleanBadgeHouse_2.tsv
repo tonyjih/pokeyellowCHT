@@ -1,0 +1,30 @@
+text/CeruleanBadgeHouse_2.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CeruleanHouse2Text_74eaa::				_CeruleanHouse2Text_74eaa::										
+	text	The DEFENSE of all			text	所有的		text	所有的	The DEFENSE of all	I’m the chairman of the Pokémon Fan Club!	宝可梦发烧友俱乐部的会长	ポケモン　だいすき　クラブの	ポケモン　だいすき　クラブの
+	line	#MON increases			line	寶可夢的防禦力		line	宝可梦的防御力	#MON increases	I raise more than a hundred Pokémon!	正是老夫！	かいちょうは　わし　じゃ！	かいちょうは　わし　じゃ!
+	cont	a little bit.			cont	都會提高少許。		cont	都会提高少许。	a little bit.				だいじに　しとるポケモンは
+					para	此外，招式“衝浪”		para	此外，招式“冲浪”	It also lets you	I’m very fussy when it comes to Pokémon!	老夫手里的宝可梦	もってる　ポケモンは	100ぴきを　こえとる!
+	para	It also lets you			line	在戰鬥以外的時候		line	在战斗以外的时候	use SURF outside	I surely am!	已经超过了100只！	１００ぴきを　こえとる！	ポケモンに　かんしては
+	line	use SURF outside			cont	好像也可以使用了。		cont	好像也可以使用了。	of battle.				ホント　うるさい!　ですぞ!
+	cont	of battle.			prompt			prompt			So...	要老夫说起宝可梦的事，	ポケモンに　かんしては	で…
+	prompt											那可是三天三夜都说不完哇！	ホント　うるさい！　ですぞ！	きみは　わしの　ポケモン　じまんを
+											Did you come visit to hear about			ききに　きたの　かね?
+_CeruleanHouse2Text_74eaf::				_CeruleanHouse2Text_74eaf::							my Pokémon?	于是乎……	で……	
+	text	#MON up to L70			text	等級７０以內的寶可夢		text	等级７０以内的宝可梦	#MON up to L70	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	will obey you.			line	都會老老實實聽你的話。		line	都会老老实实听你的话。	will obey you.	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+					para	在此之上的等級		para	在此之上的等级	Any higher, they				…　シルフ　カンパニー
+	para	Any higher, they			line	就無法適用了。		line	就无法适用了。	become unruly!		……西尔佛公司	……シルフカンパニー	
+	line	become unruly!			prompt			prompt						
+	prompt													
+														
+_CeruleanHouse2Text_74eb4::				_CeruleanHouse2Text_74eb4::										
+	text	Your #MON's			text	所有的		text	所有的	Your #MON's	It’s a Pokémon Report!	……是宝可梦报告！	……ポケモンレポートだ！	…　ポケモン　レポートだ!
+	line	SPECIAL abilities			line	寶可夢的特殊能力		line	宝可梦的特殊能力	SPECIAL abilities				ポケモン　けんきゅうじょ　では
+	cont	increase a bit.			cont	都會提高少許。		cont	都会提高少许。	increase a bit.	The research section succeeded in creating	在研究部门，	けんきゅう　セクション　では	じんこうの　ポケモン
+	prompt				prompt			prompt			Porygon, an artificial Pokémon created	我们成功制造出了	じんこうの　ポケモン	ポりゴンを　つくる　ことに
+														せいこう　した…　…
+_CeruleanHouse2Text_74eb9::				_CeruleanHouse2Text_74eb9::							by humans.	多边兽这种人工宝可梦……	ポリゴンを　つくる　ことに	
+	text	All #MON will			text	所有的寶可夢		text	所有的宝可梦	All #MON will	Hey! You have Pokémon, right?	嗨！	よーしッ！	よーしッ!
+	line	obey you!			line	都會老老實實聽你的話。		line	都会老老实实听你的话。	obey you!	Come on!	你有宝可梦的吧？	きみは　ポケモン　もってるな？	きみは　ポケモン　もってるな?
+	prompt				prompt			prompt						しょうぶ　しようぜ!
+end				end							Let’s battle ’em!	我们来对战！	しょうぶ　しようぜ！	

@@ -1,0 +1,7 @@
+text/UndergroundPathRoute7.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_UndergroundPathEntRoute7Text1::				_UndergroundPathEntRoute7Text1::										
+	text	I heard a sleepy			text	我聽說最近在玉虹市那裡		text	我听说最近在玉虹市那里	I heard a sleepy	I hear there’s been a Sleeping Pokémon causing	我听说最近在玉虹市那里	この　ところ	この　ところ
+	line	#MON appeared			line	也出現了一隻		line	也出现了一只	#MON appeared	trouble out near Celadon City.	也出现了一只	タマムシシティの　ほう　でも	タマムシ　シティの　ほう　でも
+	cont	near CELADON CITY.			cont	瞌睡寶可夢啊！		cont	瞌睡宝可梦啊！	near CELADON CITY.				いねむり　ポケモンが
+	done				done			done				瞌睡宝可梦啊！	いねむり　ポケモンが	あらわれる　そうだよ
+end				end									あらわれる　そうだよ	ザ

@@ -1,0 +1,58 @@
+text/SilphCo8F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SilphCo8Text_565be::				_SilphCo8Text_565be::										
+	text	I wonder if SILPH			text	西爾佛被佔領了……		text	西尔佛被占领了……	I wonder if SILPH	I was captured by Team Rocket. I wonder if our	我被火箭队抓住了，	ロケットだんに	わたしは
+	line	is finished...			line	是不是真的要完蛋了……		line	是不是真的要完蛋了……	is finished...	insurance plan covers that kind of thing...?	不知道能不能按工伤赔偿呢？	つかまってたんだけど	シルフ　カンパニーより
+	done				done			done						ロケットだんに　みかた　する!
+													ろうさい　おりるのかしら	
+_SilphCo8Text_565c3::				_SilphCo8Text_565c3::										
+	text	Thanks for saving			text	謝謝你救了我！		text	谢谢你救了我！	Thanks for saving	Thanks for saving us!	谢谢你救了我！	ありがとう　たすかった！	ありがとう　たすかった!
+	line	us!			done			done		us!				ゲ
+	done													
+														
+_SilphCo8BattleText1::				_SilphCo8BattleText1::										
+	text	That's as far as			text	我不會		text	我不会	That's as far as	This is as far as you’ll go!	我不会让你再往前走了！	ここから　さきは　いかせ　ないぜ！	ここから　さきは　いかせ　ないぜ!
+	line	you'll go!			line	讓你再往前走了！		line	让你再往前走了！	you'll go!				
+	done				done			done						
+														
+_SilphCo8EndBattleText1::				_SilphCo8EndBattleText1::										
+	text	Not			text	在氣勢上輸了麼。		text	在气势上输了么。	Not	Not enough grit!	在气势上输了么。	きあいが　たりんか	きあいが　たりんか
+	line	enough grit!			prompt			prompt		enough grit!				
+	prompt													
+														
+_SilphCo8AfterBattleText1::				_SilphCo8AfterBattleText1::										
+	text	If you don't turn			text	快點回去！		text	快点回去！	If you don't turn	If you don’t turn back...	快点回去！	はやく　ひきかえさないと	はやく　ひきかえさないと
+	line	back, I'll call			line	……不然我要叫人了！		line	……不然我要叫人了！	back, I'll call	I’ll call for backup!	……不然我要叫人了！	……なかまを　よぶぜ！	…　なかまを　よぶぜ!
+	cont	for backup!			done			done		for backup!				
+	done													
+														
+_SilphCo8BattleText2::				_SilphCo8BattleText2::										
+	text	You're causing us			text	你這麼為所欲為，		text	你这么为所欲为，	You're causing us	You’re causing us problems!	你这么为所欲为，	すき　かって　やられちゃ	すき　かって　やられちゃ
+	line	problems!			line	很令我們困擾啊。		line	很令我们困扰啊。	problems!		很令我们困扰啊。	こまるんだぜ！	こまるんだぜ!
+	done				done			done						
+														
+_SilphCo8EndBattleText2::				_SilphCo8EndBattleText2::										
+	text	Huh?			text	……？		text	……？	Huh?	Huh?	……？我输了吗？	……？　まけたのか	…?　まけたのか
+	line	I lost?			line	我輸了嗎？		line	我输了吗？	I lost?	I lost?			
+	prompt				prompt			prompt						
+														
+_SilphCo8AfterBattleText2::				_SilphCo8AfterBattleText2::										
+	text	So, what do you			text	怎麼樣？		text	怎么样？	So, what do you	So what do you think of the maze that is	怎么样？	どうだね？	どうだね?
+	line	think of SILPH			line	對於這棟像迷宮一般的		line	对于这栋像迷宫一般的	think of SILPH	the Silph building, huh?	对于这栋像迷宫一般的	めいろの　ような	めいろの　ような
+	cont	BUILDING's maze?			cont	西爾佛大樓有何感想？		cont	西尔佛大楼有何感想？	BUILDING's maze?				シルフ　ビルの　かんそうは?
+	done				done			done				西尔佛大楼有何感想？	シルフ　ビルの　かんそうは？	
+														
+_SilphCo8BattleText3::				_SilphCo8BattleText3::										
+	text	I am one of the 4			text	我正是		text	我正是	I am one of the 4	I am one of the four Rocket Sisters!	我正是火箭队四姐妹之一！	わたくし　こそが	おれこそは
+	line	ROCKET BROTHERS!			line	火箭隊四兄弟之一！		line	火箭队四兄弟之一！	ROCKET BROTHERS!	And I’m the oldest.	是她们的大姐大！	ロケット　４しまいの　ひとり！	ロケット　4きょうだいの　ひとり!
+	done				done			done						
+													って　いうか　ちょうじょ！	
+_SilphCo8EndBattleText3::				_SilphCo8EndBattleText3::										
+	text	Whoo!			text	哥哥，		text	哥哥，	Whoo!	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	Oh brothers!			line	我輸了……		line	我输了……	Oh brothers!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt				prompt			prompt						
+														
+_SilphCo8AfterBattleText3::				_SilphCo8AfterBattleText3::										
+	text	I'll leave you up			text	算了。		text	算了。	I'll leave you up	Right... Well then...	既然如此……	……いや　それなら	それなら　いいんだ!
+	line	to my brothers!			line	哥哥會替我報仇的。		line	哥哥会替我报仇的。	to my brothers!	Guess I’ll leave this up to you, [VAR TRNAME(0000)]!	就拜托[VAR TRNAME(0000)]了！	[VAR TRNAME(0000)]に　まかせるよ！	
+	done				done			done						
+end				end										

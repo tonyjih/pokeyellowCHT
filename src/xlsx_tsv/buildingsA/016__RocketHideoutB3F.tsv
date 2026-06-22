@@ -1,0 +1,37 @@
+text/RocketHideoutB3F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_RocketHideout3BattleText2::				_RocketHideout3BattleText2::										
+	text	Stop meddling in			text	為你自身著想，		text	为你自身着想，	Stop meddling in	Stop meddling in Team Rocket’s affairs, or else!	为你自身着想，	あまり　ロケットだんの	あまり　ロケットだんの
+	line	TEAM ROCKET's			line	我看你還是不要插手		line	我看你还是不要插手	TEAM ROCKET's		我看你还是不要插手	じゃまを　しない　ほうが	じゃまを　しない　ほうが
+	cont	affairs!			cont	我們火箭隊的事！		cont	我们火箭队的事！	affairs!				みの　ため　だぜ!
+	done				done			done				我们火箭队的事！	みの　ため　だぜ！	
+														
+_RocketHideout3EndBattleText2::				_RocketHideout3EndBattleText2::										
+	text	Oof!			text	可惡，		text	可恶，	Oof!	Oof!	可恶，被打败了！	くッ　やられた！	くッ　やられた!
+	line	Taken down!			line	被打敗了！		line	被打败了！	Taken down!	Taken down!			
+	prompt				prompt			prompt						
+														
+_RocketHideout3AfterBattleTxt2::				_RocketHideout3AfterBattleTxt2::										
+	text	SILPH SCOPE?			text	……西爾佛檢視鏡？啊！		text	……西尔佛检视镜？啊！	SILPH SCOPE?	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	The machine the			line	那不就是老大從西爾佛公司		line	那不就是老大从西尔佛公司	The machine the	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	BOSS stole. It's			cont	偷來的機器嗎！		cont	偷来的机器吗！	BOSS stole. It's				…　シルフ　カンパニー
+	cont	here somewhere.			cont	……大概藏在某處吧。		cont	……大概藏在某处吧。	here somewhere.		……西尔佛公司	……シルフカンパニー	
+	done				done			done						
+														
+_RocketHideout3BattleTxt::				_RocketHideout3BattleTxt::										
+	text	We got word from			text	……來了啊？		text	……来了啊？	We got word from	Look who finally showed up, huh?	……来了啊。	……きた　わね！	…　きたな?
+	line	upstairs that you			line	我們已經從樓上那裡		line	我们已经从楼上那里	upstairs that you		你就是楼上提到的	うえの　フロア　から	うえの　フロア　から
+	cont	were coming!			cont	聽說了，知道你要來了！		cont	听说了，知道你要来了！	were coming!	We got word from upstairs that you were coming!			れんらくが　きてるぜ!
+	done				done			done				那个小孩吧！	れんらくが　あった　こどもでしょ？	
+														
+_RocketHideout3EndBattleText3::				_RocketHideout3EndBattleText3::										
+	text	What?			text	我輸了……		text	我输了……	What?	What?	我输了……	まけた……	まけた…　ばかな!
+	line	I lost? No!			line	怎麼會這樣。		line	怎么会这样。	I lost? No!	I lost? No!	怎么会这样。	そんな　ばかな	
+	prompt				prompt			prompt						
+														
+_RocketHide3AfterBattleText3::				_RocketHide3AfterBattleText3::										
+	text	Go ahead and go!			text	想前進的話就前進吧！		text	想前进的话就前进吧！	Go ahead and go!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	But, you need the			line	不過呢，如果你沒有鑰匙		line	不过呢，如果你没有钥匙	But, you need the	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	LIFT KEY to run			cont	休想使用電梯！		cont	休想使用电梯！	LIFT KEY to run				…　シルフ　カンパニー
+	cont	the elevator!			done			done		the elevator!		……西尔佛公司	……シルフカンパニー	
+	done													
+end				end										

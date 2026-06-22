@@ -1,0 +1,97 @@
+data/trainers/name_pointers.asm	@																
+					dw .YoungsterName		dw wTrainerName										
+					dw .BugCatcherName		dw wTrainerName										
+	dw .LassName		dw wTrainerName														
+	dw .JrTrainerMName		dw wTrainerName														
+					dw .JrTrainerFName		dw wTrainerName										
+	dw .PokemaniacName		dw wTrainerName														
+	dw .SuperNerdName		dw wTrainerName														
+					dw .BurglarName		dw wTrainerName										
+					dw .EngineerName		dw wTrainerName										
+					dw .UnusedJugglerName		dw wTrainerName										
+					dw .SwimmerName		dw wTrainerName										
+	dw .BeautyName		dw wTrainerName														
+					dw .RockerName		dw wTrainerName										
+					dw .JugglerName		dw wTrainerName										
+					dw .BlackbeltName		dw wTrainerName										
+					dw .ProfOakName		dw wTrainerName										
+	dw .ChiefName		dw wTrainerName														
+					dw .ScientistName		dw wTrainerName										
+					dw .RocketName		dw wTrainerName										
+					dw .CooltrainerMName		dw wTrainerName										
+					dw .CooltrainerFName		dw wTrainerName										
+					dw .PhychicName		dw wTrainerName										
+	"""YOUNGSTER@"""	短褲															
+	"""BUG CATCHER@"""	捕蟲															
+	"""LASS@"""																
+	"""JR.TRAINER♂@"""																
+	"""JR.TRAINER♀@"""	女童軍															
+	"""POKéMANIAC@"""																
+	"""SUPER NERD@"""																
+	"""BURGLAR@"""	打劫者															
+	"""ENGINEER@"""	大叔															
+	"""JUGGLER@"""	雜耍															
+	"""SWIMMER@"""	泳褲															
+	"""BEAUTY@"""																
+	"""ROCKER@"""	搖滾團															
+	"""JUGGLER@"""	雜耍															
+	"""BLACKBELT@"""	空手道															
+	"""PROF.OAK@"""	大木															
+	"""CHIEF@"""																
+	"""SCIENTIST@"""	研究員															
+	"""ROCKET@"""	隊員															
+	"""COOLTRAINER♂@"""	精英♂															
+	"""COOLTRAINER♀@"""	精英♀															
+	"""PHYCHIC@"""	超能力															
+data/trainers/names.asm	@																
+	"""YOUNGSTER"""	短褲小子				YOUNGSTER		"db ""YOUNGSTER@"""		"""YOUNGSTER@"""		"""YOUNGSTER"""		たんパンこぞう	たんパン	短裤小子	短裤
+	"""BUG CATCHER"""	捕蟲少年				BUG CATCHER		"db ""BUG CATCHER@"""		"""BUG CATCHER@"""		"""BUG CATCHER"""		むしとりのしょうねん	むしとり	捕虫少年	捕虫
+	"""LASS"""	迷你裙				LASS		"db ""LASS@"""		"""LASS@"""		"""LASS"""		ミニスカート	ミニスカ	迷你裙	
+	"""SAILOR"""	水手				SAILOR		"db ""SAILOR@"""		"""SAILOR@"""		"""SAILOR"""		ふなのり		水手	
+	"""JR.TRAINER♂"""	童子軍				JR.TRAINER♂		"db ""JR.TRAINER♂@"""		"""JR.TRAINER♂@"""		"""JR.TRAINER♂"""		ボーイスカウト	ボーイ	童子军	
+	"""JR.TRAINER♀"""	女童子軍				JR.TRAINER♀		"db ""JR.TRAINER♀@"""		"""JR.TRAINER♀@"""		"""JR.TRAINER♀"""		ガールスカウト	ガール	女童子军	女童军
+	"""POKéMANIAC"""	怪獸狂				POKéMANIAC		"db ""POKéMANIAC@"""		"""POKéMANIAC@"""		"""POKéMANIAC"""		かいじゅうマニア	マニア	怪兽狂	
+	"""SUPER NERD"""	理科男				SUPER NERD		"db ""SUPER NERD@"""		"""SUPER NERD@"""		"""SUPER NERD"""		りかけいのおとこ	りかけい	理科男	
+	"""HIKER"""	登山男				HIKER		"db ""HIKER@"""		"""HIKER@"""		"""HIKER"""		やまおとこ		登山男	
+	"""BIKER"""	暴走族				BIKER		"db ""BIKER@"""		"""BIKER@"""		"""BIKER"""		ぼうそうぞく		暴走族	
+	"""BURGLAR"""	趁火打劫者				BURGLAR		"db ""BURGLAR@"""		"""BURGLAR@"""		"""BURGLAR"""		かじばどろぼう	どろぼう	趁火打劫者	打劫者
+	"""ENGINEER"""	電工大叔				ENGINEER		"db ""ENGINEER@"""		"""ENGINEER@"""		"""ENGINEER"""		でんきやのオヤジ	オヤジ	电工大叔	大叔
+	"""JUGGLER"""	雜耍藝人				JUGGLER		"db ""JUGGLER@"""		"""JUGGLER@"""		"""JUGGLER"""		ジプシージャグラー	ジャック	杂耍艺人	杂耍
+	"""FISHERMAN"""	垂釣者				FISHERMAN		"db ""FISHERMAN@"""		"""FISHERMAN@"""		"""FISHERMAN"""		つりびと		垂钓者	
+	"""SWIMMER"""	泳褲小夥子				SWIMMER		"db ""SWIMMER@"""		"""SWIMMER@"""		"""SWIMMER"""		かいパンやろう	かいパン	泳裤小伙子	泳裤
+	"""CUE BALL"""	光頭男				CUE BALL		"db ""CUE BALL@"""		"""CUE BALL@"""		"""CUE BALL"""		スキンへッズ		光头男	
+	"""GAMBLER"""	賭徒				GAMBLER		"db ""GAMBLER@"""		"""GAMBLER@"""		"""GAMBLER"""		ギャンブラー		赌徒	
+	"""BEAUTY"""	大姐姐				BEAUTY		"db ""BEAUTY@"""		"""BEAUTY@"""		"""BEAUTY"""		おとなのおねえさん	おねえさん	大姐姐	
+	"""PSYCHIC"""	超能力者				PSYCHIC		"db ""PSYCHIC@"""		"""PSYCHIC@"""		"""PSYCHIC"""		サイキッカー		超能力者	超能力
+	"""ROCKER"""	電氣搖滾團				ROCKER		"db ""ROCKER@"""		"""ROCKER@"""		"""ROCKER"""		でんきグループ		电气摇滚团	摇滚团
+	"""JUGGLER"""	雜耍藝人				JUGGLER		"db ""JUGGLER@"""		"""JUGGLER@"""		"""JUGGLER"""		ジプシージャグラー	ジャグラー	杂耍艺人	杂耍
+	"""TAMER"""	馴獸師				TAMER		"db ""TAMER@"""		"""TAMER@"""		"""TAMER"""		もうじゅうつかい		驯兽师	
+	"""BIRD KEEPER"""	養鳥人				BIRD KEEPER		"db ""BIRD KEEPER@"""		"""BIRD KEEPER@"""		"""BIRD KEEPER"""		とりつかい		养鸟人	
+	"""BLACKBELT"""	空手道王				BLACKBELT		"db ""BLACKBELT@"""		"""BLACKBELT@"""		"""BLACKBELT"""		からておう	からて	空手道王	空手道
+	"""RIVAL1"""	勁敵1				RIVAL1		"db ""RIVAL1@"""		"""RIVAL1@"""		"""RIVAL1"""		ライバル1		劲敌1	
+	"""PROF.OAK"""	大木老師				PROF.OAK		"db ""PROF.OAK@"""		"""PROF.OAK@"""		"""PROF.OAK"""		オーキドせんせい	オーキド	大木老师	大木
+	"""CHIEF"""	經理				CHIEF		"db ""CHIEF@"""		"""CHIEF@"""		"""CHIEF"""		シルフのチーフ	チーフ	经理	
+	"""SCIENTIST"""	流浪研究員				SCIENTIST		"db ""SCIENTIST@"""		"""SCIENTIST@"""		"""SCIENTIST"""		はぐれけんきゅういん	けんきゅういん	流浪研究员	研究员
+	"""GIOVANNI"""	坂木				GIOVANNI		"db ""GIOVANNI@"""		"""GIOVANNI@"""		"""GIOVANNI"""		サカキ		坂木	
+	"""ROCKET"""	火箭隊員				ROCKET		"db ""ROCKET@"""		"""ROCKET@"""		"""ROCKET"""		ロケットだんいん	だんいん	火箭队员	队员
+	"""COOLTRAINER♂"""	精英訓練家♂			精英训练家♂	COOLTRAINER♂		"db ""COOLTRAINER♂@"""		"""COOLTRAINER♂@"""		"""COOLTRAINER♂"""		エりートトレーナー	エりート♂	精英训练家♂	精英♂
+	"""COOLTRAINER♀"""	精英訓練家♀			精英训练家♀	COOLTRAINER♀		"db ""COOLTRAINER♀@"""		"""COOLTRAINER♀@"""		"""COOLTRAINER♀"""		エりートトレーナー	エりート♀	精英训练家♀	精英♀
+	"""BRUNO"""	希巴			希巴	BRUNO		"db ""BRUNO@"""		"""BRUNO@"""		"""BRUNO"""		シバ			
+	"""BROCK"""	小剛			小刚	BROCK		"db ""BROCK@"""		"""BROCK@"""		"""BROCK"""		タケシ			
+	"""MISTY"""	小霞			小霞	MISTY		"db ""MISTY@"""		"""MISTY@"""		"""MISTY"""		カスミ			
+	"""LT.SURGE"""	馬志士			马志士	LT.SURGE		"db ""LT.SURGE@"""		"""LT.SURGE@"""		"""LT.SURGE"""		マチス			
+	"""ERIKA"""	莉佳			莉佳	ERIKA		"db ""ERIKA@"""		"""ERIKA@"""		"""ERIKA"""		エりカ			
+	"""KOGA"""	阿桔			阿桔	KOGA		"db ""KOGA@"""		"""KOGA@"""		"""KOGA"""		キョウ			
+	"""BLAINE"""	夏伯			夏伯	BLAINE		"db ""BLAINE@"""		"""BLAINE@"""		"""BLAINE"""		カツラ			
+	"""SABRINA"""	娜姿			娜姿	SABRINA		"db ""SABRINA@"""		"""SABRINA@"""		"""SABRINA"""		ナツメ			
+	"""GENTLEMAN"""	紳士			绅士	GENTLEMAN		"db ""GENTLEMAN@"""		"""GENTLEMAN@"""		"""GENTLEMAN"""		ジェントルマン			
+	"""RIVAL2"""	勁敵2			劲敌2	RIVAL2		"db ""RIVAL2@"""		"""RIVAL2@"""		"""RIVAL2"""		ライバル2			
+	"""RIVAL3"""	勁敵3			劲敌3	RIVAL3		"db ""RIVAL3@"""		"""RIVAL3@"""		"""RIVAL3"""		ライバル3			
+	"""LORELEI"""	科拿			科拿	LORELEI		"db ""LORELEI@"""		"""LORELEI@"""		"""LORELEI"""		カンナ			
+	"""CHANNELER"""	祈禱師			祈祷师	CHANNELER		"db ""CHANNELER@"""		"""CHANNELER@"""		"""CHANNELER"""		きとうし			
+	"""AGATHA"""	菊子			菊子	AGATHA		"db ""AGATHA@"""		"""AGATHA@"""		"""AGATHA"""		キクコ			
+	"""LANCE"""	阿渡			阿渡	LANCE		"db ""LANCE@"""		"""LANCE@"""		"""LANCE"""		ワタル			
+	li 		db 														
+	assert_list_length NUM_TRAINERS		;														
+	list_start TrainerNames		;														
+end																	

@@ -1,0 +1,5 @@
+text/CeladonMansionRoof.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CeladonMansion4Text1::				_CeladonMansion4Text1::										
+	text	I KNOW EVERYTHING!			text	我啥都知道！		text	我啥都知道！	I KNOW EVERYTHING!	I Know Everything!	我啥都知道！	わしは　なんでも　おみとおし！	わしは　なんでも　おみとおし!
+	done				done			done						ゴ
+end				end										

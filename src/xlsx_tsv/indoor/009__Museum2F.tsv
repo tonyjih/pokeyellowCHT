@@ -1,0 +1,61 @@
+text/Museum2F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Museum2FText1::				_Museum2FText1::										
+	text	MOON STONE?			text	月之石啊……		text	月之石啊……	MOON STONE?	Moon Stone, huh?	月之石啊……	つきのいし　ね……	つきの　いしね…
+					para	和那邊那些石頭相比		para	和那边那些石头相比	What's so special				そこらへんの　いしころと
+	para	What's so special			line	到底哪裡不一樣啊？		line	到底哪里不一样啊？	about it?	What’s so special about it?	和那边那些石头相比	そこらへんの　いしころと	どこが　ちがうんだろう?
+	line	about it?			done			done			Looks like an ordinary rock to me.	到底哪里不一样啊？	どこが　ちがうんだろう？	
+	done													
+														
+_Museum2FText2::				_Museum2FText2::										
+	text	July 20, 1969!			text	１９６９年７月２０日，		text	１９６９年７月２０日，	July 20, 1969!	Even when pushing blocks with Strong Push,	想用“推山掌”推石块，	オシダシで　ブロック　おしてんのに	こんちわ!
+					para	人類第一次		para	人类第一次	The 1st lunar	Pokémon can get in the way!	附近的宝可梦却偏要来捣乱！	ポケモン　よってきて　ジャマー！	ぼく　ポケモン…!
+	para	The 1st lunar			line	登陸了月球！		line	登陆了月球！	landing!				…　ちゃうわい!
+	line	landing!			para	我為了看這個新聞		para	我为了看这个新闻	I bought a color	When that happens, I use a Repel so I can get	……在这种时候，	……そんなとき　わたしは	わいは　マサキ!
+					line	買了一台彩色電視！		line	买了台彩色电视！	TV to watch it!	back to pushin’ with no problem.	我就会喷一喷除虫喷雾，	むしよけスプレー　つかって	ひと　よんで　ポケモンマニアや!
+	para	I bought a color			done			done						あッ　なんや　そのめは?
+	line	TV to watch it!										这样就能淡定地想推就推了。	ゆうがに　オシダシ　ってるわ	あんさん　しんよう　してへんな
+	done													ホントやで!
+														じっけんに　しっぱい　して
+_Museum2FText3::				_Museum2FText3::										ポケモンと　くっついて　もうたんや
+	text	We have a space			text	這個月正在舉辦		text	这个月正在举办	We have a space	“Diary: July 5	日记　７月５日	にっき　７がつ５か	にっき　7がつ5か
+	line	exhibit now.			line	宇宙博覽會。		line	宇宙博览会。	exhibit now.	We discovered a new Pokémon deep in			ここは　みなみアメりカの　ギアナ
+	done				done			done				我们在丛林的深处	ジャングルの　おくちで	ジャングルの　おくちで
+											the jungle.”	发现了新种宝可梦。	しんしゅの　ポケモンを　はっけん	しんしゅの　ポケモンを　はっけん
+_Museum2FText4::				_Museum2FText4::										
+	text	I want a PIKACHU!			text	我呀就是覺得皮卡丘		text	我呀就是觉得皮卡丘	I want a PIKACHU!	I want [VAR iCOLOR2(0002)][VAR PKNAME(0002)]!	我呀就是觉得[VAR PKNAME(0002)]	わたしね　わたしね	わたしね　わたしね
+	line	It's so cute!			line	好可愛，就是好想要嘛～		line	好可爱，就是好想要嘛～	It's so cute!	It’s so cute!	好可爱，就是好想要嘛～	かわいいから　[VAR PKNAME(0002)]　ほしい！	かわいいから　ピカチュウ　ほしい!
+					para	爸爸求求你了，		para	爸爸求求你了，	I asked my Daddy				おとうさんに　とってきてね　って
+	para	I asked my Daddy			line	幫我捉一隻回來嘛～		line	帮我捉一只回来嘛～	to catch me one!	Daddy, can you please get one for me?	爸爸求求你了，	おとうさんに　とってきてね　って	おねがい　してるの
+	line	to catch me one!			done			done				帮我捉一只回来嘛～	おねがい　してるの	ゲ4×もひ
+	done													
+														
+_Museum2FText5::				_Museum2FText5::										
+	text	Yeah, a PIKACHU			text	好了好了！		text	好了好了！	Yeah, a PIKACHU	Yeah, I’ll get you [VAR iCOLOR2(0002)][VAR PKNAME(0002)] soon—	好了好了！	はい　はい！	はい　はい!
+	line	soon, I promise!			line	皮卡丘對吧！下次吧！		line	皮卡丘对吧！下次吧！	soon, I promise!	I promise!	[VAR PKNAME(0002)]对吧！下次吧！	[VAR PKNAME(0002)]だな！　こんどな！	ピカチュウだな!　こんどな!
+	done				done			done						
+														
+_Museum2FPikachuText1::				_Museum2FPikachuText1::										
+	text	Your PIKACHU looks			text	你的皮卡丘看上去			きみの　ピカチュウ		Hey, your [VAR PKNAME(0000)] looks pretty strong!	咦？你的[VAR PKNAME(0000)]	あれ？　つよそうな	うでが　あがった
+	line	untamed.			line	和你關係不是特別好。			なついてないようだが　よかったら			好像很厉害呢。	[VAR PKNAME(0000)]　もってるね	ポケモントレーナーだけが　もらえる
+	cont	May I have it for			cont	如果可以的話，能不能			むすめに　ゆずって　くれないか?		Can I battle it with my [VAR PKNAME(0000)]?			ポケモン　バッジ
+	cont	my daughter?			cont	把它讓給我的女兒呢？					Pleeeease?	想不想和我的	あたしの　[VAR PKNAME(0000)]と	あなたも　いくつか　もってるね
+	done				done							[VAR PKNAME(0000)]比比？	しょうぶ　しよ？	その　バッジには
+														すごい　ひみつが　あるのです
+_Museum2FPikachuText2::				_Museum2FPikachuText2::										
+	text	I'd like to get			text	好想要你的皮卡丘，			きみの　ピカチュウが　ほしいんだが		I get so sweaty after doing sports that I end up	我每次运动之后都会流好多汗，	わたし　スポーツの　あとは	わたし　スポーツの　あとは
+	line	that PIKACHU off			line	但看它和你關係這麼好，			そんなに　なついてちゃ		feeling all grimy!	整个人臭得跟臭泥一样！	あせで　ベトベター！	あせで　べトべター!
+	cont	you, but it's too			cont	我也確實不好意思			もらうわけには　いかないな					…しってる?　べトべターって
+	cont	attached to you.			cont	問你要啊……					Speaking of which...you know Grimer?	你知道吗？据说臭泥是	……しってる？　ベトベターって	うみの　へドロから　うまれたの
+	done				done						It’s born from ocean sludge.	从大海中的淤泥里诞生的呢！	うみの　ヘドロから　うまれたの	ゲ4ウらひ
+														
+_Museum2FText6::				_Museum2FText6::							Not sweat, I guess.			
+	text	SPACE SHUTTLE			text	哥倫比亞號		text	哥伦比亚号	SPACE SHUTTLE	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	COLUMBIA			line	太空梭		line	航天飞机	COLUMBIA	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done			done						
+														
+_Museum2FText7::				_Museum2FText7::										
+	text	Meteorite that			text	飛落到月見山上的物體		text	飞落到月见山上的物体	Meteorite that	There are Pokémon magazines on the shelves.	这里陈列着宝可梦的杂志！	ポケモンざっしが　ならんでる！	　ぽ　ぽ　
+	line	fell on MT.MOON.			line	可能就是……月之石		line	可能就是……月之石	fell on MT.MOON.				
+	cont	(MOON STONE?)			done			done		(MOON STONE?)	And Pokémon notebooks...	……宝可梦手册	……ポケモンてちょう	
+	done													
+end				end							And Pokémon graphs, too!	……宝可梦图表	……ポケモングラフ	

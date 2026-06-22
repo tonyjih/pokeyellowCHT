@@ -1,0 +1,12 @@
+data/text/text_6.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+TeachingHMsText::				TeachingHMsText::										
+	text	Once a #MON			text	用秘傳學習器學會的招式			ひでんマシンで		No?! Now don’t be so cold!	您说不？	そんなあ……	そんなあ…
+	line	learns an HM, the			line	是沒辦法忘記的。			おぼえさせた　わざは			……别这么没人情味。	つめたい　こと　いわんといて	つめたい　こと　いわんといて
+	cont	technique can't							わすれさせることが　できない		Come on, you gotta help a guy in such deep,			よッ…　いろおとこ!
+	cont	be replaced.									deep trouble!	嘿……！大美女～！	よッ……　いいおんな！	にくいねーッ
+												您最厉害！您是老大！	にくいねーッ！　だいとうりょう！	だいとうりょう!
+	para	Better think care-			para	教秘傳招式前，			おぼえさせるときは		What do you say?			ほな!　オッケー　やな!
+	line	fully before you			line	最好先想清楚。			よく　かんがえた　ほうが　いいな		Please?	是吧！OK吧！	ほな！　オッケー　やな！	きまりや!
+	cont	teach HM moves.										就这么愉快地决定了呗！	きまりや！	4」らひ
+	done				done						OK? All right!			
+end				end										

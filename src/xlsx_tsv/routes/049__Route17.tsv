@@ -1,0 +1,197 @@
+text/Route17.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route17BattleText1::				_Route17BattleText1::										
+	text	There's no money			text	把小孩當對手戰鬥		text	把小孩当对手战斗	There's no money	There’s such a big difference just because	只是因为生长的环境不同，	そだって　きた　かんきょうが	…　シルフスコープ?　ああ!
+	line	in fighting kids!			line	也贏不了多少獎金！		line	也赢不了多少奖金！	in fighting kids!	they grow up in different environments.		ちがう　だけで	ボスが　シルフ　カンパニーで
+	done				done			done				就能产生如此大的变化，		ぬすんで　きた　マシンの　ことか!
+											Life is so mysterious.	生命，真是妙不可言啊！	こんなに　ちがいが　ある　なんて	…　どこかに　ある　はず　だぜ
+_Route17EndBattleText1::				_Route17EndBattleText1::									せいめいって　しんぴ　だよ	ゲ
+	text	Burned			text	燃燒殆盡了。		text	燃烧殆尽了。	Burned	Totem [VAR PKNICK(0000)] burned itself out!	霸主[VAR PKNICK(0000)]的火焰燃尽了！	ぬしの　[VAR PKNICK(0000)]の　ほのおは　もえつきた！	トレーナーぞ
+	line	out!			prompt			prompt		out!				きド5ま
+	prompt													
+														
+_Route17AfterBattleText1::				_Route17AfterBattleText1::										
+	text	Good stuff is			text	腳踏車道上掉落的東西		text	自行车道上掉落的东西	Good stuff is	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	lying around on			line	也很多的！撿起來然後賣掉		line	也很多的！捡起来然后卖掉	lying around on	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	CYCLING ROAD!			cont	也能小賺一筆。		cont	也能小赚一笔。	CYCLING ROAD!				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_Route17BattleText2::				_Route17BattleText2::										
+	text	What do you want,			text	對體力有自信的話……		text	对体力有自信的话……	What do you want,	What do you want?	有何贵干！	なんだァ！	なんだァ!
+	line	kiddo?			line	就來吧！		line	就来吧！	kiddo?	Get lost, you little squirt!	一边儿去！一边儿去！	てめえ！　あっち　いけ！	ぼうず!　あっち　いけ!
+	done				done			done						
+														
+_Route17EndBattleText2::				_Route17EndBattleText2::										
+	text	Whoo!			text	哦喲喲——！		text	你很厉害啊。	Whoo!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			prompt		Good stuff!	Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_Route17AfterBattleText2::				_Route17AfterBattleText2::										つ {PLAYER}  {PLAYER} 
+	text	I could belly-			text	方便的話，		text	方便的话，	I could belly-	What could you possibly want, coming back	事已至此，	いまさら	こんな　とこ　まで　くる　とは
+	line	bump you outta			line	能讓我摸一下你的肚子嗎？		line	能让我摸一下你的肚子吗？	bump you outta	here now?	你到这里来做什么。	こんな　ところ　まで	きみも　マニア?　…　じゃ
+	cont	here!			done			done		here!				ぼくの　コレクション　みる?
+	done										Because of you, Team Rocket was disbanded...	都是因为你，	なにを　しに　きたのですか	
+												火箭队才……		
+_Route17BattleText3::				_Route17BattleText3::									おまえの　せいで	
+	text	You heading to			text	你要去淺紅市嗎？		text	你要去浅红市吗？	You heading to	Hey, you!	你呀你呀～！你不会是	キミ　キミー！　もしかして	ちょっと　まったあ!
+	line	FUCHSIA?			done			done		FUCHSIA?	Are you going to Cinnabar Island, by	要去红莲镇之类的吧？	グレンタウン　いく　けい？	そんな　いそいで　どこに　いく?
+	done												かいさん　したのですよ	
+											any chance?			
+_Route17EndBattleText3::				_Route17EndBattleText3::										
+	text	Crash and			text	啊咻——！		text	啊咻——！	Crash and	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	burn!			prompt			prompt		burn!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt													
+														
+_Route17AfterBattleText3::				_Route17AfterBattleText3::										
+	text	I love racing			text	從上面一口氣衝下來的		text	从上面一口气冲下来的	I love racing	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	downhill!			line	感覺真棒啊！		line	感觉真棒啊！	downhill!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done			done						
+														
+_Route17BattleText4::				_Route17BattleText4::										
+	text	We're BIKERs!			text	我們暴走族！連愛哭的孩子		text	我们暴走族！连爱哭的孩子	We're BIKERs!	Team Rocket took off!	火箭队逃跑了啊！	ロケットだん　にげてったね！	ロケットだん　にげてったね!
+	line	Highway stars!			line	都能讓他安靜下來！		line	都能让他安静下来！	Highway stars!	We can go out safely again!	这样一来就再也不用害怕出门了！	これからは　そと　あるいても	これからは　そと　あるいても
+	done				done			done						ちっとも　こわくない!
+											That’s great!	太好了！	ちっとも　こわくない！	よかったね!
+_Route17EndBattleText4::				_Route17EndBattleText4::										
+	text	Smoked!			text	忍不了了。		text	忍不了了。	Smoked!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			prompt			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_Route17AfterBattleText4::				_Route17AfterBattleText4::										つ {PLAYER}  {PLAYER} 
+	text	Are you looking			text	我還沒有……		text	我还没有……	Are you looking	Welcome!	欢迎光临！	いらっしゃいませぇ！	それでは
+	line	for adventure?			line	那麼大的度量嗎。		line	那么大的度量吗。	for adventure?	What are you looking for?	您想买点什么？	なにを　おもとめですか？	なにを　そだてて　みるかね?
+	done				done			done						
+														
+_Route17BattleText5::				_Route17BattleText5::										
+	text	Let VOLTORB			text	嘿呀！		text	嘿呀！	Let VOLTORB	Hey! You have Pokémon, right?	嗨！	よーしッ！	よーしッ!
+	line	electrify you!			line	讓霹靂電球麻痺你吧！		line	让霹雳电球麻痹你吧！	electrify you!	Come on!	你有宝可梦的吧？	きみは　ポケモン　もってるな？	きみは　ポケモン　もってるな?
+	done				done			done						しょうぶ　しようぜ!
+											Let’s battle ’em!	我们来对战！	しょうぶ　しようぜ！	
+_Route17EndBattleText5::				_Route17EndBattleText5::										
+	text	Grounded			text	嗚哦……！		text	呜哦……！	Grounded	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	out!			prompt			prompt		out!		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	prompt										D’aww... Failed again?			
+														
+_Route17AfterBattleText5::				_Route17AfterBattleText5::										
+	text	I got my VOLTORB			text	這個霹靂電球		text	这个霹雳电球	I got my VOLTORB	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	at the abandoned			line	是在無人發電廠捉到的。		line	是在无人发电厂捉到的。	at the abandoned	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	POWER PLANT.			done			done		POWER PLANT.				…　シルフ　カンパニー
+	done											……西尔佛公司	……シルフカンパニー	
+														
+_Route17BattleText6::				_Route17BattleText6::										
+	text	My #MON won't			text	我的寶可夢		text	我的宝可梦	My #MON won't	I leveled up my Pokémon, but it won’t evolve.	我的宝可梦就算等级提升了，	おれの　ポケモン　レベル　あげても	おれの　ポケモン　レべル　あげても
+	line	evolve! Why?			line	就算等級提升了，		line	就算等级提升了，	evolve! Why?	Why?	它也不会轻易进化哦！	なかなか　しんか　しないぜえ！	なかなか　しんか　しないぜえ!
+	done				cont	它也不會輕易進化哦！		cont	它也不会轻易进化哦！					
+					done			done						
+_Route17EndBattleText6::				_Route17EndBattleText6::										
+	text	Why,			text	幹嘛啊！		text	干嘛啊！	Why,	What’re you lookin’ at?	干嘛啊！烦不烦啊！	っだよ！　っせーな！	っだよ!　っせーな!
+	line	you!			line	煩不煩啊！		line	烦不烦啊！	you!				
+	prompt				prompt			prompt						
+														
+_Route17AfterBattleText6::				_Route17AfterBattleText6::										
+	text	Maybe some #MON			text	說起來，好像有些寶可夢		text	说起来，好像有些宝可梦	Maybe some #MON	Maybe some Pokémon need certain stones	说起来，好像有些宝可梦	そういえば　ポケモンに　よって	そういえば　ポケモンに　よって
+	line	need element			line	需要石頭才能進化呢。		line	需要石头才能进化呢。	need element	to evolve.	需要石头才能进化呢。	いしを　かざすと	いしを　かざすと
+	cont	STONEs to evolve.			done			done		STONEs to evolve.				しんか　するかも　しれないぜえ
+	done												しんか　するかも　しれないぜえ	ゲ
+														
+_Route17BattleText7::				_Route17BattleText7::										
+	text	I need a little			text	出一點汗，		text	出一点汗，	I need a little	I need a little exercise!	出一点汗，减一身肥！	ひとあせ　かいて　やせちゃおー！	ひとあせ　かいて　やせるかあ!
+	line	exercise!			line	減一身肥！		line	减一身肥！	exercise!				
+	done				done			done						
+														
+_Route17EndBattleText7::				_Route17EndBattleText7::										
+	text	Whew!			text	呼！		text	呼！	Whew!	Whew!	呼！	ふう！	だあ!
+	line	Good workout!			line	真是一場火熱的對戰呢。		line	真是一场火热的对战呢。	Good workout!	Good workout!	真是一场火热的对战呢。	あつい　たたかい　だったわ	あつい　たたかい　だぜえ
+	prompt				prompt			prompt						
+														
+_Route17AfterBattleText7::				_Route17AfterBattleText7::										
+	text	I'm sure I lost			text	怎麼樣？怎麼樣？出了汗後		text	怎么样？怎么样？出了汗后	I'm sure I lost	I’m sure I lost weight there!	怎么样？怎么样？	どう？　どう？	あせ　かいて
+	line	weight there!			line	我是不是瘦下來了？		line	我是不是瘦下来了？	weight there!		出了汗后我是不是瘦下来了？	あせ　かいて　やせた　かしら？	すこし　やせた　きが　するぜえ
+	done				done			done						ゲ
+														
+_Route17BattleText8::				_Route17BattleText8::										
+	text	Be a rebel!			text	特立獨行		text	特立独行	Be a rebel!	Be a rebel!	特立独行是男人的标志！	つっぱる　ことが	つっぱる　ことが
+	done				line	是男人的標誌！		line	是男人的标志！				おとこの　くんしょうだぜえ！	おとこの　くんしょうだぜえ!
+					done			done						
+_Route17EndBattleText8::				_Route17EndBattleText8::										
+	text	Aaaargh!			text	暈！		text	晕！	Aaaargh!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			prompt			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_Route17AfterBattleText8::				_Route17AfterBattleText8::										つ {PLAYER}  {PLAYER} 
+	text	Be ready to fight			text	你也要特立獨行！		text	你也要特立独行！	Be ready to fight	Be ready to fight for your beliefs!	你也要特立独行！	おまえも　つっぱれ！	おとこ　だったら
+	line	for your beliefs!			line	走自己的路讓別人說去吧！		line	走自己的路让别人说去吧！	for your beliefs!		走自己的路让别人说去吧！	しんじる　みちを　いけえ！	しんじる　みちを　いけえ!
+	done				done			done						ゲ
+														
+_Route17BattleText9::				_Route17BattleText9::										
+	text	Nice BIKE!			text	好帥的腳踏車哪！		text	好帅的自行车哪！	Nice BIKE!	Well, I guess that’s that...	……好了好了！	……さてと！　じゃあ	ゲームの　プログラムだ!
+	line	How's it handle?			line	騎起來怎麼樣？		line	骑起来怎么样？	How's it handle?		那这个就先给你了。	これ　あげとくな	これ　かえたら　バグる　かも
+	done				done			done			Here, take these. I won’t need ’em now!			
+														
+_Route17EndBattleText9::				_Route17EndBattleText9::										
+	text	Shoot!			text	可惡！		text	可恶！	Shoot!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			prompt			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_Route17AfterBattleText9::				_Route17AfterBattleText9::										つ {PLAYER}  {PLAYER} 
+	text	The slope makes			text	在坡道上操控把手		text	在坡道上操控把手	The slope makes	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	it hard to steer!			line	很難吧！		line	很难吧！	it hard to steer!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	done				done			done						…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_Route17BattleText10::				_Route17BattleText10::										
+	text	Get lost, kid!			text	……好懶啊……想睡了，		text	……好懒啊……想睡了，	Get lost kid!	I’m raising Pokémon, too.	我也在培育宝可梦哦！	わたしも	わたしも
+	line	I'm bushed!			line	真麻煩啊……！		line	真麻烦啊……！	I'm bushed!			ポケモンを　そだててるの！	ポケモンを　そだててるの!
+	done				done			done			When they get strong, they’ll be able to	要是它们够厉害，		つよく　なれば
+											protect me.	就可以来给我当保安了呢！	つよく　なれば	ガードマンの　かわりに　なるしね
+_Route17EndBattleText10::				_Route17EndBattleText10::									ガードマンの　かわりに　なるしね	
+	text	Are you			text	完了嗎。		text	完了吗。	Are you	Are you satisfied with beating me?	打赢我就满足了吗？	おれに　かって　まんぞくか	おれに　かって　まんぞくか
+	line	satisfied?			prompt			prompt		satisfied?	Then go on home!	那么你快回家吧。	じゃ　おうちに　かえんな	じゃ　おうちに　かえんな
+	prompt													ぜギ
+														
+_Route17AfterBattleText10::				_Route17AfterBattleText10::										
+	text	I need to catch			text	已經想睡死了。		text	已经想睡死了。	I need to catch	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	a few Zs!			done			done		a few Zs!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	done													…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_Route17Text11::				_Route17Text11::										
+	text	It's a notice!			text	這裡貼著一張告示！		text	这里贴着一张告示！	It's a notice!	It’s a Pokémon Report!	……是宝可梦报告！	……ポケモンレポートだ！	…　ポケモン　レポートだ!
+					para	……		para	……	Watch out for				ポケモン　けんきゅうじょ　では
+	para	Watch out for			line	小心別人丟棄的道具！		line	小心别人丢弃的道具！	discarded items!	The research section succeeded in creating	在研究部门，	けんきゅう　セクション　では	じんこうの　ポケモン
+	line	discarded items!			done			done			Porygon, an artificial Pokémon created	我们成功制造出了	じんこうの　ポケモン	ポりゴンを　つくる　ことに
+	done													せいこう　した…　…
+											by humans.	多边兽这种人工宝可梦……	ポリゴンを　つくる　ことに	
+_Route17Text12::				_Route17Text12::										
+	text	TRAINER TIPS			text	……有用的公告牌！		text	……有用的公告牌！	TRAINER TIPS	Trainer Tips	……有用的公告牌！	……おとくな　けいじばん！	…　おとくな　けいじばん!
+					para	即使是種類和等級		para	即使是种类和等级	All #MON are				おなじ　ポケモン　おなじ　レべルでも
+	para	All #MON are			line	相同的寶可夢，每次捕捉時		line	相同的宝可梦，每次捕捉时	unique.	All Pokémon are unique.	即使是种类和等级相同的宝可梦，	おなじ　ポケモン　おなじ　レベルでも	とるたびに　パラメータが　すこし
+	line	unique.			cont	它們的能力		cont	它们的能力	Even #MON of		每次捕捉时	とるたびに　のうりょくが　すこし	ちがってて…　そだつと
+					cont	都會有微妙的差異……		cont	都会有微妙的差异……	the same type and	Even Pokémon of the same species and level			ちがいが　おおきく　なる!
+	para	Even #MON of			para	經過培養，		para	经过培养，	level grow at	grow at different rates...which adds up in time!	它们的能力都会有微妙的差异……	ちがってて……　そだつと	
+	line	the same type and			line	這些差異便會更加明顯！		line	这些差异便会更加明显！	different rates.				
+	cont	level grow at			done			done				经过培养，这些差异便会更加明显！	ちがいが　おおきく　なる！	
+	cont	different rates.												
+	done													
+														
+_Route17Text13::				_Route17Text13::										
+	text	TRAINER TIPS			text	……有用的公告牌！		text	……有用的公告牌！	TRAINER TIPS	Trainer Tips	……有用的公告牌！	……おとくな　けいじばん！	…　おとくな　けいじばん!
+					para	只要按住按鍵不放，		para	只要按住按键不放，	Press the A or B				しんかの　さいちゅうに
+	para	Press the A or B			line	就算在坡道上，腳踏車的		line	就算在坡道上，自行车的	Button to stay in	If you press the B Button when a Pokémon is	在宝可梦进化时	しんかの　さいちゅうに	ビー　ボタンを　おすと
+	line	Button to stay in			cont	輪胎也不會打滑了！		cont	轮胎也不会打滑了！	place while on a	in the middle of evolving, you can make it stop!	按下Ｂ键，	Ｂボタンを　おすと	しんかは　とまって　しまいます
+	cont	place while on a			done			done		slope.				
+	cont	slope.										进化就会停止。	しんかは　とまって　しまいます	
+	done													
+														
+_Route17Text14::				_Route17Text14::										
+	text	ROUTE 17			text	這裡是１７號道路		text	这里是１７号道路	ROUTE 17	Route 17	这里是17号道路	ここは　１７ばんどうろ	ここは　1ばん　どうろ
+	line	CELADON CITY -			line	玉虹市　……　淺紅市		line	玉虹市　……　浅红市	CELADON CITY -	(Celadon City ⇄ Fuchsia City)	玉虹市　……　浅红市	タマムシシティ　……　セキチクシティ	マサラ　タウン　…　トキワ　シティ
+	cont	FUCHSIA CITY			done			done		FUCHSIA CITY				4
+	done													
+														
+_Route17Text15::				_Route17Text15::										
+	text	It's a notice!			text	這裡貼著一張告示！		text	这里贴着一张告示！	It's a notice!	There’s a notice posted here...	这里贴着一张告示！	チラシが　はってある！	チラシが　はってある!
+					para	別扔遊戲！		para	别扔游戏！	Don't throw the	“Don’t throw the game.			ゲームを　なげるな!
+	para	Don't throw the			line	要扔就扔精靈球！		line	要扔就扔精灵球！	game, throw #		别扔游戏！	ゲームを　なげるな！	モンスターボールを　なげろ!
+	line	game, throw #			done			done		BALLs instead!	Throw Poké Balls instead!”	要扔就扔精灵球！	モンスターボールを　なげろ！	
+	cont	BALLs instead!												
+	done													
+														
+_Route17Text16::				_Route17Text16::										
+	text	CYCLING ROAD			text	腳踏車道		text	自行车道	CYCLING ROAD	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	Slope ends here!			line	……　坡道到此為止！		line	……　坡道到此为止！	Slope ends here!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done			done						
+end				end										

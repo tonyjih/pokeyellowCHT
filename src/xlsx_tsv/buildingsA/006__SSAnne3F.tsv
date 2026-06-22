@@ -1,0 +1,9 @@
+text/SSAnne3F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SSAnne3Text1::				_SSAnne3Text1::										
+	text	Our CAPTAIN is a			text	船長是一位劍術高手，		text	船长是一位剑术高手，	Our CAPTAIN is a	Our captain is a sword master.	船长是一位剑术高手，	せんちょうは　けんの　たつじん	せんちょうは　けんの　たつじん
+	line	sword master!			line	居合斬是他的一大絕招！		line	居合斩是他的一大绝招！	sword master!	He’s awesome at using Chop Down.	袈裟斩是他的一大绝招！	ケサギリが　とくい！	いあいぎりが　とくい!
+					para	據說他會把這個招式		para	据说他会把这个招式	He even teaches				ポケモンにも　その　わざを
+	para	He even teaches			line	教給寶可夢哦！		line	教给宝可梦哦！	CUT to #MON!	They say he’ll teach his move to anyone who	据说他会把这个招式教给	みこみの　ある　やつには	おしえるって　いうぜ!
+	line	CUT to #MON!			done			done			shows potential.	他认为是可塑之才的家伙哦！	その　わざを	ズ
+	done													
+end				end									おしえるって　いうぜ！	

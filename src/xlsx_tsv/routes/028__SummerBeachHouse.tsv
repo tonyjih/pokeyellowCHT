@@ -1,0 +1,109 @@
+text/SummerBeachHouse.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SurfinDudeText1::				_SurfinDudeText1::										
+	text	Whoa!			text	唔唔……			むむっ					
+														
+	para	Your PIKACHU knows			para	那傢伙就是衝浪皮卡丘吧！			そいつは　なみのりピカチュウ　だな!					
+	line	how to SURF! So,			line	原來除了我之外，			わし　いがいにも					
+	cont	I'm not alone...			cont	還有帶著它的人啊……			つれている　やつが　いるとは…					
+														
+	para	Great! You earned			para	好！			よしっ!					
+	line	the right to SURF			line	讓你能遊玩特別的			きみだけ　とくべつに					
+	cont	with the DUDE!			cont	衝浪遊戲吧！			なみのりで　あそばせて　やろう!					
+														
+	para	Give it a go?			para	要玩一下嗎？			あそんでいくか?					
+	done				done									
+														
+_SurfinDudeText2::				_SurfinDudeText2::										
+	text	Come SURF anytime,			text	還想要來玩的話，			あそびたくなったら					
+	line	my friend!			line	請隨時過來！			いつでも　きなさい!					
+	done				done									
+														
+_SurfinDudeText3::				_SurfinDudeText3::										
+	text	Wanna go SURF?			text	要玩衝浪遊戲嗎？			なみのりで　あそんでいくか?					
+	done				done									
+														
+_SurfinDudeText4::				_SurfinDudeText4::										
+	text	Dogs and burgers			text	要不要來一份			ラーメン　やきソバ					
+	line	on special today!			line	拉麵或者炒麵呀？			いかがですかー?					
+	done				done									
+														
+_SummerBeachHousePikachuText::				_SummerBeachHousePikachuText::										
+	text	PIKACHU: Pikaa			text	皮卡丘：皮卡～			ピカチュウ『ぴかー					
+	done				done									
+														
+_SummerBeachHouseSign1Text1::				_SummerBeachHouseSign1Text1::										
+	text	SURFIN' DUDE's			text	衝浪大叔的隨手記			なみのり　オヤジの　らくがき					
+	line	scribbles...												
+														
+	para	When I shoot the			para	速度提升時，音樂			スピードが　あがると					
+	line	tube, the tunes			line	聽起來也會變得更快，			きこえる　おんがくも					
+	cont	hit the groove!			cont	更加有節奏！			はやくなって　ノりノりじゃ!					
+	done				done									
+														
+_SummerBeachHouseSign1Text2::				_SummerBeachHouseSign1Text2::										
+	text	30 years of waves!			text	專注衝浪３０年！			なみのり　ひとすじ　30ねん!					
+	line	SURFIN' DUDE			line	衝浪大叔			なみのりオヤジ					
+	done				done									
+														
+_SummerBeachHouseSign2Text1::				_SummerBeachHouseSign2Text1::										
+	text	SURFING TIP 1!			text	衝浪的心得 其一：			なみのりの　こころえ　そのいち!					
+														
+	para	After flips, line			para	翻轉之後，			かいてんの　あと　すいめんに					
+	line	the board up with			line	配合海浪的水面降落，			ボードを　あわせて　おりるのが					
+	cont	a wave for a cool			cont	這個是變帥氣的訣竅！			かっこよく　きめる　コツじゃ!					
+	cont	effect!												
+	done				done									
+														
+_SummerBeachHouseSign2Text2::				_SummerBeachHouseSign2Text2::										
+	text	SUMMER BEACH HOUSE			text	大海之家。			うみの　いえ					
+	line	#MON welcome!			line	熱烈歡迎寶可夢！			ポケモン　だいかんげい!					
+	done				done									
+														
+_SummerBeachHouseSign3Text1::				_SummerBeachHouseSign3Text1::										
+	text	SURFING TIP 2!			text	衝浪的心得 其二：			なみのりの　こころえ　そのに!					
+														
+	para	Pulling flips in			para	跳躍時連續翻轉，			ジャンプ　してる　あいだに					
+	line	a jump is totally			line	真的很帥氣呢！			れんぞくして　かいてん　すると					
+	cont	rad!							すごく　かっこいいぞ!					
+	done				done									
+														
+_SummerBeachHouseSign3Text2::				_SummerBeachHouseSign3Text2::										
+	text	The sea unites			text	大海即是浪漫！			うみ　こそ　ロマン!					
+	line	all in surfdom!												
+	done				done									
+														
+_SummerBeachHousePrinterText1::				_SummerBeachHousePrinterText1::										
+	text	It's some sort of			text	這是什麼……？			なんだろう…?					
+	line	a machine...@			line	是某種機器嗎？@			なにかの　きかい　かな?					
+	text_end				text_end									
+														
+_SummerBeachHousePrinterText2::				_SummerBeachHousePrinterText2::										
+	text	SUMMER BEACH HOUSE			text	上面寫著：			サマービーチよう　プりントそうち					
+	line	PRINTER, it says.@			line	夏日海灘用列印裝置。@			と　かかれている					
+	text_end				text_end									
+														
+_SummerBeachHousePrinterText3::				_SummerBeachHousePrinterText3::										
+	text	The Hi-Score is			text	上面顯示了			げんざいの　さいこう　きろくが					
+	line	shown.			line	當前的最高分！			ひょうじ　されている!					
+														
+	para	PRINT it out?			para	要列印嗎？			プりント　しますか?					
+	done				done									
+														
+_SummerBeachHousePrinterText4::				_SummerBeachHousePrinterText4::										
+	text	SUMMER BEACH HOUSE			text	上面寫著：			サマービーチよう　プりントそうち					
+	line	PRINTER, it says.			line	夏日海灘用列印裝置。			と　かかれている					
+														
+	para	The Hi-Score is			para	上面顯示了			げんざいの　さいこう　きろくが					
+	line	shown.			line	當前的最高分！			ひょうじ　されている!					
+														
+	para	PRINT it out?			para	要列印嗎？			プりント　しますか?					
+	done				done									
+														
+_SummerBeachHousePrinterText5::				_SummerBeachHousePrinterText5::										
+	text	PRINT completed.@			text	列印完成。@			プりント　しゅうりょう　しました					
+	text_end				text_end									
+														
+_SummerBeachHousePrinterText6::				_SummerBeachHousePrinterText6::										
+	text	PRINT error!@			text	未能順利列印。@			うまく　プりント　できません					
+	text_end				text_end									
+end				end										

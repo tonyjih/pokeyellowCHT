@@ -1,0 +1,148 @@
+text/ChampionsRoom.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_GaryChampionIntroText::				_GaryChampionIntroText::										
+	text	<RIVAL>: Hey!			text	<RIVAL>：喲！		text	<RIVAL>：哟！	<RIVAL>: Hey!	“This report reached us from a reader wishing	接下来要介绍的是一位	ペンネーム	 {5B} を　みると
+					para	你也來了啊，		para	你也来了啊，	I was looking	to remain anonymous. They had this to say:	不愿透露姓名的读者带来的故事：	とくめいきぼう　さん　より	なんと　でんしメールが　きていた!
+	para	I was looking			line	<PLAYER>！		line	<PLAYER>！	forward to seeing				…　…　…
+	line	forward to seeing			cont	……哈哈，很好啊！		cont	……哈哈，很好啊！	you, <PLAYER>!	‘It happened when I went to the Pokémon Tower.	“这是我去宝可梦塔时	『わたしが　ポケモンタワーに	ポケモンを　つよく　そだてて
+	cont	you, <PLAYER>!			para	畢竟是我的勁敵，		para	毕竟是我的劲敌，	My rival should		发生的一件事。	いった　ときの　こと　です	たたかう　ポケモン　トレーナー!
+					line	你要是太菜的話，		line	你要是太菜的话，	be strong to keep	I’d been visiting a grave there, and when I went			ここに　さいきょうの
+	para	My rival should			cont	我也很沒面子啊！		cont	我也很没面子啊！	me sharp!		那天我去塔里扫完墓，	おはかまいりを　おえて	トレーナーが　あつまり　ました
+	line	be strong to keep			para	我在收集寶可夢		para	我在收集宝可梦	While working on	to leave, a mysterious dark figure appeared and	正准备要回家，	いざ　かえろうと　すると	ばしょは　セキエイ　こうげんの
+	cont	me sharp!			line	圖鑑的同時，找到了那些		line	图鉴的同时，找到了那些	#DEX, I looked				ポケモン　りーグ　ほんぶ　です!
+					cont	最完美的寶可夢！		cont	最完美的宝可梦！	all over for	chased me! I couldn’t tell what it was, and I tried	突然有一个莫名其妙的	えたいの　しれない	オーキドはかせも
+	para	While working on			para	我也研究出了足以戰勝		para	我也研究出了足以战胜	powerful #MON!		黑乎乎的东西追了过来……	くろい　ものが　おいかけて　きて……	いちど　ごらん　ください
+	line	#DEX, I looked			line	任何屬性寶可夢的		line	任何属性宝可梦的	Not only that, I	as desperately as I could to run away, but in the			…　ポケモン　りーグ　より
+	cont	all over for			cont	最佳搭配！		cont	最佳搭配！	assembled teams		我拼命逃跑，	ひっしに　にげたんです　けど	…　…　…
+	cont	powerful #MON!			para	……而現在！		para	……而现在！	that would beat	end, it caught me anyway...	但还是没能逃脱它的追赶……	おいつかれて　わたし……	…　…
+					para	我正站在		para	我正站在	any #MON type!				ひ507ム
+	para	Not only that, I			line	寶可夢聯盟的頂點！		line	宝可梦联盟的顶点！	And now!	Then the next thing I knew, I was lying on the	等我回过神的时候，	きづいたら　いりぐちで	
+	line	assembled teams			para	<PLAYER>！		para	<PLAYER>！	I'm the #MON		我发现我自己倒在入口那边……	たおれてたんです	
+	cont	that would beat			line	知道這意味著什麼嗎？		line	知道这意味着什么吗？	LEAGUE champion!	ground outside of the tower’s entrance.			
+	cont	any #MON type!			cont	…… ……		cont	…… ……	<PLAYER>! Do you		那天追赶我的	アレは　いったい	
+					para	……好吧，我來告訴你！		para	……好吧，我来告诉你！	know what that	What in the world was that thing?’”	究竟是什么东西呢……？”	なんだったの　かしら……？	
+	para	And now!			para	這意味著，		para	这意味着，	means?				
+					line	本大爺是天下第一！		line	本大爷是天下第一！	I'll tell you!				
+	para	I'm the #MON			cont	本大爺最強最厲害！		cont	本大爷最强最厉害！	I am the most				
+	line	LEAGUE champion!			done			done		powerful trainer				
+										in the world!				
+	para	<PLAYER>! Do you												
+	line	know what that												
+	cont	means?												
+														
+	para	I'll tell you!												
+														
+	para	I am the most												
+	line	powerful trainer												
+	cont	in the world!												
+	done													
+														
+_GaryDefeatedText::				_GaryDefeatedText::										
+	text	NO!			text	……不可能！		text	……不可能！	NO!	Oh... You have better things to do, champ in	哎呀……！	おぉ……　こんな　ところで	おお…!
+	line	That can't be!			line	怎麼能就這麼結束！		line	怎么能就这么结束！	That can't be!	the making!	在这种地方偷懒可不好哦！	あぶら　うってて　いいのか！	こんな　ところで
+	cont	You beat my best!			cont	我拼盡全力居然輸了！		cont	我拼尽全力居然输了！	You beat my best!				あぶら　うってて　いいのか!
+					para	我好不容易才能成為		para	我好不容易才能成为	After all that	Celadon City’s Gym Leader is Erika.	未来的冠军！	みらいの　チャンピオン！	みらいの　チャンピオン!
+	para	After all that			line	寶可夢聯盟的頂點啊！		line	宝可梦联盟的顶点啊！	work to become				タマムシの　りーダー　エりカは
+	line	work to become			cont	可惡……！		cont	可恶……！	LEAGUE champ?	She is one with nature and a user of	玉虹的馆主莉佳	タマムシの　リーダー　エリカは	しぜんと　こころを　かよわす
+	cont	LEAGUE champ?			para	我的時代這就完了？		para	我的时代这就完了？	My reign is over	Grass-type Pokémon.	是一位能与自然心灵相通的	しぜんと　こころを　かよわす	しょくぶつ　ポケモンの　つかいて!
+					line	……怎麼可能！		line	……怎么可能！	already?				おはな　なんか　いけてる　から
+	para	My reign is over			prompt			prompt		It's not fair!	She might look quiet because she does flower	草属性宝可梦的能手！	くさポケモンの　つかいて！	おとなしそうに　みえるが
+	line	already?									arrangements, but she’s not one to be			てごわい　あいてに　なるぞ!
+	cont	It's not fair!										别看她在那里插花，看似温和，	おはな　なんか　いけてる　から	
+	prompt										taken lightly!	其实相当不好对付哦！	おとなしそう　だが　てごわいぞ！	
+														
+_GaryVictoryText::				_GaryVictoryText::										
+	text	Hahaha!			text	哈哈！		text	哈哈！	Hahaha!	BROCK: ...You sure look different from when	小刚：……现在的你简直与	タケシ『……はじめて　きた　ときから	 {5B} を　みると
+	line	I won, I won!			line	贏了！贏了！我贏了！		line	赢了！赢了！我赢了！	I won, I won!	we first met!	初次见面时判若两人！	すっかり　みちがえたな！	なんと　でんしメールが　きていた!
+					para	本大爺怎麼可能		para	本大爷怎么可能	I'm too good for				…　…　…
+	para	I'm too good for			line	會輸給<PLAYER>嘛！		line	会输给<PLAYER>嘛！	you, <PLAYER>!	I have a request for you, since you’re now	既然你已经称霸宝可梦联盟，	ポケモンリーグを　せいは　した	ポケモンを　つよく　そだてて
+	line	you, <PLAYER>!			para	你的對手畢竟是		para	你的对手毕竟是	You did well to	the Pokémon League Champion.	我有一个请求需要你来完成。	きみに　おねがいが　ある	たたかう　ポケモン　トレーナー!
+					line	寶可夢天才——		line	宝可梦天才——	even reach me,				ここに　さいきょうの
+	para	You did well to			cont	<RIVAL>，		cont	<RIVAL>，	<RIVAL>, the	The truth is, Gym Leaders have the right to	其实道馆馆主	じつは　ジムリーダーには	トレーナーが　あつまり　ました
+	line	even reach me,			cont	打成這樣很厲害了！		cont	打成这样很厉害了！	#MON genius!	challenge the Champion!	有资格和联盟冠军对决！	リーグ　チャンピオン　との	ばしょは　セキエイ　こうげんの
+	cont	<RIVAL>, the			para	值得表揚！		para	值得表扬！	Nice try, loser!				ポケモン　りーグ　ほんぶ　です!
+	cont	#MON genius!			line	哈哈！哈哈哈！		line	哈哈！哈哈哈！	Hahaha!	...Please allow me the privilege of facing you	……我希望你能与我再战一次！	しあいが　みとめられて　いる！	オーキドはかせも
+					prompt			prompt			in battle once again!	因为我很想		いちど　ごらん　ください
+	para	Nice try, loser!											……おれに　もういちど	…　ポケモン　りーグ　より
+	line	Hahaha!									Allow me to show you the true rock-hard	让你见识我真正的实力！	きみと　しょうぶ　させてくれ！	…　…　…
+	prompt										strength of my Pokémon!			…　…
+													おれの　ほんきを	ひ507ム
+_GaryText_76103::				_GaryText_76103::										
+	text	Why?			text	為什麼……		text	为什么……	Why?	BROCK: ...You sure look different from when	小刚：……现在的你简直与	タケシ『……はじめて　きた　ときから	 {5B} を　みると
+	line	Why did I lose?			line	為什麼我會輸……		line	为什么我会输……	Why did I lose?	we first met!	初次见面时判若两人！	すっかり　みちがえたな！	なんと　でんしメールが　きていた!
+					para	我的培育方式……		para	我的培育方式……	I never made any				…　…　…
+	para	I never made any			line	應該不存在		line	应该不存在	mistakes raising	I have a request for you, since you’re now	既然你已经称霸宝可梦联盟，	ポケモンリーグを　せいは　した	ポケモンを　つよく　そだてて
+	line	mistakes raising			cont	任何的問題才對啊。		cont	任何的问题才对啊。	my #MON...	the Pokémon League Champion.	我有一个请求需要你来完成。	きみに　おねがいが　ある	たたかう　ポケモン　トレーナー!
+	cont	my #MON...			para	算了……		para	算了……	Darn it! You're				ここに　さいきょうの
+					line	你成為了寶可夢聯盟		line	你成为了宝可梦联盟	the new #MON	The truth is, Gym Leaders have the right to	其实道馆馆主	じつは　ジムリーダーには	トレーナーが　あつまり　ました
+	para	Darn it! You're			cont	全新的冠軍……！		cont	全新的冠军……！	LEAGUE champion!	challenge the Champion!	有资格和联盟冠军对决！	リーグ　チャンピオン　との	ばしょは　セキエイ　こうげんの
+	line	the new #MON			para	…… ……		para	…… ……	Although I don't				ポケモン　りーグ　ほんぶ　です!
+	cont	LEAGUE champion!			line	……儘管我不太認可。		line	……尽管我不太认可。	like to admit it.	...Please allow me the privilege of facing you	……我希望你能与我再战一次！	しあいが　みとめられて　いる！	オーキドはかせも
+					done			done			in battle once again!	因为我很想		いちど　ごらん　ください
+	para	Although I don't											……おれに　もういちど	…　ポケモン　りーグ　より
+	line	like to admit it.									Allow me to show you the true rock-hard	让你见识我真正的实力！	きみと　しょうぶ　させてくれ！	…　…　…
+	done										strength of my Pokémon!			…　…
+													おれの　ほんきを	ひ507ム
+_GaryText2::				_GaryText2::										
+	text	OAK: <PLAYER>!			text	大木：<PLAYER>！		text	<PLAYER>从谜之训练家	<PLAYER> received	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	done				done			line	那里得到了@	a @		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+								text_ram	wStringBuffer	wStringBuffer	D’aww... Failed again?			
+_GaryText_76120::				_GaryText_76120::				text	！@	!@				
+	text	OAK: So, you won!			text	大木：你終於做到了！		text	大木：你终于做到了！	OAK: So, you won!	OAK: I’ll stop you right there, son!	大木博士：真是拿你没办法！	オーキド『こらこら！　それは	…　おとくな　けいじばん!
+	line	Congratulations!			line	我由衷地祝賀你		line	我由衷地祝贺你	Congratulations!	Those Berries are for Pokémon to eat, not you!	那是给宝可梦吃的东西！	ポケモンが　たべる　もんじゃ！	ポケモンを　つかまえる　ときは
+	cont	You're the new			cont	稱霸了寶可夢聯盟！		cont	称霸了宝可梦联盟！	You're the new				なるべく　よわらせてから!
+	cont	#MON LEAGUE			para	比起剛剛捕獲		para	比起刚刚捕获	#MON LEAGUE	When you want to catch a Pokémon, try throwing	捕捉宝可梦时……	ポケモンを　つかまえる　とき……	ポケモンが　げんきだと
+	cont	champion!			line	@		line	@	champion!	one of those at your target before you take a			にげるかも　しれないよ!
+					text_ram	wcd6d		text_ram	wcd6d	You've grown up so		在准备精灵球之前	ボールを　かまえる　まえに	
+	para	You've grown up so			text	後啟程收集		text	后启程收集	much since you	Poké Ball in hand.	投出蔓莓果的话，	ズリのみを　ポイっと　なげれば	
+	line	much since you			cont	寶可夢圖鑑時的你，		cont	宝可梦图鉴时的你，	first left with				
+	cont	first left with			cont	現在的你真的成長了不少！		cont	现在的你真的成长了不少！	@	You’ll find that wild Pokémon will be so happy to	宝可梦就会变得高兴，	ポケモンが　よろこんで	
+	cont	@			para	……哎呀哎呀！		para	……哎呀哎呀！	wcd6d	have a Berry to nibble on that they’ll become			
+	text_ram	wcd6d			line	<PLAYER>		line	<PLAYER>	!		这样也就更容易捉到了唷！	ぐっと　つかまえ　やすく　なる！	
+	text	!			cont	你真的是長大了！		cont	你真的是长大了！	<PLAYER>, you have	much easier for you to catch!			
+					done			done		come of age!				
+	para	<PLAYER>, you have												
+	line	come of age!												
+	done													
+														
+_GaryText_76125::				_GaryText_76125::										
+	text	OAK: <RIVAL>! I'm			text	大木：<RIVAL>！		text	大木：<RIVAL>！	OAK: <RIVAL>! I'm	“This report reached us from a reader wishing	接下来要介绍的是一位	ペンネーム	 {5B} を　みると
+	line	disappointed!			line	……很遺憾！		line	……很遗憾！	disappointed!	to remain anonymous. They had this to say:	不愿透露姓名的读者带来的故事：	とくめいきぼう　さん　より	なんと　でんしメールが　きていた!
+					para	我之所以會過來，		para	我之所以会过来，	I came when I				…　…　…
+	para	I came when I			line	是因為我聽說		line	是因为我听说	heard you beat	‘It happened when I went to the Pokémon Tower.	“这是我去宝可梦塔时	『わたしが　ポケモンタワーに	ポケモンを　つよく　そだてて
+	line	heard you beat			cont	你戰勝了四天王。		cont	你战胜了四天王。	the ELITE FOUR!		发生的一件事。	いった　ときの　こと　です	たたかう　ポケモン　トレーナー!
+	cont	the ELITE FOUR!			para	沒想到我一來就見到了		para	没想到我一来就见到了	But, when I got	I’d been visiting a grave there, and when I went			ここに　さいきょうの
+					line	你落敗的場面。		line	你落败的场面。	here, you had		那天我去塔里扫完墓，	おはかまいりを　おえて	トレーナーが　あつまり　ました
+	para	But, when I got			para	<RIVAL>啊……		para	<RIVAL>啊……	already lost!	to leave, a mysterious dark figure appeared and	正准备要回家，	いざ　かえろうと　すると	ばしょは　セキエイ　こうげんの
+	line	here, you had			line	知道你為什麼會輸嗎？		line	知道你为什么会输吗？	<RIVAL>! Do you				ポケモン　りーグ　ほんぶ　です!
+	cont	already lost!			cont	…………		cont	…………	understand why	chased me! I couldn’t tell what it was, and I tried	突然有一个莫名其妙的	えたいの　しれない	オーキドはかせも
+					para	那是因為你忘記了		para	那是因为你忘记了	you lost?		黑乎乎的东西追了过来……	くろい　ものが　おいかけて　きて……	いちど　ごらん　ください
+	para	<RIVAL>! Do you			line	什麼是對寶可夢的信賴，		line	什么是对宝可梦的信赖，	You have forgotten	as desperately as I could to run away, but in the			…　ポケモン　りーグ　より
+	line	understand why			cont	也忘記了對寶可夢的愛！		cont	也忘记了对宝可梦的爱！	to treat your		我拼命逃跑，	ひっしに　にげたんです　けど	…　…　…
+	cont	you lost?			para	如果你永遠是這樣，		para	如果你永远是这样，	#MON with	end, it caught me anyway...	但还是没能逃脱它的追赶……	おいつかれて　わたし……	…　…
+					line	那麼不論你有多努力		line	那么不论你有多努力	trust and love!				ひ507ム
+	para	You have forgotten			cont	也是無法戰到頂點的！		cont	也是无法战到顶点的！	Without them, you	Then the next thing I knew, I was lying on the	等我回过神的时候，	きづいたら　いりぐちで	
+	line	to treat your			done			done		will never become		我发现我自己倒在入口那边……	たおれてたんです	
+	cont	#MON with								a champ again!	ground outside of the tower’s entrance.			
+	cont	trust and love!										那天追赶我的	アレは　いったい	
+											What in the world was that thing?’”	究竟是什么东西呢……？”	なんだったの　かしら……？	
+	para	Without them, you												
+	line	will never become												
+	cont	a champ again!												
+	done													
+														
+_GaryText_7612a::				_GaryText_7612a::										
+	text	OAK: <PLAYER>!			text	大木：<PLAYER>！		text	大木：<PLAYER>！	OAK: <PLAYER>!	OAK: [VAR TRNAME(0000)].	大木博士：[VAR TRNAME(0000)]！	オーキド『[VAR TRNAME(0000)]！	オーキド『 {PLAYER} !
+					para	你應該也明白……你能稱霸		para	你应该也明白……你能称霸	You understand				ポケモン　りーグを　せいは　したのは
+	para	You understand			line	寶可夢聯盟的原因，		line	宝可梦联盟的原因，	that your victory	You understand that your victory was not just	你应该也明白……	ポケモンリーグを　せいは　したのは	ひとりの　ちから　では　ないことを
+	line	that your victory			cont	不單單只有你個人的努力！		cont	不单单只有你个人的努力！	was not just your	your own doing, don’t you?	你能称霸宝可梦联盟的原因，	ひとりの　ちから　では　ないことを	…　おまえは　わかっとるな!
+	cont	was not just your			para	你與寶可夢絕妙的搭配，		para	你与宝可梦绝妙的搭配，	own doing!				 {PLAYER} と　ポケモンの
+	cont	own doing!			line	也是讓人刮目相看啊！		line	也是让人刮目相看啊！	The bond you share	It was the marvelous bond you share with your	不单单只有你个人的努力！	……おまえは　わかっとるな！	ぜつみょうな　コンビネーション!
+					para	那麼……<PLAYER>！		para	那么……<PLAYER>！	with your #MON	Pokémon that brought you here.			みごと　だったぞ!
+	para	The bond you share			line	請你跟我來吧！		line	请你跟我来吧！	is marvelous!		你与宝可梦绝妙的搭配，	[VAR TRNAME(0000)]と　ポケモンの	それでは…　 {PLAYER} !
+	line	with your #MON			done			done		<PLAYER>!	Now, [VAR TRNAME(0000)]!	也是让人刮目相看啊！	ぜつみょうな　コンビネーション！	わたしに　ついて　きなさい!
+	cont	is marvelous!								Come with me!	Come with me!			
+												那么……[VAR TRNAME(0000)]！	みごと　だったぞ！	
+	para	<PLAYER>!										请你跟我来吧！		
+	line	Come with me!											それでは……　[VAR TRNAME(0000)]！	
+	done												わしに　ついて　きなさい！	
+end				end										

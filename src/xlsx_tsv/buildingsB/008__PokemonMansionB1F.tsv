@@ -1,0 +1,41 @@
+text/PokemonMansionB1F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Mansion4BattleText1::				_Mansion4BattleText1::										
+	text	Uh-oh. Where am			text	……這下麻煩了。		text	……这下麻烦了。	Uh-oh. Where am	Uh-oh...	……这下麻烦了。	……ありゃ　こまった	…　ありゃ　こまった
+	line	I now?			line	我迷路了。		line	我迷路了。	I now?	Where am I now?	我迷路了。	みちに　まよったぞ	みちに　まよったぞ
+	done				done			done						
+														
+_Mansion4EndBattleText1::				_Mansion4EndBattleText1::										
+	text	Awooh!			text	啊哇！		text_start			Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			done			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_Mansion4AfterBattleText1::				_Mansion4AfterBattleText1::										つ {PLAYER}  {PLAYER} 
+	text	You can find stuff			text	你在這裡能找到很多		text	你在这里能找到很多	You can find stuff	You can find stuff lying around.	你在这里能找到很多	まえに　すんでた　ひとの	まえに　すんでた　ひとの
+	line	lying around.			line	以前住戶掉落的道具。		line	以前住户掉落的道具。	lying around.	The residents must’ve left it.	以前住户掉落的道具。	どうぐが　けっこう　おちてるぜ	どうぐが　けっこう　おちてるぜ
+	done				done			done						
+														
+_Mansion4BattleText2::				_Mansion4BattleText2::										
+	text	This place is			text	這裡很大，		text	这里很大，	This place is	This place is ideal for a lab.	这里很大，	ここは　ひろくて	ここは　ひろくて
+	line	ideal for a lab.			line	對於研究來說是個好地方。		line	对于研究来说是个好地方。	ideal for a lab.	Look at all this space.	对于研究来说是个好地方。	けんきゅうするには　いい　ばしょだ	けんきゅうするには　いい　ばしょだ
+	done				done			done						
+														
+_Mansion4EndBattleText2::				_Mansion4EndBattleText2::										
+	text	What			text	接下來		text	接下来	What	What was that for?	接下来做什么好呢。	なにを　するのかね	なにを　するのかね
+	line	was that for?			line	做什麼好呢。		line	做什么好呢。	was that for?				
+	prompt				prompt			prompt						
+														
+_Mansion4AfterBattleText2::				_Mansion4AfterBattleText2::										
+	text	I like it here!			text	我很滿意！		text	我很满意！	I like it here!	...	……	……	　ぽ　ぽ　
+	line	It's conducive to			line	住在這裡的話，我的研究		line	住在这里的话，我的研究	It's conducive to	Looks like it ate something strange. It’s making	它好像吃了奇怪的东西。	なにか　へんなものを　たべたみたい	
+	cont	my studies!			cont	也會有所進展的……		cont	也会有所进展的……	my studies!				
+	done				done			done			a face like it tasted bad...	一脸难吃的样子……	まずそうな　かおをしてる……	
+														
+_Mansion4Text7::				_Mansion4Text7::										
+	text	Diary; Sept. 1			text	日記　９月１日		text	日记　９月１日	Diary; Sept. 1	“Diary: Sept. 1	日记　９月１日	にっき　９がつ１にち	がつ1にち
+	line	MEWTWO is far too			line	超夢實在太強了。		line	超梦实在太强了。	MEWTWO is far too	Mewtwo is far too powerful.	超梦实在太强了。	ポケモン　ミュウツーは　つよすぎる	ポケモン　ミュウツーは　つよすぎる
+	cont	powerful.			para	不行……		para	不行……	powerful.				ダメだ…
+					line	我應付不來！		line	我应付不来！	We have failed to	“We have failed to curb its vicious tendencies...”	不行……	ダメだ……	わたしの　てには　おえない!
+	para	We have failed to			done			done		curb its vicious		我应付不来！	わたしの　てには　おえない！	
+	line	curb its vicious								tendencies...				
+	cont	tendencies...												
+	done													
+end				end										

@@ -1,0 +1,13 @@
+text/SafariZoneCenter.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SafariZoneCenterText2::				_SafariZoneCenterText2::										
+	text	REST HOUSE			text	休息小屋 …… 喘口氣		text	休息小屋 …… 喘口气	REST HOUSE	Mr. Psychic’s House	超能力大叔的家	エスパーおやじの　いえ	トレーナーぞ
+	done				done			done						きド5ま
+														
+_SafariZoneCenterText3::				_SafariZoneCenterText3::										
+	text	TRAINER TIPS			text	……有用的公告牌！		text	……有用的公告牌！	TRAINER TIPS	Trainer Tips	……有用的公告牌！	……おとくな　けいじばん！	…　おとくな　けいじばん!
+					para	按下START鍵，		para	按下START键，	Press the START				しんかの　さいちゅうに
+	para	Press the START			line	你就可以隨時		line	你就可以随时	Button to check	If you press the B Button when a Pokémon is	在宝可梦进化时	しんかの　さいちゅうに	ビー　ボタンを　おすと
+	line	Button to check			cont	確認剩餘時間！		cont	确认剩余时间！	remaining time!	in the middle of evolving, you can make it stop!	按下Ｂ键，	Ｂボタンを　おすと	しんかは　とまって　しまいます
+	cont	remaining time!			done			done						
+	done											进化就会停止。	しんかは　とまって　しまいます	
+end				end										

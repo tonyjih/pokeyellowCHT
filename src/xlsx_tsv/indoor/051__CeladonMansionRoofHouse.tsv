@@ -1,0 +1,14 @@
+text/CeladonMansionRoofHouse.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CeladonMansion5Text1::				_CeladonMansion5Text1::										
+	text	I know everything			text	正如我在黑板上寫的……		text	正如我在黑板上写的……	I know everything	I’m searching for items that boost a Pokémon’s	叔叔我正在找的是……	おじさんが　さがしてる　のは……	おじさんが　さがしてる　のは…
+	line	about the world			line	世界上沒有我		line	世界上没有我	about the world	stats for the length of one battle.			ポケモンが　たたかってる　とき
+	cont	of #MON in			cont	不知道的事情。		cont	不知道的事情。	of #MON in		能让宝可梦在战斗时	ポケモンが　たたかってる　とき	のうりょくを　いちじ　てきに
+	cont	your GAME BOY!			para	比如說我知道在		para	比如说我知道在	your GAME BOY!	X Attack, X Defense, X Speed, and X Sp. Atk...	暂时提升能力的道具……	のうりょくを　いちじ　てきに	あげる　どうぐ　なんだが…
+					line	GAME BOY裡		line	GAME BOY里	Get together with	Those are what I’m after!			プラスパワー　ディフェンダー
+	para	Get together with			cont	存在著整個世界！		cont	存在着整个世界！	your friends and		力量强化、防御强化、	あげる　どうぐ　なんだが……	スピーダー　スぺシャルアップ…
+	line	your friends and			para	請一定要		para	请一定要	trade #MON!	Do you know where I can get them?	速度强化、特攻强化……		…という
+	cont	trade #MON!			line	邀請你的朋友！		line	邀请你的朋友！				プラスパワー　ディフェンダー	なまえ　なんだが　しらんかな?
+	done				para	盡情享受		para	尽情享受			好像是这么叫的……	スピーダー　スペシャルアップ……	ゲ4
+end					line	交換寶可夢的樂趣！		line	交换宝可梦的乐趣！			你知道这些道具吗？		らひ
+					done			done					……という	
+				end									なまえ　なんだが　しらんかな？	

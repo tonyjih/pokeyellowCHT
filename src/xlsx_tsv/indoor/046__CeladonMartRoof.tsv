@@ -1,0 +1,154 @@
+text/CeladonMartRoof.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CeladonMartRoofText_484ee::				_CeladonMartRoofText_484ee::										
+	text	Give her which			text	要送她		text	要送她	Give her which	Give her which drink?	要送她哪种饮料呢？	どれを　あげますか？	どれを　あげますか?
+	line	drink?			line	哪種飲料呢？		line	哪种饮料呢？	drink?				
+	done				done			done						
+														
+_CeladonMartRoofText_484f3::				_CeladonMartRoofText_484f3::										
+	text	Yay!			text	哇～哦！		text	哇～哦！	Yay!	Yay!	哇～哦！	わーい！	わーい!
+					para	這個美味之水		para	这个美味之水	FRESH WATER!				おいしいみず　くれるの?
+	para	FRESH WATER!			line	是送給我的嗎？		line	是送给我的吗？	Thank you!	Fresh Water!	这个美味之水是送给我的吗？	おいしいみず　くれるの？	ごちそう　さま!
+					para	多謝款待！		para	多谢款待！	You can have this				おれいに　わたしの　たからもの
+	para	Thank you!			para	作為回禮，		para	作为回礼，	from me!@	Thank you!	多谢款待！	ごちそう　さま！	これ　あげるね!@ゼ@
+					line	就把我的寶物送給你吧！@		line	就把我的宝物送给你吧！@		You can have this from me!			
+	para	You can have this			text_end			text_end				作为回礼，	おれいに　わたしの　たからもの	
+	line	from me!@										就把我的宝物送给你吧！	これ　あげるね！	
+	text_end													
+														
+_CeladonMartRoofText_484f9::				_CeladonMartRoofText_484f9::										
+	text	<PLAYER> received			text	<PLAYER>從女孩那裡		text	<PLAYER>从谜之训练家	<PLAYER> received	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	@			line	得到了@		line	那里得到了@	a @	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_ram	wStringBuffer			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer				
+	text	!@			text	！@		text	！@	!@				
+	text_end				text_end			text_end						
+														
+_CeladonMartRoofText_484fe::				_CeladonMartRoofText_484fe::										
+	text_start				text_start			text_start			“1F: Service Counter	１楼……　服务柜台	１かい……　サービス・カウンター	おくじょう　…　いこいの　ひろば
+					para	@		para	@	@		２楼……　训练家广场	２かい……　トレーナーズ・マーケット	　　　　　　…　じどう　はんばいき
+	para	@			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer	“2F: Trainers’ Market			プ
+	text_ram	wStringBuffer			text	是		text	是	 contains		３楼……　电子游戏专卖店	３かい……　テレビ　ゲーム　ショップ	
+	text	 contains			line	“冰凍光束”哦！		line	“冰冻光束”哦！	ICE BEAM!	“3F: Video Game Shop	４楼……　聪明人礼品店	４かい……　ワイズマン・ギフト	
+	line	ICE BEAM!			para	它有時可以讓對方		para	它有时可以让对方	It can freeze the				
+					line	陷入冰凍狀態！@		line	陷入冰冻状态！@	target sometimes!@	“4F: Wiseman Gifts	５楼……　饰品天地	５かい……　アクセサリー　マーケット	
+	para	It can freeze the			text_end			text_end				顶楼……　自动贩卖机	おくじょう……　じどう　はんばいき	
+	line	target sometimes!@									“5F: Accessory Market			
+	text_end													
+											“Roof: Relaxation Space & Vending Machines”			
+_CeladonMartRoofText_48504::				_CeladonMartRoofText_48504::										
+	text	Yay!			text	哇～哦！		text	哇～哦！	Yay!	Yay!	哇～哦！	わーい！	わーい!
+					para	這個勁爽汽水		para	这个劲爽汽水	SODA POP!				サイコソーダ　くれるの?
+	para	SODA POP!			line	是送給我的嗎？		line	是送给我的吗？	Thank you!	Soda Pop!	这个劲爽汽水是送给我的吗？	サイコソーダ　くれるの？	ごちそうさま!
+					para	多謝款待！		para	多谢款待！	You can have this				おれいに　わたしの　たからもの
+	para	Thank you!			para	作為回禮，		para	作为回礼，	from me!@	Thank you!	多谢款待！	ごちそうさま！	これ　あげるね!@ゼ@
+					line	就把我的寶物送給你吧！@		line	就把我的宝物送给你吧！@		You can have this from me!			
+	para	You can have this			text_end			text_end				作为回礼，	おれいに　わたしの　たからもの	
+	line	from me!@										就把我的宝物送给你吧！	これ　あげるね！	
+	text_end													
+														
+_CeladonMartRoofText_4850a::				_CeladonMartRoofText_4850a::										
+	text	<PLAYER> received			text	<PLAYER>從女孩那裡		text	<PLAYER>从谜之训练家	<PLAYER> received	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	@			line	得到了@		line	那里得到了@	a @	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_ram	wStringBuffer			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer				
+	text	!@			text	！@		text	！@	!@				
+	text_end				text_end			text_end						
+														
+_CeladonMartRoofText_4850f::				_CeladonMartRoofText_4850f::										
+	text_start				text_start			text_start			Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+					para	@		para	@	@	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	para	@			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer				…　シルフ　カンパニー
+	text_ram	wStringBuffer			text	是		text	是	 contains		……西尔佛公司	……シルフカンパニー	
+	text	 contains			line	“岩崩”哦！		line	“岩崩”哦！	ROCK SLIDE!				
+	line	ROCK SLIDE!@			para	它有時可以讓對方		para	它有时可以让对方	It can spook the				
+	text_end				line	害怕哦！@		line	害怕哦！@	target sometimes!@				
+					text_end			text_end						
+														
+														
+_CeladonMartRoofText_48515::				_CeladonMartRoofText_48515::										
+	text	Yay!			text	哇～哦！		text	哇～哦！	Yay!	Yay!	哇～哦！	わーい！	わーい!
+					para	這個果汁牛奶		para	这个果汁牛奶	LEMONADE!				ミックスオレ　くれるの?
+	para	LEMONADE!			line	是送給我的嗎？		line	是送给我的吗？	Thank you!	Lemonade!	这个果汁牛奶是送给我的吗？	ミックスオレ　くれるの？	ごちそうさま!
+					para	多謝款待！		para	多谢款待！	You can have this				おれいに　わたしの　たからもの
+	para	Thank you!			para	作為回禮，		para	作为回礼，	from me!@	Thank you!	多谢款待！	ごちそうさま！	これ　あげるね!@ゼ@
+					line	就把我的寶物送給你吧！@		line	就把我的宝物送给你吧！@		You can have this from me!			
+	para	You can have this			text_end			text_end				作为回礼，	おれいに　わたしの　たからもの	
+	line	from me!@										就把我的宝物送给你吧！	これ　あげるね！	
+	text_end													
+														
+_ReceivedTM49Text::				_ReceivedTM49Text::										
+	text	<PLAYER> received			text	<PLAYER>從女孩那裡		text	<PLAYER>从谜之训练家	<PLAYER> received	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	TM49!@			line	得到了TM49！@		line	那里得到了@	a @	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_end				text_end			text_ram	wStringBuffer	wStringBuffer				
+								text	！@	!@				
+_CeladonMartRoofText_48520::				_CeladonMartRoofText_48520::				text_end						
+	text_start				text_start			text_start			“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+					para	招式學習器４９是		para	招式学习器４９是	TM49 contains	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	para	TM49 contains			line	“三重攻擊”！		line	“三重攻击”！	TRI ATTACK!@				
+	line	TRI ATTACK!@			cont	有時可以讓對方		cont	有时可以让对方					
+	text_end				cont	陷入麻痺狀態呢。@		cont	陷入麻痹状态呢。@					
+					text_end			text_end						
+_CeladonMartRoofText_48526::				_CeladonMartRoofText_48526::										
+	text	You don't have			text	你已經		text	你已经	You don't have	You don’t have enough dough.	你啊……	アナタさま……　さきだつ　ものが	…　おとくな　けいじばん!
+	line	space for this!@			line	拿不下了呢！@		line	拿不下了呢！@	space for this!@		最最重要的东西好像不太够噢？	たりませんよ？	ひとの　ポケモンは　ひとの　もの!
+	text_end				text_end			text_end			...Dough means money, kid.			やせいの　ポケモンに　だけ
+												最最重要的东西……	さきだつ　もの　とは	モンスターボールを　なげて
+_CeladonMartRoofText_4852c::				_CeladonMartRoofText_4852c::								当然就是指钱咯！	……おかねの　こと　です	つかまえよう!
+	text	No thank you!			text	嗯……！		text	嗯……！	No thank you!	Never mind!	嗯……！	うーん！	けっこう　おおい　らしいわ!
+	line	I'm not thirsty			line	我還是再忍一忍好了！@		line	我还是再忍一忍好了！@	I'm not thirsty	I’m not thirsty after all!	我还是再忍一忍好了！	やっぱり　がまん　する！	ふなよい　する　ひと!
+	cont	after all!@			text_end			text_end		after all!@				
+	text_end													
+														
+_CeladonMartRoofText1::				_CeladonMartRoofText1::										
+	text	My sister is a			text	別看我妹妹那個樣子，		text	别看我妹妹那个样子，	My sister is a	My sister’s a Trainer, believe it or not.	别看我妹妹那个样子，	ウチの　いもうと　あれでも	ウチの　いもうと　あれでも
+	line	trainer, believe			line	她也算是		line	她也算是	trainer, believe		她也算是宝可梦训练家的一员！	ポケモン　トレーナーの　はしくれ！	ポケモン　トレーナーの　はしくれ!
+	cont	it or not.			cont	寶可夢訓練家的一員！		cont	宝可梦训练家的一员！	it or not.	But she’s so selfish that it drives me nuts!			だけど…
+					para	可是啊……		para	可是啊……	But, she's so		可是啊……	だけど……	わがままで　イヤんなっちゃうよ
+	para	But, she's so			line	她很任性，讓我很是頭疼。		line	她很任性，让我很是头疼。	immature, she		她很任性，让我很是头疼。	わがままで　イヤんなっちゃうよ	ゲへわぱ4
+	line	immature, she			done			done		drives me nuts!				
+	cont	drives me nuts!												
+	done													
+														
+_CeladonMartRoofText_48598::				_CeladonMartRoofText_48598::										
+	text	I'm thirsty!			text	嗚嗚……！		text	呜呜……！	I'm thirsty!	I’m thirsty! I want something to drink from	呜呜……！人家想喝	えーん！　じどうはんばいきの	えーん…!
+	line	I want something			line	人家想喝果汁嘛～！		line	人家想喝果汁嘛～！	I want something	the vending machine!	自动贩卖机里的饮料嘛～！	のみものが　のみたいよー！	おにいちゃん!
+	cont	to drink!						para	要送她饮料吗？	to drink!				ジュース　のみたいよー!
+	done				done			done		Give her a drink?				のみものを　あげますか?
+														♀
+_CeladonMartRoofText4::				_CeladonMartRoofText4::										
+	text	I'm thirsty!			text	嗚嗚……！		text	呜呜……！	I'm thirsty!	I’m thirsty! I want something to drink from	呜呜……！人家想喝	えーん！　じどうはんばいきの	えーん…!
+	line	I want something			line	人家想喝果汁嘛～！		line	人家想喝果汁嘛～！	I want something	the vending machine!	自动贩卖机里的饮料嘛～！	のみものが　のみたいよー！	おにいちゃん!
+	cont	to drink!			para	要送她飲料嗎？		para	要送她饮料吗？	to drink!				ジュース　のみたいよー!
+					done			done		Give her a drink?				のみものを　あげますか?
+	para	Give her a drink?												♀
+	done													
+														
+_CeladonMartRoofText6::				_CeladonMartRoofText6::										
+	text	ROOFTOP SQUARE:			text	頂樓……　休息廣場		text	顶楼……　休息广场	ROOFTOP SQUARE:	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	VENDING MACHINES			line	　　　　　自動販賣機		line	　　　　　自动贩卖机	VENDING MACHINES	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done			done						
+														
+_VendingMachineText1::				_VendingMachineText1::										
+	text	A vending machine!			text	是自動販賣機！		text	是自动贩卖机！	A vending machine!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	Here's the menu!			line	想要的飲料是……		line	想要的饮料是……	Here's the menu!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	prompt				prompt			prompt						…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_VendingMachineText4::				_VendingMachineText4::										
+	text	Oops, not enough			text	錢不夠！		text	钱不够！	Oops, not enough	Oops, not enough money!	钱不够！	おかねが　たりないぞ！	おかねが　たりないぞ!
+	line	money!			done			done		money!				
+	done													
+														
+_VendingMachineText5::				_VendingMachineText5::										
+	text_ram	wStringBuffer			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer	Team Rocket took off!	火箭队逃跑了啊！	ロケットだん　にげてったね！	ロケットだん　にげてったね!
+	text_start				text_start			text_start			We can go out safely again!	这样一来就再也不用害怕出门了！	これからは　そと　あるいても	これからは　そと　あるいても
+	line	popped out!			line	已滑落至取物口！		line	已滑落至取物口！	popped out!				ちっとも　こわくない!
+	done				done			done			That’s great!	太好了！	ちっとも　こわくない！	よかったね!
+														
+_VendingMachineText6::				_VendingMachineText6::									よかったね！	
+	text	There's no more			text	已經拿不下了！		text	已经拿不下了！	There's no more	There’s no more room for that item!	已经拿不下了！	これ　いじょう　もてない！	これ　いじょう　もてない!
+	line	room for stuff!			done			done		room for stuff!				
+	done													
+														
+_VendingMachineText7::				_VendingMachineText7::										
+	text	Not thirsty!			text	還是不要了！		text	还是不要了！	Not thirsty!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	done				done			done			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+end				end										4ャよひ
+														つ {PLAYER}  {PLAYER} 

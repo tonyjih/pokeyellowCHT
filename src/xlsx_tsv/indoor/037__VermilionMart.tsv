@@ -1,0 +1,25 @@
+text/VermilionMart.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_VermilionMartText2::				_VermilionMartText2::										
+	text	There are evil			text	這個世界上也有些人		text	这个世界上也有些人	There are evil	What a shame...	这家人被小偷	この　いえは	かわいそうに…
+	line	people who will			line	利用寶可夢犯罪作惡。		line	利用宝可梦犯罪作恶。	people who will	The people here were robbed!	偷了个精光呢！	ドロボーに　はいられたの！	この　いえは
+	cont	use #MON for			para	他們將寶可夢高價賣出……		para	他们将宝可梦高价卖出……	use #MON for				ドロボーに　はいられたの!
+	cont	criminal acts.			line	甚至會因為不受歡迎，		line	甚至会因为不受欢迎，	criminal acts.	Someone even saw the thieves escape, and they	据目击者形容，	もくげきしゃに　よると	はんにんは　わかっています!
+					cont	無法被利用這樣的理由，		cont	无法被利用这样的理由，	TEAM ROCKET	say it was none other than Team Rocket!	犯人就是……火箭队！	はんにんは……　ロケットだん！	ロケットだんの　しわざよ!
+	para	TEAM ROCKET			cont	把寶可夢殺了。		cont	把宝可梦杀了。	traffics in rare				けいさつ　としても
+	line	traffics in rare			para	做盡這種壞事的集團		para	做尽这种坏事的集团	#MON.	To protect the poor owners of this house from	为了保护被害者的安全，	ひがいしゃを　まもるため	ロケットだんの　あくじ　には
+	cont	#MON.			line	就是火箭隊了。		line	就是火箭队了。	They also abandon	further harm, I won’t be letting anyone in!	暂时禁止任何人进入这个房子，	しばらく　この　いえ　には	ほとほと　こまっているの!
+					done			done		#MON that they				ゲ円も
+	para	They also abandon								consider not to	Not even a little Rattata will sneak past me!	连１只小拉达都不能放过！	コラッタ　１ぴき　はいらせません！	
+	line	#MON that they								be popular or				
+	cont	consider not to								useful.				
+	cont	be popular or												
+	cont	useful.												
+	done													
+														
+_VermilionMartText3::				_VermilionMartText3::										
+	text	I think #MON			text	訓練家的好壞		text	训练家的好坏	I think #MON	I think Pokémon can be good or bad.	训练家的好坏	ポケモンは　つかう　ひとに　よって	ポケモンは　つかう　ひとに　よって
+	line	can be good or			line	也決定了寶可夢的好壞。		line	也决定了宝可梦的好坏。	can be good or	It depends on the Trainer.	也决定了宝可梦的好坏。	よくも　わるくも　なる	よくも　わるくも　なる
+	cont	evil. It depends			para	對我來說		para	对我来说	evil. It depends				パートナーだと　おもうの
+	cont	on the trainer.			line	寶可夢就是我的夥伴！		line	宝可梦就是我的伙伴！	on the trainer.		对我来说宝可梦就是我的伙伴！	パートナーだと　おもうの	
+	done				done			done						
+end				end										

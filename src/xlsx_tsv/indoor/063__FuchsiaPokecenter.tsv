@@ -1,0 +1,22 @@
+text/FuchsiaPokecenter.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_FuchsiaPokecenterText1::				_FuchsiaPokecenterText1::										
+	text	You can't win			text	只集中培育１隻寶可夢		text	只集中培育１只宝可梦	You can't win	JESSIE: Hey, twerp, you can’t battle the both of	武藏：话说，你只有１只宝可梦	ムサシ『って　ポケモン　１ぴきじゃ	ヤドンさんって
+	line	with just one			line	是沒辦法成為		line	是没办法成为	with just one	us with just one Pokémon!	怎么跟我们对战啊！	たたかえ　ない　じゃない！	すごい　ポケモン　くわしいんだ!
+	cont	strong #MON.			cont	強大的訓練家的。		cont	强大的训练家的。	strong #MON.				みた　ことも　ない
+					para	雖說要同時培育		para	虽说要同时培育	It's tough, but	You’d better go get another and come back to	带上另外１只宝可梦	もう１ぴき　つれて	ポケモンの　カセキとか　もってるし
+	para	It's tough, but			line	好幾隻寶可夢，		line	好几只宝可梦，	you have to raise	take us on!	再回来重新来过吧！	でなおし　なさいよ！	
+	line	you have to raise			cont	還要讓它們均衡成長，		cont	还要让它们均衡成长，	them evenly.				
+	cont	them evenly.			cont	也不是件容易的事。		cont	也不是件容易的事。					
+	done				done			done						
+														
+_FuchsiaPokecenterText3::				_FuchsiaPokecenterText3::										
+	text	There's a narrow			text	常青市的西邊		text	常青市的西边	There's a narrow	There’s a narrow trail that leads west out of	常青市的西边	トキワの　にしに	トキワの　にしに
+	line	trail west of			line	有一條狹窄的小路吧？		line	有一条狭窄的小路吧？	trail west of	Viridian City, right? Have you seen it?	有一条狭窄的小路吧？	ほそい　みちが　ある　でしょう	ほそい　みちが　ある　でしょう
+	cont	VIRIDIAN CITY.			para	在那條路深處的就是		para	在那条路深处的就是	VIRIDIAN CITY.				その　おくに　たってるのが
+					line	統籌所有		line	统筹所有	It goes to #MON	It leads to the Pokémon League, the organization	在那条路深处的就是	その　おくに　たってるのが	すべての　ポケモン　トレーナーを
+	para	It goes to #MON			cont	寶可夢訓練家的組織——		cont	宝可梦训练家的组织——	LEAGUE HQ.	that governs all Pokémon Trainers.	统筹所有宝可梦训练家的组织——	すべての　ポケモントレーナーを	まとめる　そしき　ポケモン　りーグよ
+	line	LEAGUE HQ.			cont	寶可夢聯盟哦！		cont	宝可梦联盟哦！	The HQ governs				0ゲ
+	cont	The HQ governs			done			done		all trainers.		宝可梦联盟哦！	まとめる　そしき　ポケモンリーグよ	
+	cont	all trainers.												
+	done													
+end				end										

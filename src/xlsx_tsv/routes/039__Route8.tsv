@@ -1,0 +1,156 @@
+text/Route8.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route8BattleText1::				_Route8BattleText1::										
+	text	You look good at			text	你好像很擅長寶可夢對戰，		text	你好像很擅长宝可梦对战，	You look good at	You look good at Pokémon, but how is your	你好像很擅长宝可梦对战，	きみ　ポケモン　つよそう　だけど	きみ　ポケモン　つよそう　だけど
+	line	#MON, but			line	但理科成績又如何呢？		line	但对于烹饪又如何呢？	#MON, but	chemistry grade?	但对于烹饪又如何呢？	りかは　とくい　なのかい？	りかは　とくい　なのかい?
+	cont	how's your chem?			done			done		how's your chem?				
+	done													
+														
+_Route8EndBattleText1::				_Route8EndBattleText1::										
+	text	Ow!			text	啊！我輸了！		text	啊！我输了！	Ow!	Ow! You jerk!	啊呀！你个混蛋！	いてッ！　この　やろ！	いてッ!　この　やろ!
+	line	Meltdown!			prompt			prompt		Meltdown!	Watch where you’re walking!	走路看着点儿啊！	どこ　みて　あるいてんだよ！	どこ　みて　あるいてんだよ!
+	prompt													
+														
+_Route8AfterBattleText1::				_Route8AfterBattleText1::										
+	text	I am better at			text	果然還是學習		text	果然还是学习	I am better at	I am better at school than this!	果然还是学习比较适合我。	ぼくは　やっぱり	ぼくは　やっぱり
+	line	school than this!			line	比較適合我。		line	比较适合我。	school than this!			べんきょうの　ほうが　あってる	べんきょうの　ほうが　あってる
+	done				done			done						ゲ
+														
+_Route8BattleText2::				_Route8BattleText2::										
+	text	All right! Let's			text	好！讓我們開始對戰，		text	好！让我们开始对战，	All right! Let's	BLAINE: All right!	夏伯：接下来！	カツラ『さて！	 {RIVAL} ロケットだんヅ
+	line	roll the dice!			line	比試下運氣吧。		line	比试下运气吧。	roll the dice!	Let’s move on to the second question!	就是第２题喽～！	だい　２もん　いくぞー！	ロケットだんてばぢグレン@カツラ@ョゥ
+	done				done			done						
+														
+_Route8EndBattleText2::				_Route8EndBattleText2::										
+	text	Drat!			text	……		text	……	Drat!	Drat!	……今天我的胜负运很差！	……きょうは	…　きょうは
+	line	Came up short!			line	今天我的勝負運很差！		line	今天我的胜负运很差！	Came up short!	Came up short!		しょうぶ　うん　わるし！	しょうぶ　うん　わるし!
+	prompt				prompt			prompt						
+														
+_Route8AfterBattleText2::				_Route8AfterBattleText2::										
+	text	Lady Luck's not			text	總覺得今天運氣不好。		text	总觉得今天运气不好。	Lady Luck's not	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	with me today!			line	我看我還是老實待著吧。		line	我看我还是老实待着吧。	with me today!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	done				done			done						…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_Route8BattleText3::				_Route8BattleText3::										
+	text	You need strategy			text	那個，在戰鬥中，		text	那个，在战斗中，	You need strategy	You should be informed.	那个，在战斗中，	あのね	あのね
+	line	to win at this!			line	戰術是必不可少的。		line	战术是必不可少的。	to win at this!	You need strategy to win at this!	战术是必不可少的。	たたかい　には　せんりゃくが	たたかい　には　せんりゃくが
+	done				done			done						ひつよう　なんだ
+													ひつよう　なんだ	
+_Route8EndBattleText3::				_Route8EndBattleText3::										
+	text	It's			text	這不科學！		text	这不科学！	It's	It’s so pleasant...	真舒服……	きもち　いい……	おし!
+	line	not logical!			prompt			prompt		not logical!		……呼……呼～	……　すー……　すー	いい　しょうぶ　だった
+	prompt										... ... ...			
+														
+_Route8AfterBattleText3::				_Route8AfterBattleText3::							... ... Zzz.			
+	text	Go with GRIMER			text	首先派出臭泥……		text	首先派出臭泥……	Go with GRIMER	GO Park complex ahead!	前方是GO Park。	このさき　ＧＯパーク	めいぶつ!　サファり　ゲーム!
+	line	first...and...			line	不，還是用別的，		line	不，还是用别的，	first...and...				…　…　ポケモン　とりほうだい!
+	cont	...and...then...			cont	一口氣……		cont	一口气……	...and...then...	Pokémon Chase:	著名游戏项目——	めいぶつ　ゲーム！	
+	done				cont	……嗯，哼、哼……		cont	……嗯，哼、哼……		It’s the Famous Herding Game Everyone Loves!	宝可梦领航家！	……みちびいて　ポケモン！	
+					done			done						
+_Route8BattleText4::				_Route8BattleText4::										
+	text	I like NIDORAN, so			text	我喜歡尼多蘭，		text	我喜欢尼多兰，	I like NIDORAN, so	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	I collect them!			line	所以收集了很多。		line	所以收集了很多。	I collect them!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	done				done			done						…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_Route8EndBattleText4::				_Route8EndBattleText4::										
+	text	Why? Why??			text	為什麼，		text	为什么会输呢。	Why?	Why?	什么情况啊……？明明应该是	なんで……？　かのじょと	なんで…?　かのじょと
+	prompt				line	為什麼——		prompt		Why'd I lose?	Why did she bring her brother along, too?	和女朋友两个人来旅行才对啊！	ふたり　きりの　りょこうの　はずが！	ふたり　きりの　りょこうの　はずが!
+					prompt									
+_Route8AfterBattleText4::				_Route8AfterBattleText4::										
+	text	When #MON grow			text	為什麼寶可夢經過培育後		text	为什么宝可梦经过培育后	When #MON grow	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	up they get ugly!			line	就變得不可愛了啊。		line	就变得不可爱了啊。	up they get ugly!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	They shouldn't			cont	還是不進化比較可愛呀！		cont	还是不进化比较可爱呀！	They shouldn't				…　シルフ　カンパニー
+	cont	evolve!			done			done		evolve!		……西尔佛公司	……シルフカンパニー	
+	done													
+														
+_Route8BattleText5::				_Route8BattleText5::										
+	text	School is fun, but			text	我很喜歡學習……		text	我很喜欢学习……	School is fun, but	School is fun, but so are Pokémon.	我很喜欢学习……	べんきょうも　いいけど……	べんきょうも　いいけど…
+	line	so are #MON.			line	也很喜歡寶可夢。		line	也很喜欢宝可梦。	so are #MON.		也很喜欢宝可梦。	ポケモンも　いいね	ポケモンも　いいね
+	done				done			done						
+														
+_Route8EndBattleText5::				_Route8EndBattleText5::										
+	text	I'll			text	……我懂了。		text	……我懂了。	I'll	I’m having a meeting with an important client.	我正在和客户开会呢。	おとくいさまと	ぼくは　クラスで　いちばん　つよい!
+	line	stay with school.			line	適合我的只有學習。		line	适合我的只有学习。	stay with school.			かいぎ　してるんだ	まいあさ　れんしゅうも　してるんだ!
+	prompt				prompt			prompt			You want to join in?	……你也想一起参加吗？		
+													……きみも　まざる？	
+_Route8AfterBattleText5::				_Route8AfterBattleText5::										
+	text	We're stuck here			text	難得想去外面		text	难得想去外面	We're stuck here	I was planning on getting some fresh air for	难得想去外面呼吸下新鲜空气，	たまには　そとの　くうき　すいに	たまには　そとの　くうき　すいに
+	line	because of the			line	呼吸下新鮮空氣，		line	呼吸下新鲜空气，	because of the	a change, but we’re stuck here because of	但大家却被金黄市大门	いこうと　おもったのに	いこうと　おもったのに
+	cont	gates at SAFFRON.			cont	但大家卻被金黃市大門		cont	但大家却被金黄市大门	gates at SAFFRON.				ヤマブキの　ゲートの　せいで
+	done				cont	擋在了這裡。		cont	挡在了这里。		the gates at Saffron City.	挡在了这里。	ヤマブキの　ゲートの　せいで	みんな　ここで　あしどめだ
+					done			done						ゲ
+_Route8BattleText6::				_Route8BattleText6::									みんな　ここで　あしどめだ	
+	text	MEOWTH is so cute,			text	喵喵超可愛的～！		text	喵喵超可爱的～！	MEOWTH is so cute,	Meowth is so cute! Meow, meow, meow!	喵喵超可爱的～！	ニャース　って	ニャース　って
+	line	meow, meow, meow!			line	喵～喵～喵～！		line	喵～喵～喵～！	meow, meow, meow!		喵～喵～喵～！	ちょー　かわいーの！	ちょー　かわいーの!
+	done				done			done						にゃー　にゃー　にゃー!
+													にゃー　にゃー　にゃー！	
+_Route8EndBattleText6::				_Route8EndBattleText6::										
+	text	Meow!			text	不會吧喵～！		text	不会吧喵～！	Meow!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			prompt			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_Route8AfterBattleText6::				_Route8AfterBattleText6::										つ {PLAYER}  {PLAYER} 
+	text	I think PIDGEY			text	哎呀～！		text	哎呀～！	I think PIDGEY	I think Pidgey and Rattata are cute, too!	哎呀～！	やーん！	やーん!
+	line	and RATTATA			line	波波和小拉達也好可愛～		line	波波和小拉达也好可爱～	and RATTATA	I can’t make up my mind!	波波和小拉达也好可爱～	ポッポも　コラッタも　かわいー	ポッポも　コラッタも　かわいー
+	cont	are cute too!			cont	選哪個好呢～好難選呀！		cont	选哪个好呢～好难选呀！	are cute too!				あたし　まよっちゃう!
+	done				done			done				选哪个好呢～好难选呀！	あたし　まよっちゃう！	ゲ
+														
+_Route8BattleText7::				_Route8BattleText7::										
+	text	We must look			text	我們這樣排成一排，		text	我们这样排成一排，	We must look	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	silly standing			line	好像在做遊戲一樣呢。		line	好像在做游戏一样呢。	silly standing	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	here like this!			done			done		here like this!				…　シルフ　カンパニー
+	done											……西尔佛公司	……シルフカンパニー	
+														
+_Route8EndBattleText7::				_Route8EndBattleText7::										
+	text	Look what			text	好過分！		text	好过分！	Look what	Look what you did to my poor, cute Pokémon!	好过分！	ひどーい！	ひどーい!
+	line	you did!			line	我的寶可夢這麼可愛，		line	我的宝可梦这么可爱，	you did!		我的宝可梦这么可爱，	かわいい　ポケモン　なのに	みんな　かわいい　ポケモン　なのに
+	prompt				cont	你卻……		cont	你却……					
+					prompt			prompt				你却……		
+_Route8AfterBattleText7::				_Route8AfterBattleText7::										
+	text	SAFFRON's gate-			text	金黃市的門衛不讓我過去。		text	金黄市的门卫不让我过去。	SAFFRON's gate	Saffron City’s gatekeeper won’t let us through.	金黄市的门卫不让我过去。	ヤマブキシティの　けいびいん	ヤマブキ　シティの　けいびいん
+	line	keeper won't let			line	雖然他很克忠職守……		line	虽然他很克忠职守……	keeper won't let	I know he’s doing his job, but I think he’s mean.	虽然他很克忠职守……	ゲート　とおらせて　くれないの	ゲート　とおらせて　くれないの
+	cont	us through.			cont	但心眼卻很壞！		cont	但心眼却很坏！	us through.				まじめ　だけど…　いじわるね
+	cont	He's so mean!						done		He's so mean!		但心眼却很坏！	まじめ　だけど……　いじわるね	ゲ
+	done				done									
+														
+_Route8BattleText8::				_Route8BattleText8::										
+	text	I'm a rambling,			text	我現在是個		text	我现在是个	I'm a rambling,	I’m a rambling, gaming dude!	我现在是个	おれは　いまどき	おれは　いまどき
+	line	gambling dude!			line	四處流浪的賭徒！		line	四处流浪的赌徒！	gambling dude!		四处流浪的赌徒！	さすらいの　ギャンブラー！	さすらいの　ギャンブラー!
+	done				done			done						
+														
+_Route8EndBattleText8::				_Route8EndBattleText8::										
+	text	Missed			text	……！我竟然會		text	……！我竟然会	Missed	Missed the big chance!	……！	……！	…!
+	line	the big score!			line	算漏這麼重要的一步！		line	算漏这么重要的一步！	the big score!		我竟然会算漏这么重要的一步！	ここ　いちばんを　のがす　とは！	ここ　いちばんを　のがす　とは!
+	prompt				prompt			prompt						
+														
+_Route8AfterBattleText8::				_Route8AfterBattleText8::										
+	text	Gambling and			text	賭博和寶可夢對戰一樣，		text	赌博和宝可梦对战一样，	Gambling and	I can’t face my followers after being defeated	以这样的方式输给你，	このような　まけかたを　しては	ちょうのうりょくは　かぎられた
+	line	#MON are like			line	都需要一決勝負！		line	都需要一决胜负！	#MON are like	like this.	我确实没有办法向部下交代！	ぶかたちに　しめしが　つかない！	ひとの　ちから　では　ないわ!
+	cont	eating peanuts!			cont	開始後就再也停不下來了。		cont	开始后就再也停不下来了。	eating peanuts!				だれでも　もってるのよ!
+	cont	Just can't stop!			done			done		Just can't stop!	Team Rocket is...	火箭队……	ロケットだんは……	ただ　それに　きが　つかない　だけ
+	done											就从今天起正式解散！	ほんじつを　もって　かいさんする！	
+											As of today, Team Rocket is finished!			
+_Route8BattleText9::				_Route8BattleText9::										
+	text	What's a cute,			text	圓圓的、軟軟的，		text	圆圆的、软软的，	What's a cute,	What’s a cute, round, and fluffy Pokémon?	圆圆的、软软的，	まるくって　ふわふわで	まるくって　ふわふわで
+	line	round and fluffy			line	像玩偶一樣的寶可夢！		line	像玩偶一样的宝可梦！	round and fluffy		像玩偶一样的宝可梦！	ぬいぐるみ　みたいな　ポケモン！	ぬいぐるみ　みたいな　ポケモン!
+	cont	#MON?			cont	……是什麼？		cont	……是什么？	#MON?				…　なーんだ?
+	done				done			done				……是什么？	……なーんだ？	
+														
+_Route8EndBattleText9::				_Route8EndBattleText9::										
+	text	Stop!			text	住手！		text	住手！	Stop!	Stop!	住手！	やめてー！	やめてー!
+					line	不許對我的皮皮動粗！		line	不许对我的皮皮动粗！	Don't be so mean		不许对我的皮皮动粗！		わたしの　ピッピに
+	para	Don't be so mean			prompt			prompt		to my CLEFAIRY!	Don’t be so mean to my Clefairy!		わたしの　ピッピに	らんぼう　しないでよう!
+	line	to my CLEFAIRY!											らんぼう　しないでよう！	
+	prompt													
+														
+_Route8AfterBattleText9::				_Route8AfterBattleText9::										
+	text	I heard that			text	寶可夢專刊上說，		text	宝可梦专刊上说，	I heard that	I read that Clefairy evolves when it’s exposed to	宝可梦专刊上说，	つきのいしで　ピッピが　なんかに	つきのいしで　ピッピが　なんかに
+	line	CLEFAIRY evolves			line	皮皮能依靠月之石		line	皮皮能依靠月之石	CLEFAIRY evolves	a Moon Stone.	皮皮能依靠月之石	しんか　するって	しんか　するって
+	cont	when it's exposed			cont	進化成某種寶可夢。		cont	进化成某种宝可梦。	when it's exposed				ポケモン　ジャーナルで　よんだの
+	cont	to a MOON STONE.			cont	……這是真的嗎？		cont	……这是真的吗？	to a MOON STONE.	I read that in a Pokémon Journal.	进化成某种宝可梦。	ポケモンジャーナルで　よんだの	…　ほんと　かしら?
+	done				done			done			I wonder if it’s true...			
+												……这是真的吗？	……ほんと　かしら？	
+_Route8Text10::				_Route8Text10::										
+	text	UNDERGROUND PATH			text	前方是地下通道		text	前方是地下通道	UNDERGROUND PATH	Underground Path	前方是地下通道	ここから　ちかつうろ	ここから　ちかつうろ
+	line	CELADON CITY -			line	玉虹市　……　紫苑鎮		line	玉虹市　……　紫苑镇	CELADON CITY -	(Celadon City ⇄ Lavender Town)	玉虹市　……　紫苑镇	タマムシシティ　……　シオンタウン	タマムシ　…　シオン
+	cont	LAVENDER TOWN			done			done		LAVENDER TOWN				へどぶ
+	done													
+end				end										

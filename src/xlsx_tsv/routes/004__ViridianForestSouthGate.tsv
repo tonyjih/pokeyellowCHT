@@ -1,0 +1,18 @@
+text/ViridianForestSouthGate.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_ViridianForestEntranceText1::				_ViridianForestEntranceText1::										
+	text	Are you going to			text	你要去常青森林？		text	你要去常青森林？	Are you going to	Are you going to Viridian Forest?	你要去常青森林？	トキワのもりへ　いくの？	トキワの　もりへ　いくの?
+	line	VIRIDIAN FOREST?			line	森林是天然的迷宮，		line	森林是天然的迷宫，	VIRIDIAN FOREST?	It’s a natural maze in there.	森林是天然的迷宫，	もりは　てんねんの　めいろよ	もりは　てんねんの　めいろよ
+	cont	Be careful, it's			cont	你要小心別迷路了。		cont	你要小心别迷路了。	Be careful, it's				まよわないよう　きを　つけて
+	cont	a natural maze!			done			done		a natural maze!	Be careful you don’t get lost.	你要小心别迷路了。	まよわないよう　きを　つけて	
+	done													
+														
+_ViridianForestEntranceText2::				_ViridianForestEntranceText2::										
+	text	You have to roam			text	如果想要收集各種寶可夢，			いろんな　ポケモンを　あつめるなら		Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	far to get new			line	就要到各種地方多走走呢。			いろんな　ところを　あるかないとね		Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	kinds of #MON.												…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+	para	Look for other			para	常青森林的外面			トキワのもり　いがいだと					
+	line	types outside of			line	還能找到其他寶可夢呢。			また　べつのポケモンが　みつかるわ					
+	cont	VIRIDIAN FOREST.												
+	done				done									
+end				end										

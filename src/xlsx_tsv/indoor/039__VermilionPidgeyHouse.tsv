@@ -1,0 +1,24 @@
+text/VermilionPidgeyHouse.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_VermilionHouse1Text1::				_VermilionHouse1Text1::										
+	text	I'm getting my			text	波波會幫我把我的信送往		text	波波会帮我把我的信送往	I'm getting my	I’m getting my Pidgey to fly a letter to	波波会帮我把我的信送往	きたの　ヤマブキシティまで	きたの　ヤマブキシティまで
+	line	PIDGEY to fly a			line	北邊的金黃市哦！		line	北边的金黄市哦！	PIDGEY to fly a	Saffron City in the north.	北边的金黄市哦！	ポッポに　てがみを	ポッポに　てがみを
+	cont	letter to SAFFRON			done			done		letter to SAFFRON				とどけて　もらうのさ!
+	cont	in the north!								in the north!			とどけて　もらうのさ！	
+	done													
+														
+_VermilionHouse1Text2::				_VermilionHouse1Text2::										
+	text	PIDGEY: Kurukkoo!@			text	波波：咕嚕咕～@		text	波波：咕噜咕～@	PIDGEY: Kurukkoo!@	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	text_end				text_end			text_end				给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+											D’aww... Failed again?			
+_VermilionHouse1Text3::				_VermilionHouse1Text3::										
+	text	Dear PIPPI, I hope			text	親愛的小皮皮……		text	亲爱的小皮皮……	Dear PIPPI, I hope	“Dear Pippi,	亲爱的小皮皮……	……ピピちゃん	…ピピちゃん
+	line	to see you soon.			line	我很想去見你。		line	我很想去见你。	to see you soon.	I hope I can go see you soon. I’ve heard that	我很想去见你。	こんど　あそびに　いきたい　です	こんど　あそびに　いきたい　です
+					para	聽說金黃市最近		para	听说金黄市最近	I heard SAFFRON				ヤマブキ　シティでは　ロケットだんの
+	para	I heard SAFFRON			line	發生了很多與火箭隊		line	发生了很多与火箭队	has problems with	Saffron City is having lots of trouble with Team	听说金黄市最近	ヤマブキシティでは　ロケットだんの	じけんが　おおい　そうですね
+	line	has problems with			cont	有關的事件。		cont	有关的事件。	TEAM ROCKET.		发生了很多与火箭队有关的事件。	じけんが　おおい　そうですね	クチバは　そうでも　ありません…
+	cont	TEAM ROCKET.			para	枯葉市暫時還算安全……		para	枯叶市暂时还算安全……	VERMILION appears	Rocket. Vermilion City seems safe for now...”			ザ
+					done			done		to be safe.		枯叶市暂时还算安全……	クチバは　そうでも　ありません……	
+	para	VERMILION appears												
+	line	to be safe.												
+	done													
+end				end										

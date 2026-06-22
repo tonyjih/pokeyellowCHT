@@ -1,0 +1,189 @@
+text/Route24.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route24Text_51510::				_Route24Text_51510::										
+	text	Congratulations!			text	幹得漂亮！		text	干得漂亮！	Congratulations!	Congratulations!	干得漂亮！	おみごとーッ！	
+	line	You beat our 5			line	祝賀你擊敗我們的		line	祝贺你击败我们的	You beat our 5	You beat our five Trainers!	祝贺你击败我们的５位训练家！	５にんぬき　おめでとう！	しょうひんに
+	cont	contest trainers!@			cont	５位訓練家！@		cont	５位训练家！@	contest trainers!@				これを　プレゼント　しよう!
+	text_end				text_end			text_end			You just earned a fabulous prize!	这是送给你的奖品！	しょうひんに	
+													これを　プレゼント　しよう！	
+_Route24Text_51515::				_Route24Text_51515::										
+	text_start				text_start			text_start			Congratulations!	干得漂亮！	おみごとーッ！	
+					para	這是送給你的獎品！		para	这是送给你的奖品！	You just earned a	You beat our five Trainers!	祝贺你击败我们的５位训练家！	５にんぬき　おめでとう！	しょうひんに
+	para	You just earned a			prompt			prompt		fabulous prize!				これを　プレゼント　しよう!
+	line	fabulous prize!									You just earned a fabulous prize!	这是送给你的奖品！	しょうひんに	
+	prompt												これを　プレゼント　しよう！	
+														
+_Route24Text_5151a::				_Route24Text_5151a::										
+	text	<PLAYER> received			text	<PLAYER>從謎之訓練家		text	<PLAYER>从谜之训练家	<PLAYER> received	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	a @			line	那裡得到了@		line	那里得到了@	a @	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	text_ram	wStringBuffer			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer				…　シルフ　カンパニー
+	text	!@			text	！@		text	！@	!@		……西尔佛公司	……シルフカンパニー	
+	text_end				text_end			text_end						
+														
+_Route24Text_51521::				_Route24Text_51521::										
+	text	You don't have			text	持有物已滿了。		text	……虽说是这么想的，	Oh! I see you	You don’t have enough dough.	你啊……	アナタさま……　さきだつ　ものが	…　おとくな　けいじばん!
+	line	any room!						line	但是行李已满了的话，	don't have any		最最重要的东西好像不太够噢？	たりませんよ？	ひとの　ポケモンは　ひとの　もの!
+	done				done			para	@	room for the	...Dough means money, kid.			やせいの　ポケモンに　だけ
+								text_ram	wOaksAideRewardItemName	@		最最重要的东西……	さきだつ　もの　とは	モンスターボールを　なげて
+_Route24Text_51526::				_Route24Text_51526::				text_start		wOaksAideRewardItemName 		当然就是指钱咯！	……おかねの　こと　です	つかまえよう!
+	text	By the way, would			text	對了……偷偷問你下，		text	对了……偷偷问你下，	By the way, would	BLAINE: Hah!	夏伯：嘿～～！	カツラ『うおーす！	へブ {PKMN} の　　　ビブ　　　　　　　　　　ボ
+	line	you like to join			line	你要不要考慮		line	你要不要考虑	you like to join	Well done, returning here to my Gym!	你来得正好！	よく　きたな！	
+	cont	TEAM ROCKET?			cont	加入火箭隊呢？		cont	加入火箭队呢？	TEAM ROCKET?				
+					para	我們是		para	我们是	We're a group	You’re the one who retrieved the key to this	我猜你是去宝可梦屋	おまえは　ポケモンやしきに	
+	para	We're a group			line	利用寶可夢做壞事的組織！		line	利用宝可梦做坏事的组织！	dedicated to evil	Gym from the Pokémon Mansion!	拿到了这个道馆的钥匙吧！	この　ジムの　カギを	
+	line	dedicated to evil			para	加入吧。		para	加入吧。	using #MON!				
+	cont	using #MON!			para	不加入嗎？		para	不加入吗？	Want to join?	Did you see anything interesting while you were	那时你有没有看到些什么？	とりに　いったの　だったな！	
+					para	加入嘛！		para	加入嘛！	Are you sure?	in there?			
+	para	Want to join?			para	加入唄！		para	加入呗！	Come on, join us!		那里应该有我的旧友	そのとき　なにかを　みたか？	
+					para	……你的臉上		para	……你的脸上	I'm telling you	That place still holds the remnants of my old	从事研究时的痕迹！		
+	para	Are you sure?			line	寫滿了拒絕。		line	写满了拒绝。	to join!	friend’s research!		あそこには　ふるい　ともだちの	
+					para	既然如此，		para	既然如此，	OK, you need		我听说最近，	けんきゅうの　あとが　ある！	
+	para	Come on, join us!			line	我只能用硬的了！		line	我只能用硬的了！	convincing!	By the way, I’ve been hearing an interesting	有个少女正在调查那个……		
+					cont	來吧！		cont	来吧！	I'll make you an	rumor floating around recently...		さいきん　それを　しらべる	
+	para	I'm telling you			done			done		offer you can't		你认识一个	しょうじょの　うわさを　きいた……	
+	line	to join!								refuse!	You wouldn’t happen to know a young lady	叫作碧蓝的少女吗？		
+											named Green, would you?		おまえは　ブルー　という	
+	para	OK, you need										……哎，	しょうじょは　しらんか？	
+	line	convincing!									...Hmph, well, it’s not as though I really know	我也不太清楚！		
+											the whole story anyway.		……まあ　わしにも	
+	para	I'll make you an										不说这个了，择日不如撞日，	よく　わからん　はなしなのだ！	
+	line	offer you can't									More importantly, since you came all this way,	现在就和我比试一场吧！		
+	cont	refuse!									we should have a battle!		そんな　ことより　せっかく　だから	
+	done											嘿～～哈！	ひとつ　しょうぶと　いこう！	
+											Hah!			
+_Route24Text_5152b::				_Route24Text_5152b::									うおおーす！	
+	text	Arrgh!			text	小子，		text	小子，	Arrgh!	Hey, you!	你呀你呀～！你不会是	キミ　キミー！　もしかして	ちょっと　まったあ!
+	line	You are good!			line	你真的好強啊！		line	你真的好强啊！	You are good!	Are you going to Cinnabar Island, by	要去红莲镇之类的吧？	グレンタウン　いく　けい？	そんな　いそいで　どこに　いく?
+	prompt				prompt			prompt						
+											any chance?			
+_Route24Text_51530::				_Route24Text_51530::										
+	text	With your ability,			text	你這麼有本事，		text	你这么有本事，	With your ability,	Why don’t you trade Pokémon with your friends?	通过和好朋友交换，	おともだちと　こうかん　すれば	円　いただきまーす!
+	line	you could become			line	要是加入火箭隊的話		line	要是加入火箭队的话	you could become	You could get a lot more variety by trading.	就能收集到很多宝可梦哦！	いろんな　ポケモン　あつまるよ！	ここでは　サファり　せんようの
+	cont	a top leader in			cont	就是個做領導的料啊！		cont	就是个做领导的料啊！	a top leader in				モンスターボールを　つかいます!
+	cont	TEAM ROCKET!			cont	太可惜了！		cont	太可惜了！	TEAM ROCKET!	The Pokémon you get in trades grow	从别人那里得到的宝可梦，	ひと　から　もらった　ポケモンは	…　これです!
+	done				done			done			quickly, too.	成长速度也比较快呢！	はやく　そだつしね！	 {PLAYER} は　うけつけ　から
+														サファりボール　30こ　もらった!@ジ
+_Route24BattleText1::				_Route24BattleText1::										
+	text	I saw your feat			text	呵呵……！你的出色表現		text	呵呵……！你的出色表现	I saw your feat	I saw your feat from the grass!	呵呵……！你的出色表现	ふふ……ッ！　くさむらから	ふふ…ッ!　くさむらから
+	line	from the grass!			line	我在草叢裡可都看到了。		line	我在草丛里可都看到了。	from the grass!		我在草丛里可都看到了。	きみの　かつやくを　みてたよ	きみの　かつやくを　みてたよ
+	done				done			done						
+														
+_Route24EndBattleText1::				_Route24EndBattleText1::										
+	text	I			text	……果然不行麼。		text	……果然不行么。	I	I thought not!	……果然不行么。	……やっぱり　だめだ	やっぱり　やめた!
+	line	thought not!			prompt			prompt		thought not!				
+	prompt													
+														
+_Route24AfterBattleText1::				_Route24AfterBattleText1::										
+	text	I hid because the			text	……我不敢過橋，		text	……我不敢过桥，	I hid because the	I hid because the people on the bridge	……我不敢过桥，	……はしを　わたるのが　こわくて	…　はしを　わたるのが　こわくて
+	line	people on the			line	所以一直躲在這裡。		line	所以一直躲在这里。	people on the	frightened me.	所以一直躲在这里。	ずっと　ここに　かくれてたんだ	ずっと　ここに　かくれてたんだ
+	cont	bridge scared me!			done			done		bridge scared me!				
+	done													
+														
+_Route24BattleText2::				_Route24BattleText2::										
+	text	OK! I'm No. 5!			text	好！我是５號！		text	好！我是５号！	OK! I'm No. 5!	OK! I’m number five!	好！我是５号！	きえーいッ！　５にんめ！	きえーいッ!　5にんめ!
+	line	I'll stomp you!			line	我來當你的對手！		line	我来当你的对手！	I'll stomp you!	I’ll stomp you!	我来当你的对手！	おれが　あいてだあ！	おれが　あいてだあ!
+	done				done			done						
+														
+_Route24EndBattleText2::				_Route24EndBattleText2::										
+	text	Whoa!			text	你可真了不起！		text	你可真了不起！	Whoa!	Whoa!	你可真了不起！	たいした　もんだ！	たいした　もんだ!
+	line	Too much!			prompt			prompt		Too much!	Too much!			
+	prompt													
+														
+_Route24AfterBattleText2::				_Route24AfterBattleText2::										
+	text	I did my best, I			text	我盡力了，無怨無悔！		text	我尽力了，无怨无悔！	I did my best, I	I did my best. I have no regrets!	我尽力了，无怨无悔！	ベストを　つくしたんだ	べストを　つくしたんだ
+	line	have no regrets!			done			done		have no regrets!			くいは　ない！	くいは　ない!
+	done													ゲ4
+														
+_Route24BattleText3::				_Route24BattleText3::										
+	text	I'm No. 4!			text	４號是我！		text	４号是我！	I'm No. 4!	I’m number four!	４号是我！	４にんめは　わたしよ！	4にんめは　わたしよ!
+	line	Getting tired?			line	你差不多該累趴下了吧？		line	你差不多该累趴下了吧？	Getting tired?	Getting tired?	你差不多该累趴下了吧？	そろそろ　ばてて	そろそろ　ばてて
+	done				done			done						きたんじゃない?
+													きたんじゃない？	
+_Route24EndBattleText3::				_Route24EndBattleText3::										
+	text	I lost			text	我也輸了呢。		text	我也输了呢。	I lost	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	too!			prompt			prompt		too!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt													
+														
+_Route24AfterBattleText3::				_Route24AfterBattleText3::										
+	text	I did my best, so			text	我已經拼盡全力了，		text	我已经拼尽全力了，	I did my best, so	I did my best, so I’ve got no regrets!	我已经拼尽全力了，	ベストを　つくしたんだから	べストを　つくしたんだから
+	line	I've no regrets!			line	所以不後悔！		line	所以不后悔！	I've no regrets!		所以不后悔！	くいは　ないわ！	くいは　ないわ!
+	done				done			done						
+														
+_Route24BattleText4::				_Route24BattleText4::										
+	text	Here's No. 3!			text	３號登場！		text	３号登场！	Here's No. 3!	Here’s number three!	３号登场！	３にんめ　とうじょう！	3にんめ　とうじょう!
+	line	I won't be easy!			line	我不會這麼輕易倒下的！		line	我不会这么轻易倒下的！	I won't be easy!	I won’t be easy!	我不会这么轻易倒下的！	そう　かんたんには　いかないぜ！	そう　かんたんには　いかないぜ!
+	done				done			done						
+														
+_Route24EndBattleText4::				_Route24EndBattleText4::										
+	text	Ow!			text	哎呀呀，		text	哎呀呀，	Ow!	Ow!	哎呀呀，我不行了。	へろへろ　もう　ダメ	へろへろ　もう　ダメ
+	line	Stomped flat!			line	我不行了。		line	我不行了。	Stomped flat!	Stomped flat!			
+	prompt				prompt			prompt						
+														
+_Route24AfterBattleText4::				_Route24AfterBattleText4::										
+	text	I did my best, I			text	我盡力了，無怨無悔！		text	我尽力了，无怨无悔！	I did my best, I	I did my best. I have no regrets!	我尽力了，无怨无悔！	ベストを　つくしたんだ	べストを　つくしたんだ
+	line	have no regrets!			done			done		have no regrets!			くいは　ない！	くいは　ない!
+	done													ゲ4
+														
+_Route24BattleText5::				_Route24BattleText5::										
+	text	I'm second!			text	２號是我！		text	２号是我！	I'm second!	I’m second!	２号是我！	ふたりめは　わたし！	ふたりめは　わたし!
+	line	Now it's serious!			line	接下來可要來真的了！		line	接下来可要来真的了！	Now it's serious!	Now it’s serious!	接下来可要来真的了！	これからが　ほんばん　よ！	これからが　ほんばん　よ!
+	done				done			done						
+														
+_Route24EndBattleText5::				_Route24EndBattleText5::										
+	text	How could I			text	簡直不可置信！		text	简直不可置信！	How could I	Why?	怎么会这样！	どうした　ことだ！	どうした　ことだ!
+	line	lose?			prompt			prompt		lose?	How could I lose?	……我竟然输了！	……おれが　まけるとは！	…　おれが　まけるとは!
+	prompt													
+														
+_Route24AfterBattleText5::				_Route24AfterBattleText5::										
+	text	I did my best, I			text	我已經拼盡全力了，		text	我尽力了，无怨无悔！	I did my best, I	I did my best. I have no regrets!	我尽力了，无怨无悔！	ベストを　つくしたんだ	べストを　つくしたんだ
+	line	have no regrets!			line	所以不後悔！		done		have no regrets!			くいは　ない！	くいは　ない!
+	done				done									ゲ4
+														
+_Route24BattleText6::				_Route24BattleText6::										
+	text	This is NUGGET			text	這座橋就是人們所說的		text	这座桥就是人们所说的	This is NUGGET	People call this the Nugget Bridge!	这座桥就是人们所说的	この　はしは　ひと　よんで	この　はしは　ひと　よんで
+	line	BRIDGE! Beat us 5			line	金球大橋！		line	金球大桥！	BRIDGE! Beat us 5		金球大桥！	ゴールデンボール　ブリッジ！	ゴールデンボール　ブりッジ!
+	cont	trainers and win			cont	如果能連勝５人的話，		cont	如果能连胜５人的话，	trainers and win	Beat us five Trainers, and win a fabulous prize!			5にん　かちぬけば
+	cont	a fabulous prize!			cont	就會得到豪華的獎品！		cont	就会得到豪华的奖品！	a fabulous prize!	Think you got what it takes?	如果能连胜５人的话，	５にん　かちぬけば	ごうかな　しょうひんが　もらえる!
+					para	那麼！		para	那么！	Think you got		就会得到豪华的奖品！	ごうかな　しょうひんが　もらえる！	さて!
+	para	Think you got			line	你會取勝嗎？		line	你会取胜吗？	what it takes?				おまえに　ぬけられるかな?
+	line	what it takes?			done			done				那么！	さて！	
+	done											你会取胜吗？	おまえに　ぬけられるかな？	
+														
+_Route24EndBattleText6::				_Route24EndBattleText6::										
+	text	Whoo!			text	你很厲害啊。		text	你很厉害啊。	Whoo!	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	Good stuff!			prompt			prompt		Good stuff!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt													
+														
+_Route24AfterBattleText6::				_Route24AfterBattleText6::										
+	text	I did my best, I			text	我盡力了，無怨無悔！		text	我尽力了，无怨无悔！	I did my best, I	I did my best. I have no regrets!	我尽力了，无怨无悔！	ベストを　つくしたんだ	べストを　つくしたんだ
+	line	have no regrets!			done			done		have no regrets!			くいは　ない！	くいは　ない!
+	done													ゲ4
+														
+_Route24DamianText1::				_Route24DamianText1::										
+	text	I'm not good at			text	我啊……真是太不擅長			おれ…		I’m not good at raising Pokémon.	我啊……	おれ……	おれ…
+	line	raising #MON.			line	培育寶可夢了。			ポケモン　そだてるの　へた　なんだ			真是太不擅长培育宝可梦了。	ポケモン　そだてるの　へた　なんだ	ポケモン　そだてるの　へた　なんだ
+											I feel sorry for my Charmander because it’s not			この　ヒトカゲも　よわいままで　
+	para	I should release			para	這隻小火龍也是，					getting stronger.	这只小火龙也是，一直都弱不禁风的，	この　ヒトカゲも　よわいままで	かわいそう　だから
+	line	my CHARMANDER			line	一直都弱不禁風的，			この　ヒトカゲも　よわいままで　			我自己看着都觉得它太可怜……	かわいそう　だから	にがしてやろうと　おもってる…
+	cont	because I haven't			cont	我看著都覺得它太可憐……			かわいそう　だから		So I want to give it to a better Trainer			ちゃんと　そだてて　くれるなら　
+	cont	raised it well...			cont	想要把它放生……			にがしてやろうと　おもってる…		than me. Are you interested?	因此，我想要把它托付给	おれより　すごい	きみに　あげるけど?
+												比我更有水准的训练家。	トレーナーに　あげたいんだ	
+	para	If you promise me			para	如果你能好好培養它的話，			ちゃんと　そだてて　くれるなら　					
+	line	you'll care for			line	就把它給你了？			きみに　あげるけど?					
+	cont	it, it's yours.												
+	done				done									
+														
+_Route24DamianText2::				_Route24DamianText2::										
+	text	Take good care of			text	那麼就拜託你了！@			それじゃ　おねがい　するよ!		Take good care of my Charmander!	那么就拜托你了！	それじゃ　おねがい　するよ！	そうか　それじゃ
+	line	my CHARMANDER!@												@
+	text_end				text_end									
+														
+_Route24DamianText3::				_Route24DamianText3::										
+	text	Oh... I'd better			text	是嗎……那麼，			そうか…		Oh... I’d better send it to the professor, then.	是吗……	そうか……	そうか…!　また　きて　ください
+	line	release it then.			line	要在哪裡把它放生呢……			じゃ　どこに　にがそうかな…			那我还是把它传送给博士吧……	はかせに　おくろう　かな……	
+	done				done									
+														
+_Route24DamianText4::				_Route24DamianText4::										
+	text	How's CHARMANDER			text	那隻小火龍你還在培育嗎？					How’s Charmander doing?	那只小火龙你还在培育吗？	あのときの　ヒトカゲ　そだってる？	あのときの　ヒトカゲ　そだってる?
+	line	doing?												へどぶ
+	done				done									
+end				end										

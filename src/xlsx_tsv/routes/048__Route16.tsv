@@ -1,0 +1,122 @@
+text/Route16.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route16BattleText1::				_Route16BattleText1::										
+	text	What do you want?			text	幹嘛，你這傢伙！		text	干嘛，你这家伙！	What do you want?	What do you want?	有何贵干！	なんだァ！	なんだァ!
+	done				done			done			Get lost, you little squirt!	一边儿去！一边儿去！	てめえ！　あっち　いけ！	ぼうず!　あっち　いけ!
+														
+_Route16EndBattleText1::				_Route16EndBattleText1::										
+	text	Don't you			text	笑什麼笑！		text	笑什么笑！	Don't you	Don’t you dare laugh!	笑什么笑！	ってんじゃねえぞ！	トレーナーぞ
+	line	dare laugh!			prompt			prompt		dare laugh!				きド5ま
+	prompt													
+														
+_Route16AfterBattleText1::				_Route16AfterBattleText1::										
+	text	We like just			text	你煩不煩啊！		text	你烦不烦啊！	We like just	What’s this? Could it be you resurrected that	哇哇！那只化石翼龙	ムムッ！　その　プテラ　もしかして	こら　ぼうず!　しょうぶだ!
+	line	hanging here,			line	比起走路，我們更喜歡		line	比起走路，我们更喜欢	hanging here,	Aerodactyl from the amber?!	难不成是用琥珀复活而来的！？	コハク　から　いきかえらせたの！？	その　へんの　やつ　から
+	cont	what's it to you?			cont	待在這裡無所事事不行嗎！		cont	待在这里无所事事不行吗！	what's it to you?				むりやり　とって　きたぜ!
+	done				done			done			Oh, thank you! You’ve proven that my	真是谢谢你帮我	ぼくの　すいろん　を	
+											hypothesis was correct!	证实了我的推论！	けつろん　づけてくれて　ありがとう！	
+_Route16BattleText2::				_Route16BattleText2::										
+	text	Nice BIKE!			text	噢、噢！		text	噢、噢！	Nice BIKE!	Nice Pokémon!	噢、噢！	おう　おうッ！	おう　おうッ!
+	line	Hand it over!			line	快把那腳踏車給我！		line	快把那自行车给我！	Hand it over!	Hand it over!	快把那宝可梦给我！	その　ポケモン　おれに　くれ！	その　じてんしゃ　おれに　くれ!
+	done				done			done						
+														
+_Route16EndBattleText2::				_Route16EndBattleText2::										
+	text	Knock-			text	我暈！		text	<PLAYER>从谜之训练家	<PLAYER> received	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	out!						line	那里得到了@	a @		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	prompt				prompt			text_ram	wStringBuffer	wStringBuffer	D’aww... Failed again?			
+								text	！@	!@				
+_Route16AfterBattleText2::				_Route16AfterBattleText2::				text_end						
+	text	Forget it, who			text	夠了！		text	够了！	Forget it, who	Forget it. Who needs your Pokémon!	够了！	もう　いい！	もう　いい!
+	line	needs your BIKE!			line	我不要腳踏車了！		line	我不要自行车了！	needs your BIKE!		我不要宝可梦了！	ポケモンは　いらねえ！	じてんしゃは　いらねえ!
+	done				done			done						ゲ
+														
+_Route16BattleText3::				_Route16BattleText3::										
+	text	Come out and play,			text	感覺很可愛的傢伙！		text	感觉很可爱的家伙！	Come out and play,	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	little mouse!			done			done		little mouse!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done													
+														
+_Route16EndBattleText3::				_Route16EndBattleText3::										
+	text	You			text	這個混蛋！		text	这个混蛋！	You	What do you want?	有何贵干！	なんだァ！	なんだァ!
+	line	little rat!			prompt			prompt		little rat!	Get lost, you little squirt!	一边儿去！一边儿去！	てめえ！　あっち　いけ！	ぼうず!　あっち　いけ!
+	prompt													
+														
+_Route16AfterBattleText3::				_Route16AfterBattleText3::										
+	text	I hate losing!			text	給我滾開哪！		text	给我滚开哪！	I hate losing!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	Get away from me!			line	我最討厭輸掉了！		line	我最讨厌输掉了！	Get away from me!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	done				done			done						…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_Route16BattleText4::				_Route16BattleText4::										
+	text	Hey, you just			text	你站住！		text	你站住！	Hey, you just	Hey, you just bumped me!	你站住！	こら　まて！	こら　まて!
+	line	bumped me!			line	撞了人就想跑嗎！		line	撞了人就想跑吗！	bumped me!		撞了人就想跑吗！	ぶつかって　おいて　にげるな！	ぶつかって　おいて　にげるな!
+	done				done			done						
+														
+_Route16EndBattleText4::				_Route16EndBattleText4::										
+	text	Kaboom!			text	炸裂！		text	炸裂！	Kaboom!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			prompt			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_Route16AfterBattleText4::				_Route16AfterBattleText4::										つ {PLAYER}  {PLAYER} 
+	text	You can also get			text	我們一直都在這裡哦！		text	我们一直都在这里哦！	You can also get	If a Support Trainer battles alongside you,	和帮手训练家一起战斗时，	サポートトレーナーに	 {RIVAL} 『あーッ!　 {PLAYER} !
+	line	to FUCHSIA from			line	如果害怕的話，就從		line	如果害怕的话，就从	to FUCHSIA from	you can have two Pokémon on your side to take		いっしょに　たたかって　もらえば	ポケモン　りーグに　いくのか?
+	cont	VERMILION using a			cont	枯葉沿著海一直走到		cont	枯叶沿着海一直走到	VERMILION using a		可以在对手派出１只宝可梦的情况下		やめとけ!
+	cont	coastal road.			cont	淺紅吧！		cont	浅红吧！	coastal road.	on one opposing Pokémon!	用２只宝可梦与其对抗！	あいての　ポケモン　１ぴきに	おまえ　どうせ
+	done				done			done					２ひきで　たいこう　できる！	バッジ　もってねーだろ?
+											You can have the upper hand!	这样对我方有利极了！		みはりの　おっさんが
+_Route16BattleText5::				_Route16BattleText5::									すっごい　ゆうり！	とおして　くれねーよ!
+	text	I'm feeling			text	我現在心情很糟糕！		text	我现在心情很糟糕！	I'm feeling	I’m afraid of Bikers. They look so ugly and mean!	坏男孩……	バッドガイ……	ぼうそうぞく…
+	line	hungry and mean!			line	正想找人解悶呢！		line	正想找人解闷呢！	hungry and mean!		经常能见到他们。	よく　みかける　けど	よく　みかける　けど
+	done				done			done						こわそうで　いやだわ
+												他们看起来凶凶的，	こわそうで　いやだわ	
+_Route16EndBattleText5::				_Route16EndBattleText5::								我不喜欢他们。		
+	text	Bad,			text	真是生龍活虎的		text	真是生龙活虎的	Bad,	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	bad, bad!			line	小子！		line	小子！	bad, bad!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt				prompt			prompt						
+														
+_Route16AfterBattleText5::				_Route16AfterBattleText5::										
+	text	I like my #MON			text	無論如何要選寶可夢的話，		text	无论如何要选宝可梦的话，	I like my #MON	I can’t face my followers after being defeated	以这样的方式输给你，	このような　まけかたを　しては	ちょうのうりょくは　かぎられた
+	line	ferocious! They			line	我還是想要兇暴的傢伙！		line	我还是想要凶暴的家伙！	ferocious! They	like this.	我确实没有办法向部下交代！	ぶかたちに　しめしが　つかない！	ひとの　ちから　では　ないわ!
+	cont	tear up enemies!			para	因為它們能把對手撕得		para	因为它们能把对手撕得	tear up enemies!				だれでも　もってるのよ!
+	done				line	破破爛爛的！		line	破破烂烂的！		Team Rocket is...	火箭队……	ロケットだんは……	ただ　それに　きが　つかない　だけ
+					done			done				就从今天起正式解散！	ほんじつを　もって　かいさんする！	
+_Route16BattleText6::				_Route16BattleText6::							As of today, Team Rocket is finished!			
+	text	Sure, I'll go!			text	咻咻——！		text	咻咻——！	Sure, I'll go!	I’ll go train with weaker people.	我去和弱一点的人	もう　すこし　よわい　ひとと	もう　すこし　よわい　ひとと
+	done				line	稍微來玩一會兒吧！		line	稍微来玩一会儿吧！			练习下再来吧。	れんしゅう　して　くるよ	れんしゅう　して　くるよ@@
+					done			done						
+_Route16EndBattleText6::				_Route16EndBattleText6::										
+	text	Don't make			text	你惹火我了哦！		text	你惹火我了哦！	Don't make	You don’t have enough dough.	你啊……	アナタさま……　さきだつ　ものが	…　おとくな　けいじばん!
+	line	me mad!			prompt			prompt		me mad!		最最重要的东西好像不太够噢？	たりませんよ？	ひとの　ポケモンは　ひとの　もの!
+	prompt										...Dough means money, kid.			やせいの　ポケモンに　だけ
+												最最重要的东西……	さきだつ　もの　とは	モンスターボールを　なげて
+_Route16AfterBattleText6::				_Route16AfterBattleText6::								当然就是指钱咯！	……おかねの　こと　です	つかまえよう!
+	text	I like harassing			text	噢、噢！		text	噢、噢！	I like harassing	I’ve lived and trained with	我就是在这样的锤炼中	おれは　そんな　きたえ　ぬかれた	こういう　げんきな　こども
+	line	people with my			line	我喜歡用寶可夢來		line	我喜欢用宝可梦来	people with my	my Fighting-type Pokémon!	和我的格斗属性宝可梦	かくとうポケモン　たちと	おれは　すきだぜ!@@
+	cont	vicious #MON!			cont	威脅、頂撞、欺騙他人噢！		cont	威胁、顶撞、欺骗他人噢！	vicious #MON!				
+	done				done			done			And that will never change!	一起生活，一起成长！	ともに　いきてきた！	
+														
+_Route16Text7::				_Route16Text7::								今后也会如此！	そして　これからもな！	
+	text	A sleeping #MON			text	寶可夢似乎		text	宝可梦似乎	A sleeping #MON	Hey!	我翻我翻……！	ガサゴソ……！	ガサゴソ…!
+	line	blocks the way!			line	睡得很舒服的樣子。		line	睡得很舒服的样子。	blocks the way!	There’s a switch under the trash?!	嘿哟！垃圾箱底	おっと！　ゴミばこの　そこに	おっと!　ゴミばこの　そこに
+	done				done			done						また　スイッチが　あった!
+											Let’s push it!	有一个开关！	スイッチが　あった！	おして　みよう!　…　ポチッとな
+_Route16Text10::				_Route16Text10::										ゲへ
+	text	SNORLAX woke up!			text	卡比獸醒來了！		text	卡比兽醒来了！	SNORLAX woke up!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+					para	卡比獸還沒睡醒		para	还没睡醒的卡比兽	It attacked in a	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	para	It attacked in a			line	迷迷糊糊地襲擊了過來！		line	迷迷糊糊地袭击了过来！	grumpy rage!				…　シルフ　カンパニー
+	line	grumpy rage!			done			done				……西尔佛公司	……シルフカンパニー	
+	done													
+														
+_Route16Text11::				_Route16Text11::										
+	text	With a big yawn,			text	卡比獸打了個大哈欠之後，		text	卡比兽打了个大哈欠之后，	With a big yawn,	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	SNORLAX returned			line	走向了山的深處……		line	走向了山的深处……	SNORLAX returned	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	to the mountains!			done			done		to the mountains!				…　シルフ　カンパニー
+	done											……西尔佛公司	……シルフカンパニー	
+														
+_Route16Text8::				_Route16Text8::										
+	text	Enjoy the slope!			text	請好好享受坡道！		text	请好好享受坡道！	Enjoy the slope!	“Diary: July 10	日记　７月10日	にっき　７がつ１０か	にっき　7がつ10か
+	line	CYCLING ROAD			line	腳踏車道！		line	自行车道！	CYCLING ROAD	We christened the newly discovered	我给新发现的宝可梦	しんはっけんの　ポケモンを	しんはっけんの　ポケモンを
+	done				done			done						わたしは　ミュウと　なづけた
+											Pokémon ‘Mew.’”	取名为梦幻。	わたしは　ミュウと　なづけた	ゲ
+_Route16Text9::				_Route16Text9::										
+	text	ROUTE 16			text	這裡是１６號道路		text	这里是１６号道路	ROUTE 16	Route 16	这里是16号道路	ここは　１６ばんどうろ	ここは　1ばん　どうろ
+	line	CELADON CITY -			line	玉虹市　……　淺紅市		line	玉虹市　……　浅红市	CELADON CITY -	(Celadon City ⇄ Fuchsia City)	玉虹市　……　浅红市	タマムシシティ　……　セキチクシティ	マサラ　タウン　…　トキワ　シティ
+	cont	FUCHSIA CITY			done			done		FUCHSIA CITY				4
+	done													
+end				end										

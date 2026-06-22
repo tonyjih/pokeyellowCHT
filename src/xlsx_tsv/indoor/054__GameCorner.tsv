@@ -1,0 +1,187 @@
+text/GameCorner.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CeladonGameCornerText1::				_CeladonGameCornerText1::										
+	text	Welcome!			text	歡迎光臨！		text	欢迎光临！	Welcome!	If a Support Trainer battles alongside you,	和帮手训练家一起战斗时，	サポートトレーナーに	 {RIVAL} 『あーッ!　 {PLAYER} !
+					para	可以在隔壁使用		para	可以在隔壁使用	You can exchange	you can have two Pokémon on your side to take		いっしょに　たたかって　もらえば	ポケモン　りーグに　いくのか?
+	para	You can exchange			line	在遊戲中獲得的代幣		line	在游戏中获得的代币	your coins for		可以在对手派出１只宝可梦的情况下		やめとけ!
+	line	your coins for			cont	來交換喜歡的獎品呢！		cont	来交换喜欢的奖品呢！	fabulous prizes	on one opposing Pokémon!	用２只宝可梦与其对抗！	あいての　ポケモン　１ぴきに	おまえ　どうせ
+	cont	fabulous prizes			done			done		next door.			２ひきで　たいこう　できる！	バッジ　もってねーだろ?
+	cont	next door.									You can have the upper hand!	这样对我方有利极了！		みはりの　おっさんが
+	done												すっごい　ゆうり！	とおして　くれねーよ!
+														…　それよりさあ!
+_CeladonGameCornerText_48d22::				_CeladonGameCornerText_48d22::										おまえの　ポケモン
+	text	Welcome to ROCKET			text	歡迎光臨！		text	欢迎光临！	Welcome to ROCKET	Wow, I think you’re plenty strong already!	你这不是很强大了嘛！	もう　じゅーぶん　つよいじゃん！	
+	line	GAME CORNER!			line	這裡是火箭遊戲城。		line	这里是火箭游戏城。	GAME CORNER!				 {5C} 31の　なかは
+					para	需要遊戲用代幣嗎？		para	需要游戏用代币吗？	Do you need some	So, what do you say? Don’t you think it’s time	差不多应该考虑一下	そろそろ　わたしの　ポケモンに	わたしの　だいすきな　ものまね!
+	para	Do you need some			para	50枚代幣		para	50枚代币	game coins?	you become one of my Pokémon?	和超梦一起	なって　くれても　よくない？	あなたの　すきな　ポケモンに
+	line	game coins?			line	需要¥1000。		line	需要¥1000。	It's ¥1000 for 50				つかって　あげて!@ゼ@
+					done			done		coins. Would you	Along with Mewtwo, of course!	来做我的宝可梦吧！	ミュウツーと　いっしょに！	
+	para	It's ¥1000 for 50								like some?				
+	line	coins. Would you												
+	cont	like some?												
+	done													
+														
+_CeladonGameCornerText_48d27::				_CeladonGameCornerText_48d27::										
+	text	Thanks! Here are			text	好的！多謝惠顧！		text	好的！多谢惠顾！	Thanks! Here are	There are Pokémon magazines on the shelves.	这里陈列着宝可梦的杂志！	ポケモンざっしが　ならんでる！	　ぽ　ぽ　
+	line	your 50 coins!			line	50枚代幣請拿好！		line	50枚代币请拿好！	your 50 coins!				
+	done				done			done			And Pokémon notebooks...	……宝可梦手册	……ポケモンてちょう	
+														
+_CeladonGameCornerText_48d2c::				_CeladonGameCornerText_48d2c::							And Pokémon graphs, too!	……宝可梦图表	……ポケモングラフ	
+	text	No? Please come			text	……不需要嗎！		text	……不需要吗！	No? Please come	Hey! You have Pokémon, right?	嗨！	よーしッ！	よーしッ!
+	line	play sometime!			line	那麼請以後再來吧！		line	那么请以后再来吧！	play sometime!	Come on!	你有宝可梦的吧？	きみは　ポケモン　もってるな？	きみは　ポケモン　もってるな?
+	done				done			done						しょうぶ　しようぜ!
+											Let’s battle ’em!	我们来对战！	しょうぶ　しようぜ！	
+_CeladonGameCornerText_48d31::				_CeladonGameCornerText_48d31::										
+	text	You can't afford			text	你的錢不夠哦！		text	你的钱不够哦！	You can't afford	PRESIDENT: You can’t buy that anywhere.	社长：这是大师球！	しゃちょう『どこにも　うってない	だけに…!
+	line	the coins!			done			done		the coins!	It’s our secret prototype, the Master Ball.	它是我们秘密研发中的样品，	ひみつの　しさくひん	いい　おはなしが　ありまして
+	done													ひみつの　ポケモン　コイキングが
+												去哪里都买不到喔！	マスターボール！	なんと　たったの　500円!
+_CeladonGameCornerText_48d36::				_CeladonGameCornerText_48d36::										どうだい　かうかね?
+	text	Oops! Your COIN			text	哎喲……！		text	哎哟……！	Oops! Your COIN	This Pokémon Gym is always closed...	不管什么时候来，	いつ　きても	いつ　きても
+	line	CASE is full.			line	代幣盒已滿了！		line	代币盒已满了！	CASE is full.		这里的道馆总是关着门……	この　ポケモンジムは　しまっとる	この　ポケモン　ジムは　しまっとる
+	done				done			done			I wonder who the Gym Leader is...			いったい　どんな　ヤツが
+												不知道这里的馆主	いったい　どんな　ヤツが	りーダーを　しとるんじゃろか?
+_CeladonGameCornerText_48d3b::				_CeladonGameCornerText_48d3b::								究竟是怎样的家伙啊？	リーダーを　しとるんじゃろか？	
+	text	You don't have a			text	咦？你沒有		text	咦？你没有	You don't have a	You don’t have enough dough.	你啊……	アナタさま……　さきだつ　ものが	…　おとくな　けいじばん!
+	line	COIN CASE!			line	能裝代幣的代幣盒哦！		line	能装代币的代币盒哦！	COIN CASE!		最最重要的东西好像不太够噢？	たりませんよ？	ひとの　ポケモンは　ひとの　もの!
+	done				done			done			...Dough means money, kid.			やせいの　ポケモンに　だけ
+												最最重要的东西……	さきだつ　もの　とは	モンスターボールを　なげて
+_CeladonGameCornerText3::				_CeladonGameCornerText3::								当然就是指钱咯！	……おかねの　こと　です	つかまえよう!
+	text	Keep this quiet.			text	……我只在這裡說……		text	……我只在这里说……	Keep this quiet.	It’s a marvelous invention, if I do say so myself!	……我自己都觉得这发明很是伟大！	……われながら　すごい　はつめい！	むずかしい　はなしは
+					para	這家遊戲城據說		para	这家游戏城据说	It's rumored that	It’s not an exaggeration to say that this is	称它为[VAR COLOR(0006)]秘术[VAR COLOR(0000)]都毫不为过！	[VAR COLOR(0006)]ヒジュツ[VAR COLOR(0000)]と　いっても　もうしぶんない	きみに　いっても　わからないよ
+	para	It's rumored that			line	是火箭隊開的店……		line	是火箭队开的店……	this place is run				ゲへ
+	line	this place is run			cont	大家都這麼說……		cont	大家都这么说……	by TEAM ROCKET.	a [VAR COLOR(0006)]Secret Technique[VAR COLOR(0000)]!			
+	cont	by TEAM ROCKET.			done			done						
+	done													
+														
+_CeladonGameCornerText4::				_CeladonGameCornerText4::										
+	text	I think these			text	根據位置的不同，好像		text	根据位置的不同，好像	I think these	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	machines have			line	也存在容易中獎的老虎機。		line	也存在容易中奖的老虎机。	machines have	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	different odds.			done			done		different odds.				…　シルフ　カンパニー
+	done											……西尔佛公司	……シルフカンパニー	
+														
+_CeladonGameCornerText_48d9c::				_CeladonGameCornerText_48d9c::										
+	text	Kid, do you want			text	……小鬼，		text	……小鬼，	Kid, do you want	Which topic do you want to read?	要查看哪一个项目呢？	どの　こうもくを　みますか？	どの　ポケモンを
+	line	to play?			line	你也想玩遊戲嗎？		line	你也想玩游戏吗？	to play?				にがすんや?
+	prompt				prompt			prompt						
+														
+_Received10CoinsText::				_Received10CoinsText::										
+	text	<PLAYER> received			text	<PLAYER>從叔叔那裡		text	<PLAYER>从叔叔那里	<PLAYER> received	“Diary: July 10	日记　７月10日	にっき　７がつ１０か	にっき　7がつ10か
+	line	10 coins!@			line	得到了10枚代幣！@		line	得到了10枚代币！@	10 coins!@	We christened the newly discovered	我给新发现的宝可梦	しんはっけんの　ポケモンを	しんはっけんの　ポケモンを
+	text_end				text_end			text_end						わたしは　ミュウと　なづけた
+											Pokémon ‘Mew.’”	取名为梦幻。	わたしは　ミュウと　なづけた	ゲ
+_CeladonGameCornerText_48da7::				_CeladonGameCornerText_48da7::										
+	text	You don't need my			text	果然還是算了吧！		text	果然还是算了吧！	You don't need my	You don’t have enough dough.	你啊……	アナタさま……　さきだつ　ものが	…　おとくな　けいじばん!
+	line	coins!			done			done		coins!		最最重要的东西好像不太够噢？	たりませんよ？	ひとの　ポケモンは　ひとの　もの!
+	done										...Dough means money, kid.			やせいの　ポケモンに　だけ
+												最最重要的东西……	さきだつ　もの　とは	モンスターボールを　なげて
+_CeladonGameCornerText_48dac::				_CeladonGameCornerText_48dac::								当然就是指钱咯！	……おかねの　こと　です	つかまえよう!
+	text	Wins seem to come			text	贏的時候會想繼續贏，		text	赢的时候会想继续赢，	Wins seem to come	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	and go.			line	但輸了也還是不想認輸哪。		line	但输了也还是不想认输哪。	and go.	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done			done						
+														
+_CeladonGameCornerText6::				_CeladonGameCornerText6::										
+	text	I'm having a			text	老虎機遊戲太好玩了！		text	老虎机游戏太好玩了！	I'm having a	I’m having a meeting with an important client.	我正在和客户开会呢。	おとくいさまと	ぼくは　クラスで　いちばん　つよい!
+	line	wonderful time!			line	讓人很容易忘記時間流逝！		line	让人很容易忘记时间流逝！	wonderful time!			かいぎ　してるんだ	まいあさ　れんしゅうも　してるんだ!
+	done				done			done			You want to join in?	……你也想一起参加吗？		
+													……きみも　まざる？	
+_CeladonGameCornerText_48dca::				_CeladonGameCornerText_48dca::										
+	text	Hey!			text	哎呀……！		text	哎呀……！	Hey!	Oh... You have better things to do, champ in	哎呀……！	おぉ……　こんな　ところで	おお…!
+					para	在這種地方偷懶可不好哦！		para	在这种地方偷懒可不好哦！	You have better	the making!	在这种地方偷懒可不好哦！	あぶら　うってて　いいのか！	こんな　ところで
+	para	You have better			line	未來的冠軍！		line	未来的冠军！	things to do,				あぶら　うってて　いいのか!
+	line	things to do,			para	玉虹的館主莉佳		para	玉虹的馆主莉佳	champ in making!	Celadon City’s Gym Leader is Erika.	未来的冠军！	みらいの　チャンピオン！	みらいの　チャンピオン!
+	cont	champ in making!			line	是一位能與自然心靈相通的		line	是一位能与自然心灵相通的	CELADON GYM's				タマムシの　りーダー　エりカは
+					cont	草屬性寶可夢的能手！		cont	草属性宝可梦的能手！	LEADER is ERIKA!	She is one with nature and a user of	玉虹的馆主莉佳	タマムシの　リーダー　エリカは	しぜんと　こころを　かよわす
+	para	CELADON GYM's			para	別看她在那裡插花，		para	别看她在那里插花，	She uses grass-	Grass-type Pokémon.	是一位能与自然心灵相通的	しぜんと　こころを　かよわす	しょくぶつ　ポケモンの　つかいて!
+	line	LEADER is ERIKA!			line	看似溫和，其實是個		line	看似温和，其实是个	type #MON!				おはな　なんか　いけてる　から
+	cont	She uses grass-			cont	相當不好對付的對手哦！		cont	相当不好对付的对手哦！	She might appear	She might look quiet because she does flower	草属性宝可梦的能手！	くさポケモンの　つかいて！	おとなしそうに　みえるが
+	cont	type #MON!			done			done		docile, but don't	arrangements, but she’s not one to be			てごわい　あいてに　なるぞ!
+										be fooled!		别看她在那里插花，看似温和，	おはな　なんか　いけてる　から	
+	para	She might appear									taken lightly!	其实相当不好对付哦！	おとなしそう　だが　てごわいぞ！	
+	line	docile, but don't												
+	cont	be fooled!												
+	done													
+														
+_CeladonGameCornerText_48dcf::				_CeladonGameCornerText_48dcf::										
+	text	They offer rare			text	這裡能獲得不錯的		text	这里能获得不错的	They offer rare	Any kind of tool can be used for good or evil,	世界上所有的道具，	あらゆる　どうぐは	ポケモンは　つかう　ひとに　よって
+	line	#MON that can			line	寶可夢作為獎品哦——		line	宝可梦作为奖品哦——	#MON that can	depending on the person using it.	既能变成良药，也能变成毒药，	つかう　ひとに　よって	よくも　わるくも　なる
+	cont	be exchanged for			para	但是不加把勁的話，		para	但是不加把劲的话，	be exchanged for				パートナーだと　おもうの
+	cont	your coins.			line	就完全得不到啊！		line	就完全得不到啊！	your coins.	I shudder to think what would have happened	这都取决于使用道具的人。	くすりにも　どくにも　なります	
+					done			done		But, I just can't	if Team Rocket had gotten their hands on			
+	para	But, I just can't								seem to win!		一想到西尔佛的技术	ロケットだんが　シルフの　ぎじゅつを	
+	line	seem to win!									Silph technology...	说不定会被火箭队滥用，	あくよう　したらと　おもうと	
+	done													
+												我就浑身直打哆嗦。	ぞっとしますよ	
+_CeladonGameCornerText8::				_CeladonGameCornerText8::										
+	text	Games are scary!			text	咻……遊戲太可怕了！		text	咻……游戏太可怕了！	Games are scary!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	It's so easy to			line	一旦上頭就無法自拔了！		line	一旦上头就无法自拔了！	It's so easy to	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	get hooked!			done			done		get hooked!				…　シルフ　カンパニー
+	done											……西尔佛公司	……シルフカンパニー	
+														
+_CeladonGameCornerText_48e26::				_CeladonGameCornerText_48e26::										
+	text	What's up? Want			text	……怎麼了？		text	……怎么了？	What's up? Want	What? That’s too bad.	啊～！真没劲！	えー！　つまんないの！	
+	line	some coins?			line	想要一些代幣嗎？		line	想要一些代币吗？	some coins?				つり　こそ
+	prompt				prompt			prompt			Let’s do it next time.	下次一定要比试哦！	つぎ　こそ　しようね！	おとこの　ロマン　だ!
+											Promise me!	一定哦～！	ぜったい　だよ～！	うみでも　かわでも!
+_Received20CoinsText::				_Received20CoinsText::										えんりょ　なく
+	text	<PLAYER> received			text	<PLAYER>從大哥哥那裡		text	<PLAYER>从叔叔那里	<PLAYER> received	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	20 coins!@			line	得到了20枚代幣！@		line	得到了20枚代币！@	20 coins!@	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_end				text_end			text_end						
+														
+_CeladonGameCornerText_48e31::				_CeladonGameCornerText_48e31::										
+	text	You have lots of			text	代幣盒已滿了呀。		text	代币盒已满了呀。	You have lots of	Great!	……原来如此！	………なるほど！	しゅるい　ですね!
+	line	coins!			done			done		coins!	You have caught [VAR NUM3(0004)] species of Pokémon!	你捕捉到的宝可梦……	つかまえた　ポケモンは……	おめでとう!
+	done													それでは
+											Congratulations!	一共有[VAR NUM3(0004)]种啊！	[VAR NUM3(0004)]しゅるい　ですね！	これを　おわたし　します!
+_CeladonGameCornerText_48e36::				_CeladonGameCornerText_48e36::							Then here you go!			
+	text	Darn! I need more			text	真可惡哪！		text	真可恶哪！	Darn! I need more	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	coins for the			line	我還有其它想要的獎品。		line	我还有其它想要的奖品。	coins for the	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	#MON I want!			done			done		#MON I want!				…　シルフ　カンパニー
+	done											……西尔佛公司	……シルフカンパニー	
+														
+_CeladonGameCornerText_48e88::				_CeladonGameCornerText_48e88::										
+	text	Hey, what? You're			text	哇，等一下！		text	哇，等一下！	Hey, what? You're	JESSIE: What? Really?!	武藏：什么！？真的么！？	ムサシ『え！？　そうなの！？	え
+	line	throwing me off!			line	……按錯了。		line	……按错了。	throwing me off!	You certainly do show potential. Though you’re	你真是个潜力股！	あんた　みこみ　あるじゃない！	
+	cont	Here are some			cont	給你點代幣，		cont	给你点代币，	Here are some				ばこ
+	cont	coins, shoo!			cont	你給我走開。		cont	你给我走开。	coins, shoo!	not nearly as beautiful as me...	……才怪！我是不会上当的！	……って　だまされないん　だから！	
+	prompt				prompt			prompt						
+											Wait a minute—you’re trying to trick me!			
+_CeladonGameCornerText_48e8d::				_CeladonGameCornerText_48e8d::										
+	text	<PLAYER> received			text	<PLAYER>從叔叔那裡		text	<PLAYER>从叔叔那里	<PLAYER> received	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	20 coins!@			line	得到了20枚代幣！@		line	得到了20枚代币！@	20 coins!@	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_end				text_end			text_end						
+														
+_CeladonGameCornerText_48e93::				_CeladonGameCornerText_48e93::										
+	text	You've got your			text	你的代幣已滿了呀。		text	你的代币已满了呀。	You've got your	Hahaha! You’ve got big and brassy nerves to	哈哈～！	ハッハー！	ちょっと　まったあ!
+	line	own coins!			done			done		own coins!	take me on with your puny power!	就凭you那一点点的power，	そんな　ハンパな　パワーで	そんな　いそいで　どこに　いく?
+	done													
+												居然想向me发起挑战，	ミーに　しょうぶを　いどむとは	
+_CeladonGameCornerText_48e98::				_CeladonGameCornerText_48e98::								Very有胆量啊！	いい　どきょう　ネー！	
+	text	The trick is to			text	預判老虎機的圖案後		text	预判老虎机的图案后	The trick is to	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	watch the reels			line	再按下按鈕，		line	再按下按钮，	watch the reels	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	closely!			cont	這可是訣竅哦。		cont	这可是诀窍哦。	closely!				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_CeladonGameCornerText_48ece::				_CeladonGameCornerText_48ece::										
+	text	I'm guarding this			text	我正在看守這個海報！		text	我正在看守这个海报！	I'm guarding this	I’m guarding this poster!	我正在看守这个海报！	おれは	おれは
+	line	poster!			line	給我搗亂可是要吃苦頭的！		line	给我捣乱可是要吃苦头的！	poster!	Go away, or else!	给我捣乱可是要吃苦头的！	この　ポスターを　みはってるのだ	この　ポスターを　みはってるのだ
+	cont	Go away, or else!			done			done		Go away, or else!				じゃまを　すると
+	done												じゃまを　すると	いたいめに　あわせるぞ!
+														
+_CeladonGameCornerText_48ed3::				_CeladonGameCornerText_48ed3::									いたいめに　あわせるぞ！	
+	text	Dang!			text	可、可惡！		text	啊，被打败了。	Dang!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			prompt			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_CeladonGameCornerText_48ed8::				_CeladonGameCornerText_48ed8::										つ {PLAYER}  {PLAYER} 
+	text	Our hideout might			text	這樣下去		text	这样下去	Our hideout might	At this rate, the location of the Team Rocket	这样下去	このままでは　ロケットだん	このままでは　ロケットだん
+	line	be discovered! I			line	火箭隊的基地遲早要暴露。		line	火箭队的基地迟早要暴露。	be discovered! I	Hideout is gonna be discovered!	火箭队的基地迟早要暴露。	アジトの　そんざいが　ばれちまう	アジトの　そんざいが　ばれちまう
+	cont	better tell BOSS!			cont	我得趕緊聯絡老大才行！		cont	我得赶紧联系老大才行！	better tell BOSS!				ボスに　れんらく　しなくては!
+	done				done			done			I better tell the boss!	我得赶紧联系老大才行！	ボスに　れんらく　しなくては！	ゲぼ
+														
+_CeladonGameCornerText_48f09::				_CeladonGameCornerText_48f09::										
+	text	Hey!			text	啊！		text	啊！	Hey!	Hey!	啊！	あ！	あ!
+					para	在海報的後面		para	在海报的后面	A switch behind				ポスターの　うらに
+	para	A switch behind			line	發現了一個秘密按鈕！		line	发现了一个秘密按钮！	the poster!?	A switch behind the poster?!	在海报的后面	ポスターの　うらに	ひみつの　スイッチを　みつけた
+	line	the poster!?			cont	按下去試試看！……啪嗒！@		cont	按下去试试看！……啪嗒！@	Let's push it!@	Let’s push it!	发现了一个秘密按钮！	ひみつの　スイッチを　みつけた	おしてみよう!　…ポチッとな!@ゲぼマへ
+	cont	Let's push it!@			text_end			text_end						
+	text_end											按下去试试看！	おしてみよう！　……ポチッとな！	
+end				end								……啪嗒！		

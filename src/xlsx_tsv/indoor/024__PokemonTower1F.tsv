@@ -1,0 +1,33 @@
+text/PokemonTower1F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_PokemonTower1Text1::				_PokemonTower1Text1::										
+	text	#MON TOWER was			text	寶可夢塔是為了		text	宝可梦塔是为了	#MON TOWER was	The Pokémon Tower was erected in the memory	宝可梦塔是为了	ポケモンタワーは	ポケモン　タワーは
+	line	erected in the			line	給死去的寶可夢們慰靈		line	给死去的宝可梦们慰灵	erected in the	of Pokémon that passed away.	给死去的宝可梦们慰灵	しんだ　ポケモンを　なぐさめるため	しんだ　ポケモンを　なぐさめるため
+	cont	memory of #MON			cont	而建起的塔。		cont	而建起的塔。	memory of #MON				たてられた　とう　です
+	cont	that had died.			done			done		that had died.		而建起的塔。	たてられた　とう　です	
+	done													
+														
+_PokemonTower1Text2::				_PokemonTower1Text2::										
+	text	Did you come to			text	你也是來給		text	你也是来给	Did you come to	Did you come to pay respects?	你也是来给	あなたも	あなたも
+	line	pay respects?			line	寶可夢掃墓的嗎？		line	宝可梦扫墓的吗？	pay respects?	Bless your Pokémon-loving heart, girl.	宝可梦扫墓的吗？	おはか　まいりに　きたの？	おはか　まいりに　きたの?
+	cont	Bless you!			para	真是個對寶可夢		para	真是个对宝可梦	Bless you!				ポケモン　おもいの　おとこのこ　ね
+	done				line	用心的男孩子啊。		line	用心的男孩子啊。			真是个对宝可梦用心的小姑娘啊。	ポケモン　おもいの　おんなのこ　ね	
+					done			done						
+_PokemonTower1Text3::				_PokemonTower1Text3::										
+	text	I came to pray			text	我無法忘記		text	我无法忘记	I came to pray	MISTY: I lost...	小霞：我输了……	カスミ『まけちゃった……	ちょっと　じかん　かかるよ!
+	line	for my CLEFAIRY.			line	我已逝去的皮皮……！		line	我已逝去的皮皮……！	for my CLEFAIRY.	I need to try swimming around for a bit	看来我应该游个泳，	ちょっと　およいで	そこらへんを　すこし　
+					para	不行啊……！		para	不行啊……！	Sniff! I can't				ブラブラ　してくると　よろしー!
+	para	Sniff! I can't			line	眼淚流出來了……		line	眼泪流出来了……	stop crying...	so that I can clear my head of these feelings.	让自己冷静一下。	あたまを　ひやさなきゃ	
+	line	stop crying...			done			done						
+	done										...I definitely won’t lose next time!	……下次我可不会再输给你！	……このつぎは　まけない　から！	
+														
+_PokemonTower1Text4::				_PokemonTower1Text4::										
+	text	My GROWLITHE...			text	啊，我的卡蒂狗……		text	啊，我的卡蒂狗……	My GROWLITHE...	My sweet Growlithe...	啊，我的卡蒂狗……	ああ　わたしの　ガーディ……	ああ　わたしの　ガーディ…
+	line	Why did you die?			line	你為什麼死掉了呢……		line	你为什么死掉了呢……	Why did you die?	Why did you have to die and leave me?	你为什么死掉了呢……	どうして　しんで　しまったの……	どうして　しんで　しまったの…
+	done				done			done						
+														
+_PokemonTower1Text5::				_PokemonTower1Text5::										
+	text	I am a CHANNELER!			text	我是一名祈禱師！		text	我是一名祈祷师！	I am a CHANNELER!	They don’t sell them here, but I’ve heard there	虽然这里没有卖……	ここには　うってないが	こんなに　さがしても　ピカチュウ
+	line	There are spirits			line	我能感覺到樓上有一個		line	我能感觉到楼上有一个	There are spirits	are these amazing stones called Mega Stones			ぜんぜん　みつからないの
+	cont	up to mischief!			cont	陷入迷途的靈魂……		cont	陷入迷途的灵魂……	up to mischief!		这个世界上似乎有一种叫作	よのなかには　メガストーンと　いう	きっと　ここには　いないのよ!
+	done				done			done			out there somewhere.	“超级石”的很厉害的石头。	すんごい　いしが　あるらしいよ	
+end				end										

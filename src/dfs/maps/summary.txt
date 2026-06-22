@@ -1,0 +1,45 @@
+build_big5_extension_code_table big5-extension-code-table-2026-06-18-v4
+target=cjk
+classification=reports/big5_extension/classification.tsv
+dfs_pages=reports/dfs_pages/proposed_extension_pages.tsv
+safe_lows=reports/dfs_pages/safe_low_template.tsv
+base_charmap=reports/charmap_chs_base.txt
+current_charmap=src/charmap.txt
+reserve_current_codes=no
+compat_policy=strict
+
+inputs:
+  extension pages: 29 ($14, $15, $16, $17, $20, $21, $22, $23, $24, $25, $26, $27, $2F, $30, $31, $32, $33, $34, $35, $36, $37, $38, $39, $3A, $3B, $3C, $3D, $3E, $3F)
+  lows per extension page: 226
+  extension page capacity: 6554
+  tail spare pages: 1 ($2E)
+  tail spare capacity used/available: 5 / 65
+
+needed:
+  CJK extension-needed rows: 6559
+  non-CJK/manual extension-needed rows selected: 0
+  total assigned extension rows: 6559
+  compatible/base rows: 6845
+
+assigned by slot source:
+  extension-page: 6554
+  legacy-tail-spare-hole: 5
+
+assigned by compat class:
+  cjk-extension: 6559
+
+assigned by category:
+  cjk: 6559
+
+outputs:
+  big5_extension_physical_map.tsv
+  big5_compat_base_map.tsv
+  big5_full_physical_map.tsv
+  charmap_big5_extension.txt
+  extension_pages_used.tsv
+  compat_policy_adjustments.tsv
+
+notes:
+  CJK rows are assigned first so CJK codepoints stay stable if optional non-CJK Big5 chars are later added.
+  Do not replace src/charmap.txt with charmap_big5_extension.txt; this is a fragment for future extension-aware import/build tools.
+  The DFS engine still needs a separate patch to enable pages and generate extension font bins.

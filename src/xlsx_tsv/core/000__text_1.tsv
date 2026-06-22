@@ -1,0 +1,156 @@
+data/text/text_1.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CardKeySuccessText1::				_CardKeySuccessText1::										
+	text	Bingo!@			text	……嗶嗶！@		text_start			Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	text_end				text_end			done			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_CardKeySuccessText2::				_CardKeySuccessText2::										つ {PLAYER}  {PLAYER} 
+	text_start				text_start			text_start			Bingo!	……滴滴！	……ピンポーン！	
+	line	The CARD KEY			line	鑰匙卡解除了門鎖！		line	使用钥匙卡打开了门锁！	The CARD KEY	The Card Key opened the door!	使用钥匙卡打开了门锁！	カードキーで　ロック　をはずした！	カードキーで　ロック　をはずした!
+	cont	opened the door!			done			done		opened the door!				
+	done													
+														
+_CardKeyFailText::				_CardKeyFailText::										
+	text	Darn! It needs a			text	……不行！		text	……不行！	Darn! It needs a	It’s a Pokémon Report!	……是宝可梦报告！	……ポケモンレポートだ！	…　ポケモン　レポートだ!
+	line	CARD KEY!			line	需要鑰匙卡！		line	没有钥匙卡打不开！	CARD KEY!				こうかん　ケーブルを　とおすと
+	done				done			done			Some Pokémon have been confirmed to evolve	现已确认有些宝可梦	つうしん　こうかん　すると	しんかする　ポケモンが
+											when they are traded.	可以通过连接交换进化。	しんかする　ポケモンが	4しゅるい　かくにん　された
+_TrainerNameText::				_TrainerNameText::										ぜグ
+	text_ram	wcd6d			text_ram	wcd6d		text_ram	wcd6d	wcd6d	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	text	: @			text	：@		text	已经学会了	 knows	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_end				text_end			line	@	@				
+								text_ram	wStringBuffer	wStringBuffer				
+_NoNibbleText::				_NoNibbleText::				text	！	!				
+	text	Not even a nibble!			text	連咬鉤都沒有……		text	钓不到啊……	Not even a nibble!	It’s a Pokémon Report!	……是宝可梦报告！	……ポケモンレポートだ！	…　ポケモン　レポートだ!
+	prompt				prompt			prompt						ポケモンが　つかう　わざは
+											Over 200 Pokémon moves have been confirmed.	仅是现在已被人知晓的	ポケモンが　つかう　わざは	げんざい　わかって　いるだけで
+_NothingHereText::				_NothingHereText::								宝可梦可以使用的招式	げんざい　わかって　いるだけで	160しゅるい　いじょうある
+	text	Looks like there's			text	這裡好像		text	这里好像	Looks like there's	???: Looks like there’s nothing here...	？？？：看来不在这一带啊……	？？？『この　あたりには	…!
+	line	nothing here.			line	什麼也沒有……		line	什么也没有……	nothing here.		就有200种以上。	ない　みたいね……	ただもの　では　ない!
+	prompt				prompt			prompt						
+														
+_ItsABiteText::				_ItsABiteText::										
+	text	Oh!			text	啊！		text	啊！	Oh!	It’s a Pokémon Report!	……是宝可梦报告！	……ポケモンレポートだ！	…　ポケモン　レポートだ!
+	line	It's a bite!			line	咬鉤了！咬鉤了！		line	咬钩了！咬钩了！	It's a bite!				ポケモンが　つかう　わざは
+	prompt				prompt			prompt			Over 200 Pokémon moves have been confirmed.	仅是现在已被人知晓的	ポケモンが　つかう　わざは	げんざい　わかって　いるだけで
+												宝可梦可以使用的招式	げんざい　わかって　いるだけで	160しゅるい　いじょうある
+_ExclamationText::				_ExclamationText::										
+	text	!			text	！		text_ram	wStringBuffer	wStringBuffer	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	done				done			text_start			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+								line	已滑落至取物口！	popped out!				4ャよひ
+_GroundRoseText::				_GroundRoseText::				done						つ {PLAYER}  {PLAYER} 
+	text	Ground rose up			text	某處的地面		text	某处的地面	Ground rose up	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	somewhere!			line	隆起來了！		line	隆起来了！	somewhere!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done			done						
+														
+_BoulderText::				_BoulderText::										
+	text	This requires			text	也許使用「怪力」		text	也许使用“怪力”	This requires	This Pokémon Gym is always closed...	不管什么时候来，	いつ　きても	いつ　きても
+	line	STRENGTH to move!			line	就能推動了……		line	就能推动了……	STRENGTH to move!		这里的道馆总是关着门……	この　ポケモンジムは　しまっとる	この　ポケモン　ジムは　しまっとる
+	done				done			done			I wonder who the Gym Leader is...			いったい　どんな　ヤツが
+												不知道这里的馆主	いったい　どんな　ヤツが	りーダーを　しとるんじゃろか?
+_MartSignText::				_MartSignText::								究竟是怎样的家伙啊？	リーダーを　しとるんじゃろか？	
+	text	All your item			text	寶可夢用品一應俱全！		text	满满都是宝可梦的物品！	All your item	We fulfill all of your item needs!	满满都是宝可梦的物品！	ポケモン　グッズが　いっぱい！	ポケモン　グッズが　いっぱい!
+	line	needs fulfilled!			line	友好商店		line	友好商店	needs fulfilled!	Pokémon Mart	友好商店	フレンドリィショップ	フレンドりィショップ
+	cont	#MON MART			done			done		#MON MART				
+	done													
+														
+_PokeCenterSignText::				_PokeCenterSignText::										
+	text	Heal Your #MON!			text	恢復寶可夢的體力！		text	回复宝可梦的体力！	Heal Your #MON!	Heal your Pokémon!	回复宝可梦的体力！	ポケモンの　たいりょく　かいふく！	ポケモンの　たいりょく　かいふく!
+	line	#MON CENTER			line	寶可夢中心		line	宝可梦中心	#MON CENTER	Pokémon Center	宝可梦中心	ポケモンセンター	ポケモンセンター
+	done				done			done						ゲぼ {5C} へャぼて
+														
+_FoundItemText::				_FoundItemText::										
+	text	<PLAYER> found			text	<PLAYER>找到了		text	<PLAYER>找到了	<PLAYER> found	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	@			line	@		line	@	@	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_ram	wStringBuffer			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer				
+	text	!@			text	！@		text	！@	!@				
+	text_end				text_end			text_end						
+														
+_NoMoreRoomForItemText::				_NoMoreRoomForItemText::										
+	text	No more room for			text	道具已經放不下了！		text	但是，<PLAYER>	But, <PLAYER> has	There’s no more room for that item!	已经拿不下了！	これ　いじょう　もてない！	これ　いじょう　もてない!
+	line	items!						line	已经拿不下道具了！	no more room for				
+	done				done			done		other items!				
+														
+_OaksAideHiText::				_OaksAideHiText::										
+	text	Hi! Remember me?			text	嗨！還記得我嗎？		text	你还记得我吗？	Hi! Remember me?	Hi! Remember me?	你还记得我吗？	ぼく　おぼえてます？	を　わたす　よう
+	line	I'm PROF.OAK's			line	我是大木博士的		line	是我呀……！	I'm PROF.OAK's	I’m one of Professor Oak’s assistants.	是我呀……！	ほら……！	はかせに　いわれ　ました
+	cont	AIDE!			cont	助手！		cont	我是大木博士的助手。	AIDE!				…　それでは　さっそく
+					para	大木博士吩咐我，等你		para	大木博士吩咐我，等你	If you caught @	The professor told me that if your Pokédex has	我是大木博士的助手。	オーキドはかせの　じょしゅ　です	 {PLAYER} くん!
+	para	If you caught @			line	捕捉到@		line	收集到@	hOaksAideRequirement, 1, 3 	good data on 50 species of Pokémon, I’m to			つかまえた　ポケモンは
+	text_decimal	hOaksAideRequirement, 1, 3 			text_decimal	hOaksAideRequirement, 1, 3 		text_decimal	hOaksAideRequirement, 1, 3 			大木博士吩咐我，	ポケモンずかんが　５０しゅるい	@ゴろ
+	text_start				text	種寶可夢時，		text	种宝可梦时，	kinds of #MON,	give you this [VAR COLOR(0006)]wonderful item[VAR COLOR(0000)].	等你收集到50种宝可梦时，	あつまってる　ようなら	
+	line	kinds of #MON,			cont	就把@		cont	就把@	I'm supposed to				
+	cont	I'm supposed to			text_ram	wOaksAideRewardItemName		text_ram	wOaksAideRewardItemName	give you an	So, [VAR TRNAME(0000)], let me ask you...	就把[VAR COLOR(0006)]赞赞的道具[VAR COLOR(0000)]交给你。	[VAR COLOR(0006)]すんばらしい　どうぐ[VAR COLOR(0000)]を　わたす　よう	
+	cont	give you an			text	交給你！		text	交给你！	@				
+	cont	@			para	那麼，<PLAYER>！		para	……那么，<PLAYER>！	wOaksAideRewardItemName	Have you gathered data on at least 50 species	……那么，[VAR TRNAME(0000)]！	はかせに　いわれ　ました	
+	text_ram	wOaksAideRewardItemName			line	你捕捉到的寶可夢		line	你捉到的宝可梦	!	of Pokémon?	你捉到的宝可梦		
+	text	!			cont	有@		cont	有@	So, <PLAYER>! Have			……それでは　さっそく	
+					text_decimal	hOaksAideRequirement, 1, 3 		text_decimal	hOaksAideRequirement, 1, 3 	you caught at		有50种以上吗？	[VAR TRNAME(0000)]さん！	
+	para	So, <PLAYER>! Have			text	種以上嗎？		text	种以上吗？	least @				
+	line	you caught at			done			done		hOaksAideRequirement, 1, 3 			つかまえた　ポケモンは	
+	cont	least @								 kinds of				
+	text_decimal	hOaksAideRequirement, 1, 3 								#MON?			５０しゅるい　より　おおい　かな？	
+	text	 kinds of												
+	cont	#MON?												
+	done													
+														
+_OaksAideUhOhText::				_OaksAideUhOhText::										
+	text	Let's see...			text	我看看……		text	……我看看！	Let's see...	Let’s see...	…………我看看！	…………えーと！	…　…　えーと!
+	line	Uh-oh! You have			line	你捕捉到的寶可夢……		line	你捕捉到的宝可梦……	Uh-oh! You have	Uh-oh! You’ve only caught [VAR NUM3(0004)] different species	你捕捉到的宝可梦……	つかまえた　ポケモンは……	つかまえた　ポケモンは…
+	cont	caught only @			cont	哎呀！		cont	啊呀呀？	caught only @				あれれー?
+	text_decimal	hOaksAideNumMonsOwned, 1, 3 			cont	才只有@		cont	还只有@	hOaksAideNumMonsOwned, 1, 3 	of Pokémon!	啊呀呀？	あれれー？	まだ　@ゴを
+	text_start				text_decimal	hOaksAideNumMonsOwned, 1, 3 		text_decimal	hOaksAideNumMonsOwned, 1, 3 					
+	cont	kinds of #MON!			text	種啊！		text	种啊！	kinds of #MON!	You’ve got to reach 30 species if you want	还只有[VAR NUM3(0004)]种啊！	まだ　[VAR NUM3(0004)]しゅるい　ですよ！	
+					para	必須有@		para	如果还没到@	You need @	the Judge function.			
+	para	You need @			text_decimal	hOaksAideRequirement, 1, 3 		text_decimal	hOaksAideRequirement, 1, 3 	hOaksAideRequirement, 1, 3 		如果还没到30种，	３０しゅるいに　たりない　なら	
+	text_decimal	hOaksAideRequirement, 1, 3 			text	種，		text	种，	 kinds		我只能以后再把评定功能交给你了。	ジャッジきのう　は	
+	text	 kinds			line	我才能把		line	我只能以后再把	if you want the				
+	line	if you want the			cont	@		cont	@	@			また　こんど　ですね	
+	cont	@			text_ram	wOaksAideRewardItemName		text_ram	wOaksAideRewardItemName	wOaksAideRewardItemName				
+	text_ram	wOaksAideRewardItemName			text	交給你了。		text	交给你了。	.				
+	text	.			done			done						
+	done													
+														
+_OaksAideComeBackText::				_OaksAideComeBackText::										
+	text	Oh. I see.			text	……這樣啊。		text	……这样啊。	Oh. I see.	...Oh. I see.	…………这样啊。	…………そう　ですか	ボン　ジュール!
+					para	等你捕捉到@		para	如果还没到@	When you get @				わたしは　このふねの　ボーイです
+	para	When you get @			text_decimal	hOaksAideRequirement, 1, 3 		text_decimal	hOaksAideRequirement, 1, 3 	hOaksAideRequirement, 1, 3 	When you get 50 species of Pokémon, come	如果还没到50种，	５０しゅるいに　たりない　なら	ごようを　なんなりと
+	text_decimal	hOaksAideRequirement, 1, 3 			text	種，		text	种，		back for this [VAR COLOR(0006)]wonderful item[VAR COLOR(0000)].	我只能以后再把[VAR COLOR(0006)]赞赞的道具[VAR COLOR(0000)]交给你了。	[VAR COLOR(0006)]すんばらしい　どうぐ[VAR COLOR(0000)]は	おもうしつけ　ください!
+	text_start				line	再來拿		line	我只能以后再把	kinds, come back				…　…　…
+	line	kinds, come back			cont	@		cont	@	for @			また　こんど　ですね	…　むくちな　かた　ですね
+	cont	for @			text_ram	wOaksAideRewardItemName		text_ram	wOaksAideRewardItemName	wOaksAideRewardItemName				
+	text_ram	wOaksAideRewardItemName			text	吧。		text	交给你了。	.				
+	text	.			done			done						
+	done													
+														
+_OaksAideHereYouGoText::				_OaksAideHereYouGoText::										
+	text	Great! You have			text	太好了！		text	……原来如此！	Great! You have	Great!	……原来如此！	………なるほど！	しゅるい　ですね!
+	line	caught @			line	你捕捉到的寶可夢		line	你捕捉到的宝可梦……	caught @	You have caught [VAR NUM3(0004)] species of Pokémon!	你捕捉到的宝可梦……	つかまえた　ポケモンは……	おめでとう!
+	text_decimal	hOaksAideNumMonsOwned, 1, 3 			cont	一共有@		cont	一共有@	hOaksAideNumMonsOwned, 1, 3 				それでは
+	text	 kinds			text_decimal	hOaksAideNumMonsOwned, 1, 3 		text_decimal	hOaksAideNumMonsOwned, 1, 3 	 kinds	Congratulations!	一共有[VAR NUM3(0004)]种啊！	[VAR NUM3(0004)]しゅるい　ですね！	これを　おわたし　します!
+	cont	of #MON!			text	種啊！		text	种啊！	of #MON!	Then here you go!			
+	cont	Congratulations!			cont	恭喜你！		cont	祝贺你了！	Congratulations!		祝贺你了！	おめでとう！	
+					para	這個就送給你吧！		para	那么这个就送给你了！	Here you go!				
+	para	Here you go!			prompt			prompt				那么这个就送给你了！	それでは	
+	prompt												これを　おわたし　します！	
+														
+_OaksAideGotItemText::				_OaksAideGotItemText::										
+	text	<PLAYER> got the			text	<PLAYER>得到了		text	<PLAYER>得到了	<PLAYER> got the	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	@			line	@		line	@	@	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	text_ram	wOaksAideRewardItemName			text_ram	wOaksAideRewardItemName		text_ram	wOaksAideRewardItemName	wOaksAideRewardItemName				…　シルフ　カンパニー
+	text	!@			text	！@		text	！@	!@		……西尔佛公司	……シルフカンパニー	
+	text_end				text_end			text_end						
+														
+_OaksAideNoRoomText::				_OaksAideNoRoomText::										
+	text	Oh! I see you			text	哎呀！		text	……虽说是这么想的，	Oh! I see you	Oh dear, I think I gave that poor guard too many	我送给警卫的深灰米果	けいびいん　さんに	　ぽ　ぽ　
+	line	don't have any			line	你好像已經放不下了。		line	但是行李已满了的话，	don't have any	Pewter Crunchies to eat...	好像是有点多了……	ニビあられを	
+	cont	room for the			para	@		para	@	room for the				
+	cont	@			text_ram	wOaksAideRewardItemName		text_ram	wOaksAideRewardItemName	@	They’re rather dry if you don’t have any tea or	看来如果没有茶的话，	さしいれ　しすぎ　ちゃったわ	
+	text_ram	wOaksAideRewardItemName			text_start			text_start		wOaksAideRewardItemName	anything to wash them down...	它似乎特别不好下咽呢。		
+	text	.			line	下次再給你吧。		line	就只能下次再给了。	.			やっぱり　おちゃが　ないと	
+	done				done			done					たべにくかった　かしらね	
+														
+_NurseChanseyText::				_NurseChanseyText::										
+	text	CHANSEY: Chaaan			text	吉利蛋：吉～利～！		text	吉利蛋：吉～利～！@	CHANSEY: Chaan!	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	sey!						text_end		Sii!@		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	done				done						D’aww... Failed again?			
+end				end										

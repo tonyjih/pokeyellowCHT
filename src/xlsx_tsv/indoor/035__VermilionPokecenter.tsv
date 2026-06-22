@@ -1,0 +1,21 @@
+text/VermilionPokecenter.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_VermilionPokecenterText2::				_VermilionPokecenterText2::										
+	text	Even if they are			text	即使是相同等級的寶可夢，		text	即使是相同等级的宝可梦，	Even if they are	Even if Pokémon are the same level, that doesn’t	即使是相同等级的宝可梦，	おなじ　レベルの　ポケモンでも	おなじ　レべルの　ポケモンでも
+	line	the same level,			line	能力好像也會參差不齊。		line	能力好像也会参差不齐。	the same level,	mean one is always as strong as another.	能力好像也会参差不齐。	つよさは　まちまち　らしい	つよさは　まちまち　らしい
+	cont	#MON can have			para	此外，聽說被人培育		para	此外，听说被人培育	#MON can have				それに　ひとが　そだてた
+	cont	very different			line	出來的寶可夢		line	出来的宝可梦	very different	But a weak Pokémon can get stronger the	不过，听说即使是弱小的宝可梦，	だが　よわい　ポケモンでも	ポケモンの　ほうが
+	cont	abilities.			cont	會比野生的更強。		cont	会比野生的更强。	abilities.	more Candies you give them...or so I hear.	只要给它们糖果，	アメを　あげれば	やせい　より　つよい　らしい
+					done			done		A #MON raised				
+	para	A #MON raised								by a trainer is		也可以使它们变强。	それだけ　つよく　なるらしい	
+	line	by a trainer is								stronger than one				
+	cont	stronger than one								in the wild.				
+	cont	in the wild.												
+	done													
+														
+_VermilionPokecenterText3::				_VermilionPokecenterText3::										
+	text	My #MON was			text	我的寶可夢中毒了，		text	我的宝可梦中毒了，	My #MON was	That Poké Ball over there...	你想要那边那个球是吗？	あの　アイテムボール	あの　アイテム　ボール
+	line	poisoned! It			line	就這樣帶著它走路的話		line	就这样带着它走路的话	poisoned! It	Were you wanting that?	…………我也想要啊！	ほしいって　おもった？	ほしいって　おもった?
+	cont	fainted while we			cont	力量也會逐漸降低的！		cont	力量也会逐渐降低的！	fainted while we				…　…　…　ぼくもさ!
+	cont	were walking!			done			done		were walking!	Well, so was I!	什么？那居然不是个球？	……　……ぼくもさ！	…　え　あれ　いきものなの?
+	done													
+end				end							...Huh? That’s actually a Pokémon?		……え　あれ　いきものなの？	

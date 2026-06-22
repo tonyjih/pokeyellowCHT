@@ -1,0 +1,52 @@
+text/Route1.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route1ViridianMartSampleText::				_Route1ViridianMartSampleText::										
+	text	Hi! I work at a			text	我是友好商店的店員。		text	我是友好商店的店员。	Hi! I work at a	Thanks for helping me out with that parcel!	刚才真是谢谢你了！	さっきは　ありがとう！	わたし　フレンドりィショップの
+	line	#MON MART.			para	友好商店裡		para	友好商店里	#MON MART.				てんいん　です
+					line	有各種好用的道具，		line	有各种好用的道具，	It's a convenient	The Poké Mart is a convenient chain selling	友好商店里	フレンドリィショップは	べんりな　どうぐや　ですから
+	para	It's a convenient			cont	請一定要來常青市		cont	请一定要来常青市	shop, so please	all sorts of items, so please come visit us!	有各种好用的道具，	べんりな　どうぐや　だからね	トキワ　シティで
+	line	shop, so please			cont	拜訪我們哦！		cont	拜访我们哦！	visit us in				ぜひ　よって　くださいね!
+	cont	visit us in			para	對了！		para	对了！	VIRIDIAN CITY.	Oh, I know! I’ll give you a sample.	请一定要来光临哦！	ぜひ　かいものに　きてね！	そうだ!
+	cont	VIRIDIAN CITY.			line	就送你一個試用品好了！		line	就送你一个试用品好了！	I know, I'll give	Here you go!			みほんを　さしあげましょう
+					cont	……請收下吧！		cont	……请收下吧！	you a sample!		对了！就送你一个试用品好了！	そうだ！　みほんを　あげよう	…　どうぞ!
+	para	I know, I'll give			prompt			prompt		Here you go!		……请收下吧！	……どうぞ！	
+	line	you a sample!												
+	cont	Here you go!												
+	prompt													
+														
+_Route1Text_1cae8::				_Route1Text_1cae8::										
+	text	<PLAYER> got			text	<PLAYER>得到了		text	<PLAYER>得到了	<PLAYER> got	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	@			line	@		line	@	@	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_ram	wStringBuffer			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer				
+	text	!@			text	！@		text	！@	!@				
+	text_end				text_end			text_end						
+														
+_Route1Text_1caee::				_Route1Text_1caee::										
+	text	We also carry			text	因為捕捉寶可夢而		text	因为捕捉宝可梦而	We also carry	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	# BALLs for			line	需要買精靈球的時候，		line	需要买精灵球的时候，	# BALLs for	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	catching #MON!			cont	隨時歡迎您光臨商店！		cont	随时欢迎您光临商店！	catching #MON!				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_Route1Text_1caf3::				_Route1Text_1caf3::										
+	text	You have too much			text	行李已滿了！		text	行李已满了！	You have too much	You have a Clefairy with you.	[VAR TRNAME(0000)]现在带着皮皮。	[VAR TRNAME(0000)]は	ムノﾞ7　　5ム
+	line	stuff with you!			done			done		stuff with you!	Do you want to show it to Copycat?	……要给她看看吗？	ピッピを　つれている	
+	done													
+													……みせて　みようか？	
+_Route1Text2::				_Route1Text2::										
+	text	See those ledges			text	看到路上的斷坡了吧！		text	看到路上的断坡了吧！	See those ledges	See those ledges along the road?	看到路上的断坡了吧！	みちに　だんさが　あるだろ！	みちに　だんさが　あるだろ!
+	line	along the road?			para	從上面往下跳，		para	从上面往下跳，	along the road?				とび　おりるのは
+					line	看上去確實挺可怕的……		line	看上去确实挺可怕的……	It's a bit scary,	It’s a bit scary, but you can hop down from them.	从上面往下跳，	とび　おりるのは	ちょっと　こわいけど…
+	para	It's a bit scary,			para	不過這樣可以		para	不过这样可以	but you can jump		看上去确实挺可怕的……	ちょっと　こわいけど……	マサラ　タウンに　かえる　ときは
+	line	but you can jump			line	快點回到真新鎮，		line	快点回到真新镇，	from them.	You’ll get back to Pallet Town quicker that way.			はやく　かえれて　いいよ
+	cont	from them.			cont	我覺得還不錯哦。		cont	我觉得还不错哦。	You can get back		不过这样可以快点回到真新镇，	マサラタウンに　かえる　ときは	
+					done			done		to PALLET TOWN		我觉得还不错哦。	はやく　かえれて　いいよ	
+	para	You can get back								quicker that way.				
+	line	to PALLET TOWN												
+	cont	quicker that way.												
+	done													
+														
+_Route1Text3::				_Route1Text3::										
+	text	ROUTE 1			text	這裡是１號道路		text	这里是１号道路	ROUTE 1	Route 1	这里是１号道路	ここは　１ばんどうろ	ここは　1ばん　どうろ
+	line	PALLET TOWN -			line	真新鎮　……　常青市		line	真新镇　……　常青市	PALLET TOWN -	(Pallet Town ⇄ Viridian City)	真新镇　……　常青市	マサラタウン　……　トキワシティ	マサラ　タウン　…　トキワ　シティ
+	cont	VIRIDIAN CITY			done			done		VIRIDIAN CITY				4
+	done													
+end				end										

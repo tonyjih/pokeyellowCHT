@@ -1,0 +1,181 @@
+text/Route13.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route13BattleText2::				_Route13BattleText2::										
+	text	My bird #MON			text	我的鳥寶可夢想		text	我的鸟宝可梦想	My bird #MON	ARCHER: What did I want you to think about me	阿波罗：写这种东西，	アポロ『こんな　ものを　かいて	こんな　とこ　まで　くる　とは
+	line	want to scrap!			line	和你們戰鬥錯不了！		line	和你们战斗错不了！	want to scrap!	by writing such a letter...?	我到底是希望你	おまえに　どう　おもって	きみも　マニア?　…　じゃ
+	done				done			done						ぼくの　コレクション　みる?
+											Humph.	对我有什么想法啊……	もらいたかった　のか……	
+_Route13EndBattleText2::				_Route13EndBattleText2::										
+	text	My			text	波波和比比鳥		text	波波和比比鸟	My	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	bird combo lost?			line	竟然在戰鬥中輸掉了。		line	竟然在战斗中输掉了。	bird combo lost?	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt				prompt			prompt						
+														
+_Route13AfterBattleText2::				_Route13AfterBattleText2::										
+	text	My #MON look			text	就算輸了，我的鳥寶可夢		text	就算输了，我的鸟宝可梦	My #MON look	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	happy even though			line	看起來也很滿足。		line	看起来也很满足。	happy even though	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	they lost.			done			done		they lost.				…　シルフ　カンパニー
+	done											……西尔佛公司	……シルフカンパニー	
+														
+_Route13BattleText3::				_Route13BattleText3::										
+	text	I'm told I'm good			text	別人都誇我是一個		text	别人都夸我是一个	I'm told I'm good	I’m told I’m good for a kid.	别人都夸我是一个	こどもに　しては	おんなのこに　しては
+	line	for a kid!			line	才華橫溢的女孩子！		line	才华横溢的女孩子！	for a kid!		才华横溢的孩子！	すじが　いいって　ほめられるの！	すじが　いいって　ほめられるの!
+	done				done			done						
+														
+_Route13EndBattleText3::				_Route13EndBattleText3::										
+	text	Ohh!			text	我輸了。		text	我输了。	Ohh!	Ohh!	我输了。	まけちゃった	トレーナーぞ
+	line	I lost!			prompt			prompt		I lost!	I lost!			きド5ま
+	prompt													
+														
+_Route13AfterBattleText3::				_Route13AfterBattleText3::										
+	text	I want to become			text	總有一天我要		text	总有一天我要	I want to become	I want to become a good Trainer.	总有一天我要成为一名强大的	いつかは	いつかは
+	line	a good trainer.			line	成為一名強大的訓練家。		line	成为一名强大的训练家。	a good trainer.	I’ll train hard—just watch.	训练家。所以从今天开始，	つよい　トレーナーに　なりたい	つよい　トレーナーに　なりたい
+	cont	I'll train hard.			cont	所以從今天開始，		cont	所以从今天开始，	I'll train hard.				きょうから　また　とっくんよ!
+	done				cont	我要再次開始特訓！		cont	我要再次开始特训！			我要再次开始特训！	きょうから　また　とっくんよ！	ゲ
+					done			done						
+_Route13BattleText4::				_Route13BattleText4::										
+	text	Wow! Your BADGEs			text	噢！		text	噢！	Wow! Your BADGEs	Wow!	噢！	おー！	あら!
+	line	are too cool!			line	你的徽章好酷啊。		line	你的徽章好酷啊。	are too cool!	Your Badges are too cool!	你的徽章好酷啊。	かっこいい　バッジ　もってるね	かっこいい　バッジ　もってるね
+	done				done			done						
+														
+_Route13EndBattleText4::				_Route13EndBattleText4::										
+	text	Not			text	看來我		text	输了！	Not	Oops, not enough money!	钱不够！	おかねが　たりないぞ！	おかねが　たりないぞ!
+	line	enough!			line	還差得遠哇！		prompt		good enough!				
+	prompt				prompt									
+														
+_Route13AfterBattleText4::				_Route13AfterBattleText4::										
+	text	You got those			text	你的那枚徽章……		text	你的那枚徽章……	You got those	You got those Badges from Gym Leaders.	你的那枚徽章……	そのバッジ……	そのバッジ…
+	line	BADGEs from GYM			line	是從道館館主那裡		line	是从道馆馆主那里	BADGEs from GYM	I know!	是从道馆馆主那里得到的吧。	ジムリーダー　から　もらったんだろ	りーダー　から　もらったんでしょ
+	cont	LEADERs. I know!			cont	得到的吧。		cont	得到的吧。	LEADERs. I know!				…　しってるわよ
+	done				cont	……我就知道是這樣。		cont	……我就知道是这样。			……我就知道是这样。	……しってるぞ	ゲ
+					done			done						
+_Route13BattleText5::				_Route13BattleText5::										
+	text	My cute #MON			text	我會讓我可愛的寶可夢們		text	我会让我可爱的宝可梦们	My cute #MON	My cute Pokémon wish to make	我会让我可爱的宝可梦们	かわいい　ポケモン　たちに	かわいい　ポケモン　たちに
+	line	wish to make your			line	好好招呼你們的！		line	好好招呼你们的！	wish to make your	your acquaintance.	好好招呼你们的！	ごあいさつを　させるわ！	ごあいさつを　させるわ!
+	cont	acquaintance.			done			done		acquaintance.				
+	done													
+														
+_Route13EndBattleText5::				_Route13EndBattleText5::										
+	text	Wow!			text	漂亮！		text	漂亮！	Wow!	Good going!	漂亮！	おみごと！	おみごと!
+	line	You totally won!			line	我輸得無話可說。		line	我输得无话可说。	You totally won!	You totally won!	我输得无话可说。	わたしの　かんぱいね	わたしの　かんぱいね
+	prompt				prompt			prompt						
+														
+_Route13AfterBattleText5::				_Route13AfterBattleText5::										
+	text	You have to make			text	要想讓寶可夢變強，		text	要想让宝可梦变强，	You have to make	You have to make Pokémon battle to toughen	要想让宝可梦变强，	ポケモンは　こうやって	ポケモンは　こうやって
+	line	#MON fight to			line	就得像這樣不斷戰鬥才行！		line	就得像这样不断战斗才行！	#MON fight to	them up.	就得像这样不断战斗才行！	どんどん　たたかわせて	どんどん　たたかわせて
+	cont	toughen them up!			done			done		toughen them up!				つよく　してかないと!
+	done												つよく　してかないと！	ゲ
+														
+_Route13BattleText6::				_Route13BattleText6::										
+	text	I found CARBOS in			text	我之前在山洞探險的時候，		text	我之前在山洞探险的时候，	I found CARBOS in	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	a cave once.			line	找到了一個速度增強劑。		line	找到了一个速度增强剂。	a cave once.	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	done				done			done						…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_Route13EndBattleText6::				_Route13EndBattleText6::										
+	text	Just			text	……可惜！		text	……可惜！	Just	Oh, too bad!	……可惜！	……ざんねん！	…　ざんねん!
+	line	messed up!			line	狀態沒起來。		line	状态没起来。	messed up!	I just messed up!	状态没起来。	ちょうしが　でなかった	ちょうしが　でなかったわ
+	prompt				prompt			prompt						
+														
+_Route13AfterBattleText6::				_Route13AfterBattleText6::										
+	text	CARBOS boosted			text	使用速度增強劑後，		text	使用速度增强剂后，	CARBOS boosted	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	the SPEED of my			line	寶可夢的速度就會提高。		line	宝可梦的速度就会提高。	the SPEED of my	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	#MON.			done			done		#MON.				…　シルフ　カンパニー
+	done											……西尔佛公司	……シルフカンパニー	
+														
+_Route13BattleText7::				_Route13BattleText7::										
+	text	The wind's blowing			text	我不會輸的！		text	我不会输的！	The wind's blowing	I’m not going to lose.	我不会输的！	まけないよ！　かぜは	まけないよ!　かぜは
+	line	my way!			line	風向現在向著我這一邊！		line	风向现在向着我这一边！	my way!	Not when the wind’s blowing my way!	风向现在向着我这一边！	ぼくの　ほうに　ふいて　いる！	ぼくの　ほうに　ふいて　いる!
+	done				done			done						
+														
+_Route13EndBattleText7::				_Route13EndBattleText7::										
+	text	The			text	……風向		text	……风向	The	The wind turned!	……风向好像变了。	……かざむきが	…　かざむきが
+	line	wind turned!			line	好像變了。		line	好像变了。	wind turned!			かわった　みたい　だな	かわった　みたい　だな
+	prompt				prompt			prompt						
+														
+_Route13AfterBattleText7::				_Route13AfterBattleText7::										
+	text	I'm beat. I guess			text	完全沒力氣戰鬥了。		text	完全没力气战斗了。	I'm beat. I guess	I’m beat.	完全没力气战斗了。	たたかう　げんきも　ないや	たたかう　げんきも　ないや
+	line	I'll FLY home.			line	還是騎鳥寶可夢迴家去吧。		line	还是骑鸟宝可梦回家去吧。	I'll FLY home.	I guess I’ll go home.	还是回家去吧。	もう　うちに　かえろう	とりに　のって　うちに　かえろう
+	done				done			done						ゲ
+														
+_Route13BattleText8::				_Route13BattleText8::										
+	text	Sure, I'll play			text	哎呀……要讓我		text	哎呀……要让我	Sure, I'll play	Sure, I’ll play with you, sweetie.	哎呀……要让姐姐我	あら……　おねえさんが	あら…　ぼうや
+	line	with you!			line	當你的對手也可以哦。		line	当你的对手也可以哦。	with you!		当你的对手也可以哦。	あいて　して　あげても　いいわよ	あいて　して　あげても　いいわよ
+	done				done			done						
+														
+_Route13EndBattleText8::				_Route13EndBattleText8::										
+	text	Oh!			text	很厲害呢！		text	很厉害呢！	Oh!	Oh!	哇！	わ！	
+	line	You little brute!			line	是個男子漢！		line	是个男子汉！	You little brute!	It suddenly snuggled up to you!	它突然靠了过来！	きゅうに　すりよってきた！	わ。
+	prompt				prompt			prompt						ちノゼそ
+											Will you pet its head?	要摸摸它的头吗？	あたまを　なでて　あげますか？	
+_Route13AfterBattleText8::				_Route13AfterBattleText8::										
+	text	I wonder which is			text	在寶可夢的世界中，		text	在宝可梦的世界中，	I wonder which is	I wonder which are stronger, male or	在宝可梦的世界中，	ポケモンの　せかい　では	ポケモンの　せかい　では
+	line	stronger, male or			line	雄性和雌性誰更厲害呢？		line	雄性和雌性谁更厉害呢？	stronger, male or	female Pokémon...	雄性和雌性谁更厉害呢？	オス　と　メス	オス　と　メス
+	cont	female #MON?			done			done		female #MON?				どちらが　つよいの　かしら
+	done												どちらが　つよいの　かしら	ゲ
+														
+_Route13BattleText9::				_Route13BattleText9::										
+	text	Do you want to			text	你想和我進行		text	你想和我进行	Do you want to	Do you want to battle some	你想和我进行	わたしと　ポケモン　したいの？	わたしと　ポケモン　したいの?
+	line	#MON with me?			line	寶可夢對戰嗎？		line	宝可梦对战吗？	#MON with me?	Pokémon with me?	宝可梦对战吗？		
+	done				done			done						
+														
+_Route13EndBattleText9::				_Route13EndBattleText9::										
+	text	It's over			text	……		text	……	It's over	It’s so pleasant...	真舒服……	きもち　いい……	おし!
+	line	already?			line	已經結束了呢。		line	已经结束了呢。	already?		……呼……呼～	……　すー……　すー	いい　しょうぶ　だった
+	prompt				prompt			prompt			... ... ...			
+														
+_Route13AfterBattleText9::				_Route13AfterBattleText9::							... ... Zzz.			
+	text	I don't know			text	其實我不太懂寶可夢。		text	其实我不太懂宝可梦。	I don't know	I don’t know anything about Pokémon, actually.	其实我不太懂宝可梦。	わたし　ほんとは　ポケモン	わたし　ほんとは　ポケモン
+	line	anything about			line	使用的寶可夢也是		line	使用的宝可梦也是	anything about	I picked the ones I use for their looks!	使用的宝可梦也是	よく　わからないの	よく　わからないの
+	cont	#MON. I just			cont	根據外表來決定的。		cont	根据外表来决定的。	#MON. I just				つかう　ポケモンも
+	cont	like cool ones!			done			done		like cool ones!		根据外表来决定的。	つかう　ポケモンも	かっこう　だけで　きめちゃうのよ
+	done													ゲ
+													かっこう　だけで　きめちゃうのよ	
+_Route13BattleText10::				_Route13BattleText10::										
+	text	What're you			text	幹嘛啊！煩不煩啊！		text	干嘛啊！烦不烦啊！	What're you	What’re you lookin’ at?	干嘛啊！烦不烦啊！	っだよ！　っせーな！	っだよ!　っせーな!
+	line	lookin' at?			done			done		lookin' at?				
+	done													
+														
+_Route13EndBattleText10::				_Route13EndBattleText10::										
+	text	Dang!			text	真是的！		text	真是的！	Dang!	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	Stripped gears!			line	開什麼玩笑！		line	开什么玩笑！	Stripped gears!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt				prompt			prompt						
+														
+_Route13AfterBattleText10::				_Route13AfterBattleText10::										
+	text	Get lost!			text	煩不煩啊！		text	……好懒啊……想睡了，	Get lost kid!	Argh!	输了，输了。	まけた　まけた	まけた　まけた
+	done				line	一邊去！		line	真麻烦啊……！	I'm bushed!	Lost! Get lost!	结束了，再见。	おわりだ　じゃあな	おわりだ　じゃあな
+					done			done						
+_Route13BattleText11::				_Route13BattleText11::										
+	text	I always go with			text	一直以來，		text	一直以来，	I always go with	I always go with bird Pokémon.	一直以来，	ずーッと　とりポケモンに	ずーッと　とり　ポケモンに
+	line	bird #MON!			line	我只鍾情於鳥寶可夢！		line	我只钟情于鸟宝可梦！	bird #MON!	I’ve dedicated myself to them.	我只钟情于鸟宝可梦！	こだわって　きた　ぼくです！	こだわって　きた　ぼくです!
+	done				done			done						
+														
+_Route13EndBattleText11::				_Route13EndBattleText11::										
+	text	Out			text	我盡力了……		text	我尽力了……	Out	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	of power!			prompt			prompt		of power!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt													
+														
+_Route13AfterBattleText11::				_Route13AfterBattleText11::										
+	text	I wish I could			text	啊……我好想		text	啊……我好想	I wish I could	I wish I could fly like Pidgey and Pidgeotto...	啊……我好想像	あーあ……　ぼくも	あーあ…　ぼくも
+	line	fly like PIDGEY			line	像波波和比比鳥那樣		line	像波波和比比鸟那样	fly like PIDGEY		波波和比比鸟那样	ポッポや　ピジョンの　ように	ポッポや　ピジョンの　ように
+	cont	and PIDGEOTTO...			cont	在天空飛翔啊。		cont	在天空飞翔啊。	and PIDGEOTTO...				そらを　とんで　いきたい
+	done				done			done				在天空飞翔啊。	そらを　とんで　いきたい	
+														
+_Route13Text11::				_Route13Text11::										
+	text	TRAINER TIPS			text	……有用的公告牌！		text	……有用的公告牌！	TRAINER TIPS	Trainer Tips	……有用的公告牌！	……おとくな　けいじばん！	…　おとくな　けいじばん!
+					para	沒錯沒錯！		para	没错没错！	Look to the left				そこ　そこ!
+	para	Look to the left			line	就是柵欄的另外一邊！		line	就是栅栏的另外一边！	of that post!	Look! Right there!	没错没错！	そこ　そこ！	くいを　はさんで　ひだり　がわ
+	line	of that post!			done			done			Look on the other side of that fenced area!	就是栅栏的另外一边！	さくを　はさんで　はんたいがわ	
+	done													
+														
+_Route13Text12::				_Route13Text12::										
+	text	TRAINER TIPS			text	……有用的公告牌！		text	……有用的公告牌！	TRAINER TIPS	Trainer Tips	……有用的公告牌！	……おとくな　けいじばん！	…　おとくな　けいじばん!
+					para	按下SELECT鍵，		para	按下SELECT键，	Use SELECT to				どうぐ　ウィンドウで
+	para	Use SELECT to			line	可以更改道具列表中，		line	可以更改道具列表中，	switch items in	Sort the items in your Bag using the Y Button!	按Y键可以	バッグの　どうぐは	セレクト　ボタンを　おすと
+	line	switch items in			cont	道具的位置！		cont	道具的位置！	the ITEM window!	You can filter your TMs, too. It’s really handy!	整理包包里的道具！	Ｙボタンで　せいり　できる！	どうぐの　ばしょを
+	cont	the ITEM window!			done			done						いれかえる　ことが　できる!
+	done											还可以筛选招式学习器！	わざマシンの　しぼりこみも	
+														
+_Route13Text13::				_Route13Text13::								真是太方便了！	できて　べんり！	
+	text	ROUTE 13			text	這裡是１３號道路		text	这里是１３号道路	ROUTE 13	Route 13	这里是13号道路	ここは　１３ばんどうろ	ここは　12ばん　どうろ
+	line	North to SILENCE			line	往北　……　寂靜橋		line	往北　……　寂静桥	North to SILENCE	(North to Silence Bridge)	往北　……　寂静桥	きた　……　サイレンズブリッジ	きた　…　シオン　タウン
+	cont	BRIDGE			done			done		BRIDGE				
+	done													
+end				end										

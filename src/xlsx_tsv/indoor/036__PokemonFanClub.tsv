@@ -1,0 +1,181 @@
+text/PokemonFanClub.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+PikachuFanText::				PikachuFanText::										
+	text	Won't you admire			text	快看！我們家的皮皮，		text	快看！我们家的皮卡丘，	Won't you admire	Would you look at my Pikachu’s adorable tail?	快看！我们家的皮卡丘，	みてよ！　うちの　ピカチュウ	みてよ!　うちの　ピッピ
+	line	my CLEFAIRY's			line	尾巴多可愛啊！		line	尾巴多可爱啊！	my PIKACHU's		尾巴多可爱啊！	なんて　かわいい　しっぽ！	なんて　かわいい　しっぽ!
+	cont	adorable tail?			done			done		adorable tail?				
+	done													
+														
+PikachuFanBetterText::				PikachuFanBetterText::										
+	text	Humph! My CLEFAIRY			text	別胡說！		text	别胡说！	Humph! My PIKACHU	Hmph!	别胡说！	なにを！	なにを!
+	line	is twice as cute			line	我們家的皮皮		line	我们家的皮卡丘	is twice as cute				うちの　ピッピの　ほうが
+	cont	as that one!			cont	比你的可愛百倍！		cont	比你的可爱百倍！	as that one!	My Pikachu is twice as cute as that one!	我们家的皮卡丘	うちの　ピカチュウの　ほうが	その　ばいは　かわいい　わい!
+	done				done			done				比你的可爱百倍！	その　ばいは　かわいい　わい！	
+														
+PikachuFanPrintText::				PikachuFanPrintText::										
+	text	Our CHAIRMAN's new			text	最近，會長喜歡上了			さいきん　ポケモンの　しゃしんを		There’s an old research file.	这里放着很久以前的	ふるい　けんきゅう　ファイルが	こんちわ!
+	line	hobby is taking			line	拍攝寶可夢的照片，			とって　はる　のが			研究资料。	おいてある	ぼく　ポケモン…!
+	cont	#MON photos.			cont	然後把它貼在牆上這件事。			かいちょうの　おきにいり　なんだ		It has a photo of a cute Pokémon and			…　ちゃうわい!
+											a strong-looking Pokémon.	这是一只可爱的宝可梦和一只	かわいい　ポケモンと	わいは　マサキ!
+	para	He gave me a nice			para	他也幫我列印了一張			ぼくも　ピッピちゃんの　しゃしんを			看上去很厉害的宝可梦的照片啊。	つよそうな　ポケモンの　しゃしんだ	ひと　よんで　ポケモンマニアや!
+	line	PRINT of my cute			line	皮皮的照片呢。			プりントして　もらったよ		The rest is all graphs...			あッ　なんや　そのめは?
+	cont	CLEFAIRY.										剩下的全是些图表了。	あとは　グラフ　ばっかり……	あんさん　しんよう　してへんな
+	done				done									ホントやで!
+														じっけんに　しっぱい　して
+SeelFanText::				SeelFanText::										ポケモンと　くっついて　もうたんや
+	text	I just love my			text	我可愛的小海獅呀！		text	我可爱的小海狮呀！	I just love my	I just adore my Seel!	我可爱的小海狮呀！	あたしの　いとしい　パウワウ！	あたしの　いとしい　パウワウ!
+	line	SEEL!			para	每當我抱緊它，		para	每当我抱紧它，	SEEL!	It’s so lovable!			だきしめると
+					line	它都會Ｑ～地這樣叫呢！		line	它都会Ｑ～地这样叫呢！	It squeals when I		每当我抱紧它，	だきしめると	きゅー!　って　なくのよ!
+	para	It squeals when I			done			done		hug it!	It squeals “Keeew!” when I hug it!	它都会Ｑ～地这样叫呢！	きゅー！　って　なくのよ！	
+	line	hug it!												
+	done													
+														
+SeelFanBetterText::				SeelFanBetterText::										
+	text	Oh dear!			text	噢呵呵！		text	噢呵呵！	Oh dear!	Oh dear!	噢呵呵！	おほほ！	おほほ!
+					para	我的小海獅		para	我的小海狮	My SEEL is far				あたしの　パウワウの　ほうが
+	para	My SEEL is far			line	比你的可愛百倍！		line	比你的可爱百倍！	more attractive!	My Seel is far more attractive.	我的小海狮	あたしの　パウワウの　ほうが	その　ばいは　かわいいわよ!
+	line	more attractive!			done			done			Easily double, I would say.	比你的可爱百倍！	その　ばいは　かわいいわよ！	
+	done													
+														
+SeelFanPrintText::				SeelFanPrintText::										
+	text	I'm going to hook			text	我也要使用連線線，			わたしも　ケーブルを　つないで		Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	up the cable to			line	把小海獅的照片列印出來！			パウワウちゃんの　しゃしんを		Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	get a photo PRINT							プりントして　もらうの!					…　シルフ　カンパニー
+	cont	of my SEEL!										……西尔佛公司	……シルフカンパニー	
+	done				done									
+														
+FanClubPikachuText::				FanClubPikachuText::										
+	text	CLEFAIRY: Pippii!			text	皮皮：皮～皮			ピッピ『ぴっぴー		Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	done				done							给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+											D’aww... Failed again?			
+FanClubSeelText::				FanClubSeelText::										
+	text	SEEL: Kyuoo!			text	小海獅：Ｑ～		text	小海狮：Ｑ～	SEEL: Kyuoo!	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	done				done			done				给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+											D’aww... Failed again?			
+FanClubMeetChairText::				FanClubMeetChairText::										
+	text	I chair the			text	寶可夢發燒友俱樂部的會長					I’m the chairman of the Pokémon Fan Club!	宝可梦发烧友俱乐部的会长	ポケモン　だいすき　クラブの	ポケモン　だいすき　クラブの
+	line	#MON Fan Club!			line	正是老夫！					I raise more than a hundred Pokémon!	正是老夫！	かいちょうは　わし　じゃ！	かいちょうは　わし　じゃ!
+														だいじに　しとるポケモンは
+	para	I have more than			para	老夫疼愛的寶可夢			だいじに　しとるポケモンは		I’m very fussy when it comes to Pokémon!	老夫手里的宝可梦	もってる　ポケモンは	100ぴきを　こえとる!
+	line	100 #MON. I			line	已經超過了１００隻！			100ぴきを　こえとる!		I surely am!	已经超过了100只！	１００ぴきを　こえとる！	ポケモンに　かんしては
+	cont	love them all!												ホント　うるさい!　ですぞ!
+											So...	要老夫说起宝可梦的事，	ポケモンに　かんしては	で…
+	para	I'm very fussy			para	要老夫說起寶可夢的事，						那可是三天三夜都说不完哇！	ホント　うるさい！　ですぞ！	きみは　わしの　ポケモン　じまんを
+	line	when it comes to			line	那可是三天三夜					Did you come visit to hear about			ききに　きたの　かね?
+	cont	#MON!			cont	都說不完哇！					my Pokémon?	于是乎……	で……	
+														
+	para	So...			para	於是乎……						你一定是来这里倾听老夫	きみは　わしの　ポケモン　じまんを	
+												炫耀那些赞赞的宝可梦的吧？	ききに　きたの　かね？	
+	para	Did you come to			para	你一定是來這裡傾聽老夫								
+	line	hear me brag			line	炫耀那些贊讚的								
+	cont	about my #MON?			cont	寶可夢的吧？								
+	done				done									
+														
+FanClubChairStoryText::				FanClubChairStoryText::										
+	text	Good!			text	果然是吧！		text	果然是吧！	Good!	Strong Pokémon from other Trainers will listen	训练家的手中	バッジを　もってる	…　…　と　おもった　けど
+	line	Then listen up!			line	那老夫就開始嘍！		line	那老夫就开始喽！	Then listen up!	to you if you have enough Badges!	持有的徽章数越多，	かずが　おおい　ほど	にもつが　いっぱい　だから
+					para	那啥……那就先介紹		para	那啥……那就先介绍	My favorite				@
+	para	My favorite			line	老夫鍾愛的烈焰馬吧……		line	老夫钟爱的烈焰马吧……	RAPIDASH...	The level limit increases by 10 levels for each	即使是从别人手中得到的	ひとから　もらった　ポケモンが	
+	line	RAPIDASH...			para	……它呀……就是……		para	……它呀……就是……	It...cute...	Badge you have.	等级高的宝可梦也会变得听话。	つよくても　いうことを　ききます	
+					line	……可愛的唷……		line	……可爱的唷……	lovely...smart...				
+	para	It...cute...			cont	了不得哇……唔……		cont	了不得哇……唔……	plus...amazing...	If you have one Badge, Pokémon up to Lv. 20	持有１个徽章时上限为等级20，	１つ　もってると　レベル２０まで	
+	line	lovely...smart...			cont	……而且它啊……		cont	……而且它啊……	you think so?...	will listen to you...if you have two Badges,	持有２个徽章时上限为等级30，	２つ　もってると　レベル３０まで　と	
+	cont	plus...amazing...			cont	棒棒的…………		cont	棒棒的…………	oh yes...it...				
+	cont	you think so?...			cont	……你也這麼覺得嗎……		cont	……你也这么觉得吗……	stunning...	Pokémon up to Lv. 30 will listen to you...	就像这样以10个等级为单位增加。	１０ずつ　レベルが　ふえていきます	
+	cont	oh yes...it...			cont	為啥噢……太喜歡了……		cont	为啥噢……太喜欢了……	kindly...				
+	cont	stunning...			cont	……哈～！		cont	……哈～！	love it!	and so on.	如果持有全部徽章，	ぜんぶの　バッジが　あれば　すべての	
+	cont	kindly...			para	抱一抱唷……		para	抱一抱唷……	Hug it...when...		所有的宝可梦都会乖乖听话哦。	ポケモンが　いうことを　ききます	
+	cont	love it!			line	……它睡覺的時候哇……		line	……它睡觉的时候哇……	sleeping...warm	Once you have all the Badges, Pokémon of any			
+					cont	……對吧！		cont	……对吧！	and cuddly...	level will give you their full attention!			
+	para	Hug it...when...			cont	……藝術品啊……！		cont	……艺术品啊……！	spectacular...				
+	line	sleeping...warm			cont	優美到飛天……		cont	优美到飞天……	ravishing...				
+	cont	and cuddly...			cont	…………哎喲！		cont	…………哎哟！	...Oops! Look at				
+	cont	spectacular...			cont	已經到這個點了！		cont	已经到这个点了！	the time! I kept				
+	cont	ravishing...			cont	老夫說得太多嘍！		cont	老夫说得太多喽！	you too long!				
+	cont	...Oops! Look at			para	你聽老夫稱讚寶可夢		para	你听老夫称赞宝可梦	Thanks for hearing				
+	cont	the time! I kept			line	聽得還挺有耐心的哇！		line	听得还挺有耐心的哇！	me out! I want				
+	cont	you too long!			cont	…收下老夫的一點心意吧！		cont	…收下老夫的一点心意吧！	you to have this!				
+					prompt			prompt						
+	para	Thanks for hearing												
+	line	me out! I want												
+	cont	you to have this!												
+	prompt													
+														
+ReceivedBikeVoucherText::				ReceivedBikeVoucherText::										
+	text	<PLAYER> received			text	<PLAYER>從會長那裡		text	<PLAYER>从谜之训练家	<PLAYER> received	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	a @			line	得到了@		line	那里得到了@	a @	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	text_ram	wStringBuffer			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer				…　シルフ　カンパニー
+	text	!@			text	！@		text	！@	!@		……西尔佛公司	……シルフカンパニー	
+	text_end				text_end			text_end						
+														
+ExplainBikeVoucherText::				ExplainBikeVoucherText::										
+	text_start				text_start			text_start			MISTY: I heard an interesting rumor!	小霞：我听到传闻了！听说你	カスミ『うわさは　きいたわ！	 {next} 
+	para	Exchange that for			para	用那張兌換券可以		para	用那张兑换券可以	Exchange that for	Not only did you and that other kid defeat	和另一个孩子不但战胜了火箭队，	きみや　あのこが	@
+	line	a BICYCLE!			line	免費得到一輛腳踏車！		line	免费得到一辆自行车！	a BICYCLE!				 {PLAYER}  {RIVAL} ポケモン
+					para	因為老夫所鍾愛的大嘴雀		para	因为老夫所钟爱的大嘴雀	Don't worry, my	those Team Rocket guys, but you also	还互相争夺了联盟冠军是吧。	ロケットだんを　たおして	…
+	para	Don't worry, my			line	可以帶老夫飛到		line	可以带老夫飞到	FEAROW will FLY				
+	line	FEAROW will FLY			cont	任何想去的地方，		cont	任何想去的地方，	me anywhere!	met again in the battle for Champion.	……我啊！简直是	チャンピオンを　きそい　あったって	 {TARGET}  {USER}  {5B}  {5C} トレーナーロケットだん
+	cont	me anywhere!			para	所以老夫並不需要		para	所以老夫并不需要	So, I don't need a		心痒痒到不行了呢！		
+					line	腳踏車哇！		line	自行车哇！	BICYCLE!	Argh!		……わたし！　もう	
+	para	So, I don't need a			para	腳踏車就隨你		para	自行车就随你	I hope you like	I just can’t take it anymore!	我真的忍不住想快点和	うずうずして　しょうが　ないの	
+	line	BICYCLE!			line	喜歡地去騎吧！		line	喜欢地去骑吧！	cycling!		变强的你再次对战了！		
+					done			done			You’ve gotten so strong that I just absolutely		つよくなった　きみと　もういちど	
+	para	I hope you like									have to battle you again!	你应该不会对我说“不”吧！	たたかって　みたくて　たまらない！	
+	line	cycling!												
+	done										You got that? No refusing!		いやとは　いわない　わよね！	
+														
+FanClubNoStoryText::				FanClubNoStoryText::										
+	text	Oh. Come back			text	你說啥……太掃興了。		text	你说啥……太扫兴了。	Oh. Come back	Oh. Come back when you want to	你说啥……太扫兴了。	なんじゃ……　つまらん	なんじゃ…　つまらん
+	line	when you want to			line	想聽的時候記得回來聽啊！		line	想听的时候记得回来听啊！	when you want to	hear my story!	想听的时候记得回来听啊！	きく　きに　なったら　きてくれい！	きく　きに　なったら　きてくれい!
+	cont	hear my story!			done			done		hear my story!				
+	done													
+														
+FanClubChairFinalText::				FanClubChairFinalText::										
+	text	Hello, <PLAYER>!			text	那啥～說你呢～		text	那啥～说你呢～	Hello, <PLAYER>!	Hello, [VAR TRNAME(0000)]!	那啥～说你呢～[VAR TRNAME(0000)]啊！	やー　やー　[VAR TRNAME(0000)]！	やー　やー　 {PLAYER} くん!
+					para	<PLAYER>啊！		para	<PLAYER>啊！	Did you come see				また　わしの　ポケモン　じまんを
+	para	Did you come see			para	又想來聽老夫介紹		para	又想来听老夫介绍	me about my	Did you come see me about my Pokémon again?	又想来听老夫介绍	また　わしの　ポケモン　じまんを	ききに　きたの　かね!
+	line	me about my			line	引以為豪的寶可夢了吧！		line	引以为豪的宝可梦了吧！	#MON again?		引以为豪的宝可梦了吧！	ききに　きたの　かね！	…　え　ちがう?
+	cont	#MON again?			para	……啥？不是？		para	……啥？不是？	No? Too bad!	No?			なんじゃ…　つまらん
+					line	什麼嘛……真沒意思……		line	什么嘛……真没意思……		Too bad!	……啥？不是？	……え　ちがう？	
+	para	No? Too bad!			done			done				什么嘛……真没意思……	なんじゃ……　つまらん	
+	done													
+														
+FanClubBagFullText::				FanClubBagFullText::										
+	text	Make room for			text	行李已滿了呢！		text	行李已满了呢！	Make room for	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	this!			done			done		this!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done													
+														
+FanClubChairPrintText1::				FanClubChairPrintText1::										
+	text	Hi there, <PLAYER>!			text	哎呀，<PLAYER>！			やー　やー　 {PLAYER} くん!		OAK: I’ll stop you right there, son!	大木博士：真是拿你没办法！	オーキド『こらこら！　それは	…　おとくな　けいじばん!
+	line	Have you seen my			line	你看過我的寶可夢照片嗎？			わしの　ポケモンの　しゃしん		Those Berries are for Pokémon to eat, not you!	那是给宝可梦吃的东西！	ポケモンが　たべる　もんじゃ！	ポケモンを　つかまえる　ときは
+	cont	#MON photos?							みて　くれた　かね?					なるべく　よわらせてから!
+											When you want to catch a Pokémon, try throwing	捕捉宝可梦时……	ポケモンを　つかまえる　とき……	ポケモンが　げんきだと
+	para	I have them framed			para	快看，			ほれ!　そこの　かべに		one of those at your target before you take a			にげるかも　しれないよ!
+	line	up on that wall.			line	就貼在那邊的牆上呢！			はって　あるだろう!			在准备精灵球之前	ボールを　かまえる　まえに	
+											Poké Ball in hand.	投出蔓莓果的话，	ズリのみを　ポイっと　なげれば	
+	para	Ah, I know!			para	對了！			そうだ!					
+											You’ll find that wild Pokémon will be so happy to	宝可梦就会变得高兴，	ポケモンが　よろこんで	
+	para	Would you like me			para	要不要給你列印一張			きみの　ポケモンの　しゃしんを		have a Berry to nibble on that they’ll become			
+	line	to take a photo			line	你的寶可夢的照片呢？			プりントさせて　くれんかね?			这样也就更容易捉到了唷！	ぐっと　つかまえ　やすく　なる！	
+	cont	of your #MON?									much easier for you to catch!			
+	done				done									
+														
+FanClubChairPrintText2::				FanClubChairPrintText2::										
+	text	No? That's really			text	什麼呀，			なんじゃ　		You!	喂……！	あなた……！	あなた…!
+	line	disappointing.			line	那可真遺憾呢～			ざんねん　じゃのー		It’s really dangerous here!	这里很危险的！	ここは　あぶないわよ！	ここは　あぶないわよ!
+	done				done									たすけに　きた?
+											You came to save me?	什么？你是来救我的？	たすけに　きた？	…　だめよ
+FanClubChairPrintText3::				FanClubChairPrintText3::							You can’t!			
+	text	OK, I'm done.			text	完成了哦。			おわったよ		Hiya!	您好！	こんちわ！	こんちわ!
+	done				done						I’m a Pokémon...	我是宝可梦……！	ぼく　ポケモン……！	サファり　ゲームは　はじめて?
+														
+FanClubChairPrintText4::				FanClubChairPrintText4::							N-no! I mean—!	……错！	……ちゃうわい！	
+	text	Maybe we won't			text	那就不列印了吧。			プりントは　やめておこうかね		Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	PRINT this now.									Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	done				done									…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_FanClubText6::				_FanClubText6::										
+	text	Our CHAIRMAN is			text	我們會長		text	我们会长	Our Chairman is	Our chairman is very outspoken when it comes	我们会长	うちの　かいちょうは	うちの　かいちょうは
+	line	very vocal about			line	對寶可夢非常講究！		line	对宝可梦非常讲究！	very vocal about	to his opinions about Pokémon.	对宝可梦非常讲究！	ホント　ポケモンに　うるさいの！	ホント　ポケモンに　うるさいの!
+	cont	#MON.			done			done		#MON.				ゼ
+	done													
+end				end										

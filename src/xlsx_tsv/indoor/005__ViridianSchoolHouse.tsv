@@ -1,0 +1,22 @@
+text/ViridianSchoolHouse.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SchoolText1::				_SchoolText1::										
+	text	Whew! I'm trying			text	呼～		text	呼～	Whew! I'm trying	Whew! I’m trying to memorize all my notes.	呼～	ふー	ふー
+	line	to memorize all			line	我要把筆記裡的所有內容		line	我要把笔记里的所有内容	to memorize all		我要把笔记里的所有内容	ノートの　なかの　こと	ノートの　なかの　こと
+	cont	my notes.			cont	都清清楚楚地記住！		cont	都清清楚楚地记住！	my notes.				わたし　ぜんぶ　おぼえるの
+	done				done			done				都清清楚楚地记住！	わたし　ぜんぶ　おぼえるの	ゲギぶ
+														
+_SchoolText3::				_SchoolText3::										
+	text	Sis says #MON			text	姐姐說過，			おねえちゃんが　いってたけど		...You’re a smart man. I’m sure you can imagine	……既然你说不想做，	……やらない　って　いうなら	ときどき　ニビシティまで
+	line	will become tame			line	如果好好對待寶可夢，			ポケモンって　だいじに　してると		what will happen to your people if you say no	那也就是说你不在乎	おまえの　しゃいん　たちが	おかいものに　いきますけど
+	cont	if you treat them			cont	它們就會和你變得親近呢。			なついて　くれるんだって					トキワのもり　って
+	cont	nicely.									to me now.	你那些员工们的死活了？	どうなっても　いいんだな？	みちが　まがり　くねってるのよ
+	done				done									
+														
+_SchoolText2::				_SchoolText2::										
+	text	Okay!			text	沒錯！		text	没错！	Okay!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+					para	要好好閱讀		para	要好好阅读	Be sure to read	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	para	Be sure to read			line	黑板上寫的內容啊！		line	黑板上写的内容啊！	the blackboard				…　シルフ　カンパニー
+	line	the blackboard			done			done		carefully!		……西尔佛公司	……シルフカンパニー	
+	cont	carefully!												
+	done													
+end				end										

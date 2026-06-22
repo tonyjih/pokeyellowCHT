@@ -1,0 +1,257 @@
+text/CinnabarGym.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_BlainePreBattleText::				_BlainePreBattleText::										
+	text	Hah!			text	嘿～～～！		text	嘿～～～！	Hah!	There’s an email on the screen of the PC...	电脑里	パソコンに	 {5B} に
+					para	我就是熊熊燃燒的男人——		para	我就是熊熊燃烧的男人——	I am BLAINE! I		收到了一封邮件！	メールが　とどいてる！	でんしメールが　とどいてる!
+	para	I am BLAINE! I			line	紅蓮島寶可夢道館的夏伯！		line	红莲岛宝可梦道馆的夏伯！	am the LEADER of	“Articuno, Zapdos, and Moltres are all			…　…　…
+	line	am the LEADER of			para	我的寶可夢全部都是		para	我的宝可梦全部都是	CINNABAR GYM!	legendary bird Pokémon. This we know.	火焰鸟、闪电鸟和急冻鸟	ファイヤー　サンダー　フリーザーは	でんせつの　とりポケモンは
+	cont	CINNABAR GYM!			line	經歷過烈火燃燒		line	经历过烈火燃烧	My fiery #MON		是传说的鸟宝可梦。	でんせつの　とりポケモンです	3しゅるい…　ファイヤー
+					cont	重重淬鍊的勇者！		cont	重重淬炼的勇者！	will incinerate	“Yet their exact whereabouts are still unknown.			サンダー　フりーザー…
+	para	My fiery #MON			para	嘿～～～！		para	嘿～～～！	all challengers!	We will be investigating the Cerulean Cave next	可是现在依然没有人知晓	しかし　どこに　いるのか	しかし　どこに　いるのか
+	line	will incinerate			line	灼傷藥都準備好了吧！		line	灼伤药都准备好了吧！	Hah! You better		究竟能在哪里遇到它们。	まだ　わかって　ません	まだ　わかって　ません
+	cont	all challengers!			done			done		have BURN HEAL!	and will report back accordingly.			こんど　ハナダ　どうくつに
+												接下来我们将	こんど　ハナダのどうくつに	ちょうさに　いきます
+	para	Hah! You better									       — The Pokémon Research Team”	前去华蓝洞窟调查。	ちょうさに　いきます	…　まずは　ほうこく　まで
+	line	have BURN HEAL!												ポケモン　ちょうさ　たい
+	done											总之先报告到这里。	まずは　ほうこく　まで	…　…　…
+												……宝可梦调查队敬上	……ポケモン　ちょうさ　たい	
+_ReceivedVolcanoBadgeText::				_ReceivedVolcanoBadgeText::										
+	text	I have			text	我已經燃燒殆盡了！		text	我已经燃烧殆尽了！	I have	What’s this? I see you have a strong-looking	嗯？你的[VAR PKNAME(0000)]	ん？　つよそうな	ん　
+	line	burnt out!			para	你正是！		para	你正是！	burnt out!	[VAR PKNAME(0000)]!	看起来很厉害呢。	[VAR PKNAME(0000)]　もってるね	ゼせき7ぼしみマイ
+					line	獲得深紅徽章的不二人選！@		line	获得深红徽章的不二人选！@	You have earned				
+	para	You have earned			text_end			text_end		the VOLCANOBADGE!@	Why don’t you have it battle my	要不要来和我的	ぼくの　[VAR PKNAME(0000)]と	
+	line	the VOLCANOBADGE!@									[VAR PKNAME(0000)]?	[VAR PKNAME(0000)]比比！？	しょうぶ　しないかい！？	
+	text_end													
+														
+_BlainePostBattleAdviceText::				_BlainePostBattleAdviceText::										
+	text	FIRE BLAST is the			text	雖然大家都管這個招式		text	虽然大家都管这个招式	FIRE BLAST is the	Fire Blast is an attack to be shown the	虽然大家都管这个招式	この　わざを　みんなは	この　わざを　みんなは
+	line	ultimate fire			line	叫作“大字燒燒”，		line	叫作“大字烧烧”，	ultimate fire	utmost respect.	叫作“大字烧烧”，	だいもんじやき　と　よんでるが	だいもんじやき　と　よんでるが
+	cont	technique!			cont	但這是灰常不對的！		cont	但这是灰常不对的！	technique!				そりゃ　まちがいだ!
+					para	在正規場合應該把它叫作		para	在正规场合应该把它叫作	Don't waste it on	Don’t waste it on Water-type Pokémon.	但这是灰常不对的！	そりゃ　まちがいだ！	ほんば　きょうと　では
+	para	Don't waste it on			line	“大字爆炎”或者		line	“大字爆炎”或者	water #MON!				だいもんじ　とか　おくりび　と
+	line	water #MON!			cont	“送神之火”！		cont	“送神之火”！			在正规场合应该把它叫作	ほんば　では　だいもんじ　とか	よんで　いるのだ!
+	done				done			done				“大字爆炎”或者“送神之火”！	おくりび　と　よんで　いるのだ！	
+														
+_BlaineVolcanoBadgeInfoText::				_BlaineVolcanoBadgeInfoText::										
+	text	Hah!			text	對——了！		text	对——了！	Hah!	Yo!	嗨～！	おーす！	おーす!
+					para	只要持有這枚深紅徽章，		para	只要持有这枚深红徽章，	The VOLCANOBADGE	Champ in the making!	未来的冠军！	みらいの　チャンピオン！	みらいの　チャンピオン!
+	para	The VOLCANOBADGE			line	就有能提高寶可夢的		line	就有能提高宝可梦的	heightens the				ポケモン　りーグ　してんのうは
+	line	heightens the			cont	特殊能力的效果！		cont	特殊能力的效果！	SPECIAL abilities	At the Pokémon League, you will face the	这里的规则是	ポケモンリーグ　してんのうは	4にん　つづけて
+	cont	SPECIAL abilities			para	還有！你就收下		para	还有！你就收下	of your #MON!	Elite Four all in a row.	要连续打败４位	４にん　つづけて	しょうぶ　する　ルールだ!
+	cont	of your #MON!			line	這個招式學習器吧！		line	这个招式学习器吧！	Here, you can				まけたら　ひとりめ　から
+					done			done		have this too!	If you lose, you have to start all over again!	宝可梦联盟四天王！	しょうぶ　する　ルールだ！	やりなおしに　なるぞ!
+	para	Here, you can									This is it! Go for it!			これが　さいごだ!　がんばれよ!
+	line	have this too!										要是输了就必须从头来过！	まけたら　ひとりめ　から	
+	done											已经走到最后了！加油吧！	やりなおしに　なるぞ！	
+														
+_ReceivedTM38Text::				_ReceivedTM38Text::									これが　さいごだ！　がんばれよ！	
+	text	<PLAYER> received			text	<PLAYER>從夏伯那裡		text	<PLAYER>从谜之训练家	<PLAYER> received	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	@			line	得到了@		line	那里得到了@	a @	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_ram	wStringBuffer			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer				
+	text	!@			text	！@		text	！@	!@				
+	text_end				text_end			text_end						
+														
+_TM38ExplanationText::				_TM38ExplanationText::										
+	text_start				text_start			text_start			TM46 contains Fire Blast, a red-hot	招式学习器46是	わざマシン４６は	は
+					para	招式學習器３８是		para	招式学习器３８是	TM38 contains	Fire-type move!	“大字爆炎”这个炽热的强大招式！	もえる　おおわざ！　だいもんじ！	もえる　おおわざ!　だいもんじ!
+	para	TM38 contains			line	“大字爆炎”		line	“大字爆炎”	FIRE BLAST!				だいもんじは
+	line	FIRE BLAST!			cont	這個熾熱的強大招式！		cont	这个炽热的强大招式！	Teach it to fire-	Teach it to Fire-type Pokémon.	你可以把大字爆炎	だいもんじは	ほのお　タイプの　ポケモン!
+					para	你可以把大字爆炎		para	你可以把大字爆炎	type #MON!		教给火属性的宝可梦！	ほのお　タイプの　ポケモン！	ロコンや　りザードに
+	para	Teach it to fire-			line	教給火屬性的寶可夢！		line	教给火属性的宝可梦！	CHARMELEON or	Vulpix or Charmeleon would be ideal.			おぼえさせると　よいぞ!
+	line	type #MON!			para	讓六尾或者火恐龍		para	让六尾或者火恐龙	PONYTA would be		让六尾或者火恐龙	ロコンや　リザードに	
+					line	學會它一定沒錯！		line	学会它一定没错！	good bets!		学会它一定没错！	おぼえさせると　よいぞ！	
+	para	CHARMELEON or			done			done						
+	line	PONYTA would be												
+	cont	good bets!												
+	done													
+														
+_TM38NoRoomText::				_TM38NoRoomText::										
+	text	Make room for my			text	行李已滿了！		text	行李已满了！	Make room for my	Sweet! This kid says he’ll trade me a Kangaskhan	太好了！	やったー！	やったー!
+	line	gift!			done			done		gift!	for my Haunter!			となりのこが　ゴーストと　ガルーラ
+	done											旁边的小鬼说他要用袋兽	となりのこが　ゴーストと　ガルーラ	こうかん　してくれるって!
+												来交换我的鬼斯通呢！	こうかん　してくれるって！	
+_CinnabarGymBattleText2::				_CinnabarGymBattleText2::										
+	text	Do you know how			text	你知道寶可夢噴出的火		text	你知道宝可梦喷出的火	Do you know how	Do you know how hot Pokémon	你知道宝可梦喷出的火	ポケモンが　はく　ほのおの　おんど	ポケモンが　はく　ほのおの　おんど
+	line	hot #MON fire			line	溫度有多高嗎？		line	温度有多高吗？	hot #MON fire	fire breath can get?	温度有多高吗？	どの　くらいか　しってる？	どの　くらいか　しってる?
+	cont	breath can get?			done			done		breath can get?				
+	done													
+														
+_CinnabarGymEndBattleText2::				_CinnabarGymEndBattleText2::										
+	text	Yow!			text	……好燙！		text	……好烫！	Yow!	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	Hot, hot, hot!			line	被燒到了。		line	被烧到了。	Hot, hot, hot!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt				prompt			prompt						
+														
+_CinnabarGymAfterBattleText2::				_CinnabarGymAfterBattleText2::										
+	text	Fire, or to be			text	燃燒這個反應呢，說的就是		text	燃烧这个反应呢，说的就是	Fire, or to be	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	more precise,			line	空氣中的氧氣啊……		line	空气中的氧气啊……	more precise,	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	combustion...			para	這樣那樣……		para	这样那样……	combustion...				…　シルフ　カンパニー
+					line	嗚哩嘛哩。		line	呜哩嘛哩。	Blah, blah, blah,		……西尔佛公司	……シルフカンパニー	
+	para	Blah, blah, blah,			done			done		blah...				
+	line	blah...												
+	done													
+														
+_CinnabarGymBattleText1::				_CinnabarGymBattleText1::										
+	text	I was a thief, but			text	俺曾經是個強盜，		text	俺曾经是个强盗，	I was a thief, but	Recently I was a coach, but I realized that being	最近常听人提起教练什么的，	さいきんは　やれコーチだ	くっ…!
+	line	I became straight			line	但是俺已經金盆洗手，		line	但是俺已经金盆洗手，	I became straight	an Ace Trainer was best!	但还是精英训练家最棒了！	なんだと　いうが　やはり	やはり　わたしが　やぶれたか
+	cont	as a trainer!			cont	在此開始了俺的修行。		cont	在此开始了俺的修行。	as a trainer!				
+	done				done			done					エリートトレーナーが　いちばんだ！	
+														
+_CinnabarGymEndBattleText1::				_CinnabarGymEndBattleText1::										
+	text	I			text	我輸了！		text	我输了！	I	I’ll shock you into surrender!	Me可以让everyone	みんな　ビリビリ　シビれさせて	シオン　タウンで
+	line	surrender!			prompt			prompt		surrender!		浑身麻麻的feel！	あげ　マース！	ゆうれい　ポケモンが　でるって
+	prompt													みんな　さわいでるよ
+														
+_CinnabarGymAfterBattleText1::				_CinnabarGymAfterBattleText1::										
+	text	I can't help			text	俺只要一看到		text	俺只要一看到	I can't help	I can’t face my followers after being defeated	以这样的方式输给你，	このような　まけかたを　しては	ちょうのうりょくは　かぎられた
+	line	stealing other			line	別人的寶可夢，就會產生		line	别人的宝可梦，就会产生	stealing other	like this.	我确实没有办法向部下交代！	ぶかたちに　しめしが　つかない！	ひとの　ちから　では　ないわ!
+	cont	people's #MON!			cont	把它偷過來的衝動！		cont	把它偷过来的冲动！	people's #MON!				だれでも　もってるのよ!
+	done				done			done			Team Rocket is...	火箭队……	ロケットだんは……	ただ　それに　きが　つかない　だけ
+												就从今天起正式解散！	ほんじつを　もって　かいさんする！	
+_CinnabarGymBattleText3::				_CinnabarGymBattleText3::							As of today, Team Rocket is finished!			
+	text	You can't win!			text	你贏不了對寶可夢		text	你赢不了对宝可梦	You can't win!	You can’t carry any more Pewter Crunchies!	装不下更多的深灰米果了！？	もう　ニビあられ　もてないよ！？	おきゃくさん　もう　もてないよ@ゼ@
+	line	I have studied			line	徹底研究過的我的！		line	彻底研究过的我的！	I have studied	Why do you have so many?	你怎么带了这么多！？	なんで　そんなに　もってるの！？	
+	cont	#MON totally!			done			done		#MON totally!				
+	done										...Please eat them!	……吃完再来买呗！？	……ちゃんと　たべて！？	
+														
+_CinnabarGymEndBattleText3::				_CinnabarGymEndBattleText3::										
+	text	Waah!			text	……！		text	……！	Waah!	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	My studies!			line	還要研究更多呀。		line	还要研究更多呀。	My studies!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt				prompt			prompt						
+														
+_CinnabarGymAfterBattleText3::				_CinnabarGymAfterBattleText3::										
+	text	My theories are			text	複雜的話		text	复杂的话	My theories are	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	too complicated			line	對你說了你也聽不懂。		line	对你说了你也听不懂。	too complicated	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	for you!			done			done		for you!				…　シルフ　カンパニー
+	done											……西尔佛公司	……シルフカンパニー	
+														
+_CinnabarGymBattleText4::				_CinnabarGymBattleText4::										
+	text	I just like using			text	我只是因為喜歡		text	我只是因为喜欢	I just like using	I just adore my Seel!	我可爱的小海狮呀！	あたしの　いとしい　パウワウ！	あたしの　いとしい　パウワウ!
+	line	fire #MON!			line	才使用火寶可夢的！		line	才使用火宝可梦的！	fire #MON!	It’s so lovable!			だきしめると
+	done				done			done				每当我抱紧它，	だきしめると	きゅー!　って　なくのよ!
+											It squeals “Keeew!” when I hug it!	它都会Ｑ～地这样叫呢！	きゅー！　って　なくのよ！	
+_CinnabarGymEndBattleText4::				_CinnabarGymEndBattleText4::										
+	text	Too hot			text	……燃起來了！		text	……燃起来了！	Too hot	A touch too much to handle!	果然厉害！	さすが　つよい！	さすが　つよい!
+	line	to handle!			prompt			prompt		to handle!				
+	prompt													
+														
+_CinnabarGymAfterBattleText4::				_CinnabarGymAfterBattleText4::										
+	text	I wish there was			text	咱的夢想……？		text	咱的梦想……？	I wish there was	LORELEI: Welcome to the Pokémon League!	科拿：欢迎来到宝可梦联盟！	カンナ『ポケモンリーグへ　ようこそ！	
+	line	a thief #MON!			line	要是有小偷寶可夢的話，		line	要是有小偷宝可梦的话，	a thief #MON!				　ぽ　ぽ　
+	cont	I'd use that!			cont	真想用用看哪——！		cont	真想用用看哪——！	I'd use that!	Hey, fantastic timing! I was just thinking how	你来的正好！	ちょうど　よかったわ	
+	done				done			done			I’d like to battle you.	我正想着要和你对战呢！	あなたと　たたかい　たいと	
+														
+_CinnabarGymBattleText5::				_CinnabarGymBattleText5::							I hope you’re ready.	好了，你做好觉悟了吧！	おもって　いた　ところよ！	
+	text	I know why BLAINE			text	我知道夏伯		text	我知道夏伯	I know why BLAINE	Do you know why Blaine became a Trainer?	你知道夏伯	カツラが　ポケモン　はじめた	おれは　カツラが　ポケモン
+	line	became a trainer!			line	成為訓練家的契機！		line	成为训练家的契机！	became a trainer!		成为训练家的契机是什么吗？	きっかけを　しってるか？	はじめた　きっかけを　しってるぜ
+	done				done			done						
+														
+_CinnabarGymEndBattleText5::				_CinnabarGymEndBattleText5::										
+	text	Ow!			text	哎呀！		text	哎呀呀，	Ow!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			line	我不行了。	Stomped flat!	Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+								prompt						4ャよひ
+_CinnabarGymAfterBattleText5::				_CinnabarGymAfterBattleText5::										つ {PLAYER}  {PLAYER} 
+	text	BLAINE was lost			text	館主夏伯在登山途中		text	馆主夏伯在登山途中	BLAINE was lost	Blaine got lost in the mountains while hiking.	夏伯在登山途中遇到山难时，	カツラが　やま　のぼりで	りーダーの　カツラが
+	line	in the mountains			line	遇到山難時，		line	遇到山难时，	in the mountains	When night fell, a fiery bird Pokémon appeared.	有一只燃烧着的鸟宝可梦飞来，	そうなん　したとき	やま　のぼりで　そうなん　したとき
+	cont	when a fiery bird			cont	有一隻燃燒著的		cont	有一只燃烧着的	when a fiery bird				くらい　やまみちを　てらして
+	cont	#MON appeared.			cont	鳥寶可夢飛來，		cont	鸟宝可梦飞来，	#MON appeared.	Its light allowed Blaine to find his way down	帮他照亮了漆黑的山路！	くらい　やまみちを　てらして	ひのとり　ポケモンが　とんでった!
+					cont	幫他照亮了漆黑的山路！		cont	帮他照亮了漆黑的山路！	Its light enabled	to safety.			その　おかげで　カツラは　ぶじ
+	para	Its light enabled			para	就因為這樣，		para	就因为这样，	BLAINE to find		就因为这样，	ひのとりポケモンが　とんでった！	やまを　おりることが　できたのさ
+	line	BLAINE to find			line	夏伯最後才能平安下山。		line	夏伯最后才能平安下山。	his way down!		夏伯最后才能平安下山。		ゲへ
+	cont	his way down!			done			done					その　おかげで　カツラは　ぶじ	
+	done												やまを　おりることが　できたのさ	
+														
+_CinnabarGymBattleText6::				_CinnabarGymBattleText6::										
+	text	I've been to many			text	我去過許多道館，		text	我去过许多道馆，	I've been to many	I’ve been to many Gyms, but this one best suits	我去过许多道馆，	いろんな　ジムに　いったけど	いろんな　ジムに　いったけど
+	line	GYMs, but this is			line	感覺這座道館才是		line	感觉这座道馆才是	GYMs, but this is	my style.	感觉这座道馆才是最适合我的。	おいらには　ここが　あってるねえ	おいらには　ここが　あってるねえ
+	cont	my favorite!			cont	最適合我的。		cont	最适合我的。	my favorite!				
+	done				done			done						
+														
+_CinnabarGymEndBattleText6::				_CinnabarGymEndBattleText6::										
+	text	Yowza!			text	好、		text	好、	Yowza!	Yowza!	好、好火热的战斗。	あー　あつかった	あー　あつかった
+	line	Too hot!			line	好火熱的戰鬥。		line	好火热的战斗。	Too hot!	Too hot!			
+	prompt				prompt			prompt						
+														
+_CinnabarGymAfterBattleText6::				_CinnabarGymAfterBattleText6::										
+	text	Us fire #MON			text	火屬性寶可夢的話，		text	火属性宝可梦的话，	Us fire #MON	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	fans like PONYTA			line	烈焰馬、九尾這一些		line	烈焰马、九尾这一些	fans like PONYTA	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	and NINETALES!			cont	比較受歡迎。		cont	比较受欢迎。	and NINETALES!				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_CinnabarGymBattleText7::				_CinnabarGymBattleText7::										
+	text	Fire is weak			text	要說火的弱點，		text	要说火的弱点，	Fire is weak	Is my Pokémon weak?	宝可梦太弱了？	ポケモンが　よわいのか	ポケモンが　よわいのか
+	line	against H2O!			line	就是H2O了！		line	就是H2O了！	against H2O!	Or am I just bad?	还是我的水平太低……？	ぼくの　うでが　わるいのか……	ぼくの　うでが　わるいのか…
+	done				done			done						どっちだと　おもう?
+											Which do you think?	你觉得是哪方面的原因？	どっちだと　おもう？	
+_CinnabarGymEndBattleText7::				_CinnabarGymEndBattleText7::										
+	text	Oh!			text	軟弱無力……		text	软弱无力……	Oh!	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	Snuffed out!			prompt			prompt		Snuffed out!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt													
+														
+_CinnabarGymAfterBattleText7::				_CinnabarGymAfterBattleText7::										
+	text	Water beats fire!			text	確實，火比水弱！		text	确实，火比水弱！	Water beats fire!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	But, fire melts			line	但是因為能融化冰，		line	但是因为能融化冰，	But, fire melts	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	ice #MON!			cont	所以比冰寶可夢要強哦。		cont	所以比冰宝可梦要强哦。	ice #MON!				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_CinnabarGymGuidePreBattleText::				_CinnabarGymGuidePreBattleText::										
+	text	Yo! Champ in			text	嗨～！		text	嗨～！	Yo! Champ in	Yo!	嗨～！	おーす！	おーす!
+	line	making!			line	未來的冠軍！		line	未来的冠军！	making!	Champ in the making!	未来的冠军！	みらいの　チャンピオン！	みらいの　チャンピオン!
+					para	熱血的夏伯是一位		para	热血的夏伯是一位	The hot-headed				アドバイス　しよう!
+	para	The hot-headed			line	火屬性的專家！		line	火属性的专家！	BLAINE is a fire	Misty, the Gym Leader of the Cerulean City	这华蓝道馆的馆主小霞	ここ　ハナダジムの　リーダー	ここの　りーダー　カスミは
+	line	BLAINE is a fire			para	那麼這邊就用水		para	那么这边就用水	#MON pro!	Gym, is a powerful Trainer!	拥有不可小觑的实力！	カスミは　なかなかに　つよい！	みずに　すむ　ポケモンを　つかう
+	cont	#MON pro!			line	來讓他冷卻下來！		line	来让他冷却下来！	Douse his spirits				プロフェッショナルだ!
+					para	另外，多帶些灼傷藥		para	另外，多带些灼伤药	with water!	You’ll need a Pokémon of [VAR COLOR(0006)]at least Lv. 15[VAR COLOR(0000)] if you	如果训练家没有[VAR COLOR(0006)]等级15以上[VAR COLOR(0000)]的宝可梦，	[VAR COLOR(0006)]レベル１５　いじょう[VAR COLOR(0000)]の　ポケモンを	こんな　ときは　しょくぶつ　タイプで
+	para	Douse his spirits			line	會比較好哦！		line	会比较好哦！	You better take	want to challenge her Gym!	就没有资格向她发起挑战哦！	もった　トレーナー　でないと	みずを　すいとる　さくせんだ
+	line	with water!			done			done		some BURN HEALs!				…　それか　でんき　タイプで
+													ちょうせんが　みとめ　られないぞ！	しびれ　させるのも　いいぜ
+	para	You better take												
+	line	some BURN HEALs!												
+	done													
+														
+_CinnabarGymGuidePostBattleText::				_CinnabarGymGuidePostBattleText::										
+	text	<PLAYER>! You beat			text	<PLAYER>！你贏了嗎！		text	<PLAYER>！你赢了吗！	<PLAYER>! You beat	You two young friends beat Team Rocket?	听说赶走火箭队的	ロケットだん　やっつけたの	ロケットだん　やっつけたの
+	line	that fire brand!			line	夏伯確實是個熱血沸騰的		line	夏伯确实是个热血沸腾的	that fire brand!	That’s amazing!	居然是小孩子……真是厉害了！	こどもたち　だって……　すごいな	たった　ひとり　だって…　すごいな
+	done				cont	大叔吧！		cont	大叔吧！					
+					done			done						
+_CinnabarGymText_1::				_CinnabarGymText_1::										
+	text	This GYM is also			text	這座道館，			ここは　べつめい　クイズジム!		Yo!	嗨～！	おーす！	 {RIVAL} 『よおーッ!　 {PLAYER} !
+	line	known as the QUIZ			line	又稱猜謎道館！					Champ in the making!	未来的冠军！	みらいの　チャンピオン！	 {PLAYER} も　きたか!
+	cont	GYM.												…　はッはッ　うれしいぜ!
+											Surprised by all the glitz and glam? Saffron City	惊讶于这灿烂的光辉吗？	きらびやかで　おどろいたか？	ライバルの　おまえが　よわいと
+	para	You have to take a			para	要想挑戰夏伯，			カツラに　ちょうせん　するなら		is the biggest city in Kanto, and its Gym gets			はりあい　ないからな!
+	line	quiz if you want			line	就要回答猜謎問題！			クイズに　こたえて　もらいやす!			作为关都地区最大的城市，	カントーちほう　いちばんの	おれは　ずかん　あつめ　ながら
+	cont	to see BLAINE.									its fair share of challengers, too!	前来挑战金黄道馆的人也特别多！	とかい　ヤマブキシティ　ジムには	かんぺきな　ポケモンを　さがした!
+														いろんな　タイプの　ポケモンに
+	para	You don't have to			para	回答正確的話，			せいかいの　あとで　おいらたちと		You’ll need to have a Pokémon that’s [VAR COLOR(0006)]at least[VAR COLOR(0000)]	如果训练家还没有	ちょうせんしゃも　おおい！	かち　まくる　ような
+	line	fight us if you			line	是否要和我們戰鬥			たたかうのは　じゆう　でさ!		[VAR COLOR(0006)]Lv. 45[VAR COLOR(0000)] if you want to stand any chance.	[VAR COLOR(0006)]等级45以上[VAR COLOR(0000)]的宝可梦，		コンビネーションを　さがした!
+	cont	get it right.			cont	就由你來決定了！							[VAR COLOR(0006)]レベル４５　いじょう[VAR COLOR(0000)]の　ポケモンを	…　そして　いま!
+	done				done						Well? Do you have one?	那就没有继续前进的资格了！	もっている　くらいの	おれは　ポケモン　りーグの
+														ちょうてんに　いる!
+_CinnabarGymText_2::				_CinnabarGymText_2::								你的情况如何呢？	つよい　トレーナー　でないと	 {PLAYER} !
+	text	Think you can do			text	你知道正確答案嗎？			きみに　せいかいが　わかるかな?		Go on, [VAR 010C(0000)]!	去吧！[VAR 010C(0000)]！	いっておいで！　[VAR 010C(0000)]！	トレーナーぞ
+	line	it?									I know you can do it!		この　さきには　すすめないぜ！	きド5ま
+	done				done									…　わかった!　おしえてやる!
+													おまえは　どうだ？	この　おれさまが!
+_CinnabarGymText_3::				_CinnabarGymText_3::										せかいで　いちばん!
+	text	This one's tricky!			text	這問題還挺難的！			むずかしい　もんだい　だぜ!		It’s so pleasant...	真舒服……	きもち　いい……	おし!
+	done				done							……呼……呼～	……　すー……　すー	いい　しょうぶ　だった
+											... ... ...			
+_CinnabarGymText_4::				_CinnabarGymText_4::										
+	text	#MON enjoy			text	寶可夢也喜歡猜謎呢！			ポケモンも　クイズも　すきなのさ		“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	quizzes too!									2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done									
+														
+_CinnabarGymText_5::				_CinnabarGymText_5::										
+	text	I like it here at			text	猜謎道館，			クイズジムって　いいね		Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	QUIZ GYM.			line	我可太喜歡了。					Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	done				done									…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_CinnabarGymText_6::				_CinnabarGymText_6::										
+	text	This is the last			text	這是最後一問。			さいごの　クイズだよ		This Pokémon Gym is always closed...	不管什么时候来，	いつ　きても	いつ　きても
+	line	question.										这里的道馆总是关着门……	この　ポケモンジムは　しまっとる	この　ポケモン　ジムは　しまっとる
+	done				done						I wonder who the Gym Leader is...			いったい　どんな　ヤツが
+												不知道这里的馆主	いったい　どんな　ヤツが	りーダーを　しとるんじゃろか?
+_CinnabarGymText_7::				_CinnabarGymText_7::								究竟是怎样的家伙啊？	リーダーを　しとるんじゃろか？	
+	text	Come on, answer			text	來回答問題吧！			クイズに　こたえろ!		Hey! You have Pokémon, right?	嗨！	よーしッ！	よーしッ!
+	line	the question!									Come on!	你有宝可梦的吧？	きみは　ポケモン　もってるな？	きみは　ポケモン　もってるな?
+	done				done									しょうぶ　しようぜ!
+end				end							Let’s battle ’em!	我们来对战！	しょうぶ　しようぜ！	

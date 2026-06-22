@@ -1,0 +1,14 @@
+text/Route2Gate.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route2GateText_5d616::				_Route2GateText_5d616::										
+	text	The HM FLASH			text	使用秘傳招式“閃光”後，		text	使用秘传招式“闪光”后，	The HM FLASH	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	lights even the			line	無論怎樣黑暗的地點		line	无论怎样黑暗的地点	lights even the	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	darkest dungeons.			cont	都能立刻變得明亮。		cont	都能立刻变得明亮。	darkest dungeons.				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_Route2GateText2::				_Route2GateText2::										
+	text	Once a #MON			text	讓寶可夢學會閃光的話，		text	让宝可梦学会闪光的话，	Once a #MON	If you’re aiming to reach Lavender Town,	你要是想去紫苑镇的话，	シオンタウンへ　むかうなら	ムノﾞ7　　5ム
+	line	learns FLASH, you			line	就能通過岩山隧道了呢。		line	就能通过岩山隧道了呢。	learns FLASH, you	go through the Rock Tunnel.	从岩山隧道走是个不错的路线哦！	イワヤマトンネルを　ぬけるといいよ	
+	cont	can get through			done			done		can get through				
+	cont	ROCK TUNNEL.								ROCK TUNNEL.	You can get to the Rock Tunnel from	从华蓝市出发，	ハナダシティから　なら	
+	done										Cerulean City.	就能到达岩山隧道了！	イワヤマトンネルに　いけるよ	
+end				end										

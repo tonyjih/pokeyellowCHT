@@ -1,0 +1,171 @@
+text/VermilionCity.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_VermilionCityText1::				_VermilionCityText1::										
+	text	We're careful			text	我每次運動之後		text	我每次运动之后	We're careful	The trick is this...	做法就是……	やりかたは……	はっはッ!
+	line	about pollution!			line	都會流好多汗，		line	都会流好多汗，	about pollution!				はーッ　はっ　はッ!
+					cont	整個人臭得跟臭泥一樣！		cont	整个人臭得跟臭泥一样！	We've heard GRIMER	Hrrrkh! You grit your teeth as hard as you can!	先站稳了！	しっかと！	…　はァ　はァ…
+	para	We've heard GRIMER			para	你知道嗎？據說臭泥		para	你知道吗？据说臭泥	multiplies in	...If you’ve got ’em...	咬紧牙关，蓄满力道！	はァ　くいしばって　いっきに！	ゲ
+	line	multiplies in			line	是從大海中的淤泥裡		line	是从大海中的淤泥里	toxic sludge!				
+	cont	toxic sludge!			cont	誕生的呢！		cont	诞生的呢！		Then all at once, just let ’er rip!			
+	done				done			done						
+														
+_VermilionCityTextDidYouSee::				_VermilionCityTextDidYouSee::										
+	text	Did you see S.S.			text	你瞅見沒！		text	你瞅见没！	Did you see S.S.	Did you see it?	你瞅见没！	みたかね！　いま　みなとに	アンヌごう　という
+	line	ANNE moored in			line	港口那開來一艘叫做		line	港口那开来一艘叫做	ANNE moored in	The S.S. Anne is in the harbor right now!	港口那开来一艘叫做	サント・アンヌごう　という	ふねが　きとるぞ!
+	cont	the harbor?			cont	“聖特安努號”的遊輪唷！		cont	“圣特安努号”的游轮唷！	the harbor?				
+	done				done			done				“圣特安努号”的游轮唷！	ふねが　きとるぞ！	
+														
+_VermilionCityTextSSAnneDeparted::				_VermilionCityTextSSAnneDeparted::										
+	text	So, S.S.ANNE has			text	噢！你是說聖特安努號		text	噢！你是说圣特安努号	So, S.S.ANNE has	So the S.S. Anne has departed?	噢！你是说	おお！　サント・アンヌごう	アンヌごう
+	line	departed!			line	已經出發了是嗎！		line	已经出发了是吗！	departed!		圣特安努号已经出发了是吗！	しゅっぱつ　して　いったか！	しゅっぱつ　して　いったか!
+					para	它下次來枯葉市		para	它下次来枯叶市	She'll be back in	I guess she’ll be back in Vermilion Port about this			つぎに　クチバに　くる　のは
+	para	She'll be back in			line	就是明年的這個時候嘍……		line	就是明年的这个时候喽……	about a year.	time next year...	它下次来枯叶市	つぎに　クチバに　くる　のは	らいねんの　いまごろ　じゃな…
+	line	about a year.			done			done				就是明年的这个时候喽……	らいねんの　いまごろ　じゃな……	ゲ4ウらひ
+	done													
+														
+_SSAnneWelcomeText4::				_SSAnneWelcomeText4::										
+	text	Welcome to S.S.			text	歡迎您搭乘					Welcome to the S.S. Anne!	欢迎您搭乘圣特安努号！	ようこそ　サント・アンヌごうへ！	トレーナーぞ
+	line	ANNE!			line	聖特安努號！								きド5ま
+	done				done									
+														
+_SSAnneWelcomeText9::				_SSAnneWelcomeText9::										
+	text	Welcome to S.S.			text	歡迎乘坐		text	欢迎乘坐	Welcome to S.S.	Welcome to the S.S. Anne!	欢迎乘坐圣特安努号！	ようこそ　サント・アンヌごうへ！	アンヌ　ごうへ!
+	line	ANNE!			line	聖特安努號！		line	圣特安努号！	ANNE!				ちょっと　まって!
+					para	請等一下，		para	请等一下，	Excuse me, do you	But not so fast!	请等一下，	ちょっと　まって！	おきゃくさん　チケットは?
+	para	Excuse me, do you			line	這位乘客，您的船票呢？		line	这位乘客，您的船票呢？	have a ticket?	Do you have a ticket, young [VAR GENDBR(00FF,0406)]fellowlady?	这位乘客，您的船票呢？	おきゃくさん　チケットは？	
+	line	have a ticket?			prompt			prompt						
+	prompt													
+														
+_SSAnneFlashedTicketText::				_SSAnneFlashedTicketText::										
+	text	<PLAYER> flashed			text	<PLAYER>向船員		text	<PLAYER>向船员	<PLAYER> flashed	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	the S.S.TICKET!			line	出示了船票！		line	出示了船票！	the S.S.TICKET!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+					para	好的！可以了！		para	好的！可以了！	Great! Welcome to				…　シルフ　カンパニー
+	para	Great! Welcome to			line	歡迎您乘坐聖特安努號！		line	欢迎您乘坐圣特安努号！	S.S.ANNE!		……西尔佛公司	……シルフカンパニー	
+	line	S.S.ANNE!			done			done						
+	done													
+														
+_SSAnneNoTicketText::				_SSAnneNoTicketText::										
+	text	<PLAYER> doesn't			text	<PLAYER>向船員		text	<PLAYER>向船员	<PLAYER> doesn't	There’s a notice posted by the Vermilion Police...	……这里贴着一张告示！	……おしらせの　チラシだ！	…　おしらせの　チラシだ!
+	line	have the needed			line	出示了船票！		line	出示了船票！	have the needed				さいきん…　12ばん　どうろに
+	cont	S.S.TICKET.			para	然而並沒有船票！		para	然而并没有船票！	S.S.TICKET.	“A sleeping Pokémon has been blocking	最近在12号道路出没的瞌睡宝可梦	さいきん……　１２ばんどうろに	いねむり　ポケモンが　しゅつぼつ
+					para	非常抱歉！		para	非常抱歉！	Sorry!	the way on Route 12 lately. Detour through	可能会导致行人无法通行！	いねむりポケモンが　しゅつぼつ	とおれない　ことが　あります!
+	para	Sorry!			para	要乘坐本船，		para	要乘坐本船，	You need a ticket				そういう　とき　シオン　タウンへ
+					line	您必須擁有船票。		line	您必须拥有船票。	to get aboard.	the Rock Tunnel if you need to reach	如遇此事，	とおれない　ことが　あります！	いく　かたは　いわやま　トンネルを
+	para	You need a ticket			done			done				请要前往紫苑市的行人		とおって　ください!
+	line	to get aboard.									Lavender Town.”		そういう　とき　シオンタウンへ	…　クチバ　けいさつ　より
+	done											从岩山隧道绕行！	いく　かたは　イワヤマトンネルを	
+														
+_SSAnneNotHereText::				_SSAnneNotHereText::								……枯叶市警署留	とおって　ください！	
+	text	The ship set sail.			text	聖特安努號出航了。		text	圣特安努号出航了。	The ship set sail.	“Diary: July 10	日记　７月10日	にっき　７がつ１０か	にっき　7がつ10か
+	done				done			done			We christened the newly discovered	我给新发现的宝可梦	しんはっけんの　ポケモンを	しんはっけんの　ポケモンを
+														わたしは　ミュウと　なづけた
+_VermilionCityText4::				_VermilionCityText4::							Pokémon ‘Mew.’”	取名为梦幻。	わたしは　ミュウと　なづけた	ゲ
+	text	I'm putting up a			text	老夫是個地主！		text	老夫是个地主！	I'm putting up a	I’m the chairman of the Pokémon Fan Club!	宝可梦发烧友俱乐部的会长	ポケモン　だいすき　クラブの	ポケモン　だいすき　クラブの
+	line	building on this			line	這四方形的範圍內		line	这四方形的范围内	building on this	I raise more than a hundred Pokémon!	正是老夫！	かいちょうは　わし　じゃ！	かいちょうは　わし　じゃ!
+	cont	plot of land.			cont	都是老夫的土地！		cont	都是老夫的土地！	plot of land.				だいじに　しとるポケモンは
+					para	老夫正在讓寶可夢		para	老夫正在让宝可梦	My #MON is	I’m very fussy when it comes to Pokémon!	老夫手里的宝可梦	もってる　ポケモンは	100ぴきを　こえとる!
+	para	My #MON is			line	平整土地，		line	平整土地，	tamping the land.	I surely am!	已经超过了100只！	１００ぴきを　こえとる！	ポケモンに　かんしては
+	line	tamping the land.			cont	以便老夫在此蓋幢高樓！		cont	以便老夫在此盖幢高楼！					ホント　うるさい!　ですぞ!
+	done				done			done			So...	要老夫说起宝可梦的事，	ポケモンに　かんしては	で…
+												那可是三天三夜都说不完哇！	ホント　うるさい！　ですぞ！	きみは　わしの　ポケモン　じまんを
+_VermilionCityText5::				_VermilionCityText5::							Did you come visit to hear about			ききに　きたの　かね?
+	text	MACHOP: Guoh!			text	腕力：嚎喔～～		text	腕力：嚎喔～～	MACHOP: Guoh!	MACHOP: Guoh! Gogogoh!	腕力：嚎喔～～嚎嚎嚎～～	ワンリキー『ごおーっ　ごごごー	ワンりキー『ごおーっ　ごごごー@ゲぼ
+	line	Gogogoh!@			line	嚎嚎嚎～～@		line	嚎嚎嚎～～@	Gogogoh!@				
+	text_end				text_end			text_end				你一定是来这里倾听老夫	きみは　わしの　ポケモン　じまんを	
+												炫耀那些赞赞的宝可梦的吧？	ききに　きたの　かね？	
+_VermilionCityText15::				_VermilionCityText15::										
+	text_start				text_start			text_start			A Machop is stomping the land flat.	腕力一边叫喊，	ワンリキーは　うなりながら	
+	para	A MACHOP is			para	腕力一邊叫喊，		para	腕力一边叫喊，	A MACHOP is		一边弄平地面！	じめんを　ならしている！	ワンりキーは　うなりながら
+	line	stomping the land			line	一邊弄平地面！		line	一边弄平地面！	stomping the land				じめんを　ならしている!
+	cont	flat.			done			done		flat.				
+	done													
+														
+_VermilionCityText6::				_VermilionCityText6::										
+	text	S.S.ANNE is a			text	聖特安努號		text	圣特安努号	S.S.ANNE is a	The S.S. Anne is a famous luxury cruise ship.	圣特安努号	サント・アンヌごうは	アンヌごうは
+	line	famous luxury			line	是有名的豪華客輪！		line	是有名的豪华客轮！	famous luxury		是有名的豪华客轮！	ゆうめいな　ごうか　きゃくせん！	ゆうめいな　ごうか　きゃくせん!
+	cont	cruise ship.			para	它每年只在枯葉港		para	它每年只在枯叶港	cruise ship.	It visits Vermilion Port just once a year.			1ねんに　1ど　だけ
+					line	停靠１次！		line	停靠１次！	We visit VERMILION		它每年只在枯叶港	１ねんに　１ど　だけ	クチバこう　に　とまるんだ!
+	para	We visit VERMILION			done			done		once a year.		停靠１次！	クチバこうに　とまるんだ！	ゲギぶ
+	line	once a year.												
+	done													
+														
+_OfficerJennyText1::				_OfficerJennyText1::										
+	text	I just caught a			text	我最近捕獲了			さいきん　いたずら　ばかりする		I just caught a Squirtle that was always getting	我最近捕获了	さいきん　いたずら　ばかりする	さいきん　いたずら　ばかりする
+	line	SQUIRTLE that was			line	一隻喜歡搗亂的傑尼龜！			ゼニガメを　つかまえたの!		into mischief.	一只喜欢捣乱的杰尼龟！	ゼニガメを　つかまえたの！	ゼニガメを　つかまえたの!
+	cont	always getting							うでのいい　トレーナーが　いたら					うでのいい　トレーナーが　いたら
+	cont	into mischief.							このこを　まかせたいんだけど…		I think it needs a good Trainer to set it straight.	要是能碰到个有水平的训练家，	うでのいい　トレーナーが　いたら	このこを　まかせたいんだけど…
+												我想把杰尼龟托付出去……	このこを　まかせたいんだけど……	
+	para	I think it needs a			para	要是能碰到個								
+	line	good trainer to			line	有水平的訓練家，								
+	cont	set it straight.			cont	我想把傑尼龜託付出去……								
+	done				done									
+														
+_OfficerJennyText2::				_OfficerJennyText2::										
+	text	You have the			text	那枚橙色徽章！			その　オレンジバッジ!		I just caught a Squirtle that was always getting	我最近捕获了	さいきん　いたずら　ばかりする	さいきん　いたずら　ばかりする
+	line	THUNDERBADGE!?							あなた…		into mischief.	一只喜欢捣乱的杰尼龟！	ゼニガメを　つかまえたの！	ゼニガメを　つかまえたの!
+									うでのいい　トレーナーのようね!					うでのいい　トレーナーが　いたら
+	para	You must be a			para	看來你……			さいきん　いたずら　ばかりする		I think it needs a good Trainer to set it straight.	要是能碰到个有水平的训练家，	うでのいい　トレーナーが　いたら	このこを　まかせたいんだけど…
+	line	good trainer!			line	是個有水平的訓練家啊！			ゼニガメを　つかまえたの!			我想把杰尼龟托付出去……	このこを　まかせたいんだけど……	
+									あなた　ひきとって　くれない?					
+	para	I just caught a			para	我最近捕獲了								
+	line	SQUIRTLE that was			line	一隻喜歡搗亂的傑尼龜！								
+	cont	always getting												
+	cont	into mischief.												
+														
+	para	Would you take			para	我能把它託付給你嗎？								
+	line	good care of it?												
+	done				done									
+														
+_OfficerJennyText3::				_OfficerJennyText3::										
+	text	OK! Please treat			text	那就交給你咯！			あのね!		OK! Please take good care of Squirtle!	那就交给你咯！	まかせたわ！	あのね!
+	line	SQUIRTLE right!@			line	你要好好照顧它噢！@			ともだちは　だいじに　しなさい!			你要好好照顾它噢！	だいじに　そだてて　あげてね！	ともだちは　だいじに　しなさい!
+	text_end				text_end									
+														
+_OfficerJennyText4::				_OfficerJennyText4::										
+	text	Oh... What am I			text	這該怎麼辦……			どうしようかしら…		Oh... What am I to do now?	这该怎么办……	どうしようかしら……	どうしようかしら…
+	line	to do now?			line	這可真讓人頭疼。			こまったわ			这可真让人头疼。	こまったわ	こまったわ
+	done				done									
+														
+_OfficerJennyText5::				_OfficerJennyText5::										
+	text	How is SQUIRTLE			text	傑尼龜過得好嗎？			ゼニガメ　げんきで　やっている?		How is Squirtle doing?	杰尼龟过得好吗？	ゼニガメ　げんきで　やっている？	ゼニガメ　げんきで　やっている?
+	line	doing?												
+	done				done									
+														
+_VermilionCityText8::				_VermilionCityText8::										
+	text	VERMILION CITY			text	這裡是枯葉市。		text	这里是枯叶市。	VERMILION CITY	Vermilion City:	这里是枯叶市。	ここは　クチバシティ	ここは　クチバ　シティ
+	line	The Port of			line	枯葉即是日暮時分的		line	枯叶即是日暮时分的	The Port of	The Port of Exquisite Sunsets	枯叶即是日暮时分的橙黄之色。	クチバは　オレンジ　ゆうやけのいろ	クチバは　オレンジ　ゆうやけのいろ
+	cont	Exquisite Sunsets			cont	橙黃之色。		cont	橙黄之色。	Exquisite Sunsets				
+	done				done			done						
+														
+_VermilionCityText9::				_VermilionCityText9::										
+	text	NOTICE!			text	……這裡貼著一張告示！		text	……这里贴着一张告示！	NOTICE!	There’s a notice posted by the Vermilion Police...	……这里贴着一张告示！	……おしらせの　チラシだ！	…　おしらせの　チラシだ!
+					para	最近在１２號道路出沒的		para	最近在１２号道路出没的	ROUTE 12 may be				さいきん…　12ばん　どうろに
+	para	ROUTE 12 may be			line	瞌睡寶可夢		line	瞌睡宝可梦	blocked off by a	“A sleeping Pokémon has been blocking	最近在12号道路出没的瞌睡宝可梦	さいきん……　１２ばんどうろに	いねむり　ポケモンが　しゅつぼつ
+	line	blocked off by a			cont	可能會導致行人無法通行！		cont	可能会导致行人无法通行！	sleeping #MON.	the way on Route 12 lately. Detour through	可能会导致行人无法通行！	いねむりポケモンが　しゅつぼつ	とおれない　ことが　あります!
+	cont	sleeping #MON.			para	如遇此事，		para	如遇此事，	Detour through				そういう　とき　シオン　タウンへ
+					line	請要前往紫苑市的行人		line	请要前往紫苑市的行人	ROCK TUNNEL to	the Rock Tunnel if you need to reach	如遇此事，	とおれない　ことが　あります！	いく　かたは　いわやま　トンネルを
+	para	Detour through			cont	從岩山隧道繞行！		cont	从岩山隧道绕行！	LAVENDER TOWN.		请要前往紫苑市的行人		とおって　ください!
+	line	ROCK TUNNEL to			para	……枯葉市警署留		para	……枯叶市警署留	VERMILION POLICE	Lavender Town.”		そういう　とき　シオンタウンへ	…　クチバ　けいさつ　より
+	cont	LAVENDER TOWN.			done			done				从岩山隧道绕行！	いく　かたは　イワヤマトンネルを	
+														
+	para	VERMILION POLICE										……枯叶市警署留	とおって　ください！	
+	done													
+													……クチバ　けいさつ　より	
+_VermilionCityText12::				_VermilionCityText12::										
+	text	#MON FAN CLUB			text	這裡是		text	这里是	#MON FAN CLUB	Pokémon Fan Club:	这里是宝可梦发烧友俱乐部。	こちら　ポケモンだいすきクラブ	こちら　ポケモン　だいすき　クラブ
+	line	All #MON fans			line	寶可夢發燒友俱樂部。		line	宝可梦发烧友俱乐部。	All #MON fans	All Pokémon Fans Welcome!	热烈欢迎任何喜欢宝可梦的朋友！	ポケモンずき　だれでも　かんげい！	ポケモンずき　だれでも　かんげい!
+	cont	welcome!			para	熱烈歡迎		para	热烈欢迎	welcome!				
+	done				line	任何喜歡寶可夢的朋友！		line	任何喜欢宝可梦的朋友！					
+					done			done						
+_VermilionCityText13::				_VermilionCityText13::										
+	text	VERMILION CITY			text	枯葉市寶可夢道館		text	枯叶市宝可梦道馆	VERMILION CITY	Vermilion City Pokémon Gym	枯叶市宝可梦道馆	クチバシティ　ポケモンジム	クチバ　シティ　ポケモン　ジム
+	line	#MON GYM			line	館主：馬志士		line	馆主：马志士	#MON GYM	Gym Leader: Lt. Surge	馆主：马志士	リーダー　マチス	りーダー　マチス
+	cont	LEADER: LT.SURGE			cont	閃電般的美國人！		cont	闪电般的美国人！	LEADER: LT.SURGE				イナズマ　アメりカン!
+					done			done		The Lightning	The Lightning Lieutenant!	闪电般的硬汉子！	ライトニング　タフガイ！	
+	para	The Lightning								American!				
+	line	American!												
+	done													
+														
+_VermilionCityText14::				_VermilionCityText14::										
+	text	VERMILION HARBOR			text	枯葉港入口		text	枯叶港入口	VERMILION HARBOR	Vermilion City:	这里是枯叶市。	ここは　クチバシティ	ここは　クチバ　シティ
+	done				done			done			The Port of Exquisite Sunsets	枯叶即是日暮时分的橙黄之色。	クチバは　オレンジ　ゆうやけのいろ	クチバは　オレンジ　ゆうやけのいろ
+end				end										

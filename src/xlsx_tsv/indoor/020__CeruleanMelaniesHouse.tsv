@@ -1,0 +1,49 @@
+text/CeruleanMelaniesHouse.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+MelanieText1::				MelanieText1::										
+	text	I take care of			text	我在這裡照顧			わたしは　ここで　きずついた		“Future Activities of Pokémon Fanatic Bill	关于宝可梦狂热迷正辉今后的动向：	ポケモンマニア　マサキさんの	 {RIVAL} 『よおーッ!　 {PLAYER} !
+	line	injured #MON.			line	受了傷的寶可夢們。			ポケモンたちの　せわを　しています				こんごの　かつどう　に　ついて	 {PLAYER} も　きたか!
+											“‘Well, I’m researching about how to become	“关于这个嘛……我现在正在研究		…　はッはッ　うれしいぜ!
+	para	I nursed this			para	這隻妙蛙種子			この　フシギダネも		a Pokémon!	怎么整能让我变成宝可梦！	『そうですねー　いま　やっとるのは	ライバルの　おまえが　よわいと
+	line	BULBASAUR back to			line	也完全恢復活力了。			すっかり　げんきに　なったし				ポケモンに　なる　けんきゅう　です！	はりあい　ないからな!
+	cont	health.									“‘...It’s just a joke!	……开玩笑开玩笑！		おれは　ずかん　あつめ　ながら
+											Don’t take it seriously!	您可真别当真！	……って　じょうだん　ですやん！	かんぺきな　ポケモンを　さがした!
+	para	It needs a good			para	我正在尋找			だいじに　してくれる				ほんきに　せんといて！	いろんな　タイプの　ポケモンに
+	line	trainer to take			line	能好好照顧它的訓練家。@			トレーナーを　さがしているの		“‘Actually, I’m doing research on understanding	其实我真正在研究的内容是		かち　まくる　ような
+	cont	care of it now.@									the minds of Pokémon.	如何理解宝可梦的思维。	ほんとはね　ポケモンの　きもちが	コンビネーションを　さがした!
+	text_end				text_end								わかる　けんきゅうを　しとります	…　そして　いま!
+											“‘I want to understand what they are thinking!’”	因为我真特想知道		おれは　ポケモン　りーグの
+MelanieText2::				MelanieText2::								宝可梦正在思考些啥！”	ポケモンが　なにを　かんがえてるのか	ちょうてんに　いる!
+	text	I know! Would you			text	這樣吧！你能不能			そうだ!		You must be a great Trainer!	看来你……	あなた……	その　オレンジバッジ!
+	line	take care of this			line	替我照料這隻妙蛙種子呢？			あなた　この　フシギダネの			是个有水平的训练家啊！	うでのいい　トレーナーのようね！	あなた…
+	cont	BULBASAUR?							めんどうを　みてくださらない?		I have a favor to ask you. Would you take care			うでのいい　トレーナーのようね!
+	done				done						of this troublesome Squirtle?	我能把这只爱给人添麻烦的	この　やっかいな　ゼニガメ	さいきん　いたずら　ばかりする
+												杰尼龟托付给你吗？	あなた　ひきとって　くれない？	ゼニガメを　つかまえたの!
+MelanieText3::				MelanieText3::										あなた　ひきとって　くれない?
+	text	Please take care			text	那麼就拜託你了！@			それじゃ　おねがいします!		OK! Please take good care of Squirtle!	那就交给你咯！	まかせたわ！	あのね!
+	line	of BULBASAUR!@										你要好好照顾它噢！	だいじに　そだてて　あげてね！	ともだちは　だいじに　しなさい!
+	text_end				text_end									
+														
+MelanieText4::				MelanieText4::										
+	text	Is BULBASAUR			text	妙蛙種子有在好好努力嗎？@					Is Bulbasaur doing well?	妙蛙种子有在好好努力吗？	フシギダネ　がんばってます？	トレーナーぞ
+	line	doing well?@												きド5ま
+	text_end				text_end									
+														
+MelanieText5::				MelanieText5::										
+	text	Oh...			text	是嗎……			そう…		What? That’s too bad.	啊～！真没劲！	えー！　つまんないの！	
+	line	That's too bad...@			line	真是遺憾……@			ざんねん　です…					つり　こそ
+	text_end				text_end						Let’s do it next time.	下次一定要比试哦！	つぎ　こそ　しようね！	おとこの　ロマン　だ!
+											Promise me!	一定哦～！	ぜったい　だよ～！	うみでも　かわでも!
+MelanieBulbasaurText::				MelanieBulbasaurText::										えんりょ　なく
+	text	BULBASAUR: Bubba!			text	妙蛙種子：種子～@			フシギダネ『ダネ		“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	Zoar!@									2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_end				text_end									
+														
+MelanieOddishText::				MelanieOddishText::										
+	text	ODDISH: Orddissh!@			text	走路草：走路～@			ナゾノクサ『ナゾー		Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	text_end				text_end							给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+											D’aww... Failed again?			
+MelanieSandshrewText::				MelanieSandshrewText::										
+	text	SANDSHREW: Pikii!@			text	穿山鼠：穿山～@			サンド『ピキー		Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	text_end				text_end						Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+end				end										4ャよひ
+														つ {PLAYER}  {PLAYER} 

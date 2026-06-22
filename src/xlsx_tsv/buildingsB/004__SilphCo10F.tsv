@@ -1,0 +1,70 @@
+text/SilphCo10F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SilphCo10Text_5a1d3::				_SilphCo10Text_5a1d3::										
+	text	Waaaaa!			text	嗚嗚嗚……		text	呜呜呜……	Waaaaa!	Waaaaa!	呜呜呜……	うえーん！	うえーん!
+	line	I'm scared!			line	我好害怕啊！		line	我好害怕啊！	I'm scared!	I’m scared!	我好害怕啊！	こわいよー！	こわいよー!
+	done				done			done						
+														
+_SilphCo10Text_5a1d8::				_SilphCo10Text_5a1d8::										
+	text	Please keep quiet			text	我剛才哭哭啼啼的樣子……		text	我刚才哭哭啼啼的样子……	Please keep quiet	Hello, [VAR TRNAME(0000)]!	那啥～说你呢～[VAR TRNAME(0000)]啊！	やー　やー　[VAR TRNAME(0000)]！	やー　やー　 {PLAYER} くん!
+	line	about my crying!			line	你可要幫我保密啊。		line	你可要帮我保密啊。	about my crying!				また　わしの　ポケモン　じまんを
+	done				done			done			Did you come see me about my Pokémon again?	又想来听老夫介绍	また　わしの　ポケモン　じまんを	ききに　きたの　かね!
+												引以为豪的宝可梦了吧！	ききに　きたの　かね！	…　え　ちがう?
+_SilphCo10BattleText1::				_SilphCo10BattleText1::							No?			なんじゃ…　つまらん
+	text	Welcome to the			text	歡迎來到１０樓！		text	欢迎来到１０楼！	Welcome to the	Welcome to 10F!	欢迎来到10楼！	１０かいに　ようこそ！	10かいに　ようこそ!
+	line	10F! So good of			line	你能來到這裡		line	你能来到这里	10F! So good of	So good of you to join me!	你能来到这里真是很厉害啊！	よく　ここまで　たどり　ついたな！	よく　ここまで　たどり　ついたな!
+	cont	you to join me!			cont	真是很厲害啊！		cont	真是很厉害啊！	you to join me!				
+	done				done			done						
+														
+_SilphCo10EndBattleText1::				_SilphCo10EndBattleText1::										
+	text	I'm			text	怎麼會這樣。		text	怎么会这样。	I'm	Hiya!	您好！	こんちわ！	こんちわ!
+	line	stunned!			prompt			prompt		stunned!	I’m a Pokémon...	我是宝可梦……！	ぼく　ポケモン……！	サファり　ゲームは　はじめて?
+	prompt													
+											N-no! I mean—!	……错！	……ちゃうわい！	
+_SilphCo10AfterBattleText1::				_SilphCo10AfterBattleText1::										
+	text	Nice try, but the			text	你能來到這裡值得嘉獎，		text	你能来到这里值得嘉奖，	Nice try, but the	Nice try, but the boardroom is up one more floor.	你能来到这里值得嘉奖，	ここまで　きたのは　ほめるが	ここまで　きたのは　ほめるが
+	line	boardroom is up			line	但要去社長室		line	但要去社长室	boardroom is up		但要去社长室得再上一层楼。	しゃちょうしつは	しゃちょう　しつは
+	cont	one more floor!			cont	得再上一層樓。		cont	得再上一层楼。	one more floor!				さらに　うえの　かい　だぜ
+	done				done			done					さらに　うえの　かい　だぜ	
+														
+_SilphCo10BattleText2::				_SilphCo10BattleText2::										
+	text	Enough of your			text	就讓我們來……		text	就让我们来……	Enough of your	Enough of your silly games!	就让我们来……	もう……	もう…
+	line	silly games!			line	結束這場遊戲吧！		line	结束这场游戏吧！	silly games!		结束这场游戏吧！	あそびは　おわりに　しよう！	あそびは　おわりに　しよう!
+	done				done			done						
+														
+_SilphCo10EndBattleText2::				_SilphCo10EndBattleText2::										
+	text	No			text	哎呀。		text	哎呀。	No	No continues left!	哎呀。	あうーん	トレーナーぞ
+	line	continues left!			prompt			prompt		continues left!				きド5ま
+	prompt													
+														
+_SilphCo10AfterBattleText2::				_SilphCo10AfterBattleText2::										
+	text	Are you satisfied			text	打贏我就滿足了嗎？		text	打赢我就满足了吗？	Are you satisfied	Are you satisfied with beating me?	打赢我就满足了吗？	おれに　かって　まんぞくか	おれに　かって　まんぞくか
+	line	with beating me?			line	那麼你快回家吧。		line	那么你快回家吧。	with beating me?	Then go on home!	那么你快回家吧。	じゃ　おうちに　かえんな	じゃ　おうちに　かえんな
+	cont	Then go on home!			done			done		Then go on home!				ぜギ
+	done													
+														
+_SilphCoJessieJamesText1::				_SilphCoJessieJamesText1::										
+	text	Hold it right			text	站住站住～！！@					Hold it right there, twerp!	站住站住～！！	ちょっと　まったー！！	ちょっと　やめてよ
+	line	there, brat!@												
+	text_end				text_end									
+														
+_SilphCoJessieJamesText2::				_SilphCoJessieJamesText2::										
+	text	Our BOSS is in a			text	現在我們老大					JAMES: Our boss is in a meeting!	小次郎：现在我们老大	コジロウ『ボスは	ボスは　だいじな　はなしちゅうだ!
+	line	meeting!			line	正在談重要的生意！					You better not disturb him!	正在谈重要的生意！	だいじな　はなしちゅうだ！	じゃまは　させないからな!
+														
+	para	You better not			para	你可休想搗亂！						你可休想捣乱！	じゃまは　させないからなー！	
+	line	disturb him!												
+	done				done									
+														
+_SilphCoJessieJamesText3::				_SilphCoJessieJamesText3::										
+	text	Like			text	果然還是			やっぱり		JAMES: Just like always...	小次郎：那么接下来，	コジロウ『それでは　いつもの	それでは　いつもの
+	line	always...			line	和之前一樣……			いつもどおり…なのね			我们就一如既往地……	まいりましょうか……	まいりましょうか…
+	prompt				prompt									やなかんじ
+														
+_SilphCoJessieJamesText4::				_SilphCoJessieJamesText4::										
+	text	TEAM ROCKET, blast			text	那麼接下來，					Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	off at the speed			line	我們就一如既往地……					Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	of light!												…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+	para	Again...@			para	好討厭的感覺啊～！@								
+	text_end				text_end									
+end				end										

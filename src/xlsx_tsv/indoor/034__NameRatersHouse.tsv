@@ -1,0 +1,62 @@
+text/NameRatersHouse.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_NameRaterText_1dab3::				_NameRaterText_1dab3::										
+	text	Hello, hello!			text	嗨、嗨！		text	嗨、嗨！	Hello, hello!	Hello there! Glad to meet you!	你好！	はじめまして！	はじめまして!
+	line	I am the official			line	我是姓名鑑定師。		line	我是姓名鉴定师。	I am the official		很高兴见到你！		ポケットモンスターの　せかいへ
+	cont	NAME RATER!			cont	也就是看名字算命的。		cont	也就是看名字算命的。	NAME RATER!	Welcome to the world of Pokémon!		ポケットモンスターの　せかいへ	ようこそ!
+					para	來，讓我算算		para	来，让我算算	Want me to rate		欢迎来到精灵宝可梦的世界！	ようこそ！	わたしの　なまえは　オーキド
+	para	Want me to rate			line	你的寶可夢的暱稱吧。		line	你的宝可梦的昵称吧。	the nicknames of	My name is Oak.			みんなからは　ポケモン　はかせと
+	line	the nicknames of			done			done		your #MON?		我叫大木，	わたしの　なまえは　オーキド	したわれて　おるよ
+	cont	your #MON?									People affectionately refer to me as	大家都亲切地称我为	みんなからは　ポケモン　はかせと	
+	done										the Pokémon Professor.			
+												宝可梦博士。	したわれて　おるよ	
+_NameRaterText_1dab8::				_NameRaterText_1dab8::										
+	text	Which #MON			text	你想算哪隻		text	你想算哪只	Which #MON	Well, I guess that’s that...	……好了好了！	……さてと！　じゃあ	ゲームの　プログラムだ!
+	line	should I look at?			line	寶可夢的暱稱啊？		line	宝可梦的昵称啊？	should I look at?		那这个就先给你了。	これ　あげとくな	これ　かえたら　バグる　かも
+	prompt				prompt			prompt			Here, take these. I won’t need ’em now!			
+														
+_NameRaterText_1dabd::				_NameRaterText_1dabd::										
+	text_ram	wcd6d			text_ram	wcd6d		text_ram	wcd6d	wcd6d	A Pokémon is in your Poké Ball Plus.	精灵球 Plus里面	モンスターボール Plusに　プレゼントの	おなじ　ポケモンが
+	text	, is it?			text	嗎……		text	吗……	, is it?	It’s a present for you!	有一只礼物宝可梦！	ポケモンが　はいって　います！	2たい　います!
+	line	That is a decent			line	取得不錯嘛。		line	取得不错嘛。	That is a decent				
+	cont	nickname!			para	不過～		para	不过～	nickname!	Would you like to receive it?	要接收吗？	うけとりますか？	
+					line	要不要我幫你		line	要不要我帮你	But, would you				
+	para	But, would you			cont	取個更好的名字啊？		cont	取个更好的名字啊？	like me to give				
+	line	like me to give			cont	怎麼樣？		cont	怎么样？	it a nicer name?				
+	cont	it a nicer name?			done			done		How about it?				
+														
+	para	How about it?												
+	done													
+														
+_NameRaterText_1dac2::				_NameRaterText_1dac2::										
+	text	Fine! What should			text	是嗎，那		text	是吗，那	Fine! What should	It’s so pleasant...	真舒服……	きもち　いい……	おし!
+	line	we name it?			line	取個什麼暱稱好呢。		line	取个什么昵称好呢。	we name it?		……呼……呼～	……　すー……　すー	いい　しょうぶ　だった
+	prompt				prompt			prompt			... ... ...			
+														
+_NameRaterText_1dac7::				_NameRaterText_1dac7::							... ... Zzz.			
+	text	OK! This #MON			text	好！從今天起		text	好！从今天起	OK! This #MON	You can pass this point only if you have a	前方只有	ここから　さきは　ゴールドバッジを	バッジを
+	line	has been renamed			line	這隻寶可夢就叫		line	这只宝可梦就叫	has been renamed	Marsh Badge.	携带金色徽章的人才能通行！	もった　もの　だけが　すすめる！	もった　もの　だけが　すすめる!
+	cont	@			cont	@		cont	@	@				むむッ…!
+	text_ram	wBuffer 			text_ram	wBuffer 		text_ram	wBuffer 	wBuffer 	Oh! That’s a Marsh Badge![VAR BE05(0004)][VAR BE05(0001)]	那那……！	むむッ……！	それは　@
+	text	!			text	啦！		text	啦！	!		那是金色徽章没错！[VAR BE05(0004)][VAR BE05(0001)]	それは　ゴールドバッジ！[VAR BE05(0004)][VAR BE05(0001)]	
+					para	不覺得		para	不觉得	That's a better	Sabrina really is something, isn’t she?			
+	para	That's a better			line	比之前的名字更棒嗎？		line	比之前的名字更棒吗？	name than before!		娜姿她真的很厉害吧！	ナツメさん　いいよな！	
+	line	name than before!			cont	太好了太好了！		cont	太好了太好了！		OK then.			
+	done				done			done			Please go right ahead.	我明白了……	わかった……！	
+												请往前走吧！	この　さきへ　すすみなさい！	
+_NameRaterText_1dacc::				_NameRaterText_1dacc::										
+	text	Fine! Come any-			text	這樣啊。		text	这样啊。	Fine! Come any	Hello there, [VAR GENDBR(00FF,0A03)]sonyoung lady.	要用你的小拳石	キミの　イシツブテと	…　ポケモン　レポートだ!
+	line	time you like!			line	知道了，你有空再來吧。		line	知道了，你有空再来吧。	time you like!	How would you like to trade your Geodude for	来换我的小拳石吗？	ワシの　イシツブテ！	こうかん　ケーブルを　とおすと
+	done				done			done						しんかする　ポケモンが
+											my Geodude?		こうかん　してみんか？	4しゅるい　かくにん　された
+_NameRaterText_1dad1::				_NameRaterText_1dad1::										ぜグ
+	text_ram	wcd6d			text_ram	wcd6d		text_ram	wcd6d	wcd6d	“1F: Service Counter	１楼……　服务柜台	１かい……　サービス・カウンター	おくじょう　…　いこいの　ひろば
+	text	, is it?			text	嗎！		text	吗！	, is it?		２楼……　训练家广场	２かい……　トレーナーズ・マーケット	　　　　　　…　じどう　はんばいき
+	line	That is a truly			line	這暱稱好聽到無可挑剔！		line	这昵称好听到无可挑剔！	That is a truly	“2F: Trainers’ Market			プ
+	cont	impeccable name!			para	今後你也要好好愛護		para	今后你也要好好爱护	impeccable name!		３楼……　电子游戏专卖店	３かい……　テレビ　ゲーム　ショップ	
+					line	@		line	@	Take good care of	“3F: Video Game Shop	４楼……　聪明人礼品店	４かい……　ワイズマン・ギフト	
+	para	Take good care of			text_ram	wcd6d		text_ram	wcd6d	@				
+	line	@			text	哦！		text	哦！	wcd6d	“4F: Wiseman Gifts	５楼……　饰品天地	５かい……　アクセサリー　マーケット	
+	text_ram	wcd6d			done			done		!		顶楼……　自动贩卖机	おくじょう……　じどう　はんばいき	
+	text	!									“5F: Accessory Market			
+	done													
+end				end							“Roof: Relaxation Space & Vending Machines”			

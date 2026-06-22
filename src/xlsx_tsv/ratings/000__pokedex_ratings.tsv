@@ -1,0 +1,119 @@
+text/pokedex_ratings.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_DexCompletionText::				_DexCompletionText::										
+	text	#DEX comp-			text	……現在的		text	……现在的	#DEX comp-	“1F: Service Counter	１楼……　服务柜台	１かい……　サービス・カウンター	おくじょう　…　いこいの　ひろば
+	line	letion is:			line	寶可夢圖鑑完成度是……		line	宝可梦图鉴完成度是……	letion is:		２楼……　训练家广场	２かい……　トレーナーズ・マーケット	　　　　　　…　じどう　はんばいき
+					para	發現的寶可夢:@		para	发现的宝可梦:@	@	“2F: Trainers’ Market			プ
+	para	@			text_decimal	hDexRatingNumMonsSeen, 1, 3		text_decimal	hDexRatingNumMonsSeen, 1, 3	hDexRatingNumMonsSeen, 1, 3 		３楼……　电子游戏专卖店	３かい……　テレビ　ゲーム　ショップ	
+	text_decimal	hDexRatingNumMonsSeen, 1, 3 			text	種！		text	种！	 #MON seen	“3F: Video Game Shop	４楼……　聪明人礼品店	４かい……　ワイズマン・ギフト	
+	text	 #MON seen			line	捉到的寶可夢:@		line	捉到的宝可梦:@	@				
+	line	@			text_decimal	hDexRatingNumMonsOwned, 1, 3		text_decimal	hDexRatingNumMonsOwned, 1, 3	hDexRatingNumMonsOwned, 1, 3 	“4F: Wiseman Gifts	５楼……　饰品天地	５かい……　アクセサリー　マーケット	
+	text_decimal	hDexRatingNumMonsOwned, 1, 3 			text	種！ 		text	种！ 	 #MON owned		顶楼……　自动贩卖机	おくじょう……　じどう　はんばいき	
+	text	 #MON owned			para	大木博士的評價為……		para	大木博士的评价为……	PROF.OAK's	“5F: Accessory Market			
+					prompt			prompt		Rating:				
+	para	PROF.OAK's									“Roof: Relaxation Space & Vending Machines”			
+	line	Rating:												
+	prompt													
+														
+_DexRatingText_Own0To9::				_DexRatingText_Own0To9::										
+	text	You still have			text	還要努力啊……		text	还要努力啊……	You still have	You completed your Pokédex? Impressive!	你完成图鉴了？	ずかん　できたの？	を　もらって
+	line	lots to do.			line	這才剛開始！		line	这才刚开始！	lots to do.		有两下子嘛！	すごい　じゃんー！	ポケモン　ずかん　あつめに
+	cont	Look for #MON			para	你應該多多去		para	你应该多多去	Look for #MON	But you still have a long way to go...			でかけた　ころと　くらべると
+	cont	in grassy areas!			line	草叢裡走走，		line	草丛里走走，	in grassy areas!		不过你的冒险	でも　きみの　ぼうけんは	たくましく　なったな!
+	done				cont	多多捕捉寶可夢才是啊！		cont	多多捕捉宝可梦才是啊！		Just kidding!	才刚刚开始啊！	まだまだ　これからだ！	…　いやいや!
+					done			done						 {PLAYER} は　おとなに　なった!
+_DexRatingText_Own10To19::				_DexRatingText_Own10To19::								逗你玩的！	なんちって　ね！	
+	text	You're on the			text	還算湊合吧！				You're on the	It looks as though you’re getting	还算凑合吧！	どうにか　ちょうしが　でてきたな！	どうにか　ちょうしが　でてきたな!
+	line	right track!			line	我已經把“閃光”			どうにか　ちょうしが　でてきたな!	right track!	on the right track!	你投球的技术应该也渐渐娴熟了吧！	ボールを　なげる　すがたも	じょしゅに　フラッシュを
+	cont	Get a FLASH HM			cont	交給助手了。			じょしゅに　フラッシュを	Get a FLASH HM				もたせたぞ!　もらって　くれい!
+	cont	from my AIDE!			cont	記得去他那裡拿喔！			もたせたぞ!　もらって　くれい!	from my AIDE!	I’d bet you’re getting better at throwing out		イタに　ついて　きた　じゃろう！	
+	done				done						the ol’ Poké Balls, too, eh?			
+														
+_DexRatingText_Own20To29::				_DexRatingText_Own20To29::										
+	text	You still need			text	對於寶可夢圖鑑來說，		text	对于宝可梦图鉴来说，	You still need	Once you defeat it, it’ll become more docile.	击败它之后它会变温顺，	たおすと　おとなしくなって	トレーナーぞ
+	line	more #MON!			line	內容量還不夠多！		line	内容量还不够多！	more #MON!	You should be able to catch it, just like	这样你就能和平时一样捕获它喽。	いつものように　ほかく　できますよ	きド5ま
+	cont	Try to catch			cont	多去捕獲各種各樣的		cont	多去捕获各种各样的	Try to catch				
+	cont	other species!			cont	寶可夢吧！		cont	宝可梦吧！	other species!	any other Pokémon!			
+	done				done			done						
+														
+_DexRatingText_Own30To39::				_DexRatingText_Own30To39::										
+	text	Good, you're			text	嗯……你很努力嘛！		text	嗯……你很努力嘛！	Good, you're	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	trying hard!			line	我已經把探寶器		line	我已经把探宝器	trying hard!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	Get an ITEMFINDER			cont	交給助手了。		cont	交给助手了。	Get an ITEMFINDER				…　シルフ　カンパニー
+	cont	from my AIDE!			cont	記得去他那裡拿喔！		cont	记得去他那里拿喔！	from my AIDE!		……西尔佛公司	……シルフカンパニー	
+	done				done			done						
+														
+_DexRatingText_Own40To49::				_DexRatingText_Own40To49::										
+	text	Looking good!			text	接下來就照這個狀態……		text	接下来就照这个状态……	Looking good!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	Go find my AIDE			line	超過50種吧！		line	超过50种吧！	Go find my AIDE	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	when you get 50!			done			done		when you get 50!				…　シルフ　カンパニー
+	done											……西尔佛公司	……シルフカンパニー	
+														
+_DexRatingText_Own50To59::				_DexRatingText_Own50To59::										
+	text	You finally got at			text	這不是挺不錯的嘛！		text	这不是挺不错的嘛！	You finally got at	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	least 50 species!			line	我已經把學習裝置		line	我已经把学习装置	least 50 species!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	Be sure to get			cont	交給助手了！		cont	交给助手了！	Be sure to get				…　シルフ　カンパニー
+	cont	EXP.ALL from my			cont	記得去他那裡拿喔！		cont	记得去他那里拿喔！	EXP.ALL from my		……西尔佛公司	……シルフカンパニー	
+	cont	AIDE!			done			done		AIDE!				
+	done													
+														
+_DexRatingText_Own60To69::				_DexRatingText_Own60To69::										
+	text	Oh! This is get-			text	嚯嚯～！		text	嚯嚯～！	Ho! This is geting	Huh? Pokémon?	哎呀呀，宝可梦……？	はあ　ポケモン……？	はあ　ポケモン…?
+	line	ting even better!			line	不錯不錯……！		line	不错不错……！	even better!	Oh! No, this is a hotel for people.	哦哦……！这里呀	ああ……！　ここは	ああ…!　ここは
+	done				cont	有點寶可夢圖鑑的樣子了！		cont	有点宝可梦图鉴的样子了！					ひとが　とまる　りょかん　ですじゃ
+					done			done			And we’re full up, unfortunately.	是给人住的旅馆哦！	ひとが　とまる　りょかん　ですじゃ	あいにく　へや　いっぱい　でな
+_DexRatingText_Own70To79::				_DexRatingText_Own70To79::										
+	text	Very good!			text	狀態棒棒的！		text	状态棒棒的！	Very good!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	Go fish for some			line	在海裡的寶可夢		line	在海里的宝可梦	Go fish for some	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	marine #MON!			cont	就透過垂釣來收集吧！		cont	就通过垂钓来收集吧！	marine #MON!				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_DexRatingText_Own80To89::				_DexRatingText_Own80To89::										
+	text	Wonderful!			text	很精彩！		text	很精彩！	Wonderful!	Wonderful! Let me guess...	很精彩！难道收集	ワンダフル！　もしかして　きみは	ワンダフル!　もしかして　きみは
+	line	Do you like to			line	難道收集		line	难道收集	Do you like to	You like to collect things, don’t you?	就是你的兴趣爱好吗？	なにかを　あつめるの　すきなのか！？	ものを　あつめるの　すきなのか…?
+	cont	collect things?			cont	就是你的興趣愛好嗎？		cont	就是你的兴趣爱好吗？	collect things?				
+	done				done			done						
+														
+_DexRatingText_Own90To99::				_DexRatingText_Own90To99::										
+	text	I'm impressed!			text	哎喲喲喲……		text	哎哟哟哟……	I'm impressed!	Now this... This is truly impressive!	哎哟哟哟……很厉害啊！	いやはや……　こりゃ　すごい！	いやはや…　こりゃ　すごい!
+	line	It must have been			line	很厲害啊！		line	很厉害啊！	It must have been	It must have been difficult to collect so many!	你一定花了很大功夫吧！	あつめるのは　たいへん　だったろ！	あつめるのは　たいへん　だったろ!
+	cont	difficult to do!			cont	你一定花了很大功夫吧！		cont	你一定花了很大功夫吧！	difficult to do!				
+	done				done			done						
+														
+_DexRatingText_Own100To109::				_DexRatingText_Own100To109::										
+	text	You finally got at			text	終於超過了100種嗎！		text	终于超过了100种吗！	You finally got at	You’ve got a better chance of catching	朝着宝可梦的正中间	ポケモンの　どまんなかに	ねむり　どく　やけど　マヒ…
+	line	least 100 species!			line	……		line	……	least 100 species!	a Pokémon if you throw your Poké Ball and	投掷精灵球的话会更容易捉到哦！	ボール　あてると　つかまえやすいよ	ポケモンの　たいちょうが　わるいと
+	cont	I can't believe			cont	你的實力簡直難以置信啊！		cont	你的实力简直难以置信啊！	I can't believe				つかまえ　やすいよ
+	cont	how good you are!			done			done		how good you are!	get ’em right in the center!	不过……	でも……　かならず　とれる	でも…　かならず　とれる
+	done											似乎也不是百分之百能捉到。	わけじゃ　ないみたい	わけじゃ　ないみたい
+											But catching Pokémon is never a sure thing!			ザ
+_DexRatingText_Own110To119::				_DexRatingText_Own110To119::										
+	text	You even have the			text	連寶可夢的進化形態		text	连宝可梦的进化形态	You even have the	Your Pokémon have been sent to the professor!	已将宝可梦发送给博士！	ポケモンを　はかせに　おくった！	 {next} 
+	line	evolved forms of			line	都收集到了……		line	都收集到了……	evolved forms of				@
+	cont	#MON! Super!			cont	太了不起了！		cont	太了不起了！	#MON! Super!	... ... ...	……　……　……	……　……　……	 {PLAYER}  {RIVAL} ポケモン
+	done				done			done				大木博士来信息了！	はかせから　メッセージが　きた！	…
+											You got a message back from the professor!			
+_DexRatingText_Own120To129::				_DexRatingText_Own120To129::										 {TARGET}  {USER}  {5B}  {5C} トレーナーロケットだん
+	text	Excellent! Trade			text	棒極了！如果多跟		text	棒极了！如果多跟	Excellent! Trade	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	with friends to			line	朋友們交換，		line	朋友们交换，	with friends to	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	get some more!			cont	說不定還能收集得更多！		cont	说不定还能收集得更多！	get some more!				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_DexRatingText_Own130To139::				_DexRatingText_Own130To139::										
+	text	Outstanding!			text	能把圖鑑收集到		text	能把图鉴收集到	Outstanding!	Hmm?	哦？	おや？　あんた	おや?　あんた
+	line	You've become a			line	這個程度，		line	这个程度，	You've become a	You’ve met Bill?	你应该认识正辉那小子吧？	マサキの　ことを　しっとるのかね？	マサキの　ことを　しっとるのかね?
+	cont	real pro at this!			cont	你可以稱得上是個專家嘍！		cont	你可以称得上是个专家喽！	real pro at this!				マサキは　わしの　まごじゃ!
+	done				done			done			He’s my grandson!	正辉是我的孙子唷！	マサキは　わしの　まごじゃ！	ちいさい　ころから
+														ものを　あつめるのが　すきな
+_DexRatingText_Own140To149::				_DexRatingText_Own140To149::							He always liked rare things, even as a child!	他从小就是一个	ちいさい　ころから	こども　じゃった!
+	text	I have nothing			text	我不知道		text	我不知道	I have nothing	I have nothing left to say!	我不知道该说什么才好！	わしゃ　もう　いうことは　ない！	わしゃ　もう　いうことは　ない!
+	line	left to say!			line	該說什麼才好！		line	该说什么才好！	left to say!	You’re the Pokémon Professor now!	你才是宝可梦博士哇！	きみが　ポケモンはかせ　じゃ！	きみが　ポケモンはかせ　じゃ!
+	cont	You're the			cont	你才是寶可夢博士哇！		cont	你才是宝可梦博士哇！	You're the			こども　じゃった！	
+	cont	authority now!			done			done		authority now!				
+	done													
+														
+_DexRatingText_Own150To151::				_DexRatingText_Own150To151::										
+	text	Your #DEX is			text	你終於完美完成了圖鑑！		text	你终于完美完成了图鉴！	Your #DEX is	This Pokémon Gym is always closed...	不管什么时候来，	いつ　きても	いつ　きても
+	line	fully complete!			line	……衷心祝賀！		line	……衷心祝贺！	entirely complete!		这里的道馆总是关着门……	この　ポケモンジムは　しまっとる	この　ポケモン　ジムは　しまっとる
+	cont	Congratulations!			done			done		Congratulations!	I wonder who the Gym Leader is...			いったい　どんな　ヤツが
+	done											不知道这里的馆主	いったい　どんな　ヤツが	りーダーを　しとるんじゃろか?
+end				end								究竟是怎样的家伙啊？	リーダーを　しとるんじゃろか？	

@@ -1,0 +1,46 @@
+text/FuchsiaGoodRodHouse.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_FuchsiaHouse3Text_561bd::				_FuchsiaHouse3Text_561bd::										
+	text	I'm the FISHING			text	我就是		text	我就是	I'm the FISHING	I’m the Day-Care Lady.	这里是培育屋。	わたしは　そだてやさん	…　おとくな　けいじばん!
+	line	GURU's older			line	釣魚大叔的哥哥！		line	钓鱼大叔的哥哥！	GURU's older				ポケモンを　つかまえる　ときは
+	cont	brother!			para	熱愛釣魚，		para	热爱钓鱼，	brother!	I look after and raise the Pokémon of Trainers	大家把宝可梦寄放在我这里后，	みんなの　ポケモンを　あずかって	なるべく　よわらせてから!
+					line	至死方休！		line	至死方休！	I simply Looove	who leave them here with me.	我就会开始培育它们。	そだてているよ	ポケモンが　げんきだと
+	para	I simply Looove			para	你喜不喜歡釣魚呢？		para	你喜不喜欢钓鱼呢？	fishing!				にげるかも　しれないよ!
+	line	fishing!			done			done		Do you like to	Now then, what would you like to do?	那么，你有什么事？	さて　どうするかね？	
+										fish?				
+	para	Do you like to												
+	line	fish?												
+	done													
+														
+_FuchsiaHouse3Text_561c2::				_FuchsiaHouse3Text_561c2::										
+	text	Grand! I like			text	是嗎！		text	是吗！	Grand! I like	“1F: Service Counter	１楼……　服务柜台	１かい……　サービス・カウンター	おくじょう　…　いこいの　ひろば
+	line	your style!			line	看來我和你很投緣嘛！		line	看来我和你很投缘嘛！	your style!		２楼……　训练家广场	２かい……　トレーナーズ・マーケット	　　　　　　…　じどう　はんばいき
+					para	給你這個，		para	给你这个，	Take this and	“2F: Trainers’ Market			プ
+	para	Take this and			line	讓你也來體會一下釣魚吧！		line	让你也来体会一下钓鱼吧！	fish, young one!		３楼……　电子游戏专卖店	３かい……　テレビ　ゲーム　ショップ	
+	line	fish, young one!			para	<PLAYER>從釣魚大叔		para	<PLAYER>从钓鱼大叔	<PLAYER> received	“3F: Video Game Shop	４楼……　聪明人礼品店	４かい……　ワイズマン・ギフト	
+					line	那裡得到了@		line	那里得到了@	a @				
+	para	<PLAYER> received			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer	“4F: Wiseman Gifts	５楼……　饰品天地	５かい……　アクセサリー　マーケット	
+	line	a @			text	！@		text	！@	!@		顶楼……　自动贩卖机	おくじょう……　じどう　はんばいき	
+	text_ram	wStringBuffer			text_end			text_end			“5F: Accessory Market			
+	text	!@												
+	text_end										“Roof: Relaxation Space & Vending Machines”			
+														
+_FuchsiaHouse3Text_56212::				_FuchsiaHouse3Text_56212::										
+	text	Oh... That's so			text	什麼嘛……		text	什么嘛……	Oh... That's so	It’s so pleasant...	真舒服……	きもち　いい……	おし!
+	line	disappointing...			line	好失望。		line	好失望。	disappointing...		……呼……呼～	……　すー……　すー	いい　しょうぶ　だった
+	done				done			done			... ... ...			
+														
+_FuchsiaHouse3Text_56217::				_FuchsiaHouse3Text_56217::							... ... Zzz.			
+	text	Hello there,			text	呀——		text	呀——	Hello there,	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	<PLAYER>!			line	<PLAYER>！		line	<PLAYER>！	<PLAYER>!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+					para	最近		para	最近	How are the fish				…　シルフ　カンパニー
+	para	How are the fish			line	釣得如何呢！		line	钓得如何呢！	biting?		……西尔佛公司	……シルフカンパニー	
+	line	biting?			done			done						
+	done													
+														
+_FuchsiaHouse3Text_5621c::				_FuchsiaHouse3Text_5621c::										
+	text	Oh no!			text	哎呀——！		text	哎呀——！	Oh no!	LT. SURGE: No need for introductions this time!	马志士：Welcome again！	マチス『ウエルカム　アゲイン！	クチバ　シティ　ポケモン　ジム
+					para	雖然想給你好東西，		para	虽然想给你好东西，	You have no room				りーダー　マチス
+	para	You have no room			line	但你的行李滿了呀！		line	但你的行李满了呀！	for my gift!	Trainers like us have no need for words!	We之间不需要any言语！	ことばは　いらナイ！	イナズマ　アメりカン!
+	line	for my gift!			done			done			Let’s go, kid!	Let's start！	レッツ　スタート！	
+	done													
+end				end										

@@ -1,0 +1,23 @@
+text/SSAnne1F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SSAnne1Text1::				_SSAnne1Text1::										
+	text	Bonjour!			text	Bonjour!		text	Bonjour!	Bonjour!	Bonjour!	Bonjour！	ボン　ジュール！	ボン　ジュール!
+	line	I am le waiter on			line	我是這艘客輪的服務員！		line	我是这艘客轮的服务员！	I am le waiter on	I am le waiter on zis ship!	我是这艘客轮的服务员！	わたしは　このふねの　ボーイです	わたしは　このふねの　ボーイです
+	cont	this ship!			para	您要是有任何吩咐		para	您要是有任何吩咐	this ship!				ごようを　なんなりと
+					line	儘管來聯絡我！		line	尽管来联系我！	I will be happy	I will be happy to serve you anything you please!	您要是有任何吩咐	ごようを　なんなりと	おもうしつけ　ください!
+	para	I will be happy			para	………………		para	………………	to serve you any-		尽管来联系我！	おもうしつけ　ください！	…　…　…
+	line	to serve you any-			line	……看來您是位		line	……看来您是位	thing you please!	... ... ...			…　むくちな　かた　ですね
+	cont	thing you please!			cont	不愛開口的客人。		cont	不爱开口的客人。	Ah! Le strong		………………	…………	
+					done			done		silent type!	Ah! Le strong, silent type! Très bien!	……看来您是位不爱开口的客人。	……むくちな　かた　ですね	
+	para	Ah! Le strong												
+	line	silent type!												
+	done													
+														
+_SSAnne1Text2::				_SSAnne1Text2::										
+	text	The passengers			text	這艘客輪上的客人們		text	这艘客轮上的客人们	The passengers	The passengers are restless after being out to	这艘客轮上的客人们	この　ふねの　おきゃくは	この　ふねの　おきゃくは
+	line	are restless!			line	都對長途旅行感到無聊！		line	都对长途旅行感到无聊！	are restless!	sea so long.	都对长途旅行感到无聊！	ながたびに　たいくつ　してる！	ながたびに　たいくつ　してる!
+					para	也許也有人會		para	也许也有人会	You might be				ひま　つぶしに　たたかいを
+	para	You might be			line	向你發起挑戰，		line	向你发起挑战，	challenged by the	You might get challenged to battle by some of	也许也有人会向你发起挑战，	ひま　つぶしに　たたかいを	いどんで　くる　ひとも　いるかも
+	line	challenged by the			cont	用來打發時間！		cont	用来打发时间！	more bored ones!	the really bored ones!	用来打发时间！	いどんで　くる　ひとも　いるかも	ズジ
+	cont	more bored ones!			done			done						
+	done													
+end				end										

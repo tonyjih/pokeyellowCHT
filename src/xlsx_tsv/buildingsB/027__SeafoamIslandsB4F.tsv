@@ -1,0 +1,16 @@
+text/SeafoamIslandsB4F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_ArticunoBattleText::				_ArticunoBattleText::										
+	text	Gyaoo!@			text	嘯——！@		text	啸——！@	Gyaoo!@	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	text_end				text_end			text_end			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_SeafoamIslands5Text4::				_SeafoamIslands5Text4::										つ {PLAYER}  {PLAYER} 
+	text	Boulders might			text	提示！或許能用石塊		text	提示！或许能用石块	Boulders might	Hint: You might be able to change the flow of	提示！	ヒント！　ブロックで	ヒント　いわで　ながれを
+	line	change the flow			line	來堵住水流……		line	来堵住水流……	change the flow	the water by using the blocks...	或许能用石块来堵住水流……	ながれを　せきとめられるかも……	せきとめられるかも…
+	cont	of water!			done			done		of water!				
+	done													
+														
+_SeafoamIslands5Text5::				_SeafoamIslands5Text5::										
+	text	DANGER			text	危險！		text	危险！	DANGER	Danger!	危险！	キケン！	キケン!
+	line	Fast current!			line	水流湍急！		line	水流湍急！	Fast current!	Fast current!	水流湍急！	ながれが　はやい！	ながれが　はやい!
+	done				done			done						
+end				end										

@@ -1,0 +1,33 @@
+text/SafariZoneWest.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SafariZoneWestText5::				_SafariZoneWestText5::										
+	text	REST HOUSE			text	休息小屋 …… 喘口氣		text	休息小屋 …… 喘口气	REST HOUSE	Mr. Psychic’s House	超能力大叔的家	エスパーおやじの　いえ	トレーナーぞ
+	done				done			done						きド5ま
+														
+_SafariZoneWestText6::				_SafariZoneWestText6::										
+	text	REQUEST NOTICE			text	……尋物啟事公告牌！		text	……寻物启事公告牌！	REQUEST NOTICE	Anyway, the point is this:	……总而言之，	とにかく！　ロケットだんは	おーす!
+					para	狩獵地帶的園長		para	狩猎地带的园长	Please find the	Team Rocket is a dangerous group, and they’re	据说火箭队是利用宝可梦	ポケモンを　かねもうけに　つかう	みらいの　チャンピオン!
+	para	Please find the			line	在這一帶把假牙弄丟了！		line	在这一带把假牙弄丢了！	SAFARI WARDEN's				アドバイス　しよう!
+	line	SAFARI WARDEN's			cont	如果能幫忙找到它，		cont	如果能帮忙找到它，	lost GOLD TEETH.	trying to use Pokémon to make themselves rich.	谋取暴利的危险组织！	きけんな　そしき　だとよ	ここの　りーダー　カスミは
+	cont	lost GOLD TEETH.			cont	我們一定會酬謝您。		cont	我们一定会酬谢您。	They're around				みずに　すむ　ポケモンを　つかう
+	cont	They're around			para	來自——		para	来自——	here somewhere.	I might do some digging into what it is they’re	我会好好调查一下的。	ちょっと　しらべて　みるか	プロフェッショナルだ!
+	cont	here somewhere.			line	狩獵地帶事務局		line	狩猎地带事务局	Reward offered!	really after...	……你们也要小心！	……おまえらも　きを　つけろよ！	こんな　ときは　しょくぶつ　タイプで
+					done			done		Contact: WARDEN				みずを　すいとる　さくせんだ
+	para	Reward offered!									And you two’d better stay out of their path!			…　それか　でんき　タイプで
+	line	Contact: WARDEN												しびれ　させるのも　いいぜ
+	done													
+														
+_SafariZoneWestText7::				_SafariZoneWestText7::										
+	text	TRAINER TIPS			text	……有用的公告牌！		text	……有用的公告牌！	TRAINER TIPS	Trainer Tips	……有用的公告牌！	……おとくな　けいじばん！	…　おとくな　けいじばん!
+					para	狩獵地帶大探險		para	狩猎地带大探险	Zone Exploration				しんせいひん　スーパーボールは
+	para	Zone Exploration			line	正在開展特別活動——		line	正在开展特别活动——	Campaign!	The new Ultra Ball is even better at catching	新商品“高级球”	しんせいひん　ハイパーボールは	モンスターボール　より　かくじつに
+	line	Campaign!			cont	財寶小屋大搜尋！		cont	财宝小屋大搜索！	The Search for	Pokémon than a Great Ball is!	与超级球相比	スーパーボール　より　かくじつに	ポケモンを　つかまえます!
+					done			done		the SECRET HOUSE!				なかなか　つかまえ　られない
+	para	The Search for									Try it on those hard-to-catch Pokémon.	更容易捉到宝可梦！	ポケモンを　つかまえます！	ポケモンには　こちらを　ためそう!
+	line	the SECRET HOUSE!												
+	done											试试用高级球，挑战一下	なかなか　つかまえ　られない	
+												不容易捉到的宝可梦吧！	ポケモンには　こちらを　ためそう！	
+_SafariZoneWestText8::				_SafariZoneWestText8::										
+	text	AREA 3			text	這裡是第３區		text	这里是第３区	AREA 3	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	EAST: CENTER AREA			line	東 …… 中央廣場		line	东 …… 中央广场	EAST: CENTER AREA	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done			done						
+end				end										

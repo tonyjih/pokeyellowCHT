@@ -1,0 +1,31 @@
+text/CinnabarLab.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Lab1Text1::				_Lab1Text1::										
+	text	We study #MON			text	我們每天都在這裡		text	我们每天都在这里	We study #MON	We study Pokémon here, day in and day out.	我们每天都在这里	ここでは　まいにち	ここでは　まいにち
+	line	extensively here.			line	研究寶可夢。		line	研究宝可梦。	extensively here.		研究宝可梦。	ポケモンの　けんきゅうを　してます	ポケモンの　けんきゅうを　してます
+					para	除此之外，也有客人		para	除此之外，也有客人	People often bring	People even bring us rare Pokémon to examine.			あと　めずらしい　ポケモンなどを
+	para	People often bring			line	把罕見的寶可夢		line	把罕见的宝可梦	us rare #MON		除此之外，也有客人	あと　めずらしい　ポケモンなどを	もちこんでくる　おきゃくさんも
+	line	us rare #MON			cont	送到這裡來。		cont	送到这里来。	for examination.		把罕见的宝可梦	もちこんでくる　おきゃくさんも	いらっしゃい　ますね
+	cont	for examination.			done			done						
+	done											送到这里来。	いらっしゃい　ますね	
+														
+_Lab1Text2::				_Lab1Text2::										
+	text	A photo of the			text	是紅蓮研究所創始人		text	是红莲研究所创始人	A photo of the	It’s a photo of the Cinnabar Lab’s	是红莲研究所创始人	グレン　ラボラトリーの　そうせつしゃ	グレン　ラボラトりーの　そうせつしゃ
+	line	LAB's founder,			line	富士博士的照片！		line	富士博士的照片！	LAB's founder,	founder—Dr. Fuji!	富士博士的照片！	フジはかせの　しゃしんだ！	フジはかせの　しゃしんだ!
+	cont	DR.FUJI!			done			done		DR.FUJI!				
+	done													
+														
+_Lab1Text3::				_Lab1Text3::										
+	text	#MON LAB			text	寶可夢研究所		text	宝可梦研究所	#MON LAB	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	Meeting Room			line	會客室		line	会客室	Meeting Room	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done			done						
+														
+_Lab1Text4::				_Lab1Text4::										
+	text	#MON LAB			text	寶可夢研究所		text	宝可梦研究所	#MON LAB	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	R-and-D Room			line	研究室		line	研究室	R-and-D Room	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done			done						
+														
+_Lab1Text5::				_Lab1Text5::										
+	text	#MON LAB			text	寶可夢研究所		text	宝可梦研究所	#MON LAB	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	Testing Room			line	實驗室		line	实验室	Testing Room	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done			done						
+end				end										

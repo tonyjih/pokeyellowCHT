@@ -1,0 +1,35 @@
+text/ViridianMart.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_ViridianMartText1::				_ViridianMartText1::										
+	text	Okay! Say hi to			text	那麼，就拜託你		text	那么，就拜托你	Okay! Say hi to	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	PROF.OAK for me!			line	給大木博士打招呼了！		line	给大木博士打招呼了！	PROF.OAK for me!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	done				done			done						…　シルフ　カンパニー
+												……西尔佛公司	……シルフカンパニー	
+_ViridianMartText4::				_ViridianMartText4::										
+	text	Hey! You came from			text	噢！		text	噢！	Hey! You came from	Hey!	噢！	お！　きみは	お!　きみは
+	line	PALLET TOWN?			line	你是從真新鎮來的吧？		line	你是从真新镇来的吧？	PALLET TOWN?	You came up from Pallet Town?	你是从真新镇来的吧？	マサラタウンから　きたんだね？	マサラ　タウンから　きたんだね?
+	done				done			done						
+														
+ViridianMartParcelQuestText::				ViridianMartParcelQuestText::										
+	text	You know PROF.			text	你認識大木博士吧？		text	你认识大木博士吧？	You know PROF.	You must know Professor Oak, right?	你认识大木博士吧？	オーキドはかせを　しってるね？	オーキド　はかせを　しってるね?
+	line	OAK, right?			para	他拜託我給他送去這個，		para	他拜托我给他送去这个，	OAK, right?				これ　たのまれてるんだけど
+					line	能不能麻煩你幫我把這個		line	能不能麻烦你帮我把这个	His order came in.	I’ve got a delivery for him, but I really can’t	他拜托我给他送去这个，	これ　たのまれてるん　だけど	わたして　くれるかい!
+	para	His order came in.			cont	交給大木博士呢？		cont	交给大木博士呢？	Will you take it	leave the Poké Mart unattended right now.	可是我现在太忙走不开……	いま　てが　はなせなくて……	 {PLAYER} は　ショップから
+	line	Will you take it			para	<PLAYER>從商店那裡		para	<PLAYER>从商店那里	to him?				とどけものを　あずかった!@ヅ@
+	cont	to him?			line	得到了包裹！@		line	得到了包裹！@	<PLAYER> got	Can I get you to take this to Professor Oak	能不能麻烦你	オーキドはかせに	
+					text_end			text_end		OAK's PARCEL!@	for me?	帮我把这个交给大木博士呢？	わたして　くれるかい！	
+	para	<PLAYER> got												
+	line	OAK's PARCEL!@												
+	text_end													
+														
+_ViridianMartText2::				_ViridianMartText2::										
+	text	This shop sells a			text	他們說，解麻藥是			ねえ　この　みせの　うれすじは		This time, however, we’ll be officially	而从这次起宝可梦联盟	だが　このたび　チャンピオンを	…　こまった　ことに　むすめは
+	line	lot of PARLYZ			line	這家店的暢銷貨呢！			まひなおし　なんだって!		establishing the Champion as a part of	则会正式设立冠军头衔！	せいしきに　ポケモンリーグに	ひとの　まねが　すきでな!
+	cont	HEALs.												しょっちゅう　ひとを　からかう　ので
+	done				done						the Pokémon League!		おく　ことに　なったんじゃ	きんじょ　じゃ
+														モノマネ　むすめと　よばれとる!
+_ViridianMartText3::				_ViridianMartText3::										
+	text	The shop finally			text	總是賣斷貨的傷藥，			いつも　うりきれだった　キズぐすり		The Safari Zone has the Playful Park out in front!	狩猎地带的入口附近是	サファリゾーンの　いりぐち　ふきんは	サファり　ゾーンは
+	line	has some POTIONs			line	現在終於能買到了！			やっと　かえるように　なったよ			训练家和宝可梦的互动区！	ポケモンとの　ふれあいエリア！	いりぐち　ふきんは　どうぶつえんで
+	cont	in stock.									Out back is the GO Park complex!			おくに　いくと　ポケモンが
+	done				done							再往里面就是GO Park了！	おく　には　ＧＯパークが　ある！	とりほうだいの　サファり　ゲームじゃ
+end				end										

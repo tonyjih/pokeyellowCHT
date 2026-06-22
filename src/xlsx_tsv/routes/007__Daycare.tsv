@@ -1,0 +1,101 @@
+text/Daycare.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_DayCareIntroText::				_DayCareIntroText::										
+	text	I run a DAYCARE.			text	這裡是培育屋。		text	这里是培育屋。	I run a DAYCARE.	So the Gym Leader of Viridian City was	原来常青道馆的馆主	トキワジムの　ジムリーダー	0すすぬ5ー♂　ロケットだん
+	line	Would you like me			line	你有什麼想要培育的		line	你有什么想要培育的	Would you like me	the Team Rocket leader, huh...	是火箭队的人呢……	ロケットだん　だったのね……	
+	cont	to raise one of			cont	寶可夢嗎？		cont	宝可梦吗？	to raise one of				
+	cont	your #MON?			done			done		your #MON?	But you defeated even a scary person like that!	[VAR TRNAME(0000)]！	そんな　こわいひと　にも	
+	done										You can count me as one of your fans now!	连这么可怕的人物你都能击败，	かてちゃう　[VAR TRNAME(0000)]さん！	
+														
+_DayCareWhichMonText::				_DayCareWhichMonText::								我……决定做你的粉丝了！	わたし……　ファンに　なっちゃった！	
+	text	Which #MON			text	那麼，你有什麼		text	那么，你有什么	Which #MON	Now then...	好了……	では……	
+	line	should I raise?			line	想要培育的寶可夢嗎？		line	想要培育的宝可梦吗？	should I raise?				のこり　じかんが　なくなるか!
+	prompt				prompt			prompt			Which of the eight Badges should I describe?	８个联盟徽章里，	リーグバッジ　８つの　うち	サファりボールが　なくなったら
+												我该讲哪个好呢？	どれに　ついて　はなしましょう？	メガホンで　しらせます!
+_DayCareWillLookAfterMonText::				_DayCareWillLookAfterMonText::										では…!　ぐっど　らっく!
+	text	Fine, I'll look			text	那麼，我會照顧好		text	那么，我会照顾好	Fine, I'll look	“1F: Service Counter	１楼……　服务柜台	１かい……　サービス・カウンター	おくじょう　…　いこいの　ひろば
+	line	after @			line	@		line	@	after @		２楼……　训练家广场	２かい……　トレーナーズ・マーケット	　　　　　　…　じどう　はんばいき
+	text_ram	wcd6d			text_ram	wcd6d		text_ram	wcd6d	wcd6d	“2F: Trainers’ Market			プ
+	text_start				text	的。		text	的。			３楼……　电子游戏专卖店	３かい……　テレビ　ゲーム　ショップ	
+	cont	for a while.			prompt			prompt		for a while.	“3F: Video Game Shop	４楼……　聪明人礼品店	４かい……　ワイズマン・ギフト	
+	prompt													
+											“4F: Wiseman Gifts	５楼……　饰品天地	５かい……　アクセサリー　マーケット	
+_DayCareComeSeeMeInAWhileText::				_DayCareComeSeeMeInAWhileText::								顶楼……　自动贩卖机	おくじょう……　じどう　はんばいき	
+	text	Come see me in			text	你什麼時候有時間了		text	你什么时候有时间了	Come see me in	Hello, [VAR TRNAME(0000)]!	那啥～说你呢～[VAR TRNAME(0000)]啊！	やー　やー　[VAR TRNAME(0000)]！	やー　やー　 {PLAYER} くん!
+	line	a while.			line	再過來吧。		line	再过来吧。	a while.				また　わしの　ポケモン　じまんを
+	done				done			done			Did you come see me about my Pokémon again?	又想来听老夫介绍	また　わしの　ポケモン　じまんを	ききに　きたの　かね!
+												引以为豪的宝可梦了吧！	ききに　きたの　かね！	…　え　ちがう?
+_DayCareMonHasGrownText::				_DayCareMonHasGrownText::							No?			なんじゃ…　つまらん
+	text	Your @			text	你的@		text	你的@	Your @	There’s an email on the screen of the PC...	电脑里	パソコンに	 {5B} に
+	text_ram	wcd6d			text_ram	wcd6d		text_ram	wcd6d	wcd6d		收到了一封邮件！	メールが　とどいてる！	でんしメールが　とどいてる!
+	text_start				text_start			text_start			“Articuno, Zapdos, and Moltres are all			…　…　…
+	line	has grown a lot!			line	成長了許多哦。		line	成长了许多哦。	has grown a lot!	legendary bird Pokémon. This we know.	火焰鸟、闪电鸟和急冻鸟	ファイヤー　サンダー　フリーザーは	でんせつの　とりポケモンは
+					para	它的等級差不多		para	它的等级差不多	By level, it's		是传说的鸟宝可梦。	でんせつの　とりポケモンです	3しゅるい…　ファイヤー
+	para	By level, it's			line	提高了@		line	提高了@	grown by @	“Yet their exact whereabouts are still unknown.			サンダー　フりーザー…
+	line	grown by @			text_decimal	wDayCareNumLevelsGrown, 1, 3 		text_decimal	wDayCareNumLevelsGrown, 1, 3 	wDayCareNumLevelsGrown, 1, 3 	We will be investigating the Cerulean Cave next	可是现在依然没有人知晓	しかし　どこに　いるのか	しかし　どこに　いるのか
+	text_decimal	wDayCareNumLevelsGrown, 1, 3 			text	級。		text	级。	!		究竟能在哪里遇到它们。	まだ　わかって　ません	まだ　わかって　ません
+	text	!			para	我果然是天才吧！		para	我果然是天才吧！	Aren't I great?	and will report back accordingly.			こんど　ハナダ　どうくつに
+					prompt			prompt				接下来我们将	こんど　ハナダのどうくつに	ちょうさに　いきます
+	para	Aren't I great?									       — The Pokémon Research Team”	前去华蓝洞窟调查。	ちょうさに　いきます	…　まずは　ほうこく　まで
+	prompt													ポケモン　ちょうさ　たい
+												总之先报告到这里。	まずは　ほうこく　まで	…　…　…
+_DayCareOweMoneyText::				_DayCareOweMoneyText::								……宝可梦调查队敬上	……ポケモン　ちょうさ　たい	
+	text	You owe me ¥@			text	如果領回寶可夢，		text	如果领回宝可梦，	You owe me ¥@	Hello there! Glad to meet you!	你好！	はじめまして！	はじめまして!
+	text_bcd	wDayCareTotalCost, 2 | LEADING_ZEROES | LEFT_ALIGN 			line	需要支付費用¥@		line	需要支付费用¥@	wDayCareTotalCost, 2 | LEADING_ZEROES | LEFT_ALIGN 		很高兴见到你！		ポケットモンスターの　せかいへ
+	text_start				text_bcd	wDayCareTotalCost, 2 | LEADING_ZEROES | LEFT_ALIGN 		text_bcd	wDayCareTotalCost, 2 | LEADING_ZEROES | LEFT_ALIGN 		Welcome to the world of Pokémon!		ポケットモンスターの　せかいへ	ようこそ!
+	line	for the return			text	哦。		text	哦。	for the return		欢迎来到精灵宝可梦的世界！	ようこそ！	わたしの　なまえは　オーキド
+	cont	of this #MON.			done			done		of this #MON.	My name is Oak.			みんなからは　ポケモン　はかせと
+	done											我叫大木，	わたしの　なまえは　オーキド	したわれて　おるよ
+											People affectionately refer to me as	大家都亲切地称我为	みんなからは　ポケモン　はかせと	
+_DayCareGotMonBackText::				_DayCareGotMonBackText::							the Pokémon Professor.			
+	text	<PLAYER> got			text	<PLAYER>從培育屋		text	<PLAYER>从培育屋	<PLAYER> got	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	@			line	領回了@		line	领回了@	@	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	text_ram	wDayCareMonName 			text_ram	wDayCareMonName 		text_ram	wDayCareMonName 	wDayCareMonName 				…　シルフ　カンパニー
+	text	 back!			text	！		text	！	 back!		……西尔佛公司	……シルフカンパニー	
+	done				done			done						
+														
+_DayCareMonNeedsMoreTimeText::				_DayCareMonNeedsMoreTimeText::										
+	text	Back already?			text	什麼嘛，已經來了嗎。		text	什么嘛，已经来了吗。	Back already?	“1F: Service Counter	１楼……　服务柜台	１かい……　サービス・カウンター	おくじょう　…　いこいの　ひろば
+	line	Your @			line	你的@		line	你的@	Your @		２楼……　训练家广场	２かい……　トレーナーズ・マーケット	　　　　　　…　じどう　はんばいき
+	text_ram	wcd6d			text_ram	wcd6d		text_ram	wcd6d	wcd6d	“2F: Trainers’ Market			プ
+	text_start				text_start			text_start				３楼……　电子游戏专卖店	３かい……　テレビ　ゲーム　ショップ	
+	cont	needs some more			cont	還需要時間來成長哦。		cont	还需要时间来成长哦。	needs some more	“3F: Video Game Shop	４楼……　聪明人礼品店	４かい……　ワイズマン・ギフト	
+	cont	time with me.			prompt			prompt		time with me.				
+	prompt										“4F: Wiseman Gifts	５楼……　饰品天地	５かい……　アクセサリー　マーケット	
+												顶楼……　自动贩卖机	おくじょう……　じどう　はんばいき	
+_DayCareAllRightThenText::				_DayCareAllRightThenText::							“5F: Accessory Market			
+	text	All right then,			text	是嗎，那麼		text	是吗，那么	All right then,	Hey! You have Pokémon, right?	嗨！	よーしッ！	よーしッ!
+	line	@			line	@		line	@	@	Come on!	你有宝可梦的吧？	きみは　ポケモン　もってるな？	きみは　ポケモン　もってるな?
+	text_end				text_end			text_end						しょうぶ　しようぜ!
+											Let’s battle ’em!	我们来对战！	しょうぶ　しようぜ！	
+_DayCareComeAgainText::				_DayCareComeAgainText::										
+	text	Come again.			text	以後再來吧。		text	以后再来吧。	come again.	P-please come again.	欢、欢迎下次再来……	ま　また　よろしくね……	っ　▼ぺ0ら3ネっヤ　ま
+	done				done			done						
+														
+_DayCareNoRoomForMonText::				_DayCareNoRoomForMonText::										
+	text	You have no room			text	可是，同行的寶可夢		text	可是，同行的宝可梦	You have no room	But...I think you and [VAR PKNAME(0002)]	不过……	だが……	　ぽ　ぽ　
+	line	for this #MON!			line	已滿了哪。		line	已满了哪。	for this #MON!	will have no trouble slicing through!	现在的你和[VAR PKNAME(0002)]	いまの　おまえと　[VAR PKNAME(0002)]なら	
+	done				done			done						
+											Come on! Give it a shot!	应该可以轻松做到吧！	たやすく　きれる　はずだ！	
+_DayCareOnlyHaveOneMonText::				_DayCareOnlyHaveOneMonText::										
+	text	You only have one			text	哎呀？你好像只有		text	哎呀？你好像只有	You only have one	You have a Clefairy with you.	[VAR TRNAME(0000)]现在带着皮皮。	[VAR TRNAME(0000)]は	ムノﾞ7　　5ム
+	line	#MON with you.			line	１隻寶可夢哪。		line	１只宝可梦哪。	#MON with you.	Do you want to show it to Copycat?	……要给她看看吗？	ピッピを　つれている	
+	done				done			done						
+													……みせて　みようか？	
+_DayCareCantAcceptMonWithHMText::				_DayCareCantAcceptMonWithHMText::										
+	text	I can't accept a			text	雖然很抱歉，但帶有		text	虽然很抱歉，但带有	I can't accept a	I can’t face my followers after being defeated	以这样的方式输给你，	このような　まけかたを　しては	ちょうのうりょくは　かぎられた
+	line	#MON that			line	秘傳招式的寶可夢		line	秘传招式的宝可梦	#MON that	like this.	我确实没有办法向部下交代！	ぶかたちに　しめしが　つかない！	ひとの　ちから　では　ないわ!
+	cont	knows an HM move.			cont	是無法寄放的哪。		cont	是无法寄放的哪。	knows an HM move.				だれでも　もってるのよ!
+	done				done			done			Team Rocket is...	火箭队……	ロケットだんは……	ただ　それに　きが　つかない　だけ
+												就从今天起正式解散！	ほんじつを　もって　かいさんする！	
+_DayCareHeresYourMonText::				_DayCareHeresYourMonText::							As of today, Team Rocket is finished!			
+	text	Thank you! Here's			text	好，錢剛剛好！		text	好，钱刚刚好！	Thank you! Here's	You impressed me!	你好像很有骨气嘛！	おまえは　ほねが　ありそう　だ！	おまえは　ほねが　ありそう　だ!
+	line	your #MON!			line	那請帶走你的寶可夢吧。		line	那请带走你的宝可梦吧。	your #MON!	Here’s a hint!	那就破例给你一个提示好了！	とくべつに　ヒントを　おしえよう！	とくべつに　ヒントを　おしえよう!
+	prompt				prompt			prompt						みえない　かべは　よく　みると
+											Look very closely for gaps in the invisible walls!	仔细看的话，就能发现	みえない　かべは　よく　みると	しきりが　みえて　くる…!
+_DayCareNotEnoughMoneyText::				_DayCareNotEnoughMoneyText::								“看不见的墙壁”上的缝隙哦……！	しきりが　みえて　くる……！	ゲ
+	text	Hey, you don't			text	你的錢不夠呢。		text	你的钱不够呢。	Hey, you don't	You don’t have enough dough.	你啊……	アナタさま……　さきだつ　ものが	…　おとくな　けいじばん!
+	line	have enough ¥!			done			done		have enough ¥!		最最重要的东西好像不太够噢？	たりませんよ？	ひとの　ポケモンは　ひとの　もの!
+	done										...Dough means money, kid.			やせいの　ポケモンに　だけ
+end				end								最最重要的东西……	さきだつ　もの　とは	モンスターボールを　なげて
+												当然就是指钱咯！	……おかねの　こと　です	つかまえよう!
+														

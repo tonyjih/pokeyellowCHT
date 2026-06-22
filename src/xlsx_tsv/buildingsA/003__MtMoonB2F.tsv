@@ -1,0 +1,132 @@
+text/MtMoonB2F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_MtMoonJessieJamesText1::				_MtMoonJessieJamesText1::										
+	text	Stop right there!@			text	且慢！@			おまち!!		“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	text_end				text_end						2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+														
+_MtMoonJessieJamesText2::				_MtMoonJessieJamesText2::										
+	text	That fossil is			text	化石是我們火箭隊的！			かせきは　あたしたち		I flew right here on my Pidgeot when I read that	我听说火箭队袭击了西尔佛！	ロケットだんが　シルフ　おそって	ロケットだんが　シルフ　おそって
+	line	TEAM ROCKET's!							ロケットだんの　ものよ!		Team Rocket was invading Silph!	就让大比鸟带我飞到了这里！	だいじけんって　きいて！	だいじけんって　きいて!
+														ピジョットで　とんで　きたッス
+	para	Surrender now, or									But...shucks, it’s already over?	你说这件事已经解决了……？	ピジョットで　とんで　きたッス	かいけつ　した…?
+	line	prepare to fight!										不好意思！		すんません!
+	done				done						Sorry! I’m just a sucker for drama!		かいけつ　した……？	ねっからの　ヤジウマ　で!
+												我天生就喜欢看热闹！	すんません！	
+_MtMoonJessieJamesText3::				_MtMoonJessieJamesText3::										
+	text	A			text	我竟然會輸給			まさか		A twerp beat us?	我竟然会输给这样的孩子……	まさか	まさか
+	line	brat beat us?			line	這樣的孩子……			こんな　こどもに　まけるなんて				こんな　こどもに　まけるなんて	こんな　こどもに　まけるなんて
+	prompt				prompt									
+														
+_MtMoonJessieJamesText4::				_MtMoonJessieJamesText4::										
+	text	TEAM ROCKET, blast			text	好討厭的感覺啊～！@			やなかんじ		Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	off at the speed									Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	of light!@												…　シルフ　カンパニー
+	text_end				text_end							……西尔佛公司	……シルフカンパニー	
+														
+_MtMoon3Text_49f24::				_MtMoon3Text_49f24::										
+	text	You want the			text	要選甲殼化石嗎？		text	要选甲壳化石吗？	You want the	Do you want to take the Dome Fossil?	要选甲壳化石吗？	こうらのカセキに　する？	トレーナーぞ
+	line	DOME FOSSIL?			done			done		DOME FOSSIL?				きド5ま
+	done													
+														
+_MtMoon3Text_49f64::				_MtMoon3Text_49f64::										
+	text	You want the			text	要選貝殼化石嗎？		text	要选贝壳化石吗？	You want the	Do you want to take the Helix Fossil?	要选贝壳化石吗？	かいのカセキに　する？	トレーナーぞ
+	line	HELIX FOSSIL?			done			done		HELIX FOSSIL?				きド5ま
+	done													
+														
+_MtMoon3Text_49f6f::				_MtMoon3Text_49f6f::										
+	text	<PLAYER> got the			text	<PLAYER>得到了		text	<PLAYER>得到了	<PLAYER> got the	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	@			line	@		line	@	@	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	text_ram	wStringBuffer			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer				…　シルフ　カンパニー
+	text	!@			text	！@		text	！@	!@		……西尔佛公司	……シルフカンパニー	
+	text_end				text_end			text_end						
+														
+_MtMoon3Text_49f7f::				_MtMoon3Text_49f7f::										
+	text	Look, you've got			text	哎呀！		text	哎呀！	Look, you've got	Hmm?	哦？	おや？　あんた	おや?　あんた
+	line	no room for this.@			line	已經拿不下了……@		line	已经拿不下了……@	no room for this.@	You’ve met Bill?	你应该认识正辉那小子吧？	マサキの　ことを　しっとるのかね？	マサキの　ことを　しっとるのかね?
+	text_end				text_end			text_end						マサキは　わしの　まごじゃ!
+											He’s my grandson!	正辉是我的孙子唷！	マサキは　わしの　まごじゃ！	ちいさい　ころから
+_MtMoon3Text_49f85::				_MtMoon3Text_49f85::										ものを　あつめるのが　すきな
+	text	Hey, stop!			text	你給我站住！		text	你给我站住！	Hey, stop!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+					para	這化石		para	这化石	I found these	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	para	I found these			line	是我先找到的！		line	是我先找到的！	fossils! They're				…　シルフ　カンパニー
+	line	fossils! They're			cont	兩個都是我的！		cont	两个都是我的！	both mine!		……西尔佛公司	……シルフカンパニー	
+	cont	both mine!			done			done						
+	done													
+														
+_MtMoon3Text_49f8a::				_MtMoon3Text_49f8a::										
+	text	OK!			text	好吧！		text	好吧！	OK!	OK!	好吧！	わかった！	わかった!
+	line	I'll share!			line	我也分你一點好了。		line	我也分你一点好了。	I'll share!	I’ll share!	我也分你一点好了。	おまえにも　わけて　やるよ	おまえにも　わけて　やるよ
+	prompt				prompt			prompt						
+														
+_MtMoon3Text_49f8f::				_MtMoon3Text_49f8f::										
+	text	We'll each take			text	我和你		text	我和你	We'll each take	Fine, we’ll each take a Fossil...	我和你１人１个化石！	ぼくと　おまえで	ぼくと　おまえで
+	line	one!			line	１人１個化石！		line	１人１个化石！	one!	It’s no good being greedy, right?	不许独吞！	カセキを　１こ　ずつ　だ！	カセキを　1こ　ずつ　だ!
+	cont	No being greedy!			cont	不許獨吞！		cont	不许独吞！	No being greedy!				ひとり　じめは　ダメだぞ!
+	done				done			done					ひとり　じめは　ダメだぞ！	
+														
+_MtMoon3Text_49f94::				_MtMoon3Text_49f94::										
+	text	Far away, on			text	雖然離這裡很遠……		text	虽然离这里很远……	Far away, on	It’s really far away from here, but apparently	虽然离这里很远……	ここから　すごく　とおいけど	ここから　すごく　とおいけど
+	line	CINNABAR ISLAND,			line	在紅蓮鎮有一座研究所，		line	在红莲镇有一座研究所，	CINNABAR ISLAND,	there’s a lab on Cinnabar Island where they’re			グレン　タウンに
+	cont	there's a #MON			para	據說有人在那裡		para	据说有人在那里	there's a #MON		在红莲镇有一座研究所，	カセキを　よみがえらせる	ポケモン　けんきゅうじょが　ある
+	cont	LAB.			line	研究如何讓化石復活！		line	研究如何让化石复活！	LAB.	doing research on reviving Fossils.	据说有人在那里	けんきゅうを　してる　ラボが	カセキを　よみがえらせる
+					done			done		They do research				けんきゅうも　してる　らしいぜ
+	para	They do research								on regenerating		研究如何让化石复活！	グレンタウンに　ある　らしいよ	
+	line	on regenerating								fossils.				
+	cont	fossils.												
+	done													
+														
+_MtMoon3Text_49f99::				_MtMoon3Text_49f99::										
+	text	All right. Then			text	那麼		text	那么	All right. Then	This Pokémon Gym is always closed...	不管什么时候来，	いつ　きても	いつ　きても
+	line	this is mine!@			line	剩下的這個就歸我了。@		line	剩下的这个就归我了。@	this is mine!@		这里的道馆总是关着门……	この　ポケモンジムは　しまっとる	この　ポケモン　ジムは　しまっとる
+	text_end				text_end			text_end			I wonder who the Gym Leader is...			いったい　どんな　ヤツが
+												不知道这里的馆主	いったい　どんな　ヤツが	りーダーを　しとるんじゃろか?
+_MtMoon3BattleText3::				_MtMoon3BattleText3::								究竟是怎样的家伙啊？	リーダーを　しとるんじゃろか？	
+	text	We, TEAM ROCKET,			text	身為寶可夢黑手黨的火箭隊		text	身为宝可梦黑手党的火箭队	We, TEAM ROCKET,	We, Team Rocket, are the Pokémon bandits!	身为宝可梦黑手党的火箭队	ポケモン　マフィア	ポケモン　マフィア
+	line	are #MON			line	可是很恐怖，很強大的！		line	可是很恐怖，很强大的！	are #MON	We strike fear into others with our strength!	可是很恐怖，很强大的！	ロケットだんは	ロケットだんは
+	cont	gangsters!			done			done		gangsters!				こわくて　つよい　のだ!
+	done												こわくて　つよい　のだ！	
+														
+_MtMoon3EndBattleText3::				_MtMoon3EndBattleText3::										
+	text	I blew			text	失手了嗎！		text	失手了吗！	I blew	I blew it!	失手了吗！	しくじったか！	トレーナーぞ
+	line	it!			prompt			prompt		it!				きド5ま
+	prompt													
+														
+_MtMoon3AfterBattleText3::				_MtMoon3AfterBattleText3::										
+	text	Darn it all! My			text	可惡！		text	可恶！	Darn it all! My	Oh man!	可恶！	くそ！	くそ!
+	line	associates won't			line	我同伴不會放過你的。		line	我同伴不会放过你的。	associates won't	My associates won’t stand for this!	我同伴不会放过你的。	なかまが　だまっちゃ　いねえぞ	なかまが　だまっちゃ　いねえぞ
+	cont	stand for this!			done			done		stand for this!				
+	done													
+														
+_MtMoon3BattleText4::				_MtMoon3BattleText4::										
+	text	We're pulling a			text	我們正在做重要的工作！		text	我们正在做重要的工作！	We're pulling a	We’re pulling a big job here!	我们正在做重要的工作！	おれたちは	おれたちは
+	line	big job here!			line	小孩子就快點回家去。		line	小孩子就快点回家去。	big job here!	Get lost, kid!	小孩子就快点回家去。	だいじな　しごとを　してるんだ！	だいじな　しごとを　してるんだ!
+	cont	Get lost, kid!			done			done		Get lost, kid!				こどもは　おうちへ　かえりな
+	done												こどもは　おうちへ　かえりな	
+														
+_MtMoon3EndBattleText4::				_MtMoon3EndBattleText4::										
+	text	So, you			text	你還真有兩下子。		text	你还真有两下子。	So, you	Hey, you!	你呀你呀～！你不会是	キミ　キミー！　もしかして	ちょっと　まったあ!
+	line	are good.			prompt			prompt		are good.	Are you going to Cinnabar Island, by	要去红莲镇之类的吧？	グレンタウン　いく　けい？	そんな　いそいで　どこに　いく?
+	prompt													
+											any chance?			
+_MtMoon3AfterBattleText4::				_MtMoon3AfterBattleText4::										
+	text	If you find a			text	如果發現了化石，		text	如果发现了化石，	If you find a	If you find a Fossil, give it to me and scram!	如果发现了化石，	カセキを　みつけたら	カセキを　みつけたら
+	line	fossil, give it			line	你就過來告訴我一聲，		line	你就过来告诉我一声，	fossil, give it		你就过来告诉我一声，	ばしょだけ　おしえて	ばしょだけ　おしえて
+	cont	to me and scram!			cont	然後趕緊給我回家去！		cont	然后赶紧给我回家去！	to me and scram!				さっさと　かえるんだな!
+	done				done			done				然后赶紧给我回家去！	さっさと　かえるんだな！	
+														
+_MtMoon3BattleText5::				_MtMoon3BattleText5::										
+	text	Little kids			text	喂！		text	喂！	Little kids	Little kids shouldn’t be messing around	大人之间的事情，	おとなの　せかいに	おうっ!
+	line	should leave			line	大人之間的事情，		line	大人之间的事情，	should leave	with grown-ups!	小孩子家家的少管！	くびを　つっこむんじゃ　ないわ！	おとなの　せかいに
+	cont	grown-ups alone!			cont	小孩子家家的少管！		cont	小孩子家家的少管！	grown-ups alone!				くびを　つっこむと　あぶないぜ!
+	done				done			done						
+														
+_MtMoon3EndBattleText5::				_MtMoon3EndBattleText5::										
+	text	I'm			text	怒氣攻心！		text	怒气攻心！	I'm	Hiya!	您好！	こんちわ！	こんちわ!
+	line	steamed!			prompt			prompt		steamed!	I’m a Pokémon...	我是宝可梦……！	ぼく　ポケモン……！	サファり　ゲームは　はじめて?
+	prompt													
+											N-no! I mean—!	……错！	……ちゃうわい！	
+_MtMoon3AfterBattleText5::				_MtMoon3AfterBattleText5::										
+	text	#MON lived			text	人類還沒誕生之前，		text	人类还没诞生之前，	#MON lived	Seems that Pokémon lived here long before	人类还没诞生之前，	にんげんが　うまれる　まえから	にんげんが　うまれる　まえから
+	line	here long before			line	寶可夢好像		line	宝可梦好像	here long before	people ever came.	宝可梦好像就住在这里了……	この　あたりには	この　あたりには
+	cont	people came.			cont	就住在這裡了……		cont	就住在这里了……	people came.				ポケモンが　すんでた　らしいぜ
+	done				done			done					ポケモンが　すんでた　らしいわ……	
+end				end										

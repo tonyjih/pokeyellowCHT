@@ -1,0 +1,13 @@
+text/SafariZoneCenterRestHouse.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_SafariZoneRestHouse1Text1::				_SafariZoneRestHouse1Text1::										
+	text	SARA: Where did			text	敦子：浩司說		text	敦子：浩司说	SARA: Where did	Where did you come from?	你从哪里来？	きみ　どこから？	うらぐちから　タダで　はいろうなんて
+	line	my boy friend,			line	他要去抓寶可夢……		line	他要去抓宝可梦……	my boy friend,				ちゃっかりもの　だね
+	cont	ERIK, go?			cont	然後就不知道跑哪去了！		cont	然后就不知道跑哪去了！	ERIK, go?	Oh... Pallet Town, huh?	……噢，真新镇是嘛。	……へえ　マサラタウンかあ	それより　きみ
+	done				done			done			It’s very nice and quiet there, I hear.	那是个恬静的好地方呐！	のどかで　いいよね！	コハクって　しってる?
+														
+_SafariZoneRestHouse1Text2::				_SafariZoneRestHouse1Text2::										
+	text	I'm catching			text	好嘞！		text	好嘞！	I'm catching	Oh, I guess you just met, huh?	你和它才认识不久吗？	まだ　しりあったばかり　なの？	まだ　まだ!
+	line	#MON to take			line	我要捕捉一大堆寶可夢		line	我要捕捉一大堆宝可梦	#MON to take	Well, I’m looking forward to seeing you become	期待你们今后的发展！	これからに　きたい　よね！	おれには　しゅぎょうが　たりない
+	cont	home as gifts!			cont	帶回去當禮物！		cont	带回去当礼物！	home as gifts!				ゲ
+	done				done			done			fast friends!			
+end				end										

@@ -1,0 +1,71 @@
+text/CeruleanBadgeHouse.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_CeruleanHouse2Text_74e77::				_CeruleanHouse2Text_74e77::										
+	text	#MON BADGEs			text	只有能力達標的		text	只有能力达标的	#MON BADGEs	Only skilled Trainers can collect Gym Badges.	只有能力达标的宝可梦训练家	うでが　あがった	うでが　あがった
+	line	are owned only by			line	寶可夢訓練家		line	宝可梦训练家	are owned only by		才能获得联盟徽章！	ポケモントレーナー　だけが　もらえる	ポケモントレーナーだけが　もらえる
+	cont	skilled trainers.			cont	才能獲得寶可夢徽章！		cont	才能获得宝可梦徽章！	skilled trainers.	I see you have at least one.			ポケモン　バッジ
+					para	看來你也有幾個徽章啊。		para	看来你也有几个徽章啊。	I see you have		看来你也有几个徽章啊。	リーグバッジ！	あなたも　いくつか　もってるね
+	para	I see you have			para	那些徽章裡		para	那些徽章里	at least one.	May I tell you some interesting little bits of			その　バッジには
+	line	at least one.			line	藏著驚人的秘密呢！		line	藏着惊人的秘密呢！	Those BADGEs have	trivia about those Badges?	你能听我唠叨一下	あなたも　いくつか　もってますね	すごい　ひみつが　あるのです
+					prompt			prompt		amazing secrets!		联盟徽章的小知识吗？		
+	para	Those BADGEs have											では　バッジについて　わたしの	
+	line	amazing secrets!											ウンチク　かたっても　よいですか？	
+	prompt													
+														
+_CeruleanHouse2Text_74e7c::				_CeruleanHouse2Text_74e7c::										
+	text	Now then...			text	好了……		text	好了……	Now then...	Now then...	好了……	では……	
+					para	８個聯盟徽章裡，		para	８个联盟徽章里，	Which of the 8				のこり　じかんが　なくなるか!
+	para	Which of the 8			line	我該講哪個好呢？		line	我该讲哪个好呢？	BADGEs should I	Which of the eight Badges should I describe?	８个联盟徽章里，	リーグバッジ　８つの　うち	サファりボールが　なくなったら
+	line	BADGEs should I			done			done		describe?		我该讲哪个好呢？	どれに　ついて　はなしましょう？	メガホンで　しらせます!
+	cont	describe?												では…!　ぐっど　らっく!
+	done													
+														
+_CeruleanHouse2Text_74e81::				_CeruleanHouse2Text_74e81::										
+	text	Come visit me any-			text	你要是改變主意了，		text	你要是改变主意了，	Come visit me any	Come visit me anytime you wish.	你要是改变主意了，	はなしを　ききたく　なったら	はなしを　ききたく　なったら
+	line	time you wish.			line	隨時都可以來問我。		line	随时都可以来问我。	time you wish.		随时都可以来问我。	また　いらっしゃい	また　いらっしゃい
+	done				done			done						
+														
+_CeruleanHouse2Text_74e96::				_CeruleanHouse2Text_74e96::										
+	text	The ATTACK of all			text	所有的		text	所有的	The ATTACK of all	I’m the chairman of the Pokémon Fan Club!	宝可梦发烧友俱乐部的会长	ポケモン　だいすき　クラブの	ポケモン　だいすき　クラブの
+	line	#MON increases			line	寶可夢的攻擊力		line	宝可梦的攻击力	#MON increases	I raise more than a hundred Pokémon!	正是老夫！	かいちょうは　わし　じゃ！	かいちょうは　わし　じゃ!
+	cont	a little bit.			cont	都會提高少許。		cont	都会提高少许。	a little bit.				だいじに　しとるポケモンは
+					para	此外，招式“閃光”		para	此外，招式“闪光”	It also lets you	I’m very fussy when it comes to Pokémon!	老夫手里的宝可梦	もってる　ポケモンは	100ぴきを　こえとる!
+	para	It also lets you			line	在戰鬥以外的時候		line	在战斗以外的时候	use FLASH any	I surely am!	已经超过了100只！	１００ぴきを　こえとる！	ポケモンに　かんしては
+	line	use FLASH any-			cont	好像也可以使用了。		cont	好像也可以使用了。	time you desire.				ホント　うるさい!　ですぞ!
+	cont	time you desire.			prompt			prompt			So...	要老夫说起宝可梦的事，	ポケモンに　かんしては	で…
+	prompt											那可是三天三夜都说不完哇！	ホント　うるさい！　ですぞ！	きみは　わしの　ポケモン　じまんを
+											Did you come visit to hear about			ききに　きたの　かね?
+_CeruleanHouse2Text_74e9b::				_CeruleanHouse2Text_74e9b::							my Pokémon?	于是乎……	で……	
+	text	#MON up to L30			text	等級３０以內的寶可夢		text	等级３０以内的宝可梦	#MON up to L30	Oh... You have better things to do, champ in	哎呀……！	おぉ……　こんな　ところで	おお…!
+	line	will obey you.			line	都會老老實實聽你的話。		line	都会老老实实听你的话。	will obey you.	the making!	在这种地方偷懒可不好哦！	あぶら　うってて　いいのか！	こんな　ところで
+					para	在此之上的等級		para	在此之上的等级	Any higher, they				あぶら　うってて　いいのか!
+	para	Any higher, they			line	就無法適用了。		line	就无法适用了。	become unruly!	Celadon City’s Gym Leader is Erika.	未来的冠军！	みらいの　チャンピオン！	みらいの　チャンピオン!
+	line	become unruly!			para	此外，招式“居合斬”		para	此外，招式“居合斩”	It also lets you				タマムシの　りーダー　エりカは
+					line	在戰鬥以外的時候		line	在战斗以外的时候	use CUT outside	She is one with nature and a user of	玉虹的馆主莉佳	タマムシの　リーダー　エリカは	しぜんと　こころを　かよわす
+	para	It also lets you			cont	好像也可以使用了。		cont	好像也可以使用了。	of battle.	Grass-type Pokémon.	是一位能与自然心灵相通的	しぜんと　こころを　かよわす	しょくぶつ　ポケモンの　つかいて!
+	line	use CUT outside			prompt			prompt						おはな　なんか　いけてる　から
+	cont	of battle.									She might look quiet because she does flower	草属性宝可梦的能手！	くさポケモンの　つかいて！	おとなしそうに　みえるが
+	prompt										arrangements, but she’s not one to be			てごわい　あいてに　なるぞ!
+												别看她在那里插花，看似温和，	おはな　なんか　いけてる　から	
+_CeruleanHouse2Text_74ea0::				_CeruleanHouse2Text_74ea0::							taken lightly!	其实相当不好对付哦！	おとなしそう　だが　てごわいぞ！	
+	text	The SPEED of all			text	所有的		text	所有的	The SPEED of all	I’m the chairman of the Pokémon Fan Club!	宝可梦发烧友俱乐部的会长	ポケモン　だいすき　クラブの	ポケモン　だいすき　クラブの
+	line	#MON increases			line	寶可夢的速度		line	宝可梦的速度	#MON increases	I raise more than a hundred Pokémon!	正是老夫！	かいちょうは　わし　じゃ！	かいちょうは　わし　じゃ!
+	cont	a little bit.			cont	都會提高少許。		cont	都会提高少许。	a little bit.				だいじに　しとるポケモンは
+					para	此外，招式“飛翔”		para	此外，招式“飞翔”	It also lets you	I’m very fussy when it comes to Pokémon!	老夫手里的宝可梦	もってる　ポケモンは	100ぴきを　こえとる!
+	para	It also lets you			line	在戰鬥以外的時候		line	在战斗以外的时候	use FLY outside	I surely am!	已经超过了100只！	１００ぴきを　こえとる！	ポケモンに　かんしては
+	line	use FLY outside			cont	好像也可以使用了。		cont	好像也可以使用了。	of battle.				ホント　うるさい!　ですぞ!
+	cont	of battle.			prompt			prompt			So...	要老夫说起宝可梦的事，	ポケモンに　かんしては	で…
+	prompt											那可是三天三夜都说不完哇！	ホント　うるさい！　ですぞ！	きみは　わしの　ポケモン　じまんを
+											Did you come visit to hear about			ききに　きたの　かね?
+_CeruleanHouse2Text_74ea5::				_CeruleanHouse2Text_74ea5::							my Pokémon?	于是乎……	で……	
+	text	#MON up to L50			text	等級５０以內的寶可夢		text	等级５０以内的宝可梦	#MON up to L50	Oh... You have better things to do, champ in	哎呀……！	おぉ……　こんな　ところで	おお…!
+	line	will obey you.			line	都會老老實實聽你的話。		line	都会老老实实听你的话。	will obey you.	the making!	在这种地方偷懒可不好哦！	あぶら　うってて　いいのか！	こんな　ところで
+					para	在此之上的等級		para	在此之上的等级	Any higher, they				あぶら　うってて　いいのか!
+	para	Any higher, they			line	就無法適用了。		line	就无法适用了。	become unruly!	Celadon City’s Gym Leader is Erika.	未来的冠军！	みらいの　チャンピオン！	みらいの　チャンピオン!
+	line	become unruly!			para	此外，招式“怪力”		para	此外，招式“怪力”	It also lets you				タマムシの　りーダー　エりカは
+					line	在戰鬥以外的時候		line	在战斗以外的时候	use STRENGTH out-	She is one with nature and a user of	玉虹的馆主莉佳	タマムシの　リーダー　エリカは	しぜんと　こころを　かよわす
+	para	It also lets you			cont	好像也可以使用了。		cont	好像也可以使用了。	side of battle.	Grass-type Pokémon.	是一位能与自然心灵相通的	しぜんと　こころを　かよわす	しょくぶつ　ポケモンの　つかいて!
+	line	use STRENGTH out-			prompt			prompt						おはな　なんか　いけてる　から
+	cont	side of battle.									She might look quiet because she does flower	草属性宝可梦的能手！	くさポケモンの　つかいて！	おとなしそうに　みえるが
+	prompt										arrangements, but she’s not one to be			てごわい　あいてに　なるぞ!
+end				end								别看她在那里插花，看似温和，	おはな　なんか　いけてる　から	
+											taken lightly!	其实相当不好对付哦！	おとなしそう　だが　てごわいぞ！	

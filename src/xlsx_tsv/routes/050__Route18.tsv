@@ -1,0 +1,60 @@
+text/Route18.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route18BattleText1::				_Route18BattleText1::										
+	text	I always check			text	每當發現這種草叢後，		text	每当发现这种草丛后，	I always check	I always check every grassy area like this for	每当发现这种草丛后，	こういう　くさむらを　みつけては	こういう　くさむらを　みつけては
+	line	every grassy area			line	我就會去裡面找找		line	我就会去里面找找	every grassy area	new Pokémon.	我就会去里面找找	あたらしい　ポケモン　いないか	あたらしい　ポケモン　いないか
+	cont	for new #MON.			cont	有沒有新的寶可夢！		cont	有没有新的宝可梦！	for new #MON.				さがしてるのさ!
+	done				done			done				有没有新的宝可梦！	さがしてるのさ！	
+														
+_Route18EndBattleText1::				_Route18EndBattleText1::										
+	text	Tch!			text	哎呀……！		text	哎呀……！	Tch!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			prompt			Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+														4ャよひ
+_Route18AfterBattleText1::				_Route18AfterBattleText1::										つ {PLAYER}  {PLAYER} 
+	text	I wish I had a			text	要是有腳踏車的話，		text	要是有自行车的话，	I wish I had a	I wish I knew how to ride a Pokémon.	我好想有一只	のれる　ポケモン　もって　いたら	じてんしゃ　もって　いたら
+	line	BIKE!			line	我也能兜風了。		line	我也能兜风了。	BIKE!		可以乘坐的宝可梦，	ぼくも　ライド　したい	ぼくも　サイクりング　したい
+	done				done			done						ゲ
+												然后乘着它去兜风。		
+_Route18BattleText2::				_Route18BattleText2::										
+	text	Kurukkoo!			text	咕咕……！		text	咕咕……！	Kurukkoo!	Kurukkoo!	咕咕……！	クルックッ……！	クルック…ッ!
+	line	How do you like			line	怎麼樣？我的指笛！		line	怎么样？我的指笛！	How do you like	How do you like my birdcall?	怎么样？我的指笛！	どう？　ぼくの　ゆびぶえ！	どう?　ぼくの　ゆびぶえ!
+	cont	my bird call?			done			done		my bird call?				
+	done													
+														
+_Route18EndBattleText2::				_Route18EndBattleText2::										
+	text	I			text	這就是		text	这就是	I	I had this feeling...	唔……！	む……！	む…!
+	line	had to bug you!			line	所謂的禍從口出麼。		line	所谓的祸从口出么。	had to bug you!	I knew I had to battle you!	我预感你我之间必有一战！	きみと　ぼくは　たたかう　よかん	きみと　ぼくは　たたかう　よかん
+	prompt				prompt			prompt						
+														
+_Route18AfterBattleText2::				_Route18AfterBattleText2::										
+	text	I also collect sea			text	因為海離家很近，		text	因为海离家很近，	I also collect sea	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	#MON on			line	所以到了週末我就會來		line	所以到了周末我就会来	#MON on	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	weekends!			cont	捕捉海裡的寶可夢哦。		cont	捕捉海里的宝可梦哦。	weekends!				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_Route18BattleText3::				_Route18BattleText3::										
+	text	This is my turf!			text	這一帶是我們的地盤！		text	这一带是我们的地盘！	This is my turf!	This is my turf!	这一带是我们的地盘！	この　あたりは	この　あたりは
+	line	Get out of here!			line	你給我離遠點！		line	你给我离远点！	Get out of here!	Get out of here!	你给我离远点！	ぼくらの　なわばりだ！	ぼくらの　なわばりだ!
+	done				done			done						ちかよらないで　ほしいな!
+													ちかよらないで　ほしいな！	
+_Route18EndBattleText3::				_Route18EndBattleText3::										
+	text	Darn!			text	……唔！		text	鲤鱼王	Darn	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	prompt				prompt			line	果然不行么。	MAGIKARP!	Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
+								prompt						4ャよひ
+_Route18AfterBattleText3::				_Route18AfterBattleText3::										つ {PLAYER}  {PLAYER} 
+	text	This is my fave			text	這裡是我捕捉自己		text	这里是我捕捉自己	This is my fave	This is my fave area for catching Pokémon.	这里是我捕捉自己	だれでも　おきにいりの	だれでも　おきにいりの
+	line	#MON hunting			line	喜愛的寶可夢的地方！		line	喜爱的宝可梦的地方！	#MON hunting		喜爱的宝可梦的地方！	ポケモンを　とりに　いく	ポケモンを　とりに　いく
+	cont	area!			done			done		area!				ばしょが　あるだろ!
+	done												ばしょが　あるだろ！	
+														
+_Route18Text4::				_Route18Text4::										
+	text	ROUTE 18			text	這裡是１８號道路		text	这里是１８号道路	ROUTE 18	Route 18	这里是18号道路	ここは　１８ばんどうろ	ここは　1ばん　どうろ
+	line	CELADON CITY -			line	玉虹市　……　淺紅市		line	玉虹市　……　浅红市	CELADON CITY -	(Celadon City ⇄ Fuchsia City)	玉虹市　……　浅红市	タマムシシティ　……　セキチクシティ	マサラ　タウン　…　トキワ　シティ
+	cont	FUCHSIA CITY			done			done		FUCHSIA CITY				4
+	done													
+														
+_Route18Text5::				_Route18Text5::										
+	text	CYCLING ROAD			text	這裡是腳踏車道		text	这里是自行车道	CYCLING ROAD	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	No pedestrians			line	禁止步行		line	禁止步行	No pedestrians	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	cont	permitted!			done			done		permitted!				
+	done													
+end				end										

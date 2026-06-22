@@ -1,0 +1,131 @@
+text/RockTunnelB1F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_RockTunnel2BattleText2::				_RockTunnel2BattleText2::										
+	text	Hikers leave twigs			text	女童軍們為了不迷路，		text	女童子军们为了不迷路，	Hikers leave twigs	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	as trail markers.			line	會用樹枝在山上做記號哦。		line	会用树枝在山上做记号哦。	as trail markers.	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done			done						
+														
+_RockTunnel2EndBattleText2::				_RockTunnel2EndBattleText2::										
+	text	Ohhh!			text	呀……！		text	呀……！	Ohhh!	Yippee! I’m on vacation!	哇哦～！旅行咯～！	わーい！　りょこう　だぞー！	わーい!　りょこう　だぞー!
+	line	I did my best!			line	我都那麼努力了。		line	我都那么努力了。	I did my best!	My sis brought me along! She’s the best!	姐姐我真的太喜欢你了！	おねえちゃん　だいすき！	おねえちゃん　だいすき!
+	prompt				prompt			prompt						の@へどぶぼヂてで
+														
+_RockTunnel2AfterBattleText2::				_RockTunnel2AfterBattleText2::										
+	text	I want to go			text	既然輸了，		text	既然输了，	I want to go	Yeah, I want to go alone	我想一个人去	ひとりで　いきたい	トレーナーぞ
+	line	home!			line	今天只好回家了！		line	今天只好回家了！	home!				きド5ま
+	done				done			done						
+														
+_RockTunnel2BattleText3::				_RockTunnel2BattleText3::										
+	text	Hahaha! Can you			text	哈哈哈！		text	哈哈哈！	Hahaha! Can you	Hahaha!	哈哈哈！	はははーッ！	はははーッ!
+	line	beat my power?			line	你能戰勝我的力量嗎！		line	你能战胜我的力量吗！	beat my power?	Can you beat my power?	你能战胜我的力量吗！	おれの　パワーに　かてるか！	おれの　パワーに　かてるか!
+	done				done			done						
+														
+_RockTunnel2EndBattleText3::				_RockTunnel2EndBattleText3::										
+	text	Oops!			text	哎呀！		text	哎呀！	Oops!	Oops!	糟糕！	しまった！	しまった!
+	line	Out-muscled!			line	我在力量上輸了麼！		line	我在力量上输了么！	Out-muscled!				10000こうねんは…　…
+	prompt				prompt			prompt			Light-years isn’t time...	10000光年……	１００００こうねんは……	じかん　じゃない!
+											It measures distance!	不是时间！	じかん　じゃない！	…　…　きょり　だ!
+_RockTunnel2AfterBattleText3::				_RockTunnel2AfterBattleText3::										
+	text	I go for power			text	我之所以會一味地		text	我之所以会一味地	I go for power	I go for power because I hate thinking.	我之所以会一味地追求力量，	パワーに　こだわるのは	パワーに　こだわるのは
+	line	because I hate			line	追求力量，是因為我不擅長		line	追求力量，是因为我不擅长	because I hate		是因为我不擅长	かんがえながら　たたかうのが	かんがえながら　たたかうのが
+	cont	thinking!			cont	一邊思考一邊戰鬥！		cont	一边思考一边战斗！	thinking!				にがて　だからだ!
+	done				done			done				一边思考一边战斗！	にがて　だからだ！	
+														
+_RockTunnel2BattleText4::				_RockTunnel2BattleText4::										
+	text	You have a			text	你在補全寶可夢圖鑑嗎？		text	你在补全宝可梦图鉴吗？	You have a	You have a Pokédex?	你在补全宝可梦图鉴吗？	ポケモンずかん　つくってる？	ポケモン　ずかん　つくってる?
+	line	#DEX?			line	可惡！		line	可恶！	#DEX?	I want one, too.	可恶！我也想补全宝可梦图鉴！	くそう！　ぼくも　やりたい！	くそう!　ぼくも　やりたい!
+	cont	I want one too!			cont	我也想補全寶可夢圖鑑！		cont	我也想补全宝可梦图鉴！	I want one too!				
+	done				done			done						
+														
+_RockTunnel2EndBattleText4::				_RockTunnel2EndBattleText4::										
+	text	Shoot!			text	我朋友手上有		text	我朋友手上有	Shoot!	My friend has many cute Pokémon.	我朋友手上有好多好多	ともだちが　かわいい　ポケモン	ともだちが　かわいい　ポケモン
+	line	I'm so jealous!			line	好多好多可愛的寶可夢。		line	好多好多可爱的宝可梦。	I'm so jealous!	I’m so jealous!	可爱的宝可梦。	いっぱい　もってるの	いっぱい　もってるの
+	prompt				cont	……我不甘心！		cont	……我不甘心！					…　くやしいわ!
+					prompt			prompt				……我不甘心！	……くやしいわ！	
+_RockTunnel2AfterBattleText4::				_RockTunnel2AfterBattleText4::										
+	text	When you finish			text	……那麼，當你完成		text	……那么，当你完成	When you finish	When you finish your Pokédex, can I have it?	……那么，当你完成	……だからさ	…　だからさ
+	line	your #DEX, can			line	寶可夢圖鑑後，		line	宝可梦图鉴后，	your #DEX, can		宝可梦图鉴后，	ポケモンずかん　かんせい　したら	ポケモン　ずかん　かんせい　したら
+	cont	I have it?			cont	能把它送給我嗎？		cont	能把它送给我吗？	I have it?				ぼくに　くれない?
+	done				done			done				能把它送给我吗？	ぼくに　くれない？	
+														
+_RockTunnel2BattleText5::				_RockTunnel2BattleText5::										
+	text	Do you know about			text	請問……你瞭解		text	请问……你了解	Do you know about	What do you want to know about	你想了解大师训练家的	マスタートレーナーズに　ついて	つの　ひみつ
+	line	costume players?			line	寶可夢角色扮演嗎？		line	宝可梦角色扮演吗？	costume players?	the Master Trainers?	哪一个方面呢？	どんなことが　しりたい？	どれに　ついて　はなし　ましょう?
+	done				done			done						
+														
+_RockTunnel2EndBattleText5::				_RockTunnel2EndBattleText5::										
+	text	Well,			text	那就沒辦法了呢。		text	那就没办法了呢。	Well,	Well, that’s that.	那就没办法了呢。	しょうが　ない　ですね	しょうが　ない　ですね
+	line	that's that.			prompt			prompt		that's that.				
+	prompt													
+														
+_RockTunnel2AfterBattleText5::				_RockTunnel2AfterBattleText5::										
+	text	Costume players			text	所謂角色扮演呢，		text	所谓角色扮演呢，	Costume players	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	dress up as			line	就是製作皮皮之類的皮套		line	就是制作皮皮之类的皮套	dress up as	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	#MON for fun.			cont	把自己打扮成寶可夢。		cont	把自己打扮成宝可梦。	#MON for fun.				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_RockTunnel2BattleText6::				_RockTunnel2BattleText6::										
+	text	My #MON			text	我要用我寶可夢的招式		text	我要用我宝可梦的技能	My #MON	My Pokémon techniques will leave you crying!	我要用我宝可梦的技能	おれの	おれの
+	line	techniques will			line	打得你哭天喊地！		line	打得你哭天喊地！	techniques will		打得你哭天喊地！	ポケモン　テクニックで	ポケモン　テクニックで
+	cont	leave you crying!			done			done		leave you crying!				ひーひー　いわせるぜ!
+	done												ひーひー　いわせるぜ！	
+														
+_RockTunnel2EndBattleText6::				_RockTunnel2EndBattleText6::										
+	text	I give!			text	我輸了！		text	我输了！	I give!	You’re a Trainer, too?	你也是个训练家？	きみも　ポケモン　やってるか！	きみも　ポケモン　やってるか!
+	line	You're a better			line	你才是技能大師。		line	你才是技能大师。	You're a better		又要对战又要收集	あつめたり　たたかったり	あつめたり　たたかったり
+	cont	technician!			prompt			prompt		technician!	Collecting Pokémon, battling with Pokémon...			いろいろ　たいへん　だな!
+	prompt										It’s a tough life, isn’t it?	也真是忙不完啊！	いろいろ　たいへん　だな！	
+														
+_RockTunnel2AfterBattleText6::				_RockTunnel2AfterBattleText6::										
+	text	In mountains,			text	對了……		text	对了……	In mountains,	In the mountains, you’ll often find	对了……	そうだな……	そうだな…
+	line	you'll often find			line	山裡的寶可夢有很多		line	山里的宝可梦有很多	you'll often find	Rock-type Pokémon.	山里的宝可梦有很多	やまの　ポケモン　には	やまの　ポケモン　には
+	cont	rock-type #MON.			cont	都是岩石屬性的。		cont	都是岩石属性的。	rock-type #MON.				いわ　タイプが　おおいぞ
+	done				done			done				都是岩石属性的。	いわタイプが　おおいぞ	
+														
+_RockTunnel2BattleText7::				_RockTunnel2BattleText7::										
+	text	I don't often			text	和你對戰是沒問題啦……		text	和你对战是没问题啦……	I don't often	They don’t sell them here, but I’ve heard there	虽然这里没有卖……	ここには　うってないが	こんなに　さがしても　ピカチュウ
+	line	come here, but I			line	不過我其實沒怎麼來過		line	不过我其实没怎么来过	come here, but I	are these amazing stones called Mega Stones			ぜんぜん　みつからないの
+	cont	will fight you.			cont	這一帶。		cont	这一带。	will fight you.		这个世界上似乎有一种叫作	よのなかには　メガストーンと　いう	きっと　ここには　いないのよ!
+	done				done			done			out there somewhere.	“超级石”的很厉害的石头。	すんごい　いしが　あるらしいよ	
+														
+_RockTunnel2EndBattleText7::				_RockTunnel2EndBattleText7::										
+	text	Oh!			text	哦！輸掉了！		text	我输了么。	Oh!	Oh!	……！	……！	…!
+	line	I lost!			prompt			prompt		I lost!	I concede defeat.	我输了。	まいり　ましたわ	まいり　ましたわ
+	prompt													さすが
+											You are remarkably strong.	你真的很厉害……	ほんとうに　おつよい　かた……	とのがたは　おつよい　ですわ
+_RockTunnel2AfterBattleText7::				_RockTunnel2AfterBattleText7::										この　レインボーバッジを
+	text	I like tiny			text	我還是喜歡		text	我还是喜欢	I like tiny	I can’t face my followers after being defeated	以这样的方式输给你，	このような　まけかたを　しては	ちょうのうりょくは　かぎられた
+	line	#MON, big ones			line	小一點的寶可夢，		line	小一点的宝可梦，	#MON, big ones	like this.	我确实没有办法向部下交代！	ぶかたちに　しめしが　つかない！	ひとの　ちから　では　ないわ!
+	cont	are too scary!			cont	大寶可夢太可怕了。		cont	大宝可梦太可怕了。	are too scary!				だれでも　もってるのよ!
+	done				done			done			Team Rocket is...	火箭队……	ロケットだんは……	ただ　それに　きが　つかない　だけ
+												就从今天起正式解散！	ほんじつを　もって　かいさんする！	
+_RockTunnel2BattleText8::				_RockTunnel2BattleText8::							As of today, Team Rocket is finished!			
+	text	Hit me with your			text	好。		text	好。	Hit me with your	Hit me with your best shot!	好。	よしッ	おとこ　なら
+	line	best shot!			line	你就盡情地放馬過來吧！		line	你就尽情地放马过来吧！	best shot!		你就尽情地放马过来吧！	どーんと　ぶつかって　こい！	どーんと　ぶつかって　こい!
+	done				done			done						
+														
+_RockTunnel2EndBattleText8::				_RockTunnel2EndBattleText8::										
+	text	Fired			text	哎呀！		text	丢弃了	Threw away	Electrode turned away!	顽皮雷弹转向了别处！	マルマインは　そっぽを　むいた！	マルマインは　そっぽを　むいた!
+	line	away!			line	我被打敗了！		line	@	@				
+	prompt				prompt			text_ram	wcd6d	wcd6d				
+								text	。	.				
+_RockTunnel2AfterBattleText8::				_RockTunnel2AfterBattleText8::				prompt						
+	text	I'll raise my			text	今後我培育出的寶可夢		text	今后我培育出的宝可梦	I'll raise my	I’ll raise my Pokémon to beat yours, kid.	今后我培育出的宝可梦	おれも　おまえに　まけない	おれも　ぼうずに　まけない
+	line	#MON to beat			line	肯定不會輸給你的！		line	肯定不会输给你的！	#MON to beat		肯定不会输给你的！	ポケモンを　そだてて　おくぜ！	ポケモンを　そだてて　おくぜ!
+	cont	yours, kid!			done			done		yours, kid!				
+	done													
+														
+_RockTunnel2BattleText9::				_RockTunnel2BattleText9::										
+	text	I draw #MON			text	平時在家的時候，		text	平时在家的时候，	I draw #MON	I draw pictures of Pokémon when I’m at home.	平时在家的时候，	いえに　いる　ときは	いえに　いる　ときは
+	line	when I'm home.			line	我會畫畫寶可夢的插畫。		line	我会画画宝可梦的插画。	when I'm home.		我会画画宝可梦的插画。	ポケモンの　イラスト　とか　かいてる	ポケモンの　イラスト　とか　かいてる
+	done				done			done						
+														
+_RockTunnel2EndBattleText9::				_RockTunnel2EndBattleText9::										
+	text	Whew!			text	呼……		text	呼……	Whew!	Whew! I’m trying to memorize all my notes.	呼～	ふー	ふー
+	line	I'm exhausted!			line	累死我了。		line	累死我了。	I'm exhausted!		我要把笔记里的所有内容	ノートの　なかの　こと	ノートの　なかの　こと
+	prompt				prompt			prompt						わたし　ぜんぶ　おぼえるの
+												都清清楚楚地记住！	わたし　ぜんぶ　おぼえるの	ゲギぶ
+_RockTunnel2AfterBattleText9::				_RockTunnel2AfterBattleText9::										
+	text	I'm an artist,			text	看來我不擅長戰鬥。		text	看来我不擅长战斗。	I'm an artist,	I’m an artist, not a fighter.	看来我不擅长战斗。	ぼくは　たたかうの　むいて　ないな	ぼくは　たたかうの　むいて　ないな
+	line	not a fighter.			line	還是回家畫畫去吧。		line	还是回家画画去吧。	not a fighter.	I’ll go home to draw.	还是回家画画去吧。	かえって　イラスト　でも　かいてよう	かえって　イラスト　でも　かいてよう
+	done				done			done						
+end				end										

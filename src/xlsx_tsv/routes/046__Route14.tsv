@@ -1,0 +1,176 @@
+text/Route14.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_Route14BattleText1::				_Route14BattleText1::										
+	text	You need to use			text	如果要讓		text	如果要让	You need to use	You need to use TMs to teach good moves to	如果要让自己的宝可梦变强，	つよい　ポケモンに　するなら	つよい　ポケモンに　するなら
+	line	TMs to teach good			line	自己的寶可夢變強，		line	自己的宝可梦变强，	TMs to teach good	your Pokémon if you want to make them strong.	果然还是要用招式学习器	やっぱり　わざマシンで	やっぱり　 {5C} で
+	cont	moves to #MON!			cont	果然還是要用招式學習器		cont	果然还是要用招式学习器	moves to #MON!				いい　わざを　おしえないとね!
+	done				cont	讓它學習厲害的招式		cont	让它学习厉害的招式			让它学习厉害的招式才行啊！	いい　わざを　おしえないとね！	
+					cont	才行啊！		cont	才行啊！					
+					done									
+_Route14EndBattleText1::				_Route14EndBattleText1::				done						
+	text	Not			text	我覺得		text	输了！	Not	Not good enough!	输了！	だめだわ！	トレーナーぞ
+	line	good enough!			line	我還有待加強。		prompt		good enough!				きド5ま
+	prompt				prompt									
+														
+_Route14AfterBattleText1::				_Route14AfterBattleText1::										
+	text	You have some HMs,			text	你也有秘傳學習器呢。		text	你也有秘传学习器呢。	You have some HMs	“If you don’t have any Poké Balls, you can’t do	如果没有精灵球，	モンスターボールが　ないと	あ!　やせいの
+	line	right? #MON			line	學會那些招式的寶可夢		line	学会那些招式的宝可梦	right? #MON	anything when you encounter wild Pokémon.	那么面对野生宝可梦时，	やせいの　ポケモン　あいてに	@
+	cont	can't ever forget			cont	是無法忘記它們的哦。		cont	是无法忘记它们的哦。	can't ever forget				
+	cont	those moves.			done			done		those moves.	“Buy a lot of Poké Balls at a Poké Mart!”	你将会束手无策。	なにも　できません	
+	done													
+												去友好商店	フレンドリィショップで	
+_Route14BattleText2::				_Route14BattleText2::								多买一些备用吧。	たくさん　かっておきましょう	
+	text	My bird #MON			text	我的鳥寶可夢		text	我的鸟宝可梦	My bird #MON	I raised my Pokémon carefully.	这是我精心培育的宝可梦。	だいじに　そだてた　ポケモン！	だいじに　そだてた　ポケモン!
+	line	should be ready			line	差不多……		line	差不多……	should be ready	They should be ready by now!	是时候派它去战斗看看了！	そろそろ　たたかわせて　みよう！	そろそろ　たたかわせて　みよう!
+	cont	for battle.			cont	做好戰鬥準備了！		cont	做好战斗准备了！	for battle.				
+	done				done			done						
+														
+_Route14EndBattleText2::				_Route14EndBattleText2::										
+	text	Not			text	還是太早了。		text	还是太早了。	Not	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	ready yet!			prompt			prompt		ready yet!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	prompt													
+														
+_Route14AfterBattleText2::				_Route14AfterBattleText2::										
+	text	They need to learn			text	還是讓它們學會更強的		text	还是让它们学会更强的	They need to learn	Oh, no need to pay!	啊，钱就不用给了！	あ　おだいは　けっこうですよ！	あ!　やせいの
+	line	better moves.			line	招式後再戰鬥吧。		line	招式后再战斗吧。	better moves.	We hope you continue your support of your			@
+	done				done			done				今后也请您	これからも	
+											neighborhood Poké Mart!	多多光顾友好商店～	フレンドリィショップを　ごひいきにー	
+_Route14BattleText3::				_Route14BattleText3::										
+	text	TMs are on sale			text	在玉虹百貨公司可以		text	在玉虹百货公司可以	TMs are on sale	Psychic power isn’t something that only a few	超能力并不是	ちょうのうりょくは　かぎられた	ちょうのうりょくは　かぎられた
+	line	in CELADON!			line	買到招式學習器哦！		line	买到招式学习器哦！	in CELADON!	people have.	只属于特定人物的能力！	ひとの　ちから　では　ないわ！	ひとの　ちから　では　ないわ!
+	cont	But, only a few			cont	但是有秘傳學習器的人		cont	但是有秘传学习器的人	But, only a few				だれでも　もってるのよ!
+	cont	people have HMs!			cont	很少呢。		cont	很少呢。	people have HMs!	Everyone has psychic power.	无论是谁都拥有超能力！	だれでも　もってるのよ！	ただ　それに　きが　つかない　だけ
+	done				done			done			People just don’t realize it.			
+												他们只是没有意识到而已。	ただ　それに　きが　つかない　だけ	
+_Route14EndBattleText3::				_Route14EndBattleText3::										
+	text	Aww,			text	真是		text	真是	Aww,	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	bummer!			line	丟人丟到家了。		line	丢人丢到家了。	bummer!		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	prompt				prompt			prompt			D’aww... Failed again?			
+														
+_Route14AfterBattleText3::				_Route14AfterBattleText3::										
+	text	Teach #MON			text	如果教寶可夢使用		text	如果教宝可梦使用	Teach #MON	Powers up moves of the same type as the Pokémon.	与自身同属性的招式	じぶんと　おなじ　タイプの	ポケモンの　タイプと　おなじ
+	line	moves of the same			line	與自身屬性相同的招式，		line	与自身属性相同的招式，	moves of the same		威力会提高。	わざの　いりょくが　あがる。	タイプの　わざを　おしえると
+	cont	element type for			cont	招式威力好像就會增加。		cont	招式威力好像就会增加。	element type for				わざの　いりょくが
+	cont	more power.			done			done		more power.				おおきくなる　らしいよ
+	done													ゲ
+														
+_Route14BattleText4::				_Route14BattleText4::										
+	text	Have you taught			text	你的鳥寶可夢		text	你的鸟宝可梦	Have you taught	Your Pokémon have been sent to the professor!	已将宝可梦发送给博士！	ポケモンを　はかせに　おくった！	 {next} 
+	line	your bird #MON			line	學會能讓你乘著在天空		line	学会能让你乘着在天空	your bird #MON				@
+	cont	how to FLY?			cont	飛翔的招式了嗎？		cont	飞翔的招式了吗？	how to FLY?	... ... ...	……　……　……	……　……　……	 {PLAYER}  {RIVAL} ポケモン
+	done				done			done				大木博士来信息了！	はかせから　メッセージが　きた！	…
+											You got a message back from the professor!			
+_Route14EndBattleText4::				_Route14EndBattleText4::										 {TARGET}  {USER}  {5B}  {5C} トレーナーロケットだん
+	text	Shot			text	一敗塗地。		text	一败涂地。	Shot	“Diary: July 5	日记　７月５日	にっき　７がつ５か	にっき　7がつ5か
+	line	down in flames!			prompt			prompt		down in flames!	We discovered a new Pokémon deep in			ここは　みなみアメりカの　ギアナ
+	prompt											我们在丛林的深处	ジャングルの　おくちで	ジャングルの　おくちで
+											the jungle.”	发现了新种宝可梦。	しんしゅの　ポケモンを　はっけん	しんしゅの　ポケモンを　はっけん
+_Route14AfterBattleText4::				_Route14AfterBattleText4::										
+	text	Bird #MON are			text	我最喜歡鳥寶可夢了……		text	我最喜欢鸟宝可梦了……	Bird #MON are	There are Pokémon magazines on the shelves.	这里陈列着宝可梦的杂志！	ポケモンざっしが　ならんでる！	　ぽ　ぽ　
+	line	my true love!			line	所以才想去培育的哦。		line	所以才想去培育的哦。	my true love!				
+	done				done			done			And Pokémon notebooks...	……宝可梦手册	……ポケモンてちょう	
+														
+_Route14BattleText5::				_Route14BattleText5::							And Pokémon graphs, too!	……宝可梦图表	……ポケモングラフ	
+	text	Have you heard of			text	你聽過有關		text	你听过有关	Have you heard of	Have you heard the legend of	你有听说过梦幻之翼吗？	まぼろしの　つばさ　という	でんせつの　ポケモン　という
+	line	the legendary			line	傳說的寶可夢的故事嗎？		line	传说的宝可梦的故事吗？	the legendary	the winged mirages?		はなし　きいた　こと　ある？	はなし　きいた　こと　ある?
+	cont	#MON?			done			done		#MON?				
+	done													
+														
+_Route14EndBattleText5::				_Route14EndBattleText5::										
+	text	Why?			text	為什麼會輸呢。		text	为什么会输呢。	Why?	Why?	为什么会输呢。	どうして　まけたかな	どうして　まけたかな
+	line	Why'd I lose?			prompt			prompt		Why'd I lose?	Why’d I lose?			
+	prompt													
+														
+_Route14AfterBattleText5::				_Route14AfterBattleText5::										
+	text	The 3 legendary			text	據說傳說的寶可夢		text	据说传说的宝可梦	The 3 legendary	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	#MON are all			line	共有３種，		line	共有３种，	#MON are all	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	birds of prey.			cont	而且全是鳥寶可夢！		cont	而且全是鸟宝可梦！	birds of prey.				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_Route14BattleText6::				_Route14BattleText6::										
+	text	I'm not into it,			text	雖然我不怎麼想來……		text	虽然我不怎么想来……	I'm not into it,	I’m not into it, but OK.	虽然我不怎么想来……	きが　のらない　けど……	きが　のらない　けど…
+	line	but OK! Let's go!			line	不過沒辦法！來吧！		line	不过没办法！来吧！	but OK! Let's go!	Let’s go!	不过没办法！来吧！	しょうが　ない！　やるか！	しょうが　ない!　やるか!
+	done				done			done						
+														
+_Route14EndBattleText6::				_Route14EndBattleText6::										
+	text	I			text	啊……		text	啊……	I	Ha, I knew it!	果然是吧！	やっぱりな！	さすが　つよい!
+	line	knew it!			line	果然是這樣。		line	果然是这样。	knew it!	I’m always right.	不愧是本大爷！	さすが　おれさま！	
+	prompt				prompt			prompt						
+														
+_Route14AfterBattleText6::				_Route14AfterBattleText6::										
+	text	Winning, losing,			text	和天空的廣闊比起來，		text	和天空的广阔比起来，	Winning, losing,	JESSIE: It doesn’t matter! There’s no way we’re	武藏：总而言之！	ムサシ『なんにせよ！	みえない　ところ　でも　ホントは
+	line	it doesn't matter			line	輸贏什麼的根本不值一提！		line	输赢什么的根本不值一提！	it doesn't matter	letting you through to see the boss!	我们是不会让你	ボスの　ところ　には	なにか　おちてたり　する!
+	cont	in the long run!			done			done		in the long run!				さっき　おとしもの　したんだ
+	done											到达我们老大那里的！	ぜーったい　いかせないわ！	きみも　さがして　みて　くれる?
+														
+_Route14BattleText7::				_Route14BattleText7::										
+	text	C'mon, c'mon.			text	我、我的性子比較急！		text	我、我的性子比较急！	C'mon, c'mon.	C’mon...c’mon.	我、我的性子比较急！	おれ　おれは　せっかちだ！	おれ　おれは　せっかちだ!
+	line	Let's go, let's			line	快、快、快來對戰！		line	快、快、快来对战！	Let's go, let's	Let’s go... Let’s go... Let’s go!	快、快、快来对战！	はやく　はやく　はやく　しろ！	はやく　はやく　はやく　しろ!
+	cont	go, let's go!			done			done		go, let's go!				
+	done													
+														
+_Route14EndBattleText7::				_Route14EndBattleText7::										
+	text	Arrg!			text	輸了，輸了。		text	输了，输了。	Arrg!	Argh!	输了，输了。	まけた　まけた	まけた　まけた
+	line	Lost! Get lost!			line	結束了，再見。		line	结束了，再见。	Lost! Get lost!	Lost! Get lost!	结束了，再见。	おわりだ　じゃあな	おわりだ　じゃあな
+	prompt				prompt			prompt						
+														
+_Route14AfterBattleText7::				_Route14AfterBattleText7::										
+	text	What, what, what?			text	幹嘛、幹嘛、幹嘛！		text	干嘛、干嘛、干嘛！	What, what, what?	What... What... What?	干嘛、干嘛、干嘛！	なんだ　なんだ　なんだ！	なんだ　なんだ　なんだ!
+	line	What do you want?			line	你還有什麼、什麼事嗎！		line	你还有什么、什么事吗！	What do you want?	What do you want still?	你还有什么、什么事吗！	まだ　ようじが　ある　ある　のか！	まだ　ようじが　ある　ある　のか!
+	done				done			done						ゲ
+														
+_Route14BattleText8::				_Route14BattleText8::										
+	text	Perfect! I need to			text	來得正好！		text	来得正好！	Perfect! I need to	I need to burn some time.	来得正好！	ちょうど　いいぜ！	ちょうど　いいぜ!
+	line	burn some time!			line	別廢話，快來對戰！		line	别废话，快来对战！	burn some time!	Shut up and battle.	别废话，快来对战！	つべこべ　いわずに　あいて　しな	つべこべ　いわずに　あいて　しな
+	done				done			done						
+														
+_Route14EndBattleText8::				_Route14EndBattleText8::										
+	text	What?			text	什麼？		text	干嘛啊！烦不烦啊！	What're you	What’re you lookin’ at?	干嘛啊！烦不烦啊！	っだよ！　っせーな！	っだよ!　っせーな!
+	line	You!?			line	你這傢伙！		done		lookin' at?				
+	prompt				prompt									
+														
+_Route14AfterBattleText8::				_Route14AfterBattleText8::										
+	text	Raising #MON			text	總覺得我不擅長		text	总觉得我不擅长	Raising #MON	Raising Pokémon is a drag, man.	总觉得我不擅长	どうも　ちまちまと	どうも　ちまちまと
+	line	is a drag, man.			line	慢慢培育寶可夢！		line	慢慢培育宝可梦！	is a drag, man.		慢慢培育宝可梦！	そだてる　のは　にがてだぜ！	そだてる　のは　にがてだぜ!
+	done				done			done						ゲ
+														
+_Route14BattleText9::				_Route14BattleText9::										
+	text	We ride out here			text	這一帶的		text	这一带的	We ride out here	There’s no more room for that item!	已经拿不下了！	これ　いじょう　もてない！	これ　いじょう　もてない!
+	line	because there's			line	建築物比較少，		line	建筑物比较少，	because there's				
+	cont	more room!			cont	我們經常到這裡聚集！		cont	我们经常到这里聚集！	more room!				
+	done				done			done						
+														
+_Route14EndBattleText9::				_Route14EndBattleText9::										
+	text	Wipe out!			text	哎呀，		text	哎呀，	Wipe out!	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	prompt				line	被絆倒了！		line	被绊倒了！			给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+					prompt			prompt			D’aww... Failed again?			
+_Route14AfterBattleText9::				_Route14AfterBattleText9::										
+	text	It's cool you			text	好厲害，		text	好厉害，	It's cool you	It’s cool you made your Pokémon so strong.	好厉害，	よく　そこまで　そだてたな！	よく　そこまで　そだてたな!
+	line	made your #MON			line	竟能培育到這種地步！		line	竟能培育到这种地步！	made your #MON	Might is right! And you know it!	竟能培育到这种地步！	なんにしても……	なんにしても…
+	cont	so strong!			para	不管怎麼說……		para	不管怎么说……	so strong!				つよいって　ことは
+					line	強大就是了不起啊！		line	强大就是了不起啊！	Might is right!		不管怎么说……	つよいって　ことは	たいした　もんだぜ!
+	para	Might is right!			done			done		And you know it!		强大就是了不起啊！	たいした　もんだぜ！	ゲ
+	line	And you know it!												
+	done													
+														
+_Route14BattleText10::				_Route14BattleText10::										
+	text	#MON fight?			text	寶可夢對決麼！		text	宝可梦对决么！	#MON fight?	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	Cool! Rumble!			line	有意思！那就陪你玩玩！		line	有意思！那就陪你玩玩！	Cool! Rumble!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	done				done			done						
+														
+_Route14EndBattleText10::				_Route14EndBattleText10::										
+	text	Blown			text	我不接受！		text	我不接受！	Blown	Electrode turned away!	顽皮雷弹转向了别处！	マルマインは　そっぽを　むいた！	マルマインは　そっぽを　むいた!
+	line	away!			prompt			prompt		away!				
+	prompt													
+														
+_Route14AfterBattleText10::				_Route14AfterBattleText10::										
+	text	You know who'd			text	如果是你我兩人		text	如果是你我两人	You know who'd	You know who’d win, you and me one-on-one!	如果是你我两人	おれと　おまえの	おれと　おまえの
+	line	win, you and me			line	直接單挑的話，		line	直接单挑的话，	win, you and me		直接单挑的话，	ちょくせつ　たいけつ　だったら	ちょくせつ　たいけつ　だったら
+	cont	one on one!			cont	贏的肯定是我！		cont	赢的肯定是我！	one on one!				おれが　かつぜ!
+	done				done			done				赢的肯定是我！	おれが　かつぜ！	
+														
+_Route14Text11::				_Route14Text11::										
+	text	ROUTE 14			text	這裡是１４號道路		text	这里是１４号道路	ROUTE 14	Route 14	这里是14号道路	ここは　１４ばんどうろ	ここは　15ばん　どうろ
+	line	West to FUCHSIA			line	往西　……　淺紅市		line	往西　……　浅红市	West to FUCHSIA	(West to Fuchsia City)	往西　……　浅红市	にし　……　セキチクシティ	にし　…　セキチク　シティ
+	cont	CITY			done			done		CITY				へどぶ
+	done													
+end				end										

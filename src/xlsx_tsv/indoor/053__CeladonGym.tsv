@@ -1,0 +1,222 @@
+text/CeladonGym.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
+_ErikaPreBattleText::				_ErikaPreBattleText::										
+	text	Hello. Lovely			text	你好……		text	你好……	Hello. Lovely	BLUE: Yo, [VAR TRNAME(0000)]!	青绿：唷！[VAR TRNAME(0000)]！	グリーン『よう！　[VAR TRNAME(0000)]	 {next} 
+	line	weather isn't it?			line	天氣真好呢。		line	天气真好呢。	weather isn't it?				
+	cont	It's so pleasant.			cont	真舒服……		cont	真舒服……	It's so pleasant.	Since I’ve become the Gym Leader here,	本大爷当上了道馆馆主之后，	おれさまが　ジムリーダーに　なって	
+					cont	……呼……呼～		cont	……呼……呼～	...Oh dear...	the Viridian City Gym has really stepped it up!	常青道馆热闹得人山人海啊！	トキワジムは　おおにぎわい！	
+	para	...Oh dear...			para	……哎呀，糟糕。		para	……哎呀，糟糕。	I must have dozed				
+	line	I must have dozed			line	居然睡著了……		line	居然睡着了……	off. Welcome.	It’s made each day pretty busy, though!	每天都忙得不可开交！	まいにち　たいへん　だぜ！	
+	cont	off. Welcome.			para	歡迎你來到這裡。		para	欢迎你来到这里。	My name is ERIKA.				
+					line	我是玉虹道館的莉佳。		line	我是玉虹道馆的莉佳。	I am the LEADER	By the way...	不过吧……	しっかし　さあ……	
+	para	My name is ERIKA.			para	我喜歡插花，		para	我喜欢插花，	of CELADON GYM.	what do you think of this Gym’s design?	你觉得这个道馆的设计如何？	このジムの　デザイン　どう？	
+	line	I am the LEADER			line	寶可夢也都是草屬性。		line	宝可梦也都是草属性。	I teach the art of				
+	cont	of CELADON GYM.			para	……哎呀，糟了。		para	……哎呀，糟了。	flower arranging.	It makes me look like some kinda bad guy, right?	会不会显得本大爷像个坏人一样？	おれ　わるもの　みたいじゃねー？	
+					line	你是要申請對戰嗎？		line	你是要申请对战吗？	My #MON are of				
+	para	I teach the art of			para	是嗎……		para	是吗……	the grass-type.	I’ve been thinking of remodeling the place.	也许是该重新装修一下了吧？	つくりなおそう　かなあ？	
+	line	flower arranging.			line	我可是不會輸的。		line	我可是不会输的。	Oh, I'm sorry, I				
+	cont	My #MON are of			done			done		had no idea that	Well, it doesn’t matter all that much, I guess.	虽然无论在哪都不会	ま　どんな　ところでも	
+	cont	the grass-type.								you wished to	No matter the place, I’m still the best there is!	改变本大爷非凡的实力就是了！	おれの　つよさは　かわらねー　けど！	
+										challenge me.				
+	para	Oh, I'm sorry, I								Very well, but I	All right! It’s been a while since I’ve gone all out.	……好了！就久违地	……よし！　ひさびさに	
+	line	had no idea that								shall not lose.	So I’ll show you the strength of a top Trainer!	让你见识一下本大爷的实力吧！	おれさまの　じつりょく	
+	cont	you wished to												
+	cont	challenge me.											みせつけて　やるか！	
+														
+	para	Very well, but I												
+	line	shall not lose.												
+	done													
+														
+_ReceivedRainbowBadgeText::				_ReceivedRainbowBadgeText::										
+	text	Oh!			text	……！		text	……！	Oh!	Oh!	……！	……！	…!
+	line	I concede defeat.			line	我輸了。		line	我输了。	I concede defeat.	I concede defeat.	我输了。	まいり　ましたわ	まいり　ましたわ
+					para	和我想的一樣，		para	和我想的一样，	You are remarkably				さすが
+	para	You are remarkably			line	你真的很厲害。		line	你真的很厉害。	strong.	You are remarkably strong.	你真的很厉害……	ほんとうに　おつよい　かた……	とのがたは　おつよい　ですわ
+	line	strong.			para	只能把這彩虹徽章		para	只能把这彩虹徽章	I must confer you				この　レインボーバッジを
+					line	給你了。		line	给你了。	the RAINBOWBADGE.				さしあげ　なくては　なりませんわね
+	para	I must confer you			prompt			prompt						
+	line	the RAINBOWBADGE.												
+	prompt													
+														
+_ErikaPostBattleAdviceText::				_ErikaPostBattleAdviceText::										
+	text	You are cataloging			text	哎呀，哦……		text	哎呀，哦……	You are cataloging	Oh my...	哎呀，哦……	あら　まあ……	あら　まあ…
+	line	#MON? I must			line	你還在收集圖鑑呀。		line	你还在收集图鉴呀。	#MON? I must	So you are cataloging the Pokémon you catch?	你还在收集图鉴呀。	ずかんを　つくって　ますのね	ずかんを　つくって　ますのね
+	cont	say I'm impressed.			cont	很是了不起。		cont	很是了不起。	say I'm impressed.				ほんとに　えらいですわ
+					para	因為我只會去收集		para	因为我只会去收集	I would never	I must say I’m impressed.	很是了不起。	ほんとに　えらいわ	わたし　でしたら
+	para	I would never			line	美麗的寶可夢呢。		line	美丽的宝可梦呢。	collect #MON				きれいな　ポケモンしか
+	line	collect #MON			done			done		if they were	I myself would never collect a Pokémon if it	因为我只会去收集	わたくし　でしたら	ほしく　なりません　もの
+	cont	if they were								unattractive.	were not beautiful.	美丽的宝可梦呢。	きれいな　ポケモンしか	
+	cont	unattractive.												
+	done												ほしく　なりません　もの	
+														
+_ErikaRainbowBadgeInfoText::				_ErikaRainbowBadgeInfoText::										
+	text	The RAINBOWBADGE			text	有了彩虹徽章，		text	有了彩虹徽章，	The RAINBOWBADGE	A Marsh Badge raises the level of Pokémon	有了金色徽章，	ゴールドバッジで	
+	line	will make #MON			line	等級５０為止的寶可夢		line	等级５０为止的宝可梦	will make #MON	that will obey you to Lv. [VAR NUM2(0004)], for Pokémon that	就算是别人送你的宝可梦，	だれかに　もらった　ポケモンでも	　ぽ　ぽ　
+	cont	up to L50 obey.			cont	都會乖乖聽你的話了。		cont	都会乖乖听你的话了。	up to L50 obey.				
+					para	還有……		para	还有……	It also allows	you have received from another Trainer.	只要等级在[VAR NUM2(0004)]以内，	レベル[VAR NUM2(0004)]　までなら	
+	para	It also allows			line	招式“怪力”在戰鬥外		line	招式“怪力”在战斗外	#MON to use				
+	line	#MON to use			cont	也能使用了。		cont	也能使用了。	STRENGTH in and	And wait...	它们都会乖乖听话！	いうことを　ききます！	
+	cont	STRENGTH in and			para	還有……		para	还有……	out of battle.	Please take this TM with you.			
+	cont	out of battle.			line	如果你願意的話，		line	如果你愿意的话，	Please also take		还有……！	それから……！	
+					cont	也一定要用用這個！		cont	也一定要用用这个！	this with you.		请你拿好这个招式学习器。	わざマシンを　もって　いって	
+	para	Please also take			done			done						
+	line	this with you.												
+	done													
+														
+_ReceivedTM21Text::				_ReceivedTM21Text::										
+	text	<PLAYER> received			text	<PLAYER>從莉佳那裡		text	<PLAYER>从谜之训练家	<PLAYER> received	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	line	@			line	得到了@		line	那里得到了@	a @	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	text_ram	wStringBuffer			text_ram	wStringBuffer		text_ram	wStringBuffer	wStringBuffer				
+	text	!@			text	！@		text	！@	!@				
+	text_end				text_end			text_end						
+														
+_TM21ExplanationText::				_TM21ExplanationText::										
+	text_start				text_start			text_start			TM53 contains Mega Drain.	招式学习器53是“超级吸取”。	わざマシン５３の　なかは	
+					para	招式學習器２１是		para	招式学习器２１是	TM21 contains			メガドレイン　です	 {5C} 21の　なかは
+	para	TM21 contains			line	“超級吸取”。		line	“超级吸取”。	MEGA DRAIN.	Half the damage it inflicts is drained from	这个优秀的招式能把		メガドレイン　です
+	line	MEGA DRAIN.			para	這個優秀的招式能把		para	这个优秀的招式能把	Half the damage	the target to heal your Pokémon.	向对方造成的伤害中的一半	あたえた　ダメージの　はんぶんが	あたえた　ダメージの　はんぶんが
+					line	向對方造成的傷害中的一半		line	向对方造成的伤害中的一半	it inflicts is			ポケモンの　えいように　なる	ポケモンの　えいように　なる
+	para	Half the damage			cont	轉化為寶可夢的營養。		cont	转化为宝可梦的营养。	drained to heal	Wouldn’t you agree that it’s a wonderful move?	转化为宝可梦的营养。		すばらしい　わざ　です
+	line	it inflicts is			done			done		your #MON!			すばらしい　わざ　です	
+	cont	drained to heal												
+	cont	your #MON!												
+	done													
+														
+_TM21NoRoomText::				_TM21NoRoomText::										
+	text	You should make			text	行李滿了。		text	行李满了。	You should make	You make a better police officer than me.	你简直比我更像一个警察。	きみってば　わたし　より	ナツメは…　わたし　より
+	line	room for this.			done			done		room for this.	Thank you for protecting Saffron City’s peace.		よっぽど　けいさつかん　ね	だいぶ　としした　だが!
+	done											……感谢你保护了金黄市的和平。		かのじょを　そんけい　している!
+													……ヤマブキの　へいわを	
+_CeladonGymBattleText2::				_CeladonGymBattleText2::									まもって　くれて　ありがとう	
+	text	Hey!			text	喂，男生！		text	喂，男生！	Hey!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+					para	這裡只允許		para	这里只允许	You are not	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	para	You are not			line	女生進來呢！		line	女生进来呢！	allowed in here!				…　シルフ　カンパニー
+	line	allowed in here!			done			done				……西尔佛公司	……シルフカンパニー	
+	done													
+														
+_CeladonGymEndBattleText2::				_CeladonGymEndBattleText2::										
+	text	You're			text	你可真粗魯。		text	你可真粗鲁。	You're	You’re too rough!	你可真粗鲁。	らんぼう　なんだから	らんぼう　なんだから
+	line	too rough!			prompt			prompt		too rough!				
+	prompt													
+														
+_CeladonGymAfterBattleText2::				_CeladonGymAfterBattleText2::										
+	text	Bleaah!			text	呸！		text	呸！	Bleaah!	Nyahhh!	呸！	べー！	べー!
+	line	I hope ERIKA			line	真希望莉佳能替我		line	真希望莉佳能替我	I hope ERIKA	I hope Erika wipes you out!	真希望莉佳能替我	エリカさんに	エりカさんに
+	cont	wipes you out!			cont	好好教訓教訓你。		cont	好好教训教训你。	wipes you out!				やられ　ちゃえば　いいのよ
+	done				done			done				好好教训教训你。	やられ　ちゃえば　いいのよ	ゲ
+														
+_CeladonGymBattleText3::				_CeladonGymBattleText3::										
+	text	I was getting			text	哎呀！這裡只有女孩，		text	哎呀！这里只有女孩，	I was getting	Oh, welcome.	哎呀，欢迎欢迎。	あら　いらっしゃい	あら!
+	line	bored.			line	我正好覺得有些無聊呢！		line	我正好觉得有些无聊呢！	bored.	I was getting bored.	我正好觉得有些无聊呢！	たいくつ　してたのよ！	おんな　ばっかりで
+	done				done			done						たいくつ　してたのよ!
+														
+_CeladonGymEndBattleText3::				_CeladonGymEndBattleText3::										
+	text	My			text	我討厭你。		text	我讨厌你。	My	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	line	makeup!			prompt			prompt		makeup!		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	prompt										D’aww... Failed again?			
+														
+_CeladonGymAfterBattleText3::				_CeladonGymAfterBattleText3::										
+	text	Grass-type #MON			text	草屬性不止是對		text	草属性不止是对	Grass-type #MON	Grass-type Pokémon are tough against	草属性不止是对	くさに　よわい　のは	くさに　よわい　のは
+	line	are tough against			line	水屬性有優勢哦。		line	水属性有优势哦。	are tough against	Water-type Pokémon.	水属性有优势哦。	みずタイプ　だけ　じゃ　ないわ	みず　タイプ　だけ　じゃ　ないわ
+	cont	the water-type!			para	在我們面前，地面屬性和		para	在我们面前，地面属性和	the water-type!				じめん　タイプ　と　いわ　タイプも
+					line	岩石屬性也只有捱打的份！		line	岩石属性也只有挨打的份！	They also have an	They also have an edge on Rock- and	在我们面前，地面属性和	じめんタイプ　と　いわタイプも	わたし　たちの　えじきよ!
+	para	They also have an			done			done		edge on rock and	Ground-type Pokémon.	岩石属性也只有挨打的份！	わたし　たちの　えじきよ！	ゲ
+	line	edge on rock and								ground #MON!				
+	cont	ground #MON!												
+	done													
+														
+_CeladonGymBattleText4::				_CeladonGymBattleText4::										
+	text	Aren't you the			text	嗯？你是不是剛才		text	嗯？你是不是刚才	Aren't you the	There are Pokémon magazines on the shelves.	这里陈列着宝可梦的杂志！	ポケモンざっしが　ならんでる！	　ぽ　ぽ　
+	line	peeping Tom?			line	在偷窺這裡的男生……？		line	在偷窥这里的男生……？	peeping Tom?				
+	done				done			done			And Pokémon notebooks...	……宝可梦手册	……ポケモンてちょう	
+														
+_CeladonGymEndBattleText4::				_CeladonGymEndBattleText4::							And Pokémon graphs, too!	……宝可梦图表	……ポケモングラフ	
+	text	I'm			text	頭暈目眩。		text	头晕目眩。	I'm	I’m a security guard.	我是这里的警卫。	わたしは　けいびいんだが	わたしは　けいびいんだが
+	line	in shock!			prompt			prompt		in shock!	And I don’t let suspicious kids in!	像你这样可疑的小孩子……	あやしい　こどもは	あやしい　こどもは
+	prompt													とおせんぼ　することに　してるのだ
+												我是不能放你过去的。	とおせんぼ　することに　してるのだ	
+_CeladonGymAfterBattleText4::				_CeladonGymAfterBattleText4::										
+	text	Oh, you weren't			text	你		text	你	Oh, you weren't	Was it your first Gym battle?	这是你第一次道馆战？	はじめての　ジム　なの？	いらっしゃい!
+	line	peeping? We get a			line	真的沒有偷窺嗎？		line	真的没有偷窥吗？	peeping? We get a	You don’t look it, but you have a lot of guts.	真是人不可貌相，	みかけに　よらず	いやあー!
+	cont	lot of gawkers!			cont	我們最近抓到很多哦。		cont	我们最近抓到很多哦。	lot of gawkers!				ポケモン　やっと　おわったよ!
+	done				done			done				你胆子好大啊。	キモが　すわってる　じゃない	きみは　まだ　なの?
+														それじゃあ
+_CeladonGymBattleText5::				_CeladonGymBattleText5::										いい　もの　あげよう
+	text	Look at my grass			text	那個……快看！		text	那个……快看！	Look at my grass	Look, look!	那个……快看！	ねえ……　みて！	ねえ…　みて!
+	line	#MON!			line	這是我的寶可夢！		line	这是我的宝可梦！	#MON!	See my Pokémon!	这是我的宝可梦！	これ　わたしの　ポケモン！	これ　わたしの　ポケモン!
+					para	草屬性寶可夢很好的，		para	草属性宝可梦很好的，	They're so easy				くさ　タイプは　そだてる　のが
+	para	They're so easy			line	它們很容易培育的。		line	它们很容易培育的。	to raise!	I like the Grass type.	草属性宝可梦很好的，	くさタイプは　そだてる　のが	らくな　ところが　いいわ
+	line	to raise!			done			done			I like how they’re easy to raise.	它们很容易培育的。	らくな　ところが　いいわ	
+	done													
+														
+_CeladonGymEndBattleText5::				_CeladonGymEndBattleText5::										
+	text	No!			text	不要啊！		text	啊！伤脑筋啊。	Oh	VOLTORB: No orb...	霹雳电球：霹～霹雳雳……	ビリリダマ『ノードゥグ……	トレーナーぞ
+	prompt				prompt			prompt		no!				きド5ま
+														
+_CeladonGymAfterBattleText5::				_CeladonGymAfterBattleText5::										
+	text	We only use grass-			text	我們道館使用的寶可夢		text	我们道馆使用的宝可梦	We only use grass-	We only use Grass-type Pokémon at our Gym.	我们道馆使用的宝可梦	うちの　ジムは　つかう　ポケモン	うちの　ジムは　つかう　ポケモン
+	line	type #MON at			line	全部都是草屬性的！		line	全部都是草属性的！	type #MON at		全部都是草属性的！	ぜーんぶ　くさタイプ！	ぜーんぶ　くさ　タイプ!
+	cont	our GYM!			para	因為這裡除了是		para	因为这里除了是	our GYM!	Why? We also use them for making			だって　ポケモンの　ほかに
+					line	寶可夢道館，		line	宝可梦道馆，	We also use them	flower arrangements!	因为这里除了是宝可梦道馆，	だって　ポケモンジムの　ほかに	いけばな　きょうしつ　やってるから
+	para	We also use them			cont	還兼做插花教室。		cont	还兼做插花教室。	for making flower		还兼做插花教室。	いけばな　きょうしつ　やってるから	ゲ
+	line	for making flower			done			done		arrangements!				
+	cont	arrangements!												
+	done													
+														
+_CeladonGymBattleText6::				_CeladonGymBattleText6::										
+	text	Don't bring any			text	喂！我們討厭		text	喂！我们讨厌	Don't bring any	Oh, hey!	喂！我们讨厌	こら！　むしポケモン　とか	こら!　むし　ポケモン　とか
+	line	bugs or fire			line	蟲寶可夢或火寶可夢！		line	虫宝可梦或火宝可梦！	bugs or fire		虫宝可梦或火宝可梦！	ほのおポケモン　は　きらい　なの	ほのお　ポケモン　は　きらい　なの
+	cont	#MON in here!			cont	別把它們帶到這裡來！		cont	别把它们带到这里来！	#MON in here!	We don’t like Bug- or Fire-type Pokémon in here!			ここに　もち　こまないでよ!
+	done				done			done				别把它们带到这里来！	ここに　もち　こまないでよ！	
+														
+_CeladonGymEndBattleText6::				_CeladonGymEndBattleText6::										
+	text	Oh!			text	啊！你這傢伙！		text	干嘛啊！烦不烦啊！	What're you	Oh! You’ve caught [VAR NUM1(0000)] Puppy Pokémon!	噢～！看样子	おぉ！　こいぬポケモンを	ふん…!
+	line	You!						done		lookin' at?		你捉到了[VAR NUM1(0000)]只小狗宝可梦啊！	[VAR NUM1(0000)]ひき　つかまえている　ようだな！	とにかく…　ポケモンは
+	prompt				prompt									そこそこ　そだててる　ようだな!
+														
+_CeladonGymAfterBattleText6::				_CeladonGymAfterBattleText6::										
+	text	Our LEADER, ERIKA,			text	你聽好了！我們的館主莉佳		text	你听好了！我们的馆主莉佳	Our LEADER, ERIKA,	Our Gym Leader, Erika, might be quiet, but she’s	你听好了！我们的馆主莉佳	きみねー！　リーダーの　エリカさんは	きみねー!　りーダーの　エりカさんは
+	line	might be quiet,			line	雖然是一名淑女，		line	虽然是一名淑女，	might be quiet,	famous around here.	虽然是一名淑女，	おしとやか　だけど　このへん　じゃ	おしとやか　だけど　このへん　じゃ
+	cont	but she's also			cont	但也是這裡遠近聞名的		cont	但也是这里远近闻名的	but she's also				ゆうめいな　トレーナー　なんだから!
+	cont	very skilled!			cont	訓練家！		cont	训练家！	very skilled!		但也是这里远近闻名的训练家！	ゆうめいな　トレーナー　なんだから！	ゲ
+	done				done			done						
+														
+_CeladonGymBattleText7::				_CeladonGymBattleText7::										
+	text	Pleased to meet			text	你的興趣是……？		text	你的兴趣是……？	Pleased to meet	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	line	you. My hobby is			line	……對了！		line	……对了！	you. My hobby is	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	cont	#MON training.			cont	讓我們玩會寶可夢對戰吧！		cont	让我们玩会宝可梦对战吧！	#MON training.				…　シルフ　カンパニー
+	done				done			done				……西尔佛公司	……シルフカンパニー	
+														
+_CeladonGymEndBattleText7::				_CeladonGymEndBattleText7::										
+	text	Oh!			text	你真是本領高強。		text	你真是本领高强。	Oh!	Oh dear!	哎呀，危险！	おっと　あぶない！	おっと!　まちな!
+	line	Splendid!			prompt			prompt		Splendid!				セキチク　ジムの　めいぶつ
+	prompt										[VAR PKNICK(0001)] almost lost its balance!	[VAR PKNICK(0001)]	[VAR PKNICK(0001)]は	みえない　かべ　システムは　どうだ
+												失去平衡了！	バランスを　くずしそうに　なった！	
+_CeladonGymAfterBattleText7::				_CeladonGymAfterBattleText7::										
+	text	I have a blind			text	我下週就要去相親了。		text	我下周就要去相亲了。	I have a blind	I have a blind date coming up.	我下周就要去相亲了。	わたし　らいしゅう　おみあい　なの	わたし　らいしゅう　おみあい　なの
+	line	date coming up.			line	如果到時候被邀請進行		line	如果到时候被邀请进行	date coming up.			ポケモン　さそわれても　はしたない	ポケモン　さそわれても　はしたない
+	cont	I have to learn			cont	寶可夢對戰的話，		cont	宝可梦对战的话，	I have to learn	I have to learn to be graceful, even if I’m	如果到时候被邀请进行		たたかい　しない　ように　しなきゃ
+	cont	to be polite.			cont	我可一定得保持風度才行。		cont	我可一定得保持风度才行。	to be polite.	asked to have a Pokémon battle.	宝可梦对战的话，	たたかい　しない　ように　しなきゃ	ゲ
+	done				done			done						
+												我可一定得保持风度才行。		
+_CeladonGymBattleText8::				_CeladonGymBattleText8::										
+	text	Welcome to			text	歡迎光臨玉虹道館！		text	欢迎光临玉虹道馆！	Welcome to	Welcome to the Celadon City Gym!	欢迎光临玉虹道馆！	タマムシジムに　ようこそ！	タマムシ　ジムに　ようこそ!
+	line	CELADON GYM!			para	別因為這裡全都是女生		para	别因为这里全都是女生	CELADON GYM!				おんなのこ　だからって
+					line	就放鬆警惕了哦！		line	就放松警惕了哦！	You better not	You’d better not underestimate the nice	对于这里的那些温柔大姐姐们，	やさしそうな　おねえさん　たちに	ゆだん　しない　ほうが　いいわよ!
+	para	You better not			done			done		underestimate	ladies here.	你最好别放松警惕哦！	ゆだん　しない　ほうが　いいわよ！	
+	line	underestimate								girl power!				
+	cont	girl power!												
+	done													
+														
+_CeladonGymEndBattleText8::				_CeladonGymEndBattleText8::										
+	text	Oh!			text	你可真厲害啊！		text	你可真厉害啊！	Oh!	Oh dear!	哎呀，危险！	おっと　あぶない！	おっと!　まちな!
+	line	Beaten!			prompt			prompt		Beaten!				セキチク　ジムの　めいぶつ
+	prompt										[VAR PKNICK(0001)] almost lost its balance!	[VAR PKNICK(0001)]	[VAR PKNICK(0001)]は	みえない　かべ　システムは　どうだ
+												失去平衡了！	バランスを　くずしそうに　なった！	
+_CeladonGymAfterBattleText8::				_CeladonGymAfterBattleText8::										
+	text	I didn't bring my			text	今天我沒帶		text	今天我没带	I didn't bring my	I didn’t bring my best Pokémon today.	今天我没带厉害的宝可梦……	きょうは　つよい　ポケモン	きょうは　つよい　ポケモン
+	line	best #MON!			line	厲害的寶可夢……		line	厉害的宝可梦……	best #MON!	Wait until next time!		もって　こなかった　から……	もって　こなかった　から…
+					para	所以下次再較量時，		para	所以下次再较量时，	Wait 'til next		所以下次再较量时，		こんど　やる　ときは　まけないわ
+	para	Wait 'til next			line	我是不會輸給你的。		line	我是不会输给你的。	time!		我是不会输给你的。	こんど　やる　ときは　まけないわ	
+	line	time!			done			done						
+	done													
+end				end										
