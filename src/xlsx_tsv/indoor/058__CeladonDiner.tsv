@@ -50,7 +50,7 @@ _ReceivedCoinCaseText::				_ReceivedCoinCaseText::									あなたで　たし
 	text_end				text_end			text_end						
 														
 _CoinCaseNoRoomText::				_CoinCaseNoRoomText::										
-	text	Make room for			text	行李已滿了呢！		text	行李已满了呢！	Make room for	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	text	Make room for			text	背包已滿了呢！		text	行李已满了呢！	Make room for	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
 	line	this!			done			done		this!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
 	done													
 														

@@ -68,7 +68,7 @@ _FluteExplanationText::				_FluteExplanationText::
 	done													
 														
 _FluteNoRoomText::				_FluteNoRoomText::										
-	text	You must make			text	行李已滿了哪。		text	行李已满了哪。	You must make	Thank you for keeping an eye on dear Slowpoke!	谢谢你能	ヤドンちゃんの　こと	セキチク　シティ　サファり　ゾーン
+	text	You must make			text	背包已滿了呢。		text	行李已满了哪。	You must make	Thank you for keeping an eye on dear Slowpoke!	谢谢你能	ヤドンちゃんの　こと	セキチク　シティ　サファり　ゾーン
 	line	room for this!			done			done		room for this!	Here, this is for your trouble.	帮我照看小呆呆兽。	みててくれて　ありがとう	いった　こと　あるかね?
 	done													あそこは　めずらしい　ポケモンが
 												这是我的一点心意，	これ　おだちんよ	たくさん　いた!

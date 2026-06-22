@@ -3,7 +3,7 @@ _SilphCo5Text_1a010::				_SilphCo5Text_1a010::
 	text	TEAM ROCKET is			text	因為有人混進了大樓，		text	因为有人混进了大楼，	TEAM ROCKET is	Team Rocket is in an uproar over some intruder.	因为有人混进了大楼，	だれか　ビルに　しのび　こんだと	だれか　ビルに　しのび　こんだと
 	line	in an uproar over			line	火箭隊完全亂了陣腳。		line	火箭队完全乱了阵脚。	in an uproar over	That’s you, right?	火箭队完全乱了阵脚。	ロケットだんが　さわいでる	ロケットだんが　さわいでる
 	cont	some intruder.			cont	……		cont	……	some intruder.				…　きみの　こと　らしいね
-	cont	That's you right?			cont	估計他們說的人是你吧？		cont	估计他们说的人是你吧？	That's you right?		……估计他们说的人是你吧？	……きみの　こと　らしいね	
+	cont	That's you right?			cont	看來他們說的人是你吧？		cont	估计他们说的人是你吧？	That's you right?		……估计他们说的人是你吧？	……きみの　こと　らしいね	
 	done				done			done						
 														
 _SilphCo5Text_1a015::				_SilphCo5Text_1a015::										
@@ -14,7 +14,7 @@ _SilphCo5Text_1a015::				_SilphCo5Text_1a015::
 														
 _SilphCo5BattleText2::				_SilphCo5BattleText2::										
 	text	I heard a kid was			text	剛才聯絡說有個小孩		text	刚才联络说有个小孩	I heard a kid was	I heard a kid was wandering around!	刚才联络说有个小孩	こどもが　うろついてると	こどもが　うろついてると
-	line	wandering around.			line	在這附近溜達！		line	在这附近溜达！	wandering around.		在这附近溜达！	さっき　れんらくが　あったぜ！	さっき　れんらくが　あったぜ!
+	line	wandering around.			line	在這附近閒晃！		line	在这附近溜达！	wandering around.		在这附近溜达！	さっき　れんらくが　あったぜ！	さっき　れんらくが　あったぜ!
 	done				done			done						
 														
 _SilphCo5EndBattleText2::				_SilphCo5EndBattleText2::										

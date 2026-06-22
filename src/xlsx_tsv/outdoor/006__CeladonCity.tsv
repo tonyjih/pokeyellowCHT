@@ -17,7 +17,7 @@ _CeladonCityText2::				_CeladonCityText2::							Did you come visit to hear abou
 _CeladonCityText3::				_CeladonCityText3::										
 	text	The GAME CORNER			text	玉虹市最讓人自豪的地方		text	玉虹市最让人自豪的地方	The GAME CORNER	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
 	line	is bad for our			line	就是它優美的街道環境。		line	就是它优美的街道环境。	is bad for our	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
-	cont	city's image!			cont	但是遊戲城令人頭疼！		cont	但是游戏城令人头疼！	city's image!				…　シルフ　カンパニー
+	cont	city's image!			cont	但是遊戲城很傷腦筋！		cont	但是游戏城令人头疼！	city's image!				…　シルフ　カンパニー
 	done				done			done				……西尔佛公司	……シルフカンパニー	
 														
 _CeladonCityText4::				_CeladonCityText4::										
@@ -30,7 +30,7 @@ _CeladonCityText4::				_CeladonCityText4::
 	done										So...	要老夫说起宝可梦的事，	ポケモンに　かんしては	で…
 												那可是三天三夜都说不完哇！	ホント　うるさい！　ですぞ！	きみは　わしの　ポケモン　じまんを
 _TM41PreText::				_TM41PreText::							Did you come visit to hear about			ききに　きたの　かね?
-	text	Hello, there!			text	哎喲喲！		text	哎哟哟！	Hello, there!	Hello there!	哎哟哟！	やあ　やあ！	やあ　やあ!
+	text	Hello, there!			text	嗨呀！		text	哎哟哟！	Hello, there!	Hello there!	哎哟哟！	やあ　やあ！	やあ　やあ!
 					para	我眼巴巴地看你		para	我眼巴巴地看你	I've seen you,				わたしは　いつも　きみが
 	para	I've seen you,			line	走來走去無數次……		line	走来走去无数次……	but I never had a	I’ve been watching you walk right past me this	我眼巴巴地看你	わたしは　いつも　きみが	そこを　とおるのを　みてたが
 	line	but I never had a			cont	終於有機會和你說上話了！		cont	终于有机会和你说上话了！	chance to talk!	whole time, and I was hoping you’d come to visit	走来走去无数次……	そこを　とおるのを　みてた……	やっと　あう　ことが　できた!
@@ -59,7 +59,7 @@ _TM41ExplanationText::				_TM41ExplanationText::
 	done										“5F: Accessory Market			
 														
 _TM41NoRoomText::				_TM41NoRoomText::							“Roof: Relaxation Space & Vending Machines”			
-	text	Oh, your pack is			text	行李已滿了。		text	行李已满了。	Oh, your pack is	Oh, no need to pay!	啊，钱就不用给了！	あ　おだいは　けっこうですよ！	あ!　やせいの
+	text	Oh, your pack is			text	背包已滿了。		text	行李已满了。	Oh, your pack is	Oh, no need to pay!	啊，钱就不用给了！	あ　おだいは　けっこうですよ！	あ!　やせいの
 	line	full of items!			done			done		full of items!	We hope you continue your support of your			@
 	done											今后也请您	これからも	
 											neighborhood Poké Mart!	多多光顾友好商店～	フレンドリィショップを　ごひいきにー	

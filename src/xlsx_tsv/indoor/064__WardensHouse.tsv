@@ -73,7 +73,7 @@ _HM04ExplanationText::				_HM04ExplanationText::
 													……[VAR TRNAME(0001)]	
 _HM04NoRoomText::				_HM04NoRoomText::										
 	text	Your pack is			text	什麼呀，		text	什么呀，	Your pack is	You got [VAR iCOLOR2(0000)][VAR sTRBAG(0000)]!	获得了[VAR ITEM2(0000)]！	[VAR ITEM2(0000)]を　てにいれた！	を　てにいれた!@ジ@
-	line	stuffed full!			line	行李已滿了呀！		line	行李已满了呀！	stuffed full!				
+	line	stuffed full!			line	背包已滿了呀！		line	行李已满了呀！	stuffed full!				
 	done				done			done			But...too bad! Your Bag is already full!	太遗憾了！	ざんねん！	
 												包包满了……	バッグが　いっぱいだ……	
 _FuchsiaHouse2Text_75176::				_FuchsiaHouse2Text_75176::										

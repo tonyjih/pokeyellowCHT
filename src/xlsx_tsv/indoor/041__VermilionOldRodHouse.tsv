@@ -51,7 +51,7 @@ _VermilionHouse2Text_560c5::				_VermilionHouse2Text_560c5::							... ... Zzz.
 _VermilionHouse2Text_560ca::				_VermilionHouse2Text_560ca::										
 	text	Oh no!			text	哎呀——！		text	哎呀——！	Oh no!	LT. SURGE: No need for introductions this time!	马志士：Welcome again！	マチス『ウエルカム　アゲイン！	クチバ　シティ　ポケモン　ジム
 					para	雖然想給你好東西，		para	虽然想给你好东西，	You have no room				りーダー　マチス
-	para	You have no room			line	但你的行李滿了呀！		line	但你的行李满了呀！	for my gift!	Trainers like us have no need for words!	We之间不需要any言语！	ことばは　いらナイ！	イナズマ　アメりカン!
+	para	You have no room			line	但你的背包滿了呀！		line	但你的行李满了呀！	for my gift!	Trainers like us have no need for words!	We之间不需要any言语！	ことばは　いらナイ！	イナズマ　アメりカン!
 	line	for my gift!			done			done			Let’s go, kid!	Let's start！	レッツ　スタート！	
 	done													
 end				end										

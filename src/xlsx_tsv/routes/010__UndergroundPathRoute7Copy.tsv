@@ -1,7 +1,7 @@
 text/UndergroundPathRoute7Copy.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
 _UGPathRoute7EntranceUnusedText_5d773::				_UGPathRoute7EntranceUnusedText_5d773::										
 	text	I want to shop at			text	雖然很想去玉虹的百貨公司		text	虽然很想去玉虹的百货公司	I want to shop at	I have to tell you that our office is a bit of	我们公司	いま　この　かいしゃは	円　いただきまーす!
-	line	the dept. store			line	買東西來著的……		line	买东西来着的……	the dept. store	a disaster right now... A REAL disaster!	现在遇到了些麻烦。	ちょっと　たいへん　なの	ここでは　サファり　せんようの
+	line	the dept. store			line	買東西……		line	买东西来着的……	the dept. store	a disaster right now... A REAL disaster!	现在遇到了些麻烦。	ちょっと　たいへん　なの	ここでは　サファり　せんようの
 	cont	in CELADON but...			para	但是那個城鎮有很多		para	但是那个城镇有很多	in CELADON but...				モンスターボールを　つかいます!
 					line	外表很壞的人在，		line	外表很坏的人在，	There are so many	This is no place for kids—not when there are so	……因为有些危险，	……あぶない　から	…　これです!
 	para	There are so many			cont	很恐怖呢。		cont	很恐怖呢。	rough looking	many dangerous people around!	小孩子不可以进去哦！	こどもは　はいっちゃ　ダメよ！	 {PLAYER} は　うけつけ　から

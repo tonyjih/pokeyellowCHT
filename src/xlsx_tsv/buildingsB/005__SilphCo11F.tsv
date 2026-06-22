@@ -1,6 +1,6 @@
 text/SilphCo11F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
 _SilphCoPresidentText::				_SilphCoPresidentText::										
-	text	PRESIDENT: Thank			text	社長：喔～！小夥子！		text	社长：喔～！小伙子！	PRESIDENT: Thank	I have to thank you in some way. And I’m quite	哦！对了！	おお！　そうだ	わたし　フレンドりィショップの
+	text	PRESIDENT: Thank			text	社長：喔～！小兄弟！		text	社长：喔～！小伙子！	PRESIDENT: Thank	I have to thank you in some way. And I’m quite	哦！对了！	おお！　そうだ	わたし　フレンドりィショップの
 	line	you for saving			line	謝謝你拯救了我們！		line	谢谢你拯救了我们！	you for saving	magnanimous, so I can give you anything.	我必须得好好谢谢你！	おれいを　さしあげなくては！	てんいん　です
 	cont	SILPH!			para	我永遠都會記得，		para	我永远都会记得，	SILPH!				べんりな　どうぐや　ですから
 					line	在最危急的時候，		line	在最危急的时候，	I will never	Here, maybe this will do?	我是个大方的人，	わたしは	トキワ　シティで
@@ -46,7 +46,7 @@ _SilphCo10Text_6231c::				_SilphCo10Text_6231c::
 	done													
 														
 _SilphCoMasterBallNoRoomText::				_SilphCoMasterBallNoRoomText::										
-	text	You have no			text	持有物已滿了哦。		text	持有物已满了哦。	You have no	Hiyah!	嘿呀！	チェストー！	チェストー!
+	text	You have no			text	背包已滿了哦。		text	持有物已满了哦。	You have no	Hiyah!	嘿呀！	チェストー！	チェストー!
 	line	room for this.			done			done		room for this.	I have no fear for anything tough!	硬物根本不足为惧！	かたい　もの　など　こわく　ない！	かたい　もの　など　こわく　ない!
 	done													まいにち　こぶしで
 											I shatter boulders for training every day!	我每天都在练习	まいにち　こぶしで	いわを　わる　れんしゅう　してる!
@@ -66,7 +66,7 @@ _SilphCo11Text3::				_SilphCo11Text3::
 	para	The PRESIDENT and			line	討論重要的商業計劃。		line	讨论重要的商业计划。	I are discussing	The president of Silph and I are discussing	我正在和西尔佛的社长	おれは　いま　シルフの　しゃちょうと	しごとの　はなしを　してるんだ
 	line	I are discussing			para	像你這樣的小孩子，		para	像你这样的小孩子，	a vital business	a vital business proposition.	讨论重要的商业计划。	しごとの　はなしを　してるんだ	おとなの　せかいに
 	cont	a vital business			line	就別在大人的世界		line	就别在大人的世界	proposition.				くちを　はさまないで　もらいたい
-	cont	proposition.			cont	瞎摻和了！		cont	瞎掺和了！	Keep your nose	Keep your nose out of grown-up matters...	像你这样的小孩子，	おとなの　せかいに	どうしても　というなら
+	cont	proposition.			cont	插手管閒事了！		cont	瞎掺和了！	Keep your nose	Keep your nose out of grown-up matters...	像你这样的小孩子，	おとなの　せかいに	どうしても　というなら
 					para	如果你無論如何都想插手，		para	如果你无论如何都想插手，	out of grown-up		就别在大人的世界里瞎掺和了！	くちを　はさまないで　もらいたい	いたいめに　あって　もらうぞ!
 	para	Keep your nose			line	那我也只能讓你		line	那我也只能让你	matters...				
 	line	out of grown-up			cont	吃些苦頭了！		cont	吃些苦头了！	Or, experience a				

@@ -1,6 +1,6 @@
 data/items/names.asm	@									
 	"""MASTER BALL"""	大師球								西尔佛检视镜
-	"""ULTRA BALL"""	高階球								pp多项全补剂
+	"""ULTRA BALL"""	高級球								pp多项全补剂
 	"""GREAT BALL"""	超級球								宝可梦之笛
 	"""POKé BALL"""	精靈球								城镇地图
 	"""TOWN MAP"""	城鎮地圖								
@@ -41,7 +41,7 @@ data/items/names.asm	@
 	"""RARE CANDY"""	神奇糖果								
 	"""DOME FOSSIL"""	甲殼化石								
 	"""HELIX FOSSIL"""	貝殼化石								
-	"""SECRET KEY"""	秘金鑰匙								
+	"""SECRET KEY"""	秘密鑰匙								
 	"""?????"""	?????								
 	"""BIKE VOUCHER"""	兌換券								
 	"""X ACCURACY"""	命中強化								

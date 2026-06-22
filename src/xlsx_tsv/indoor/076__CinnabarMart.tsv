@@ -4,7 +4,7 @@ _CinnabarMartText2::				_CinnabarMartText2::
 	line	ATTACK? It's good			line	“力量強化”賣嗎？		line	“力量强化”卖吗？	ATTACK? It's good	City burns through. It’s through the roof!	真是高得惊天动地啊！	しょうひ　りょうも	
 	cont	for battles!			para	因為它能提高		para	因为它能提高	for battles!				
 	done				line	寶可夢的攻擊，		line	宝可梦的攻击，		We’ve got to keep up the maintenance!	所以说，	ケタちがい　だねぇ！	
-					cont	所以我特別喜歡它來著……		cont	所以我特别喜欢它来着……					
+					cont	所以我特別喜歡用它……		cont	所以我特别喜欢它来着……					
 					done									
 _CinnabarMartText3::				_CinnabarMartText3::				done				平时的维修可是怠慢不得！	しっかり　メンテ　しないとねぇ！	
 	text	It never hurts to			text	道具到用時方恨少，		text	道具到用时方恨少，	It never hurts to	It never hurts to have extra items.	道具到用时方恨少，	いざ　という　ときの　ために	いざ　という　ときの　ために

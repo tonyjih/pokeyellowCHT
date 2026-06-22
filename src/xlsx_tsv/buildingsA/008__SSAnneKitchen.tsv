@@ -49,7 +49,7 @@ _SSAnne6Text_61807::				_SSAnne6Text_61807::
 														
 _SSAnne6Text_6180c::				_SSAnne6Text_6180c::										
 	text	Salade de Salmon!			text	香煎魚排！		text	香煎鱼排！	Salmon du Salad!	my flavorful Whirlpool sushi!	新鲜活捉的潮旋寿司！	とれたて　ピチピチ　うずしおスシ！	したびらめの　ムニエル!
-					para	估計客人們又會抱怨		para	估计客人们又会抱怨	Les guests may				しかし　おきゃくさんに
+					para	客人們大概又會抱怨		para	估计客人们又会抱怨	Les guests may				しかし　おきゃくさんに
 	para	Les guests may			line	“今天怎麼又吃魚？”……		line	“今天怎么又吃鱼？”……	gripe it's fish	Though les guests may complain that it’s fish	估计客人们又会抱怨	しかし　おきゃくさんに	また　さかな?　と　いわれそうだ
 	line	gripe it's fish			done			done		again, however!	yet again...	“今天怎么又吃鱼？”……	また　さかな？　と　いわれそうだ	
 	cont	again, however!												

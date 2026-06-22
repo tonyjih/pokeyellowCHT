@@ -18,7 +18,7 @@ _VermilionCityTextSSAnneDeparted::				_VermilionCityTextSSAnneDeparted::
 	text	So, S.S.ANNE has			text	噢！你是說聖特安努號		text	噢！你是说圣特安努号	So, S.S.ANNE has	So the S.S. Anne has departed?	噢！你是说	おお！　サント・アンヌごう	アンヌごう
 	line	departed!			line	已經出發了是嗎！		line	已经出发了是吗！	departed!		圣特安努号已经出发了是吗！	しゅっぱつ　して　いったか！	しゅっぱつ　して　いったか!
 					para	它下次來枯葉市		para	它下次来枯叶市	She'll be back in	I guess she’ll be back in Vermilion Port about this			つぎに　クチバに　くる　のは
-	para	She'll be back in			line	就是明年的這個時候嘍……		line	就是明年的这个时候喽……	about a year.	time next year...	它下次来枯叶市	つぎに　クチバに　くる　のは	らいねんの　いまごろ　じゃな…
+	para	She'll be back in			line	大概就是明年這個時候了…		line	就是明年的这个时候喽……	about a year.	time next year...	它下次来枯叶市	つぎに　クチバに　くる　のは	らいねんの　いまごろ　じゃな…
 	line	about a year.			done			done				就是明年的这个时候喽……	らいねんの　いまごろ　じゃな……	ゲ4ウらひ
 	done													
 														
@@ -152,7 +152,7 @@ _VermilionCityText9::				_VermilionCityText9::
 													……クチバ　けいさつ　より	
 _VermilionCityText12::				_VermilionCityText12::										
 	text	#MON FAN CLUB			text	這裡是		text	这里是	#MON FAN CLUB	Pokémon Fan Club:	这里是宝可梦发烧友俱乐部。	こちら　ポケモンだいすきクラブ	こちら　ポケモン　だいすき　クラブ
-	line	All #MON fans			line	寶可夢發燒友俱樂部。		line	宝可梦发烧友俱乐部。	All #MON fans	All Pokémon Fans Welcome!	热烈欢迎任何喜欢宝可梦的朋友！	ポケモンずき　だれでも　かんげい！	ポケモンずき　だれでも　かんげい!
+	line	All #MON fans			line	寶可夢同好會。		line	宝可梦发烧友俱乐部。	All #MON fans	All Pokémon Fans Welcome!	热烈欢迎任何喜欢宝可梦的朋友！	ポケモンずき　だれでも　かんげい！	ポケモンずき　だれでも　かんげい!
 	cont	welcome!			para	熱烈歡迎		para	热烈欢迎	welcome!				
 	done				line	任何喜歡寶可夢的朋友！		line	任何喜欢宝可梦的朋友！					
 					done			done						

@@ -38,7 +38,7 @@ _SilphCo2BattleText1::				_SilphCo2BattleText1::								当然就是指钱咯！
 	done				done			done			You want to join in?	……你也想一起参加吗？		
 													……きみも　まざる？	
 _SilphCo2EndBattleText1::				_SilphCo2EndBattleText1::										
-	text	How			text	唔！暴露了麼。		text	唔！暴露了么。	How	How’d you know I was really from Team Rocket?!	唔！暴露了么。	く！　ばれたか	く!　ばれたか
+	text	How			text	唔！被看穿了嗎。		text	唔！暴露了么。	How	How’d you know I was really from Team Rocket?!	唔！暴露了么。	く！　ばれたか	く!　ばれたか
 	line	did you know I			prompt			prompt		did you know I				
 	cont	was a ROCKET?								was a ROCKET?				
 	prompt													

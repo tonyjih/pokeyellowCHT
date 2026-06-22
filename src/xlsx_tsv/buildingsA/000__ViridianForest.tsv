@@ -16,7 +16,7 @@ _ViridianForestBattleText1::				_ViridianForestBattleText1::
 _ViridianForestEndBattleText1::				_ViridianForestEndBattleText1::										
 	text	No!			text	我輸了！		text	我输了！	No!	No!	我输了！	まけたあ！	まけたあ!
 	line	CATERPIE can't			line	用綠毛蟲什麼的		line	用绿毛虫什么的	CATERPIE can't	Caterpie can’t hack it!	用绿毛虫什么的打不赢你么。	キャタピー　なんか　じゃ　ダメか	キャタピー　なんか　じゃ　ダメか
-	cont	cut it!			cont	打不贏你麼。		cont	打不赢你么。	cut it!				
+	cont	cut it!			cont	打不贏你嗎。		cont	打不赢你么。	cut it!				
 	prompt				prompt			prompt						
 														
 _ViridianFrstAfterBattleText1::				_ViridianFrstAfterBattleText1::										

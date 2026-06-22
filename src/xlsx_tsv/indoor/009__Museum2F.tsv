@@ -35,7 +35,7 @@ _Museum2FText5::				_Museum2FText5::
 	done				done			done						
 														
 _Museum2FPikachuText1::				_Museum2FPikachuText1::										
-	text	Your PIKACHU looks			text	你的皮卡丘看上去			きみの　ピカチュウ		Hey, your [VAR PKNAME(0000)] looks pretty strong!	咦？你的[VAR PKNAME(0000)]	あれ？　つよそうな	うでが　あがった
+	text	Your PIKACHU looks			text	你的皮卡丘好像			きみの　ピカチュウ		Hey, your [VAR PKNAME(0000)] looks pretty strong!	咦？你的[VAR PKNAME(0000)]	あれ？　つよそうな	うでが　あがった
 	line	untamed.			line	和你關係不是特別好。			なついてないようだが　よかったら			好像很厉害呢。	[VAR PKNAME(0000)]　もってるね	ポケモントレーナーだけが　もらえる
 	cont	May I have it for			cont	如果可以的話，能不能			むすめに　ゆずって　くれないか?		Can I battle it with my [VAR PKNAME(0000)]?			ポケモン　バッジ
 	cont	my daughter?			cont	把它讓給我的女兒呢？					Pleeeease?	想不想和我的	あたしの　[VAR PKNAME(0000)]と	あなたも　いくつか　もってるね

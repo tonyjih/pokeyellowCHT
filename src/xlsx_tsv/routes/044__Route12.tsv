@@ -25,7 +25,7 @@ _Route12BattleText1::				_Route12BattleText1::
 														
 _Route12EndBattleText1::				_Route12EndBattleText1::										
 	text	Tch!			text	切！		text	切！	Tch!	Tch!	切！	ちッ！	ちッ!
-	line	Just a small fry!			line	不是我要的那種麼。		line	不是我要的那种么。	Just a small fry!	Just a small fry...	不是我要的那种么。	げどう　だったか	げどう　だったか
+	line	Just a small fry!			line	不是我要的那種嗎。		line	不是我要的那种么。	Just a small fry!	Just a small fry...	不是我要的那种么。	げどう　だったか	げどう　だったか
 	prompt				prompt			prompt						
 														
 _Route12AfterBattleText1::				_Route12AfterBattleText1::										

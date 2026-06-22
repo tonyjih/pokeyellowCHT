@@ -65,7 +65,7 @@ _TM38ExplanationText::				_TM38ExplanationText::
 	done													
 														
 _TM38NoRoomText::				_TM38NoRoomText::										
-	text	Make room for my			text	行李已滿了！		text	行李已满了！	Make room for my	Sweet! This kid says he’ll trade me a Kangaskhan	太好了！	やったー！	やったー!
+	text	Make room for my			text	背包已滿了！		text	行李已满了！	Make room for my	Sweet! This kid says he’ll trade me a Kangaskhan	太好了！	やったー！	やったー!
 	line	gift!			done			done		gift!	for my Haunter!			となりのこが　ゴーストと　ガルーラ
 	done											旁边的小鬼说他要用袋兽	となりのこが　ゴーストと　ガルーラ	こうかん　してくれるって!
 												来交换我的鬼斯通呢！	こうかん　してくれるって！	
@@ -232,7 +232,7 @@ _CinnabarGymText_2::				_CinnabarGymText_2::								你的情况如何呢？	つ
 	done				done									…　わかった!　おしえてやる!
 													おまえは　どうだ？	この　おれさまが!
 _CinnabarGymText_3::				_CinnabarGymText_3::										せかいで　いちばん!
-	text	This one's tricky!			text	這問題還挺難的！			むずかしい　もんだい　だぜ!		It’s so pleasant...	真舒服……	きもち　いい……	おし!
+	text	This one's tricky!			text	這問題還滿難的！			むずかしい　もんだい　だぜ!		It’s so pleasant...	真舒服……	きもち　いい……	おし!
 	done				done							……呼……呼～	……　すー……　すー	いい　しょうぶ　だった
 											... ... ...			
 _CinnabarGymText_4::				_CinnabarGymText_4::										

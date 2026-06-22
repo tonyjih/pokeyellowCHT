@@ -1,8 +1,8 @@
 text/CeruleanCity.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
 _CeruleanCityText_19668::				_CeruleanCityText_19668::										
-	text	<RIVAL>: Yo!			text	<RIVAL>：喲！		text	<RIVAL>：哟！	<RIVAL>: Yo!	Hiya!	嗨！	おっす！	おっす!
+	text	<RIVAL>: Yo!			text	<RIVAL>：嘿！		text	<RIVAL>：哟！	<RIVAL>: Yo!	Hiya!	嗨！	おっす！	おっす!
 	line	<PLAYER>!			line	<PLAYER>！		line	<PLAYER>！	<PLAYER>!	You’re here to challenge the Gym, aren’t you?	你是道馆挑战者吧！	ジムの　ちょうせんしゃ　だな！	ポケモン　チャンピオンを
-					para	你在這兒轉來轉去的，		para	你怎么也来这里了？	You're still				めざして　みないか?
+					para	你在這裡轉來轉去的，		para	你怎么也来这里了？	You're still				めざして　みないか?
 	para	You're still			line	是要幹什麼呀？		line	而且还鬼鬼祟祟的！	struggling along	I’m not a Trainer, but I can tell if you’re worthy	我不是训练家，	おれは　トレーナー　じゃない	おれは　トレーナー　じゃない
 	line	struggling along			para	我可是捉到了很多		para	我可是捉到了很多	back here?	of challenging the Gym Leader.	但是我可以判断你	しかし　おまえが　ジムリーダーに	しかし　かつ　ために　ばっちり
 	cont	back here?			line	又帥又厲害的寶可夢呢！		line	又帅又厉害的宝可梦呢！	I'm doing great!				アドバイス　できるぜ!
@@ -62,7 +62,7 @@ _CeruleanCityText_19677::				_CeruleanCityText_19677::
 _CeruleanCityText_196d9::				_CeruleanCityText_196d9::										
 	text	Hey! Stay out!			text	喂！我說！不要隨便闖進		text	喂！我说！不要随便闯进	Hey! Stay out!	Hey! Stay out!	喂！我说！	あ　こら！	あ　こら!
 	line	It's not your			line	別人家的院子！		line	别人家的院子！	It's not your	It’s not your yard!	不要随便闯进别人家的院子！	ひとんちの　にわ　はいるなよ！	ひとんちの　にわ　はいるなよ!
-	cont	yard! Huh? Me?			cont	……啥？我嗎？		cont	……啥？我吗？	yard! Huh? Me?				…　…　え　おれ?
+	cont	yard! Huh? Me?			cont	……什麼？我嗎？		cont	……啥？我吗？	yard! Huh? Me?				…　…　え　おれ?
 					para	……我只是個旁觀者！		para	……我只是一个吃瓜群众！	I'm an innocent	...Huh?	…………啥？我吗？	…………え　おれ？	…　ただの　とおり　すがりだ
 	para	I'm an innocent			line	我真的一點都不可疑啊！		line	我真的一点都不可疑啊！	bystander! Don't	Me?			ぜーんぜん　あやしくないよ!
 	line	bystander! Don't			cont	……我可疑嗎？		cont	……我可疑吗？	you believe me?		……我只是一个吃瓜群众！	……ただの　とおり　すがりだ	…　…　あやしい?
@@ -82,7 +82,7 @@ _ReceivedTM28Text2::				_ReceivedTM28Text2::
 	text_end				text_end			text_end						
 														
 _TM28NoRoomText::				_TM28NoRoomText::										
-	text	Make room for			text	行李已滿了！		text	行李已满了！	Make room for	I’m getting a present for my girlfriend...	我准备给女朋友买个礼物来着。	かのじょに　プレゼントを　かうんだ	ヤマブキの　モノマネむすめ　に
+	text	Make room for			text	背包已滿了！		text	行李已满了！	Make room for	I’m getting a present for my girlfriend...	我准备给女朋友买个礼物来着。	かのじょに　プレゼントを　かうんだ	ヤマブキの　モノマネむすめ　に
 	line	this!			para	……把這個給你之前，		para	……把这个给你之前，	this!	Hmm...			プレゼントを　かうんだ
 					line	我是不會逃走的哦！		line	我是不会逃走的哦！	I can't run until		如果送她水之石，	みずのいし　あげたら	やっぱり　ピッピにんぎょう　だな!
 	para	I can't run until			done			done		I give it to you!	I could give her a Water Stone, but who knows?	不知道她会不会进个化啥的。	かのじょ　しんか　しちゃったりして	にんき　あるんだよね!
@@ -119,7 +119,7 @@ _CeruleanCityText4::				_CeruleanCityText4::
 _CeruleanCityText5::				_CeruleanCityText5::										
 	text	You're making an			text	呵呵呵……！		text	呵呵呵……！	You're making an	You’re making some sort of encyclopedia of	呵呵呵……！	ほほう……！	ほほう…!
 	line	encyclopedia on			line	你在收集寶可夢圖鑑？		line	你在收集宝可梦图鉴？	encyclopedia on	Pokémon? That sounds like a fun time!	你在收集宝可梦图鉴？	ポケモンの　ずかんを　つくってる？	ポケモンの　ずかんを　つくってる?
-	cont	#MON? That			cont	聽上去還挺有趣的！		cont	听上去还挺有趣的！	#MON? That				それは　たのしそう　だなあ!
+	cont	#MON? That			cont	聽起來還滿有趣的！		cont	听上去还挺有趣的！	#MON? That				それは　たのしそう　だなあ!
 	cont	sounds amusing.			done			done		sounds amusing.		听上去还挺有趣的！	それは　たのしそう　だなあ！	
 	done													
 														
@@ -146,7 +146,7 @@ _CeruleanCityText_19730::				_CeruleanCityText_19730::
 														
 _CeruleanCityText_19735::				_CeruleanCityText_19735::										
 	text	ELECTRODE, TACKLE!			text	頑皮雷彈！那裡要用撞擊！		text	呆壳兽！对那里用拳击！	SLOWBRO punch!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
-	line	No! You blew it			line	給你跪了……又失敗！		line	给你跪了……又失败！	No! You blew it	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
+	line	No! You blew it			line	唉……又失敗了！		line	给你跪了……又失败！	No! You blew it	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
 	cont	again!			done			done		again!				…　シルフ　カンパニー
 	done											……西尔佛公司	……シルフカンパニー	
 														

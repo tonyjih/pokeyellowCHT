@@ -17,7 +17,7 @@ _RockTunnel1AfterBattleText1::				_RockTunnel1AfterBattleText1::
 														
 _RockTunnel1BattleText2::				_RockTunnel1BattleText2::										
 	text	Hmm. Maybe I'm			text	那個，		text	那个，	Hmm. Maybe I'm	Hmm...	那个，我迷路了么？	えーと	えーと
-	line	lost in here...			line	我迷路了麼？		line	我迷路了么？	lost in here...	Maybe I’m lost in here.		みちに　まよったかな？	みちに　まよったかな?
+	line	lost in here...			line	我迷路了嗎？		line	我迷路了么？	lost in here...	Maybe I’m lost in here.		みちに　まよったかな？	みちに　まよったかな?
 	done				done			done						
 														
 _RockTunnel1EndBattleText2::				_RockTunnel1EndBattleText2::										
@@ -54,7 +54,7 @@ _RockTunnel1BattleText4::				_RockTunnel1BattleText4::
 	done				done			done						
 														
 _RockTunnel1EndBattleText4::				_RockTunnel1EndBattleText4::										
-	text	Game			text	被打敗了麼。		text	被打败了么。	Game	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
+	text	Game			text	被打敗了嗎。		text	被打败了么。	Game	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
 	line	over!			prompt			prompt		over!		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
 	prompt										D’aww... Failed again?			
 														

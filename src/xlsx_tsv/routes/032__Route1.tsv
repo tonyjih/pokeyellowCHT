@@ -27,14 +27,14 @@ _Route1Text_1caee::				_Route1Text_1caee::
 	done				done			done				……西尔佛公司	……シルフカンパニー	
 														
 _Route1Text_1caf3::				_Route1Text_1caf3::										
-	text	You have too much			text	行李已滿了！		text	行李已满了！	You have too much	You have a Clefairy with you.	[VAR TRNAME(0000)]现在带着皮皮。	[VAR TRNAME(0000)]は	ムノﾞ7　　5ム
+	text	You have too much			text	背包已滿了！		text	行李已满了！	You have too much	You have a Clefairy with you.	[VAR TRNAME(0000)]现在带着皮皮。	[VAR TRNAME(0000)]は	ムノﾞ7　　5ム
 	line	stuff with you!			done			done		stuff with you!	Do you want to show it to Copycat?	……要给她看看吗？	ピッピを　つれている	
 	done													
 													……みせて　みようか？	
 _Route1Text2::				_Route1Text2::										
 	text	See those ledges			text	看到路上的斷坡了吧！		text	看到路上的断坡了吧！	See those ledges	See those ledges along the road?	看到路上的断坡了吧！	みちに　だんさが　あるだろ！	みちに　だんさが　あるだろ!
 	line	along the road?			para	從上面往下跳，		para	从上面往下跳，	along the road?				とび　おりるのは
-					line	看上去確實挺可怕的……		line	看上去确实挺可怕的……	It's a bit scary,	It’s a bit scary, but you can hop down from them.	从上面往下跳，	とび　おりるのは	ちょっと　こわいけど…
+					line	看起來確實滿可怕的……		line	看上去确实挺可怕的……	It's a bit scary,	It’s a bit scary, but you can hop down from them.	从上面往下跳，	とび　おりるのは	ちょっと　こわいけど…
 	para	It's a bit scary,			para	不過這樣可以		para	不过这样可以	but you can jump		看上去确实挺可怕的……	ちょっと　こわいけど……	マサラ　タウンに　かえる　ときは
 	line	but you can jump			line	快點回到真新鎮，		line	快点回到真新镇，	from them.	You’ll get back to Pallet Town quicker that way.			はやく　かえれて　いいよ
 	cont	from them.			cont	我覺得還不錯哦。		cont	我觉得还不错哦。	You can get back		不过这样可以快点回到真新镇，	マサラタウンに　かえる　ときは	

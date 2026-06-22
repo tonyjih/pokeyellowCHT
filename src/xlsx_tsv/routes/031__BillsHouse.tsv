@@ -1,6 +1,6 @@
 text/BillsHouse.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
 _BillsHouseDontLeaveText::				_BillsHouseDontLeaveText::										
-	text	Whoa, don't go			text	啥，你要去哪裡呀！			なんや どこ いくんや!		Yeah! Team Rocket is gone!	万岁～～！	ばんざーい！	ばんざーい!
+	text	Whoa, don't go			text	喂，你要去哪裡呀！			なんや どこ いくんや!		Yeah! Team Rocket is gone!	万岁～～！	ばんざーい！	ばんざーい!
 	line	anywhere, wait!			line	別把我扔在這裡啊。			ちょっと まちーな		I don’t have to be afraid to go outside anymore!	火箭队的人终于滚蛋了！	ロケットだんが　いなくなった！	ロケットだんが　いなくなった!
 	done				done				未使用文本					ビビらないで　そと　あるけるんだ!
 												终于可以不用担惊受怕地出门了！	ビビらないで　そと　あるけるんだ！	
@@ -10,7 +10,7 @@ _BillsHouseText_1e865::				_BillsHouseText_1e865::
 	cont	...No I'm not!			cont	……錯！		cont	……错！	...No I'm not!				…　ちゃうわい!
 					para	我是正輝！		para	我是正辉！	Call me BILL!	I’m not joshing you, lady.	我说的都是真的！	ホンマやで！	わいは　マサキ!
 	para	Call me BILL!			line	人稱，寶可夢狂熱迷！		line	人称，宝可梦狂热迷！	I'm a true blue		因为实验失败，	じっけんに　しっぱい　して	ひと　よんで　ポケモンマニアや!
-	line	I'm a true blue			cont	啊，您那眼神，啥意思？		cont	啊，您那眼神，啥意思？	#MANIAC! Hey!	I screwed up an experiment and got combined			あッ　なんや　そのめは?
+	line	I'm a true blue			cont	啊，您那眼神，什麼意思？		cont	啊，您那眼神，啥意思？	#MANIAC! Hey!	I screwed up an experiment and got combined			あッ　なんや　そのめは?
 	cont	#MANIAC! Hey!			cont	兄弟，您不信我？		cont	兄弟，您不信我？	What's with that	with a Pokémon!	我和宝可梦合二为一了。	ポケモンと　くっついて　もうたんや	あんさん　しんよう　してへんな
 	cont	What's with that			para	我說的都是真的！		para	我说的都是真的！	skeptical look?				ホントやで!
 	cont	skeptical look?			line	因為實驗失敗，		line	因为实验失败，	I'm not joshing	So, how about it?	那个！	なッ！	じっけんに　しっぱい　して
@@ -44,12 +44,12 @@ _BillsHouseText_1e86f::				_BillsHouseText_1e86f::
 	prompt											就这么愉快地决定了呗！	きまりや！	4」らひ
 											OK? All right!			
 _BillThankYouText::				_BillThankYouText::										
-	text	BILL: Yeehah!			text	正輝：誒喲～！		text	正辉：诶哟～！	BILL: Yeehah!	BILL: Yee-haw!	正辉：诶哟～！	マサキ『やあー！	マサキ『やあー!
+	text	BILL: Yeehah!			text	正輝：呀呼～！		text	正辉：诶哟～！	BILL: Yeehah!	BILL: Yee-haw!	正辉：诶哟～！	マサキ『やあー！	マサキ『やあー!
 	line	Thanks, bud! I			line	謝您謝您！救命恩人！		line	谢您谢您！救命恩人！	Thanks, bud! I	Thanks, bud! I owe you one!	谢您谢您！救命恩人！	おおきに　おおきに　たすかったわ！	おおきに　おおきに　たすかったわ!
 	cont	owe you one!			para	您是來看我的		para	您是来看我的	owe you one!				で…　あんさん!
 					line	寶可夢收藏的嗎？		line	宝可梦收藏的吗？	So, did you come	...Hey, you’ve got your [VAR COLOR(0006)]Pokémon Box[VAR COLOR(0000)] right there	……噢！兄弟您厉害！	……おッ　あんさん　さすが！	わての　ポケモン　コレクション
 	para	So, did you come			cont	不是？		cont	不是？	to see my #MON	in your Bag! Good job!	您的包包里已经	バッグに　[VAR COLOR(0006)]ボックス[VAR COLOR(0000)]　きのう	みに　きたの　ちゃうんか?
-	line	to see my #MON			cont	真沒趣哪——		cont	真没趣哪——	collection?				なんや　おもろないなー
+	line	to see my #MON			cont	真沒意思啊——		cont	真没趣哪——	collection?				なんや　おもろないなー
 	cont	collection?			para	……啊，對了！		para	……啊，对了！	You didn't?		装好了[VAR COLOR(0006)]盒子[VAR COLOR(0000)]功能了嘛！	ちゃーんと　はいっとる　やん！	ああ　そや!
 	cont	You didn't?			line	這也算是個謝禮了……		line	这也算是个谢礼了……	That's a bummer.				おれい　っちゅーのも
 	cont	That's a bummer.			cont	送您這個吧！		cont	送您这个吧！	I've got to thank				なんやけど…　これ　やるわ!
@@ -67,8 +67,8 @@ _SSTicketReceivedText::				_SSTicketReceivedText::
 	text_end				text_end			text_end						
 														
 _SSTicketNoRoomText::				_SSTicketNoRoomText::										
-	text	You've got too			text	因行李已滿了，		text	因行李已满了，	You've got too	If you think you’ve got the right stuff, you should	如果你有信心能赢，	かてる　じしんが　あるなら	かてる　じしんが　あるなら
-	line	much stuff, bud!			line	所以拿不了了喲。		line	所以拿不了了哟。	much stuff, bud!	take on Brock!	那就去跟小刚对战试试吧！	タケシと　たたかって　みなよ！	タケシと　たたかって　みなよ!
+	text	You've got too			text	因為背包已滿了，		text	因行李已满了，	You've got too	If you think you’ve got the right stuff, you should	如果你有信心能赢，	かてる　じしんが　あるなら	かてる　じしんが　あるなら
+	line	much stuff, bud!			line	所以拿不了了喔。		line	所以拿不了了哟。	much stuff, bud!	take on Brock!	那就去跟小刚对战试试吧！	タケシと　たたかって　みなよ！	タケシと　たたかって　みなよ!
 	done				done			done						
 														
 _BillsHouseText_1e8cb::				_BillsHouseText_1e8cb::										
@@ -76,10 +76,10 @@ _BillsHouseText_1e8cb::				_BillsHouseText_1e8cb::
 	line	S.S.ANNE, is in			line	正停在枯葉港口。		line	正停在枯叶港口。	S.S.ANNE, is in	Vermilion City.	正停在枯叶港口。	サント・アンヌごうが　きとんのや	ポケモン　トレーナーも
 	cont	VERMILION CITY.			cont	好像有很多		cont	好像有很多	VERMILION CITY.				ぎょうさん　くる　らしいで
 	cont	Its passengers			cont	寶可夢訓練家也會去，		cont	宝可梦训练家也会去，	Its passengers	They invited me to some party on board, but I	人家给了我这船票，	チケット　もろたのは　ええんやけど	チケット　もろたのは　ええんやけど
-	cont	are all trainers!			para	人家給了我這船票，		para	人家给了我这船票，	are all trainers!	can’t stand fancy gatherings.	可我是真心对派对没兴趣……	パーティとか　すきや　ないからな	パーティとか　すきや　ないからな
+	cont	are all trainers!			para	人家送了我這船票，		para	人家给了我这船票，	are all trainers!	can’t stand fancy gatherings.	可我是真心对派对没兴趣……	パーティとか　すきや　ないからな	パーティとか　すきや　ないからな
 					line	可我是真心		line	可我是真心	They invited me				かわりに　いって　あそんでえな
 	para	They invited me			cont	對派對沒興趣……		cont	对派对没兴趣……	to their party,	Why don’t you go instead of me?	这里头应该是有２张票吧，	２まい　くらい　はいっとる　から	
-	line	to their party,			cont	您就代替我去玩兒唄！		cont	您就代替我去玩儿呗！	but I can't stand		您再找个谁一起去玩儿呗！	だれかと　いって　あそんでえな	
+	line	to their party,			cont	您就代替我去玩唄！		cont	您就代替我去玩儿呗！	but I can't stand		您再找个谁一起去玩儿呗！	だれかと　いって　あそんでえな	
 	cont	but I can't stand			done			done		fancy do's. Why	There are a couple of tickets in there, so have			
 	cont	fancy do's. Why								don't you go	some fun with a friend or something!			
 	cont	don't you go								instead of me?				

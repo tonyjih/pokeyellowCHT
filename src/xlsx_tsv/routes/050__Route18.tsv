@@ -22,7 +22,7 @@ _Route18BattleText2::				_Route18BattleText2::
 														
 _Route18EndBattleText2::				_Route18EndBattleText2::										
 	text	I			text	這就是		text	这就是	I	I had this feeling...	唔……！	む……！	む…!
-	line	had to bug you!			line	所謂的禍從口出麼。		line	所谓的祸从口出么。	had to bug you!	I knew I had to battle you!	我预感你我之间必有一战！	きみと　ぼくは　たたかう　よかん	きみと　ぼくは　たたかう　よかん
+	line	had to bug you!			line	這就是所謂的禍從口出吧。		line	所谓的祸从口出么。	had to bug you!	I knew I had to battle you!	我预感你我之间必有一战！	きみと　ぼくは　たたかう　よかん	きみと　ぼくは　たたかう　よかん
 	prompt				prompt			prompt						
 														
 _Route18AfterBattleText2::				_Route18AfterBattleText2::										

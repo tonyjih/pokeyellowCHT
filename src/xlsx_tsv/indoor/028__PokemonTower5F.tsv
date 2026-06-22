@@ -18,7 +18,7 @@ _PokemonTower5EndBattleText1::				_PokemonTower5EndBattleText1::
 														4ャよひ
 _PokemonTower5AfterBattleText1::				_PokemonTower5AfterBattleText1::										つ {PLAYER}  {PLAYER} 
 	text	I was under			text	我……		text	我……	I was under	I was under possession.	我……	わたしは……	わたしは…
-	line	possession!			line	被附身了麼。		line	被附身了么。	possession!		被附身了么。	とり　つかれて　おったか	とり　つかれて　おったか
+	line	possession!			line	被附身了嗎。		line	被附身了么。	possession!		被附身了么。	とり　つかれて　おったか	とり　つかれて　おったか
 	done				done			done						ゲ
 														
 _PokemonTower5BattleText2::				_PokemonTower5BattleText2::										

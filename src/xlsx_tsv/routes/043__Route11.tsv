@@ -69,7 +69,7 @@ _Route11BattleText5::				_Route11BattleText5::
 														
 _Route11EndBattleText5::				_Route11EndBattleText5::										
 	text	My			text	輸了嗎……看來		text	输了吗……看来	My	Thank you for rescuing the president!	谢谢你救了我们社长。	しゃちょうを　たすけてくれて	ひしょ『このたびは　たすけて
-	line	#MON couldn't!			line	寶可夢培育得還不夠哪。		line	宝可梦培育得还不够哪。	#MON couldn't!	I couldn’t thank you enough!	我心中的感激溢于言表。	ほんとうに　ありがとう	いただいて　ありがとう　ございます
+	line	#MON couldn't!			line	寶可夢培育得還不夠呢。		line	宝可梦培育得还不够哪。	#MON couldn't!	I couldn’t thank you enough!	我心中的感激溢于言表。	ほんとうに　ありがとう	いただいて　ありがとう　ございます
 	prompt				prompt			prompt						しゃちょう　ともども
 													かんしゃ　しても　しきれないよ	かんしゃの　きもちで　いっぱいです
 _Route11AfterBattleText5::				_Route11AfterBattleText5::										

@@ -52,7 +52,7 @@ FanClubSeelText::				FanClubSeelText::
 	done				done			done				给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
 											D’aww... Failed again?			
 FanClubMeetChairText::				FanClubMeetChairText::										
-	text	I chair the			text	寶可夢發燒友俱樂部的會長					I’m the chairman of the Pokémon Fan Club!	宝可梦发烧友俱乐部的会长	ポケモン　だいすき　クラブの	ポケモン　だいすき　クラブの
+	text	I chair the			text	寶可夢同好會的會長					I’m the chairman of the Pokémon Fan Club!	宝可梦发烧友俱乐部的会长	ポケモン　だいすき　クラブの	ポケモン　だいすき　クラブの
 	line	#MON Fan Club!			line	正是老夫！					I raise more than a hundred Pokémon!	正是老夫！	かいちょうは　わし　じゃ！	かいちょうは　わし　じゃ!
 														だいじに　しとるポケモンは
 	para	I have more than			para	老夫疼愛的寶可夢			だいじに　しとるポケモンは		I’m very fussy when it comes to Pokémon!	老夫手里的宝可梦	もってる　ポケモンは	100ぴきを　こえとる!
@@ -72,25 +72,25 @@ FanClubMeetChairText::				FanClubMeetChairText::
 														
 FanClubChairStoryText::				FanClubChairStoryText::										
 	text	Good!			text	果然是吧！		text	果然是吧！	Good!	Strong Pokémon from other Trainers will listen	训练家的手中	バッジを　もってる	…　…　と　おもった　けど
-	line	Then listen up!			line	那老夫就開始嘍！		line	那老夫就开始喽！	Then listen up!	to you if you have enough Badges!	持有的徽章数越多，	かずが　おおい　ほど	にもつが　いっぱい　だから
-					para	那啥……那就先介紹		para	那啥……那就先介绍	My favorite				@
+	line	Then listen up!			line	那老夫就開始囉！		line	那老夫就开始喽！	Then listen up!	to you if you have enough Badges!	持有的徽章数越多，	かずが　おおい　ほど	にもつが　いっぱい　だから
+					para	那個……那就先介紹		para	那啥……那就先介绍	My favorite				@
 	para	My favorite			line	老夫鍾愛的烈焰馬吧……		line	老夫钟爱的烈焰马吧……	RAPIDASH...	The level limit increases by 10 levels for each	即使是从别人手中得到的	ひとから　もらった　ポケモンが	
 	line	RAPIDASH...			para	……它呀……就是……		para	……它呀……就是……	It...cute...	Badge you have.	等级高的宝可梦也会变得听话。	つよくても　いうことを　ききます	
 					line	……可愛的唷……		line	……可爱的唷……	lovely...smart...				
-	para	It...cute...			cont	了不得哇……唔……		cont	了不得哇……唔……	plus...amazing...	If you have one Badge, Pokémon up to Lv. 20	持有１个徽章时上限为等级20，	１つ　もってると　レベル２０まで	
+	para	It...cute...			cont	太棒了哇……唔……		cont	了不得哇……唔……	plus...amazing...	If you have one Badge, Pokémon up to Lv. 20	持有１个徽章时上限为等级20，	１つ　もってると　レベル２０まで	
 	line	lovely...smart...			cont	……而且它啊……		cont	……而且它啊……	you think so?...	will listen to you...if you have two Badges,	持有２个徽章时上限为等级30，	２つ　もってると　レベル３０まで　と	
-	cont	plus...amazing...			cont	棒棒的…………		cont	棒棒的…………	oh yes...it...				
+	cont	plus...amazing...			cont	棒極了…………		cont	棒棒的…………	oh yes...it...				
 	cont	you think so?...			cont	……你也這麼覺得嗎……		cont	……你也这么觉得吗……	stunning...	Pokémon up to Lv. 30 will listen to you...	就像这样以10个等级为单位增加。	１０ずつ　レベルが　ふえていきます	
-	cont	oh yes...it...			cont	為啥噢……太喜歡了……		cont	为啥噢……太喜欢了……	kindly...				
+	cont	oh yes...it...			cont	為什麼呢……太喜歡了……		cont	为啥噢……太喜欢了……	kindly...				
 	cont	stunning...			cont	……哈～！		cont	……哈～！	love it!	and so on.	如果持有全部徽章，	ぜんぶの　バッジが　あれば　すべての	
 	cont	kindly...			para	抱一抱唷……		para	抱一抱唷……	Hug it...when...		所有的宝可梦都会乖乖听话哦。	ポケモンが　いうことを　ききます	
 	cont	love it!			line	……它睡覺的時候哇……		line	……它睡觉的时候哇……	sleeping...warm	Once you have all the Badges, Pokémon of any			
 					cont	……對吧！		cont	……对吧！	and cuddly...	level will give you their full attention!			
 	para	Hug it...when...			cont	……藝術品啊……！		cont	……艺术品啊……！	spectacular...				
-	line	sleeping...warm			cont	優美到飛天……		cont	优美到飞天……	ravishing...				
-	cont	and cuddly...			cont	…………哎喲！		cont	…………哎哟！	...Oops! Look at				
+	line	sleeping...warm			cont	美得不得了……		cont	优美到飞天……	ravishing...				
+	cont	and cuddly...			cont	…………哎呀！		cont	…………哎哟！	...Oops! Look at				
 	cont	spectacular...			cont	已經到這個點了！		cont	已经到这个点了！	the time! I kept				
-	cont	ravishing...			cont	老夫說得太多嘍！		cont	老夫说得太多喽！	you too long!				
+	cont	ravishing...			cont	老夫說得太多囉！		cont	老夫说得太多喽！	you too long!				
 	cont	...Oops! Look at			para	你聽老夫稱讚寶可夢		para	你听老夫称赞宝可梦	Thanks for hearing				
 	cont	the time! I kept			line	聽得還挺有耐心的哇！		line	听得还挺有耐心的哇！	me out! I want				
 	cont	you too long!			cont	…收下老夫的一點心意吧！		cont	…收下老夫的一点心意吧！	you to have this!				
@@ -117,30 +117,30 @@ ExplainBikeVoucherText::				ExplainBikeVoucherText::
 	cont	me anywhere!			para	所以老夫並不需要		para	所以老夫并不需要	So, I don't need a		心痒痒到不行了呢！		
 					line	腳踏車哇！		line	自行车哇！	BICYCLE!	Argh!		……わたし！　もう	
 	para	So, I don't need a			para	腳踏車就隨你		para	自行车就随你	I hope you like	I just can’t take it anymore!	我真的忍不住想快点和	うずうずして　しょうが　ないの	
-	line	BICYCLE!			line	喜歡地去騎吧！		line	喜欢地去骑吧！	cycling!		变强的你再次对战了！		
+	line	BICYCLE!			line	就騎個痛快吧！		line	喜欢地去骑吧！	cycling!		变强的你再次对战了！		
 					done			done			You’ve gotten so strong that I just absolutely		つよくなった　きみと　もういちど	
 	para	I hope you like									have to battle you again!	你应该不会对我说“不”吧！	たたかって　みたくて　たまらない！	
 	line	cycling!												
 	done										You got that? No refusing!		いやとは　いわない　わよね！	
 														
 FanClubNoStoryText::				FanClubNoStoryText::										
-	text	Oh. Come back			text	你說啥……太掃興了。		text	你说啥……太扫兴了。	Oh. Come back	Oh. Come back when you want to	你说啥……太扫兴了。	なんじゃ……　つまらん	なんじゃ…　つまらん
+	text	Oh. Come back			text	你說什麼……太掃興了。		text	你说啥……太扫兴了。	Oh. Come back	Oh. Come back when you want to	你说啥……太扫兴了。	なんじゃ……　つまらん	なんじゃ…　つまらん
 	line	when you want to			line	想聽的時候記得回來聽啊！		line	想听的时候记得回来听啊！	when you want to	hear my story!	想听的时候记得回来听啊！	きく　きに　なったら　きてくれい！	きく　きに　なったら　きてくれい!
 	cont	hear my story!			done			done		hear my story!				
 	done													
 														
 FanClubChairFinalText::				FanClubChairFinalText::										
-	text	Hello, <PLAYER>!			text	那啥～說你呢～		text	那啥～说你呢～	Hello, <PLAYER>!	Hello, [VAR TRNAME(0000)]!	那啥～说你呢～[VAR TRNAME(0000)]啊！	やー　やー　[VAR TRNAME(0000)]！	やー　やー　 {PLAYER} くん!
+	text	Hello, <PLAYER>!			text	那個～說你呢～		text	那啥～说你呢～	Hello, <PLAYER>!	Hello, [VAR TRNAME(0000)]!	那啥～说你呢～[VAR TRNAME(0000)]啊！	やー　やー　[VAR TRNAME(0000)]！	やー　やー　 {PLAYER} くん!
 					para	<PLAYER>啊！		para	<PLAYER>啊！	Did you come see				また　わしの　ポケモン　じまんを
 	para	Did you come see			para	又想來聽老夫介紹		para	又想来听老夫介绍	me about my	Did you come see me about my Pokémon again?	又想来听老夫介绍	また　わしの　ポケモン　じまんを	ききに　きたの　かね!
 	line	me about my			line	引以為豪的寶可夢了吧！		line	引以为豪的宝可梦了吧！	#MON again?		引以为豪的宝可梦了吧！	ききに　きたの　かね！	…　え　ちがう?
-	cont	#MON again?			para	……啥？不是？		para	……啥？不是？	No? Too bad!	No?			なんじゃ…　つまらん
+	cont	#MON again?			para	……什麼？不是？		para	……啥？不是？	No? Too bad!	No?			なんじゃ…　つまらん
 					line	什麼嘛……真沒意思……		line	什么嘛……真没意思……		Too bad!	……啥？不是？	……え　ちがう？	
 	para	No? Too bad!			done			done				什么嘛……真没意思……	なんじゃ……　つまらん	
 	done													
 														
 FanClubBagFullText::				FanClubBagFullText::										
-	text	Make room for			text	行李已滿了呢！		text	行李已满了呢！	Make room for	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	text	Make room for			text	背包已滿了呢！		text	行李已满了呢！	Make room for	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
 	line	this!			done			done		this!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
 	done													
 														

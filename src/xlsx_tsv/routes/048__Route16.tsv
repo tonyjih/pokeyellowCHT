@@ -40,7 +40,7 @@ _Route16EndBattleText3::				_Route16EndBattleText3::
 	prompt													
 														
 _Route16AfterBattleText3::				_Route16AfterBattleText3::										
-	text	I hate losing!			text	給我滾開哪！		text	给我滚开哪！	I hate losing!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	text	I hate losing!			text	給我滾開啦！		text	给我滚开哪！	I hate losing!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
 	line	Get away from me!			line	我最討厭輸掉了！		line	我最讨厌输掉了！	Get away from me!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
 	done				done			done						…　シルフ　カンパニー
 												……西尔佛公司	……シルフカンパニー	

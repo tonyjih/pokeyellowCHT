@@ -15,7 +15,7 @@ _SilphCo8BattleText1::				_SilphCo8BattleText1::
 	done				done			done						
 														
 _SilphCo8EndBattleText1::				_SilphCo8EndBattleText1::										
-	text	Not			text	在氣勢上輸了麼。		text	在气势上输了么。	Not	Not enough grit!	在气势上输了么。	きあいが　たりんか	きあいが　たりんか
+	text	Not			text	氣勢還不夠嗎。		text	在气势上输了么。	Not	Not enough grit!	在气势上输了么。	きあいが　たりんか	きあいが　たりんか
 	line	enough grit!			prompt			prompt		enough grit!				
 	prompt													
 														

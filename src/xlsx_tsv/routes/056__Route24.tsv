@@ -20,7 +20,7 @@ _Route24Text_5151a::				_Route24Text_5151a::
 	text_end				text_end			text_end						
 														
 _Route24Text_51521::				_Route24Text_51521::										
-	text	You don't have			text	持有物已滿了。		text	……虽说是这么想的，	Oh! I see you	You don’t have enough dough.	你啊……	アナタさま……　さきだつ　ものが	…　おとくな　けいじばん!
+	text	You don't have			text	背包已滿了。		text	……虽说是这么想的，	Oh! I see you	You don’t have enough dough.	你啊……	アナタさま……　さきだつ　ものが	…　おとくな　けいじばん!
 	line	any room!						line	但是行李已满了的话，	don't have any		最最重要的东西好像不太够噢？	たりませんよ？	ひとの　ポケモンは　ひとの　もの!
 	done				done			para	@	room for the	...Dough means money, kid.			やせいの　ポケモンに　だけ
 								text_ram	wOaksAideRewardItemName	@		最最重要的东西……	さきだつ　もの　とは	モンスターボールを　なげて
@@ -33,7 +33,7 @@ _Route24Text_51526::				_Route24Text_51526::				text_start		wOaksAideRewardItemN
 	line	dedicated to evil			para	加入吧。		para	加入吧。	using #MON!				
 	cont	using #MON!			para	不加入嗎？		para	不加入吗？	Want to join?	Did you see anything interesting while you were	那时你有没有看到些什么？	とりに　いったの　だったな！	
 					para	加入嘛！		para	加入嘛！	Are you sure?	in there?			
-	para	Want to join?			para	加入唄！		para	加入呗！	Come on, join us!		那里应该有我的旧友	そのとき　なにかを　みたか？	
+	para	Want to join?			para	快加入吧！		para	加入呗！	Come on, join us!		那里应该有我的旧友	そのとき　なにかを　みたか？	
 					para	……你的臉上		para	……你的脸上	I'm telling you	That place still holds the remnants of my old	从事研究时的痕迹！		
 	para	Are you sure?			line	寫滿了拒絕。		line	写满了拒绝。	to join!	friend’s research!		あそこには　ふるい　ともだちの	
 					para	既然如此，		para	既然如此，	OK, you need		我听说最近，	けんきゅうの　あとが　ある！	
@@ -68,7 +68,7 @@ _Route24BattleText1::				_Route24BattleText1::
 	done				done			done						
 														
 _Route24EndBattleText1::				_Route24EndBattleText1::										
-	text	I			text	……果然不行麼。		text	……果然不行么。	I	I thought not!	……果然不行么。	……やっぱり　だめだ	やっぱり　やめた!
+	text	I			text	……果然不行嗎。		text	……果然不行么。	I	I thought not!	……果然不行么。	……やっぱり　だめだ	やっぱり　やめた!
 	line	thought not!			prompt			prompt		thought not!				
 	prompt													
 														

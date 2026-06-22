@@ -59,7 +59,7 @@ _TM31ExplanationText2::				_TM31ExplanationText2::
 	done													
 														
 _TM31NoRoomText::				_TM31NoRoomText::										
-	text	Don't you want			text	行李已滿了呢！		text	行李已满了呢！	Don't you want	Why don’t you come work for Silph when you	等你长大了，	おおきく　なったら	おおきく　なったら
+	text	Don't you want			text	背包已滿了呢！		text	行李已满了呢！	Don't you want	Why don’t you come work for Silph when you	等你长大了，	おおきく　なったら	おおきく　なったら
 	line	this?@			line	@		line	@	this?@	grow up?	可以来西尔佛工作哦！	シルフで　はたらくと　いいよ	シルフで　はたらくと　いいよ
 	text_end				text_end			text_end						ゲ
 														

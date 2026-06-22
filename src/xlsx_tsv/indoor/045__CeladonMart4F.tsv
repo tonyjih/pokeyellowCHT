@@ -1,11 +1,11 @@
 text/CeladonMart4F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
 _CeladonMart4Text2::				_CeladonMart4Text2::										
 	text	I'm getting a			text	我打算給金黃市的模仿少女			ヤマブキの　モノマネむすめ　に		I’m getting a present for my girlfriend...	我准备给女朋友买个礼物来着。	かのじょに　プレゼントを　かうんだ	ヤマブキの　モノマネむすめ　に
-	line	gift for COPYCAT			line	買個禮物來著。			プレゼントを　かうんだ		Hmm...			プレゼントを　かうんだ
+	line	gift for COPYCAT			line	買個禮物。			プレゼントを　かうんだ		Hmm...			プレゼントを　かうんだ
 	cont	in CERULEAN CITY.										如果送她水之石，	みずのいし　あげたら	やっぱり　ピッピにんぎょう　だな!
 											I could give her a Water Stone, but who knows?	不知道她会不会进个化啥的。	かのじょ　しんか　しちゃったりして	にんき　あるんだよね!
 	para	It's got to be a			para	果然還是皮皮玩偶最合適！			やっぱり　ピッピにんぎょう　だな!		It might cause her to evolve!			
-	line	# DOLL. They			line	這玩意兒很流行的！			にんき　あるんだよね!					
+	line	# DOLL. They			line	這東西很流行的！			にんき　あるんだよね!					
 	cont	are trendy!												
 	done				done									
 														

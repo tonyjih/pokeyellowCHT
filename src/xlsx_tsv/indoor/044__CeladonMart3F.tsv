@@ -12,22 +12,22 @@ _CeladonMart3Text2::				_CeladonMart3Text2::
 _CeladonMart3Text3::				_CeladonMart3Text3::							my Pokémon?	于是乎……	で……	
 	text	All right!			text	太好了！		text	太好了！	All right!	Come to me, my new Haunter!	快来我这里吧！	はやく　きて！	はやく　きて!
 					para	旁邊的小鬼說他要用袋獸		para	旁边的小鬼说他要用袋兽	My buddy's going		小鬼斯通～！	ゴースト　ちゃーん！	ゴースト　ちゃーん!
-	para	My buddy's going	YEJP		line	来交换我的鬼斯通呢！		line	来交换我的鬼斯通呢！	to trade me his	I absolutely love Haunter! I collect them!			ぼくは
+	para	My buddy's going	YEJP		line	來交換我的鬼斯通呢！		line	来交换我的鬼斯通呢！	to trade me his	I absolutely love Haunter! I collect them!			ぼくは
 	line	to trade me his	YEUS		line	來交換我的隆隆石呢！		done		KANGASKHAN for my		身为一个鬼斯通迷，	ぼくは	ゴースト　マニア　なのね!
 	cont	KANGASKHAN for my								GRAVELER!	...Huh?	我要收集到好多好多鬼斯通哦！	ゴースト　マニア　なのね！	…　あー?
 	cont	GRAVELER!			done									てんそう　されて　きた　ゴーストが
 	done										Haunter evolved into a different Pokémon while	……咦？	……あー？	べつの　ポケモンに!?
 											it was being traded?!			
 _CeladonMart3Text4::				_CeladonMart3Text4::								别人传送来的鬼斯通	てんそう　されて　きた　ゴーストが	
-	text	Come on GRAVELER!	YEJP		text	别人传送来的鬼斯通		text	别人传送来的鬼斯通	Come on GRAVELER!	Come to me, my new Haunter!	快来我这里吧！	はやく　きて！	はやく　きて!
-			YEJP		line	快来我这里吧！		line	快来我这里吧！	I love GRAVELER!		小鬼斯通～！	ゴースト　ちゃーん！	ゴースト　ちゃーん!
+	text	Come on GRAVELER!	YEJP		text	別人傳送來的鬼斯通		text	别人传送来的鬼斯通	Come on GRAVELER!	Come to me, my new Haunter!	快来我这里吧！	はやく　きて！	はやく　きて!
+			YEJP		line	快來我這裡吧！		line	快来我这里吧！	I love GRAVELER!		小鬼斯通～！	ゴースト　ちゃーん！	ゴースト　ちゃーん!
 	para	I love GRAVELER!	YEJP		cont	小鬼斯通～！		cont	小鬼斯通～！	I collect them!	I absolutely love Haunter! I collect them!			ぼくは
-	line	I collect them!	YEJP		para	身为一个鬼斯通迷，		para	身为一个鬼斯通迷，	Huh?		身为一个鬼斯通迷，	ぼくは	ゴースト　マニア　なのね!
+	line	I collect them!	YEJP		para	身為一個鬼斯通迷，		para	身为一个鬼斯通迷，	Huh?		身为一个鬼斯通迷，	ぼくは	ゴースト　マニア　なのね!
 			YEJP		line	我要收集到好多好多		line	我要收集到好多好多	GRAVELER turned	...Huh?	我要收集到好多好多鬼斯通哦！	ゴースト　マニア　なのね！	…　あー?
 	para	Huh?	YEJP		cont	鬼斯通哦！		cont	鬼斯通哦！	into a different				てんそう　されて　きた　ゴーストが
 			YEJP		para	……咦？		para	……咦？	#MON!	Haunter evolved into a different Pokémon while	……咦？	……あー？	べつの　ポケモンに!?
-	para	GRAVELER turned	YEJP		para	别人传送来的鬼斯通		para	别人传送来的鬼斯通		it was being traded?!			
-	line	into a different	YEJP		line	怎么变成别的宝可梦了！？		line	怎么变成别的宝可梦了！？			别人传送来的鬼斯通	てんそう　されて　きた　ゴーストが	
+	para	GRAVELER turned	YEJP		para	別人傳送來的鬼斯通		para	别人传送来的鬼斯通		it was being traded?!			
+	line	into a different	YEJP		line	怎麼變成別的寶可夢了！？		line	怎么变成别的宝可梦了！？			别人传送来的鬼斯通	てんそう　されて　きた　ゴーストが	
 	cont	#MON!	YEJP		done			done				怎么变成别的宝可梦了！？	べつの　ポケモンに！？	
 	done													
 														
@@ -61,7 +61,7 @@ _CeladonMart3Text7::				_CeladonMart3Text7::
 														
 _CeladonMart3Text9::				_CeladonMart3Text9::										
 	text	A sports game!			text	是運動遊戲！		text	是运动游戏！	A sports game!	A sports game!	是运动游戏！	これは　スポーツ　ゲームだ！	これは　スポーツ　ゲームだ!
-	line	Dad'll like that!			line	……估計爸爸會喜歡玩！		line	……估计爸爸会喜欢玩！	Dad'll like that!	I bet Dad would like that!	……估计爸爸会喜欢玩！	……おとうさんが　すきそう！	…　おとうさんが　すきそう!
+	line	Dad'll like that!			line	……爸爸大概會喜歡玩！		line	……估计爸爸会喜欢玩！	Dad'll like that!	I bet Dad would like that!	……估计爸爸会喜欢玩！	……おとうさんが　すきそう！	…　おとうさんが　すきそう!
 	done				done			done						
 														
 _CeladonMart3Text11::				_CeladonMart3Text11::										
@@ -71,7 +71,7 @@ _CeladonMart3Text11::				_CeladonMart3Text11::
 					done			done						
 _CeladonMart3Text13::				_CeladonMart3Text13::										
 	text	A fighting game!			text	是對戰動作遊戲！		text	是对战动作游戏！	A fighting game!	A fighting game!	是对战动作游戏！	たいせん　アクションゲームだ！	たいせん　アクションゲームだ!
-	line	Looks tough!			line	……看上去挺有難度的！		line	……看上去挺有难度的！	Looks tough!	It looks pretty difficult!	……看上去挺有难度的！	……ちょっと　むずかしそう！	…　ちょっと　むずかしそう!
+	line	Looks tough!			line	……好像有點難！		line	……看上去挺有难度的！	Looks tough!	It looks pretty difficult!	……看上去挺有难度的！	……ちょっと　むずかしそう！	…　ちょっと　むずかしそう!
 	done				done			done						
 														
 _CeladonMart3Text14::				_CeladonMart3Text14::										
@@ -81,8 +81,8 @@ _CeladonMart3Text14::				_CeladonMart3Text14::
 _CeladonMart3Text15::				_CeladonMart3Text15::										
 	text	Red and Blue!	YEUS		text	紅色和藍色！		text	红色和蓝色！	Red and Blue!	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
 	line	Both are #MON!	YEUS		line	兩種都是寶可夢！		line	两种都是宝可梦！	Both are #MON!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
-			YEJP		text	红色和绿色！								
-			YEJP		line	两种都是精灵宝可梦！								
+			YEJP		text	紅色和綠色！								
+			YEJP		line	兩種都是精靈寶可夢！								
 	done				done			text	红色和绿色！					
 								line	两种都是精灵宝可梦！					
 _TM18PreReceiveText::				_TM18PreReceiveText::				done						
@@ -109,7 +109,7 @@ _TM18ExplanationText::				_TM18ExplanationText::
 	done				done			done						
 														
 _TM18NoRoomText::				_TM18NoRoomText::										
-	text	Your pack is full			text	行李已滿了！		text	行李已满了。	Oh, your pack is	Haha! This Gym is great!	嘿嘿嘿！这个道馆好的很哇！	にひひ！　この　ジムは　ええ！	にひひ!　この　ジムは　ええ!
+	text	Your pack is full			text	背包已滿了！		text	行李已满了。	Oh, your pack is	Haha! This Gym is great!	嘿嘿嘿！这个道馆好的很哇！	にひひ！　この　ジムは　ええ！	にひひ!　この　ジムは　ええ!
 	line	of items!						done		full of items!	It’s full of strong Trainers!	道馆里头美女多哇！	おんなのこ　ばっかし　じゃ！	おんなのこ　ばっかし　じゃ!
 	done				done									
 end				end										

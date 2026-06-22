@@ -26,7 +26,7 @@ _VictoryRoad3EndBattleText3::				_VictoryRoad3EndBattleText3::
 											N-no! I mean—!	……错！	……ちゃうわい！	
 _VictoryRoad3AfterBattleText3::				_VictoryRoad3AfterBattleText3::										
 	text	You showed me just			text	你比我強！這就是所謂的		text	你比我强！这就是所谓的	You showed me just	I’ll show you just how good you are...	我会让你知道什么叫	うえには　うえが　いるって	うえには　うえが　いるって
-	line	how good I was!			line	道高一尺魔高一丈麼。		line	道高一尺魔高一丈么。	how good I was!		道高一尺魔高一丈！	おしえて　あげます！	おしえて　あげます!
+	line	how good I was!			line	道高一尺，魔高一丈啊。		line	道高一尺魔高一丈么。	how good I was!		道高一尺魔高一丈！	おしえて　あげます！	おしえて　あげます!
 	done				done			done			Just kidding!			
 											Time you learned there’s always someone better!			
 _VictoryRoad3BattleText4::				_VictoryRoad3BattleText4::										

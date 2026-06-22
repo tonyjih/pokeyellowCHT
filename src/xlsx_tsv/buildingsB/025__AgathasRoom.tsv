@@ -2,10 +2,10 @@ text/AgathasRoom.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen
 _AgathaBeforeBattleText::				_AgathaBeforeBattleText::										
 	text	I am AGATHA of			text	我是四天王中的菊子！		text	我是四天王中的菊子！	I am AGATHA of	BLUE: Yo, [VAR TRNAME(0000)]!	青绿：唷！[VAR TRNAME(0000)]！	グリーン『よう！　[VAR TRNAME(0000)]	 {next} 
 	line	the ELITE FOUR!			para	聽說大木老頭		para	听说大木老头	the ELITE FOUR!				
-					line	十分疼愛你啊！		line	十分疼爱你啊！	OAK's taken a lot	Since I’ve become the Gym Leader here,	本大爷当上了道馆馆主之后，	おれさまが　ジムリーダーに　なって	
+					line	很看重你啊！		line	十分疼爱你啊！	OAK's taken a lot	Since I’ve become the Gym Leader here,	本大爷当上了道馆馆主之后，	おれさまが　ジムリーダーに　なって	
 	para	OAK's taken a lot			para	別看他現在是個老頭子，		para	别看他现在是个老头子，	of interest in	the Viridian City Gym has really stepped it up!	常青道馆热闹得人山人海啊！	トキワジムは　おおにぎわい！	
 	line	of interest in			line	他當年可是個		line	他当年可是个	you, child!				
-	cont	you, child!			cont	強大的好男人！		cont	强大的好男人！	That old duff was	It’s made each day pretty busy, though!	每天都忙得不可开交！	まいにち　たいへん　だぜ！	
+	cont	you, child!			cont	又強又帥的男人！		cont	强大的好男人！	That old duff was	It’s made each day pretty busy, though!	每天都忙得不可开交！	まいにち　たいへん　だぜ！	
 					cont	可惜現在已經不復當年！		cont	可惜现在已经不复当年！	once tough and				
 	para	That old duff was			para	製作什麼寶可夢圖鑑，		para	制作什么宝可梦图鉴，	handsome! That	By the way...	不过吧……	しっかし　さあ……	
 	line	once tough and			line	在我看來完全是一種錯誤！		line	在我看来完全是一种错误！	was decades ago!	what do you think of this Gym’s design?	你觉得这个道馆的设计如何？	このジムの　デザイン　どう？	

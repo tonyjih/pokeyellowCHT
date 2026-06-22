@@ -21,7 +21,7 @@ _Route21BattleText2::				_Route21BattleText2::
 														
 _Route21EndBattleText2::				_Route21EndBattleText2::										
 	text	Darn			text	鯉魚王		text	鲤鱼王	Darn	Electrode! Use Tackle! Now!	顽皮雷弹！那里要用撞击！	マルマイン！　そこで　たいあたりっ！	マルマイン!　そこで　たいあたりっ!
-	line	MAGIKARP!			line	果然不行麼。		line	果然不行么。	MAGIKARP!		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
+	line	MAGIKARP!			line	果然不行嗎。		line	果然不行么。	MAGIKARP!		给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
 	prompt				prompt			prompt			D’aww... Failed again?			
 														
 _Route21AfterBattleText2::				_Route21AfterBattleText2::										

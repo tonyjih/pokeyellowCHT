@@ -95,7 +95,7 @@ _Route19BattleText7::				_Route19BattleText7::
 	done													
 														
 _Route19EndBattleText7::				_Route19EndBattleText7::										
-	text	Oh!			text	我輸了麼。		text	我输了么。	Oh!	Oh!	……！	……！	…!
+	text	Oh!			text	我輸了嗎。		text	我输了么。	Oh!	Oh!	……！	……！	…!
 	line	I lost!			prompt			prompt		I lost!	I concede defeat.	我输了。	まいり　ましたわ	まいり　ましたわ
 	prompt													さすが
 											You are remarkably strong.	你真的很厉害……	ほんとうに　おつよい　かた……	とのがたは　おつよい　ですわ

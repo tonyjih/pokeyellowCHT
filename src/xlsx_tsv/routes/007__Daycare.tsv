@@ -73,18 +73,18 @@ _DayCareComeAgainText::				_DayCareComeAgainText::
 														
 _DayCareNoRoomForMonText::				_DayCareNoRoomForMonText::										
 	text	You have no room			text	可是，同行的寶可夢		text	可是，同行的宝可梦	You have no room	But...I think you and [VAR PKNAME(0002)]	不过……	だが……	　ぽ　ぽ　
-	line	for this #MON!			line	已滿了哪。		line	已满了哪。	for this #MON!	will have no trouble slicing through!	现在的你和[VAR PKNAME(0002)]	いまの　おまえと　[VAR PKNAME(0002)]なら	
+	line	for this #MON!			line	已經滿了呢。		line	已满了哪。	for this #MON!	will have no trouble slicing through!	现在的你和[VAR PKNAME(0002)]	いまの　おまえと　[VAR PKNAME(0002)]なら	
 	done				done			done						
 											Come on! Give it a shot!	应该可以轻松做到吧！	たやすく　きれる　はずだ！	
 _DayCareOnlyHaveOneMonText::				_DayCareOnlyHaveOneMonText::										
 	text	You only have one			text	哎呀？你好像只有		text	哎呀？你好像只有	You only have one	You have a Clefairy with you.	[VAR TRNAME(0000)]现在带着皮皮。	[VAR TRNAME(0000)]は	ムノﾞ7　　5ム
-	line	#MON with you.			line	１隻寶可夢哪。		line	１只宝可梦哪。	#MON with you.	Do you want to show it to Copycat?	……要给她看看吗？	ピッピを　つれている	
+	line	#MON with you.			line	１隻寶可夢呢。		line	１只宝可梦哪。	#MON with you.	Do you want to show it to Copycat?	……要给她看看吗？	ピッピを　つれている	
 	done				done			done						
 													……みせて　みようか？	
 _DayCareCantAcceptMonWithHMText::				_DayCareCantAcceptMonWithHMText::										
 	text	I can't accept a			text	雖然很抱歉，但帶有		text	虽然很抱歉，但带有	I can't accept a	I can’t face my followers after being defeated	以这样的方式输给你，	このような　まけかたを　しては	ちょうのうりょくは　かぎられた
 	line	#MON that			line	秘傳招式的寶可夢		line	秘传招式的宝可梦	#MON that	like this.	我确实没有办法向部下交代！	ぶかたちに　しめしが　つかない！	ひとの　ちから　では　ないわ!
-	cont	knows an HM move.			cont	是無法寄放的哪。		cont	是无法寄放的哪。	knows an HM move.				だれでも　もってるのよ!
+	cont	knows an HM move.			cont	是無法寄放的呢。		cont	是无法寄放的哪。	knows an HM move.				だれでも　もってるのよ!
 	done				done			done			Team Rocket is...	火箭队……	ロケットだんは……	ただ　それに　きが　つかない　だけ
 												就从今天起正式解散！	ほんじつを　もって　かいさんする！	
 _DayCareHeresYourMonText::				_DayCareHeresYourMonText::							As of today, Team Rocket is finished!			

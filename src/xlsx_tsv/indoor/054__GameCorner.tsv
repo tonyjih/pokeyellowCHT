@@ -36,7 +36,7 @@ _CeladonGameCornerText_48d31::				_CeladonGameCornerText_48d31::
 	done													ひみつの　ポケモン　コイキングが
 												去哪里都买不到喔！	マスターボール！	なんと　たったの　500円!
 _CeladonGameCornerText_48d36::				_CeladonGameCornerText_48d36::										どうだい　かうかね?
-	text	Oops! Your COIN			text	哎喲……！		text	哎哟……！	Oops! Your COIN	This Pokémon Gym is always closed...	不管什么时候来，	いつ　きても	いつ　きても
+	text	Oops! Your COIN			text	哎呀……！		text	哎哟……！	Oops! Your COIN	This Pokémon Gym is always closed...	不管什么时候来，	いつ　きても	いつ　きても
 	line	CASE is full.			line	代幣盒已滿了！		line	代币盒已满了！	CASE is full.		这里的道馆总是关着门……	この　ポケモンジムは　しまっとる	この　ポケモン　ジムは　しまっとる
 	done				done			done			I wonder who the Gym Leader is...			いったい　どんな　ヤツが
 												不知道这里的馆主	いったい　どんな　ヤツが	りーダーを　しとるんじゃろか?
@@ -76,7 +76,7 @@ _CeladonGameCornerText_48da7::				_CeladonGameCornerText_48da7::
 												最最重要的东西……	さきだつ　もの　とは	モンスターボールを　なげて
 _CeladonGameCornerText_48dac::				_CeladonGameCornerText_48dac::								当然就是指钱咯！	……おかねの　こと　です	つかまえよう!
 	text	Wins seem to come			text	贏的時候會想繼續贏，		text	赢的时候会想继续赢，	Wins seem to come	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
-	line	and go.			line	但輸了也還是不想認輸哪。		line	但输了也还是不想认输哪。	and go.	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
+	line	and go.			line	但輸了也還是不想認輸啊。		line	但输了也还是不想认输哪。	and go.	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
 	done				done			done						
 														
 _CeladonGameCornerText6::				_CeladonGameCornerText6::										
@@ -133,7 +133,7 @@ _CeladonGameCornerText_48e31::				_CeladonGameCornerText_48e31::
 	done													それでは
 											Congratulations!	一共有[VAR NUM3(0004)]种啊！	[VAR NUM3(0004)]しゅるい　ですね！	これを　おわたし　します!
 _CeladonGameCornerText_48e36::				_CeladonGameCornerText_48e36::							Then here you go!			
-	text	Darn! I need more			text	真可惡哪！		text	真可恶哪！	Darn! I need more	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	text	Darn! I need more			text	真可惡啊！		text	真可恶哪！	Darn! I need more	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
 	line	coins for the			line	我還有其它想要的獎品。		line	我还有其它想要的奖品。	coins for the	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
 	cont	#MON I want!			done			done		#MON I want!				…　シルフ　カンパニー
 	done											……西尔佛公司	……シルフカンパニー	

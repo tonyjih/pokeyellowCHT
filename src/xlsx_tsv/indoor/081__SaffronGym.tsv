@@ -71,7 +71,7 @@ _TM46ExplanationText::				_TM46ExplanationText::				text_end
 	done										Is it that fun to mimic everything I say?	模仿别人有那么愉快吗？	それって　ほんとに　たのしいの？	とっても　たのしいー!
 														
 _TM46NoRoomText::				_TM46NoRoomText::							COPYCAT: You bet! It’s a scream!	模仿少女：嗯……！	モノマネむすめ『うん……！	
-	text	Your pack is full			text	啊，行李已滿了哦。		text	啊，行李已满了哦。	Your pack is full	Haha! This Gym is great!	嘿嘿嘿！这个道馆好的很哇！	にひひ！　この　ジムは　ええ！	にひひ!　この　ジムは　ええ!
+	text	Your pack is full			text	啊，背包已滿了哦。		text	啊，行李已满了哦。	Your pack is full	Haha! This Gym is great!	嘿嘿嘿！这个道馆好的很哇！	にひひ！　この　ジムは　ええ！	にひひ!　この　ジムは　ええ!
 	line	of other items!			done			done		of other items!	It’s full of strong Trainers!	道馆里头美女多哇！	おんなのこ　ばっかし　じゃ！	おんなのこ　ばっかし　じゃ!
 	done													
 														
@@ -183,7 +183,7 @@ _SaffronGymBattleText5::				_SaffronGymBattleText5::
 														
 _SaffronGymEndBattleText5::				_SaffronGymEndBattleText5::										
 	text	I lost			text	唔……！		text	唔……！	I lost	I lost after all!	唔……！	くっ……！	くっ…!
-	line	after all!			line	我果然被打敗了麼。		line	我果然被打败了么。	after all!		我果然被打败了么。	やはり　わたしが　やぶれたか	やはり　わたしが　やぶれたか
+	line	after all!			line	我果然被打敗了嗎。		line	我果然被打败了么。	after all!		我果然被打败了么。	やはり　わたしが　やぶれたか	やはり　わたしが　やぶれたか
 	prompt				prompt			prompt						
 														
 _SaffronGymAfterBattleText5::				_SaffronGymAfterBattleText5::										

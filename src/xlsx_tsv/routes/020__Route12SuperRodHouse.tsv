@@ -57,7 +57,7 @@ _Route12HouseText_564d4::				_Route12HouseText_564d4::							... ... Zzz.
 _Route12HouseText_564d9::				_Route12HouseText_564d9::										
 	text	Oh no!			text	哎呀——！		text	哎呀——！	Oh no!	If a Support Trainer battles alongside you,	和帮手训练家一起战斗时，	サポートトレーナーに	 {RIVAL} 『あーッ!　 {PLAYER} !
 					para	雖然想給你好東西，		para	虽然想给你好东西，	I had a gift for	you can have two Pokémon on your side to take		いっしょに　たたかって　もらえば	ポケモン　りーグに　いくのか?
-	para	I had a gift for			line	但你的行李滿了呀！		line	但你的行李满了呀！	you, but you have		可以在对手派出１只宝可梦的情况下		やめとけ!
+	para	I had a gift for			line	但你的背包滿了呀！		line	但你的行李满了呀！	you, but you have		可以在对手派出１只宝可梦的情况下		やめとけ!
 	line	you, but you have			done			done		no room for it!	on one opposing Pokémon!	用２只宝可梦与其对抗！	あいての　ポケモン　１ぴきに	おまえ　どうせ
 	cont	no room for it!											２ひきで　たいこう　できる！	バッジ　もってねーだろ?
 	done										You can have the upper hand!	这样对我方有利极了！		みはりの　おっさんが

@@ -12,7 +12,7 @@ _MtMoon1EndBattleText2::				_MtMoon1EndBattleText2::
 												火箭队那群人吗？	おっぱらったんだって？	ゲ4きらひ
 _MtMoon1AfterBattleText2::				_MtMoon1AfterBattleText2::										
 	text	Kids like you			text	像你這樣的孩子可不能來		text	像你这样的孩子可不能来	Kids like you	Kids like you shouldn’t be wandering around	像你这样的孩子可不能来	こどもが	こどもが
-	line	shouldn't be			line	這麼黑的地方瞎轉悠。		line	这么黑的地方瞎转悠。	shouldn't be	here in the dark.	这么黑的地方瞎转悠。	こんな　くらい　ところを	こんな　くらい　ところを
+	line	shouldn't be			line	這麼黑的地方亂晃。		line	这么黑的地方瞎转悠。	shouldn't be	here in the dark.	这么黑的地方瞎转悠。	こんな　くらい　ところを	こんな　くらい　ところを
 	cont	here!			done			done		here!				ウロウロ　しちゃ　いかん　なあ
 	done												ウロウロ　しちゃ　いかん　なあ	
 														
@@ -55,7 +55,7 @@ _MtMoon1BattleText5::				_MtMoon1BattleText5::
 														
 _MtMoon1EndBattleText5::				_MtMoon1EndBattleText5::										
 	text	My			text	……用這種寶可夢		text	……用这种宝可梦	My	My Pokémon won’t do!	……用这种宝可梦打不赢你么。	……こんな　ポケモン　では　ダメか	…
-	line	#MON won't do!			line	打不贏你麼。		line	打不赢你么。	#MON won't do!				こんな　ポケモン　では　ダメか
+	line	#MON won't do!			line	打不贏你嗎。		line	打不赢你么。	#MON won't do!				こんな　ポケモン　では　ダメか
 	prompt				prompt			prompt						
 														
 _MtMoon1AfterBattleText5::				_MtMoon1AfterBattleText5::										

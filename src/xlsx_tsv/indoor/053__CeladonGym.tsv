@@ -40,7 +40,7 @@ _ReceivedRainbowBadgeText::				_ReceivedRainbowBadgeText::
 _ErikaPostBattleAdviceText::				_ErikaPostBattleAdviceText::										
 	text	You are cataloging			text	哎呀，哦……		text	哎呀，哦……	You are cataloging	Oh my...	哎呀，哦……	あら　まあ……	あら　まあ…
 	line	#MON? I must			line	你還在收集圖鑑呀。		line	你还在收集图鉴呀。	#MON? I must	So you are cataloging the Pokémon you catch?	你还在收集图鉴呀。	ずかんを　つくって　ますのね	ずかんを　つくって　ますのね
-	cont	say I'm impressed.			cont	很是了不起。		cont	很是了不起。	say I'm impressed.				ほんとに　えらいですわ
+	cont	say I'm impressed.			cont	真的很了不起。		cont	很是了不起。	say I'm impressed.				ほんとに　えらいですわ
 					para	因為我只會去收集		para	因为我只会去收集	I would never	I must say I’m impressed.	很是了不起。	ほんとに　えらいわ	わたし　でしたら
 	para	I would never			line	美麗的寶可夢呢。		line	美丽的宝可梦呢。	collect #MON				きれいな　ポケモンしか
 	line	collect #MON			done			done		if they were	I myself would never collect a Pokémon if it	因为我只会去收集	わたくし　でしたら	ほしく　なりません　もの
@@ -82,7 +82,7 @@ _TM21ExplanationText::				_TM21ExplanationText::
 	done													
 														
 _TM21NoRoomText::				_TM21NoRoomText::										
-	text	You should make			text	行李滿了。		text	行李满了。	You should make	You make a better police officer than me.	你简直比我更像一个警察。	きみってば　わたし　より	ナツメは…　わたし　より
+	text	You should make			text	背包滿了。		text	行李满了。	You should make	You make a better police officer than me.	你简直比我更像一个警察。	きみってば　わたし　より	ナツメは…　わたし　より
 	line	room for this.			done			done		room for this.	Thank you for protecting Saffron City’s peace.		よっぽど　けいさつかん　ね	だいぶ　としした　だが!
 	done											……感谢你保护了金黄市的和平。		かのじょを　そんけい　している!
 													……ヤマブキの　へいわを	

@@ -16,7 +16,7 @@ _CinnabarPokecenterText3::				_CinnabarPokecenterText3::
 	para	#MON you get			line	得到的寶可夢		line	得到的宝可梦	in trades grow	friend grow faster.	得到的宝可梦	もらった　ポケモンは	とても　はやく　そだつと　いう
 	line	in trades grow			cont	可以快速成長。		cont	可以快速成长。	very quickly.				ためして　みる　かちは
 	cont	very quickly.			para	我覺得這個聽上去		para	我觉得这个听上去	I think it's	I think it would be worth your time to give	可以快速成长。	とても　はやく　そだつと　いう	あると　おもうがね
-					line	還挺值得嘗試一下的。		line	还挺值得尝试一下的。	worth a try!	trading a try.			0ゲ
+					line	還滿值得嘗試一下的。		line	还挺值得尝试一下的。	worth a try!	trading a try.			0ゲ
 	para	I think it's			done			done				我觉得这个听上去	ためして　みる　かちは	
 	line	worth a try!										还挺值得尝试一下的。	あると　おもうがね	
 	done													

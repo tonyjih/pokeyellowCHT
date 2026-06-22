@@ -153,7 +153,7 @@ _Route14AfterBattleText9::				_Route14AfterBattleText9::
 	done													
 														
 _Route14BattleText10::				_Route14BattleText10::										
-	text	#MON fight?			text	寶可夢對決麼！		text	宝可梦对决么！	#MON fight?	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	text	#MON fight?			text	來場寶可夢對決吧！		text	宝可梦对决么！	#MON fight?	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
 	line	Cool! Rumble!			line	有意思！那就陪你玩玩！		line	有意思！那就陪你玩玩！	Cool! Rumble!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
 	done				done			done						
 														

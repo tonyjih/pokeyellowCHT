@@ -58,13 +58,13 @@ _TM24ExplanationText::				_TM24ExplanationText::
 					para	招式學習器２４是		para	招式学习器２４是	TM24 contains		电属性麻麻十万伏特！	でんき　ビリビリ　１０まんボルト	 {5C} 24は
 	para	TM24 contains			line	電屬性麻麻十萬伏特！		line	电属性麻麻十万伏特！	THUNDERBOLT!	Teach it to an Electric-type Pokémon for some			でんき　ビりビり　10まんボルト
 	line	THUNDERBOLT!			para	Please教給		para	Please教给	Teach it to an	extra shock value!	Please教给electric宝可梦噢！	エレクトリック　ポケモンに	エレクトりック　ポケモンに
-					line	electric寶可夢噢！		line	electric宝可梦噢！	electric #MON!			おしえて　くだサーイ！	おしえて　くだサーイ!
+					line	Electric寶可夢喔！		line	electric宝可梦噢！	electric #MON!			おしえて　くだサーイ！	おしえて　くだサーイ!
 	para	Teach it to an			done			done						
 	line	electric #MON!												
 	done													
 														
 _TM24NoRoomText::				_TM24NoRoomText::										
-	text	Yo kid, make room			text	Full of your 揹包！		text	Full of your 背包！	Yo kid, make room	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	text	Yo kid, make room			text	Your背包 full了！		text	Full of your 背包！	Yo kid, make room	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
 	line	in your pack!			line	你已經拿不下——了！		line	你已经拿不下——了！	in your pack!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
 	done				done			done						…　シルフ　カンパニー
 												……西尔佛公司	……シルフカンパニー	
@@ -137,7 +137,7 @@ _VermilionGymAfterBattleText3::				_VermilionGymAfterBattleText3::
 	done												ふたつの　ロックは	
 													じょうげ　さゆうで	
 _VermilionGymGuidePreBattleText::				_VermilionGymGuidePreBattleText::										
-	text	Yo! Champ in			text	等你很久嘍！		text	等你很久喽！	Yo! Champ in	I’ve been waiting for you, champ in the making!	等你很久喽！	まってたぜ	おーす!
+	text	Yo! Champ in			text	等你很久了！		text	等你很久喽！	Yo! Champ in	I’ve been waiting for you, champ in the making!	等你很久喽！	まってたぜ	おーす!
 	line	making!			line	未來的冠軍！		line	未来的冠军！	making!		未来的冠军！	みらいの　チャンピオン！	みらいの　チャンピオン!
 					para	馬志士少校有個別稱，		para	马志士少校有个别称，	LT.SURGE has a	Lt. Surge here is the Gym Leader in this city.			マチス　しょうさの　あだなは
 	para	LT.SURGE has a			line	那就是閃電般的美國人！		line	那就是闪电般的美国人！	nickname. People	He’s an expert on Electric-type Pokémon and	道馆馆主马志士少校是个	ジムリーダー　マチスしょうさは	イナズマ　アメりカン!

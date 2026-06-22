@@ -38,7 +38,7 @@ _RocketHideout1BattleText4::				_RocketHideout1BattleText4::
 	done				done			done				给你跪了……又失败！	……がっくし　また　ダメ！	…　がっくし　また　ダメ!
 											D’aww... Failed again?			
 _RocketHideout1EndBattleText4::				_RocketHideout1EndBattleText4::										
-	text	I			text	啊！輸了麼。		text	啊！输了么。	I	I can’t do it!	啊！输了么。	ああ！　だめか	ああ!　だめか
+	text	I			text	啊！輸了嗎。		text	啊！输了么。	I	I can’t do it!	啊！输了么。	ああ！　だめか	ああ!　だめか
 	line	can't do it!			prompt			prompt		can't do it!				
 	prompt													
 														

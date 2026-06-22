@@ -81,7 +81,7 @@ _TM27ExplanationText::				_TM27ExplanationText::				text_end
 	done										Clefairy someday.”			
 														
 _TM27NoRoomText::				_TM27NoRoomText::										
-	text	You do not have			text	行李已滿了！		text	行李已满了！	You do not have	You can’t carry any more Pewter Crunchies!	装不下更多的深灰米果了！？	もう　ニビあられ　もてないよ！？	おきゃくさん　もう　もてないよ@ゼ@
+	text	You do not have			text	背包已滿了！		text	行李已满了！	You do not have	You can’t carry any more Pewter Crunchies!	装不下更多的深灰米果了！？	もう　ニビあられ　もてないよ！？	おきゃくさん　もう　もてないよ@ゼ@
 	line	space for this!			done			done		space for this!	Why do you have so many?	你怎么带了这么多！？	なんで　そんなに　もってるの！？	
 	done													
 											...Please eat them!	……吃完再来买呗！？	……ちゃんと　たべて！？	

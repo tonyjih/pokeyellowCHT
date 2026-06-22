@@ -21,7 +21,7 @@ _Route17BattleText2::				_Route17BattleText2::
 	done				done			done						
 														
 _Route17EndBattleText2::				_Route17EndBattleText2::										
-	text	Whoo!			text	哦喲喲——！		text	你很厉害啊。	Whoo!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
+	text	Whoo!			text	嗚喔喔——！		text	你很厉害啊。	Whoo!	Trainers’ School:	这里是训练家学校。	ここは　トレーナーズスクール	ここは　ポケモン　りーグ
 	prompt				prompt			prompt		Good stuff!	Get Schooled in School!	好好学习，天天向上！	まなびや　で　まなべや！	しょうめん　ゲート
 														4ャよひ
 _Route17AfterBattleText2::				_Route17AfterBattleText2::										つ {PLAYER}  {PLAYER} 
@@ -120,7 +120,7 @@ _Route17AfterBattleText8::				_Route17AfterBattleText8::										つ {PLAYER}  
 	done				done			done						ゲ
 														
 _Route17BattleText9::				_Route17BattleText9::										
-	text	Nice BIKE!			text	好帥的腳踏車哪！		text	好帅的自行车哪！	Nice BIKE!	Well, I guess that’s that...	……好了好了！	……さてと！　じゃあ	ゲームの　プログラムだ!
+	text	Nice BIKE!			text	好帥的腳踏車啊！		text	好帅的自行车哪！	Nice BIKE!	Well, I guess that’s that...	……好了好了！	……さてと！　じゃあ	ゲームの　プログラムだ!
 	line	How's it handle?			line	騎起來怎麼樣？		line	骑起来怎么样？	How's it handle?		那这个就先给你了。	これ　あげとくな	これ　かえたら　バグる　かも
 	done				done			done			Here, take these. I won’t need ’em now!			
 														

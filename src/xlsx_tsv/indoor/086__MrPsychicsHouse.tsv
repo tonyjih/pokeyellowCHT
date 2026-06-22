@@ -22,7 +22,7 @@ _TM29ExplanationText::				_TM29ExplanationText::
 	done				cont	特殊能力下降！		cont	特殊能力下降！					
 					done			done					さげられる　かも　しれない！	
 _TM29NoRoomText::				_TM29NoRoomText::										
-	text	Where do you plan			text	持有物已滿了！		text	持有物已满了！	Where do you plan	Where do you want to move this Pokémon to?	要与哪只调换？	どこと　いれかえる？	トレーナーぞ
+	text	Where do you plan			text	背包已滿了！		text	持有物已满了！	Where do you plan	Where do you want to move this Pokémon to?	要与哪只调换？	どこと　いれかえる？	トレーナーぞ
 	line	to put this?			done			done		to put this?				きド5ま
 	done													
 end				end										

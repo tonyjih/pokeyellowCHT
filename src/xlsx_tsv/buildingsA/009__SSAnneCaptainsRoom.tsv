@@ -49,7 +49,7 @@ _SSAnne7Text_61932::				_SSAnne7Text_61932::
 											time we return to Vermilion City!	请你多保重！	ごきげんよう！	
 _HM01NoRoomText::				_HM01NoRoomText::										
 	text	Oh no! You have			text	什麼嘛——！		text	什么嘛——！	Oh no! You have	LT. SURGE: No need for introductions this time!	马志士：Welcome again！	マチス『ウエルカム　アゲイン！	クチバ　シティ　ポケモン　ジム
-	line	no room for this!			line	行李已滿了！		line	行李已满了！	no room for this!				りーダー　マチス
+	line	no room for this!			line	背包已滿了！		line	行李已满了！	no room for this!				りーダー　マチス
 	done				done			done			Trainers like us have no need for words!	We之间不需要any言语！	ことばは　いらナイ！	イナズマ　アメりカン!
 											Let’s go, kid!	Let's start！	レッツ　スタート！	
 _SSAnne7Text2::				_SSAnne7Text2::										

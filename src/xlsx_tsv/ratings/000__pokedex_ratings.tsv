@@ -49,7 +49,7 @@ _DexRatingText_Own40To49::				_DexRatingText_Own40To49::
 	done											……西尔佛公司	……シルフカンパニー	
 														
 _DexRatingText_Own50To59::				_DexRatingText_Own50To59::										
-	text	You finally got at			text	這不是挺不錯的嘛！		text	这不是挺不错的嘛！	You finally got at	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	text	You finally got at			text	這不是很不錯嘛！		text	这不是挺不错的嘛！	You finally got at	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
 	line	least 50 species!			line	我已經把學習裝置		line	我已经把学习装置	least 50 species!	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
 	cont	Be sure to get			cont	交給助手了！		cont	交给助手了！	Be sure to get				…　シルフ　カンパニー
 	cont	EXP.ALL from my			cont	記得去他那裡拿喔！		cont	记得去他那里拿喔！	EXP.ALL from my		……西尔佛公司	……シルフカンパニー	
@@ -62,7 +62,7 @@ _DexRatingText_Own60To69::				_DexRatingText_Own60To69::
 	done				cont	有點寶可夢圖鑑的樣子了！		cont	有点宝可梦图鉴的样子了！					ひとが　とまる　りょかん　ですじゃ
 					done			done			And we’re full up, unfortunately.	是给人住的旅馆哦！	ひとが　とまる　りょかん　ですじゃ	あいにく　へや　いっぱい　でな
 _DexRatingText_Own70To79::				_DexRatingText_Own70To79::										
-	text	Very good!			text	狀態棒棒的！		text	状态棒棒的！	Very good!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
+	text	Very good!			text	狀態很棒！		text	状态棒棒的！	Very good!	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
 	line	Go fish for some			line	在海裡的寶可夢		line	在海里的宝可梦	Go fish for some	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
 	cont	marine #MON!			cont	就透過垂釣來收集吧！		cont	就通过垂钓来收集吧！	marine #MON!				…　シルフ　カンパニー
 	done				done			done				……西尔佛公司	……シルフカンパニー	
@@ -74,7 +74,7 @@ _DexRatingText_Own80To89::				_DexRatingText_Own80To89::
 	done				done			done						
 														
 _DexRatingText_Own90To99::				_DexRatingText_Own90To99::										
-	text	I'm impressed!			text	哎喲喲喲……		text	哎哟哟哟……	I'm impressed!	Now this... This is truly impressive!	哎哟哟哟……很厉害啊！	いやはや……　こりゃ　すごい！	いやはや…　こりゃ　すごい!
+	text	I'm impressed!			text	哎呀呀呀……		text	哎哟哟哟……	I'm impressed!	Now this... This is truly impressive!	哎哟哟哟……很厉害啊！	いやはや……　こりゃ　すごい！	いやはや…　こりゃ　すごい!
 	line	It must have been			line	很厲害啊！		line	很厉害啊！	It must have been	It must have been difficult to collect so many!	你一定花了很大功夫吧！	あつめるのは　たいへん　だったろ！	あつめるのは　たいへん　だったろ!
 	cont	difficult to do!			cont	你一定花了很大功夫吧！		cont	你一定花了很大功夫吧！	difficult to do!				
 	done				done			done						
@@ -101,7 +101,7 @@ _DexRatingText_Own120To129::				_DexRatingText_Own120To129::										 {TARGET} 
 _DexRatingText_Own130To139::				_DexRatingText_Own130To139::										
 	text	Outstanding!			text	能把圖鑑收集到		text	能把图鉴收集到	Outstanding!	Hmm?	哦？	おや？　あんた	おや?　あんた
 	line	You've become a			line	這個程度，		line	这个程度，	You've become a	You’ve met Bill?	你应该认识正辉那小子吧？	マサキの　ことを　しっとるのかね？	マサキの　ことを　しっとるのかね?
-	cont	real pro at this!			cont	你可以稱得上是個專家嘍！		cont	你可以称得上是个专家喽！	real pro at this!				マサキは　わしの　まごじゃ!
+	cont	real pro at this!			cont	你可以稱得上是個專家囉！		cont	你可以称得上是个专家喽！	real pro at this!				マサキは　わしの　まごじゃ!
 	done				done			done			He’s my grandson!	正辉是我的孙子唷！	マサキは　わしの　まごじゃ！	ちいさい　ころから
 														ものを　あつめるのが　すきな
 _DexRatingText_Own140To149::				_DexRatingText_Own140To149::							He always liked rare things, even as a child!	他从小就是一个	ちいさい　ころから	こども　じゃった!

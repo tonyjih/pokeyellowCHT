@@ -117,7 +117,7 @@ _Route9EndBattleText7::				_Route9EndBattleText7::							Haunter evolved into a 
 _Route9AfterBattleText7::				_Route9AfterBattleText7::										
 	text	I have to collect			text	要變強的話，不去尋找		text	要变强的话，不去寻找	I have to collect	Make the Invisible Plain to See!	能看到肉眼看不见的宝可梦？	みえない　ポケモンも　よくみえる？	みえない　ポケモンも　よくみえる?
 	line	more than bugs to			line	蟲寶可夢以外的寶可夢		line	虫宝可梦以外的宝可梦	more than bugs to	Get the new Silph Scope!     — Silph Co.	新产品！西尔佛检视镜！	しんせいひん！　シルフスコープ！	しん　せいひん!　シルフスコープ!
-	cont	get stronger...			cont	是不行的哪。		cont	是不行的哪。	get stronger...				…　シルフ　カンパニー
+	cont	get stronger...			cont	是不行的啊。		cont	是不行的哪。	get stronger...				…　シルフ　カンパニー
 	done				done			done				……西尔佛公司	……シルフカンパニー	
 														
 _Route9BattleText8::				_Route9BattleText8::										

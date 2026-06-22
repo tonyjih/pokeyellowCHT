@@ -21,7 +21,7 @@ _RockTunnel2BattleText3::				_RockTunnel2BattleText3::
 														
 _RockTunnel2EndBattleText3::				_RockTunnel2EndBattleText3::										
 	text	Oops!			text	哎呀！		text	哎呀！	Oops!	Oops!	糟糕！	しまった！	しまった!
-	line	Out-muscled!			line	我在力量上輸了麼！		line	我在力量上输了么！	Out-muscled!				10000こうねんは…　…
+	line	Out-muscled!			line	力量輸給你了嗎！		line	我在力量上输了么！	Out-muscled!				10000こうねんは…　…
 	prompt				prompt			prompt			Light-years isn’t time...	10000光年……	１００００こうねんは……	じかん　じゃない!
 											It measures distance!	不是时间！	じかん　じゃない！	…　…　きょり　だ!
 _RockTunnel2AfterBattleText3::				_RockTunnel2AfterBattleText3::										

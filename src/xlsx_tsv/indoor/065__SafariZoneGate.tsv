@@ -96,7 +96,7 @@ _SafariZoneEntranceText_753eb::				_SafariZoneEntranceText_753eb::
 	done													
 													みせつけて　やるか！	
 _SafariZoneEntranceText_753f0::				_SafariZoneEntranceText_753f0::										
-	text	Sorry, you're a			text	哎喲，失禮了！		text	哎哟，失礼了！	Sorry, you're a	You there, m[VAR GENDBR(00FF,0808)]on petita petite!	我说！	ほら！	ほら!
+	text	Sorry, you're a			text	哎呀，失禮了！		text	哎哟，失礼了！	Sorry, you're a	You there, m[VAR GENDBR(00FF,0808)]on petita petite!	我说！	ほら！	ほら!
 	line	regular here!			line	原來是常客啊！		line	原来是常客啊！	regular here!	We’re busy here!	你站在那里很碍事啊有没有！	そこの　きみ　じゃまだよ！	そこの　きみ　じゃまだよ!
 	done				done			done						どいた　どいた!
 											Out of the way! Shoo! Shoo!	让开让开！	どいた　どいた！	

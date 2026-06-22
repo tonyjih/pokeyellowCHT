@@ -1,6 +1,6 @@
 text/ChampionsRoom.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
 _GaryChampionIntroText::				_GaryChampionIntroText::										
-	text	<RIVAL>: Hey!			text	<RIVAL>：喲！		text	<RIVAL>：哟！	<RIVAL>: Hey!	“This report reached us from a reader wishing	接下来要介绍的是一位	ペンネーム	 {5B} を　みると
+	text	<RIVAL>: Hey!			text	<RIVAL>：嘿！		text	<RIVAL>：哟！	<RIVAL>: Hey!	“This report reached us from a reader wishing	接下来要介绍的是一位	ペンネーム	 {5B} を　みると
 					para	你也來了啊，		para	你也来了啊，	I was looking	to remain anonymous. They had this to say:	不愿透露姓名的读者带来的故事：	とくめいきぼう　さん　より	なんと　でんしメールが　きていた!
 	para	I was looking			line	<PLAYER>！		line	<PLAYER>！	forward to seeing				…　…　…
 	line	forward to seeing			cont	……哈哈，很好啊！		cont	……哈哈，很好啊！	you, <PLAYER>!	‘It happened when I went to the Pokémon Tower.	“这是我去宝可梦塔时	『わたしが　ポケモンタワーに	ポケモンを　つよく　そだてて
@@ -21,8 +21,8 @@ _GaryChampionIntroText::				_GaryChampionIntroText::
 	cont	any #MON type!			cont	…… ……		cont	…… ……	<PLAYER>! Do you		那天追赶我的	アレは　いったい	
 					para	……好吧，我來告訴你！		para	……好吧，我来告诉你！	know what that	What in the world was that thing?’”	究竟是什么东西呢……？”	なんだったの　かしら……？	
 	para	And now!			para	這意味著，		para	这意味着，	means?				
-					line	本大爺是天下第一！		line	本大爷是天下第一！	I'll tell you!				
-	para	I'm the #MON			cont	本大爺最強最厲害！		cont	本大爷最强最厉害！	I am the most				
+					line	本少爺是天下第一！		line	本大爷是天下第一！	I'll tell you!				
+	para	I'm the #MON			cont	本少爺最強最厲害！		cont	本大爷最强最厉害！	I am the most				
 	line	LEAGUE champion!			done			done		powerful trainer				
 										in the world!				
 	para	<PLAYER>! Do you												
@@ -53,7 +53,7 @@ _GaryDefeatedText::				_GaryDefeatedText::
 _GaryVictoryText::				_GaryVictoryText::										
 	text	Hahaha!			text	哈哈！		text	哈哈！	Hahaha!	BROCK: ...You sure look different from when	小刚：……现在的你简直与	タケシ『……はじめて　きた　ときから	 {5B} を　みると
 	line	I won, I won!			line	贏了！贏了！我贏了！		line	赢了！赢了！我赢了！	I won, I won!	we first met!	初次见面时判若两人！	すっかり　みちがえたな！	なんと　でんしメールが　きていた!
-					para	本大爺怎麼可能		para	本大爷怎么可能	I'm too good for				…　…　…
+					para	本少爺怎麼可能		para	本大爷怎么可能	I'm too good for				…　…　…
 	para	I'm too good for			line	會輸給<PLAYER>嘛！		line	会输给<PLAYER>嘛！	you, <PLAYER>!	I have a request for you, since you’re now	既然你已经称霸宝可梦联盟，	ポケモンリーグを　せいは　した	ポケモンを　つよく　そだてて
 	line	you, <PLAYER>!			para	你的對手畢竟是		para	你的对手毕竟是	You did well to	the Pokémon League Champion.	我有一个请求需要你来完成。	きみに　おねがいが　ある	たたかう　ポケモン　トレーナー!
 					line	寶可夢天才——		line	宝可梦天才——	even reach me,				ここに　さいきょうの

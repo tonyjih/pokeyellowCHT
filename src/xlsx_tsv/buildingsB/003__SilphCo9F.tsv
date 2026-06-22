@@ -1,6 +1,6 @@
 text/SilphCo9F.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
 _SilphCo9Text_5d8e5::				_SilphCo9Text_5d8e5::										
-	text	You look tired!			text	你看上去很累呢！		text	你看上去很累呢！	You look tired!	Oh, are you tired?	哎呀，你们累了吗？	あら　あなたたち　つかれてるの？	つかれてる　みたいよ!
+	text	You look tired!			text	你好像很累呢！		text	你看上去很累呢！	You look tired!	Oh, are you tired?	哎呀，你们累了吗？	あら　あなたたち　つかれてるの？	つかれてる　みたいよ!
 	line	You should take a			line	到休息室裡小睡一下吧？		line	到休息室里小睡一下吧？	You should take a	You should have a rest here in the nap room.	到休息室里小睡一下吧。	かみんしつで　やすんで　おいきなさい	かみんしつで　やすんで　いったら?
 	cont	quick nap!			prompt			prompt		quick nap!				
 	prompt													

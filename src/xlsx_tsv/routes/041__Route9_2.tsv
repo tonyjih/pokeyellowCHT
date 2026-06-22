@@ -10,8 +10,8 @@ _Route9EndBattleText9::				_Route9EndBattleText9::
 	prompt										D’aww... Failed again?			
 														
 _Route9AfterBattleText9::				_Route9AfterBattleText9::										
-	text	If you don't like			text	我不和不懂		text	我不和不懂	If you don't like	If you don’t like bug Pokémon, you bug me!	我不和不懂	むしポケモンの　よさが	むし　ポケモンの　よさが
-	line	bug #MON, you			line	蟲寶可夢好的傢伙說話！		line	虫宝可梦好的家伙说话！	bug #MON, you		虫宝可梦好的家伙说话！	わからない　やつは　むし！	わからない　やつは　むし!
+	text	If you don't like			text	我才懶得理		text	我不和不懂	If you don't like	If you don’t like bug Pokémon, you bug me!	我不和不懂	むしポケモンの　よさが	むし　ポケモンの　よさが
+	line	bug #MON, you			line	不懂蟲寶可夢好在哪的人！		line	虫宝可梦好的家伙说话！	bug #MON, you		虫宝可梦好的家伙说话！	わからない　やつは　むし！	わからない　やつは　むし!
 	cont	bug me!			done			done		bug me!				
 	done													
 														

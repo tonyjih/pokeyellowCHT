@@ -2,7 +2,7 @@ text/CinnabarLabMetronomeRoom.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Au
 _TM35PreReceiveText::				_TM35PreReceiveText::										
 	text	Tch-tch-tch!			text	嘁、嘁、嘁！		text	嘁、嘁、嘁！	Tch-tch-tch!	MISTY: I lost...	小霞：我输了……	カスミ『まけちゃった……	ちょっと　じかん　かかるよ!
 	line	I made a cool TM!			line	做出個好招式學習器了！		line	做出个好招式学习器了！	I made a cool TM!	I need to try swimming around for a bit	看来我应该游个泳，	ちょっと　およいで	そこらへんを　すこし　
-					para	寶可夢學會這玩意的話，		para	宝可梦学会这玩意的话，	It can cause all				ブラブラ　してくると　よろしー!
+					para	寶可夢學會這招式的話，		para	宝可梦学会这玩意的话，	It can cause all				ブラブラ　してくると　よろしー!
 	para	It can cause all			line	會變得很歡樂的！		line	会变得很欢乐的！	kinds of fun!	so that I can clear my head of these feelings.	让自己冷静一下。	あたまを　ひやさなきゃ	
 	line	kinds of fun!			prompt			prompt						
 	prompt										...I definitely won’t lose next time!	……下次我可不会再输给你！	……このつぎは　まけない　から！	
@@ -16,18 +16,18 @@ _ReceivedTM35Text::				_ReceivedTM35Text::
 														
 _TM35ExplanationText::				_TM35ExplanationText::										
 	text	Tch-tch-tch!			text	嘁、嘁、嘁！		text	嘁、嘁、嘁！	Tch-tch-tch!	It proves a person defeated the Vermilion City	橙色徽章是击败了	クチバジムの　ジムリーダーに	…　…　と　おもった　けど
-	line	That's the sound			line	這就是“揮指”哦！		line	这就是“挥指”哦！	That's the sound	Gym Leader.	枯叶道馆馆主的证明。	しょうり　した　あかし　です	にもつが　いっぱい　だから
+	line	That's the sound			line	這就是“揮指”喔！		line	这就是“挥指”哦！	That's the sound	Gym Leader.	枯叶道馆馆主的证明。	しょうり　した　あかし　です	にもつが　いっぱい　だから
 	cont	of a METRONOME!			para	揮動手指的寶可夢的大腦		para	挥动手指的宝可梦的大脑	of a METRONOME!				@
 					line	會受到刺激，從而使出		line	会受到刺激，从而使出	It tweaks your	You may have never heard the word before, but	你可能没听过这种说法，	ききなれない　かも　ですが	
-	para	It tweaks your			cont	各種平常它不會的招式哦！		cont	各种平常它不会的招式哦！	#MON's brain	vermilion is actually the name of a color.	偏红发暗的黄色	くすんだ　あかみ　がかった　きいろを	
+	para	It tweaks your			cont	各種平常它不會的招式喔！		cont	各种平常它不会的招式哦！	#MON's brain	vermilion is actually the name of a color.	偏红发暗的黄色	くすんだ　あかみ　がかった　きいろを	
 	line	#MON's brain			done			done		into using moves				
 	cont	into using moves								it doesn't know!	It’s a reddish orange, although for some reason	也被称作枯叶色。	くちばいろ　と　いいます	
 	cont	it doesn't know!									the Badge itself doesn’t have this color...			
 	done											徽章的颜色	バッジの　いろも	
 												也是同样的感觉吧。	そんな　かんじ　ですよね	
 _TM35NoRoomText::				_TM35NoRoomText::										
-	text	Your pack is			text	你的行李鼓鼓囊囊的，		text	你的行李鼓鼓囊囊的，	Your pack is	You got [VAR iCOLOR2(0000)][VAR sTRBAG(0000)]!	获得了[VAR ITEM2(0000)]！	[VAR ITEM2(0000)]を　てにいれた！	を　てにいれた!@ジ@
-	line	crammed full!			line	拿不下了哦。		line	拿不下了哦。	crammed full!				
+	text	Your pack is			text	你的背包塞得滿滿的，		text	你的行李鼓鼓囊囊的，	Your pack is	You got [VAR iCOLOR2(0000)][VAR sTRBAG(0000)]!	获得了[VAR ITEM2(0000)]！	[VAR ITEM2(0000)]を　てにいれた！	を　てにいれた!@ジ@
+	line	crammed full!			line	拿不下了喔。		line	拿不下了喔。	crammed full!				
 	done				done			done			But...too bad! Your Bag is already full!	太遗憾了！	ざんねん！	
 												包包满了……	バッグが　いっぱいだ……	
 _Lab3Text2::				_Lab3Text2::										

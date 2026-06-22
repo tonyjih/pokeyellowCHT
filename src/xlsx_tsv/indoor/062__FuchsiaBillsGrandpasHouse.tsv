@@ -4,7 +4,7 @@ _FuchsiaHouse1Text1::				_FuchsiaHouse1Text1::
 	line	WARDEN is old,			line	一把年紀了，		line	一把年纪了，	WARDEN is old,	still in great health!	他呀可是精神的很了！	おとし　なのに　すごく　げんきよ	おとし　なのに　すごく　げんきよ
 	cont	but still active!			cont	他呀可是精神的很了！		cont	他呀可是精神的很了！	but still active!				でも…「は」は
 					para	只不過……		para	只不过……	All his teeth are	Though...his teeth are all false, to be fair.	只不过……	でも……　「は」は	ぜんぶ　いれば　らしい　けど
-	para	All his teeth are			line	他的牙好像都是假牙來著。		line	他的牙好像都是假牙来着。	false, though.		他的牙好像都是假牙来着。	ぜんぶ　いれば　らしい　けど	
+	para	All his teeth are			line	他的牙好像都是假牙。		line	他的牙好像都是假牙来着。	false, though.		他的牙好像都是假牙来着。	ぜんぶ　いれば　らしい　けど	
 	line	false, though.			done			done						
 	done													
 														

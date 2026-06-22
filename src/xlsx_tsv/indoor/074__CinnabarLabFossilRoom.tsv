@@ -1,11 +1,11 @@
 text/CinnabarLabFossilRoom.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
 _Lab4Text_75dc6::				_Lab4Text_75dc6::										
 	text	Hiya!			text	是囉～！		text	是啰～！	Hiya!	Hiya!	是啰～！	はいー！	はいー!
-					para	我是熊厲害博士的囉！		para	我是熊厉害博士的啰！	I am important		我是熊厉害博士的啰！		わたしは　エラーイ　はかせ
+					para	我是熊厲害的博士的囉！		para	我是熊厉害博士的啰！	I am important		我是熊厉害博士的啰！		わたしは　エラーイ　はかせ
 	para	I am important			para	我致力於研究		para	我致力于研究	doctor!	I am an important doctor.		わたしは　エラーイ　はかせ	いつも　めずらしい　カセキ
-	line	doctor!			line	罕見的寶可夢的囉！		line	罕见的宝可梦的啰！	I study here rare	Yes, very well known indeed.	我致力于研究		けんきゅう　してる　アルよ!
-					para	你囉！		para	你啰！	#MON fossils!		罕见的宝可梦的啰！	いつも　めずらしい　カセキ	あなた!
-	para	I study here rare			line	有沒有了不得的化石的囉？		line	有没有了不得的化石的啰？	You! Have you a	Here, I study rare Pokémon Fossils.		けんきゅう　してる　アルよ！	いい　カセキ　もってるか?
+	line	doctor!			line	罕見的寶可夢化石的囉！		line	罕见的宝可梦的啰！	I study here rare	Yes, very well known indeed.	我致力于研究		けんきゅう　してる　アルよ!
+					para	你！		para	你啰！	#MON fossils!		罕见的宝可梦的啰！	いつも　めずらしい　カセキ	あなた!
+	para	I study here rare			line	有沒有很厲害的化石的囉？		line	有没有了不得的化石的啰？	You! Have you a	Here, I study rare Pokémon Fossils.		けんきゅう　してる　アルよ！	いい　カセキ　もってるか?
 	line	#MON fossils!			prompt			prompt		fossil for me?		你啰！		
 											Hey!	有没有了不得的化石的啰？	あなた！	
 	para	You! Have you a									Do you have a Fossil for me?		いい　カセキ　もってるか？	
@@ -17,9 +17,9 @@ _Lab4Text_75dcb::				_Lab4Text_75dcb::
 	done				done			done			Too bad!			
 														
 _Lab4Text_75dd0::				_Lab4Text_75dd0::										
-	text	I take a little			text	需要花一點時間哦！		text	需要花一点时间哦！	I take a little	TM57 is for the move Pay Day.	招式学习器57的内容是	わざマシン５７の　なかみは	…　おとくな　けいじばん!
+	text	I take a little			text	需要花一點時間喔！		text	需要花一点时间哦！	I take a little	TM57 is for the move Pay Day.	招式学习器57的内容是	わざマシン５７の　なかみは	…　おとくな　けいじばん!
 	line	time!			para	你就在這附近稍微		para	你就在这附近稍微	time!		招式“聚宝功”！	ネコにこばん！	ポケモンには　たいりょくの　ほか
-					line	溜達溜達吧——！		line	溜达溜达吧——！	You go for walk a	It’s a move that’ll scatter money around that			わざを　くりだす　げんきの　もと
+					line	到處走走吧——！		line	溜达溜达吧——！	You go for walk a	It’s a move that’ll scatter money around that			わざを　くりだす　げんきの　もと
 	para	You go for walk a			done			done		little while!	you can pick up later for a little extra	用了这个招式，你就可以捡起	おかねが　ちらばって　ひろえる	パワーポイントが　あります
 	line	little while!										散落在地上的钱，小赚一把了！	ちょっと　おとくな　わざ　だよ！	わざ　ごとの　パワーポイントが
 	done										pocket money!			なくなった　ときも
@@ -27,8 +27,8 @@ _Lab4Text_75dd0::				_Lab4Text_75dd0::
 _Lab4Text_75dd5::				_Lab4Text_75dd5::										
 	text	Where were you?			text	你來得好晚啊～！		text	你来得好晚啊～！	Where were you?	There are so many accessories that you can give	这些都是专门为	ポケモンに　つけて　あげる	あらま…!
 					para	你的化石已經		para	你的化石已经	Your fossil is	your Pokémon to wear!	宝可梦准备的饰品呢！	アクセサリー！	みつかっちゃったわね!
-	para	Your fossil is			line	恢復生氣了哦——！		line	恢复生气了哦——！	back to life!				わたしの　こと
-	line	back to life!			para	果然化石就是		para	果然化石就是@	It was @	And they’re all so cute...	为什么全都这么可爱！	どれも　かわいーの！	だれにも　いわないで
+	para	Your fossil is			line	復活了喔——！		line	恢复生气了哦——！	back to life!				わたしの　こと
+	line	back to life!			para	沒錯，這化石就是		para	果然化石就是@	It was @	And they’re all so cute...	为什么全都这么可爱！	どれも　かわいーの！	だれにも　いわないで
 					line	@		text_ram	wStringBuffer	wStringBuffer				これ　あげる　から
 	para	It was @			text_ram	wStringBuffer		text_start			I think I’d rather keep some of them for myself!	我都想戴上用用看呢！	むしろ　あたしが　つけたい！	…　おねがいよ
 	text_ram	wStringBuffer			text	的囉！		line	的啰！	like I think!				
@@ -66,9 +66,9 @@ _Lab4Text_610b3::				_Lab4Text_610b3::
 	prompt											顶楼……　自动贩卖机	おくじょう……　じどう　はんばいき	
 											“5F: Accessory Market			
 _Lab4Text_610b8::				_Lab4Text_610b8::										
-	text	I take a little			text	需要花一點時間哦！		text	需要花一点时间哦！	I take a little	TM57 is for the move Pay Day.	招式学习器57的内容是	わざマシン５７の　なかみは	…　おとくな　けいじばん!
+	text	I take a little			text	需要花一點時間喔！		text	需要花一点时间哦！	I take a little	TM57 is for the move Pay Day.	招式学习器57的内容是	わざマシン５７の　なかみは	…　おとくな　けいじばん!
 	line	time!			para	你就在這附近稍微		para	你就在这附近稍微	time!		招式“聚宝功”！	ネコにこばん！	ポケモンには　たいりょくの　ほか
-					line	溜達溜達吧——！		line	溜达溜达吧——！	You go for walk a	It’s a move that’ll scatter money around that			わざを　くりだす　げんきの　もと
+					line	到處走走吧——！		line	溜达溜达吧——！	You go for walk a	It’s a move that’ll scatter money around that			わざを　くりだす　げんきの　もと
 	para	You go for walk a			done			done		little while!	you can pick up later for a little extra	用了这个招式，你就可以捡起	おかねが　ちらばって　ひろえる	パワーポイントが　あります
 	line	little while!										散落在地上的钱，小赚一把了！	ちょっと　おとくな　わざ　だよ！	わざ　ごとの　パワーポイントが
 	done										pocket money!			なくなった　ときも

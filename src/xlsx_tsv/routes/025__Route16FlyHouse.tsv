@@ -24,7 +24,7 @@ _HM02ExplanationText::				_HM02ExplanationText::				text_end
 	done													
 														
 _HM02NoRoomText::				_HM02NoRoomText::										
-	text	You don't have any			text	你的行李已滿了哦。		text	你的行李已满了哦。	You don't have any	You don’t have enough dough.	你啊……	アナタさま……　さきだつ　ものが	…　おとくな　けいじばん!
+	text	You don't have any			text	你的背包已滿了哦。		text	你的行李已满了哦。	You don't have any	You don’t have enough dough.	你啊……	アナタさま……　さきだつ　ものが	…　おとくな　けいじばん!
 	line	room for this.			done			done		room for this.		最最重要的东西好像不太够噢？	たりませんよ？	ひとの　ポケモンは　ひとの　もの!
 	done										...Dough means money, kid.			やせいの　ポケモンに　だけ
 												最最重要的东西……	さきだつ　もの　とは	モンスターボールを　なげて

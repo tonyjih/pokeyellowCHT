@@ -3,7 +3,7 @@ _CeladonMart2Text3::				_CeladonMart2Text3::
 	text	SUPER REPEL keeps			text	白銀噴霧能讓		text	白银喷雾能让	SUPER REPEL keeps	It’s a Pokémon Report!	……是宝可梦报告！	……ポケモンレポートだ！	…　ポケモン　レポートだ!
 	line	weak #MON at			line	弱小的寶可夢不會撲過來。		line	弱小的宝可梦不会扑过来。	weak #MON at				ポケモン　けんきゅうじょ　では
 	cont	bay...			para	嚯！看來是比除蟲噴霧		para	嚯！看来是比除虫喷雾	bay...	The research section succeeded in creating	在研究部门，	けんきゅう　セクション　では	じんこうの　ポケモン
-					line	更強力的玩意哪。		line	更强力的玩意哪。	Hmm, it's a more	Porygon, an artificial Pokémon created	我们成功制造出了	じんこうの　ポケモン	ポりゴンを　つくる　ことに
+					line	更強力的噴霧呢。		line	更强力的玩意哪。	Hmm, it's a more	Porygon, an artificial Pokémon created	我们成功制造出了	じんこうの　ポケモン	ポりゴンを　つくる　ことに
 	para	Hmm, it's a more			done			done		powerful REPEL!				せいこう　した…　…
 	line	powerful REPEL!									by humans.	多边兽这种人工宝可梦……	ポリゴンを　つくる　ことに	
 	done													

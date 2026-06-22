@@ -123,7 +123,7 @@ _Route3EndBattleText7::				_Route3EndBattleText7::
 _Route3AfterBattleText7::				_Route3AfterBattleText7::										
 	text	Trained #MON			text	果然還是……		text	果然还是……	Trained #MON	Trained Pokémon are stronger than	果然还是……自己亲手培养	やっぱり……　そだてた	やっぱり…　そだてた
 	line	are stronger than			line	自己親手培養起來的		line	自己亲手培养起来的	are stronger than	the wild ones.	起来的宝可梦比较强么。	ポケモンの　ほうが　つよいのかなあ	ポケモンの　ほうが　つよいんだな
-	cont	the wild ones!			cont	寶可夢比較強麼。		cont	宝可梦比较强么。	the wild ones!				ゲ
+	cont	the wild ones!			cont	寶可夢比較強嗎。		cont	宝可梦比较强么。	the wild ones!				ゲ
 	done				done			done						
 														
 _Route3BattleText8::				_Route3BattleText8::										

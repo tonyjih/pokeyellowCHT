@@ -70,7 +70,7 @@ _TM06ExplanationText::				_TM06ExplanationText::
 	done											顶楼……　自动贩卖机	おくじょう……　じどう　はんばいき	
 											“5F: Accessory Market			
 _TM06NoRoomText::				_TM06NoRoomText::										
-	text	Make space for			text	行李已滿了！		text	行李已满了！	Make space for	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
+	text	Make space for			text	背包已滿了！		text	行李已满了！	Make space for	“‘Loads and loads of TMs!’	招式学习器应有尽有！	べんり　が　いっぱい！	が
 	line	this, child!			done			done		this, child!	2F: Trainers’ Market”	２楼……　训练家广场	２かい……　トレーナーズ・マーケット	しょうぶを　しかけてきた!
 	done													
 														
@@ -123,7 +123,7 @@ _FuchsiaGymBattleText3::				_FuchsiaGymBattleText3::
 														
 _FuchsiaGymEndBattleText3::				_FuchsiaGymEndBattleText3::										
 	text	You			text	……原來如此！		text	……原来如此！	You	You had me fooled!	……原来如此！	……そうか！	…　そうか!
-	line	had me fooled!			line	你也是使用招式的好手麼？		line	你也是使用招式的好手么？	had me fooled!		你也是使用招式的好手么？	おまえも　わざ　つかいか？	おまえも　わざ　つかいか?
+	line	had me fooled!			line	你也是使用招式的好手嗎？		line	你也是使用招式的好手么？	had me fooled!		你也是使用招式的好手么？	おまえも　わざ　つかいか？	おまえも　わざ　つかいか?
 	prompt				prompt			prompt						
 														
 _FuchsiaGymAfterBattleText3::				_FuchsiaGymAfterBattleText3::										
@@ -204,7 +204,7 @@ _FuchsiaGymGuidePreBattleText::				_FuchsiaGymGuidePreBattleText::
 					para	淺紅道館是個戲法屋，		para	浅红道馆是个戏法屋，	FUCHSIA GYM is				セキチク　ジムは　からくり　やしき
 	para	FUCHSIA GYM is			line	室內被隱形牆壁分隔開來！		line	室内被隐形墙壁分隔开来！	riddled with	Koga might look within reach, sure...	即使阿桔那家伙	キョウの　やつは　すぐ　そこに	みえない　かべで　しきられてる!
 	line	riddled with			para	即使阿桔那傢伙		para	即使阿桔那家伙	invisible walls!	but it’s not always that easy!	看上去离你不远……	いる　ように　みえるが……	キョウの　やつは　すぐ　そこに
-	cont	invisible walls!			line	看上去離你不遠……		line	看上去离你不远……	KOGA might appear				いる　ように　みえるが…
+	cont	invisible walls!			line	好像離你不遠……		line	看上去离你不远……	KOGA might appear				いる　ように　みえるが…
 					para	如果你找不到		para	如果你找不到	close, but he's	You’ll have to find the gaps in the walls if you	如果你找不到隐形墙壁的缺口，	みえない　かべの　とぎれてる　とこを	みえない　かべの　とぎれてる　とこを
 	para	KOGA might appear			line	隱形牆壁的缺口，		line	隐形墙壁的缺口，	blocked off!	hope to reach him for a battle.	就永远没法站到他面前了！	さがし　ださないと　あえないぜ！	さがし　ださないと　あえないぜ!
 	line	close, but he's			cont	就永遠沒法站到他面前了！		cont	就永远没法站到他面前了！	You have to find				

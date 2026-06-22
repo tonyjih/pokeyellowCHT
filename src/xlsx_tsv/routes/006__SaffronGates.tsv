@@ -10,7 +10,7 @@ _SaffronGateText_1dfe7::				_SaffronGateText_1dfe7::
 														
 _SaffronGateText_8aaa9::				_SaffronGateText_8aaa9::										
 	text	Whoa, boy!			text	啊，那個飲料		text	啊，那个饮料	Whoa, boy!	“Dear Pippi,	亲爱的小皮皮……	……ピピちゃん	…ピピちゃん
-	line	I'm parched!			line	看上去很好喝啊……		line	看上去很好喝啊……	I'm parched!	I hope I can go see you soon. I’ve heard that	我很想去见你。	こんど　あそびに　いきたい　です	こんど　あそびに　いきたい　です
+	line	I'm parched!			line	看起來很好喝啊……		line	看上去很好喝啊……	I'm parched!	I hope I can go see you soon. I’ve heard that	我很想去见你。	こんど　あそびに　いきたい　です	こんど　あそびに　いきたい　です
 	cont	...			cont	……		cont	……	...				ヤマブキ　シティでは　ロケットだんの
 	cont	Huh? I can have			cont	嗯？要送給我？		cont	嗯？要送给我？	Huh? I can have	Saffron City is having lots of trouble with Team	听说金黄市最近	ヤマブキシティでは　ロケットだんの	じけんが　おおい　そうですね
 	cont	this drink?			cont	…………謝了！@		cont	…………谢了！@	this drink?		发生了很多与火箭队有关的事件。	じけんが　おおい　そうですね	クチバは　そうでも　ありません…

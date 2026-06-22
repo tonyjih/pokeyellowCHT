@@ -102,7 +102,7 @@ _CeladonMartRoofText1::				_CeladonMartRoofText1::
 	line	trainer, believe			line	她也算是		line	她也算是	trainer, believe		她也算是宝可梦训练家的一员！	ポケモン　トレーナーの　はしくれ！	ポケモン　トレーナーの　はしくれ!
 	cont	it or not.			cont	寶可夢訓練家的一員！		cont	宝可梦训练家的一员！	it or not.	But she’s so selfish that it drives me nuts!			だけど…
 					para	可是啊……		para	可是啊……	But, she's so		可是啊……	だけど……	わがままで　イヤんなっちゃうよ
-	para	But, she's so			line	她很任性，讓我很是頭疼。		line	她很任性，让我很是头疼。	immature, she		她很任性，让我很是头疼。	わがままで　イヤんなっちゃうよ	ゲへわぱ4
+	para	But, she's so			line	她很任性，讓我很頭疼。		line	她很任性，让我很是头疼。	immature, she		她很任性，让我很是头疼。	わがままで　イヤんなっちゃうよ	ゲへわぱ4
 	line	immature, she			done			done		drives me nuts!				
 	cont	drives me nuts!												
 	done													

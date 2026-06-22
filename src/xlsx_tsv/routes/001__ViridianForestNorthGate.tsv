@@ -13,7 +13,7 @@ _ViridianForestExitText2::				_ViridianForestExitText2::
 	text	Have you noticed			text	路上不是經常有		text	路上不是经常有	Have you noticed	Have you noticed the [VAR COLOR(0006)]skinny trees[VAR COLOR(0000)] on	路上不是经常有	どうろの　あちこちに	どうろの　あちこちに
 	line	the bushes on the			line	枝幹偏細的樹木嗎？		line	枝干偏细的树木吗？	the bushes on the	the roadside?	[VAR COLOR(0006)]枝干偏细的树木[VAR COLOR(0000)]吗？	[VAR COLOR(0006)]ほそいえだの　き[VAR COLOR(0000)]が　あったろ？	ほそい　きが　あったろ?
 	cont	roadside?			para	使用寶可夢招式，		para	使用宝可梦招式，	roadside?				あそこは　ポケモンの　わざで
-					line	就能順利走過去了喲！		line	就能顺利走过去了哟！	They can be cut	They can be chopped down with the Secret	用叫作秘术“袈裟斩”的招式砍断，	ヒジュツ・ケサギリ　という　わざで	きって　とおれる　そうじゃ
+					line	就能順利走過去了喔！		line	就能顺利走过去了哟！	They can be cut	They can be chopped down with the Secret	用叫作秘术“袈裟斩”的招式砍断，	ヒジュツ・ケサギリ　という　わざで	きって　とおれる　そうじゃ
 	para	They can be cut			done			done		down by a special	Technique called Chop Down, I hear.	就能顺利走过去了哟！	きって　とおれる　そうじゃ	ザ
 	line	down by a special								#MON move.				
 	cont	#MON move.												

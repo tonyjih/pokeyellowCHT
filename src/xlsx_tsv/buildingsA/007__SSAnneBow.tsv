@@ -11,7 +11,7 @@ _SSAnne5Text2::				_SSAnne5Text2::
 	done				done			done						
 														
 _SSAnne5Text3::				_SSAnne5Text3::										
-	text	Urf. I feel ill.			text	哎喲……好噁心！		text	哎哟……好恶心！	Urf. I feel ill.	Urf... I don’t feel so good...	哎哟……好恶心！	うう……　きもち　わるい！	うう…　きもち　わるい!
+	text	Urf. I feel ill.			text	嗚……好想吐！		text	哎哟……好恶心！	Urf. I feel ill.	Urf... I don’t feel so good...	哎哟……好恶心！	うう……　きもち　わるい！	うう…　きもち　わるい!
 					para	……我暈船了，所以出來		para	……我晕船了，所以出来	I stepped out to				…　ふなよい　したので
 	para	I stepped out to			line	呼吸一下新鮮空氣……		line	呼吸一下新鲜空气……	get some air.	I came out for some air because I got seasick...	……我晕船了，	……ふなよい　したので	かぜに　あたってるんです…
 	line	get some air.			done			done				所以出来呼吸一下新鲜空气……	かぜに　あたってるんです……	ゲ
@@ -41,7 +41,7 @@ _SSAnne5BattleText2::				_SSAnne5BattleText2::
 	done				done			done						
 														
 _SSAnne5EndBattleText2::				_SSAnne5EndBattleText2::										
-	text	I was			text	大意了麼。		text	啊，嗨呀！	What!?	I was just careless!	大意了么。	ゆだん　したか	ゆだん　したか
+	text	I was			text	我太大意了。		text	啊，嗨呀！	What!?	I was just careless!	大意了么。	ゆだん　したか	ゆだん　したか
 	line	just careless!						para	我有点大意了	I was just				
 	prompt				prompt			line	才被你钻到空子……可恶！	careless!				
 								prompt						

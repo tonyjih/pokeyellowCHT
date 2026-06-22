@@ -1,6 +1,6 @@
 text/OaksLab.asm						翻译区		Gen1RB:CHS INST	Gen1RB:CHS (Auto Match)	Gen1RB:ENG (Auto Match)	LGPE:ENG (Auto Match)	LGPE:CHS (Auto Match)	LGPE:JPN (Auto Match)	Gen1:JPN (Auto Match)
 _OaksLabGaryText1::				_OaksLabGaryText1::										
-	text	<RIVAL>: Yo			text	<RIVAL>：喲！		text	<RIVAL>：哟！	<RIVAL>: Yo	JESSIE: Argh! Don’t be such a wimp!	武藏：哎呀！我说你啊，	ムサシ『もーッ！　なによ	…　ポケモンの　シナりオだ!
+	text	<RIVAL>: Yo			text	<RIVAL>：嘿！		text	<RIVAL>：哟！	<RIVAL>: Yo	JESSIE: Argh! Don’t be such a wimp!	武藏：哎呀！我说你啊，	ムサシ『もーッ！　なによ	…　ポケモンの　シナりオだ!
 	line	<PLAYER>! Gramps			line	<PLAYER>！		line	<PLAYER>！	<PLAYER>! Gramps		别在那磨磨蹭蹭的！	ウジウジ　しちゃって！	これは　エンディングだ!
 	cont	isn't around!			cont	大木爺爺不在這裡呢！		cont	大木爷爷不在这里哟！	isn't around!	This is the boss we’re talking about!			いまは　みないで　おこう…!
 								done				他可是我们的坂木老大啊！	サカキさまの　こと　なんだから！	
